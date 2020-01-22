@@ -1,0 +1,9 @@
+name "AALobby"
+title "Ambush Arena Lobby"
+worldFile "../data/lib/world/AALobby.wld"
+resetInterval 9000000 
+maximumObjectAge 0 
+allowCombat 0
+midiFile 17
+
+

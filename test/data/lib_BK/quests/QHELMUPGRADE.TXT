@@ -1,0 +1,310 @@
+# HoK
+quest 94420
+	name "Hide your Helmet!"
+	type fedex
+
+	proposal "I can exchange your helmet for a ring of the same slot. You will not be able to wear another helmet in addition to the ring, it completely replaces your helmet. There are no trade backs. You cannot get a non-hidden version back from me, and the helmet will lose any enchantments it had."
+
+	accepted "One last step, hand me the helmet!"
+
+	declined "No problem!"
+
+	reminder "One last step, hand me the helmet! There are no trade backs. You cannot get a non-hidden version back from me."
+
+	completed "Here you go! Consider your helmet hidden!"
+
+	getItem maKhanHelmet
+	reward rKhanHelmet
+end 
+
+# Mage hat
+quest 94421
+	name "Hide your Helmet!"
+	type fedex
+
+	proposal "I can exchange your helmet for a ring of the same slot. You will not be able to wear another helmet in addition to the ring, it completely replaces your helmet. There are no trade backs. You cannot get a non-hidden version back from me, and the helmet will lose any enchantments it had."
+
+	accepted "One last step, hand me the helmet!"
+
+	declined "No problem!"
+
+	reminder "One last step, hand me the helmet! There are no trade backs. You cannot get a non-hidden version back from me."
+
+	completed "Here you go! Consider your helmet hidden!"
+
+	getItem MageHat
+	reward rMageHat
+end 
+
+# Despair Helmet
+quest 94422
+	name "Hide your Helmet!"
+	type fedex
+
+	proposal "I can exchange your helmet for a ring of the same slot. You will not be able to wear another helmet in addition to the ring, it completely replaces your helmet. There are no trade backs. You cannot get a non-hidden version back from me, and the helmet will lose any enchantments it had."
+
+	accepted "One last step, hand me the helmet!"
+
+	declined "No problem!"
+
+	reminder "One last step, hand me the helmet! There are no trade backs. You cannot get a non-hidden version back from me."
+
+	completed "Here you go! Consider your helmet hidden!"
+
+	getItem maDespairHelm
+	reward rDespairHelm
+end 
+
+# Conquest Helmet
+quest 94423
+	name "Hide your Helmet!"
+	type fedex
+
+	proposal "I can exchange your helmet for a ring of the same slot. You will not be able to wear another helmet in addition to the ring, it completely replaces your helmet. There are no trade backs. You cannot get a non-hidden version back from me, and the helmet will lose any enchantments it had."
+
+	accepted "One last step, hand me the helmet!"
+
+	declined "No problem!"
+
+	reminder "One last step, hand me the helmet! There are no trade backs. You cannot get a non-hidden version back from me."
+
+	completed "Here you go! Consider your helmet hidden!"
+
+	getItem maConquestHelmet
+	reward rConquestHelmet
+end 
+
+
+quest 94424
+	name "Hide your Helmet!"
+	type fedex
+
+	proposal "I can exchange your helmet for a ring of the same slot. You will not be able to wear another helmet in addition to the ring, it completely replaces your helmet. There are no trade backs. You cannot get a non-hidden version back from me, and the helmet will lose any enchantments it had."
+
+	accepted "One last step, hand me the helmet!"
+
+	declined "No problem!"
+
+	reminder "One last step, hand me the helmet! There are no trade backs. You cannot get a non-hidden version back from me."
+
+	completed "Here you go! Consider your helmet hidden!"
+
+	getItem AdvHelmet
+	reward rAdvHelmet
+end 
+
+
+quest 94425
+	name "Hide your Helmet!"
+	type fedex
+
+	proposal "I can exchange your helmet for a ring of the same slot. You will not be able to wear another helmet in addition to the ring, it completely replaces your helmet. There are no trade backs. You cannot get a non-hidden version back from me, and the helmet will lose any enchantments it had."
+
+	accepted "One last step, hand me the helmet!"
+
+	declined "No problem!"
+
+	reminder "One last step, hand me the helmet! There are no trade backs. You cannot get a non-hidden version back from me."
+
+	completed "Here you go! Consider your helmet hidden!"
+
+	getItem GladiatorHelm
+	reward rGladiatorHelm
+end 
+
+quest 94426
+	name "Hide your Helmet!"
+	type fedex
+
+	proposal "I can exchange your helmet for a ring of the same slot. You will not be able to wear another helmet in addition to the ring, it completely replaces your helmet. There are no trade backs. You cannot get a non-hidden version back from me, and the helmet will lose any enchantments it had."
+
+	accepted "One last step, hand me the helmet!"
+
+	declined "No problem!"
+
+	reminder "One last step, hand me the helmet! There are no trade backs. You cannot get a non-hidden version back from me."
+
+	completed "Here you go! Consider your helmet hidden!"
+
+	getItem SorcererHelm
+	reward rSorcererHelm
+end 
+
+quest 94427
+	name "Hide your Helmet!"
+	type fedex
+
+	proposal "I can exchange your helmet for a ring of the same slot. You will not be able to wear another helmet in addition to the ring, it completely replaces your helmet. There are no trade backs. You cannot get a non-hidden version back from me, and the helmet will lose any enchantments it had."
+
+	accepted "One last step, hand me the helmet!"
+
+	declined "No problem!"
+
+	reminder "One last step, hand me the helmet! There are no trade backs. You cannot get a non-hidden version back from me."
+
+	completed "Here you go! Consider your helmet hidden!"
+
+	getItem BanditMask
+	reward rBanditMask
+end 
+
+quest 94428
+	name "Hide your Helmet!"
+	type fedex
+
+	proposal "I can exchange your helmet for a ring of the same slot. You will not be able to wear another helmet in addition to the ring, it completely replaces your helmet. There are no trade backs. You cannot get a non-hidden version back from me, and the helmet will lose any enchantments it had."
+
+	accepted "One last step, hand me the helmet!"
+
+	declined "No problem!"
+
+	reminder "One last step, hand me the helmet! There are no trade backs. You cannot get a non-hidden version back from me."
+
+	completed "Here you go! Consider your helmet hidden!"
+
+	getItem WarlocksHat
+	reward rWarlocksHat
+end 
+quest 94429
+	name "Hide your Helmet!"
+	type fedex
+
+	proposal "I can exchange your helmet for a ring of the same slot. You will not be able to wear another helmet in addition to the ring, it completely replaces your helmet. There are no trade backs. You cannot get a non-hidden version back from me, and the helmet will lose any enchantments it had."
+
+	accepted "One last step, hand me the helmet!"
+
+	declined "No problem!"
+
+	reminder "One last step, hand me the helmet! There are no trade backs. You cannot get a non-hidden version back from me."
+
+	completed "Here you go! Consider your helmet hidden!"
+
+	getItem maHopliteF
+	reward rHopliteF
+end 
+
+quest 94430
+	name "Hide your Helmet!"
+	type fedex
+
+	proposal "I can exchange your helmet for a ring of the same slot. You will not be able to wear another helmet in addition to the ring, it completely replaces your helmet. There are no trade backs. You cannot get a non-hidden version back from me, and the helmet will lose any enchantments it had."
+
+	accepted "One last step, hand me the helmet!"
+
+	declined "No problem!"
+
+	reminder "One last step, hand me the helmet! There are no trade backs. You cannot get a non-hidden version back from me."
+
+	completed "Here you go! Consider your helmet hidden!"
+
+	getItem maHopliteM
+	reward rHopliteM
+end 
+
+quest 94431
+	name "Hide your Helmet!"
+	type fedex
+
+	proposal "I can exchange your helmet for a ring of the same slot. You will not be able to wear another helmet in addition to the ring, it completely replaces your helmet. There are no trade backs. You cannot get a non-hidden version back from me, and the helmet will lose any enchantments it had."
+
+	accepted "One last step, hand me the helmet!"
+
+	declined "No problem!"
+
+	reminder "One last step, hand me the helmet! There are no trade backs. You cannot get a non-hidden version back from me."
+
+	completed "Here you go! Consider your helmet hidden!"
+
+	getItem maSentinel
+	reward rSentinel
+end 
+
+quest 94432
+	name "Hide your Helmet!"
+	type fedex
+
+	proposal "I can exchange your helmet for a ring of the same slot. You will not be able to wear another helmet in addition to the ring, it completely replaces your helmet. There are no trade backs. You cannot get a non-hidden version back from me, and the helmet will lose any enchantments it had."
+
+	accepted "One last step, hand me the helmet!"
+
+	declined "No problem!"
+
+	reminder "One last step, hand me the helmet! There are no trade backs. You cannot get a non-hidden version back from me."
+
+	completed "Here you go! Consider your helmet hidden!"
+
+	getItem maMentor
+	reward rMentor
+end 
+
+quest 94433
+	name "Hide your Helmet!"
+	type fedex
+
+	proposal "I can exchange your helmet for a ring of the same slot. You will not be able to wear another helmet in addition to the ring, it completely replaces your helmet. There are no trade backs. You cannot get a non-hidden version back from me, and the helmet will lose any enchantments it had."
+
+	accepted "One last step, hand me the helmet!"
+
+	declined "No problem!"
+
+	reminder "One last step, hand me the helmet! There are no trade backs. You cannot get a non-hidden version back from me."
+
+	completed "Here you go! Consider your helmet hidden!"
+
+	getItem maRareCrown
+	reward rRareCrown
+end 
+
+quest 94434
+	name "Hide your Helmet!"
+	type fedex
+
+	proposal "I can exchange your helmet for a ring of the same slot. You will not be able to wear another helmet in addition to the ring, it completely replaces your helmet. There are no trade backs. You cannot get a non-hidden version back from me, and the helmet will lose any enchantments it had."
+
+	accepted "One last step, hand me the helmet!"
+
+	declined "No problem!"
+
+	reminder "One last step, hand me the helmet! There are no trade backs. You cannot get a non-hidden version back from me."
+
+	completed "Here you go! Consider your helmet hidden!"
+
+	getItem maCrownOfPower
+	reward rCrownOfPower
+end 
+
+quest 94435
+	name "Hide your Helmet!"
+	type fedex
+
+	proposal "I can exchange your helmet for a ring of the same slot. You will not be able to wear another helmet in addition to the ring, it completely replaces your helmet. There are no trade backs. You cannot get a non-hidden version back from me, and the helmet will lose any enchantments it had."
+
+	accepted "One last step, hand me the helmet!"
+
+	declined "No problem!"
+
+	reminder "One last step, hand me the helmet! There are no trade backs. You cannot get a non-hidden version back from me."
+
+	completed "Here you go! Consider your helmet hidden!"
+
+	getItem maBishopHat
+	reward rBishopHat
+end 
+
+quest 94436
+	name "Hide your Helmet!"
+	type fedex
+
+	proposal "I can exchange your helmet for a ring of the same slot. You will not be able to wear another helmet in addition to the ring, it completely replaces your helmet. There are no trade backs. You cannot get a non-hidden version back from me, and the helmet will lose any enchantments it had."
+
+	accepted "One last step, hand me the helmet!"
+
+	declined "No problem!"
+
+	reminder "One last step, hand me the helmet! There are no trade backs. You cannot get a non-hidden version back from me."
+
+	completed "Here you go! Consider your helmet hidden!"
+
+	getItem maKhnum
+	reward rKhnum
+end 

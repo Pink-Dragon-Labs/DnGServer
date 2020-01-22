@@ -1,0 +1,1642 @@
+-------------------
+Room Linkage Report
+-------------------
+
+Validating 113 Zones...
+
+------------------------------------
+Zone: ascetos
+Validating 921 rooms...
+------------------------------------
+	Room linkage error - Room 21495 south = 5806  Room 5806 north is not an exit.
+	Room error - Room south of 21697 (11118) does not exist.
+	Room error - Room south of 21826 (11102) does not exist.
+	Room error - Room west  of 21892 (11133) does not exist.
+	Room error - Room south of 21897 (11153) does not exist.
+	Room linkage error - Room 22098 south = 5904  Room 5904 north is not an exit.
+	Room linkage error - Room 22096 south = 5902  Room 5902 north is not an exit.
+	Room error - Room west  of 22075 (11178) does not exist.
+	Room error - Room west  of 22134 (11208) does not exist.
+
+	Room link errors      : 3
+	Room existance errors : 6
+	Room isolation errors : 0
+	Room zone isolation errors : 0
+	------------------------------
+	Total zone errors     : 9
+------------------------------------
+
+------------------------------------
+Zone: ascetosdd
+Validating 198 rooms...
+------------------------------------
+Zone OK! No errors.
+------------------------------------
+
+------------------------------------
+Zone: barrens
+Validating 247 rooms...
+------------------------------------
+Zone OK! No errors.
+------------------------------------
+
+------------------------------------
+Zone: bloodwood
+Validating 153 rooms...
+------------------------------------
+Zone OK! No errors.
+------------------------------------
+
+------------------------------------
+Zone: devonforest
+Validating 228 rooms...
+------------------------------------
+Zone OK! No errors.
+------------------------------------
+
+------------------------------------
+Zone: downs
+Validating 200 rooms...
+------------------------------------
+Zone OK! No errors.
+------------------------------------
+
+------------------------------------
+Zone: emeraldforest
+Validating 193 rooms...
+------------------------------------
+	Room error - Room south of 2163 (2300) does not exist.
+	Room error - Room west  of 2169 (2300) does not exist.
+	Room error - Room west  of 2174 (2301) does not exist.
+	Room error - Room west  of 2179 (2302) does not exist.
+	Room error - Room west  of 2191 (2304) does not exist.
+	Room error - Room west  of 2199 (2305) does not exist.
+	Room error - Room west  of 2185 (2303) does not exist.
+	Room error - Room west  of 2207 (2307) does not exist.
+	Room error - Room west  of 2216 (2310) does not exist.
+	Room error - Room west  of 2225 (2314) does not exist.
+	Room error - Room west  of 2234 (2319) does not exist.
+	Room error - Room north of 2245 (2319) does not exist.
+	Room error - Room west  of 2245 (2323) does not exist.
+	Room error - Room west  of 2257 (2328) does not exist.
+	Room error - Room north of 2269 (2328) does not exist.
+	Room error - Room west  of 2269 (2332) does not exist.
+	Room error - Room north of 2282 (2332) does not exist.
+	Room error - Room west  of 2282 (2335) does not exist.
+	Room error - Room south of 2296 (2344) does not exist.
+	Room error - Room west  of 2296 (2339) does not exist.
+	Room error - Room west  of 2298 (2344) does not exist.
+	Room error - Room west  of 2299 (2349) does not exist.
+
+	Room link errors      : 0
+	Room existance errors : 22
+	Room isolation errors : 0
+	Room zone isolation errors : 0
+	------------------------------
+	Total zone errors     : 22
+------------------------------------
+
+------------------------------------
+Zone: forestofdeath
+Validating 97 rooms...
+------------------------------------
+	Room linkage error - Room 12100 north = 27088  Room 27088 south is not an exit.
+
+	Room link errors      : 1
+	Room existance errors : 0
+	Room isolation errors : 0
+	Room zone isolation errors : 0
+	------------------------------
+	Total zone errors     : 1
+------------------------------------
+
+------------------------------------
+Zone: StaffComplex
+Validating 17 rooms...
+------------------------------------
+	Room isolated - 4065
+	Room isolated - 4066
+	Room isolated - 4067
+	Room isolated - 4068
+	Room isolated - 4070
+	Room isolated - 4072
+	Room isolated - 4069
+	Room linkage error - Room 4063 north = 4060  Room 4060 south is not an exit.
+	Room isolated - 6071
+	Room isolated - 6075
+	Room isolated - 6078
+	Room isolated - 6070
+
+	Room link errors      : 1
+	Room existance errors : 0
+	Room isolation errors : 11
+	Room zone isolation errors : 0
+	------------------------------
+	Total zone errors     : 12
+------------------------------------
+
+------------------------------------
+Zone: killingfields
+Validating 48 rooms...
+------------------------------------
+Zone OK! No errors.
+------------------------------------
+
+------------------------------------
+Zone: leinsterkurzroad
+Validating 32 rooms...
+------------------------------------
+Zone OK! No errors.
+------------------------------------
+
+------------------------------------
+Zone: northhavenwood
+Validating 59 rooms...
+------------------------------------
+Zone OK! No errors.
+------------------------------------
+
+------------------------------------
+Zone: ratlingrun
+Validating 77 rooms...
+------------------------------------
+Zone OK! No errors.
+------------------------------------
+
+------------------------------------
+Zone: southhavenwood
+Validating 57 rooms...
+------------------------------------
+Zone OK! No errors.
+------------------------------------
+
+------------------------------------
+Zone: spar
+Validating 5 rooms...
+------------------------------------
+	Room zone isolated - 5049
+	Room zone isolated - 6816
+	Room zone isolated - 6117
+	Room zone isolated - 6914
+	Room zone isolated - 96030
+
+	Room link errors      : 0
+	Room existance errors : 0
+	Room isolation errors : 0
+	Room zone isolation errors : 5
+	------------------------------
+	Total zone errors     : 0
+------------------------------------
+
+------------------------------------
+Zone: tourneygrove
+Validating 93 rooms...
+------------------------------------
+Zone OK! No errors.
+------------------------------------
+
+------------------------------------
+Zone: wanderingwood
+Validating 568 rooms...
+------------------------------------
+Zone OK! No errors.
+------------------------------------
+
+------------------------------------
+Zone: westhavenwood
+Validating 47 rooms...
+------------------------------------
+Zone OK! No errors.
+------------------------------------
+
+------------------------------------
+Zone: Wexfordshire
+Validating 200 rooms...
+------------------------------------
+Zone OK! No errors.
+------------------------------------
+
+------------------------------------
+Zone: wildbeyond
+Validating 443 rooms...
+------------------------------------
+Zone OK! No errors.
+------------------------------------
+
+------------------------------------
+Zone: winterwood
+Validating 230 rooms...
+------------------------------------
+Zone OK! No errors.
+------------------------------------
+
+------------------------------------
+Zone: zenderwoods
+Validating 219 rooms...
+------------------------------------
+Zone OK! No errors.
+------------------------------------
+
+------------------------------------
+Zone: TESTAREA
+Validating 0 rooms...
+------------------------------------
+Zone OK! No errors.
+------------------------------------
+
+------------------------------------
+Zone: AchrenNorth
+Validating 107 rooms...
+------------------------------------
+Zone OK! No errors.
+------------------------------------
+
+------------------------------------
+Zone: AchrenSouth
+Validating 106 rooms...
+------------------------------------
+Zone OK! No errors.
+------------------------------------
+
+------------------------------------
+Zone: AchrenOld
+Validating 14 rooms...
+------------------------------------
+	Room linkage error - Room 90020 east  = 90021  Room 90021 west = 90005
+	Room linkage error - Room 90021 east  = 90007  Room 90007 west = 90006
+	Room linkage error - Room 90021 west  = 90005  Room 90005 east = 90006
+	Room linkage error - Room 90007 west  = 90006  Room 90006 east = 90020
+
+	Room link errors      : 4
+	Room existance errors : 0
+	Room isolation errors : 0
+	Room zone isolation errors : 0
+	------------------------------
+	Total zone errors     : 4
+------------------------------------
+
+------------------------------------
+Zone: AchrenOld
+Validating 14 rooms...
+------------------------------------
+Zone OK! No errors.
+------------------------------------
+
+------------------------------------
+Zone: drear-valley
+Validating 149 rooms...
+------------------------------------
+Zone OK! No errors.
+------------------------------------
+
+------------------------------------
+Zone: AALobby
+Validating 2 rooms...
+------------------------------------
+	Room zone isolated - 98000
+	Room isolated - 98004
+
+	Room link errors      : 0
+	Room existance errors : 0
+	Room isolation errors : 1
+	Room zone isolation errors : 1
+	------------------------------
+	Total zone errors     : 1
+------------------------------------
+
+------------------------------------
+Zone: AALow
+Validating 2 rooms...
+------------------------------------
+	Room zone isolated - 97999
+	Room isolated - 98005
+
+	Room link errors      : 0
+	Room existance errors : 0
+	Room isolation errors : 1
+	Room zone isolation errors : 1
+	------------------------------
+	Total zone errors     : 1
+------------------------------------
+
+------------------------------------
+Zone: AAMid
+Validating 2 rooms...
+------------------------------------
+	Room zone isolated - 98001
+	Room isolated - 98006
+
+	Room link errors      : 0
+	Room existance errors : 0
+	Room isolation errors : 1
+	Room zone isolation errors : 1
+	------------------------------
+	Total zone errors     : 1
+------------------------------------
+
+------------------------------------
+Zone: AAHigh
+Validating 2 rooms...
+------------------------------------
+	Room zone isolated - 98002
+	Room isolated - 98007
+
+	Room link errors      : 0
+	Room existance errors : 0
+	Room isolation errors : 1
+	Room zone isolation errors : 1
+	------------------------------
+	Total zone errors     : 1
+------------------------------------
+
+------------------------------------
+Zone: lostwoods
+Validating 218 rooms...
+------------------------------------
+	Room linkage error - Room 50003 south = 50013  Room 50013 north = 50032
+	Room linkage error - Room 50217 north = 50003  Room 50003 south = 50013
+	Room linkage error - Room 50217 west  = 50014  Room 50014 east = 50013
+	Room linkage error - Room 50014 east  = 50013  Room 50013 west = 50217
+	Room linkage error - Room 50062 south = 50067  Room 50067 north = 50061
+
+	Room link errors      : 5
+	Room existance errors : 0
+	Room isolation errors : 0
+	Room zone isolation errors : 0
+	------------------------------
+	Total zone errors     : 5
+------------------------------------
+
+------------------------------------
+Zone: bossspawn
+Validating 9 rooms...
+------------------------------------
+	Room linkage error - Room 110004 south = 21575  Room 21575 north = 21569
+	Room linkage error - Room 110004 east  = 12136  Room 12136 west = 12135
+	Room linkage error - Room 110005 south = 2231  Room 2231 north = 2222
+	Room linkage error - Room 110006 south = 25125  Room 25125 north = 25117
+	Room linkage error - Room 110006 west  = 3253  Room 3253 east = 3254
+	Room linkage error - Room 110007 west  = 16616  Room 16616 east = 16617
+	Room linkage error - Room 110000 north = 9320  Room 9320 south = 9326
+	Room linkage error - Room 110000 west  = 16133  Room 16133 east = 16134
+	Room linkage error - Room 110001 north = 4698  Room 4698 south = 4551
+	Room linkage error - Room 110002 north = 12361  Room 12361 south = 12370
+	Room linkage error - Room 110002 east  = 1354  Room 1354 west = 1353
+	Room linkage error - Room 110003 east  = 4322  Room 4322 west = 4321
+
+	Room link errors      : 12
+	Room existance errors : 0
+	Room isolation errors : 0
+	Room zone isolation errors : 0
+	------------------------------
+	Total zone errors     : 12
+------------------------------------
+
+------------------------------------
+Zone: fafnirswamp
+Validating 139 rooms...
+------------------------------------
+	Room linkage error - Room 29000 north = 9232  Room 9232 south is not an exit.
+	Room linkage error - Room 29000 west  = 4207  Room 4207 east is not an exit.
+	Room linkage error - Room 29002 north = 9234  Room 9234 south is not an exit.
+	Room linkage error - Room 29004 north = 9330  Room 9330 south is not an exit.
+	Room linkage error - Room 29005 north = 9331  Room 9331 south is not an exit.
+	Room linkage error - Room 29009 north = 9335  Room 9335 south is not an exit.
+	Room linkage error - Room 29009 east  = 3128  Room 3128 west is not an exit.
+	Room linkage error - Room 29020 west  = 4223  Room 4223 east is not an exit.
+	Room linkage error - Room 29029 east  = 3142  Room 3142 west is not an exit.
+	Room error - Room east  of 29042 (29043) does not exist.
+	Room linkage error - Room 29049 east  = 3207  Room 3207 west is not an exit.
+	Room error - Room west  of 29044 (29043) does not exist.
+	Room linkage error - Room 29019 east  = 3135  Room 3135 west is not an exit.
+	Room linkage error - Room 29039 east  = 3200  Room 3200 west is not an exit.
+	Room linkage error - Room 29008 north = 9334  Room 9334 south is not an exit.
+	Room linkage error - Room 29007 north = 9333  Room 9333 south is not an exit.
+	Room linkage error - Room 29006 north = 9332  Room 9332 south is not an exit.
+	Room linkage error - Room 29003 north = 9235  Room 9235 south is not an exit.
+	Room linkage error - Room 29001 north = 9233  Room 9233 south is not an exit.
+	Room error - Room south of 29033 (29043) does not exist.
+	Room linkage error - Room 29010 west  = 4215  Room 4215 east is not an exit.
+	Room linkage error - Room 29030 west  = 4226  Room 4226 east is not an exit.
+	Room linkage error - Room 29040 west  = 4229  Room 4229 east is not an exit.
+	Room error - Room south of 29055 (29065) does not exist.
+	Room linkage error - Room 29059 east  = 3214  Room 3214 west is not an exit.
+	Room linkage error - Room 29060 west  = 4235  Room 4235 east is not an exit.
+	Room error - Room west  of 29066 (29065) does not exist.
+	Room linkage error - Room 29070 west  = 4238  Room 4238 east is not an exit.
+	Room linkage error - Room 29079 east  = 3228  Room 3228 west is not an exit.
+	Room linkage error - Room 29080 west  = 4241  Room 4241 east is not an exit.
+	Room linkage error - Room 29089 east  = 3235  Room 3235 west is not an exit.
+	Room linkage error - Room 29090 west  = 4244  Room 4244 east is not an exit.
+	Room linkage error - Room 29099 east  = 3242  Room 3242 west is not an exit.
+	Room error - Room north of 29053 (29043) does not exist.
+	Room error - Room east  of 29064 (29065) does not exist.
+	Room linkage error - Room 29069 east  = 3221  Room 3221 west is not an exit.
+	Room error - Room north of 29075 (29065) does not exist.
+	Room linkage error - Room 29164 north = 29054  Room 29054 south = 29064
+	Room linkage error - Room 29164 south = 29074  Room 29074 north = 29064
+	Room error - Room east  of 29164 (29065) does not exist.
+	Room linkage error - Room 29164 west  = 29063  Room 29063 east = 29064
+	Room linkage error - Room 29050 west  = 4232  Room 4232 east is not an exit.
+	Room linkage error - Room 29100 west  = 4247  Room 4247 east is not an exit.
+	Room linkage error - Room 29110 west  = 4361  Room 4361 east is not an exit.
+	Room linkage error - Room 29119 east  = 3304  Room 3304 west is not an exit.
+	Room linkage error - Room 29120 west  = 4367  Room 4367 east is not an exit.
+	Room linkage error - Room 29129 east  = 3308  Room 3308 west is not an exit.
+	Room linkage error - Room 29130 south = 4382  Room 4382 north is not an exit.
+	Room linkage error - Room 29130 west  = 4373  Room 4373 east is not an exit.
+	Room linkage error - Room 29132 south = 3316  Room 3316 north is not an exit.
+	Room linkage error - Room 29133 south = 3317  Room 3317 north is not an exit.
+	Room linkage error - Room 29134 south = 3318  Room 3318 north is not an exit.
+	Room linkage error - Room 29135 south = 3319  Room 3319 north is not an exit.
+	Room linkage error - Room 29136 south = 3320  Room 3320 north is not an exit.
+	Room linkage error - Room 29137 south = 3321  Room 3321 north is not an exit.
+	Room linkage error - Room 29138 south = 3322  Room 3322 north is not an exit.
+	Room linkage error - Room 29139 south = 3323  Room 3323 north is not an exit.
+	Room linkage error - Room 29139 east  = 3312  Room 3312 west is not an exit.
+	Room linkage error - Room 29109 east  = 3300  Room 3300 west is not an exit.
+
+	Room link errors      : 50
+	Room existance errors : 9
+	Room isolation errors : 0
+	Room zone isolation errors : 0
+	------------------------------
+	Total zone errors     : 59
+------------------------------------
+
+------------------------------------
+Zone: ImpSanctuaryEntrance
+Validating 9 rooms...
+------------------------------------
+Zone OK! No errors.
+------------------------------------
+
+------------------------------------
+Zone: northernsteppes
+Validating 226 rooms...
+------------------------------------
+	Room linkage error - Room 10509 south = 2100  Room 2100 north = 91000
+	Room linkage error - Room 10517 east  = 2100  Room 2100 west is not an exit.
+	Room linkage error - Room 10564 south = 10572  Room 10572 north = 10563
+	Room linkage error - Room 10573 north = 10564  Room 10564 south = 10572
+	Room error - Room east  of 10630 (2300) does not exist.
+	Room error - Room east  of 10643 (2301) does not exist.
+	Room error - Room south of 10679 (10690) does not exist.
+	Room linkage error - Room 10683 south = 10693  Room 10693 north = 10682
+	Room error - Room east  of 10689 (10690) does not exist.
+	Room error - Room east  of 10668 (2303) does not exist.
+	Room error - Room south of 10680 (10691) does not exist.
+	Room error - Room east  of 10680 (2304) does not exist.
+	Room error - Room east  of 10656 (2302) does not exist.
+	Room linkage error - Room 10693 north = 10682  Room 10682 south = 10692
+	Room error - Room east  of 10699 (10700) does not exist.
+	Room error - Room east  of 10726 (2329) does not exist.
+	Room error - Room south of 10707 (2311) does not exist.
+	Room error - Room east  of 10707 (2308) does not exist.
+	Room error - Room south of 10713 (2315) does not exist.
+	Room error - Room east  of 10713 (2311) does not exist.
+	Room error - Room east  of 10717 (2315) does not exist.
+	Room error - Room south of 10721 (2324) does not exist.
+	Room error - Room east  of 10721 (2320) does not exist.
+	Room error - Room east  of 10724 (2324) does not exist.
+	Room error - Room south of 10728 (2336) does not exist.
+	Room error - Room east  of 10728 (2333) does not exist.
+
+	Room link errors      : 6
+	Room existance errors : 20
+	Room isolation errors : 0
+	Room zone isolation errors : 0
+	------------------------------
+	Total zone errors     : 26
+------------------------------------
+
+------------------------------------
+Zone: crystalmountains
+Validating 208 rooms...
+------------------------------------
+	Room linkage error - Room 10267 south = 10580  Room 10580 north = 10382
+	Room linkage error - Room 10280 north = 10267  Room 10267 south = 10580
+
+	Room link errors      : 2
+	Room existance errors : 0
+	Room isolation errors : 0
+	Room zone isolation errors : 0
+	------------------------------
+	Total zone errors     : 2
+------------------------------------
+
+------------------------------------
+Zone: TheCastle
+Validating 40 rooms...
+------------------------------------
+	Room zone isolated - 24749
+
+	Room link errors      : 0
+	Room existance errors : 0
+	Room isolation errors : 0
+	Room zone isolation errors : 1
+	------------------------------
+	Total zone errors     : 0
+------------------------------------
+
+------------------------------------
+Zone: asgard
+Validating 24 rooms...
+------------------------------------
+	Room isolated - 6906
+	Room isolated - 6903
+	Room isolated - 6907
+	Room isolated - 6905
+	Room isolated - 6902
+	Room isolated - 6904
+	Room isolated - 6901
+	Room isolated - 6909
+	Room isolated - 6900
+	Room zone isolated - 6913
+
+	Room link errors      : 0
+	Room existance errors : 0
+	Room isolation errors : 9
+	Room zone isolation errors : 1
+	------------------------------
+	Total zone errors     : 9
+------------------------------------
+
+------------------------------------
+Zone: arimathor
+Validating 33 rooms...
+------------------------------------
+	Room isolated - 6801
+	Room isolated - 6803
+	Room isolated - 6804
+	Room isolated - 6806
+	Room isolated - 6807
+	Room isolated - 6808
+	Room isolated - 6811
+	Room isolated - 6813
+	Room isolated - 6812
+	Room isolated - 6815
+	Room isolated - 6817
+	Room isolated - 6814
+	Room zone isolated - 6805
+
+	Room link errors      : 0
+	Room existance errors : 0
+	Room isolation errors : 12
+	Room zone isolation errors : 1
+	------------------------------
+	Total zone errors     : 12
+------------------------------------
+
+------------------------------------
+Zone: caerfawdry
+Validating 25 rooms...
+------------------------------------
+	Room isolated - 6601
+	Room isolated - 6602
+	Room isolated - 6603
+	Room isolated - 6607
+	Room isolated - 6608
+	Room isolated - 6609
+	Room isolated - 6611
+	Room isolated - 6613
+	Room isolated - 6604
+	Room isolated - 6610
+
+	Room link errors      : 0
+	Room existance errors : 0
+	Room isolation errors : 10
+	Room zone isolation errors : 0
+	------------------------------
+	Total zone errors     : 10
+------------------------------------
+
+------------------------------------
+Zone: drune
+Validating 24 rooms...
+------------------------------------
+	Room isolated - 8303
+	Room isolated - 8304
+	Room isolated - 8305
+	Room isolated - 8307
+	Room isolated - 8309
+	Room isolated - 8310
+	Room isolated - 8312
+	Room isolated - 8314
+	Room isolated - 8306
+
+	Room link errors      : 0
+	Room existance errors : 0
+	Room isolation errors : 9
+	Room zone isolation errors : 0
+	------------------------------
+	Total zone errors     : 9
+------------------------------------
+
+------------------------------------
+Zone: kurz
+Validating 41 rooms...
+------------------------------------
+	Room isolated - 8002
+	Room isolated - 8001
+	Room isolated - 8003
+	Room isolated - 8006
+	Room isolated - 8008
+	Room isolated - 8009
+	Room isolated - 8010
+	Room isolated - 8011
+	Room isolated - 8012
+	Room isolated - 8013
+	Room isolated - 8014
+	Room isolated - 8022
+	Room isolated - 8023
+	Room isolated - 8015
+	Room isolated - 8017
+	Room isolated - 8020
+	Room isolated - 8021
+
+	Room link errors      : 0
+	Room existance errors : 0
+	Room isolation errors : 17
+	Room zone isolation errors : 0
+	------------------------------
+	Total zone errors     : 17
+------------------------------------
+
+------------------------------------
+Zone: West Leinster
+Validating 43 rooms...
+------------------------------------
+	Room linkage error - Room 6022 south = 5035  Room 5035 north = 5020
+	Room isolated - 6009
+	Room isolated - 6007
+	Room isolated - 6076
+	Room isolated - 6079
+
+	Room link errors      : 1
+	Room existance errors : 0
+	Room isolation errors : 4
+	Room zone isolation errors : 0
+	------------------------------
+	Total zone errors     : 5
+------------------------------------
+
+------------------------------------
+Zone: East Leinster
+Validating 34 rooms...
+------------------------------------
+	Room linkage error - Room 6024 south = 5025  Room 5025 north = 5010
+	Room linkage error - Room 6023 south = 5041  Room 5041 north = 5026
+	Room isolated - 65000
+	Room isolated - 6013
+	Room isolated - 6058
+
+	Room link errors      : 2
+	Room existance errors : 0
+	Room isolation errors : 3
+	Room zone isolation errors : 0
+	------------------------------
+	Total zone errors     : 5
+------------------------------------
+
+------------------------------------
+Zone: Leinster
+Validating 54 rooms...
+------------------------------------
+	Room isolated - 6034
+	Room isolated - 6018
+	Room isolated - 6010
+	Room isolated - 6036
+	Room isolated - 6042
+	Room isolated - 6059
+	Room isolated - 6055
+	Room linkage error - Room 6061 north = 5061  Room 5061 south is not an exit.
+	Room zone isolated - 6061
+	Room isolated - 6041
+	Room isolated - 6008
+	Room isolated - 6019
+	Room isolated - 6044
+	Room isolated - 6002
+	Room isolated - 6027
+	Room linkage error - Room 6037 south = 5037  Room 5037 north = 5022
+	Room isolated - 6043
+	Room isolated - 6049
+	Room isolated - 6045
+	Room isolated - 6073
+	Room isolated - 6084
+	Room isolated - 6012
+	Room isolated - 6016
+	Room isolated - 6033
+	Room isolated - 6021
+	Room isolated - 6046
+	Room isolated - 6072
+	Room isolated - 6099
+	Room isolated - 6077
+	Room isolated - 6056
+	Room isolated - 6000
+
+	Room link errors      : 2
+	Room existance errors : 0
+	Room isolation errors : 28
+	Room zone isolation errors : 1
+	------------------------------
+	Total zone errors     : 30
+------------------------------------
+
+------------------------------------
+Zone: monmouth
+Validating 26 rooms...
+------------------------------------
+	Room isolated - 6300
+	Room isolated - 6302
+	Room isolated - 6303
+	Room isolated - 6308
+	Room isolated - 6309
+	Room isolated - 6311
+	Room isolated - 6312
+	Room isolated - 6314
+	Room isolated - 6304
+	Room isolated - 6305
+	Room isolated - 6310
+
+	Room link errors      : 0
+	Room existance errors : 0
+	Room isolation errors : 11
+	Room zone isolation errors : 0
+	------------------------------
+	Total zone errors     : 11
+------------------------------------
+
+------------------------------------
+Zone: murias
+Validating 30 rooms...
+------------------------------------
+	Room isolated - 6202
+	Room isolated - 6205
+	Room isolated - 6206
+	Room isolated - 6211
+	Room isolated - 6212
+	Room isolated - 6213
+	Room isolated - 6215
+	Room isolated - 6216
+	Room isolated - 6203
+	Room isolated - 6210
+
+	Room link errors      : 0
+	Room existance errors : 0
+	Room isolation errors : 10
+	Room zone isolation errors : 0
+	------------------------------
+	Total zone errors     : 10
+------------------------------------
+
+------------------------------------
+Zone: silverbrook
+Validating 25 rooms...
+------------------------------------
+	Room isolated - 6406
+	Room isolated - 6404
+	Room isolated - 6411
+	Room isolated - 6410
+	Room isolated - 6403
+	Room isolated - 6408
+	Room isolated - 6401
+	Room isolated - 6400
+	Room isolated - 6412
+	Room isolated - 6413
+
+	Room link errors      : 0
+	Room existance errors : 0
+	Room isolation errors : 10
+	Room zone isolation errors : 0
+	------------------------------
+	Total zone errors     : 10
+------------------------------------
+
+------------------------------------
+Zone: usk
+Validating 26 rooms...
+------------------------------------
+	Room isolated - 8100
+	Room isolated - 8101
+	Room isolated - 8102
+	Room isolated - 8103
+	Room isolated - 8104
+	Room isolated - 8110
+	Room isolated - 8111
+	Room isolated - 8113
+	Room isolated - 8107
+	Room isolated - 8108
+	Room isolated - 8114
+
+	Room link errors      : 0
+	Room existance errors : 0
+	Room isolation errors : 11
+	Room zone isolation errors : 0
+	------------------------------
+	Total zone errors     : 11
+------------------------------------
+
+------------------------------------
+Zone: wen
+Validating 27 rooms...
+------------------------------------
+	Room isolated - 6101
+	Room isolated - 6102
+	Room isolated - 6108
+	Room isolated - 6110
+	Room isolated - 6111
+	Room isolated - 6112
+	Room isolated - 6113
+	Room isolated - 6100
+	Room isolated - 6104
+
+	Room link errors      : 0
+	Room existance errors : 0
+	Room isolation errors : 9
+	Room zone isolation errors : 0
+	------------------------------
+	Total zone errors     : 9
+------------------------------------
+
+------------------------------------
+Zone: TheOasis
+Validating 2 rooms...
+------------------------------------
+	Room zone isolated - 21150
+	Room zone isolated - 25156
+
+	Room link errors      : 0
+	Room existance errors : 0
+	Room isolation errors : 0
+	Room zone isolation errors : 2
+	------------------------------
+	Total zone errors     : 0
+------------------------------------
+
+------------------------------------
+Zone: Tent Shop Interiors
+Validating 17 rooms...
+------------------------------------
+	Room linkage error - Room 6089 south = 21150  Room 21150 north = 21031
+	Room zone isolated - 6089
+	Room linkage error - Room 9050 south = 21318  Room 21318 north = 21310
+	Room zone isolated - 9050
+	Room linkage error - Room 9051 south = 21247  Room 21247 north = 21243
+	Room zone isolated - 9051
+	Room linkage error - Room 9052 south = 21998  Room 21998 north = 21989
+	Room zone isolated - 9052
+	Room linkage error - Room 9053 south = 1606  Room 1606 north is not an exit.
+	Room zone isolated - 9053
+	Room linkage error - Room 9054 south = 1484  Room 1484 north = 1476
+	Room zone isolated - 9054
+	Room linkage error - Room 9055 south = 1374  Room 1374 north = 1367
+	Room zone isolated - 9055
+	Room linkage error - Room 9056 south = 2242  Room 2242 north = 2233
+	Room zone isolated - 9056
+	Room linkage error - Room 9057 south = 4222  Room 4222 north = 4214
+	Room zone isolated - 9057
+	Room linkage error - Room 9058 south = 4511  Room 4511 north = 4506
+	Room zone isolated - 9058
+	Room linkage error - Room 9059 south = 4815  Room 4815 north = 4807
+	Room zone isolated - 9059
+	Room linkage error - Room 9060 south = 9129  Room 9129 north = 9123
+	Room zone isolated - 9060
+	Room linkage error - Room 9061 south = 3132  Room 3132 north = 3125
+	Room zone isolated - 9061
+	Room linkage error - Room 9062 south = 12358  Room 12358 north = 12349
+	Room zone isolated - 9062
+	Room linkage error - Room 9063 south = 16583  Room 16583 north = 16577
+	Room zone isolated - 9063
+	Room linkage error - Room 9064 south = 20057  Room 20057 north = 20123
+	Room zone isolated - 9064
+	Room linkage error - Room 9065 south = 25188  Room 25188 north = 25184
+	Room zone isolated - 9065
+
+	Room link errors      : 17
+	Room existance errors : 0
+	Room isolation errors : 0
+	Room zone isolation errors : 17
+	------------------------------
+	Total zone errors     : 17
+------------------------------------
+
+------------------------------------
+Zone: JailHouse
+Validating 4 rooms...
+------------------------------------
+	Room isolated - 6051
+	Room isolated - 6052
+	Room isolated - 6053
+	Room isolated - 6054
+
+	Room link errors      : 0
+	Room existance errors : 0
+	Room isolation errors : 4
+	Room zone isolation errors : 0
+	------------------------------
+	Total zone errors     : 4
+------------------------------------
+
+------------------------------------
+Zone: York
+Validating 8 rooms...
+------------------------------------
+Zone OK! No errors.
+------------------------------------
+
+------------------------------------
+Zone: YorkPeace
+Validating 30 rooms...
+------------------------------------
+	Room isolated - 26258
+	Room zone isolated - 12300
+	Room linkage error - Room 90014 south = 90013  Room 90013 north is not an exit.
+	Room isolated - 90016
+	Room zone isolated - 90015
+	Room zone isolated - 93020
+	Room zone isolated - 96003
+	Room isolated - 96004
+	Room isolated - 96002
+	Room isolated - 96000
+	Room isolated - 96025
+	Room isolated - 96020
+	Room isolated - 96021
+
+	Room link errors      : 1
+	Room existance errors : 0
+	Room isolation errors : 8
+	Room zone isolation errors : 4
+	------------------------------
+	Total zone errors     : 9
+------------------------------------
+
+------------------------------------
+Zone: EnidsTemple
+Validating 3 rooms...
+------------------------------------
+Zone OK! No errors.
+------------------------------------
+
+------------------------------------
+Zone: FinvarrasTemple
+Validating 3 rooms...
+------------------------------------
+Zone OK! No errors.
+------------------------------------
+
+------------------------------------
+Zone: DuachsTemple
+Validating 3 rooms...
+------------------------------------
+Zone OK! No errors.
+------------------------------------
+
+------------------------------------
+Zone: DespothesTemple
+Validating 3 rooms...
+------------------------------------
+Zone OK! No errors.
+------------------------------------
+
+------------------------------------
+Zone: ElphamesTemple
+Validating 3 rooms...
+------------------------------------
+Zone OK! No errors.
+------------------------------------
+
+------------------------------------
+Zone: MabonTemple
+Validating 3 rooms...
+------------------------------------
+Zone OK! No errors.
+------------------------------------
+
+------------------------------------
+Zone: DungeonEntry
+Validating 44 rooms...
+------------------------------------
+	Room zone isolated - 21016
+	Room zone isolated - 1243
+	Room zone isolated - 4446
+	Room zone isolated - 4037
+	Room zone isolated - 4636
+	Room zone isolated - 22126
+	Room zone isolated - 3337
+	Room zone isolated - 1471
+	Room zone isolated - 4658
+	Room zone isolated - 13100
+	Room zone isolated - 4137
+	Room zone isolated - 20110
+	Room zone isolated - 2100
+	Room zone isolated - 3198
+	Room zone isolated - 2177
+	Room zone isolated - 4046
+	Room zone isolated - 4027
+	Room zone isolated - 12363
+	Room zone isolated - 1175
+	Room zone isolated - 4234
+	Room zone isolated - 21969
+	Room zone isolated - 3239
+	Room zone isolated - 9109
+	Room zone isolated - 12259
+	Room zone isolated - 2527
+	Room zone isolated - 2273
+	Room zone isolated - 1008
+	Room zone isolated - 20081
+	Room zone isolated - 2230
+	Room zone isolated - 9313
+	Room zone isolated - 9019
+	Room zone isolated - 12007
+	Room zone isolated - 12132
+	Room zone isolated - 3122
+	Room zone isolated - 2017
+	Room zone isolated - 5087
+	Room zone isolated - 95010
+	Room zone isolated - 12407
+	Room zone isolated - 12120
+	Room zone isolated - 4716
+	Room zone isolated - 1315
+	Room zone isolated - 91009
+	Room zone isolated - 91010
+	Room zone isolated - 91011
+
+	Room link errors      : 0
+	Room existance errors : 0
+	Room isolation errors : 0
+	Room zone isolation errors : 44
+	------------------------------
+	Total zone errors     : 0
+------------------------------------
+
+------------------------------------
+Zone: mazentr
+Validating 1 rooms...
+------------------------------------
+	Room linkage error - Room 27088 north = 27077  Room 27077 south is not an exit.
+	Room zone isolated - 27088
+
+	Room link errors      : 1
+	Room existance errors : 0
+	Room isolation errors : 0
+	Room zone isolation errors : 1
+	------------------------------
+	Total zone errors     : 1
+------------------------------------
+
+------------------------------------
+Zone: DunTemplate
+Validating 73 rooms...
+------------------------------------
+	Room linkage error - Room 31303 north = 31201  Room 31201 south = 31301
+	Room linkage error - Room 31303 south = 31401  Room 31401 north = 31301
+	Room linkage error - Room 31202 north = 31101  Room 31101 south = 31201
+	Room linkage error - Room 31202 south = 31301  Room 31301 north = 31201
+	Room linkage error - Room 31105 north = 31001  Room 31001 south = 31101
+	Room linkage error - Room 31105 south = 31201  Room 31201 north = 31101
+	Room linkage error - Room 30805 north = 30701  Room 30701 south = 30801
+	Room linkage error - Room 30805 south = 30901  Room 30901 north = 30801
+	Room linkage error - Room 30403 north = 30301  Room 30301 south = 30401
+	Room linkage error - Room 30403 south = 30501  Room 30501 north = 30401
+	Room linkage error - Room 30102 south = 30201  Room 30201 north = 30101
+	Room linkage error - Room 30305 north = 30201  Room 30201 south = 30301
+	Room linkage error - Room 30305 south = 30401  Room 30401 north = 30301
+	Room linkage error - Room 30502 north = 30401  Room 30401 south = 30501
+	Room linkage error - Room 30502 south = 30601  Room 30601 north = 30501
+	Room linkage error - Room 30909 north = 30801  Room 30801 south = 30901
+	Room linkage error - Room 30909 south = 31001  Room 31001 north = 30901
+	Room linkage error - Room 31005 north = 30901  Room 30901 south = 31001
+	Room linkage error - Room 31005 south = 31101  Room 31101 north = 31001
+	Room linkage error - Room 31008 north = 30901  Room 30901 south = 31001
+	Room linkage error - Room 31008 south = 31101  Room 31101 north = 31001
+	Room linkage error - Room 30202 north = 30101  Room 30101 south = 30201
+	Room linkage error - Room 30202 south = 30301  Room 30301 north = 30201
+	Room linkage error - Room 30704 north = 30601  Room 30601 south = 30701
+	Room linkage error - Room 30704 south = 30801  Room 30801 north = 30701
+	Room linkage error - Room 30906 north = 30801  Room 30801 south = 30901
+	Room linkage error - Room 30906 south = 31001  Room 31001 north = 30901
+	Room linkage error - Room 30602 north = 30501  Room 30501 south = 30601
+	Room linkage error - Room 30602 south = 30701  Room 30701 north = 30601
+	Room linkage error - Room 31402 north = 31301  Room 31301 south = 31401
+	Room linkage error - Room 31402 south = 31501  Room 31501 north = 31401
+	Room linkage error - Room 31502 north = 31401  Room 31401 south = 31501
+	Room linkage error - Room 32502 north = 32401  Room 32401 south = 32501
+	Room linkage error - Room 32502 south = 32601  Room 32601 north = 32501
+	Room error - Room west  of 32502 (32501) does not exist.
+	Room error - Room north of 32601 (32501) does not exist.
+	Room error - Room north of 32602 (32501) does not exist.
+	Room linkage error - Room 32602 south = 32701  Room 32701 north = 32601
+	Room error - Room south of 32701 (32735) does not exist.
+	Room error - Room east  of 32701 (32702) does not exist.
+	Room linkage error - Room 32305 north = 32201  Room 32201 south = 32301
+	Room linkage error - Room 32305 south = 32401  Room 32401 north = 32301
+	Room linkage error - Room 32403 north = 32301  Room 32301 south = 32401
+	Room error - Room south of 32403 (32501) does not exist.
+	Room error - Room south of 32401 (32501) does not exist.
+	Room linkage error - Room 32102 south = 32201  Room 32201 north = 32101
+	Room linkage error - Room 32202 north = 32101  Room 32101 south = 32201
+	Room linkage error - Room 32202 south = 32301  Room 32301 north = 32201
+
+	Room link errors      : 41
+	Room existance errors : 7
+	Room isolation errors : 0
+	Room zone isolation errors : 0
+	------------------------------
+	Total zone errors     : 48
+------------------------------------
+
+------------------------------------
+Zone: TheAnvil
+Validating 97 rooms...
+------------------------------------
+Zone OK! No errors.
+------------------------------------
+
+------------------------------------
+Zone: D_Ascetos_Cavern
+Validating 1 rooms...
+------------------------------------
+	Room isolated - 89018001
+
+	Room link errors      : 0
+	Room existance errors : 0
+	Room isolation errors : 1
+	Room zone isolation errors : 0
+	------------------------------
+	Total zone errors     : 1
+------------------------------------
+
+------------------------------------
+Zone: Barracks
+Validating 38 rooms...
+------------------------------------
+Zone OK! No errors.
+------------------------------------
+
+------------------------------------
+Zone: D_Church_01
+Validating 28 rooms...
+------------------------------------
+Zone OK! No errors.
+------------------------------------
+
+------------------------------------
+Zone: D_Daemon_Home
+Validating 132 rooms...
+------------------------------------
+Zone OK! No errors.
+------------------------------------
+
+------------------------------------
+Zone: D_Duach
+Validating 65 rooms...
+------------------------------------
+Zone OK! No errors.
+------------------------------------
+
+------------------------------------
+Zone: D_Enid_Rose
+Validating 115 rooms...
+------------------------------------
+Zone OK! No errors.
+------------------------------------
+
+------------------------------------
+Zone: D_Enids_Haven
+Validating 37 rooms...
+------------------------------------
+Zone OK! No errors.
+------------------------------------
+
+------------------------------------
+Zone: D_Fenris_Cave_01
+Validating 47 rooms...
+------------------------------------
+Zone OK! No errors.
+------------------------------------
+
+------------------------------------
+Zone: D_Fester
+Validating 58 rooms...
+------------------------------------
+	Room isolated - 82000010
+
+	Room link errors      : 0
+	Room existance errors : 0
+	Room isolation errors : 1
+	Room zone isolation errors : 0
+	------------------------------
+	Total zone errors     : 1
+------------------------------------
+
+------------------------------------
+Zone: D_Forgotten
+Validating 60 rooms...
+------------------------------------
+	Room isolated - 76528011
+	Room isolated - 76522011
+	Room isolated - 76523011
+	Room isolated - 76524011
+	Room isolated - 76531011
+	Room isolated - 76529011
+	Room isolated - 76532011
+	Room isolated - 76536011
+	Room isolated - 76535011
+	Room isolated - 76534011
+	Room isolated - 76533011
+
+	Room link errors      : 0
+	Room existance errors : 0
+	Room isolation errors : 11
+	Room zone isolation errors : 0
+	------------------------------
+	Total zone errors     : 11
+------------------------------------
+
+------------------------------------
+Zone: Fuloran
+Validating 5 rooms...
+------------------------------------
+Zone OK! No errors.
+------------------------------------
+
+------------------------------------
+Zone: D_Greater_Hive
+Validating 54 rooms...
+------------------------------------
+Zone OK! No errors.
+------------------------------------
+
+------------------------------------
+Zone: D_Holy_Caves
+Validating 76 rooms...
+------------------------------------
+	Room isolated - 84049014
+
+	Room link errors      : 0
+	Room existance errors : 0
+	Room isolation errors : 1
+	Room zone isolation errors : 0
+	------------------------------
+	Total zone errors     : 1
+------------------------------------
+
+------------------------------------
+Zone: D_Imp_City
+Validating 88 rooms...
+------------------------------------
+Zone OK! No errors.
+------------------------------------
+
+------------------------------------
+Zone: D_Imp_Haven
+Validating 33 rooms...
+------------------------------------
+	Room linkage error - Room 89002016 south = 89001016  Room 89001016 north = 89046016
+	Room isolated - 89000016
+
+	Room link errors      : 1
+	Room existance errors : 0
+	Room isolation errors : 1
+	Room zone isolation errors : 0
+	------------------------------
+	Total zone errors     : 2
+------------------------------------
+
+------------------------------------
+Zone: Judgment
+Validating 115 rooms...
+------------------------------------
+	Room isolated - 99000017
+
+	Room link errors      : 0
+	Room existance errors : 0
+	Room isolation errors : 1
+	Room zone isolation errors : 0
+	------------------------------
+	Total zone errors     : 1
+------------------------------------
+
+------------------------------------
+Zone: D_Labyrinth_01
+Validating 81 rooms...
+------------------------------------
+Zone OK! No errors.
+------------------------------------
+
+------------------------------------
+Zone: D_Lesser_Hive
+Validating 36 rooms...
+------------------------------------
+Zone OK! No errors.
+------------------------------------
+
+------------------------------------
+Zone: maze
+Validating 77 rooms...
+------------------------------------
+	Room linkage error - Room 27055 north = 27044  Room 27044 south is not an exit.
+	Room linkage error - Room 27067 west  = 27066  Room 27066 east is not an exit.
+	Room linkage error - Room 27058 west  = 27057  Room 27057 east is not an exit.
+	Room linkage error - Room 27037 west  = 27036  Room 27036 east is not an exit.
+	Room linkage error - Room 27027 south = 27038  Room 27038 north is not an exit.
+	Room linkage error - Room 27008 west  = 27007  Room 27007 east is not an exit.
+	Room linkage error - Room 27071 south = 27082  Room 27082 north is not an exit.
+	Room linkage error - Room 27043 west  = 27042  Room 27042 east is not an exit.
+	Room linkage error - Room 27074 west  = 27073  Room 27073 east is not an exit.
+	Room linkage error - Room 27015 north = 27004  Room 27004 south is not an exit.
+	Room linkage error - Room 27039 west  = 27038  Room 27038 east is not an exit.
+	Room linkage error - Room 27051 west  = 27050  Room 27050 east is not an exit.
+	Room linkage error - Room 27064 east  = 27065  Room 27065 west is not an exit.
+	Room linkage error - Room 27042 west  = 27041  Room 27041 east is not an exit.
+	Room linkage error - Room 27031 west  = 27030  Room 27030 east is not an exit.
+
+	Room link errors      : 15
+	Room existance errors : 0
+	Room isolation errors : 0
+	Room zone isolation errors : 0
+	------------------------------
+	Total zone errors     : 15
+------------------------------------
+
+------------------------------------
+Zone: D_Naktos_Morgue
+Validating 26 rooms...
+------------------------------------
+Zone OK! No errors.
+------------------------------------
+
+------------------------------------
+Zone: D_Ogre
+Validating 59 rooms...
+------------------------------------
+Zone OK! No errors.
+------------------------------------
+
+------------------------------------
+Zone: snakepit
+Validating 51 rooms...
+------------------------------------
+Zone OK! No errors.
+------------------------------------
+
+------------------------------------
+Zone: D_Storage
+Validating 14 rooms...
+------------------------------------
+Zone OK! No errors.
+------------------------------------
+
+------------------------------------
+Zone: D_Supply_E
+Validating 4 rooms...
+------------------------------------
+Zone OK! No errors.
+------------------------------------
+
+------------------------------------
+Zone: D_Supply_W
+Validating 4 rooms...
+------------------------------------
+Zone OK! No errors.
+------------------------------------
+
+------------------------------------
+Zone: D_Targoths_Tomb
+Validating 58 rooms...
+------------------------------------
+Zone OK! No errors.
+------------------------------------
+
+------------------------------------
+Zone: D_Thieves_Hole
+Validating 30 rooms...
+------------------------------------
+	Room isolated - 87062027
+
+	Room link errors      : 0
+	Room existance errors : 0
+	Room isolation errors : 1
+	Room zone isolation errors : 0
+	------------------------------
+	Total zone errors     : 1
+------------------------------------
+
+------------------------------------
+Zone: D_Tors
+Validating 41 rooms...
+------------------------------------
+Zone OK! No errors.
+------------------------------------
+
+------------------------------------
+Zone: D_Troll_Spit_Cellar
+Validating 4 rooms...
+------------------------------------
+Zone OK! No errors.
+------------------------------------
+
+------------------------------------
+Zone: D_Trolls_Haven
+Validating 33 rooms...
+------------------------------------
+	Room isolated - 81069030
+	Room isolated - 81015030
+	Room isolated - 81019030
+
+	Room link errors      : 0
+	Room existance errors : 0
+	Room isolation errors : 3
+	Room zone isolation errors : 0
+	------------------------------
+	Total zone errors     : 3
+------------------------------------
+
+------------------------------------
+Zone: D_Trolls_Hideaway
+Validating 37 rooms...
+------------------------------------
+Zone OK! No errors.
+------------------------------------
+
+------------------------------------
+Zone: Tulor
+Validating 35 rooms...
+------------------------------------
+Zone OK! No errors.
+------------------------------------
+
+------------------------------------
+Zone: D_Undead_Stronghold
+Validating 93 rooms...
+------------------------------------
+	Room isolated - 83080033
+
+	Room link errors      : 0
+	Room existance errors : 0
+	Room isolation errors : 1
+	Room zone isolation errors : 0
+	------------------------------
+	Total zone errors     : 1
+------------------------------------
+
+------------------------------------
+Zone: D_Warriors_Abode
+Validating 51 rooms...
+------------------------------------
+	Room isolated - 83000034
+
+	Room link errors      : 0
+	Room existance errors : 0
+	Room isolation errors : 1
+	Room zone isolation errors : 0
+	------------------------------
+	Total zone errors     : 1
+------------------------------------
+
+------------------------------------
+Zone: D_Wen_Clothing_Cellar
+Validating 16 rooms...
+------------------------------------
+Zone OK! No errors.
+------------------------------------
+
+------------------------------------
+Zone: D_Zoo
+Validating 131 rooms...
+------------------------------------
+Zone OK! No errors.
+------------------------------------
+
+------------------------------------
+Zone: mines00
+Validating 9 rooms...
+------------------------------------
+Zone OK! No errors.
+------------------------------------
+
+------------------------------------
+Zone: mines01
+Validating 9 rooms...
+------------------------------------
+Zone OK! No errors.
+------------------------------------
+
+------------------------------------
+Zone: mines02
+Validating 9 rooms...
+------------------------------------
+Zone OK! No errors.
+------------------------------------
+
+------------------------------------
+Zone: mines03
+Validating 9 rooms...
+------------------------------------
+Zone OK! No errors.
+------------------------------------
+
+------------------------------------
+Zone: Shifty
+Validating 1 rooms...
+------------------------------------
+	Room isolated - 80502041
+
+	Room link errors      : 0
+	Room existance errors : 0
+	Room isolation errors : 1
+	Room zone isolation errors : 0
+	------------------------------
+	Total zone errors     : 1
+------------------------------------
+
+------------------------------------
+Zone: D_IMP_SANCTUARY
+Validating 102 rooms...
+------------------------------------
+	Room linkage error - Room 10025043 north = 10026043  Room 10026043 south = 10026043
+	Room linkage error - Room 10026043 south = 10026043  Room 10026043 north = 10027043
+	Room linkage error - Room 10099043 north = 10101043  Room 10101043 south = 10100043
+	Room linkage error - Room 10100043 south = 10099043  Room 10099043 north = 10101043
+
+	Room link errors      : 4
+	Room existance errors : 0
+	Room isolation errors : 0
+	Room zone isolation errors : 0
+	------------------------------
+	Total zone errors     : 4
+------------------------------------
+
+------------------------------------
+Zone: D_DRAGON_PIT
+Validating 45 rooms...
+------------------------------------
+	Room isolated - 30031044
+	Room linkage error - Room 30044044 west  = 30043044  Room 30043044 east is not an exit.
+
+	Room link errors      : 1
+	Room existance errors : 0
+	Room isolation errors : 1
+	Room zone isolation errors : 0
+	------------------------------
+	Total zone errors     : 2
+------------------------------------
+
+------------------------------------
+Zone: LeinsterSewer
+Validating 23 rooms...
+------------------------------------
+	Room error - Room north of 40006048 (31201048) does not exist.
+	Room linkage error - Room 40006048 south = 40011048  Room 40011048 north = 40010048
+	Room isolated - 40045048
+	Room isolated - 40046048
+	Room isolated - 40047048
+	Room error - Room west  of 40100048 (11007048) does not exist.
+	Room zone isolated - 40100048
+	Room error - Room west  of 40101048 (11007048) does not exist.
+	Room zone isolated - 40101048
+	Room isolated - 40048048
+	Room error - Room west  of 40049048 (11009048) does not exist.
+	Room zone isolated - 40049048
+	Room error - Room east  of 40050048 (11004048) does not exist.
+	Room error - Room west  of 40050048 (11001048) does not exist.
+	Room zone isolated - 40050048
+
+	Room link errors      : 1
+	Room existance errors : 6
+	Room isolation errors : 4
+	Room zone isolation errors : 4
+	------------------------------
+	Total zone errors     : 11
+------------------------------------
+
+------------------------------------
+Zone: D_Faery_Caverns
+Validating 109 rooms...
+------------------------------------
+Zone OK! No errors.
+------------------------------------
+
+------------------------------------
+Zone: D_DRAGON_PIT
+Validating 45 rooms...
+------------------------------------
+	Room isolated - 30031008
+	Room linkage error - Room 30044008 west  = 30043008  Room 30043008 east is not an exit.
+
+	Room link errors      : 1
+	Room existance errors : 0
+	Room isolation errors : 1
+	Room zone isolation errors : 0
+	------------------------------
+	Total zone errors     : 2
+------------------------------------
+
+
+Total link errors      : 172
+Total existance errors : 70
+Total isolation errors : 199
+Total zone isolation errors : 85
+------------------------------
+Total errors     : 441

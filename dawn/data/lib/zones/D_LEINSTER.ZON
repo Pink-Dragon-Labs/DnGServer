@@ -1,0 +1,20 @@
+name "D_LEINSTER"
+title "Retsniel"
+worldFile "../data/lib/world/LEINEAST_PVP.WLD"
+worldFile "../data/lib/world/LEINCENT_PVP.WLD"
+worldFile "../data/lib/world/LEINWEST_PVP.WLD"
+resetInterval 9000000
+allowCombat 11
+midiFile 9
+
+#groupChance 100
+#monster Nobleman 35
+#monster Borei 25
+#monster Nightmare 25
+#monster Shiryo 25
+#monster Phantom 25
+#monster AncientWizard 20
+#monster AncientPaladin 20
+#monster SavageOgre 20
+#monster SavageOgreKnight 20
+#monster CastleRoamingGuard 45

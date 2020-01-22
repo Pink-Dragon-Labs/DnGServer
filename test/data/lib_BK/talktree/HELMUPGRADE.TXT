@@ -1,0 +1,95 @@
+id 89900
+
+banner "Helmet Hider!"
+
+topic "I heard you can hide helmets?"
+        text "Well, yes and no.."
+        text "I can exchange your helmet for a ring of the same slot."
+        text "You will not be able to wear another helmet in addition to the ring, it completely replaces your helmet."
+        text "There are no trade backs. You cannot get a non-hidden version back from me, and the helmet will lose any enchantments it had."
+end
+
+topic "Helm of Khan"
+	quest 94420
+	text "I've nothing for you today. Come back some other time and ask me again."
+end
+
+topic "Mage Hat"
+	quest 94421
+	text "I've nothing for you today. Come back some other time and ask me again."
+end
+
+topic "Helm of Despair"
+	quest 94422
+	text "I've nothing for you today. Come back some other time and ask me again."
+end
+
+topic "Helm of Conquest"
+	quest 94423
+	text "I've nothing for you today. Come back some other time and ask me again."
+end
+
+topic "Adventurer's Mantle"
+	quest 94424
+	text "I've nothing for you today. Come back some other time and ask me again."
+end
+
+topic "Gladiator Helmet"
+	quest 94425
+	text "I've nothing for you today. Come back some other time and ask me again."
+end
+
+topic "Sorcerer's Helm"
+	quest 94426
+	text "I've nothing for you today. Come back some other time and ask me again."
+end
+
+topic "Bandit Mask"
+	quest 94427
+	text "I've nothing for you today. Come back some other time and ask me again."
+end
+
+topic "Warlock Hat"
+	quest 94228
+	text "I've nothing for you today. Come back some other time and ask me again."
+end
+
+topic "Hoplite (F)"
+	quest 94429
+	text "I've nothing for you today. Come back some other time and ask me again."
+end
+
+topic "Hoplite (M)"
+	quest 94430
+	text "I've nothing for you today. Come back some other time and ask me again."
+end
+
+topic "Raider Helm"
+	quest 94431
+	text "I've nothing for you today. Come back some other time and ask me again."
+end
+
+topic "Spangenhelm"
+	quest 94432
+	text "I've nothing for you today. Come back some other time and ask me again."
+end
+
+topic "Grand Imperial Crown"
+	quest 94433
+	text "I've nothing for you today. Come back some other time and ask me again."
+end
+
+topic "Crown of Power"
+	quest 94434
+	text "I've nothing for you today. Come back some other time and ask me again."
+end
+
+topic "Bishop Hat"
+	quest 94435
+	text "I've nothing for you today. Come back some other time and ask me again."
+end
+
+topic "Khnum"
+	quest 94436
+	text "I've nothing for you today. Come back some other time and ask me again."
+end

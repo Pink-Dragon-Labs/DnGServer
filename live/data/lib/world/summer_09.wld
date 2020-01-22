@@ -1,0 +1,1845 @@
+room 28259
+   properties
+#      picture	3033
+      picture	3030
+      north	28250 
+      east	28260 
+      west	28269 
+      roomName	"The Sandbar"
+   end
+   atpinfo
+      7902  122 317
+      7902  392 317
+      7902  653 317
+      5716  101 234 -15
+      5717  618 220 -15
+      5711  245 65
+      5711  233 65
+      5712  574 64
+      2127  150 185 50
+   end
+   objects
+      object stand28259-0 of Stand
+         properties
+            x	150
+            y	180
+            loop	0
+         end
+      end
+      object Veronica28259-1 of Shop
+         properties
+            name        "Veronica"
+            x   25
+            y   282
+            loop        0
+         end
+         base talk
+            talkTreeID  28259
+         end
+         base character
+            sex 1
+            properName  "Veronica (NPC)"
+         end
+         base container
+            worn        SwimsuitFemale1Pink
+            head        1 0 4 7 8 4 -1 14 4 8 11 0
+         end
+         base described
+            text "You see the shopkeeper."
+         end
+         base shop
+            buyMarkup   50
+            sellMarkup  100
+            inventory
+               category "Drinks" 51583
+                  object WaterBottle
+                  object AleJug
+                  object WineFlask
+                  object Orangeade
+                  object PinkLemonade
+                  object Grapetini
+               end
+            end
+         end
+      end
+   end
+end
+room 28261
+   properties
+#      picture	3033
+      picture	3030
+      north	28252 
+      east	28262 
+      west	28260 
+   end
+   atpinfo
+      7902  122 317
+      7902  392 317
+      7902  653 317
+      38485  533 279 -15
+      38485  34 151 -15
+      5717  43 149 -15
+      5717  42 161 -15
+      38480  252 64
+      5713  536 64
+      38481  523 65
+#5721  198 225
+   end
+   objects
+      object Douglas28261-0 of Shop
+         properties
+            x  317
+            y  282
+            name       "Douglas"
+            loop       2
+         end
+         base character
+            sex        0
+            properName "Douglas (NPC)"
+         end
+         base container
+#            worn       BlackBelt
+            worn       SwimsuitMale1Black
+#            worn       BlackBoots
+#            worn       AmberPants
+#            worn       OrangeShirt
+#            worn       Obsidianiteband
+            head       0 0 0 2 2 0 -1 2 2 4 5 0
+         end
+         base talk
+            talkTreeID 28261
+         end
+	 base described
+	    text "You see the shopkeeper."
+	 end
+	 base shop
+	    buyMarkup	50
+	    sellMarkup	100
+	    inventory
+	 	category "Surfboards" 51583
+		   object BrownSurfboard
+		   object AquaFloralSurfboard
+		   object PinkFloralSurfboard
+		   object BlueFastSurfboard
+		end
+	    end
+	 end
+      end
+      object Bonfire28261-1 of Bonfire
+         properties
+            x	198
+            y	225
+         end
+      end
+   end
+end
+room 28263
+   properties
+      picture	3033
+      north	28254 
+      east	28264 
+      west	28262 
+   end
+   atpinfo
+      7902  122 317
+      7902  392 317
+      7902  653 317
+      38480  127 64
+      5713  477 65
+#110  133 100
+#      5721  319 241
+#      5721  508 83
+   end
+   objects
+      object Bonfire28263-0 of Bonfire
+         properties
+            x	133
+            y	100
+         end
+      end
+      object Bonfire28263-1 of Bonfire
+         properties
+            x	319
+            y	241
+         end
+      end
+      object Bonfire28263-2 of Bonfire
+         properties
+            x	508
+            y	83
+         end
+      end
+   end
+end
+room 28265
+   properties
+      picture	3033
+      north	28256 
+      east	28266 
+      west	28264 
+   end
+   atpinfo
+      7902  109 317
+      7902  391 317
+      7902  652 317
+      5713  479 65
+   end
+end
+room 28267
+   properties
+      picture	3033
+      north	28258 
+      east	28271 
+      west	28266 
+   end
+   atpinfo
+      7902  122 317
+      7902  392 317
+      7902  653 317
+      5711  167 65
+      5712  391 64
+#5721  235 110
+#      5721  446 216
+   end
+   objects
+      object Bonfire28267-0 of Bonfire
+         properties
+            x	235
+            y	110
+         end
+      end
+      object Bonfire28267-1 of Bonfire
+         properties
+            x	446
+            y	216
+         end
+      end
+   end
+end
+room 28260
+   properties
+#      picture	3033
+      picture	3030
+      north	28251 
+      east	28261 
+      west	28259 
+      flags	2
+   end
+   atpinfo
+      7902  122 317
+      7902  392 317
+      7902  653 317
+      5717  -4 212 -15
+      5713  273 64
+      5712  93 64
+      5712  332 214 150
+	5721  533 111
+      5721  349 194
+      5721  98 104
+   end
+#   objects
+#      object stoneBench28259-0 of StoneBench
+#         properties
+#            x	81
+#            y	108
+#            loop	0
+#         end
+#      end
+#      object stoneBench28259-1 of StoneBench
+#         properties
+#            x	147
+#            y	108
+#            loop	1
+#         end
+#      end
+#      object stoneBench28259-2 of StoneBench
+#         properties
+#            x	319
+#            y	192
+#            loop	0
+#         end
+#      end
+#      object stoneBench28259-3 of StoneBench
+#         properties
+#            x	369
+#            y	214
+#            loop	0
+#         end
+#      end
+#      object stoneBench28259-4 of StoneBench
+#         properties
+#            x	408
+#            y	169
+#            loop	1
+#         end
+#      end
+#      object stoneBench28259-5 of StoneBench
+#         properties
+#            x	346
+#            y	169
+#            loop	0
+#         end
+#      end
+#      object stoneBench28259-6 of StoneBench
+#         properties
+#            x	432
+#            y	200
+#            loop	1
+#         end
+#      end
+#      object stoneBench28259-7 of StoneBench
+#         properties
+#            x	522
+#            y	107
+#            loop	0
+#         end
+#      end
+#      object stoneBench28259-8 of StoneBench
+#         properties
+#            x	546
+#            y	143
+#            loop	0
+#         end
+#      end
+#      object stoneBench28259-9 of StoneBench
+#         properties
+#            x	535
+#            y	119
+#            loop	0
+#         end
+#      end
+#      object stoneBench28259-10 of StoneBench
+#         properties
+#            x	577
+#            y	107
+#            loop	1
+#         end
+#      end
+#      object stoneBench28259-11 of StoneBench
+#         properties
+#            x	469
+#            y	123
+#            loop	1
+#         end
+#      end
+#      object Bonfire28259-12 of Bonfire
+#         properties
+#            x	533
+#            y	111
+#         end
+#      end
+#      object Bonfire28259-13 of Bonfire
+#         properties
+#            x	349
+#            y	194
+#         end
+#      end
+#      object Bonfire28259-14 of Bonfire
+#         properties
+#            x	98
+#            y	104
+#         end
+#      end
+#   end
+end
+room 28262
+   properties
+#      picture	3033
+      picture	3030
+      north	28253 
+      east	28263 
+      west	28261 
+      flags	2
+   end
+   atpinfo
+      7902  122 317
+      7902  392 317
+      7902  653 317
+      5705  2 151
+      5708  583 119
+5721  489 105
+      5721  42 243
+   end
+#   objects
+#      object Bonfire28262-0 of Bonfire
+#         properties
+#            x	489
+#            y	105
+#         end
+#      end
+#      object Bonfire28262-1 of Bonfire
+#         properties
+#            x	42
+#            y	243
+#         end
+#      end
+#   end
+end
+room 28264
+   properties
+      picture	3033
+      north	28255 
+      east	28265 
+      west	28263 
+      flags	2
+   end
+   atpinfo
+      7902  122 317
+      7902  392 317
+      7902  653 317
+      5717  103 175 -15
+      38485  531 232 -15
+      5716  99 220 -15
+      38484  126 160 -50
+      5713  319 65
+      5713  294 164 100
+#5721  504 99
+#      5721  217 213
+   end
+   objects
+      object Bonfire28264-0 of Bonfire
+         properties
+            x	504
+            y	99
+         end
+      end
+      object Bonfire28264-1 of Bonfire
+         properties
+            x	217
+            y	213
+         end
+      end
+   end
+end
+room 28266
+   properties
+      picture	3033
+      north	28257 
+      east	28267 
+      west	28265 
+      flags	2
+   end
+   atpinfo
+      7902  122 317
+      7902  392 317
+      7902  653 317
+      5716  65 108
+      5711  256 64
+      5711  247 65
+      38479  600 64
+#5721  145 159
+#      5721  322 109
+#      5721  518 211
+   end
+   objects
+      object stoneBench28266-0 of StoneBench
+         properties
+            x	129
+            y	153
+            loop	0
+         end
+      end
+      object stoneBench28266-1 of StoneBench
+         properties
+            x	210
+            y	162
+            loop	1
+         end
+      end
+      object stoneBench28266-2 of StoneBench
+         properties
+            x	134
+            y	182
+            loop	0
+         end
+      end
+      object stoneBench28266-3 of StoneBench
+         properties
+            x	307
+            y	106
+            loop	0
+         end
+      end
+      object stoneBench28266-4 of StoneBench
+         properties
+            x	339
+            y	128
+            loop	0
+         end
+      end
+      object stoneBench28266-5 of StoneBench
+         properties
+            x	357
+            y	98
+            loop	1
+         end
+      end
+      object stoneBench28266-6 of StoneBench
+         properties
+            x	372
+            y	122
+            loop	1
+         end
+      end
+      object stoneBench28266-7 of StoneBench
+         properties
+            x	494
+            y	194
+            loop	0
+         end
+      end
+      object stoneBench28266-8 of StoneBench
+         properties
+            x	533
+            y	178
+            loop	0
+         end
+      end
+      object stoneBench28266-9 of StoneBench
+         properties
+            x	599
+            y	188
+            loop	1
+         end
+      end
+      object Bonfire28266-10 of Bonfire
+         properties
+            x	145
+            y	159
+         end
+      end
+      object Bonfire28266-11 of Bonfire
+         properties
+            x	322
+            y	109
+         end
+      end
+      object Bonfire28266-12 of Bonfire
+         properties
+            x	518
+            y	211
+         end
+      end
+   end
+end
+room 28268
+   properties
+#      picture	3034
+      picture	3031
+      south	28269 
+      east	28250 
+   end
+   atpinfo
+      5712  9 65
+      5708  271 133
+      7904  69 188
+      7904  30 199
+      7904  105 173
+      7904  -25 237
+      7900  135 66
+      5715  46 79
+      5715  59 181 100
+      7904  158 133
+      7904  201 116
+5721  471 287
+      5721  605 176
+   end
+   objects
+      object tent28268-0 of Tent
+         properties
+            x	553
+            y	119
+            loop	0
+         end
+         base described
+            text        "This is the tent of the merchant Solana."
+         end
+         base entry
+            room        28272
+            startingLoop        0
+            endingLoop  0
+            startingX   330
+            startingY   500
+            endingX     330
+            endingY     300
+         end
+      end
+      object tent28268-1 of Tent
+         properties
+            x	404
+            y	187
+            loop	0
+         end
+         base described
+            text        "This is a swimwear tent."
+         end
+         base entry
+            room        28273
+            startingLoop        0
+            endingLoop  0
+            startingX   330
+            startingY   500
+            endingX     330
+            endingY     300
+         end
+      end
+      object stool28268-2 of Stool
+         properties
+            x	590
+            y	131
+            loop	0
+         end
+      end
+      object stool28268-3 of Stool
+         properties
+            x	317
+            y	199
+            loop	0
+         end
+      end
+      object stool28268-4 of Stool
+         properties
+            x	534
+            y	125
+            loop	0
+         end
+      end
+      object stool28268-5 of Stool
+         properties
+            x	477
+            y	204
+            loop	0
+         end
+      end
+      object stool28268-6 of Stool
+         properties
+            x	498
+            y	191
+            loop	0
+         end
+      end
+#      object Bonfire28263-7 of Bonfire
+#         properties
+#            x	471
+#            y	287
+#         end
+#      end
+#      object Bonfire28263-8 of Bonfire
+#         properties
+#            x	605
+#            y	176
+#         end
+#      end
+   end
+end
+room 28269
+   properties
+#      picture	3034
+      picture	3031
+      north	28268 
+      east	28259 
+   end
+   atpinfo
+      5708  610 241
+      7904  -18 264
+      5709  305 100
+      5714  42 71
+      7904  68 181
+      7904  129 142
+      7904  168 115
+      7904  204 88
+      7900  123 48 -25
+5721  256 282
+   end
+   objects
+      object tent28269-0 of Tent
+         properties
+            x	490
+            y	181
+            loop	0
+         end
+         base described
+            text        "This is a swimwear tent."
+         end
+         base entry
+            room        28274
+            startingLoop        0
+            endingLoop  0
+            startingX   330
+            startingY   500
+            endingX     330
+            endingY     300
+         end
+      end
+      object stool28269-3 of Stool
+         properties
+            x	576
+            y	162
+            loop	0
+         end
+      end
+      object stool28269-5 of Stool
+         properties
+            x	457
+            y	199
+            loop	0
+         end
+      end
+#      object Bonfire28269-2 of Bonfire
+#         properties
+#            x	256
+#            y	282
+#         end
+#      end
+   end
+end
+room 28270
+   properties
+      picture	3034
+      south	28271 
+      west	28258 
+      flags	2
+   end
+   atpinfo
+      5708  271 133
+      38479  586 215 150
+      40672  666 269
+      40672  575 192
+      40672  541 176
+      40672  496 148
+      40672  454 126
+      40672  424 82
+      7900  706 172
+      7900  555 82
+      7900  622 122
+#5721  243 290
+   end
+   objects
+      object tent28270-1 of Tent
+         properties
+            x	149
+            y	205
+            loop	0
+         end
+         base described
+            text        "This is a swimwear tent."
+         end
+         base entry
+            room        28275
+            startingLoop        0
+            endingLoop  0
+            startingX   330
+            startingY   500
+            endingX     330
+            endingY     300
+         end
+      end
+      object stool28270-2 of Stool
+         properties
+            x	209
+            y	222
+            loop	0
+         end
+      end
+      object stool28270-3 of Stool
+         properties
+            x	70
+            y	184
+            loop	0
+         end
+      end
+      object stool28270-4 of Stool
+         properties
+            x	254
+            y	164
+            loop	0
+         end
+      end
+      object stool28270-5 of Stool
+         properties
+            x	84
+            y	277
+            loop	0
+         end
+      end
+      object tent28270-6 of Tent
+         properties
+            x	59
+            y	105
+            loop	0
+         end
+         base described
+            text        "This is a swimwear tent."
+         end
+         base entry
+            room        28276
+            startingLoop        0
+            endingLoop  0
+            startingX   330
+            startingY   500
+            endingX     330
+            endingY     300
+         end
+      end
+      object Bonfire28270-7 of Bonfire
+         properties
+            x	243
+            y	290
+         end
+      end
+   end
+end
+room 28271
+   properties
+      picture	3034
+      north	28270 
+      west	28267 
+      flags	2
+   end
+   atpinfo
+      38479  583 65
+      38479  647 165 100
+      40672  632 179 -100
+      40672  600 127 -100
+      40672  529 74 -100
+      40672  447 4 -100
+      7900  577 2 -100
+      7900  630 29 -100
+      7900  677 70 -100
+#5721  141 250
+   end
+   objects
+      object tent28271-0 of Tent
+         properties
+            x	91
+            y	130
+            loop	0
+         end
+         base described
+            text        "This is a swimwear tent."
+         end
+         base entry
+            room        28277
+            startingLoop        0
+            endingLoop  0
+            startingX   330
+            startingY   500
+            endingX     330
+            endingY     300
+         end
+      end
+      object stool28271-1 of Stool
+         properties
+            x	57
+            y	141
+            loop	0
+         end
+      end
+      object stool28271-2 of Stool
+         properties
+            x	42
+            y	124
+            loop	0
+         end
+      end
+      object stool28271-3 of Stool
+         properties
+            x	151
+            y	119
+            loop	0
+         end
+      end
+      object stool28271-4 of Stool
+         properties
+            x	45
+            y	134
+            loop	0
+         end
+      end
+      object Bonfire28271-5 of Bonfire
+         properties
+            x	141
+            y	250
+         end
+      end
+   end
+end
+room 28250
+   properties
+#      picture	3035
+      picture	3032
+      south	28259 
+      east	28251 
+      west	28268 
+      flags	2
+   end
+   atpinfo
+      7900  130 149
+      7900  306 149
+      7900  500 149
+      5718  -2 218 -15
+      5711  133 264 200
+      5712  218 64
+      5715  491 183 100
+5721  444 296
+      5721  169 215
+   end
+#   objects
+#      object stoneBench28250-0 of StoneBench
+#         properties
+#            x	245
+#            y	199
+#            loop	1
+#         end
+#      end
+#      object stoneBench28250-1 of StoneBench
+#         properties
+#            x	579
+#            y	271
+#            loop	1
+#         end
+#      end
+#      object stoneBench28250-2 of StoneBench
+#         properties
+#            x	283
+#            y	231
+#            loop	1
+#         end
+#      end
+#      object stoneBench28250-4 of StoneBench
+#         properties
+#            x	164
+#            y	259
+#            loop	0
+#         end
+#      end
+#      object stoneBench28250-5 of StoneBench
+#         properties
+#            x	406
+#            y	258
+#            loop	0
+#         end
+#      end
+#      object Bonfire28250-6 of Bonfire
+#         properties
+#            x	444
+#            y	296
+#         end
+#      end
+#      object Bonfire28250-7 of Bonfire
+#         properties
+#            x	169
+#            y	215
+#         end
+#      end
+#   end
+end
+room 28251
+   properties
+#      picture	3035
+      picture	3032
+      south	28260 
+      east	28252 
+      west	28250 
+   end
+   atpinfo
+      7900  500 149
+      7900  130 149
+      7900  306 149
+      5712  202 264 200
+      38480  621 264 200
+      5711  548 64
+      5717  93 220 -15
+      5700  616 189
+5721  455 302
+      5721  231 213
+   end
+#   objects
+#      object stoneBench28251-0 of StoneBench
+#         properties
+#            x	323
+#            y	195
+#            loop	1
+#         end
+#      end
+#      object stoneBench28251-1 of StoneBench
+#         properties
+#            x	247
+#            y	186
+#            loop	0
+#         end
+#      end
+#      object stoneBench28251-2 of StoneBench
+#         properties
+#            x	209
+#            y	201
+#            loop	0
+#         end
+#      end
+#      object Bonfire28251-3 of Bonfire
+#         properties
+#            x	455
+#            y	302
+#         end
+#      end
+#      object Bonfire28251-4 of Bonfire
+#         properties
+#            x	231
+#            y	213
+#         end
+#      end
+#   end
+end
+room 28252
+   properties
+#      picture	3035
+      picture	3032
+      south	28261 
+      east	28253 
+      west	28251 
+      flags	2
+   end
+   atpinfo
+      7900  500 149
+      7900  130 149
+      7900  306 149
+      5713  310 314 250
+      5711  380 64
+      5711  270 214 150
+      5712  52 314 250
+      5714  516 182 100
+      38482  551 82
+      5708  393 206
+5721  23 209
+      5721  220 312
+      5721  596 234
+   end
+#   objects
+#      object Bonfire28252-0 of Bonfire
+#         properties
+#            x	23
+#            y	209
+#         end
+#      end
+#      object Bonfire28252-1 of Bonfire
+#         properties
+#            x	220
+#            y	312
+#         end
+#      end
+#      object Bonfire28252-2 of Bonfire
+#         properties
+#            x	596
+#            y	234
+#         end
+#      end
+#   end
+end
+room 28253
+   properties
+      picture	3404
+      north	16649
+      south	28262 
+      east	28254 
+      west	28252 
+   end
+   atpinfo
+      1571  412 124
+      1572  144 127
+      1573  526 109
+      1572  274 123
+      1522  528 113
+      1521  22 137
+      1573  333 106
+      1522  91 132
+      2742  103 123
+      176  -12 94
+      35510  627 105
+      175  283 98
+      177  240 103
+      35510  19 125
+      176  480 90
+      32932  456 106
+      1570  -128 131
+#5721  100 201
+#      5721  310 290
+   end
+#   objects
+#      object Bonfire28253-0 of Bonfire
+#         properties
+#            x	100
+#            y	201
+#         end
+#      end
+#      object Bonfire28253-1 of Bonfire
+#         properties
+#            x	310
+#            y	290
+#         end
+#      end
+#   end
+end
+room 28254
+   properties
+      picture	3035
+      south	28263 
+      east	28255 
+      west	28253 
+      flags	2
+   end
+   atpinfo
+      7900  500 149
+      7900  130 149
+      7900  306 149
+      5712  133 314 250
+      38480  48 164 100
+	5720  552 186 -15
+	5705  438 108 -100
+	5717  47 248 -15
+   end
+end
+room 28255
+   properties
+      picture	3035
+      south	28264 
+      east	28256 
+      west	28254 
+   end
+   atpinfo
+      7900  500 149
+      7900  130 149
+      7900  306 149
+      5713  175 314 250
+      5714  68 233 150
+      5714  416 76
+      5715  6 74
+      5709  427 216
+      5708  20 186
+#5721  554 288
+   end
+   objects
+      object Bonfire28255-0 of Bonfire
+         properties
+            x	554
+            y	288
+         end
+      end
+   end
+end
+room 28256
+   properties
+      picture	3035
+      south	28265 
+      east	28257 
+      west	28255 
+      flags	2
+   end
+   atpinfo
+      7900  500 149
+      7900  130 149
+      7900  306 149
+      5711  105 264 200
+      5711  192 64
+      38479  662 264 200
+      38480  482 64
+      5712  548 214 150
+#5721  83 193
+#      5721  510 199
+#      5721  307 217
+   end
+   objects
+      object stoneBench28256-0 of StoneBench
+         properties
+            x	64
+            y	193
+            loop	0
+         end
+      end
+      object stoneBench28256-1 of StoneBench
+         properties
+            x	162
+            y	195
+            loop	1
+         end
+      end
+      object stoneBench28256-3 of StoneBench
+         properties
+            x	281
+            y	212
+            loop	0
+         end
+      end
+      object stoneBench28256-4 of StoneBench
+         properties
+            x	398
+            y	215
+            loop	1
+         end
+      end
+      object stoneBench28256-6 of StoneBench
+         properties
+            x	487
+            y	194
+            loop	0
+         end
+      end
+      object stoneBench28256-7 of StoneBench
+         properties
+            x	590
+            y	198
+            loop	1
+         end
+      end
+      object Bonfire28256-8 of Bonfire
+         properties
+            x	83
+            y	193
+         end
+      end
+      object Bonfire28256-9 of Bonfire
+         properties
+            x	510
+            y	199
+         end
+      end
+      object Bonfire28256-10 of Bonfire
+         properties
+            x	307
+            y	217
+         end
+      end
+   end
+end
+room 28257
+   properties
+      picture	3035
+      south	28266 
+      east	28258 
+      west	28256 
+   end
+   atpinfo
+      7900  500 149
+      7900  130 149
+      7900  306 149
+      5711  378 164 100
+      5711  301 314 250
+      5711  314 156 100
+      5711  628 164 100
+      5716  592 272 -15
+      5717  618 208 -15
+#5721  231 212
+   end
+   objects
+      object stoneBench28257-0 of StoneBench
+         properties
+            x	194
+            y	212
+            loop	0
+         end
+      end
+      object stoneBench28257-2 of StoneBench
+         properties
+            x	328
+            y	211
+            loop	1
+         end
+      end
+      object Bonfire28257-2 of Bonfire
+         properties
+            x	231
+            y	212
+         end
+      end
+   end
+end
+room 28258
+   properties
+      picture	3035
+      south	28267 
+      east	28270 
+      west	28257 
+      flags	2
+   end
+   atpinfo
+      7900  500 149
+      7900  130 149
+      7900  306 149
+      5712  18 64
+      5712  606 314 250
+      5712  502 64
+      5717  -8 201 -15
+      5716  -48 291
+#5721  430 266
+#      5721  119 223
+   end
+   objects
+      object stoneBench28258-0 of StoneBench
+         properties
+            x	478
+            y	202
+            loop	1
+         end
+      end
+      object stoneBench28258-1 of StoneBench
+         properties
+            x	529
+            y	226
+            loop	1
+         end
+      end
+      object stoneBench28258-2 of StoneBench
+         properties
+            x	426
+            y	225
+            loop	0
+         end
+      end
+      object stoneBench28258-3 of StoneBench
+         properties
+            x	389
+            y	249
+            loop	0
+         end
+      end
+      object stoneBench28258-4 of StoneBench
+         properties
+            x	572
+            y	251
+            loop	1
+         end
+      end
+      object stoneBench28258-5 of StoneBench
+         properties
+            x	155
+            y	185
+            loop	0
+         end
+      end
+      object stoneBench28258-6 of StoneBench
+         properties
+            x	204
+            y	198
+            loop	1
+         end
+      end
+      object stoneBench28258-7 of StoneBench
+         properties
+            x	223
+            y	232
+            loop	1
+         end
+      end
+      object stoneBench28258-8 of StoneBench
+         properties
+            x	107
+            y	198
+            loop	0
+         end
+      end
+      object stoneBench28258-9 of StoneBench
+         properties
+            x	77
+            y	228
+            loop	0
+         end
+      end
+      object Bonfire28258-10 of Bonfire
+         properties
+            x	430
+            y	266
+         end
+      end
+      object Bonfire28258-11 of Bonfire
+         properties
+            x	119
+            y	223
+         end
+      end
+   end
+end
+
+room 28272
+   properties
+      picture	4001
+      south	28268 300 250
+      flags	2
+   end
+   atpinfo
+      2106  306 246
+      7901  322 226
+      32782  90 258
+      14  564 258
+      3  163 238
+      3  143 247
+      3  122 257
+      3  102 265
+      3  84 273
+      3  65 281
+      3  51 291
+      3  37 304
+      3  23 317
+      3  501 245
+      3  519 253
+      3  538 262
+      3  556 270
+      3  574 278
+      3  594 287
+      3  610 297
+      3  626 308
+      3  263 222
+      3  347 234
+      3  348 219
+      3  263 234
+   end
+   objects
+      object Brendan28272-3 of Shop
+         properties
+            x   306
+            y   236
+            loop        2
+            name        "Brendan"
+            girth       100
+            height      100
+         end
+         base character
+            sex 0
+            properName  "Brendan (NPC)"
+         end
+         base described
+            text        "Brendan, the merchant.\n\n"
+         end
+         base container
+            head        0 2 0 7 0 0 -1 2 7 0 4 0
+            worn        GrayBoots
+            worn        SwimsuitMale1Jade
+            worn        WhiteBelt
+         end
+         base shop
+            buyMarkup   50
+            sellMarkup  100
+            inventory
+               category "Male Swimsuits" 51583
+                  object SwimsuitMale1Brown
+                  object SwimsuitMale1Amber
+                  object SwimsuitMale1Royal
+                  object SwimsuitMale1Magenta
+                  object SwimsuitMale1Red
+		  object SwimsuitMale1Olive
+                  object SwimsuitMale1Teal
+                  object SwimsuitMale1Pink
+		  object SwimsuitMale1White
+                  object SwimsuitMale1Jade
+                  object SwimsuitMale1Black
+		  object SwimsuitMale1Gold
+                  object SwimsuitMale1Blue
+               end
+            end
+         end
+      end
+   end
+end
+
+room 28273
+   properties
+      picture   4001
+      south     28268 300 250
+      flags     2
+   end
+   atpinfo
+      2106  306 246
+      7901  322 226
+      32782  90 258
+      14  564 258
+      3  163 238
+      3  143 247
+      3  122 257
+      3  102 265
+      3  84 273
+      3  65 281
+      3  51 291
+      3  37 304
+      3  23 317
+      3  501 245
+      3  519 253
+      3  538 262
+      3  556 270
+      3  574 278
+      3  594 287
+      3  610 297
+      3  626 308
+      3  263 222
+      3  347 234
+      3  348 219
+      3  263 234
+   end
+   objects
+      object Julia28273-3 of Shop
+         properties
+            x   306
+            y   236
+            loop        2
+            name        "Julia"
+            girth       100
+            height      100
+         end
+         base character
+            sex 1
+            properName  "Julia (NPC)"
+         end
+         base described
+            text        "Julia, the merchant.\n\n"
+         end
+         base container
+            head        1 2 0 7 0 0 -1 2 7 0 4 0
+            worn        GrayBoots
+            worn        SwimsuitFemale1Royal
+            worn        WhiteBelt
+         end
+         base shop
+            buyMarkup   50
+            sellMarkup  100
+            inventory
+               category "Female Swimsuits" 51583
+                  object SwimsuitFemale1Brown
+                  object SwimsuitFemale1Amber
+                  object SwimsuitFemale1Royal
+                  object SwimsuitFemale1Magenta
+                  object SwimsuitFemale1Red
+		  object SwimsuitFemale1Olive
+                  object SwimsuitFemale1Teal
+                  object SwimsuitFemale1Pink
+		  object SwimsuitFemale1White
+                  object SwimsuitFemale1Jade
+                  object SwimsuitFemale1Black
+		  object SwimsuitFemale1Gold
+                  object SwimsuitFemale1Blue
+               end
+            end
+         end
+      end
+   end
+end
+
+room 28274
+   properties
+      picture   4001
+      south     28269 300 250
+      flags     2
+   end
+   atpinfo
+      2106  306 246
+      7901  322 226
+      32782  90 258
+      14  564 258
+      3  163 238
+      3  143 247
+      3  122 257
+      3  102 265
+      3  84 273
+      3  65 281
+      3  51 291
+      3  37 304
+      3  23 317
+      3  501 245
+      3  519 253
+      3  538 262
+      3  556 270
+      3  574 278
+      3  594 287
+      3  610 297
+      3  626 308
+      3  263 222
+      3  347 234
+      3  348 219
+      3  263 234
+   end
+   objects
+      object Shane28274-3 of Shop
+         properties
+            x   306
+            y   236
+            loop        2
+            name        "Shane"
+            girth       100
+            height      100
+         end
+         base character
+            sex 0
+            properName  "Shane (NPC)"
+         end
+         base described
+            text        "Shane, the merchant.\n\n"
+         end
+         base container
+            head        0 2 0 7 0 0 -1 2 9 0 4 0
+            worn        GrayBoots
+            worn        SwimsuitMale1Brown
+            worn        WhiteBelt
+         end
+         base shop
+            buyMarkup   50
+            sellMarkup  100
+            inventory
+               category "Male Swimsuits" 51583
+                  object SwimsuitMale1Brown
+                  object SwimsuitMale1Amber
+                  object SwimsuitMale1Royal
+                  object SwimsuitMale1Magenta
+                  object SwimsuitMale1Red
+		  object SwimsuitMale1Olive
+                  object SwimsuitMale1Teal
+                  object SwimsuitMale1Pink
+		  object SwimsuitMale1White
+                  object SwimsuitMale1Jade
+                  object SwimsuitMale1Black
+		  object SwimsuitMale1Gold
+                  object SwimsuitMale1Blue
+               end
+            end
+         end
+      end
+   end
+end
+
+room 28275
+   properties
+      picture   4001
+      south     28270 300 250
+      flags     2
+   end
+   atpinfo
+      2106  306 246
+      7901  322 226
+      32782  90 258
+      14  564 258
+      3  163 238
+      3  143 247
+      3  122 257
+      3  102 265
+      3  84 273
+      3  65 281
+      3  51 291
+      3  37 304
+      3  23 317
+      3  501 245
+      3  519 253
+      3  538 262
+      3  556 270
+      3  574 278
+      3  594 287
+      3  610 297
+      3  626 308
+      3  263 222
+      3  347 234
+      3  348 219
+      3  263 234
+   end
+   objects
+      object Alexa28275-3 of Shop
+         properties
+            x   306
+            y   236
+            loop        2
+            name        "Alexa"
+            girth       100
+            height      100
+         end
+         base character
+            sex 1
+            properName  "Alexa (NPC)"
+         end
+         base described
+            text        "Alexa, the merchant.\n\n"
+         end
+         base container
+            head        1 2 0 7 0 0 -1 2 2 0 4 0
+            worn        GrayBoots
+            worn        SwimsuitFemale1Amber
+            worn        WhiteBelt
+         end
+         base shop
+            buyMarkup   50
+            sellMarkup  100
+            inventory
+               category "Female Swimsuits" 51583
+                  object SwimsuitFemale1Brown
+                  object SwimsuitFemale1Amber
+                  object SwimsuitFemale1Royal
+                  object SwimsuitFemale1Magenta
+                  object SwimsuitFemale1Red
+		  object SwimsuitFemale1Olive
+                  object SwimsuitFemale1Teal
+                  object SwimsuitFemale1Pink
+		  object SwimsuitFemale1White
+                  object SwimsuitFemale1Jade
+                  object SwimsuitFemale1Black
+		  object SwimsuitFemale1Gold
+                  object SwimsuitFemale1Blue
+               end
+            end
+         end
+      end
+   end
+end
+
+room 28276
+   properties
+      picture   4001
+      south     28270 300 250
+      flags     2
+   end
+   atpinfo
+      2106  306 246
+      7901  322 226
+      32782  90 258
+      14  564 258
+      3  163 238
+      3  143 247
+      3  122 257
+      3  102 265
+      3  84 273
+      3  65 281
+      3  51 291
+      3  37 304
+      3  23 317
+      3  501 245
+      3  519 253
+      3  538 262
+      3  556 270
+      3  574 278
+      3  594 287
+      3  610 297
+      3  626 308
+      3  263 222
+      3  347 234
+      3  348 219
+      3  263 234
+   end
+   objects
+      object Seth28276-3 of Shop
+         properties
+            x   306
+            y   236
+            loop        2
+            name        "Seth"
+            girth       100
+            height      100
+         end
+         base character
+            sex 0
+            properName  "Seth (NPC)"
+         end
+         base described
+            text        "Seth, the merchant.\n\n"
+         end
+         base container
+            head        0 2 0 7 0 0 -1 2 5 0 4 0
+            worn        GrayBoots
+            worn        SwimsuitMale1Red
+            worn        WhiteBelt
+         end
+         base shop
+            buyMarkup   50
+            sellMarkup  100
+            inventory
+               category "Male Swimsuits" 51583
+                  object SwimsuitMale1Brown
+                  object SwimsuitMale1Amber
+                  object SwimsuitMale1Royal
+                  object SwimsuitMale1Magenta
+                  object SwimsuitMale1Red
+		  object SwimsuitMale1Olive
+                  object SwimsuitMale1Teal
+                  object SwimsuitMale1Pink
+		  object SwimsuitMale1White
+                  object SwimsuitMale1Jade
+                  object SwimsuitMale1Black
+		  object SwimsuitMale1Gold
+                  object SwimsuitMale1Blue
+               end
+            end
+         end
+      end
+   end
+end
+
+room 28277
+   properties
+      picture   4001
+      south     28271 300 250
+      flags     2
+   end
+   atpinfo
+      2106  306 246
+      7901  322 226
+      32782  90 258
+      14  564 258
+      3  163 238
+      3  143 247
+      3  122 257
+      3  102 265
+      3  84 273
+      3  65 281
+      3  51 291
+      3  37 304
+      3  23 317
+      3  501 245
+      3  519 253
+      3  538 262
+      3  556 270
+      3  574 278
+      3  594 287
+      3  610 297
+      3  626 308
+      3  263 222
+      3  347 234
+      3  348 219
+      3  263 234
+   end
+   objects
+      object Krista28277-3 of Shop
+         properties
+            x   306
+            y   236
+            loop        2
+            name        "Krista"
+            girth       100
+            height      100
+         end
+         base character
+            sex 1
+            properName  "Krista (NPC)"
+         end
+         base described
+            text        "Krista, the merchant.\n\n"
+         end
+         base container
+            head        1 2 0 7 0 0 -1 2 10 0 4 0
+            worn        GrayBoots
+            worn        SwimsuitFemale1Teal
+            worn        WhiteBelt
+         end
+         base shop
+            buyMarkup   50
+            sellMarkup  100
+            inventory
+               category "Female Swimsuits" 51583
+                  object SwimsuitFemale1Brown
+                  object SwimsuitFemale1Amber
+                  object SwimsuitFemale1Royal
+                  object SwimsuitFemale1Magenta
+                  object SwimsuitFemale1Red
+		  object SwimsuitFemale1Olive
+                  object SwimsuitFemale1Teal
+                  object SwimsuitFemale1Pink
+		  object SwimsuitFemale1White
+                  object SwimsuitFemale1Jade
+                  object SwimsuitFemale1Black
+		  object SwimsuitFemale1Gold
+                  object SwimsuitFemale1Blue
+               end
+            end
+         end
+      end
+   end
+end

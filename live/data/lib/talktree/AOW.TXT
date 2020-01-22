@@ -1,0 +1,38 @@
+id 77277
+
+banner "Item Upgrade: Melee Amulets"
+
+topic "What's going on here?"
+        text "Oh, funny you should ask.."
+        text "I can empower your amulet to increase its power significantly."
+end
+
+topic "Amulet of War"
+	quest 88882
+	text "I've nothing for you today. Come back some other time and ask me again."
+end
+
+topic "Amulet of Sneaking"
+	quest 88881
+	text "I've nothing for you today. Come back some other time and ask me again."
+end
+
+topic "Amulet of Adventure"
+	quest 88883
+	text "I've nothing for you today. Come back some other time and ask me again."
+end
+
+topic "Level Three"
+	quest 88884
+	text "I've nothing for you today. Come back some other time and ask me again."
+end
+
+topic "Level Four"
+	quest 88885
+	text "I've nothing for you today. Come back some other time and ask me again."
+end
+
+topic "Level Five"
+	quest 88886
+	text "I've nothing for you today. Come back some other time and ask me again."
+end

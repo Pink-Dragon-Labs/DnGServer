@@ -1,0 +1,848 @@
+#-------------------------------------------God Weapons--------------------------------
+#God Dagger
+object GodDagger of AdmantiumClaw
+	properties
+	special
+		name "God Claw"
+		value 1000
+		health 1000
+		level 1001
+		color 176
+		strength 5
+		
+		affect 0 0 0 -1			# Normal Dmg
+		affect 1 0 0 -1			# Fire
+		affect 2 0 0 -1			# Cold
+		affect 3 0 0 -1			# Lightning
+		damageType 2		#Bludgeon	
+	end
+
+	base described
+		text "This is a God Weapon you should not be reading this."
+		shopText "This dagger may bug you."
+	end
+
+	base carryable
+		weight 50.0
+	end
+
+	base weapon
+		minDamage 250
+		maxDamage 320
+		range 20		
+		damageType 2 	#Same type as Two-Handed Sword		
+		mask human
+		mask elf
+		mask giant
+	end
+
+end
+#--Despothes Armor----------Despothes Armor----------Despothes Armor--------Despothes Armor---------
+object DesBoots of HighBoots
+	properties
+	special
+		name "Despothes Boots"
+		value 1
+		armor 100
+		health 400
+		color 40
+		level 1001
+		special
+	end
+
+	base carryable
+		weight 2.5
+	end
+
+	base described
+		text "You see a pair of Despothes Boots."
+		idText "You see a pair of Despothes Boots.\nLevel 1001\n"
+		shopText "Despothes Boots.\nLevel 1001\n"
+	end
+end
+#-------------------------------------------Despothes Wristbands
+object DesWrist of Wristband
+	properties
+	special
+		name "Despothes Wristbands"
+		value 1
+		armor 100		
+		health 400
+		color 40
+		level 1001		
+		strength 2
+	end
+
+	base carryable
+		weight 1.5
+	end
+
+	base described
+		text "You see a pair of Despothes wristbands."
+	end
+end
+#--------------------------------------------- Despothes Shirt
+object DesPlate of Shirt
+	properties
+	special
+		name "Despothes Shirt"
+		color 40              # Black Glow
+		value 3500
+		health 1500
+		armor 100
+		level 1001
+	end
+
+	base carryable
+		weight 1.5
+	end
+	
+	base described
+		text "You see a chest plate made from Dead Bones."
+		idText "You see the Despothes Shirt."
+		shopText "This Despothes Shirt will protect you quite well if you are strong enough to wear it."
+	end
+end
+
+#-------------------------------------------Despothes Pants
+object DesPants of Pants
+	properties
+	special
+		name "Despothes Pants"
+		color 40              # Black Glow
+		value 1
+		health 1500
+		armor 100
+		level 1001
+	end
+
+	base carryable
+		weight 1
+	end
+
+	base described
+		text "Despothes Pants."
+		idText "Despothes Pants.\n"
+		shopText "What are these made of?!."
+	end
+
+end
+#---------------------------------------Despothes Cowl
+object DesCowl of ChainCowl
+	properties
+	special
+		name "Despothes Cowl"
+		value 1
+		health 1500
+		armor 100			
+		color 40
+		level 1001
+	end
+
+	base carryable
+		weight 3.0
+	end
+	
+	base described
+		text "This metal feels light as air."
+		idText "This cowl once belonged to an Despothes, salvaged by a museum, how you came to find it is a mystery. This light, but sturdy cowl will grant you considerable Dexterity as well as an Intelligence boost. \n This cowl requires a wearer of level 550 or higher.\n "
+		shopText "This weighs almost nothing! What is thise made of?"
+	end
+end
+#-----------------------------------------------Despothes Robe
+object DesRobe of Robe
+	properties
+	special
+                name "Despothes Robe"
+                value 150000
+                color 40
+                armorFlat    10
+                armorPercent 20
+                level 10
+	end
+
+	base described
+                text "You see a Despothes Robe."
+                shopText "The uses of this robe don't stop at the shower."
+	end
+end
+#------------------------------------------------------------Despothes Belt
+object DesBelt of Belt
+	properties
+		name "Despothes's Belt"
+		value 7500
+		health 150
+		color 43
+		special
+	end
+
+	base described
+		idText "Despothes's Belt makes his pants stay on."
+		shopText "This is Despothes's Belt."
+	end
+end
+#--Mabon Armor----------Mabon Armor----------Mabon Armor--------Mabon Armor---------
+object MabBoots of HighBoots
+	properties
+	special
+		name "Mabon Boots"
+		value 1
+		armor 100
+		health 1160
+		color 116
+		level 1001
+		special
+	end
+
+	base carryable
+		weight 2.5
+	end
+
+	base described
+		text "You see a pair of Mabon Boots."
+		idText "You see a pair of Mabon Boots.\nLevel 1001\n"
+		shopText "Mabon Boots.\nLevel 1001\n"
+	end
+end
+#-------------------------------------------Mabon Wristbands
+object MabWrist of Wristband
+	properties
+	special
+		name "Mabon Wristbands"
+		value 1
+		armor 100		
+		health 1160
+		color 116
+		level 1001		
+		strength 2
+	end
+
+	base carryable
+		weight 1.5
+	end
+
+	base described
+		text "You see a pair of Mabon wristbands."
+	end
+end
+#--------------------------------------------- Mabon Shirt
+object MabPlate of Shirt
+	properties
+	special
+		name "Mabon Shirt"
+		color 116              # Black Glow
+		value 3500
+		health 1500
+		armor 100
+		level 1001
+	end
+
+	base carryable
+		weight 1.5
+	end
+	
+	base described
+		text "You see a chest plate made from Dead Bones."
+		idText "You see the Mabon Shirt."
+		shopText "This Mabon Shirt will protect you quite well if you are strong enough to wear it."
+	end
+end
+
+#-------------------------------------------Mabon Pants
+object MabPants of Pants
+	properties
+	special
+		name "Mabon Pants"
+		color 116              # Black Glow
+		value 1
+		health 1500
+		armor 100
+		level 1001
+	end
+
+	base carryable
+		weight 1
+	end
+
+	base described
+		text "Mabon Pants."
+		idText "Mabon Pants.\n"
+		shopText "What are these made of?!."
+	end
+
+end
+#---------------------------------------Mabon Cowl
+object MabCowl of ChainCowl
+	properties
+	special
+		name "Mabon Cowl"
+		value 1
+		health 1500
+		armor 100			
+		color 116
+		level 1001
+	end
+
+	base carryable
+		weight 3.0
+	end
+	
+	base described
+		text "This metal feels light as air."
+		idText "This cowl once belonged to an Mabon, salvaged by a museum, how you came to find it is a mystery. This light, but sturdy cowl will grant you considerable Dexterity as well as an Intelligence boost. \n This cowl requires a wearer of level 550 or higher.\n "
+		shopText "This weighs almost nothing! What is thise made of?"
+	end
+end
+#-----------------------------------------------Mabon Robe
+object MabRobe of Robe
+	properties
+	special
+                name "Mabon Robe"
+                value 150000
+                color 116
+                armorFlat    10
+                armorPercent 20
+                level 10
+	end
+
+	base described
+                text "You see a Mabon Robe."
+                shopText "The uses of this robe don't stop at the shower."
+	end
+end
+#------------------------------------------------------------Mabon Belt
+object MabBelt of Belt
+	properties
+		name "Mabon's Belt"
+		value 7500
+		health 150
+		color 43
+		special
+	end
+
+	base described
+		idText "Mabon's Belt makes his pants stay on."
+		shopText "This is Mabon's Belt."
+	end
+end
+#--Duach Armor----------Duach Armor----------Duach Armor--------Duach Armor---------
+object DuaBoots of LowBoots
+	properties
+	special
+		name "Duach Boots"
+		value 1
+		armor 100
+		health 1160
+		color 40
+		level 1001
+		special
+	end
+
+	base carryable
+		weight 2.5
+	end
+
+	base described
+		text "You see a pair of Duach Boots."
+		idText "You see a pair of Duach Boots.\nLevel 1001\n"
+		shopText "Duach Boots.\nLevel 1001\n"
+	end
+end
+#-------------------------------------------Duach Wristbands
+object DuaWrist of Wristband
+	properties
+	special
+		name "Duach Wristbands"
+		value 1
+		armor 100		
+		health 1160
+		color 40
+		level 1001		
+		strength 2
+	end
+
+	base carryable
+		weight 1.5
+	end
+
+	base described
+		text "You see a pair of Duach wristbands."
+	end
+end
+#--------------------------------------------- Duach Shirt
+object DuaPlate of PlateTunic
+	properties
+	special
+		name "Duach Shirt"
+		color 114              # Black Glow
+		value 3500
+		health 1500
+		armor 100
+		level 1001
+	end
+
+	base carryable
+		weight 1.5
+	end
+	
+	base described
+		text "You see a chest plate made from Dead Bones."
+		idText "You see the Duach Shirt."
+		shopText "This Duach Shirt will protect you quite well if you are strong enough to wear it."
+	end
+end
+
+#-------------------------------------------Duach Pants
+object DuaPants of Pants
+	properties
+	special
+		name "Duach Pants"
+		color 40              # Black Glow
+		value 1
+		health 1500
+		armor 100
+		level 1001
+	end
+
+	base carryable
+		weight 1
+	end
+
+	base described
+		text "Duach Pants."
+		idText "Duach Pants.\n"
+		shopText "What are these made of?!."
+	end
+
+end
+#---------------------------------------Duach Cowl
+object DuaCowl of ChainCowl
+	properties
+	special
+		name "Duach Cowl"
+		value 1
+		health 1500
+		armor 100			
+		color 116
+		level 1001
+	end
+
+	base carryable
+		weight 3.0
+	end
+	
+	base described
+		text "This metal feels light as air."
+		idText "This cowl once belonged to an Duach, salvaged by a museum, how you came to find it is a mystery. This light, but sturdy cowl will grant you considerable Dexterity as well as an Intelligence boost. \n This cowl requires a wearer of level 550 or higher.\n "
+		shopText "This weighs almost nothing! What is thise made of?"
+	end
+end
+#------------------------------------------------------------Duach Belt
+object DuaBelt of Belt
+	properties
+		name "Duach's Belt"
+		value 7500
+		health 150
+		color 43
+		special
+	end
+
+	base described
+		idText "Duach's Belt makes his pants stay on."
+		shopText "This is Duach's Belt."
+	end
+end
+#--Finvarra Armor----------Finvarra Armor----------Finvarra Armor--------Finvarra Armor---------
+object FinBoots of HighBoots
+	properties
+	special
+		name "Finvarra Boots"
+		value 1
+		armor 100
+		health 1160
+		color 115
+		level 1001
+		special
+	end
+
+	base carryable
+		weight 2.5
+	end
+
+	base described
+		text "You see a pair of Finvarra Boots."
+		idText "You see a pair of Finvarra Boots.\nLevel 1001\n"
+		shopText "Finvarra Boots.\nLevel 1001\n"
+	end
+end
+#-------------------------------------------Finvarra Wristbands
+object FinWrist of Wristband
+	properties
+	special
+		name "Finvarra Wristbands"
+		value 1
+		armor 100		
+		health 1160
+		color 115
+		level 1001		
+		strength 2
+	end
+
+	base carryable
+		weight 1.5
+	end
+
+	base described
+		text "You see a pair of Finvarra wristbands."
+	end
+end
+
+#-------------------------------------------Finvarra Pants
+object FinPants of Pants
+	properties
+	special
+		name "Finvarra Pants"
+		color 21              
+		value 1
+		health 1500
+		armor 100
+		level 1001
+	end
+
+	base carryable
+		weight 1
+	end
+
+	base described
+		text "Finvarra Pants."
+		idText "Finvarra Pants.\n"
+		shopText "What are these made of?!."
+	end
+
+end
+#---------------------------------------Finvarra Cowl
+object FinCowl of ChainCowl
+	properties
+	special
+		name "Finvarra Cowl"
+		value 1
+		health 1500
+		armor 100			
+		color 116
+		level 1001
+	end
+
+	base carryable
+		weight 3.0
+	end
+	
+	base described
+		text "This metal feels light as air."
+		idText "This cowl once belonged to an Finvarra, salvaged by a museum, how you came to find it is a mystery. This light, but sturdy cowl will grant you considerable Dexterity as well as an Intelligence boost. \n This cowl requires a wearer of level 550 or higher.\n "
+		shopText "This weighs almost nothing! What is thise made of?"
+	end
+end
+
+#------------------------------------------------------------Finvarra Belt
+object FinBelt of Belt
+	properties
+		name "Finvarra's Belt"
+		value 7500
+		health 150
+		color 101
+		special
+	end
+
+	base described
+		idText "Finvarra's Belt makes his pants stay on."
+		shopText "This is Finvarra's Belt."
+	end
+end
+#--Enid Armor----------Enid Armor----------Enid Armor--------Enid Armor---------
+object EniBoots of HighBoots
+	properties
+	special
+		name "Enid Boots"
+		value 1
+		armor 100
+		health 400
+		color 41
+		level 1001
+		special
+	end
+
+	base carryable
+		weight 2.5
+	end
+
+	base described
+		text "You see a pair of Enid Boots."
+		idText "You see a pair of Enid Boots.\nLevel 1001\n"
+		shopText "Enid Boots.\nLevel 1001\n"
+	end
+end
+#-------------------------------------------Enid Wristbands
+object EniWrist of Wristband
+	properties
+	special
+		name "Enid Wristbands"
+		value 1
+		armor 100		
+		health 400
+		color 41
+		level 1001		
+		strength 2
+	end
+
+	base carryable
+		weight 1.5
+	end
+
+	base described
+		text "You see a pair of Enid wristbands."
+	end
+end
+#--------------------------------------------- Enid Shirt
+object EniPlate of Shirt
+	properties
+	special
+		name "Enid Shirt"
+		color 41              # Black Glow
+		value 3500
+		health 1500
+		armor 100
+		level 1001
+	end
+
+	base carryable
+		weight 1.5
+	end
+	
+	base described
+		text "You see a chest plate maEni from Eniad Bones."
+		idText "You see the Enid Shirt."
+		shopText "This Enid Shirt will protect you quite well if you are strong enough to wear it."
+	end
+end
+
+#-------------------------------------------Enid Pants
+object EniPants of Pants
+	properties
+	special
+		name "Enid Pants"
+		color 41              # Black Glow
+		value 1
+		health 1500
+		armor 100
+		level 1001
+	end
+
+	base carryable
+		weight 1
+	end
+
+	base described
+		text "Enid Pants."
+		idText "Enid Pants.\n"
+		shopText "What are these maEni of?!."
+	end
+
+end
+#---------------------------------------Enid Cowl
+object EniCowl of ChainCowl
+	properties
+	special
+		name "Enid Cowl"
+		value 1
+		health 1500
+		armor 100			
+		color 41
+		level 1001
+	end
+
+	base carryable
+		weight 3.0
+	end
+	
+	base described
+		text "This metal feels light as air."
+		idText "This cowl once belonged to an Enid, salvaged by a museum, how you came to find it is a mystery. This light, but sturdy cowl will grant you consiEnirable Enixterity as well as an Intelligence boost. \n This cowl requires a wearer of level 550 or higher.\n "
+		shopText "This weighs almost nothing! What is thise maEni of?"
+	end
+end
+#-----------------------------------------------Enid Skirt
+object EniSkirt of LeatherLongSkirt
+	properties
+	special
+                name "Enid Skirt"
+                value 150000
+                color 41
+                armorFlat    10
+                armorPercent 20
+                level 10
+	end
+
+	base described
+                text "You see a Enid Skirt."
+                shopText "The uses of this Skirt don't stop at the shower."
+	end
+end
+#------------------------------------------------------------Enid Belt
+object EniBelt of Belt
+	properties
+		name "Enid's Belt"
+		value 7500
+		health 150
+		color 169
+		special
+	end
+
+	base described
+		idText "Enid's Belt makes his pants stay on."
+		shopText "This is Enid's Belt."
+	end
+end
+#--Elphame Armor----------Elphame Armor----------Elphame Armor--------Elphame Armor---------
+object ElpBoots of HighBoots
+	properties
+	special
+		name "Elphame Boots"
+		value 1
+		armor 100
+		health 400
+		color 39
+		level 1001
+		special
+	end
+
+	base carryable
+		weight 2.5
+	end
+
+	base described
+		text "You see a pair of Elphame Boots."
+		idText "You see a pair of Elphame Boots.\nLevel 1001\n"
+		shopText "Elphame Boots.\nLevel 1001\n"
+	end
+end
+#-------------------------------------------Elphame Wristbands
+object ElpWrist of Wristband
+	properties
+	special
+		name "Elphame Wristbands"
+		value 1
+		armor 100		
+		health 400
+		color 39
+		level 1001		
+		strength 2
+	end
+
+	base carryable
+		weight 1.5
+	end
+
+	base described
+		text "You see a pair of Elphame wristbands."
+	end
+end
+#--------------------------------------------- Elphame Shirt
+object ElpPlate of Shirt
+	properties
+	special
+		name "Elphame Shirt"
+		color 39              # Black Glow
+		value 3500
+		health 1500
+		armor 100
+		level 1001
+	end
+
+	base carryable
+		weight 1.5
+	end
+	
+	base described
+		text "You see a chest plate maElp from Elpad Bones."
+		idText "You see the Elphame Shirt."
+		shopText "This Elphame Shirt will protect you quite well if you are strong enough to wear it."
+	end
+end
+
+#-------------------------------------------Elphame Pants
+object ElpPants of Pants
+	properties
+	special
+		name "Elphame Pants"
+		color 39              # Black Glow
+		value 1
+		health 1500
+		armor 100
+		level 1001
+	end
+
+	base carryable
+		weight 1
+	end
+
+	base described
+		text "Elphame Pants."
+		idText "Elphame Pants.\n"
+		shopText "What are these maElp of?!."
+	end
+
+end
+#---------------------------------------Elphame Cowl
+object ElpCowl of ChainCowl
+	properties
+	special
+		name "Elphame Cowl"
+		value 1
+		health 1500
+		armor 100			
+		color 106   #org 6
+		level 1001
+	end
+
+	base carryable
+		weight 3.0
+	end
+	
+	base described
+		text "This metal feels light as air."
+		idText "This cowl once belonged to an Elphame, salvaged by a museum, how you came to find it is a mystery. This light, but sturdy cowl will grant you consiElprable Elpxterity as well as an Intelligence boost. \n This cowl requires a wearer of level 550 or higher.\n "
+		shopText "This weighs almost nothing! What is thise maElp of?"
+	end
+end
+#-----------------------------------------------Elphame Skirt
+object ElpSkirt of LeatherLongSkirt
+	properties
+	special
+                name "Elphame Skirt"
+                value 150000
+                color 39
+                armorFlat    10
+                armorPercent 20
+                level 10
+	end
+
+	base described
+                text "You see a Elphame Skirt."
+                shopText "The uses of this Skirt don't stop at the shower."
+	end
+end
+#------------------------------------------------------------Elphame Belt
+object ElpBelt of Belt
+	properties
+		name "Elphame's Belt"
+		value 7500
+		health 150
+		color 40
+		special
+	end
+
+	base described
+		idText "Elphame's Belt makes his pants stay on."
+		shopText "This is Elphame's Belt."
+	end
+end

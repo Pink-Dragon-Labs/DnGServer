@@ -1,0 +1,176 @@
+object mwBiterE of ThrowingDagger
+	properties
+	special
+		name "The Biter"
+		value 15000
+		health 800
+		color 176
+		level 300
+		# do posion damage
+		caffect 0
+		affect 5 0 0 -1
+	end
+
+	base carryable
+		weight 0.3
+	end
+	
+	actions
+		vBePutOn changeEvilMDMMod dobj 25
+		vBeTakenOff changeEvilMDMMod dobj -25	
+	end
+	
+	base weapon
+		minDamage 40
+		maxDamage 65
+	end
+	
+	base described
+		text "You see a throwing dagger made of a strange metal."
+		idText "You see The Biter, a dangerous-looking magically poisoned throwing dagger, 25% damage against evil.\nLevel 300\n25% Damage against Evil.\nPoison Damage.\n"
+		shopText "This hideous throwing dagger will poison evil victims.\n25% Damage vs Evil.\n"
+	end
+end
+
+object mwBiterG of ThrowingDagger
+	properties
+	special
+		name "The Biter"
+		value 15000
+		health 800
+		color 97
+		level 300
+		
+		# do posion damage
+		caffect 0
+		affect 5 0 0 -1
+	end
+
+	base carryable
+		weight 0.3
+	end
+	
+	actions
+		vBePutOn changeGoodMDMMod dobj 200
+		vBeTakenOff changeGoodMDMMod dobj -200	
+	end
+	
+	base weapon
+		minDamage 40
+		maxDamage 65
+	end
+	
+	base described
+		text "You see a throwing dagger made of a strange metal."
+		idText "You see The Biter, a dangerous-looking magically poisoned throwing dagger, 25% damage against good.\nLevel 300\n25% Damage against Good.\nPoison Damage.\n"
+		shopText "This hideous throwing dagger will poison evil victims.\n25% Damage vs Good.\n"
+	end
+end
+
+# Good / evil Club
+object mwNegotiator of Club
+	properties
+		special
+		name "The Negotiator"
+		value 28500
+		level 300	#same as EA
+		color 176
+		health 900	#EA = 850
+		strength 5	#same as EA
+		# do pure stun damage
+		#caffect 0
+		#affect 13 0 0 -1
+	end
+
+	base weapon 
+		minDamage 105
+		maxDamage 225
+	end	
+
+	base carryable
+		# EA: 175. Increase by 1/4. 
+		weight 150	#200.0
+        # Warriors Only
+        #mask wizard
+        #mask adventurer
+        #mask thief
+	end
+
+	actions
+		vBePutOn changeEvilMDMMod dobj 25
+		vBeTakenOff changeEvilMDMMod dobj -25
+	end
+	
+	base described
+		text "You see a club."
+		idText "The Negotiator, a heavy club of devasting power 25% damage against evil opponents, best used by only the strongest.\n\nLevel Required: 300\n25% Damage vs Evil.\n"
+		shopText "You see The Negotiator.\nLevel Required: 300\n25% Damage vs Evil.\n"
+	end
+end
+
+object mwAgitator of Club
+	properties
+		special
+		name "The Agitator"
+		value 28500
+		level 300	#same as EA
+		color 97
+		health 900	#EA = 850
+		strength 5	#same as EA
+		# do pure stun damage
+		#caffect 0
+		#affect 13 0 0 -1
+	end
+
+	base weapon
+		minDamage 105
+		maxDamage 225
+	end	
+
+	base carryable
+		weight 150	#200.0
+        # Warriors Only
+        #mask wizard
+        #mask adventurer
+        #mask thief
+	end
+
+	actions
+		vBePutOn changeGoodMDMMod dobj 25
+		vBeTakenOff changeGoodMDMMod dobj -25	
+	end
+	base described
+		idText "The Agitator, a heavy club of devasting power 25% damage against good opponents, best used by only the strongest.\n\nLevel Required: 300\n25% Damage vv Good.\n"
+		shopText "You see The Agitator.\nLevel Required: 300\"
+	end
+end
+
+
+object mwGiantsMaul of AdmantiumMaul
+	properties 
+	special
+		name "Giants's Maul"
+		value 40
+		health 9000
+		color 97
+		strength 5
+	end
+
+	base carryable
+		weight 90.0
+	end
+
+	base weapon
+		minDamage 2000
+		maxDamage 4000
+		range 5
+		mask warrior
+		mask adventurer
+		mask thief
+		mask wizard
+	end
+
+	base described
+		text "You see a Giants's Maul!  It's huge!"
+	end
+end

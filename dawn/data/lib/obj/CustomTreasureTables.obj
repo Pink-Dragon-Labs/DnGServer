@@ -1,0 +1,446 @@
+# SCIOBJ Version 1.1 File written CustomTreasureTables.obj.
+
+object ProtectorBaldrics of MoneyBag
+	properties
+	special
+		random 50
+	end
+
+	base treasure
+		DespothesGuardianBaldric
+		ElphameGuardianBaldric
+	end
+end
+
+
+object GodScrollTable of MoneyBag
+	properties
+	special
+		random 100
+	end
+
+	base treasure
+		sLWood
+	end
+end
+
+
+
+
+
+object DragonBossTable of MoneyBag
+	properties
+	special
+		random 100
+	end
+
+	base treasure
+		MoneyBag 1000000 3000000
+		MoneyBag 1000000 3000000
+		MoneyBag 1000000 3000000
+		MoneyBag 1000000 3000000
+		MoneyBag 1000000 3000000
+		MoneyBag 1000000 3000000
+		spbDuachsVengeance
+		spbCrawlingCharge
+		spbDespothesWrath
+		spbImmolationCold
+		spbImmolationLightning
+		spbSummonDragon
+		spbElphamesJustice
+		spbAcidCloud
+		spbEnidsBlessing
+		spbAntiMagicAura
+		spbMabonsForcedFlee
+		mwElvenClub
+		mwCrusher
+		mwFury
+		mwEqualizer
+		tSash
+		Totem
+		rMighty
+		mwDespothes
+		mwCretin
+		mwBardiche
+		ShieldWall
+		Parma
+		Barricade
+		spbEtheralize
+		spbAcidCloud
+		ThistlebarkA
+		maElphamesBands
+		maElphamesShoes
+		maElphamesCowl
+		maElphamesShirt
+		maElphamesHose
+		maEnidGuards
+		maEnidsNecklace
+		maBanditGreaves
+		maBanditBrig
+		maBanditGauntlets
+		maReinforcedScarf
+		maBanditBoots
+		maFinvarrasCuirass
+		maFinvarrasGreaves
+		maFinvarrasBands
+		maFinvarrasTreads
+		maFinvarrasCollar
+		rMysticalMStr
+		rMysticalMDex
+		rMysticalMInt
+		rMysticalMEnd
+		rMysticalFStr
+		rMysticalFDex
+		rMysticalFInt
+		rMysticalFEnd
+		ProtectorBaldrics
+		sInvulReverseChestProc
+		sShiftReverseHelmProc
+		sHealReverseChestProc
+	end
+end
+
+object NoviceGear of MoneyBag
+	properties
+	special
+		random 23
+	end
+
+	base treasure
+		NoviceShortSkirtOfEndurance
+		NoviceShortSkirtOfIntelligence
+		NoviceShortSkirtOfStrength
+		NoviceShortSkirtOfDexterity
+		NoviceHighBootsOfStrength
+		NoviceHighBootsOfDexterity
+		NoviceHighBootsOfIntelligence
+		NoviceHighBootsOfEndurance
+		NoviceRobeOfStrength
+		NoviceRobeOfDexterity
+		NoviceRobeOfIntelligence
+		NoviceRobeOfEndurance		
+		FinvarraHighBoots
+		FinvarraPack
+		bFinvarra
+		bCarrying
+		maFinvarraBracers
+		maFinvarraCowl
+		FinvarraBaldric
+		FinvarraLowBoots
+		sOasis
+	end
+end
+
+object RandomNoviceGear of MoneyBag
+	properties
+	special
+		random 100
+	end
+
+	base treasure
+		MoneyBag 30000 45000
+		MoneyBag 40000 55000
+		MoneyBag 50000 65000
+		MoneyBag 60000 75000
+		MoneyBag 30000 45000
+		MoneyBag 60000 75000
+		MoneyBag 30000 45000
+		RandomMegaMoney
+		RandomMegaMoney
+		RandomMegaTreasure
+		RandomRareGlowDye
+		RandomRareMegaTreasure
+		NoviceGear		
+	end
+end
+
+object AncientWineTable of MoneyBag
+	properties
+	special
+		random 100
+	end
+
+	base treasure
+		AncientWine
+	end
+end
+
+object RandomNewBaldric of MoneyBag
+        properties
+        special
+            random 29
+        end
+
+        base treasure
+			MoneyBag 30000 45000
+			MoneyBag 40000 55000
+			MoneyBag 50000 65000
+			MoneyBag 60000 75000
+			MoneyBag 30000 45000
+			MoneyBag 60000 75000
+			MoneyBag 30000 45000
+			MoneyBag 60000 75000
+			MoneyBag 30000 45000
+			MoneyBag 60000 75000
+			RandomMegaMoney
+			RandomMegaMoney
+			RandomMegaTreasure
+			RandomRareGlowDye
+			RandomRareMegaTreasure
+			FinvarraHighBoots
+			FinvarraPack
+			bFinvarra
+			bCarrying
+			maFinvarraBracers
+			maFinvarraCowl
+			FinvarraBaldric
+			FinvarraLowBoots
+			YorkBaldric
+			AchrenBaldric
+			ProtectionBaldric
+			AvoidanceBaldric
+			CrucibleBaldric
+			GeneralBaldric
+        end
+end 
+object RandomNewArmor of MoneyBag
+        properties
+        special
+                random 50
+        end
+
+        base treasure
+				MoneyBag 30000 45000
+				MoneyBag 40000 55000
+				MoneyBag 50000 65000
+				MoneyBag 60000 75000
+				MoneyBag 30000 45000
+				RandomMegaTreasure
+				RandomRareGlowDye
+				RandomRareMegaTreasure
+                maTruthGreaves
+                maPlateOfResolution
+                maGauntlets
+                maBesCowl
+                bGladiatorBelt
+                maWarriorsSabatons
+                maAdvChausses
+                maCuirassOfAggression
+                maGuardOfVambrace
+                maBevorOfIntrigue
+                bTravellersGirdle
+                maSolleretsOfAcceleration
+                maBishopPants
+                maBishopShirt
+                maMagesWristbrace
+                maArchMageCowl
+                bArcaneBelt
+                maShoesOfPower
+                maSwindlerHose
+                maSwindlerShirt
+                maWristwraps
+                maBanditScarf
+                bThievesTools
+                maSlippersOfEngagement
+                MagicalKnapsack
+                DungeonDweller
+                ArenaShield
+				ThiefBuckler
+                ArcaneShield
+        end
+end
+object RandomNewJewelry of MoneyBag
+        properties
+        special
+                random 20
+        end
+
+        base treasure
+				MoneyBag 30000 45000
+				MoneyBag 40000 55000
+				MoneyBag 50000 65000
+				MoneyBag 60000 75000
+				MoneyBag 30000 45000
+				RandomMegaMoney
+				RandomMegaMoney
+				RandomMegaTreasure
+				RandomRareGlowDye
+				RandomRareMegaTreasure
+                rConjuration
+                rGlory
+                rQuickness
+                rSmashing
+                aConcentrate
+                aAdventure
+                aWar
+                aSneak
+				aOffense
+				rDestruction
+        end
+end
+object RandomNewHelm of MoneyBag
+        properties
+        special
+                random 14
+        end
+
+        base treasure
+				MoneyBag 30000 45000
+				MoneyBag 40000 55000
+				MoneyBag 50000 65000
+				MoneyBag 60000 75000
+				MoneyBag 30000 45000
+				RandomMegaMoney
+				RandomMegaMoney
+				RandomMegaTreasure
+				RandomRareGlowDye
+				RandomRareMegaTreasure
+                SorcererHelm
+                GladiatorHelm
+                AdvHelmet
+                BanditMask
+        end
+end
+object RandomNewWep of MoneyBag
+        properties
+        special
+                random 26
+        end
+
+        base treasure
+				MoneyBag 30000 45000
+				MoneyBag 40000 55000
+				MoneyBag 50000 65000
+				MoneyBag 60000 75000
+				MoneyBag 30000 45000
+				RandomMegaMoney
+				RandomMegaMoney
+				RandomMegaTreasure
+				RandomRareGlowDye
+				RandomRareMegaTreasure
+                mwAxeOfDesolation
+                mwSalvation
+                mwAbyss
+                mwMaceOfCreation
+				mwMagesBlade
+				mwRedemption
+				mwRavager
+				mwRetribution
+				mwLance
+				mwDevastation
+                mwDaggerOfAbsolution
+                mwClawOfDestruction
+                mwBrokenExcalibur
+                mwRighteous
+				mwVirtue
+				mwSplinter
+				mwDestitution
+				mwSorrow
+                mwJustice
+				mwVengeance
+				mwRupture
+        end
+end
+object RandomNewGear of MoneyBag
+        properties
+        special
+                random 15
+        end
+
+        base treasure
+				MoneyBag 30000 45000
+				MoneyBag 40000 55000
+				MoneyBag 50000 65000
+				MoneyBag 60000 75000
+				MoneyBag 30000 45000
+				RandomMegaTreasure
+				RandomRareGlowDye
+				RandomRareMegaTreasure
+				RandomNewWep
+				RandomNewArmor
+				RandomNewHelm
+				RandomNewJewelry
+				RandomNewBaldric
+        end
+end
+
+object RandomMMTreasure01 of RandomRareMegaTreasure
+	properties
+		random 10
+		special
+	end
+	base treasure
+		FinvarraHighBoots
+		FinvarraPack
+		bFinvarra
+		maFinvarraBracers
+		maFinvarraCowl
+		mwDefender
+		mwExecutionersAxe
+		mwBonecrusher
+		mwLifeLeech
+		mwNullsword
+		mwTiwazSword
+		mwUruzDagger
+		mwVulcanEdge
+		mwWrath
+		mwFinvarraClaw
+		mwThiefBlade
+		FinvarraBaldric
+	end
+end
+
+object RandomCHelm of MoneyBag
+	properties
+	special
+		random 1
+	end
+	
+	base treasure
+	MageHat
+	ZerkersHelm
+	KhanHelmet
+	UplanderHelmet
+	RangerHelmet
+	HuntressHelmet
+	MinervaWarriorHelmet
+	FiannaHelmet
+	DruidHelmet
+	PredatorHelmet
+	ConquererHelmet
+	TribuneHelmet
+	LegionWarriorHelmet
+	ShiftHood
+	end
+end
+
+object RandomCWeapon of MoneyBag
+	properties
+	special
+		random 5
+	end
+	
+	base treasure
+	mwThiefBlade
+	mwFinvarraDefender
+	mwFinvarraClaw
+	mwBonecrusher
+	mwUruzDagger
+	mwWrath
+	mwExecutionersAxe
+	end
+end
+
+object RandomCGear of MoneyBag
+	properties
+	special
+		random 5
+		end
+	base treasure
+	BackPackOfHolding
+	AppRobeOfStrength
+	AppRobeOfDexterity
+	AppRobeOfIntelligence
+	AppRobeOfEndurance
+	end
+end

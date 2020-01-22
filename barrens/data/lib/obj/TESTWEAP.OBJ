@@ -1,0 +1,2168 @@
+###Warrior Set
+
+object maTruthGreaves of PlatePants
+	properties
+	special
+		name "Greaves of Truth"
+		color 93              # Royal Purple
+		value 2500
+		health 1500
+		armor 95
+		level 550
+	end
+
+	base carryable
+		weight 15.0
+	end
+
+	base described
+		text "You see a pair of grimey plate greaves."
+		idText "You see the Greaves of Truth, well known for bringing out the Truth in the slimiest of people. Provides Dexterity, Strength, and Dodge.\n This pair of greaves requires a wearer of level 550 or higher.\n"
+		shopText "These magical plate pants are filthy."
+	end
+	
+	base wearable
+                # only Warriors
+                mask wizard
+                mask adventurer
+                mask thief
+	end
+	
+	actions
+		vBePutOn setAffect dobj 39 0 0 -1				#Str
+		vBeTakenOff clearAffect dobj 39 0 0
+		vBePutOn setAffect dobj 59 0 0 -1				#Dex
+		vBeTakenOff clearAffect dobj 59 0 0
+		vBePutOn setAffect dobj 57 0 0 -1				#Dodge
+		vBeTakenOff clearAffect dobj 57 0 0		
+	end
+end
+
+object maPlateOfResolution of PlateTunic
+	properties
+	special
+		name "Plate of Resolution"
+		color 93              # Royal Purple
+		value 3500
+		health 1500
+		armor 135
+		level 550
+	end
+
+	base carryable
+		weight 28.0
+	end
+	
+	base wearable
+                # only Warriors
+                mask wizard
+                mask adventurer
+                mask thief
+	end
+	
+	actions
+		vBePutOn setAffect dobj 39 0 0 -1			#Str
+		vBeTakenOff clearAffect dobj 39 0 0
+		vBePutOn setAffect dobj 63 0 0 -1			#End
+		vBeTakenOff clearAffect dobj 63 0 0
+	end
+	
+	base described
+		text "You see a very dinged up plate armor."
+		idText "You see the Plate of Resolution, this was once worn by a mighty warrior. You can see the damage from many wars. Provides Strength and Endurance. \n This chest plate requires a wearer of level 550 or higher.\n"
+		shopText "This platemail will protect you quite well if you are strong enough to wear it."
+	end
+end
+
+object maGauntlets of Mythrilband
+	properties
+	special
+		name "Gauntlets"
+		color 93              # Royal Purple
+		value 3500
+		health 1500
+		armor 105
+		level 550
+	end
+	
+	base carryable
+		weight .5
+	end
+	
+	base wearable
+                # only Warriors
+                mask wizard
+                mask adventurer
+                mask thief
+	end
+	
+	actions
+		vBePutOn setAffect dobj 59 0 0 -1					#Dex
+		vBeTakenOff clearAffect dobj 59 0 0
+		vBePutOn setAffect dobj 85 0 0 -1					#DMP
+		vBePutOn changeSpellResistance dobj 50 4			#
+		vBePutOn changeCastResistance dobj 50 4				#
+		vBeTakenOff clearAffect dobj 85 0 0					#
+		vBeTakenOff changeSpellResistance dobj -50 4		#	
+		vBeTakenOff changeCastResistance dobj -50 4			#
+		vBePutOn setAffect dobj 56 0 0 -1					#Attack
+		vBeTakenOff clearAffect dobj 56 0 0		
+	end
+	
+	base described
+		text "A pair of very large gauntlets."
+		idText "In ancient times these gauntlets were worn by mighty Gladiators in Asgard's Arena. These will provide their wearer with protection from death magics with an extra attack and a slight buff to your dexterity. \n These gauntlets requires a wearer of level 550 or higher.\n"
+		shopText "These are some massive gauntlets!"
+	end
+end
+
+object maBesCowl of ChainCowl
+	properties
+	special
+		name "Beserker Cowl"
+		value 1000
+		health 1500
+		armor 85			
+		color 93			# Royal Purple
+		level 550
+	end
+
+	base carryable
+		weight 8.0
+	end
+	
+	base wearable
+                # only Warriors
+                mask wizard
+                mask adventurer
+                mask thief
+	end
+	
+	actions
+		vBePutOn setAffect dobj 59 0 0 -1				#Dex
+		vBeTakenOff clearAffect dobj 59 0 0
+		vBePutOn setAffect dobj 39 0 0 -1				#Str
+		vBeTakenOff clearAffect dobj 39 0 0
+		vBePutOn setAffect dobj 62 0 0 -1				#Stupid
+		vBeTakenOff clearAffect dobj 62 0 0
+		vBePutOn setAffect dobj 57 0 0 -1				#Dodge
+		vBeTakenOff clearAffect dobj 57 0 0		
+	end
+
+	base described
+		text "You see a cowl made of a unique metal."
+		idText "You see a Beserker's Cowl, nearly indestructable and wielding strange powers. Providing the wearer with Strength, Dexterity with an Extra Dodge, but at a price..\n This cowl requires a wearer of level 550 or higher.\n "
+		shopText "This heavy magical cowl is practically indestructable and grants special powers to its wearer."
+	end
+end
+
+object bGladiatorBelt of Belt
+	properties
+	special
+		name "Gladiator's Cuisses"
+		value 3500
+		health 1500
+		color 43
+		level 550
+	end
+	
+	base carryable
+		weight .5
+	end
+		
+	base wearable
+                # only Warriors
+                mask wizard
+                mask adventurer
+                mask thief
+	end
+	
+	actions
+		vBePutOn setAffect dobj 72 0 0 -1			#Carry Capacity
+		vBeTakenOff clearAffect dobj 72 0 0
+		vBePutOn setAffect dobj 56 0 0 -1			#Attack
+		vBeTakenOff clearAffect dobj 56 0 0
+		vBePutOn setAffect dobj 39 0 0 -1			#Str
+		vBeTakenOff clearAffect dobj 39 0 0
+		vBePutOn setAffect dobj 67 0 0 -1			#Nourishment
+		vBeTakenOff clearAffect dobj 67 0 0
+	end
+
+	base described
+		text "You see a strange glowing belt."
+		idText "A pair of pieces of armor for your hip region. This style armor was once worn by ancient Gladiators. Wearing these you will gain an Extra Attack, Nourishment, Carry Capacity and Strength. \n This cuisses requires a wearer of level 550 or higher.\n "
+		shopText "Wow, a Cuisses!!"
+	end
+end
+
+object maWarriorsSabatons of HighBoots
+	properties
+	special
+		name "Warrior's Sabatons"
+		value 3500
+		armor 65
+		health 1500
+		color 93			#Royal Purple
+		level 550
+	end
+
+	base carryable
+		weight 3.5
+	end
+	
+	base wearable
+                # only Warriors
+                mask wizard
+                mask adventurer
+                mask thief
+	end
+	
+	actions
+		vBePutOn setAffect dobj 59 0 0 -1			#Dex
+		vBeTakenOff clearAffect dobj 59 0 0
+		vBePutOn setAffect dobj 1 2 0 -1			#Str
+		vBeTakenOff clearAffect dobj 1 2 0
+		vBePutOn setAffect dobj 63 0 0 -1			#End
+		vBeTakenOff clearAffect dobj 63 0 0
+		vBePutOn setAffect dobj 63 0 0 -1			#Fire Protect
+		vBeTakenOff clearAffect dobj 63 0 0
+		vBePutOn setAffect dobj 39 0 0 -1			#Cold Protect
+		vBeTakenOff clearAffect dobj 39 0 0
+	end
+
+	base described
+		text "You see some gross boots."
+		idText "A pair of armored Sabatons worn by only the mightiest of warriors, giving you a buff to your Dexterity, Strength, Endurance while giving you Cold Protection and Fire Protection. \n These sabatons requires a wearer of level 550 or higher.\n "
+		shopText "These are wonderous, majestic Sabatons."
+	end
+end	
+###
+object maAdvChausses of PlatePants
+	properties
+	special
+		name "Adventurer's Chausses"
+		color 53			# Blue
+		value 2500
+		health 1500
+		armor 80
+		level 550
+	end
+
+	base carryable
+		weight 12.0
+	end
+
+	base described
+		text "Heavy metal and yet you can feel the magical properties calling to you."
+		idText "Adventurer's Chausses. This leg armor is sturdy. Putting them on will grant you an Intelligence boost, a boost to your Endurance as well as your Dexterity. \n These chausses require a wearer of level 550 or higher.\n"
+		shopText "Chausses! I havn't seen a pair of these in many years!"
+	end
+	
+	base wearable
+                # only Adv
+                mask wizard
+                mask warrior
+                mask thief
+	end
+	
+	actions
+
+		vBePutOn setAffect dobj 59 0 0 -1				#Dex
+		vBeTakenOff clearAffect dobj 59 0 0
+		vBePutOn setAffect dobj 61 0 0 -1				#Intel
+		vBeTakenOff clearAffect dobj 61 0 0
+		vBePutOn setAffect dobj 63 0 0 -1				#End
+		vBeTakenOff clearAffect dobj 63 0 0			
+	end	
+end
+
+object maCuirassOfAggression of PlateTunic
+	properties
+	special
+		name "Cuirass of Aggression"
+		color 53			# Blue
+		value 3500
+		health 1500
+		armor 110
+		level 550
+	end
+
+	base carryable
+		weight 25.0
+	end
+	
+	base wearable
+                # only Adv
+                mask wizard
+                mask warrior
+                mask thief
+	end
+	
+	actions
+		vBePutOn setAffect dobj 39 0 0 -1			#Str
+		vBeTakenOff clearAffect dobj 39 0 0
+		vBePutOn setAffect dobj 39 0 0 -1			#Str
+		vBeTakenOff clearAffect dobj 39 0 0
+		vBePutOn setAffect dobj 57 0 0 -1			#Dodge
+		vBeTakenOff clearAffect dobj 57 0 0
+		vBePutOn setAffect dobj 56 0 0 -1			#Attack
+		vBeTakenOff clearAffect dobj 56 0 0
+	end
+	
+	base described
+		text "A mighty Cuirass."
+		idText "You see the Cuirass of Aggression, perfect for the Adventurer not afraid of danger. This will assist you in your adventure by providing you with considerable amount of Strength, an axtra Attack as well as Dodge. \n This cuirass requires a wearer of level 550 or higher.\n"
+		shopText "This cuirass will protect you quite well if you are strong enough to wear it."
+	end	
+end
+
+object maGuardOfVambrace of Mythrilband
+	properties
+	special
+		name "Guard of Vambrace"
+		color 53			# Blue
+		value 3500
+		health 1500
+		armor 100
+		level 550
+	end
+	
+	base carryable
+		weight .5
+	end
+	
+	base wearable
+                # only Adv
+                mask wizard
+                mask warrior
+                mask thief
+	end
+	
+	actions
+		vBePutOn setAffect dobj 59 0 0 -1					#Dex
+		vBeTakenOff clearAffect dobj 59 0 0
+		vBePutOn setAffect dobj 56 0 0 -1					#Attack
+		vBeTakenOff clearAffect dobj 56 0 0	
+		vBePutOn setAffect dobj 57 0 0 -1					#Dodge
+		vBeTakenOff clearAffect dobj 57 0 0	
+		vBePutOn setAffect dobj 63 0 0 -1					#End
+		vBeTakenOff clearAffect dobj 63 0 0
+		vBePutOn setAffect dobj 39 0 0 -1					#Str
+		vBeTakenOff clearAffect dobj 39 0 0		
+	end
+	
+	base described
+		text "Guard of Vambrace, forearm guards."
+		idText "In ancient times these Vambrace were worn by mighty Knights. These will provide their wearer with an Attack and Dodge, as well as a boost to your Strength, Dexterity and Endurance. \n This vambrace requires a wearer of level 550 or higher.\n"
+		shopText "Vambrace? Come again?"
+	end
+end
+
+object maBevorOfIntrigue of ChainCowl
+	properties
+	special
+		name "Bevor of Intrigue"
+		value 1000
+		health 1500
+		color 53			# Blue
+		armor 100
+		level 550
+	end
+
+	base carryable
+		weight 7.0
+	end
+	
+	base wearable
+                # only Adv
+                mask wizard
+                mask warrior
+                mask thief
+	end
+	
+	actions
+		vBePutOn setAffect dobj 59 0 0 -1				#Dex
+		vBeTakenOff clearAffect dobj 59 0 0
+		vBePutOn setAffect dobj 39 0 0 -1				#Str
+		vBeTakenOff clearAffect dobj 39 0 0	
+		vBePutOn setAffect dobj 61 0 0 -1				#Intel
+		vBeTakenOff clearAffect dobj 61 0 0
+	end
+
+	base described
+		text "A Bevor covers the throat."
+		idText "You see a Bevor, this will protect your most vital area, your throat. Wearing this mighty bevor, you will gain Strength, Dexterity with a boost to your Intelligence. \n This bevor requires a wearer of level 550 or higher.\n "
+		shopText "Protect ya Neck!"
+	end
+end
+
+object bTravellersGirdle of Belt
+	properties
+	special
+		name "Traveller's Girdle"
+		value 3500
+		health 1500
+		color 43
+		level 550
+	end
+	
+	base carryable
+		weight .5
+	end
+		
+	base wearable
+                # only Adv
+                mask wizard
+                mask warrior
+                mask thief
+	end
+	
+	actions
+		vBePutOn setAffect dobj 72 0 0 -1			#Carry Capacity
+		vBeTakenOff clearAffect dobj 72 0 0
+		vBePutOn setAffect dobj 2 2 0 -1			#Cold Protect
+		vBeTakenOff clearAffect dobj 2 2 0
+		vBePutOn setAffect dobj 1 2 0 -1			#Fire Protect
+		vBeTakenOff clearAffect dobj 1 2 0
+		vBePutOn setAffect dobj 57 0 0 -1			#Dodge
+		vBeTakenOff clearAffect dobj 57 0 0
+	end
+
+	base described
+		text "You see a strange glowing belt."
+		idText "A Traveller's Girdle. Wearing this will ensure you can carry anything you need in your travels. It also grants you protection from Fire and Cold elements and grants an extra Dodge. \n This girdle requires a wearer of level 550 or higher.\n "
+		shopText "What a Girdle!"
+	end
+end
+
+object maSolleretsOfAcceleration of HighBoots
+	properties
+	special
+		name "Sollerets of Acceleration"
+		value 3500
+		armor 55
+		health 1500
+		color 53			# Blue
+		level 550
+	end
+
+	base carryable
+		weight 2.5
+	end
+	
+	base wearable
+                # only Adv
+                mask wizard
+                mask warrior
+                mask thief
+	end
+	
+	actions
+		vBePutOn setAffect dobj 59 0 0 -1			#Dex
+		vBeTakenOff clearAffect dobj 59 0 0
+		vBePutOn setAffect dobj 1 2 0 -1			#Str
+		vBeTakenOff clearAffect dobj 1 2 0
+		vBePutOn setAffect dobj 61 0 0 -1			#Intel
+		vBeTakenOff clearAffect dobj 61 0 0
+		vBePutOn setAffect dobj 56 0 0 -1			#Attack
+		vBeTakenOff clearAffect dobj 56 0 0	
+		vBePutOn setAffect dobj 67 0 0 -1			#Nourishment
+		vBeTakenOff clearAffect dobj 67 0 0		
+	end
+
+	base described
+		text "A pair of extremely rare sollerets."
+		idText "The Sollerets of Acceleration. Aptly named, these sollerets are perfect for the Adventurer trying to see the world. Donning these will grant you a boost to your Strength, Dextery, Intelligence as well as provide a spare Atack. Wearing these sollerets you will also never suffer from hunger. \n These sollerets requires a wearer of level 550 or higher.\n "
+		shopText "These sollerets are almost priceless."
+	end
+end	
+###
+object maBishopPants of Pants
+	properties
+	special
+		name "Bishop's Hose"
+		color 100              # White
+		value 2500
+		health 1500
+		armor 20
+		level 550
+	end
+
+	base carryable
+		weight 1
+	end
+
+	base described
+		text "A very light pair of Hose."
+		idText "Bishop's Hose. Surprisingly sturdy for how light it is. These hose provide Dexterity, Fire Protection, Cold Protection and Dodge.\n These pair of hose requires a wearer of level 550 or higher.\n"
+		shopText "What are these made of?!."
+	end
+	
+	base wearable
+                # only Wiz
+                mask warrior
+                mask adventurer
+                mask thief
+	end
+	
+	actions
+		vBePutOn setAffect dobj 59 0 0 -1				#Dex
+		vBeTakenOff clearAffect dobj 59 0 0
+		vBePutOn setAffect dobj 57 0 0 -1				#Dodge
+		vBeTakenOff clearAffect dobj 57 0 0	
+		vBePutOn setAffect dobj 1 2 0 -1				#Fire protect
+		vBeTakenOff clearAffect dobj 1 2 0
+		vBePutOn setAffect dobj 2 2 0 -1				#Cold Protect
+		vBeTakenOff clearAffect dobj 2 2 0		
+	end
+end
+
+object maBishopShirt of Shirt
+	properties
+	special
+		name "Bishop's Shirt"
+		color 100              # White
+		value 3500
+		health 1500
+		armor 30
+		level 550
+	end
+
+	base carryable
+		weight 1.5
+	end
+	
+	base wearable
+                # only Wiz
+                mask warrior
+                mask adventurer
+                mask thief
+	end
+	
+	actions
+		vBePutOn setAffect dobj 61 0 0 -1				#Intel
+		vBeTakenOff clearAffect dobj 61 0 0
+		vBePutOn setAffect dobj 59 0 0 -1				#Dex
+		vBeTakenOff clearAffect dobj 59 0 0	
+		vBePutOn setAffect dobj 57 0 0 -1				#Dodge
+		vBeTakenOff clearAffect dobj 57 0 0
+		vBePutOn setAffect dobj 56 0 0 -1				#Attack
+		vBeTakenOff clearAffect dobj 56 0 0		
+	end
+	
+	base described
+		text "A very light cloth, almost see-through."
+		idText "A Bishop's Shirt. Imbued with mystical powers, it will grant you a boost to your Intelligence as well as your Dexterity and will also grant you a spare Dodge and Attack. \n This shirt requires a wearer of level 550 or higher.\n"
+		shopText "This looks like something I would sneeze into."
+	end
+end
+
+object maMagesWristbrace of Mythrilband
+	properties
+	special
+		name "Mage's Wristbraces"
+		color 100              # White
+		value 3500
+		health 1500
+		armor 50
+		level 550
+	end
+	
+	base carryable
+		weight .5
+	end
+	
+	base wearable
+                # only Wiz
+                mask warrior
+                mask adventurer
+                mask thief
+	end
+	
+	actions
+		vBePutOn setAffect dobj 61 0 0 -1				#Intel
+		vBeTakenOff clearAffect dobj 61 0 0
+        vBePutOn changeSDM dobj 200 1 3 4            	#SDM Boost (Thaum, Ele, Necro)
+		vBeTakenOff changeSDM dobj -200 1 3 4
+	end
+	
+	base described
+		text "A pair of magical leather wristbraces."
+		idText "Mage's Wristbraces. These were once worn by an all-powerful Arch-Mage. Wearing these will grant you a boost to your Intelligence as well as a 200% boost to your Thamaturgy, Elementalism and Necromany circles. \n These wristbraces require a wearer of level 550 or higher.\n"
+		shopText "Don't see much leather nowadays."
+	end	
+end
+
+object maArchMageCowl of ChainCowl
+	properties
+	special
+		name "Arch Mage's Cowl"
+		value 1000
+		health 1500
+		armor 30			
+		color 98			# White
+		level 550
+	end
+
+	base carryable
+		weight 3.0
+	end
+	
+	base wearable
+                # only Wiz
+                mask warrior
+                mask adventurer
+                mask thief
+	end
+	
+	actions
+		vBePutOn setAffect dobj 59 0 0 -1				#Dex
+		vBeTakenOff clearAffect dobj 59 0 0
+		vBePutOn setAffect dobj 59 0 0 -1				#Dex
+		vBeTakenOff clearAffect dobj 59 0 0
+		vBePutOn setAffect dobj 61 0 0 -1				#Intel
+		vBeTakenOff clearAffect dobj 61 0 0	
+	end
+
+	base described
+		text "This metal feels light as air."
+		idText "This cowl once belonged to an Arch-Mage, salvaged by a museum, how you came to find it is a mystery. This light, but sturdy cowl will grant you considerable Dexterity as well as an Intelligence boost. \n This cowl requires a wearer of level 550 or higher.\n "
+		shopText "This weighs almost nothing! What is thise made of?"
+	end
+end
+
+object bArcaneBelt of Belt
+	properties
+	special
+		name "Arcane Belt"
+		value 3500
+		health 1500
+		color 43
+		level 550
+	end
+	
+	base carryable
+		weight .5
+	end
+		
+	base wearable
+                # only Wiz
+                mask warrior
+                mask adventurer
+                mask thief
+	end
+	
+	actions
+		vBePutOn setAffect dobj 72 0 0 -1						#Carry Capacity
+		vBeTakenOff clearAffect dobj 72 0 0
+		vBePutOn setAffect dobj 67 0 0 -1						#Nourishment
+		vBeTakenOff clearAffect dobj 67 0 0
+		vBePutOn setAffect dobj 59 0 0 -1						#Dex
+		vBeTakenOff clearAffect dobj 59 0 0
+	end
+
+	base described
+		text "You see a strange glowing belt."
+		idText "An Arcane Belt. This belt will grant you the ability to carry more, it will quench your hunger, provide a slight boost to Dexterity and provide 45% Resistance to all magic (Except Mysticism and Thaumaturgy) \n This belt requires a wearer of level 550 or higher.\n "
+		shopText "An Arcane Belt? I might want that for myself.."
+	end
+end
+
+object maShoesOfPower of LowBoots
+	properties
+	special
+		name "Shoes of Power"
+		value 3500
+		armor 40
+		health 1500
+		color 100			# White
+		level 550
+	end
+
+	base carryable
+		weight 1.5
+	end
+	
+	base wearable
+                # only Wiz
+                mask warrior
+                mask adventurer
+                mask thief
+	end
+	
+	actions
+
+		vBePutOn setAffect dobj 63 0 0 -1				#End
+		vBeTakenOff clearAffect dobj 63 0 0
+		vBePutOn setAffect dobj 61 0 0 -1				#Intel
+		vBeTakenOff clearAffect dobj 61 0 0	
+		vBePutOn setAffect dobj 56 0 0 -1				#Attack
+		vBeTakenOff clearAffect dobj 56 0 0
+	end
+
+	base described
+		text "You see a pair of magical shoes."
+		idText "Shoes of Power. These are quite the find. Wearing these powerful shoes will imbue you with more health, a boost to your Intelligence as well as an extra Attack. \n These shoes require a wearer of level 550 or higher.\n "
+		shopText "Are these childrens shoes?"
+	end
+end
+###
+object maSwindlerHose of Pants
+	properties
+	special
+		name "Swindler's Hose"
+		color 98              # Black
+		value 2500
+		health 1500
+		armor 55
+		level 550
+	end
+
+	base carryable
+		weight 1.5
+	end
+
+	base described
+		text "A pair of dark hose that feel almost weightless."
+		idText "A pair of hose worn by swindlers, criminals and murderers. Wearing these you will gain a boost to your health as well as an extra Attack and Dodge. \n These pair of hose requires a wearer of level 550 or higher.\n"
+		shopText "What are these made of?!."
+	end
+	
+	base wearable
+                # only Thief
+                mask warrior
+                mask adventurer
+                mask wizard
+	end
+	
+	actions
+		vBePutOn setAffect dobj 57 0 0 -1				#Dodge
+		vBeTakenOff clearAffect dobj 57 0 0	
+		vBePutOn setAffect dobj 56 0 0 -1				#Attack
+		vBeTakenOff clearAffect dobj 56 0 0
+		vBePutOn setAffect dobj 63 0 0 -1				#End
+		vBeTakenOff clearAffect dobj 63 0 0		
+	end
+end
+
+object maSwindlerShirt of Shirt
+	properties
+	special
+		name "Swindler's Doublet"
+		color 98              # Black
+		value 3500
+		health 1500
+		armor 65
+		level 550
+	end
+
+	base carryable
+		weight 2
+	end
+	
+	base wearable
+                # only Thief
+                mask warrior
+                mask adventurer
+                mask wizard
+	end
+	
+	actions
+		vBePutOn setAffect dobj 1 2 0 -1				#Fire protect
+		vBeTakenOff clearAffect dobj 1 2 0
+		vBePutOn setAffect dobj 57 0 0 -1				#Dodge
+		vBeTakenOff clearAffect dobj 57 0 0
+		vBePutOn setAffect dobj 56 0 0 -1				#Attack
+		vBeTakenOff clearAffect dobj 56 0 0
+		vBePutOn setAffect dobj 4 3 0 -1				#Acid Weakness
+		vBeTakenOff clearAffect dobj 4 3 0		
+	end
+	
+	base described
+		text "Light, yet it feels like a sword couldn't penetrate it."
+		idText "A doublet worn by swindlers, criminals and murderers. This doublet has unique protection qualities granting Fire protection, as well as an extra Attack and Dodge. \n This doublet requires a wearer of level 550 or higher.\n"
+		shopText "This seems like something I don't want a part of."
+	end
+end
+
+object maWristwraps of Mythrilband
+	properties
+	special
+		name "Wristwraps of Shifting"
+		color 98              # Black
+		value 3500
+		health 1500
+		armor 30
+		level 550
+	end
+	
+	base carryable
+		weight .3
+	end
+	
+	base wearable
+                # only Thief
+                mask warrior
+                mask adventurer
+                mask wizard
+	end
+	
+	actions
+		vBePutOn setAffect dobj 61 0 0 -1				#Intel
+		vBeTakenOff clearAffect dobj 61 0 0
+		vBePutOn setAffect dobj 75 0 0 -1				#Shifting
+		vBeTakenOff clearAffect dobj 75 0 0
+		vBePutOn setAffect dobj 59 0 0 -1				#Dex
+		vBeTakenOff clearAffect dobj 59 0 0
+	end
+	
+	base described
+		text "These cloth wristwraps somehoe glimmer in the light."
+		idText "A pair of cloth wristwraps. The ideal choice for any would-be thief. Wearing these wraps you will gain a boost to your Intelligence as well as your Dexterity. These also grant magical shifting properties. \n These wristwraps require a wearer of level 550 or higher.\n"
+		shopText "Ooh, shiny."
+	end	
+end
+
+object maBanditScarf of ChainCowl
+	properties
+	special
+		name "Bandit's Scarf"
+		value 1000
+		health 1500
+		armor 30
+		color 98              # Black
+		level 550
+	end
+
+	base carryable
+		weight 4.0
+	end
+	
+	base wearable
+                # only Thief
+                mask warrior
+                mask adventurer
+                mask wizard
+	end
+	
+	actions
+		vBePutOn setAffect dobj 59 0 0 -1				#Dex
+		vBeTakenOff clearAffect dobj 59 0 0
+		vBePutOn setAffect dobj 59 0 0 -1				#Dex
+		vBeTakenOff clearAffect dobj 59 0 0
+		vBePutOn setAffect dobj 57 0 0 -1				#Dodge
+		vBeTakenOff clearAffect dobj 57 0 0
+		vBePutOn setAffect dobj 63 0 0 -1				#End
+		vBeTakenOff clearAffect dobj 63 0 0
+	end
+
+	base described
+		text "A heavy chain scarf."
+		idText "This heavy scarf is used by bandits, thieves and the like. Wearing this scarf you will gain considerable Dexterity as well as a boost to your health and an extra Dodge. \n This scarf requires a wearer of level 550 or higher.\n "
+		shopText "This weighs almost nothing! What is thise made of?"
+	end
+end
+
+object bThievesTools of Belt
+	properties
+	special
+		name "Thieves Tools"
+		value 3500
+		health 1500
+		color 43
+		level 550
+	end
+	
+	base carryable
+		weight 1
+	end
+		
+	base wearable
+                # only Thief
+                mask warrior
+                mask adventurer
+                mask wizard
+	end
+	
+	actions
+		vBePutOn setAffect dobj 72 0 0 -1						#Carry Capacity
+		vBeTakenOff clearAffect dobj 72 0 0
+		vBePutOn setAffect dobj 67 0 0 -1						#Nourishment
+		vBeTakenOff clearAffect dobj 67 0 0
+		vBePutOn setAffect dobj 59 0 0 -1						#Dex
+		vBeTakenOff clearAffect dobj 59 0 0
+		vBePutOn setAffect dobj 59 0 0 -1						#Dex
+		vBeTakenOff clearAffect dobj 59 0 0
+		vBePutOn setAffect dobj 2 2 0 -1						#Cold Protect
+		vBeTakenOff clearAffect dobj 2 2 0		
+	end
+
+	base described
+		text "A belt with a set of tools attached."
+		idText "A set of Thieves tools. On this belt there are an assortment of lockpicks, poison and other nefarious tools. Wearing these tools you will gain considerable Dexterity, gain the ability to carry more stolen goods, resist the Cold better and won't have to eat as often. \n Ththese tools require a wearer of level 550 or higher.\n "
+		shopText "Thieves tools huh? No funny business."
+	end
+end
+
+object maSlippersOfEngagement of LowBoots
+	properties
+	special
+		name "Slippers of Engagement"
+		value 3500
+		armor 35
+		health 1500
+		color 98              # Black
+		level 550
+	end
+
+	base carryable
+		weight 1.5
+	end
+	
+	base wearable
+                # only Thief
+                mask warrior
+                mask adventurer
+                mask wizard
+	end
+	
+	actions
+		vBePutOn setAffect dobj 59 0 0 -1						#Dex
+		vBeTakenOff clearAffect dobj 59 0 0
+		vBePutOn setAffect dobj 59 0 0 -1						#Dex
+		vBeTakenOff clearAffect dobj 59 0 0
+		vBePutOn setAffect dobj 59 0 0 -1						#Dex
+		vBeTakenOff clearAffect dobj 59 0 0
+		vBePutOn setAffect dobj 1 2 0 -1						#Str
+		vBeTakenOff clearAffect dobj 1 2 0
+		vBePutOn setAffect dobj 1 2 0 -1						#Str
+		vBeTakenOff clearAffect dobj 1 2 0
+	end
+
+	base described
+		text "These shoes are almost vibrating."
+		idText "Slippers of Engagement. These slippers are the perfect asset for any would-be thief. Wearing these you will be able to engage your targets more aggressively. These slippers will grant you a great deal of Dexterity, as well as considerable Strength. \n These slippers require a wearer of level 550 or higher.\n "
+		shopText "Slippers? What am I supposed to do with these?"
+	end
+end
+###
+object rConjuration of Ring
+	properties
+	special
+		name "Ring of Conjuration"
+		value 6000
+		level 550
+	end
+
+	base wearable
+                # only Wiz
+                mask warrior
+                mask adventurer
+                mask thief
+	end
+	
+	actions
+		vBePutOn setAffect dobj 61 0 0 -1				#Int
+		vBeTakenOff clearAffect dobj 61 0 0
+		vBePutOn setAffect dobj 63 0 0 -1				#End
+		vBeTakenOff clearAffect dobj 63 0 0
+		vBePutOn setAffect dobj 59 0 0 -1				#Dex
+		vBeTakenOff clearAffect dobj 59 0 0
+	end
+
+	base described
+		idText "You see a Ring of Conjuration.  Wearing this will make you smarter, faster, as well as increase your health. \nLevel Required: 550.\n"
+		shopText "This wonderful ring of conjuration is a must for spellcasters!"
+	end
+end
+
+object rGlory of Ring
+	properties
+	special
+		name "Ring of Glory"
+		value 6000
+		level 550
+	end
+
+	base wearable
+                # only Adv
+                mask wizard
+                mask warrior
+                mask thief
+	end
+	
+	actions
+		vBePutOn setAffect dobj 39 0 0 -1				#Str
+		vBeTakenOff clearAffect dobj 39 0 0
+		vBePutOn setAffect dobj 59 0 0 -1				#Dex
+		vBeTakenOff clearAffect dobj 59 0 0
+		vBePutOn setAffect dobj 63 0 0 -1				#End
+		vBeTakenOff clearAffect dobj 63 0 0
+	end
+	
+	base described
+		idText "You see a Ring of Glory.  Wearing this will make you stronger, faster, and will increase your health. \nLevel Required: 550.\n"
+		shopText "This wonderful ring of glory is a must for any adventurer!"
+	end
+end
+
+object rQuickness of Ring
+	properties
+	special
+		name "Ring of Quickness"
+		value 6000
+		level 550
+	end
+
+	base wearable
+                # only Thief
+                mask warrior
+                mask adventurer
+                mask wizard
+	end
+	
+	actions
+		vBePutOn setAffect dobj 59 0 0 -1				#Dex
+		vBeTakenOff clearAffect dobj 59 0 0
+		vBePutOn setAffect dobj 59 0 0 -1				#Dex
+		vBeTakenOff clearAffect dobj 59 0 0
+		vBePutOn setAffect dobj 63 0 0 -1				#End
+		vBeTakenOff clearAffect dobj 63 0 0
+	end
+	
+	base described
+		idText "You see a Ring of Quickness.  Wearing this will make you considerably faster, and will increase your health. \nLevel Required: 550.\n"
+		shopText "This wonderful ring of quickness is a must for any thief!"
+	end
+end
+
+object rSmashing of Ring
+	properties
+	special
+		name "Ring of Smashing"
+		value 6000
+		level 550
+	end
+
+	base wearable
+                # only Warriors
+                mask wizard
+                mask adventurer
+                mask thief
+	end
+	
+	actions
+		vBePutOn setAffect dobj 39 0 0 -1				#Str
+		vBeTakenOff clearAffect dobj 39 0 0
+		vBePutOn setAffect dobj 39 0 0 -1				#Str
+		vBeTakenOff clearAffect dobj 39 0 0
+		vBePutOn setAffect dobj 63 0 0 -1				#End
+		vBeTakenOff clearAffect dobj 63 0 0
+	end
+	
+	base described
+		idText "You see a Ring of Smashing.  Wearing this will make you considerably stronger and will increase your health. \nLevel Required: 550.\n"
+		shopText "This wonderful ring of smashing is a must for any warrior!"
+	end
+end
+
+object aConcentrate of Amulet
+	properties
+	special
+		name "Amulet of Concentration"
+		value 5000
+		level 1000
+	end
+
+	base wearable
+                # only Wiz
+                mask warrior
+                mask adventurer
+                mask thief
+	end
+	
+	actions
+        vBePutOn changeSDM dobj 600 1 3 4             	#600% SDM Boost (Thaum, Ele, Necro)
+		vBeTakenOff changeSDM dobj -600 1 3 4
+		vBePutOn setAffect dobj 61 0 0 -1				#Int
+		vBeTakenOff clearAffect dobj 61 0 0
+		vBePutOn setAffect dobj 59 0 0 -1				#Dex
+		vBeTakenOff clearAffect dobj 59 0 0
+		vBePutOn setAffect dobj 56 0 0 -1				#Attack
+		vBeTakenOff clearAffect dobj 56 0 0
+	end
+
+	base described
+		idText "You see an Amulet of Concentration.  This powerful amulet provides a 600% SDM Boost to Thaumaturgy, Elementalism and Necromany. You will also gain a boost to Intelligence and Dexterity as well as an extra Attack. \nLevel Required: 950.\n"
+		shopText "This is quite the amulet."
+	end
+end
+
+object aAdventure of Amulet
+	properties
+	special
+		name "Amulet of Adventure"
+		value 5000
+		level 1000
+	end
+
+	base wearable
+                # only Adv
+                mask wizard
+                mask warrior
+                mask thief
+	end
+	
+	actions
+		vBePutOn setAffect dobj 61 0 0 -1				#Int
+		vBeTakenOff clearAffect dobj 61 0 0
+		vBePutOn setAffect dobj 59 0 0 -1				#Dex
+		vBeTakenOff clearAffect dobj 59 0 0
+		vBePutOn setAffect dobj 56 0 0 -1				#Attack
+		vBeTakenOff clearAffect dobj 56 0 0
+		vBePutOn setAffect dobj 39 0 0 -1				#Str
+		vBeTakenOff clearAffect dobj 39 0 0
+		vBePutOn setAffect dobj 63 0 0 -1				#End
+		vBeTakenOff clearAffect dobj 63 0 0
+	end
+
+	base described
+		idText "You see an Amulet of Adventure.  This powerful amulet provides a boost to your Intelligence, Strength, Dexterity and Endurance. You will also gain an extra swing. \nLevel Required: 950.\n"
+		shopText "This is quite the amulet."
+	end
+end
+
+object aWar of Amulet
+	properties
+	special
+		name "Amulet of War"
+		value 5000
+		level 1000
+	end
+
+	base wearable
+                # only Warriors
+                mask wizard
+                mask adventurer
+                mask thief
+	end
+	
+	actions
+ 		vBePutOn setAffect dobj 39 0 0 -1				#Str
+		vBeTakenOff clearAffect dobj 39 0 0
+		vBePutOn setAffect dobj 39 0 0 -1				#Str
+		vBeTakenOff clearAffect dobj 39 0 0
+		vBePutOn setAffect dobj 56 0 0 -1				#Attack
+		vBeTakenOff clearAffect dobj 56 0 0
+		vBePutOn changeMeleeArmorPiercing dobj 25		#25% Armor Pen
+		vBeTakenOff changeMeleeArmorPiercing dobj -25
+	end
+
+	base described
+		idText "You see an Amulet of War.  This powerful amulet provides a considerable boost to your Strength, as well as 25% Armor Penetration, and an extra swing. \nLevel Required: 950.\n"
+		shopText "This is quite the amulet."
+	end
+end
+
+object aSneak of Amulet
+	properties
+	special
+		name "Amulet of Sneaking"
+		value 5000
+		level 1000
+	end
+	
+	base wearable
+                # only Thief
+                mask warrior
+                mask adventurer
+                mask wizard
+	end
+	
+	actions
+		vBePutOn setAffect dobj 59 0 0 -1				#Dex
+		vBeTakenOff clearAffect dobj 59 0 0
+		vBePutOn setAffect dobj 59 0 0 -1				#Dex
+		vBeTakenOff clearAffect dobj 59 0 0
+		vBePutOn setAffect dobj 56 0 0 -1				#Attack
+		vBeTakenOff clearAffect dobj 56 0 0
+		vBePutOn changeMeleeArmorPiercing dobj 25		#25% Armor Pen
+		vBeTakenOff changeMeleeArmorPiercing dobj -25
+	end
+
+	base described
+		idText "You see an Amulet of Sneaking.  This powerful amulet provides a considerable boost to your Dexterity, as well as 25% Armor Penetration, and an extra swing. \nLevel Required: 950.\n"
+		shopText "This is quite the amulet."
+	end
+end
+###
+object mwAxeOfDesolation of Axe
+	properties
+	special
+		name "Axe of Desolation"
+		value 12000
+		health 1000
+		strength 5
+		level 1000
+		color 115          #Finvarra
+		affect 13 0 0 -1   #Stun Dmg
+		affect 1 0 0 -1    #Fire Dmg
+	end
+
+	
+	actions
+		vBePutOn setAffect dobj 39 0 0 -1 		# Strength Bonus
+		vBeTakenOff clearAffect dobj 39 0 0     #
+		vBePutOn setAffect dobj 57 0 0 -1		# Extra Dodge
+		vBeTakenOff clearAffect dobj 57 0 0     #
+		vBePutOn setAffect dobj 59 0 0 -1       # Dexterity
+		vBeTakenOff clearAffect dobj 59 0 0     #
+		vBePutOn setAffect dobj 63 0 0 -1       # Endurance
+		vBeTakenOff clearAffect dobj 63 0 0     #
+		vBePutOn setAffect dobj 67 0 0 -1       # Nourishment
+		vBeTakenOff clearAffect dobj 67 0 0     #
+		vBePutOn setAffect dobj 56 0 0 -1	    # Extra Attack
+		vBeTakenOff clearAffect dobj 56 0 0     #
+	end
+
+	
+	base carryable
+		weight 110.0
+	end
+
+	
+	base weapon
+		minDamage 135
+		maxDamage 250
+	end
+
+	
+	base described
+		text "This Axe seems different from all the others you've encountered..."
+		idText "The Axe of Desolation is an Axe most never live to tell about. \nLooking at it you feel the call of the Void, whispering to you to commit heinous acts.\n \nFrom this Axe you will recieve a boost to your Strength, and Dexterity as well as a boost to your Endurance and an extra Dodge.\n \nLevel Required: 650\n"
+		shopText "Th.. The Axe of Desolation...."
+	end
+end
+
+object mwSalvation of AdmantiumTwoHandSword
+	properties
+	special
+		name "Salvation"
+		value 100000
+		health 1000
+		level 400
+		strength 5		
+		color 101              # Brighter-White
+		affect 10 0 0 -1       # Life-Steal
+		affect 3 0 0 -1		   # Lightning Damage
+	end
+
+	
+	base carryable
+		weight 50.0
+	end
+
+	base weapon
+		minDamage 100
+		maxDamage 180
+	end
+
+	
+	actions
+		vBePutOn setAffect dobj 33 0 0 -1              # Berserk
+		vBeTakenOff clearAffect dobj 33 0 0            #
+		vBePutOn setAffect dobj 56 0 0 -1			   # Extra Attack
+		vBeTakenOff clearAffect dobj 56 0 0            #
+		vBePutOn setAffect dobj 97 0 0 -1              # White Hair
+		vBeTakenOff clearAffect dobj 97 0 0            #
+		vBePutOn changeEvilMDMMod dobj 150             # 150 Dmg Vs Evil
+		vBeTakenOff changeEvilMDMMod dobj -150         #
+		vBePutOn setAffect dobj 4 3 0 -1               # Acid Weakness (Hidden)
+		vBeTakenOff clearAffect dobj 4 3 0             #
+		vBePutOn setAffect dobj 1 3 0 -1               # Fire Weakness (Hidden)
+		vBeTakenOff clearAffect dobj 1 3  0            #
+		vBePutOn setAffect dobj 2 3 0 -1               # Cold Weakness (Hidden)
+		vBeTakenOff clearAffect dobj 2 3  0            #
+		vBePutOn setAffect dobj 60 0 0 -1              # Clumsiness (-Dexterity) (Hidden)
+		vBeTakenOff clearAffect dobj 60 0 0            #		
+		vBePutOn setAffect dobj 62 0 0 -1              # Stupid (-Intel) (Hidden)
+		vBeTakenOff clearAffect dobj 62 0 0            #				
+	end
+
+	
+	base described
+		text "This sword radiates light unlike any light you've ever seen.."
+		idText "Salvation. \nThis Sword siphons your Opponent's life essence.\n \nWielding this you will go Berserk and attack without hesitation. Dying your hair pure white to match your new soul, it also grants an Extra Attack, and Damage vs Evil opponents.\n This Sword also smites your opponents with Lightning damage. Wielding this sword does come at a heavy cost.  \nLevel Required: 400\n"
+		shopText "The Shopkeeper is not worthy of the blade. They cannot afford it."
+	end
+end
+
+object mwAbyss of AdmantiumTwoHandSword
+	properties
+	special
+		name "Abyss"
+		value 100000
+		health 1000
+		level 400
+		strength 5		
+		color 97              # Dark-Black Glow
+		affect 10 0 0 -1      # Life-Steal
+		affect 2 0 0 -1       # Cold Damage		
+	end
+
+	
+	base carryable
+		weight 50.0
+	end
+
+	
+	base weapon
+		minDamage 100
+		maxDamage 180
+	end
+	
+	
+	actions
+		vBePutOn setAffect dobj 33 0 0 -1              # Berserk
+		vBeTakenOff clearAffect dobj 33 0 0            #
+		vBePutOn setAffect dobj 56 0 0 -1			   # Extra Attack
+		vBeTakenOff clearAffect dobj 56 0 0            #
+		vBePutOn setAffect dobj 98 0 0 -1              # Black Hair
+		vBeTakenOff clearAffect dobj 98 0 0            #
+		vBePutOn changeGoodMDMMod dobj 150             # 150 Dmg Vs Good
+		vBeTakenOff changeGoodMDMMod dobj -150         #
+		vBePutOn setAffect dobj 4 3 0 -1               # Acid Weakness (Hidden)
+		vBeTakenOff clearAffect dobj 4 3 0             #
+		vBePutOn setAffect dobj 1 3 0 -1               # Fire Weakness (Hidden)
+		vBeTakenOff clearAffect dobj 1 3  0            #
+		vBePutOn setAffect dobj 2 3 0 -1               # Cold Weakness (Hidden)
+		vBeTakenOff clearAffect dobj 2 3  0            #
+		vBePutOn setAffect dobj 60 0 0 -1              # Clumsiness (-Dexterity) (Hidden)
+		vBeTakenOff clearAffect dobj 60 0 0            #		
+		vBePutOn setAffect dobj 62 0 0 -1              # Stupid (-Intel) (Hidden)
+		vBeTakenOff clearAffect dobj 62 0 0            #		 	
+	end
+
+	
+	base described
+		text "You can feel this sword draining the happiness of you and those around you.."
+		idText "Abyss. \nThis Sword siphons your Opponent's life essence.\n \nWielding this you will go Berserk and attack without hesitation. While staining your hair the color of your soul, it also grants an Extra Attack, and Damage vs Good opponents.\n This Sword also strikes fear into your opponent causing Cold Damage. Wielding this sword does come at a heavy cost. \nLevel Required: 400\n"
+		shopText "The Shopkeeper does not want this item, they refuse to pay for it."
+	end
+end
+
+object mwMaceOfCreation of AdmantiumMace
+	properties
+	special
+		name "Mace of Creation"
+		value 100000
+		enchantResistance 100
+		strength 5		
+		level 600
+		color 97            #Dark Black Glow
+		affect 10 0 0 -1	# Steal Life
+		affect 4 0 0 -1		# Acid Damage
+		affect 5 0 0 -1		# Poison Damage
+		affect 2 0 0 -1		# Cold Damage
+		affect 3 0 0 -1		# Lightning Damage
+		affect 1 0 0 -1     # Fire Damage
+	end
+
+
+	base weapon
+		minDamage 75
+		maxDamage 165
+	end	
+
+	
+	base carryable
+		weight 150.0
+	end
+
+	
+	actions
+		vBePutOn setAffect dobj 56 0 0 -1 		# Extra Attack
+		vBeTakenOff clearAffect dobj 56 0 0     #
+		vBePutOn setAffect dobj 39 0 0 -1 		# Strength Bonus
+		vBeTakenOff clearAffect dobj 39 0 0     #
+		vBePutOn setAffect dobj 4 3 0 -1 		# Acid Weakness (Hidden)
+		vBeTakenOff clearAffect dobj 4 3 0      #
+	end
+
+
+	base described
+		text "This Mace has a glow about it..."
+		idText "The Mace of Creation! \nThis Mace is said to have existed before Creation itself.\n Over the millenia it has gained it's own magical properties. \nThis Mace does Fire, Cold, Lightning and Acid Damage and may also Leech the very Life from your enemies.\n This Mace also grants an Extra Swing, a boost to your Strength but comes with a price..  \nLevel Required: 600\n"
+		shopText "The Mace of Creation! Never did I think I would see this in person!"
+	end	
+end
+
+object mwDaggerOfAbsolution of AdmantiumDagger
+	properties
+	special
+		name "Dagger of Absolution"
+		value 100000
+		health 800
+		level 100
+		strength 5
+		color 41            # BrightWhite
+        affect 10 0 0 -1    # Life-Steal
+		affect 5 0 0 -1     # Poison Damage
+		affect 2 0 0 -1     # Cold Damage
+	end
+
+	
+	base carryable
+		weight 50
+	end
+
+	
+	base weapon
+	    damageType 2 	#Same type as Two-Handed Sword
+	    range 2
+		minDamage 40
+		maxDamage 100
+	end
+
+	
+	actions
+		vBePutOn changeMeleeArmorPiercing dobj 25          # Attack target armor rating reduced by 25
+		vBeTakenOff changeMeleeArmorPiercing dobj -25      #
+		vBePutOn setAffect dobj 44 0 0 315360000    	   # Regeneration Bonus
+		vBeTakenOff clearAffect dobj 44 0 0                #
+		vBePutOn setAffect dobj 57 0 0 -1                  # Extra Dodge
+		vBeTakenOff clearAffect dobj 57 0 0                #
+		vBePutOn setAffect dobj 56 0 0 -1				   # Extra Attack
+		vBeTakenOff clearAffect dobj 56 0 0                #
+		vBePutOn setAffect dobj 62 0 0 -1                  # Stupid (-Intel) (Hidden)
+		vBeTakenOff clearAffect dobj 62 0 0                #
+		vBePutOn setAffect dobj 41 0 0 -1                  # Shielding
+		vBeTakenOff clearAffect dobj 41 0 0                #
+		vBePutOn setAffect dobj 60 0 0 -1                  # Clumsiness (-Dexterity) (Hidden)
+		vBeTakenOff clearAffect dobj 60 0 0                #
+	end
+	
+
+	base described
+		text "This Dagger feels heavier than the average dagger.."
+		idText "The Dagger Of Absolution. \nCrafted with a metal unlike any you've ever seen.\n \nThe weight of this dagger is staggering, considering the size.\n When equipping this dagger, you will be blessed with Regeneration, Shielding, as well as an Extra Attack and Dodge. Enemies cower before this dagger, reducing their armor by 25%."
+		shopText "The shopkeeper can barely lift this dagger."
+	end
+end
+
+object mwClawOfDestruction of AdmantiumClaw
+	properties
+	special
+		name "Claw of Destruction"
+		value 100000
+		health 500
+		strength 5
+		level 400				
+		color 115           # Finvarra
+		affect 13 0 0 -1    # Stun Dmg
+	end
+
+	
+	base weapon
+		minDamage 95	
+		maxDamage 150	
+		range 4
+		damageType 2 	
+	end
+
+	
+	base carryable
+		weight 50.0
+	end
+
+	
+	actions
+		vBePutOn setAffect dobj 56 0 0 -1 		# Extra Attack
+		vBeTakenOff clearAffect dobj 56 0 0     #
+		vBePutOn setAffect dobj 39 0 0 -1 		# Strength Bonus
+		vBeTakenOff clearAffect dobj 39 0 0     #
+		vBePutOn changeEvilMDMMod dobj 50       # Evil MDM
+		vBePutOn changeGoodMDMMod dobj 50       # Good MDM
+		vBeTakenOff changeGoodMDMMod dobj 50    #
+		vBeTakenOff changeEvilMDMMod dobj 50    #
+	end
+
+	
+	base described
+		text "This claw radiates in your hand. You can feel the power coursing through it."
+		idText "The Claw of Destruction. \nYou can see why it's named that.\n Holding the claw in your hand fills you with a sense of confidence. \nYou can hear the whispers of all the previous owners telling you to be weary.\n \nThis Claw has natural Stun damage and will imbue you with an extra attack, a Strength boost as well as slight damage to the Evil and Good.\n  \nLevel Required: 400\n"
+		shopText "A Claw of Destruction?! Let me see if I can afford that...."
+	end
+end
+
+object mwMagesBlade of AdmantiumBroadSword
+	properties
+	special
+		name "Mage's Blade"
+		value 100000
+		health 800
+		strength 5
+		caffect 0		
+		color 115   #Finvarra
+		level 550
+	end
+
+	actions
+        vBePutOn changeSDM dobj 200 1 3 4             # SDM Boost (Thaum, Ele, Necro)
+		vBeTakenOff changeSDM dobj -200 1 3 4	      #
+		vBePutOn setAffect dobj 61 0 0 -1             # Intel Boost (HoI)
+		vBeTakenOff clearAffect dobj 61 0 0           #
+		vBePutOn setAffect dobj 4 3 0 -1              # Weakness to Acid (Hidden)
+		vBeTakenOff clearAffect dobj 4 3 0
+	end
+	
+	base carryable
+		weight 12.0
+	end
+
+	base weapon
+		minDamage 45
+		maxDamage 90
+	end
+	
+	base described
+		text "You see a runed Broad Sword."
+		idText "You see the fabled Mage's Blade! \nThis blade has the ability to draw out your inner power.\n Be careful! This blade has its drawbacks! \nEquipping this blade will also grant you a bonus to your Thaumaturgy, Elementalism and Necromancy Circles.\n \nLevel Required: 550\n"
+		shopText "A Broad Sword with weird etches in it? Why would I want this?"
+	end
+end
+
+object mwRedemption of AdmantiumClub
+	properties
+	special
+		name "Redemption"
+		value 10000
+		health 900
+		strength 5
+		color 0                # NB
+		caffect 0
+		affect 13 0 0 -1       # Stun Damage
+		affect 5 0 0 -1        # Poison Damage
+		level 1000
+	end
+	
+	actions
+		vBePutOn setAffect dobj 96 0 0 -1              # Grey Skin
+		vBeTakenOff clearAffect dobj 96 0 0            # 
+		vBePutOn setAffect dobj 62 0 0 -1              # Stupid (-Intel) (Hidden)
+		vBeTakenOff clearAffect dobj 62 0 0            #	
+		vBePutOn setAffect dobj 4 3 0 -1               # Acid Weakness (Hidden)
+		vBeTakenOff clearAffect dobj 4 3 0             #
+		vBePutOn setAffect dobj 1 3 0 -1               # Fire Weakness (Hidden)
+		vBeTakenOff clearAffect dobj 1 3 0             #
+		vBePutOn setAffect dobj 2 3 0 -1               # Cold Weakness (Hidden)
+		vBeTakenOff clearAffect dobj 2 3 0             #
+		vBePutOn setAffect dobj 33 0 0 -1              # Berserk
+		vBeTakenOff clearAffect dobj 33 0 0            #				
+	end
+	
+	base carryable
+		weight 195.0
+	end
+	
+	base weapon
+		minDamage 125
+		maxDamage 245
+	end	
+	
+	base described
+	    text "You can barely lift this."
+		idText "Redemption. \nThis massive club has brought more destruction than any other weapon in existance.\n It has natural Stun Damage and also infects the opponent with Poison. \nThe impurity of this weapon will stain your skin, and also drive you mad.\n \nLevel Required: 950\n"
+		shopText "The Shopkeeper can't hold this and has nowhere to store it. They won't pay you anything for it."
+	end
+end
+
+object mwBrokenExcalibur of AdmantiumShortSword
+	properties
+	special
+		name "Broken Excalibur"
+		value 50000
+		health 800
+		enchantResistance 100
+        strength 5
+		color 3                 # Light Rust Brown	
+		affect 5 0 0 -1         # Poison 
+        affect 10 0 0 -1		# Steal-Life
+	end
+	
+	
+	base carryable
+		weight 3.0
+	end
+
+	
+	base weapon
+		minDamage 30
+		maxDamage 75
+	end
+	
+	
+	actions
+		vBePutOn setAffect dobj 57 0 0 -1         # Dodge
+		vBeTakenOff clearAffect dobj 57 0 0       #
+		vBePutOn setAffect dobj 41 0 0 -1         # Shielding
+		vBeTakenOff clearAffect dobj 41 0 0       #
+		vBePutOn setAffect dobj 56 0 0 -1         # Extra Attack (Hidden Effect)
+		vBeTakenOff clearAffect dobj 56 0 0       #
+		vBePutOn setAffect dobj 59 0 0 -1         # +Dex
+		vBeTakenOff clearAffect dobj 59 0 0		  #
+	end
+	
+	
+	base described
+		text "This appears to have once been larger.."
+		idText "This was once a mightier weapon, but now it is mostly used to open things. \nIn addition to having Natural Posion and Life Steal, it will grant you an Extra Dodge and some Shielding.\n \nThe magic on this blade is so strong adding any more seems impossible.\n"
+		shopText "The shopkeeper laughs at your broken sword. They want nothing to do with it."
+	end
+end
+
+object mwRighteous of AdmantiumLongSword
+	properties
+	special
+		name "Righteous"
+		value 50000
+		health 800
+		color 16          # Coral Red Glow
+		affect 1 0 0 -1   # Fire Damage
+	end
+
+	
+	base carryable
+		weight 4.0
+	end
+
+	
+	base weapon
+		minDamage 40
+		maxDamage 80
+	end
+
+	
+	actions
+		vBePutOn setAffect dobj 5 2 0 -1                 # Immune to Poison
+		vBeTakenOff clearAffect dobj 5 2 0               #
+		vBePutOn setAffect dobj 97 0 0 -1                # White Hair
+		vBeTakenOff clearAffect dobj 97 0 0              #
+		vBePutOn setAffect dobj 2 3 0 -1                 # Weakness to Cold (Hidden)
+		vBeTakenOff clearAffect dobj 2 3  0              #
+		vBePutOn changeMeleeArmorPiercing dobj 10        # 10% Armor Pen (Hidden)
+		vBeTakenOff changeMeleeArmorPiercing dobj -10    #
+	end	
+	
+	
+	base described
+		text "This red sword radiates heat"
+		idText "Righteous. \nIt burns its enemies with righteous fire.\n It is hot to the touch, only the strong willed may wield this blade. \nHolding this in your hand bleaches your hair and accelerates your metabolism increasing your poison resistance.\n"
+		shopText "'Righteous' is quite the rare find."
+	end
+end
+
+object mwRetribution of AdmantiumLongSword
+	properties
+	special
+		name "Retribution"
+		value 10000
+		health 100000
+		strength 5
+		color 13	            # Royal-Blue
+		affect 10 0 0 -1		# Life-Steal
+		affect 2 0 0 -1         # Cold Damage
+		level 1000
+	end
+
+	
+	base carryable
+		weight 12.0
+	end
+
+	
+	base weapon
+		minDamage 110
+		maxDamage 200
+	end
+	
+	actions
+		vBePutOn setAffect dobj 59 0 0 -1						# +Attack
+		vBeTakenOff clearAffect dobj 59 0 0						#
+		vBePutOn setAffect dobj 57 0 0 -1						# +Dodge
+		vBeTakenOff clearAffect dobj 57 0 0						#
+		vBePutOn setAffect dobj 61 0 0 -1        			    # Intel Boost (HoI)
+		vBeTakenOff clearAffect dobj 61 0 0        			    #
+		vBePutOn changeMeleeArmorPiercing dobj 20				# 20% Armor Pen
+		vBeTakenOff changeMeleeArmorPiercing dobj -20			#
+		vBePutOn setAffect dobj 59 0 0 -1						# +Dex
+		vBeTakenOff clearAffect dobj 59 0 0						#
+		vBePutOn setAffect dobj 4 3 0 -1              			# Acid Weakness (Hidden)
+		vBeTakenOff clearAffect dobj 4 3 0            			#
+		vBePutOn setAffect dobj 1 3 0 -1            		    # Fire Weakness (Hidden)
+		vBeTakenOff clearAffect dobj 1 3  0         	        #
+		vBePutOn setAffect dobj 2 3 0 -1            			# Cold Weakness (Hidden)
+		vBeTakenOff clearAffect dobj 2 3  0        			    #
+	end
+
+	
+	base described
+		text "This broad sword emits a strange humming."
+		idText "Retribution. \nThis broad sword is the most powerful of it's kind.\n It steals life from your opponent as well as chills them to the bone. \nThis legendary broad sword is enchanted to provide the weilder with an extra Attack and Dodge.\n \nWielding this also hones your intelligence.\n A bonus to Dexterity as well as Armor Penetration are also provided. \nLevel Required: 950\n"
+		shopText "Wow, I can almost feel the sound this sword is making!"
+	end
+end
+
+object MagicalKnapsack of BackPack
+	properties
+		special
+		view 50200
+		name "Magical Knapsack"
+		color 229 				#Shifting Darker Fossil (Shifting Fin)
+		value 40000
+	end
+
+	base carryable
+		weight 7.5
+		bulk 12.0
+	end
+
+	
+	base container
+		weightCapacity 600.0
+		bulkCapacity 100.0
+	end
+	
+	actions
+		vBePutOn setAffect dobj 72 0 0 -1			#Carry Capacity
+		vBeTakenOff clearAffect dobj 72 0 0
+		vBePutOn setAffect dobj 39 0 0 -1		  # Str
+		vBeTakenOff clearAffect dobj 39 0 0
+		vBePutOn setAffect dobj 59 0 0 -1		  # Dex
+		vBeTakenOff clearAffect dobj 59 0 0		
+	end
+	
+	base described
+		text "This knapsack shimmers with a strange glow."
+		idText "A Magical Knapsack. This will carry much more than any regular backpack. You gain a boost to your Carry Capacity as well as your Strength and Dexterity."
+		shopText "Are you sure you want to sell this?"
+	end
+end
+
+object DungeonDweller of Baldric
+	properties
+		special
+		name "Dungeon Dweller's Baldric"
+		color 0
+		level 750
+	end
+
+	actions
+		vBePutOn setAffect dobj 39 0 0 -1		#Str
+		vBeTakenOff clearAffect dobj 39 0 0
+		vBePutOn setAffect dobj 59 0 0 -1		#Dex
+		vBeTakenOff clearAffect dobj 59 0 0
+	end
+
+	base described
+		text "A Baldric in a familiar color."
+		idText "A Natural Brown Baldric that has been designed for every dungeon dweller out there. It provides a boost to your Strength and Dexterity."
+		shopText "You sure you wanna be selling this?"
+	end
+end
+
+object mwJustice of AdmantiumThrowingDagger
+	properties
+	special
+		name "Justice"
+		value 100000
+		health 900
+		color 177				#Shifting All White 
+		strength 5
+		caffect 0
+		affect 5 0 0 -1			#Poison Dmg
+		level 1000
+	end
+
+	base carryable
+		weight 4.5
+	end
+
+	base weapon
+		minDamage 50
+		maxDamage 95
+	end
+	
+	
+	actions
+	        vBePutOn changeSDM dobj 200 1 3 4             # SDM Boost (Thaum, Ele, Necro)
+		vBeTakenOff changeSDM dobj -200 1 3 4	      #
+		vBePutOn setAffect dobj 61 0 0 -1             # Intel Boost (HoI)
+		vBeTakenOff clearAffect dobj 61 0 0           #
+		vBePutOn setAffect dobj 61 0 0 -1             # Intel Boost (HoI)
+		vBeTakenOff clearAffect dobj 61 0 0           #
+		vBePutOn setAffect dobj 4 3 0 -1              # Weakness to Acid (Hidden)
+		vBeTakenOff clearAffect dobj 4 3 0			  #	
+	end
+	
+	base described
+		text "This dagger glows magnificently."
+		idText "Justice. This dagger strikes fear into anyone not wielding it. Crafted from fine exotic metals, it will inflict poison naturally to your target. Wielding this you will also gain considerable Intelligence, as well as a 200% Boost to your Thaumatugy, Elementalism and Necromancy Circles. \nLevel Required: 950\n"
+		shopText "Justice? What a find!"
+	end
+end
+
+object mwRavager of AdmantiumDagger
+	properties
+		special
+		name "The Ravager"
+		value 100000
+		health 900
+		strength 5
+		level 1000
+		color 0			# Natural Brown
+		caffect 0		# Idfk
+		affect 5 0 0 -1		# Poison Damage
+	end
+
+	base carryable
+		weight 175.0
+	end
+
+	base weapon
+		minDamage 125
+		maxDamage 240
+		range 2
+		damageType 2
+	end
+
+	actions
+		vBePutOn setAffect dobj 62 0 0 -1              # Stupid (-Intel) (Hidden)
+		vBeTakenOff clearAffect dobj 62 0 0            #	
+		vBePutOn setAffect dobj 4 3 0 -1               # Acid Weakness (Hidden)
+		vBeTakenOff clearAffect dobj 4 3 0             #
+		vBePutOn setAffect dobj 33 0 0 -1              # Berserk
+		vBeTakenOff clearAffect dobj 33 0 0            #
+		vBePutOn setAffect dobj 98 0 0 -1	       # Black Hair
+		vBeTakenOff clearAffect dobj 98 0 0	       #
+	end
+	
+	base described
+		text "How is this so heavy.."
+		idText "The Ravager. Exactly what it will do to your opponent. This dagger is shockingly effective for it's size. Wielding The Ravager will stain your hair and send you into a uncontrollable rage. Inflicting natural poison to your enemy, this dagger is sure to clear anything in your path. \nLevel Required: 950\n"
+		shopText "This couldn't be Ravager could it?"
+	end
+end
+
+object ArenaShield of LargeShield
+	properties
+	special
+		name "Arena Shield"
+		value 18000
+		health 800
+		color 20			# Pale Yellow (YMMB)
+		armor 65
+		level 750
+	end
+
+	base carryable
+		weight 35.0
+	end
+
+	base wearable 
+        mask thief
+        mask wizard
+		mask adventurer
+	end	
+	
+	actions
+		vBePutOn setAffect dobj 39 0 0 -1		  # Str
+		vBeTakenOff clearAffect dobj 39 0 0
+		vBePutOn setAffect dobj 59 0 0 -1		  # Dex
+		vBeTakenOff clearAffect dobj 59 0 0		
+		vBePutOn setAffect dobj 57 0 0 -1         # Dodge
+		vBeTakenOff clearAffect dobj 57 0 0       
+		vBePutOn setAffect dobj 41 0 0 -1         # Shielding
+		vBeTakenOff clearAffect dobj 41 0 0       		
+	end
+	
+	base described
+		text "You see a sturdy shield used in Arena combat."
+		idText "This shield belonged to a Gladiator long since dead. You can see the numerous battles thing shield has faced. Wielding this mighty shield you will gain an extra Dodge, as well as a boost to your Strenth and Dexterity. This shield emits a strange magical shield, protecting you. \nWarriors Only!\n \nLevel Required: 750\n"
+		shopText "These types of shields are long since forgotten, what a catch!"
+	end
+end
+
+object ArcaneShield of RoundShield
+	properties
+	special
+		name "Arcane Shield"
+		value 18000
+		health 800
+		color 117			# Shifting All White
+		armor 25
+		level 750
+	end
+
+	base carryable
+		weight 3.5
+	end
+
+	base wearable 
+        mask warrior
+        mask thief
+		mask adventurer
+	end	
+	
+	actions
+		vBePutOn setAffect dobj 61 0 0 -1             # Intel Boost
+		vBeTakenOff clearAffect dobj 61 0 0           
+		vBePutOn setAffect dobj 61 0 0 -1             # Intel Boost
+		vBeTakenOff clearAffect dobj 61 0 0           
+		vBePutOn setAffect dobj 59 0 0 -1		 	  # Dex
+		vBeTakenOff clearAffect dobj 59 0 0		
+		vBePutOn setAffect dobj 57 0 0 -1        	  # Dodge
+		vBeTakenOff clearAffect dobj 57 0 0       
+		vBePutOn setAffect dobj 41 0 0 -1       	  # Shielding
+		vBeTakenOff clearAffect dobj 41 0 0
+	end
+	
+	base described
+		text "A rune encrusted shield."
+		idText "A shield once belonged to a mighty conjurer. This shield has been gifted with Arcance properties granting the wielder considerable Intelligence, slight Dexterity and an extra Dodge. The magic on this shield is so powerful it provides additional magical shielding. \nWizards Only!\n \nLevel Required: 750\n"
+		shopText "Now, I don't see many of these sort."
+	end
+end
+
+object mwDevastation of AdmantiumThrowingDagger
+	properties
+	special
+		name "Devastation"
+		value 100000
+		health 2000
+		color 81
+		strength 5
+		level 1000
+		caffect 0
+		affect 10 0 0 -1
+		enchantResistance 15
+	end
+
+	base described
+		text "This dagger shimmers in the light as well as the dark.. \n"
+		idText "Devastation. This throwing dagger will destroy your enemies at a distance. Perfect for the would be thief..\n This throwing weapon will provide Considerable Dexterity, as well as an extra throw. \n\n The serrated blade on this dagger will penetrate your enemies thick armor. It also leeches your opponents life force.\n\n 20% Armor Penetration\n 25% MDM Vs Good\Evil\n Level Required 1000\n\n"
+		shopText "Wow, this thing is shiny!" 
+	end
+
+	base carryable
+		weight 3.4
+	end
+	
+	base weapon
+		minDamage 85
+		maxDamage 115
+	end
+
+	actions
+		vBePutOn setAffect dobj 59 0 0 -1				# Dex
+		vBeTakenOff clearAffect dobj 59 0 0
+		vBePutOn setAffect dobj 59 0 0 -1				# Dex
+		vBeTakenOff clearAffect dobj 59 0 0		
+		vBePutOn changeEvilMDMMod dobj 25             # 25 Dmg Vs Evil
+		vBeTakenOff changeEvilMDMMod dobj -25         #
+		vBePutOn changeGoodMDMMod dobj 25             # 25 Dmg Vs Good
+		vBeTakenOff changeGoodMDMMod dobj -25         #
+		vBePutOn changeMeleeArmorPiercing dobj 20			# 20% Armor Pen
+		vBeTakenOff changeMeleeArmorPiercing dobj -20
+		vBePutOn setAffect dobj 56 0 0 -1					# Attack
+		vBeTakenOff clearAffect dobj 56 0 0
+	end
+end
+
+
+object ThiefBuckler of RoundShield
+	properties
+	special
+		name "Thief's Buckler"
+		value 18000
+		health 800
+		color 163			# Darkest Silk
+		armor 30
+		level 750
+	end
+
+	base carryable
+		weight 10.0
+	end
+
+	base wearable 
+                mask warrior
+                mask wizard
+		mask adventurer
+	end	
+	
+	actions
+		vBePutOn setAffect dobj 59 0 0 -1		  # Dex
+		vBeTakenOff clearAffect dobj 59 0 0	
+		vBePutOn setAffect dobj 59 0 0 -1		  # Dex
+		vBeTakenOff clearAffect dobj 59 0 0		
+		vBePutOn setAffect dobj 57 0 0 -1         # Dodge
+		vBeTakenOff clearAffect dobj 57 0 0       
+		vBePutOn setAffect dobj 41 0 0 -1         # Shielding
+		vBeTakenOff clearAffect dobj 41 0 0       		
+	end
+	
+	base described
+		text "A small shield that could easily be concealed.."
+		idText "These types of bucklers are very easy to stow away, but durable enough to withstand blows from the heaviest weapons. Using this buckler, you will gain Considerable Dexterity, and an Extra Dodge. This shield emits a strange magical shield, protecting you.\nThieves Only!\n \nLevel Required: 750\n"
+		shopText "What a small shield."
+	end
+end
+
+object YorkBaldric of Baldric
+	properties
+		special
+		name "Baldric of York"
+		color 36	#Indigo (Deep Purple Glow)
+		level 750
+	end
+
+	actions
+		vBePutOn setAffect dobj 61 0 0 -1             # Intel
+		vBeTakenOff clearAffect dobj 61 0 0           	
+	end
+
+	base described
+		text "A familiar baldric, but something is different..\n"
+		idText "A Baldric reclaimed from the lost York. This ancient Baldric will provide the wearer a boost to their Intelligence!\n Level Required: 750\n"
+		shopText "I've never seen such a thing!"
+	end
+end
+
+object AchrenBaldric of Baldric
+	properties
+		special
+		name "Baldric of Achren"
+		color 116	#Black Latex
+		level 750
+	end
+
+	actions
+		vBePutOn setAffect dobj 1 2 0 -1			# Str
+		vBeTakenOff clearAffect dobj 1 2 0		
+		vBePutOn setAffect dobj 56 0 0 -1			# Attack
+		vBeTakenOff clearAffect dobj 56 0 0	
+	end
+
+	base described
+		text "A baldric made from an exotic silk..\n"
+		idText "An ancient Baldric from Achren!\n This Baldric will provide the wearer will increased Strength, as well as an extra Attack in combat.\n Level Required: 750\n"
+		shopText "I've never seen such a thing!"
+	end
+end
+
+object CrucibleBaldric of Baldric
+	properties
+		special
+		name "Crucible Baldric"
+		color 76	#Cyprus
+		level 1000
+	end
+
+	actions
+		vBePutOn setAffect dobj 59 0 0 -1			# Dex
+		vBeTakenOff clearAffect dobj 59 0 0
+		vBePutOn setAffect dobj 1 2 0 -1			# Str
+		vBeTakenOff clearAffect dobj 1 2 0	
+		vBePutOn setAffect dobj 61 0 0 -1			# Intel
+		vBeTakenOff clearAffect dobj 61 0 0
+		vBePutOn setAffect dobj 56 0 0 -1			# Attack
+		vBeTakenOff clearAffect dobj 56 0 0	
+		vBePutOn setAffect dobj 1 3 0 -1            # Fire Weakness (Hidden)
+		vBeTakenOff clearAffect dobj 1 3  0         
+		vBePutOn setAffect dobj 2 3 0 -1            # Cold Weakness (Hidden)
+		vBeTakenOff clearAffect dobj 2 3  0         		
+	end
+
+	base described
+		text "There is something with this baldric, you can feel the raw power pulsing from it..\n"
+		idText "A Baldric that represents only the hardened of veterans.\n This Baldric could surely cause destruction were it to fall into the wrong hands.\n Wearing this, you will gain a boost to your Strength, Dexterity, as well as your Intelligence. The ancient knowledge imbued into this baldric will also provide you with an extra Attack.\n This Baldric does not come without its drawbacks. Wearing this, you will also take more Cold and Fire damage.\n Level Required: 950\n"
+		shopText "I've never seen such a thing!"
+	end
+end
+
+object AvoidanceBaldric of Baldric
+	properties
+		special
+		name "Baldric of Avoidance"
+		color 105	#DTan Flesh (MDF)
+		level 200
+	end
+
+	actions
+		vBePutOn setAffect dobj 57 0 0 -1       # Extra Dodge
+		vBeTakenOff clearAffect dobj 57 0 0  
+		vBePutOn setAffect dobj 59 0 0 -1       # +Dex
+		vBeTakenOff clearAffect dobj 59 0 0		
+		vBePutOn changeEvilMDMMod dobj 10       # Evil MDM 10%
+		vBePutOn changeGoodMDMMod dobj 10       # Good MDM 10%
+		vBeTakenOff changeGoodMDMMod dobj -10   #
+		vBeTakenOff changeEvilMDMMod dobj -10   #		
+	end
+
+	base described
+		text "This baldric resembles flesh..\n"
+		idText "A Baldric of Avoidance.\n This Baldric will provide the wearer with a spare Dodge, as well as a boost to your Dexterity.\n This Baldric also provides 10% Damage Boost to Evil and Good targets.\n Level Required: 200\n"
+		shopText "You sure this isnt skin?"
+	end
+end
+
+object ProtectionBaldric of Baldric
+	properties
+		special
+		name "Baldric of Protection"
+		color 138	#Prussian Blue Glow 
+	end
+
+	actions
+		vBePutOn setAffect dobj 41 0 0 -1       # Shielding
+		vBeTakenOff clearAffect dobj 41 0 0	
+		vBePutOn setAffect dobj 67 0 0 -1		# Nourishment
+		vBeTakenOff clearAffect dobj 67 0 0		
+		vBePutOn changeEvilMDMMod dobj 10       # Evil MDM 10%
+		vBePutOn changeGoodMDMMod dobj 10       # Good MDM 10%
+		vBeTakenOff changeGoodMDMMod dobj -10   #
+		vBeTakenOff changeEvilMDMMod dobj -10   #
+	end
+
+	base described
+		text "A very shiny baldric, this could be worth something...\n"
+		idText "A Baldric of Protection.\n This Baldric will provide the wearer with Shielding, as well as Eternal Nourishment.\n This Baldric also provides 10% Damage Boost to Evil and Good targets.\n"
+		shopText "Wow, thats unique!"
+	end
+end
+
+object GeneralBaldric of Baldric
+	properties
+	special
+		name "General's Baldric"
+		color 43	#Brown Glow
+		level 500
+		value 75000
+	end
+
+	actions
+		vBePutOn setAffect dobj 17 0 0 -1		  # See Invis
+		vBeTakenOff clearAffect dobj 17 0 0
+		vBePutOn setAffect dobj 39 0 0 -1		  # Str
+		vBeTakenOff clearAffect dobj 39 0 0
+		vBePutOn setAffect dobj 59 0 0 -1		  # Dex
+		vBeTakenOff clearAffect dobj 59 0 0		
+	end
+	
+	base described
+		text "You see a General's Baldric."
+		idText "This Baldric once belonged to a powerful General.\n Wearing this, you will be granted additional Strength as well as Dexterity.\n This Baldric also possesses the magic to grant the wearer ability to see invisible beings.\n \nLevel Required: 500\n"
+		shopText "Whoa, where'd you steal this from?"
+	end
+end

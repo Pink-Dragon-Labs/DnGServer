@@ -1,0 +1,40 @@
+name "AchrenSouth"
+title "South Achren"
+worldFile "../data/lib/world/ACHREN03.WLD"
+worldFile "../data/lib/world/ACHREN04.WLD"
+resetInterval 9000000 
+maximumObjectAge 0 
+allowCombat 3
+midiFile 17
+groupChance 50
+monster Bandit 35
+monster BanditHitter 35
+monster nDragonWizA 75
+monster nDragonWizB 75
+monster nDragonWizC 50
+monster nDragonWizD 50
+monster Apophis 40
+monster SoldierE 50
+monster SoldierG 50
+monster SoldierN 50
+monster nLGM 50
+monster SoldierBoss 2
+monster Gargoyle 50
+monster DireWolf 50
+monster BanditThief 25
+monster BanditMystic 25
+monster BanditHitter 25
+monster HiddenBandit 25
+
+
+
+#ambushInterval 40
+#ambush 10 Gladiator Gladiator
+#ambush 10 nDragonWizA nDragonWizB nDragonWizC
+#ambush 10 nLGM nLGM nLGM
+#ambush 10 DireWolf DireWolf DireWolf DireWolf
+#ambush 10 Gladiator Gladiator Gladiator Gladiator
+#ambush 10 SoldierE SoldierG SoldierN SoldierG SoldierN
+#ambush 10 nDragonWizB Gladiator SoldierN SoldierN
+#ambush 10 BabyDragon BabyDragon BabyDragon BabyDragon BabyDragon BabyDragon BabyDragon Apophis
+#ambush 10 SoldierE SoldierG SoldierN SoldierBoss

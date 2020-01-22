@@ -1,0 +1,28 @@
+id 99899
+
+banner "Item Upgrade: Amulet of Concentration"
+
+topic "What's going on here?"
+        text "Oh, funny you should ask.."
+        text "I can empower your amulet to increase its power significantly."
+end
+
+topic "Level Two"
+	quest 99998
+	text "I've nothing for you today. Come back some other time and ask me again."
+end
+
+topic "Level Three"
+	quest 99997
+	text "I've nothing for you today. Come back some other time and ask me again."
+end
+
+topic "Level Four"
+	quest 99996
+	text "I've nothing for you today. Come back some other time and ask me again."
+end
+
+topic "Level Five"
+	quest 99995
+	text "I've nothing for you today. Come back some other time and ask me again."
+end

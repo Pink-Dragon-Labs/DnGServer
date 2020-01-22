@@ -1,0 +1,608 @@
+#-------------------------------------------
+#			Mabon Pants Base
+#-------------------------------------------
+object MabonPants of Pants
+	properties
+	special
+		name "Mabon's Pants"
+		basicName "pants"
+		color 88
+		value 1
+		armor 35
+		health 200
+		strength 1
+		armorType 1
+		level 925	
+	end
+
+	base carryable
+		weight 4.0
+	end
+
+	actions
+		
+		vBePutOn setAffect dobj 57 0 0 -1			#Dodging
+		vBeTakenOff clearAffect dobj 57 0 0
+		vBePutOn setAffect dobj 59 0 0 -1			#Dexterity
+		vBeTakenOff clearAffect dobj 59 0 0
+		vBePutOn setAffect dobj 61 0 0 -1			#Intelligence
+		vBeTakenOff clearAffect dobj 61 0 0
+		vBePutOn setAffect dobj 61 0 0 -1			#Intelligence
+		vBeTakenOff clearAffect dobj 61 0 0		
+		vBePutOn setAffect dobj 63 0 0 -1			#Endurance
+		vBeTakenOff clearAffect dobj 63 0 0
+		vBePutOn changeSDM dobj 100 1 3 4 		# Add 100% to all magic circles except Myst while worn
+		vBeTakenOff changeSDM dobj -100 1 3 4		
+	end
+	base described
+		text "These musty pants radiate power."
+		idText "Mabon himself must have worn these, his godly power imbued into the very fabric. \n Provides dexterity, an extra dodge, double intel, endurance and 100% SDM to Thaum/Elem/Necro. \n You must be level 925 or higher to wear these pants.\n\n"		
+		shopText "These pants should never be sold to a shop."
+	end
+end
+#-------------------------------------
+object MabonPantsA of MabonPants
+	properties
+	special
+		name "Mabon's Pants"
+		basicName "pants"
+		color 222
+	end
+
+end
+object MabonPantsB of MabonPants
+	properties
+	special
+		name "Mabon's Pants"
+		basicName "pants"
+		color 51
+	end
+
+end
+object MabonPantsC of MabonPants
+	properties
+	special
+		name "Mabon's Pants"
+		basicName "pants"
+		color 91
+	end
+
+end
+object MabonPantsD of MabonPants
+	properties
+	special
+		name "Mabon's Pants"
+		basicName "pants"
+		color 163
+	end
+
+end
+#--------------------------------------------------
+#			Mabon Shirt Base
+#--------------------------------------------------
+object MabonShirt of Shirt
+	properties
+	special
+		name "Mabon's Shirt"
+		color 88
+		value 1
+		armor 60
+		health 100
+		strength 1
+		armorType 1
+		level 925		
+	end
+
+	base carryable
+		weight 5.0
+	end
+
+	actions
+		       
+		vBePutOn setAffect dobj 57 0 0 -1			#Dodging
+		vBeTakenOff clearAffect dobj 57 0 0
+		vBePutOn setAffect dobj 59 0 0 -1			#Dexterity
+		vBeTakenOff clearAffect dobj 59 0 0
+		vBePutOn setAffect dobj 61 0 0 -1			#Intelligence
+		vBeTakenOff clearAffect dobj 61 0 0
+		vBePutOn setAffect dobj 63 0 0 -1			#Endurance
+		vBeTakenOff clearAffect dobj 63 0 0
+		vBePutOn changeSDM dobj 100 1 3 4 		# Add 100% to all magic circles except Myst while worn
+		vBeTakenOff changeSDM dobj -100 1 3 4			
+	end
+	base described
+		text "This shirt shimmers in the light."
+		idText "The magic on this shirt could have only been put there by Mabon. \n Provides dexterity,an extra dodge,intel,endurance and 100% SDM to Thaum/Elem/Necro.\n You must be level 925 or higher to wear this shirt.\n\n"		
+		shopText "This shirt should never be sold to a shop."
+	end
+end
+#-------------------------------------------------
+object MabonShirtA of MabonShirt
+	properties
+	special
+		name "Mabon's Shirt"
+		color 222
+	end
+end
+object MabonShirtB of MabonShirt
+	properties
+	special
+		name "Mabon's Shirt"
+		color 51
+	end
+end
+object MabonShirtC of MabonShirt
+	properties
+	special
+		name "Mabon's Shirt"
+		color 91
+	end
+end
+object MabonShirtD of MabonShirt
+	properties
+	special
+		name "Mabon's Shirt"
+		color 163
+	end
+end
+#-------------------------------------------------
+#			Mabon Shoes Base
+#-------------------------------------------------
+object MabonShoes of LowBoots
+	properties
+	special
+		name "Mabon's Shoes"
+		value 1
+		armor 50
+		health 1500
+		color 100
+		level 925
+	end
+
+	base carryable
+		weight 1.5
+	end
+	
+	actions
+		
+		vBePutOn setAffect dobj 57 0 0 -1			#Dodging
+		vBeTakenOff clearAffect dobj 57 0 0
+		vBePutOn setAffect dobj 59 0 0 -1			#Dexterity
+		vBeTakenOff clearAffect dobj 59 0 0
+		vBePutOn setAffect dobj 61 0 0 -1			#Intelligence
+		vBeTakenOff clearAffect dobj 61 0 0
+		vBePutOn setAffect dobj 61 0 0 -1			#Intelligence
+		vBeTakenOff clearAffect dobj 61 0 0		
+		vBePutOn setAffect dobj 63 0 0 -1			#Endurance
+		vBeTakenOff clearAffect dobj 63 0 0
+		vBePutOn changeSDM dobj 100 1 3 4 		# Add 100% to all magic circles except Myst while worn
+		vBeTakenOff changeSDM dobj -100 1 3 4	
+	end
+	base described
+		text "These shoes glow brightly"
+		idText "These shoes bear magic woven into the very fabric by Mabon. \n Provides dexterity, an extra dodge, double intel, endurance and 100% SDM to Thaum/Elem/Necro.\n You must be level 925 or higher to wear these shoes.\n\n"		
+		shopText "These shoes should never be sold to a shop."
+	end
+end
+#----------------------------------------------
+object MabonShoesA of MabonShoes
+	properties
+	special
+		name "Mabon's Shoes"
+		color 222
+	end
+end
+object MabonShoesB of MabonShoes
+	properties
+	special
+		name "Mabon's Shoes"
+		color 51
+	end
+end
+object MabonShoesC of MabonShoes
+	properties
+	special
+		name "Mabon's Shoes"
+		color 91
+	end
+end
+object MabonShoesD of MabonShoes
+	properties
+	special
+		name "Mabon's Shoes"
+		color 163
+	end
+end
+#----------------------------------------------
+#			Mabons Cowl Base
+#----------------------------------------------
+object MabonCowl of Cowl
+	properties
+	special
+		name "Mabon's Cowl"
+		value 1
+		health 1500
+		armor 105			
+		color 58
+		level 925
+	end
+
+	base carryable
+		weight 3.0
+	end
+	
+	actions
+		
+		vBePutOn setAffect dobj 57 0 0 -1			#Dodging
+		vBeTakenOff clearAffect dobj 57 0 0
+		vBePutOn setAffect dobj 59 0 0 -1			#Dexterity
+		vBeTakenOff clearAffect dobj 59 0 0
+		vBePutOn setAffect dobj 61 0 0 -1			#Intelligence
+		vBeTakenOff clearAffect dobj 61 0 0
+		vBePutOn setAffect dobj 63 0 0 -1			#Endurance
+		vBeTakenOff clearAffect dobj 63 0 0
+		vBePutOn changeSDM dobj 100 1 3 4 		# Add 100% to all magic circles except Myst while worn
+		vBeTakenOff changeSDM dobj -100 1 3 4	
+	end
+	base described
+		text "This cowl pulsates with magic"
+		idText "The weave on this cowl is imbued with Mabon's magic. \n Provides dexterity, an extra dodge, double intel, endurance and 100% SDM to Thaum/Elem/Necro. \n \n You must be level 925 or higher to wear this cowl.\n\n"		
+		shopText "This cowl should never be sold to a shop."
+	end
+end
+#-------------------------------------------------------
+object MabonCowlA of MabonCowl
+	properties
+	special
+		name "Mabon's Cowl"	
+		color 222
+	end
+end
+object MabonCowlB of MabonCowl
+	properties
+	special
+		name "Mabon's Cowl"	
+		color 51
+	end
+end
+object MabonCowlC of MabonCowl
+	properties
+	special
+		name "Mabon's Cowl"	
+		color 91
+	end
+end
+object MabonCowlD of MabonCowl
+	properties
+	special
+		name "Mabon's Cowl"	
+		color 163
+	end
+end
+#---------------------------------------
+#			Hood of Mabon Base
+#---------------------------------------
+object HoodMabon of Hood
+	properties
+		special
+		view 30550
+		name "Hood of Mabon"
+		clutStart 63
+        value 1		
+		color -1
+		armorFlat 45
+		level 925		
+	end
+
+	base carryable
+		weight 2
+	end
+
+	base wearable
+		areaWorn 0
+	end
+
+	actions
+		vBePutOn setAffect dobj 20 2 0 -1			# Ethereal (Defenseless Resistence)
+		vBeTakenOff clearAffect dobj 20 2 0
+		vBePutOn setAffect dobj 57 0 0 -1			#Dodging
+		vBeTakenOff clearAffect dobj 57 0 0
+		vBePutOn setAffect dobj 59 0 0 -1			#Dexterity
+		vBeTakenOff clearAffect dobj 59 0 0
+		vBePutOn setAffect dobj 61 0 0 -1			#Intelligence
+		vBeTakenOff clearAffect dobj 61 0 0
+		vBePutOn setAffect dobj 61 0 0 -1			#Intelligence
+		vBeTakenOff clearAffect dobj 61 0 0		
+		vBePutOn setAffect dobj 63 0 0 -1			#Endurance
+		vBeTakenOff clearAffect dobj 63 0 0
+		vBePutOn changeSDM dobj 100 1 3 4 		# Add 100% to all magic circles except Myst while worn
+		vBeTakenOff changeSDM dobj -100 1 3 4
+		vBePutOn setAffect dobj 67 0 0 -1			#Nourishment
+		vBeTakenOff clearAffect dobj 67 0 0			
+	end
+
+	base described
+		text "The hood seems to be nearly alive"
+		idText "This hood appears out phase with reality, only Mabon could have enchanted this Hood. \n Provides Def resistance, nourishment, dexterity, an extra dodge, double intel, endurance and 100% SDM to Thaum/Elem/Necro.\n You must be level 925 or higher to wear this hood.\n\n"
+		shopText "This hood should never be sold to a shop"
+	end
+end
+#---------------------------------
+object HoodMabonA of HoodMabon
+	properties
+		special
+		name "Mabon's Hood"
+		color 222
+	end
+end
+object HoodMabonB of HoodMabon
+	properties
+		special
+		name "Mabon's Hood"
+		color 51
+	end
+end
+object HoodMabonC of HoodMabon
+	properties
+		special
+		name "Mabon's Hood"
+		color 91
+	end
+end
+object HoodMabonD of HoodMabon
+	properties
+		special
+		name "Mabon's Hood"
+		color 163
+	end
+end
+#-----------------------------------------------
+#			 Mabon's Robe Base
+#-----------------------------------------------
+object MabonRobe of Robe
+	properties
+	special
+        name "Mabon's Robe"
+        value 1
+        color -1
+        armorFlat    10
+        armorPercent 30
+        level 925
+	end
+	
+	actions    
+		vBePutOn setAffect dobj 57 0 0 -1			#Dodging
+		vBeTakenOff clearAffect dobj 57 0 0
+		vBePutOn setAffect dobj 59 0 0 -1			#Dexterity
+		vBeTakenOff clearAffect dobj 59 0 0
+		vBePutOn setAffect dobj 61 0 0 -1			#Intelligence
+		vBeTakenOff clearAffect dobj 61 0 0
+		vBePutOn setAffect dobj 63 0 0 -1			#Endurance
+		vBeTakenOff clearAffect dobj 63 0 0
+		vBePutOn changeSDM dobj 100 1 3 4 		# Add 100% to all magic circles except Myst while worn
+		vBeTakenOff changeSDM dobj -100 1 3 4	
+	end
+	
+	base described
+		text "These robes flow with magical energy"
+		idText "As you hold these robes in your hands, you can feel the magic crackling off them, the fabric warm to the touch. These must be the work of Mabon.  \n Provides dexterity, an extra dodge, intel, endurance and 100% SDM to Thaum/Elem/Necro. \n \n You must be level 925 or higher to wear this robe.\n\n"
+		shopText "This Robe should never be sold to shops."
+	end
+end
+#------------------------------------------
+object MabonRobeA of MabonRobe
+	properties
+	special
+        name "Mabon's Robe"
+        color 222
+	end
+end
+object MabonRobeB of MabonRobe
+	properties
+	special
+        name "Mabon's Robe"
+        color 51
+	end
+end
+object MabonRobeC of MabonRobe
+	properties
+	special
+        name "Mabon's Robe"
+        color 91
+	end
+end
+object MabonRobeD of MabonRobe
+	properties
+	special
+        name "Mabon's Robe"
+        color 163
+	end
+end
+#----------------------------------------------
+#			Skirt of Mabon Base
+#----------------------------------------------
+object MabonSkirt of LongSkirt
+	properties
+	special
+		name "Skirt of Mabon"
+		color 73
+		value 1
+		armor 25
+		health 125
+		strength 1
+		armorType 1
+        level 925		
+	end
+
+	base carryable
+		weight 4.0
+	end
+
+	actions
+		vBePutOn setAffect dobj 57 0 0 -1			#Dodging
+		vBeTakenOff clearAffect dobj 57 0 0
+		vBePutOn setAffect dobj 59 0 0 -1			#Dexterity
+		vBeTakenOff clearAffect dobj 59 0 0
+		vBePutOn setAffect dobj 61 0 0 -1			#Intelligence
+		vBeTakenOff clearAffect dobj 61 0 0
+		vBePutOn setAffect dobj 63 0 0 -1			#Endurance
+		vBeTakenOff clearAffect dobj 63 0 0
+		vBePutOn changeSDM dobj 100 1 3 4 		# Add 100% to all magic circles except Myst while worn
+		vBeTakenOff changeSDM dobj -100 1 3 4	
+	end
+	
+	base described
+		text "Pulsating with magical energy"
+		idText "Mabon must have made these for an apprentice, his godly power imbued into the very fabric. \n Provides dexterity, an extra dodge, intel, endurance and 100% SDM to Thaum/Elem/Necro. \n\n You must be level 925 or higher to wear this skirt.\n\n"
+		shopText "This skirt should never be sold to shops."
+	end
+end
+#-------------------------------------------
+object MabonSkirtA of MabonSkirt
+	properties
+	special
+		name "Skirt of Mabon"
+		color 222
+	end
+end
+object MabonSkirtB of MabonSkirt
+	properties
+	special
+		name "Skirt of Mabon"
+		color 51
+	end
+end
+object MabonSkirtC of MabonSkirt
+	properties
+	special
+		name "Skirt of Mabon"
+		color 91
+	end
+end
+object MabonSkirtD of MabonSkirt
+	properties
+	special
+		name "Skirt of Mabon"
+		color 163
+	end
+end
+#-------------------------------------------
+#			Mabons Bracers Base
+#-------------------------------------------
+object MabonBracers of Wristband
+	properties
+	special
+		name "Mabon's Bracers"
+		health 500
+		armor 105
+		color 163		
+		value 1
+        level 925		
+	end
+
+	actions     
+		vBePutOn setAffect dobj 57 0 0 -1			#Dodging
+		vBeTakenOff clearAffect dobj 57 0 0
+		vBePutOn setAffect dobj 59 0 0 -1			#Dexterity
+		vBeTakenOff clearAffect dobj 59 0 0
+		vBePutOn setAffect dobj 61 0 0 -1			#Intelligence
+		vBeTakenOff clearAffect dobj 61 0 0
+		vBePutOn setAffect dobj 63 0 0 -1			#Endurance
+		vBeTakenOff clearAffect dobj 63 0 0
+		vBePutOn changeSDM dobj 200 1 3 4 		# Add 200% to all magic circles except Myst while worn
+		vBeTakenOff changeSDM dobj -200 1 3 4		
+	end
+	base dye
+	end
+	
+	base described
+		text "These bracers appear to be conjured out of pure magical energy."
+		idText "These are vibrating with the magics of Mabon.\n Provides dexterity, an extra dodge, intel, endurance and 200% SDM to Thaum/Elem/Necro. \n You must be level 925 or higher to wear this bracers.\n\n"
+		shopText "These bracers should never be sold to shops."
+	end
+end
+#----------------------------------------------
+object MabonBracersA of MabonBracers
+	properties
+	special
+		name "Mabon's Bracers"
+		color 222		
+	end
+end
+object MabonBracersB of MabonBracers
+	properties
+	special
+		name "Mabon's Bracers"
+		color 51		
+	end
+end
+object MabonBracersC of MabonBracers
+	properties
+	special
+		name "Mabon's Bracers"
+		color 91		
+	end
+end
+object MabonBracersD of MabonBracers
+	properties
+	special
+		name "Mabon's Bracers"
+		color 163		
+	end
+end
+#----------------------------------------------------
+#			Mabon Baldric Base
+#----------------------------------------------------
+object MabonBaldric of Baldric
+	properties
+	special
+		name "Mabon's Baldric"
+		color 43
+		level 925
+		value 1
+	end
+
+	actions
+		vBePutOn setAffect dobj 17 0 0 -1			# See Invis
+		vBeTakenOff clearAffect dobj 17 0 0
+		vBePutOn setAffect dobj 59 0 0 -1			# Dex
+		vBeTakenOff clearAffect dobj 59 0 0
+		vBePutOn setAffect dobj 61 0 0 -1			#Intelligence
+		vBeTakenOff clearAffect dobj 61 0 0		
+	end
+	
+	base described
+		text "This baldric seems to peer at you."
+		idText "As you hold this baldric in your hands, you begin to see things most do not, Surely Mabon is responsible for the magic on this Baldric.\n Provides dexterity, intel, endurance.\n You must be level 925 or higher to wear this baldric.\n\n"
+		shopText "This baldric should never be sold to shops."
+	end
+end
+#------------------------------------------------
+object MabonBaldricA of MabonBaldric
+	properties
+	special
+		name "Mabon's Baldric"
+		color 222
+	end
+end
+object MabonBaldricB of MabonBaldric
+	properties
+	special
+		name "Mabon's Baldric"
+		color 51
+	end
+end
+object MabonBaldricC of MabonBaldric
+	properties
+	special
+		name "Mabon's Baldric"
+		color 91
+	end
+end
+object MabonBaldricD of MabonBaldric
+	properties
+	special
+		name "Mabon's Baldric"
+		color 163
+	end
+end

@@ -1,0 +1,6620 @@
+room 10000
+	properties
+		picture 3071
+		flags 248
+		east 10077
+		west 10001
+	end
+	atpinfo
+		1754 608 92 
+		1754 329 214 
+		7900 450 214 
+		7906 249 214 
+		1752 83 225 
+		7900 76 225 
+		1751 577 226 
+		7901 566 229 
+		1874 58 274 
+		1872 247 280 
+		34641 517 286 
+		7907 271 287 277
+		1770 350 303 
+		7907 51 322 
+		7902 531 330 
+		1771 510 327 
+		7902 246 330 
+	end
+	objects
+		object dungeonBackDoor10000-0 of EnidBackDoor
+			properties
+				x 349
+				y 218
+				loop 2
+				linkTo plankDoor24749-3
+			end
+			base openable
+				isOpen 1
+			end
+		end
+		object Crest10000-0 of Crest
+			properties
+				loop 2
+				x 92
+				y 227
+			end
+			base described
+				text "Be weary traveller, this dungeon has been invaded by powerful opponents. It is recommended you bring some friends along!\n\nSuggested Level: 2500+\nSuggested Party Size: 3+\nLength: Long\n" 
+			end
+		end
+	end
+end
+room 10001
+	properties
+		picture 3071
+        flags 248
+		east 10000
+		west 10002
+	end
+	atpinfo
+		1751 357 204 
+		7906 11 210 
+		1752 152 211 
+		7906 358 212 
+		7906 131 215 
+		1830 310 218 
+		1752 631 218 
+		1877 398 219 
+		7906 601 224 
+		1831 281 226 
+		1876 237 229 
+		7906 279 232 
+		7906 210 235 
+		1751 487 241 
+		7906 536 242 
+		7906 420 242 
+		7906 484 248 
+		1771 640 293 
+		1780 9 303 
+		34598 69 319 
+		1876 222 321 
+		1782 25 325 
+		1875 290 326 
+		1781 102 330 
+		1781 421 330 
+		7902 80 331 
+		1770 129 332 
+		7902 352 336 
+		7902 515 336 
+		1782 240 338 
+		1771 269 341 20
+		34539 26 344 20
+		1782 373 354 
+		1780 184 368 
+		1780 156 370 
+		1780 342 386 
+	end
+	objects
+		object Nobleman10001-0 of Nobleman
+			properties
+				loop 0
+				x 128
+				y 233
+			end
+		end
+		object Nobleman10001-1 of Nobleman
+			properties
+				loop 0
+				x 293
+				y 237
+			end
+		end
+		object Nobleman10001-2 of Nobleman
+			properties
+				loop 0
+				x 476
+				y 249
+			end
+		end
+	end
+end
+room 10002
+	properties
+		picture 3071
+		flags 248
+		east 10001
+		west 10003
+	end
+	atpinfo
+		1752 138 185 
+		1751 267 196 
+		1782 138 201 
+		1750 632 205 
+		34519 430 207 
+		1876 207 209 
+		7906 168 212 
+		7906 439 213 
+		7906 229 214 
+		1877 477 215 
+		1750 338 219 
+		7909 382 220 
+		1750 58 221 
+		7906 307 223 
+		34518 547 225 
+		7901 43 225 
+		34642 90 280 
+		34642 15 280 
+		1872 525 281 
+		1873 274 285 
+		7902 322 325 
+		7902 542 328 
+		7902 100 329 
+		1872 137 341 
+		7900 574 354 125
+		1780 371 394 
+	end
+	objects
+		object RandomCastleNPC10002-0 of RandomCastleNPC
+			properties
+				loop 0
+				x 127
+				y 223
+			end
+		end
+		object RandomCastleNPC10002-1 of RandomCastleNPC
+			properties
+				loop 0
+				x 191
+				y 226
+			end
+		end
+		object Gladiator10002-0 of Gladiator
+			properties
+				loop 0
+				x 407
+				y 236
+			end
+		end
+		object Gladiator10002-1 of Gladiator
+			properties
+				loop 0
+				x 473
+				y 236
+			end
+		end
+	end
+end
+room 10003
+	properties
+		picture 3071
+		east 10002
+		south 10004
+		west 10011
+        flags 248
+	end
+	atpinfo
+		1752 631 214 
+		1752 329 222 
+		1772 310 222 
+		1752 84 231 
+		34518 211 232 
+		7906 56 236 
+		7900 248 238 
+		34519 458 238 
+		1750 608 244 
+		7900 500 248 
+		34640 -29 277 
+		1873 558 281 
+		1879 133 293 
+		7907 421 312 
+		7907 56 318 
+		1771 68 319 
+		7907 587 320 
+		7907 474 322 
+		7907 128 324 
+		7907 403 325 
+		1850 411 337 6
+	end
+	objects
+		object Gladiator10003-0 of Gladiator
+			properties
+				loop 0
+				x 276
+				y 240
+			end
+		end
+		object Nobleman10003-0 of Nobleman
+			properties
+				loop 0
+				x 144
+				y 249
+			end
+		end
+		object Nobleman10003-1 of Nobleman
+			properties
+				loop 0
+				x 414
+				y 284
+			end
+		end
+	end
+end
+room 10004
+	properties
+		picture 3071
+		north 10003
+		south 10005
+        flags 248
+	end
+	atpinfo
+		1830 524 216 
+		34599 229 216 
+		7906 229 221 
+		34598 405 223 
+		34599 92 225 
+		7906 399 227 
+		7906 84 230 
+		7906 536 232 
+		1830 562 238 
+		1831 52 254 
+		1830 601 283 
+		34599 19 283 
+		1830 634 308 
+		1831 -7 310 
+		7904 23 328 
+		40672 607 329 
+		1771 202 338 
+		1770 121 340 
+		1771 284 344 20
+		34539 28 349 20
+	end
+	objects
+		object Nobleman10004-0 of Nobleman
+			properties
+				loop 0
+				x 219
+				y 230
+			end
+		end
+		object Nobleman10004-1 of Nobleman
+			properties
+				loop 0
+				x 394
+				y 228
+			end
+		end
+		object Gladiator10004-0 of Gladiator
+			properties
+				loop 0
+				x 89
+				y 250
+			end
+		end
+		object Gladiator10004-1 of Gladiator
+			properties
+				loop 0
+				x 36
+				y 305
+			end
+		end
+	end
+end
+room 10005
+	properties
+		picture 3071
+		north 10004
+		south 10006
+        flags 248
+	end
+	atpinfo
+		1750 148 237 
+		1750 435 241 
+		1831 369 242 
+		1830 205 243 
+		7906 369 248 
+		7901 167 249 
+		34519 47 250 
+		34548 421 256 
+		7909 392 261 
+		1750 506 266 
+		1780 455 277 
+		1751 20 287 
+		1850 542 304 
+		34548 510 310 
+		1770 154 316 
+		34618 622 317 -21
+		1850 23 318 
+		1771 520 324 
+		34538 392 325 
+		7904 90 329 
+		1770 579 330 
+		40673 491 332 
+		34539 437 333 
+		1780 540 356 
+	end
+	objects
+		object Nobleman10005-0 of Nobleman
+			properties
+				loop 0
+				x 136
+				y 257
+			end
+		end
+		object Nobleman10005-1 of Nobleman
+			properties
+				loop 0
+				x 85
+				y 302
+			end
+		end
+		object RandomCastleNPC10005-0 of RandomCastleNPC
+			properties
+				loop 0
+				x 443
+				y 294
+			end
+		end
+	end
+end
+room 10006
+	properties
+		picture 3071
+		north 10005
+		south 10007
+        flags 248
+	end
+	atpinfo
+		1750 149 235 
+		1750 435 241 
+		1831 369 242 
+		1830 205 243 
+		7906 194 248 
+		34519 47 250 
+		34548 421 256 
+		7907 411 258 
+		1750 506 266 
+		1780 455 277 
+		7907 86 286 
+		1751 20 287 
+		1850 542 304 
+		34548 510 310 
+		34618 622 317 -21
+		1850 23 318 
+		7906 48 318 
+		7906 438 319 38
+		7906 496 320 
+		34538 389 323 
+		34539 435 324 
+		7906 371 324 77
+		1771 526 325 
+		1770 574 326 
+		7906 105 328 76
+		1780 536 346 
+	end
+	objects
+		object RandomCastleNPC10006-0 of RandomCastleNPC
+			properties
+				loop 0
+				x 160
+				y 246
+			end
+		end
+		object RandomCastleNPC10006-1 of RandomCastleNPC
+			properties
+				loop 0
+				x 111
+				y 279
+			end
+		end
+		object RandomCastleNPC10006-2 of RandomCastleNPC
+			properties
+				loop 0
+				x 64
+				y 315
+			end
+		end
+	end
+end
+room 10007
+	properties
+		picture 3071
+		north 10006
+		south 10008
+        flags 248
+	end
+	atpinfo
+		34518 520 97 
+		7900 573 100 
+		1772 216 113 -87
+		34520 680 114 
+		7907 544 143 
+		1782 556 143 
+		1780 133 153 
+		1751 61 175 
+		1783 66 181 
+		7900 40 188 
+		34518 612 189 
+		7900 664 192 
+		34518 29 212 
+		7901 10 216 
+		7900 -79 299 
+		7900 700 303 
+		1850 629 314 
+		1770 603 320 
+		34549 597 320 
+		1850 410 324 
+		7907 586 328 
+		7907 19 332 
+		1783 43 333 
+	end
+	objects
+		object RandomCastleNPC10007-0 of RandomCastleNPC
+			properties
+				loop 0
+				x 473
+				y 234
+			end
+		end
+		object RandomCastleNPC10007-1 of RandomCastleNPC
+			properties
+				loop 0
+				x 519
+				y 320
+			end
+		end
+		object Gladiator10007-0 of Gladiator
+			properties
+				loop 0
+				x 97
+				y 205
+			end
+		end
+	end
+end
+room 10008
+	properties
+		picture 3071
+		north 10007
+		south 10009
+        flags 248
+	end
+	atpinfo
+		1750 557 179 
+		1750 342 182 
+		7909 394 183 
+		7901 555 186 
+		1830 205 220 
+		1831 354 232 
+		1751 265 242 
+		7901 314 249 
+		34548 203 250 
+		1850 601 252 
+		1750 146 260 
+		1782 556 263 
+		7909 511 267 
+		1780 169 283 
+		34519 41 291 
+		34548 206 302 
+		7909 251 302 
+		1780 56 306 
+		34548 132 312 
+		34538 168 314 
+		1770 154 316 
+		34618 622 317 -21
+		1850 23 318 
+		1770 566 318 
+		1772 148 321 
+		34539 137 324 
+		7901 619 336 
+		7906 173 339 
+		1780 162 354 
+	end
+	objects
+		object Nobleman10008-0 of Nobleman
+			properties
+				loop 0
+				x 253
+				y 251
+			end
+		end
+		object Nobleman10008-1 of Nobleman
+			properties
+				loop 0
+				x 347
+				y 240
+			end
+		end
+		object RandomCastleNPC10008-0 of RandomCastleNPC
+			properties
+				loop 0
+				x 160
+				y 304
+			end
+		end
+		object RandomNewDead10008-0 of RandomNewDead
+			properties
+				loop 0
+				x 548
+				y 314
+			end
+		end
+	end
+end
+room 10009
+	properties
+		picture 3071
+		north 10008
+		east 10010
+        flags 248
+	end
+	atpinfo
+		1830 202 171 
+		1750 152 220 
+		7906 182 225 
+		34519 47 250 
+		1831 135 262 
+		34640 671 265 
+		7906 133 266 
+		1872 168 270 
+		34640 430 271 
+		1751 19 281 
+		7906 82 303 
+		1850 32 306 
+		7902 179 316 
+		7902 618 317 
+		1850 23 318 
+		7902 412 319 
+		1770 154 321 
+		34539 334 323 
+		1782 477 324 
+		1781 120 324 
+		1783 388 324 
+		1780 171 354 
+	end
+	objects
+		object Gladiator10009-0 of Gladiator
+			properties
+				loop 0
+				x 236
+				y 208
+			end
+		end
+		object RandomCastleNPC10009-0 of RandomCastleNPC
+			properties
+				loop 0
+				x 182
+				y 246
+			end
+		end
+		object RandomNewDead10009-0 of RandomNewDead
+			properties
+				loop 0
+				x 295
+				y 282
+			end
+		end
+	end
+end
+room 10010
+	properties
+		picture 3071
+		west 10009
+        flags 248
+	end
+	atpinfo
+		1752 180 229 
+		34518 41 232 
+		1750 322 236 
+		7901 176 246 13
+		34519 426 248 
+		7901 42 253 13
+		7906 290 256 14
+		34518 523 259 
+		7901 393 267 13
+		1751 623 274 
+		34642 320 277 
+		34640 131 278 
+		1873 505 282 
+		7906 498 300 36
+		40673 579 305 
+		7902 134 321 
+		1850 655 323 6
+		7902 412 324 
+	end
+	objects
+		object button10010-0 of Button
+			properties
+				x 499
+				y 281
+				loop 0
+			end
+			actions
+				vBeActivated unlock dungeonBackDoor10081-0
+				vBeActivated open dungeonBackDoor10081-0
+			end
+		end
+		object Nobleman10010-0 of Nobleman
+			properties
+				loop 0
+				x 121
+				y 246
+			end
+		end
+		object Nobleman10010-1 of Nobleman
+			properties
+				loop 0
+				x 252
+				y 254
+			end
+		end
+		object Gladiator10010-0 of Gladiator
+			properties
+				loop 0
+				x 380
+				y 273
+			end
+		end
+	end
+end
+room 10011
+	properties
+		picture 3071
+		east 10003
+		west 10012
+        flags 248
+	end
+	atpinfo
+		1752 97 224 
+		34520 545 228 
+		1750 238 229 
+		7900 505 236 
+		7906 168 236 
+		1750 431 239 
+		1751 348 249 
+		7909 470 249 
+		7906 404 256 
+		7901 313 256 
+		1750 57 259 
+		7908 83 279 17
+		7908 27 279 17
+		1874 56 282 
+		34640 263 284 
+		1873 501 286 
+		7907 45 314 294
+		7907 333 318 
+		7902 516 329 
+		7902 133 331 
+	end
+	objects
+		object Nobleman10011-0 of Nobleman
+			properties
+				loop 0
+				x 152
+				y 237
+			end
+		end
+		object Nobleman10011-1 of Nobleman
+			properties
+				loop 0
+				x 323
+				y 254
+			end
+		end
+		object Gladiator10011-0 of Gladiator
+			properties
+				loop 0
+				x 486
+				y 236
+			end
+		end
+	end
+end
+room 10012
+	properties
+		picture 3071
+		east 10011
+		west 10013
+        flags 248
+	end
+	atpinfo
+		1750 -5 179 
+		1750 437 216 
+		7901 577 226 
+		34519 77 236 
+		1751 348 240 
+		34520 548 247 
+		7906 591 250 
+		7901 290 275 6
+		34520 218 276 12
+		7901 140 278 6
+		1875 256 314 
+		1850 466 318 
+		7908 27 322 79
+		7908 407 323 79
+		7907 469 325 
+		1783 45 335 
+		7906 486 371 123
+	end
+	objects
+		object Nobleman10012-0 of Nobleman
+			properties
+				loop 0
+				x 60
+				y 252
+			end
+		end
+		object Gladiator10012-0 of Gladiator
+			properties
+				loop 0
+				x 526
+				y 261
+			end
+		end
+		object RandomCastleNPC10012-0 of RandomCastleNPC
+			properties
+				loop 0
+				x 352
+				y 250
+			end
+		end
+		object Crusader10012-0 of Crusader
+			properties
+				loop 0
+				x 456
+				y 317
+			end
+		end
+	end
+end
+room 10013
+	properties
+		picture 3071
+		flags 248
+		east 10012
+		west 10014
+	end
+	atpinfo
+		1752 138 185 
+		1751 267 196 
+		1782 138 201 
+		1750 632 205 
+		34519 430 207 
+		1876 207 209 
+		7906 168 212 
+		7906 439 213 
+		7906 229 214 
+		1877 477 215 
+		1750 338 219 
+		7909 382 220 
+		1750 58 221 
+		7906 307 223 
+		34518 547 225 
+		7901 43 225 
+		34642 90 280 
+		34642 15 280 
+		1872 525 281 
+		1873 274 285 
+		7902 322 325 
+		7902 542 328 
+		7902 100 329 
+		1872 137 341 
+		7900 574 354 125
+		1780 371 394 
+	end
+	objects
+		object Nobleman10013-0 of Nobleman
+			properties
+				loop 0
+				x 124
+				y 220
+			end
+		end
+		object Nobleman10013-1 of Nobleman
+			properties
+				loop 0
+				x 282
+				y 226
+			end
+		end
+		object RandomNewDead10013-0 of RandomNewDead
+			properties
+				loop 0
+				x 426
+				y 228
+			end
+		end
+	end
+end
+room 10014
+	properties
+		picture 3071
+		east 10013
+		south 10015
+        flags 248
+	end
+	atpinfo
+		34519 287 130 
+		1750 538 141 
+		1850 617 156 6
+		1752 390 158 
+		34644 606 160 
+		34548 229 162 
+		7900 353 164 
+		1781 245 166 
+		1876 538 167 
+		7901 575 172 
+		1752 101 179 
+		7900 120 182 
+		1831 98 237 
+		7906 91 243 
+		34518 19 284 
+		1875 608 292 
+		1780 495 298 
+		1876 145 299 
+		1781 492 302 
+		7902 558 302 
+		1876 571 304 
+		7902 98 308 
+		1781 59 313 
+		1770 239 315 
+		1783 469 315 
+		1876 546 318 
+		1875 98 322 
+		1780 32 327 
+		1782 609 330 
+		7902 67 339 
+		7906 49 370 
+		40672 504 395 
+	end
+	objects
+		object RandomCastleNPC10014-0 of RandomCastleNPC
+			properties
+				loop 0
+				x 150
+				y 203
+			end
+		end
+		object Gladiator10014-0 of Gladiator
+			properties
+				loop 0
+				x 97
+				y 269
+			end
+		end
+		object Nobleman10014-0 of Nobleman
+			properties
+				loop 0
+				x 526
+				y 311
+			end
+		end
+		object Crusader10014-0 of Crusader
+			properties
+				loop 0
+				x 128
+				y 243
+			end
+		end
+	end
+end
+room 10015
+	properties
+		picture 3071
+		north 10014
+		south 10016
+        flags 248
+	end
+	atpinfo
+		1750 557 179 
+		1750 342 182 
+		7909 394 183 
+		7901 555 186 
+		1830 205 220 
+		1831 354 232 
+		1751 265 242 
+		7901 314 249 
+		34548 203 250 
+		1850 601 252 
+		1750 146 260 
+		1782 556 263 
+		7909 511 267 
+		1780 169 283 
+		34519 41 291 
+		34548 206 302 
+		7909 251 302 
+		1780 56 306 
+		34548 132 312 
+		34538 168 314 
+		1770 154 316 
+		34618 622 317 -21
+		1850 23 318 
+		1770 566 318 
+		1772 148 321 
+		34539 137 324 
+		7901 619 336 
+		7906 173 339 
+		1780 162 354 
+	end
+	objects
+		object Nobleman10015-0 of Nobleman
+			properties
+				loop 0
+				x 243
+				y 251
+			end
+		end
+		object Nobleman10015-1 of Nobleman
+			properties
+				loop 0
+				x 349
+				y 237
+			end
+		end
+		object Gladiator10015-0 of Gladiator
+			properties
+				loop 0
+				x 551
+				y 274
+			end
+		end
+	end
+end
+room 10016
+	properties
+		picture 3071
+		north 10015
+		south 10017
+        flags 248
+	end
+	atpinfo
+		1750 149 235 
+		1750 435 241 
+		1831 369 242 
+		1830 205 243 
+		7906 194 248 
+		34519 47 250 
+		34548 421 256 
+		7907 411 258 
+		1750 506 266 
+		1780 455 277 
+		7907 86 286 
+		1751 20 287 
+		1850 542 304 
+		34548 510 310 
+		34618 622 317 -21
+		1850 23 318 
+		7906 48 318 
+		7906 438 319 38
+		7906 496 320 
+		34538 389 323 
+		34539 435 324 
+		7906 371 324 77
+		1771 526 325 
+		1770 574 326 
+		7906 105 328 76
+		1780 536 346 
+	end
+	objects
+		object Nobleman10016-0 of Nobleman
+			properties
+				loop 0
+				x 103
+				y 267
+			end
+		end
+		object Nobleman10016-1 of Nobleman
+			properties
+				loop 0
+				x 66
+				y 316
+			end
+		end
+		object Gladiator10016-0 of Gladiator
+			properties
+				loop 0
+				x 371
+				y 261
+			end
+		end
+		object RandomCastleNPC10016-0 of RandomCastleNPC
+			properties
+				loop 0
+				x 426
+				y 307
+			end
+		end
+	end
+end
+room 10017
+	properties
+		picture 3071
+		north 10016
+		south 10018
+        flags 248
+	end
+	atpinfo
+		1750 148 237 
+		1750 435 241 
+		1831 369 242 
+		1830 205 243 
+		7906 369 248 
+		7901 167 249 
+		34519 47 250 
+		34548 421 256 
+		7909 392 261 
+		1750 506 266 
+		1780 455 277 
+		1751 20 287 
+		1850 542 304 
+		34548 510 310 
+		1770 154 316 
+		34618 622 317 -21
+		1850 23 318 
+		1771 520 324 
+		34538 392 325 
+		7904 90 329 
+		1770 579 330 
+		40673 491 332 
+		34539 437 333 
+		1780 540 356 
+	end
+	objects
+		object RandomCastleNPC10017-0 of RandomCastleNPC
+			properties
+				loop 0
+				x 164
+				y 259
+			end
+		end
+		object Gladiator10017-0 of Gladiator
+			properties
+				loop 0
+				x 85
+				y 313
+			end
+		end
+		object Gladiator10017-1 of Gladiator
+			properties
+				loop 0
+				x 355
+				y 259
+			end
+		end
+		object Gladiator10017-2 of Gladiator
+			properties
+				loop 0
+				x 429
+				y 309
+			end
+		end
+	end
+end
+room 10018
+	properties
+		picture 3071
+		north 10017
+		east 10019
+		west 10023
+        flags 248
+	end
+	atpinfo
+		1750 264 123 
+		1750 33 124 
+		7906 239 125 
+		7906 287 127 
+		7907 165 171 
+		1751 98 176 
+		7901 72 179 
+		7901 46 181 
+		7907 360 209 
+		1752 466 215 
+		7906 477 218 
+		7901 57 221 
+		7906 427 222 
+		1750 52 223 
+		1750 607 235 
+		7901 601 242 
+		1872 113 271 
+		1873 370 279 
+		1874 565 280 
+		7907 50 311 
+		7902 223 322 
+		7902 502 324 
+		7907 42 324 
+	end
+	objects
+		object Nobleman10018-0 of Nobleman
+			properties
+				loop 0
+				x 111
+				y 199
+			end
+		end
+		object Nobleman10018-1 of Nobleman
+			properties
+				loop 0
+				x 401
+				y 229
+			end
+		end
+		object Nobleman10018-2 of Nobleman
+			properties
+				loop 0
+				x 499
+				y 233
+			end
+		end
+	end
+end
+room 10019
+	properties
+		picture 3071
+		east 10020
+		west 10018
+        flags 248
+	end
+	atpinfo
+		1750 242 104 
+		1751 353 106 
+		1752 523 108 
+		1752 125 113 
+		7900 491 114 
+		7900 333 117 
+		7900 89 119 
+		7907 549 174 
+		7907 371 178 
+		7907 636 178 
+		7907 477 180 
+		7904 283 191 
+		7907 107 196 
+		1751 432 199 
+		7907 658 199 
+		1781 65 200 
+		34548 520 201 
+		7907 24 204 
+		1871 -127 205 
+		34550 357 208 
+		34551 374 208 
+		34549 373 209 
+		1752 12 210 
+		7907 133 211 
+		1782 433 212 
+		7907 384 214 
+		34638 119 215 
+		1752 645 217 
+		1782 35 219 
+		7907 35 220 
+		7909 313 223 24
+		34551 498 224 
+		7907 604 225 
+		7907 67 225 
+		7907 494 230 
+		34550 39 242 
+		34548 20 258 
+		1781 -1 262 
+		34640 580 272 
+		34641 328 282 
+		34641 117 282 
+		34551 2 285 
+		7904 57 298 
+		7907 59 317 
+		7902 235 318 
+		1770 164 321 
+		7902 504 321 
+		1771 48 328 
+		34548 -3 339 
+		7900 -50 493 
+	end
+	objects
+		object Gladiator10019-0 of Gladiator
+			properties
+				loop 0
+				x 339
+				y 196
+			end
+		end
+		object Gladiator10019-1 of Gladiator
+			properties
+				loop 0
+				x 116
+				y 261
+			end
+		end
+		object Gladiator10019-2 of Gladiator
+			properties
+				loop 0
+				x 465
+				y 216
+			end
+		end
+	end
+end
+room 10020
+	properties
+		picture 3071
+		north 10021
+		west 10019
+        flags 248
+	end
+	atpinfo
+		1771 294 106 
+		1830 471 214 
+		1752 84 222 
+		7902 106 228 
+		34640 623 275 
+		1874 420 276 
+		1752 532 279 
+		34640 249 280 
+		7904 388 280 
+		34641 -8 283 
+		34639 310 290 -161
+		1783 405 290 
+		34643 570 297 
+		13 558 297 486
+		1875 428 299 
+		1781 507 301 
+		13 -39 305 486
+		34540 441 306 
+		13 65 310 486
+		13 463 310 486
+		7905 279 318 
+		7902 127 324 
+		34540 535 325 
+		1771 456 325 
+		7907 475 424 234
+		7907 180 429 234
+	end
+	objects
+		object Gladiator10020-0 of Gladiator
+			properties
+				loop 0
+				x 45
+				y 228
+			end
+		end
+		object Nobleman10020-0 of Nobleman
+			properties
+				loop 0
+				x 142
+				y 229
+			end
+		end
+		object RandomCastleNPC10020-0 of RandomCastleNPC
+			properties
+				loop 0
+				x 484
+				y 299
+			end
+		end
+		object RandomCastleNPC10020-1 of RandomCastleNPC
+			properties
+				loop 0
+				x 398
+				y 234
+			end
+		end
+	end
+end
+room 10021
+	properties
+		picture 3071
+		north 10022
+		south 10020
+        flags 248
+	end
+	atpinfo
+		1750 557 179 
+		1750 342 182 
+		7909 394 183 
+		7901 555 186 
+		1830 205 220 
+		1831 354 232 
+		1751 265 242 
+		7901 314 249 
+		34548 203 250 
+		1850 601 252 
+		1750 146 260 
+		1782 556 263 
+		7909 511 267 
+		1780 169 283 
+		34519 41 291 
+		34548 206 302 
+		7909 251 302 
+		1780 56 306 
+		34548 132 312 
+		34538 168 314 
+		1770 154 316 
+		34618 622 317 -21
+		1850 23 318 
+		1770 566 318 
+		1772 148 321 
+		34539 137 324 
+		7901 619 336 
+		7906 173 339 
+		1780 162 354 
+	end
+	objects
+		object Gladiator10021-0 of Gladiator
+			properties
+				loop 0
+				x 230
+				y 257
+			end
+		end
+		object Gladiator10021-1 of Gladiator
+			properties
+				loop 0
+				x 341
+				y 241
+			end
+		end
+		object Nobleman10021-0 of Nobleman
+			properties
+				loop 0
+				x 163
+				y 302
+			end
+		end
+		object RandomCastleNPC10021-0 of RandomCastleNPC
+			properties
+				loop 0
+				x 552
+				y 286
+			end
+		end
+	end
+end
+room 10022
+	properties
+		picture 3071
+		flags 248
+		south 10021
+	end
+	atpinfo
+		1754 69 219 
+		7906 162 233 
+		34518 561 234 
+		1751 338 242 
+		1751 79 248 
+		7906 317 248 
+		34518 432 254 
+		1751 165 264 
+		34518 506 266 
+		14 516 287 
+		34618 565 288 
+		1780 118 289 
+		34518 12 290 
+		32782 132 292 
+		1780 71 300 
+		1850 606 316 -21
+		1780 557 316 
+		34538 392 319 
+		32782 22 320 
+		34539 431 323 
+		1771 225 328 
+		1780 366 329 
+		1780 41 353 
+		40672 564 380 
+		7906 36 404 66
+	end
+	objects
+		object button10022-0 of Button
+			properties
+				x 322
+				y 264
+				loop 0
+			end
+			actions
+				vBeActivated unlock dungeonBackDoor10086-0
+				vBeActivated open dungeonBackDoor10086-0
+			end
+		end
+		object Nobleman10022-0 of Nobleman
+			properties
+				loop 0
+				x 76
+				y 317
+			end
+		end
+		object Nobleman10022-1 of Nobleman
+			properties
+				loop 0
+				x 193
+				y 277
+			end
+		end
+		object Crusader10022-0 of Crusader
+			properties
+				loop 0
+				x 312
+				y 271
+			end
+		end
+		object RandomCastleNPC10022-0 of RandomCastleNPC
+			properties
+				loop 0
+				x 447
+				y 282
+			end
+		end
+		object RandomNewDead10022-0 of RandomNewDead
+			properties
+				loop 0
+				x 522
+				y 319
+			end
+		end
+	end
+end
+room 10023
+	properties
+		picture 3071
+		flags 248
+		east 10018
+		west 10024
+	end
+	atpinfo
+		34520 407 142 3
+		34519 248 151 
+		34520 587 158 3
+		1780 417 160 
+		1876 463 165 
+		7900 551 169 
+		1877 28 170 
+		34520 87 175 3
+		34518 318 176 
+		7906 133 177 
+		7906 360 181 
+		1782 241 181 
+		7906 244 185 
+		1783 78 186 
+		1875 13 195 
+		7902 -14 200 
+		1770 123 314 
+		1771 664 321 
+	end
+	objects
+		object RandomNewDead10023-0 of RandomNewDead
+			properties
+				loop 0
+				x 156
+				y 203
+			end
+		end
+		object RandomNewDead10023-1 of RandomNewDead
+			properties
+				loop 0
+				x 247
+				y 212
+			end
+		end
+		object RandomNewDead10023-2 of RandomNewDead
+			properties
+				loop 0
+				x 364
+				y 214
+			end
+		end
+		object RandomCastleNPC10023-0 of RandomCastleNPC
+			properties
+				loop 0
+				x 458
+				y 204
+			end
+		end
+	end
+end
+room 10024
+	properties
+		picture 3071
+		flags 248
+		north 10025
+		east 10023
+	end
+	atpinfo
+		7907 426 113 
+		34520 530 115 
+		1850 471 131 
+		34550 429 176 
+		7907 419 182 
+		1783 440 207 
+		34639 762 208 
+		1870 563 217 
+		1850 501 222 
+		1752 579 234 
+		7900 547 237 
+		1752 8 242 
+		7900 3 257 
+		1772 443 258 
+		1876 107 269 
+		7907 83 269 
+		34540 52 278 
+		1872 285 279 
+		1873 35 283 
+		7907 97 283 
+		1873 542 286 
+		1781 101 287 
+		1782 71 296 
+		34551 34 298 
+		1770 260 317 
+		34644 555 322 
+		1771 380 323 
+		7902 131 323 
+		7902 392 327 
+		1875 472 329 
+		7907 588 329 
+		1780 618 368 
+	end
+	objects
+		object Nobleman10024-0 of Nobleman
+			properties
+				loop 0
+				x 133
+				y 245
+			end
+		end
+		object RandomNewDead10024-0 of RandomNewDead
+			properties
+				loop 0
+				x 96
+				y 199
+			end
+		end
+		object Gladiator10024-0 of Gladiator
+			properties
+				loop 0
+				x 199
+				y 286
+			end
+		end
+	end
+end
+room 10025
+	properties
+		picture 3071
+		north 10026
+		south 10024
+        flags 248
+	end
+	atpinfo
+		1750 543 149 
+		7906 495 181 38
+		7906 613 182 38
+		1750 149 235 
+		7907 422 235 
+		1750 376 236 
+		1831 369 242 
+		1780 382 243 
+		1830 205 243 
+		7906 128 254 
+		34519 47 250 
+		34548 424 255 
+		7907 426 257 
+		1780 139 273 
+		7907 129 273 
+		1751 20 287 
+		34618 596 299 -21
+		7907 607 313 
+		34538 129 309 
+		7906 381 310 77
+		1850 23 318 
+		34539 435 324 
+		7906 45 324 
+		7903 617 351 
+		34548 87 373 
+	end
+	objects
+		object Nobleman10025-0 of Nobleman
+			properties
+				loop 0
+				x 369
+				y 253
+			end
+		end
+		object Nobleman10025-1 of Nobleman
+			properties
+				loop 0
+				x 176
+				y 259
+			end
+		end
+		object RandomCastleNPC10025-0 of RandomCastleNPC
+			properties
+				loop 0
+				x 501
+				y 225
+			end
+		end
+	end
+end
+room 10026
+	properties
+		picture 3071
+		north 10027
+		south 10026
+        flags 248
+	end
+	atpinfo
+		1750 149 235 
+		1750 435 241 
+		1831 369 242 
+		1830 205 243 
+		7906 194 248 
+		34519 47 250 
+		34548 421 256 
+		7907 411 258 
+		1750 506 266 
+		1780 455 277 
+		7907 86 286 
+		1751 20 287 
+		1850 542 304 
+		34548 510 310 
+		34618 622 317 -21
+		1850 23 318 
+		7906 48 318 
+		7906 438 319 38
+		7906 496 320 
+		34538 389 323 
+		34539 435 324 
+		7906 371 324 77
+		1771 526 325 
+		1770 574 326 
+		7906 105 328 76
+		1780 536 346 
+	end
+	objects
+		object RandomCastleNPC10026-0 of RandomCastleNPC
+			properties
+				loop 0
+				x 143
+				y 251
+			end
+		end
+		object Gladiator10026-0 of Gladiator
+			properties
+				loop 0
+				x 374
+				y 257
+			end
+		end
+		object Gladiator10026-1 of Gladiator
+			properties
+				loop 0
+				x 430
+				y 297
+			end
+		end
+		object RandomCastleNPC10026-1 of RandomCastleNPC
+			properties
+				loop 0
+				x 89
+				y 301
+			end
+		end
+	end
+end
+room 10027
+	properties
+		picture 3071
+		north 10028
+		south 10026
+        flags 248
+	end
+	atpinfo
+		1750 148 237 
+		1750 435 241 
+		1831 369 242 
+		1830 205 243 
+		7906 369 248 
+		7901 167 249 
+		34519 47 250 
+		34548 421 256 
+		7909 392 261 
+		1750 506 266 
+		1780 455 277 
+		1751 20 287 
+		1850 542 304 
+		34548 510 310 
+		1770 154 316 
+		34618 622 317 -21
+		1850 23 318 
+		1771 520 324 
+		34538 392 325 
+		7904 90 329 
+		1770 579 330 
+		40673 491 332 
+		34539 437 333 
+		1780 540 356 
+	end
+	objects
+		object Gladiator10027-0 of Gladiator
+			properties
+				loop 0
+				x 162
+				y 243
+			end
+		end
+		object Gladiator10027-1 of Gladiator
+			properties
+				loop 0
+				x 107
+				y 294
+			end
+		end
+		object Gladiator10027-2 of Gladiator
+			properties
+				loop 0
+				x 279
+				y 243
+			end
+		end
+		object RandomNewDead10027-0 of RandomNewDead
+			properties
+				loop 0
+				x 423
+				y 297
+			end
+		end
+	end
+end
+room 10028
+	properties
+		picture 3071
+		north 10029
+		south 10027
+        flags 248
+	end
+	atpinfo
+		1831 379 228 
+		1830 204 231 
+		7906 379 232 
+		1750 442 236 
+		34548 469 238 
+		34643 467 244 
+		7907 417 248 
+		1751 122 251 
+		1751 548 267 
+		7907 488 270 
+		1875 581 277 
+		1750 121 281 
+		7909 543 284 
+		7906 145 285 
+		7907 505 286 267
+		7905 132 287 
+		7906 200 289 58
+		7906 92 303 
+		34539 562 304 
+		7907 129 312 
+		34519 38 315 
+		1771 641 316 
+		34538 510 316 
+		1772 106 317 
+		1850 23 318 
+		1770 132 319 
+		34539 271 319 
+		7906 594 320 
+		7906 3 322 
+		1780 615 331 
+		34548 110 349 
+	end
+	objects
+		object Gladiator10028-0 of Gladiator
+			properties
+				loop 0
+				x 200
+				y 248
+			end
+		end
+		object RandomCastleNPC10028-0 of RandomCastleNPC
+			properties
+				loop 0
+				x 492
+				y 285
+			end
+		end
+		object RandomCastleNPC10028-1 of RandomCastleNPC
+			properties
+				loop 0
+				x 352
+				y 250
+			end
+		end
+		object Crusader10028-0 of Crusader
+			properties
+				loop 0
+				x 139
+				y 309
+			end
+		end
+	end
+end
+room 10029
+	properties
+		picture 3071
+		flags 248
+		north 10030
+		south 10028
+	end
+	atpinfo
+		1750 442 223 
+		1751 196 224 
+		1751 656 225 
+		1831 383 228 
+		7906 465 229 
+		1750 299 234 
+		34598 345 235 
+		1780 625 237 
+		1750 100 241 
+		7900 266 241 
+		7909 150 249 
+		34598 91 260 
+		7906 77 263 
+		34548 634 284 
+		1750 30 298 12
+		1771 649 312 
+		1751 -14 317 -2
+		34540 27 317 
+		1772 81 318 
+		1772 20 318 277
+		34539 589 319 
+		1770 114 319 
+		7906 597 320 
+		7906 50 320 
+		1780 608 324 
+		7907 571 325 
+		34548 587 345 
+	end
+	objects
+		object Nobleman10029-0 of Nobleman
+			properties
+				loop 0
+				x 112
+				y 260
+			end
+		end
+		object Nobleman10029-1 of Nobleman
+			properties
+				loop 0
+				x 204
+				y 244
+			end
+		end
+		object Nobleman10029-2 of Nobleman
+			properties
+				loop 0
+				x 319
+				y 248
+			end
+		end
+		object Gladiator10029-0 of Gladiator
+			properties
+				loop 0
+				x 432
+				y 231
+			end
+		end
+	end
+end
+room 10030
+	properties
+		picture 3071
+		east 10031
+		south 10029
+        flags 248
+	end
+	atpinfo
+		1770 116 25 
+		7906 183 226 
+		7906 221 234 
+		1750 366 248 
+		1750 217 254 
+		34618 397 257 
+		1750 499 257 
+		34518 299 260 
+		1830 429 261 
+		1831 188 262 
+		7901 22 262 
+		1751 572 271 
+		1876 390 271 
+		7901 366 273 
+		1752 62 274 
+		7901 549 279 
+		1750 38 295 
+		1850 1 316 
+		1770 48 318 
+		7907 135 337 
+		1780 112 358 
+		1782 142 362 
+		7901 242 366 104
+		7901 132 383 104
+		7901 25 402 104
+		7901 -10 438 104
+	end
+	objects
+		object Gladiator10030-0 of Gladiator
+			properties
+				loop 0
+				x 229
+				y 265
+			end
+		end
+		object Crusader10030-0 of Crusader
+			properties
+				loop 0
+				x 353
+				y 265
+			end
+		end
+		object RandomNewDead10030-0 of RandomNewDead
+			properties
+				loop 0
+				x 466
+				y 271
+			end
+		end
+		object button10030-0 of Button
+			properties
+				x 183
+				y 287
+				loop 0
+			end
+			actions
+				vBeActivated unlock dungeonBackDoor10039-0
+				vBeActivated open dungeonBackDoor10039-0
+			end
+		end
+		object Nobleman10030-0 of Nobleman
+			properties
+				loop 0
+				x 60
+				y 312
+			end
+		end
+	end
+end
+room 10031
+	properties
+		picture 3071
+		 flags 248
+		east 10032
+		west 10030
+	end
+	atpinfo
+		1754 608 92 
+		1754 329 214 
+		7900 450 221 
+		7906 267 221 
+		1752 83 225 
+		1751 577 226 
+		7900 75 233 
+		7901 548 233 
+		1874 58 274 
+		1872 247 280 
+		34641 517 286 
+		7907 271 287 277
+		7907 54 317 
+		7902 516 322 
+		7902 246 330 
+		1771 505 330 
+		1770 358 331 
+	end
+	objects
+		object Nobleman10031-0 of Nobleman
+			properties
+				loop 0
+				x 202
+				y 230
+			end
+		end
+		object Nobleman10031-1 of Nobleman
+			properties
+				loop 0
+				x 326
+				y 251
+			end
+		end
+		object Nobleman10031-2 of Nobleman
+			properties
+				loop 0
+				x 459
+				y 230
+			end
+		end
+	end
+end
+room 10032
+	properties
+		picture 3071
+		 flags 248
+		east 10033
+		west 10031
+	end
+	atpinfo
+		1752 571 218 
+		34520 167 223 
+		7901 549 225 
+		34519 325 231 
+		34518 433 240 
+		7901 319 242 3
+		7909 387 249 
+		7906 472 252 
+		34618 34 316 
+		7907 58 318 
+		7900 114 331 100
+	end
+	objects
+		object Nobleman10032-0 of Nobleman
+			properties
+				loop 0
+				x 151
+				y 232
+			end
+		end
+		object Nobleman10032-1 of Nobleman
+			properties
+				loop 0
+				x 355
+				y 239
+			end
+		end
+		object Gladiator10032-0 of Gladiator
+			properties
+				loop 0
+				x 502
+				y 229
+			end
+		end
+	end
+end
+room 10033
+	properties
+		picture 3071
+		 flags 248
+		east 10034
+		west 10032
+	end
+	atpinfo
+		1752 560 222 
+		7901 553 227 
+		1752 183 229 
+		34518 45 233 
+		1750 324 236 
+		34519 426 248 
+		7901 456 252 
+		7906 313 253 
+		34642 320 277 
+		34640 131 278 
+		1873 505 282 
+		7907 42 317 
+		7902 499 319 
+		7902 219 322 
+		1850 33 323 6
+		7900 130 333 91
+	end
+	objects
+		object Nobleman10033-0 of Nobleman
+			properties
+				loop 0
+				x 254
+				y 240
+			end
+		end
+		object Nobleman10033-1 of Nobleman
+			properties
+				loop 0
+				x 349
+				y 251
+			end
+		end
+		object Nobleman10033-2 of Nobleman
+			properties
+				loop 0
+				x 109
+				y 240
+			end
+		end
+	end
+end
+room 10034
+	properties
+		picture 3071
+		 flags 248
+		east 10035
+		west 10033
+	end
+	atpinfo
+		1751 238 219 
+		1751 446 224 
+		1752 674 227 
+		1831 262 227 
+		1752 68 229 
+		34518 332 232 
+		1750 542 235 
+		7900 82 238 
+		7900 337 241 
+		7901 554 244 
+		1772 558 296 
+		34540 617 310 
+		1780 613 330 
+		1783 554 332 
+		7902 626 332 
+	end
+	objects
+		object Nobleman10034-0 of Nobleman
+			properties
+				loop 0
+				x 181
+				y 239
+			end
+		end
+		object RandomCastleNPC10034-0 of RandomCastleNPC
+			properties
+				loop 0
+				x 316
+				y 241
+			end
+		end
+		object Gladiator10034-0 of Gladiator
+			properties
+				loop 0
+				x 390
+				y 233
+			end
+		end
+		object Gladiator10034-1 of Gladiator
+			properties
+				loop 0
+				x 512
+				y 243
+			end
+		end
+	end
+end
+room 10035
+	properties
+		picture 3071
+		east 10036
+		west 10034
+        flags 248
+	end
+	atpinfo
+		1751 437 223 
+		34518 620 226 
+		34520 83 227 
+		7906 441 231 
+		34518 326 232 
+		7906 54 234 
+		1750 542 235 
+		7906 353 238 
+		7906 506 241 
+		7906 611 243 
+		1751 223 245 
+		7906 160 249 
+		7901 254 252 
+		1772 558 296 
+		34540 617 310 
+		7907 588 321 
+		1780 613 330 
+	end
+	objects
+		object Nobleman10035-0 of Nobleman
+			properties
+				loop 0
+				x 125
+				y 246
+			end
+		end
+		object Gladiator10035-0 of Gladiator
+			properties
+				loop 0
+				x 324
+				y 241
+			end
+		end
+		object RandomCastleNPC10035-0 of RandomCastleNPC
+			properties
+				loop 0
+				x 441
+				y 231
+			end
+		end
+	end
+end
+room 10036
+	properties
+		picture 3071
+		east 10037
+		west 10035
+        flags 248
+	end
+	atpinfo
+		34520 571 218 
+		7901 577 226 
+		34520 241 236 12
+		34519 77 236 
+		1751 348 240 
+		1750 439 249 
+		7901 314 250 6
+		7906 463 255 
+		7909 383 257 
+		7906 206 313 83
+		1850 25 317 
+		7908 151 317 79
+		7907 56 320 
+		7908 96 321 79
+		7907 96 324 301
+		7906 17 365 123
+	end
+	objects
+		object RandomNewDead10036-0 of RandomNewDead
+			properties
+				loop 0
+				x 162
+				y 238
+			end
+		end
+		object RandomCastleNPC10036-0 of RandomCastleNPC
+			properties
+				loop 0
+				x 238
+				y 314
+			end
+		end
+		object Gladiator10036-0 of Gladiator
+			properties
+				loop 0
+				x 418
+				y 262
+			end
+		end
+		object Nobleman10036-0 of Nobleman
+			properties
+				loop 0
+				x 352
+				y 250
+			end
+		end
+	end
+end
+room 10037
+	properties
+		picture 3071
+		east 10038
+		west 10036
+        flags 248
+	end
+	atpinfo
+		1752 97 224 
+		34520 545 228 
+		1750 238 229 
+		7900 505 236 
+		7906 168 236 
+		1750 431 239 
+		1751 348 249 
+		7909 470 249 
+		7906 404 256 
+		7901 313 256 
+		1750 57 259 
+		7908 83 279 17
+		7908 27 279 17
+		1874 56 282 
+		34640 263 284 
+		1873 501 286 
+		7907 45 314 294
+		7907 333 318 
+		7902 516 329 
+		7902 133 331 
+	end
+	objects
+		object Nobleman10037-0 of Nobleman
+			properties
+				loop 0
+				x 141
+				y 242
+			end
+		end
+		object Gladiator10037-0 of Gladiator
+			properties
+				loop 0
+				x 256
+				y 251
+			end
+		end
+		object Gladiator10037-1 of Gladiator
+			properties
+				loop 0
+				x 352
+				y 253
+			end
+		end
+		object RandomCastleNPC10037-0 of RandomCastleNPC
+			properties
+				loop 0
+				x 521
+				y 243
+			end
+		end
+	end
+end
+room 10038
+	properties
+		picture 3071
+		east 10039
+		west 10037
+        flags 248
+	end
+	atpinfo
+		1754 608 92 
+		1754 329 214 
+		7900 450 221 
+		7906 267 221 
+		1752 83 225 
+		1751 577 226 
+		7900 75 233 
+		7901 548 233 
+		1874 58 274 
+		1872 247 280 
+		34641 517 286 
+		7907 271 287 277
+		7907 54 317 
+		7902 516 322 
+		7902 246 330 
+		1771 505 330 
+		1770 358 331 
+	end
+	objects
+		object RandomNewDead10038-0 of RandomNewDead
+			properties
+				loop 0
+				x 176
+				y 272
+			end
+		end
+		object RandomNewDead10038-1 of RandomNewDead
+			properties
+				loop 0
+				x 265
+				y 234
+			end
+		end
+		object RandomNewDead10038-2 of RandomNewDead
+			properties
+				loop 0
+				x 357
+				y 269
+			end
+		end
+		object RandomNewDead10038-3 of RandomNewDead
+			properties
+				loop 0
+				x 436
+				y 245
+			end
+		end
+	end
+end
+room 10039
+	properties
+		picture 3071
+		east 10040
+		west 10038
+        flags 248
+	end
+	atpinfo
+		1750 220 161 
+		34548 486 175 
+		1751 476 182 
+		1783 234 205 
+		7909 260 206 
+		1754 338 209 
+		1750 515 210 
+		7906 258 211 
+		7906 379 211 
+		7906 490 211 
+		1750 18 212 
+		1877 495 218 
+		1751 91 218 
+		1750 171 222 
+		7901 128 223 
+		1782 40 225 
+		1751 589 227 
+		7906 579 227 
+		34540 393 237 
+		1772 60 302 
+		1771 505 303 
+		1771 263 303 
+		34549 336 319 
+		1771 39 321 
+		1877 193 322 
+		7901 80 323 100
+		1781 541 324 
+		34550 363 326 
+		34643 132 326 
+		1876 282 327 
+		1875 31 330 
+		7902 311 345 
+		7902 98 344 
+		7902 581 345 
+		34551 627 336 
+		1782 408 337 
+		1780 213 348 
+		1783 446 351 
+		1780 473 374 
+		34548 77 416 
+	end
+	objects
+		object dungeonBackDoor10039-0 of EnidBackDoor
+			properties
+				loop 2
+				x 330
+				y 219
+				linkTo dungeonBackUp10078-0
+			end
+			base lockable
+				isLocked 1
+				lockValue 1337
+			end
+		end
+		object Gladiator10039-0 of Gladiator
+			properties
+				loop 0
+				x 406
+				y 226
+			end
+		end
+		object Gladiator10039-1 of Gladiator
+			properties
+				loop 0
+				x 231
+				y 227
+			end
+		end
+		object Nobleman10039-0 of Nobleman
+			properties
+				loop 0
+				x 122
+				y 290
+			end
+		end
+	end
+end
+room 10040
+	properties
+		picture 3071
+		 flags 248
+		east 10041
+		west 10039
+	end
+	atpinfo
+		1754 608 92 
+		1754 329 214 
+		7900 450 221 
+		7906 267 221 
+		1752 83 225 
+		1751 577 226 
+		7900 75 233 
+		7901 548 233 
+		1874 58 274 
+		1872 247 280 
+		34641 517 286 
+		7907 271 287 277
+		7907 54 317 
+		7902 516 322 
+		7902 246 330 
+		1771 505 330 
+		1770 358 331 
+	end
+	objects
+		object RandomCastleNPC10040-0 of RandomCastleNPC
+			properties
+				loop 0
+				x 216
+				y 234
+			end
+		end
+		object RandomCastleNPC10040-1 of RandomCastleNPC
+			properties
+				loop 0
+				x 340
+				y 238
+			end
+		end
+		object RandomCastleNPC10040-2 of RandomCastleNPC
+			properties
+				loop 0
+				x 441
+				y 235
+			end
+		end
+	end
+end
+room 10041
+	properties
+		picture 3071
+		east 10042
+		west 10040
+        flags 248
+	end
+	atpinfo
+		1750 242 104 
+		1752 523 108 
+		1752 125 113 
+		7900 491 114 
+		7900 333 117 
+		1751 360 118 
+		7900 89 119 
+		7907 549 174 
+		7907 371 178 
+		7907 636 178 
+		7907 477 180 
+		7904 283 191 
+		7907 107 196 
+		1751 432 199 
+		7907 658 199 
+		1781 65 200 
+		34548 520 201 
+		7907 24 204 
+		1871 -127 205 
+		34550 357 208 
+		34551 374 208 
+		34549 373 209 
+		1752 12 210 
+		7907 133 211 
+		1782 433 212 
+		7907 384 214 
+		34638 119 215 
+		1752 645 217 
+		1782 35 219 
+		7907 35 220 
+		7909 313 223 24
+		34551 498 224 
+		7907 604 225 
+		7907 67 225 
+		7907 494 230 
+		34550 39 242 
+		34548 20 258 
+		1781 -1 262 
+		34640 580 272 
+		34641 328 282 
+		34641 117 282 
+		34551 2 285 
+		7904 57 298 
+		7907 59 317 
+		7902 235 318 
+		1770 164 321 
+		7902 504 321 
+		1771 48 328 
+		34548 -3 339 
+		7900 -50 493 
+	end
+	objects
+		object Nobleman10041-0 of Nobleman
+			properties
+				loop 0
+				x 385
+				y 216
+			end
+		end
+		object Nobleman10041-1 of Nobleman
+			properties
+				loop 0
+				x 506
+				y 207
+			end
+		end
+		object RandomCastleNPC10041-0 of RandomCastleNPC
+			properties
+				loop 0
+				x 93
+				y 278
+			end
+		end
+	end
+end
+room 10042
+	properties
+		picture 3071
+		east 10043
+		west 10041
+        flags 248
+	end
+	atpinfo
+		1751 437 223 
+		34518 620 226 
+		34520 83 227 
+		7906 441 231 
+		34518 325 232 
+		7906 54 234 
+		1750 542 235 
+		7906 353 238 
+		7906 506 241 
+		7906 611 243 
+		1751 223 245 
+		7906 160 249 
+		7901 254 252 
+		1772 558 296 
+		34540 617 310 
+		7907 588 321 
+		1780 613 330 
+	end
+	objects
+		object RandomCastleNPC10042-0 of RandomCastleNPC
+			properties
+				loop 0
+				x 375
+				y 238
+			end
+		end
+		object Crusader10042-0 of Crusader
+			properties
+				loop 0
+				x 102
+				y 241
+			end
+		end
+		object Nobleman10042-0 of Nobleman
+			properties
+				loop 0
+				x 516
+				y 257
+			end
+		end
+	end
+end
+room 10043
+	properties
+		picture 3071
+		east 10044
+		west 10042
+        flags 248
+	end
+	atpinfo
+		1750 586 160 
+		1850 479 166 
+		7906 485 183 
+		1752 293 190 
+		7906 397 192 
+		34520 78 216 
+		7901 51 224 
+		34518 206 227 
+		1751 320 239 
+		7901 196 240 
+		34520 653 241 
+		7901 354 246 
+		7901 579 246 
+		3 516 291 
+		3 499 296 
+		3 515 300 
+		1782 534 308 
+		1770 517 321 
+		1771 438 321 
+	end
+	objects
+		object Gladiator10043-0 of Gladiator
+			properties
+				loop 0
+				x 405
+				y 212
+			end
+		end
+		object RandomCastleNPC10043-0 of RandomCastleNPC
+			properties
+				loop 0
+				x 488
+				y 214
+			end
+		end
+		object Nobleman10043-0 of Nobleman
+			properties
+				loop 0
+				x 134
+				y 231
+			end
+		end
+	end
+end
+room 10044
+	properties
+		picture 3071
+		east 10045
+		west 10043
+        flags 248
+	end
+	atpinfo
+		1750 99 100 
+		7906 109 107 
+		1751 243 113 
+		1752 400 121 
+		7900 295 123 
+		7900 428 126 
+		1751 590 189 
+		34551 524 191 
+		1877 542 194 
+		7901 555 206 
+		1783 275 225 
+		1783 306 239 
+		1750 204 239 -25
+		1783 180 247 
+		1780 238 251 
+		1772 246 251 
+		1875 294 257 
+		7907 331 258 
+		1782 150 259 
+		32784 92 263 
+		1783 191 265 
+		16 337 268 
+		1876 273 270 
+		7907 282 274 
+		16 269 291 
+		1771 219 301 
+		1770 327 315 
+		1850 609 317 
+		1850 21 325 
+		1876 529 325 
+		1781 97 325 
+		1875 230 328 
+		1783 446 336 
+		7902 515 336 
+		7902 35 338 
+		7902 278 342 
+		1780 386 347 
+		1783 471 351 
+		1783 167 365 
+		1780 575 373 
+	end
+	objects
+		object Crusader10044-0 of Crusader
+			properties
+				loop 0
+				x 266
+				y 232
+			end
+		end
+		object Gladiator10044-0 of Gladiator
+			properties
+				loop 0
+				x 93
+				y 292
+			end
+		end
+		object Gladiator10044-1 of Gladiator
+			properties
+				loop 0
+				x 532
+				y 279
+			end
+		end
+	end
+end
+room 10045
+	properties
+		picture 3071
+		east 10046
+		west 10044
+        flags 248
+	end
+	atpinfo
+		1751 357 204 
+		7906 11 210 
+		1752 152 211 
+		7906 358 212 
+		7906 131 215 
+		1830 310 218 
+		1752 631 218 
+		1877 398 219 
+		7906 601 224 
+		1831 281 226 
+		1876 237 229 
+		7906 279 232 
+		7906 210 235 
+		1751 487 241 
+		7906 536 242 
+		7906 420 242 
+		7906 484 248 
+		1771 640 293 
+		1780 9 303 
+		34598 69 319 
+		1876 222 321 
+		1782 25 325 
+		1875 290 326 
+		1781 102 330 
+		1781 421 330 
+		7902 80 331 
+		1770 129 332 
+		7902 352 336 
+		1782 240 338 
+		1771 269 341 20
+		34539 26 344 20
+		1782 373 354 
+		1780 184 368 
+		1780 156 370 
+		1780 342 386 
+	end
+	objects
+		object Nobleman10045-0 of Nobleman
+			properties
+				loop 0
+				x 352
+				y 235
+			end
+		end
+		object RandomCastleNPC10045-0 of RandomCastleNPC
+			properties
+				loop 0
+				x 146
+				y 231
+			end
+		end
+		object Nobleman10045-1 of Nobleman
+			properties
+				loop 0
+				x 549
+				y 245
+			end
+		end
+	end
+end
+room 10046
+	properties
+		picture 3071
+		 flags 248
+		east 10047
+		west 10045
+	end
+	atpinfo
+		34520 407 142 3
+		34519 248 151 
+		34520 587 158 3
+		1780 417 160 
+		1876 463 165 
+		7900 551 169 
+		1877 28 170 
+		34520 87 175 3
+		34518 318 176 
+		7906 133 177 
+		7906 360 181 
+		1782 241 181 
+		7906 244 185 
+		1783 78 186 
+		1875 13 195 
+		7902 -14 200 
+		1770 123 314 
+		1771 664 321 
+	end
+	objects
+		object Nobleman10046-0 of Nobleman
+			properties
+				loop 0
+				x 487
+				y 207
+			end
+		end
+		object Gladiator10046-0 of Gladiator
+			properties
+				loop 0
+				x 127
+				y 208
+			end
+		end
+		object RandomCastleNPC10046-0 of RandomCastleNPC
+			properties
+				loop 0
+				x 271
+				y 221
+			end
+		end
+		object RandomCastleNPC10046-1 of RandomCastleNPC
+			properties
+				loop 0
+				x 346
+				y 223
+			end
+		end
+	end
+end
+room 10047
+	properties
+		picture 3071
+		 flags 248
+		east 10048
+		west 10046
+	end
+	atpinfo
+		1752 138 185 
+		1751 267 196 
+		1782 138 201 
+		1750 632 205 
+		34519 430 207 
+		1876 207 209 
+		7906 168 212 
+		7906 439 213 
+		7906 229 214 
+		1877 477 215 
+		1750 338 219 
+		7909 382 220 
+		1750 58 221 
+		7906 307 223 
+		34518 547 225 
+		7901 43 225 
+		34642 90 280 
+		34642 15 280 
+		1872 525 281 
+		1873 274 285 
+		7902 322 325 
+		7902 542 328 
+		7902 100 329 
+		1872 137 341 
+		7900 574 354 125
+		1780 371 394 
+	end
+	objects
+		object Nobleman10047-0 of Nobleman
+			properties
+				loop 0
+				x 202
+				y 234
+			end
+		end
+		object Gladiator10047-0 of Gladiator
+			properties
+				loop 0
+				x 438
+				y 240
+			end
+		end
+	end
+end
+room 10048
+	properties
+		picture 3071
+		south 10049
+		west 10047
+        flags 248
+	end
+	atpinfo
+		1752 58 184 
+		34518 227 186 
+		7909 15 190 
+		34519 336 202 
+		34519 126 208 
+		7901 115 214 
+		1876 239 216 
+		1752 487 229 
+		7909 488 236 
+		7909 533 239 
+		1750 597 242 
+		7907 312 264 249
+		7906 335 296 86
+		7906 235 306 86
+		7906 405 319 86
+		1850 654 323 6
+		1771 244 324 
+		1781 97 326 
+		1772 599 330 
+		7907 116 332 
+		7906 597 334 86
+		7907 40 337 
+		1780 15 346 
+		7906 657 526 86
+	end
+	objects
+		object RandomNewDead10048-0 of RandomNewDead
+			properties
+				loop 0
+				x 184
+				y 231
+			end
+		end
+		object RandomCastleNPC10048-0 of RandomCastleNPC
+			properties
+				loop 0
+				x 283
+				y 242
+			end
+		end
+		object Crusader10048-0 of Crusader
+			properties
+				loop 0
+				x 352
+				y 250
+			end
+		end
+		object Gladiator10048-0 of Gladiator
+			properties
+				loop 0
+				x 434
+				y 261
+			end
+		end
+		object button10048-0 of Button
+			properties
+				loop 0
+				x 539
+				y 265
+			end
+			actions
+				vBeActivated unlock dungeonBackDoor10039-0
+				vBeActivated open dungeonBackDoor10039-0
+			end
+		end
+	end
+end
+room 10049
+	properties
+		picture 3071
+		north 10048
+		south 10050
+        flags 248
+	end
+	atpinfo
+		7902 154 119 
+		1750 594 120 
+		1751 165 121 
+		1750 152 155 
+		1753 -104 174 -247
+		34638 128 184 -51
+		34638 129 209 
+		1750 608 219 
+		7901 599 225 
+		1752 55 226 2
+		7900 75 227 
+		1783 77 228 
+		1782 31 253 
+		7904 64 310 
+		1771 232 315 
+		7901 629 320 
+		1770 155 321 
+		1850 -9 327 
+		1850 616 327 
+		7902 -58 329 
+		7907 591 332 
+		1780 594 339 
+	end
+	objects
+		object Gladiator10049-0 of Gladiator
+			properties
+				loop 0
+				x 146
+				y 243
+			end
+		end
+		object Gladiator10049-1 of Gladiator
+			properties
+				loop 0
+				x 108
+				y 304
+			end
+		end
+		object Nobleman10049-0 of Nobleman
+			properties
+				loop 0
+				x 188
+				y 195
+			end
+		end
+		object Nobleman10049-1 of Nobleman
+			properties
+				loop 0
+				x 241
+				y 287
+			end
+		end
+		object Nobleman10049-2 of Nobleman
+			properties
+				loop 0
+				x 326
+				y 288
+			end
+		end
+	end
+end
+room 10050
+	properties
+		picture 3071
+		 flags 248
+		north 10049
+		south 10051
+	end
+	atpinfo
+		1752 89 222 
+		1751 446 224 
+		1831 348 231 
+		7900 106 231 
+		1830 196 232 
+		1750 542 235 
+		7909 198 239 
+		7909 348 240 
+		7909 486 244 
+		34518 584 260 
+		7900 426 279 47
+		1751 665 293 
+		1772 558 296 
+		40672 556 308 
+		34540 617 310 
+		7906 592 319 
+		7906 -13 319 
+		1850 -13 324 
+		7904 5 325 
+		7907 13 327 
+		1780 613 330 
+	end
+	objects
+		object Gladiator10050-0 of Gladiator
+			properties
+				loop 0
+				x 137
+				y 242
+			end
+		end
+		object RandomCastleNPC10050-0 of RandomCastleNPC
+			properties
+				loop 0
+				x 408
+				y 239
+			end
+		end
+		object Crusader10050-0 of Crusader
+			properties
+				loop 0
+				x 57
+				y 256
+			end
+		end
+		object Crusader10050-1 of Crusader
+			properties
+				loop 0
+				x 464
+				y 272
+			end
+		end
+		object Crusader10050-2 of Crusader
+			properties
+				loop 0
+				x 529
+				y 310
+			end
+		end
+	end
+end
+room 10051
+	properties
+		picture 3071
+		north 10050
+		south 10052
+        flags 248
+	end
+	atpinfo
+		1750 543 149 
+		7906 505 191 38
+		7906 581 196 38
+		1750 149 235 
+		7907 422 235 
+		1750 376 236 
+		1831 369 242 
+		1780 382 243 
+		1830 205 243 
+		7906 189 247 
+		34519 47 250 
+		34548 430 255 
+		7907 426 257 
+		1780 139 273 
+		7907 86 286 
+		1751 20 287 
+		34618 596 299 -21
+		7907 584 303 
+		34538 129 309 
+		7906 344 313 77
+		1850 23 318 
+		34539 435 324 
+		7906 85 324 
+		7903 603 326 
+		7906 153 351 76
+		34548 87 373 
+	end
+	objects
+		object Gladiator10051-0 of Gladiator
+			properties
+				loop 0
+				x 378
+				y 262
+			end
+		end
+		object Gladiator10051-1 of Gladiator
+			properties
+				loop 0
+				x 178
+				y 253
+			end
+		end
+		object RandomNewDead10051-0 of RandomNewDead
+			properties
+				loop 0
+				x 109
+				y 301
+			end
+		end
+	end
+end
+room 10052
+	properties
+		picture 3071
+		north 10051
+		east 10053
+		south 10053
+        flags 248
+	end
+	atpinfo
+		7902 154 119 
+		1750 594 120 
+		1751 165 121 
+		1750 152 155 
+		1753 -104 174 -247
+		34638 128 184 -51
+		34638 129 209 
+		1750 608 219 
+		7901 599 225 
+		1752 55 226 2
+		7900 75 227 
+		1783 77 228 
+		1782 31 253 
+		7904 64 310 
+		1771 232 315 
+		7901 629 320 
+		1770 155 321 
+		1850 -9 327 
+		1850 616 327 
+		7902 -58 329 
+		7907 591 332 
+		1780 594 339 
+	end
+end
+room 10053
+	properties
+		picture 3071
+		north 10052
+		south 10054
+        flags 248
+	end
+	atpinfo
+		1750 149 235 
+		1750 435 241 
+		1831 369 242 
+		1830 205 243 
+		7906 194 248 
+		34519 47 250 
+		34548 421 256 
+		7907 411 258 
+		1750 506 266 
+		1780 455 277 
+		7907 86 286 
+		1751 20 287 
+		1850 542 304 
+		34548 510 310 
+		34618 622 317 -21
+		1850 23 318 
+		7906 48 318 
+		7906 438 319 38
+		7906 496 320 
+		34538 389 323 
+		34539 435 324 
+		7906 371 324 77
+		1771 526 325 
+		1770 574 326 
+		7906 105 328 76
+		1780 536 346 
+	end
+	objects
+		object Gladiator10053-0 of Gladiator
+			properties
+				loop 0
+				x 151
+				y 251
+			end
+		end
+		object Gladiator10053-1 of Gladiator
+			properties
+				loop 0
+				x 372
+				y 260
+			end
+		end
+		object Gladiator10053-2 of Gladiator
+			properties
+				loop 0
+				x 98
+				y 308
+			end
+		end
+		object RandomNewDead10053-0 of RandomNewDead
+			properties
+				loop 0
+				x 434
+				y 313
+			end
+		end
+	end
+end
+room 10054
+	properties
+		picture 3071
+		north 10053
+		west 10055
+        flags 248
+	end
+	atpinfo
+		1830 354 91 
+		34598 336 112 
+		7907 345 115 
+		34520 476 140 
+		7901 395 146 
+		1751 576 157 
+		34518 566 189 
+		7908 518 195 
+		7901 543 197 48
+		7907 135 207 
+		1752 33 225 
+		7907 139 226 
+		7906 76 229 
+		7906 44 232 
+		1750 607 235 
+		7906 582 235 19
+		1831 601 250 
+		7909 507 261 
+		34599 529 279 
+		7907 531 284 
+		1770 432 293 
+		7906 638 317 
+		1771 550 320 
+		1850 658 333 
+	end
+	objects
+		object RandomCastleNPC10054-0 of RandomCastleNPC
+			properties
+				loop 0
+				x 439
+				y 185
+			end
+		end
+		object RandomCastleNPC10054-1 of RandomCastleNPC
+			properties
+				loop 0
+				x 479
+				y 247
+			end
+		end
+		object Gladiator10054-0 of Gladiator
+			properties
+				loop 0
+				x 574
+				y 308
+			end
+		end
+		object RandomNewDead10054-0 of RandomNewDead
+			properties
+				loop 0
+				x 192
+				y 314
+			end
+		end
+	end
+end
+room 10055
+	properties
+		picture 3071
+		east 10054
+        flags 248
+		west 10056
+	end
+	atpinfo
+		1750 242 104 
+		1751 353 106 
+		1752 523 108 
+		1752 125 113 
+		7900 491 114 
+		7900 333 117 
+		7900 89 119 
+		7907 549 174 
+		7907 371 178 
+		7907 636 178 
+		7907 477 180 
+		7904 283 191 
+		7907 107 196 
+		1751 432 199 
+		7907 658 199 
+		1781 65 200 
+		34548 520 201 
+		7907 24 204 
+		1871 -127 205 
+		34550 357 208 
+		34551 374 208 
+		34549 373 209 
+		1752 12 210 
+		7907 133 211 
+		1782 433 212 
+		7907 384 214 
+		34638 119 215 
+		1752 645 217 
+		1782 35 219 
+		7907 35 220 
+		7909 313 223 24
+		34551 498 224 
+		7907 604 225 
+		7907 67 225 
+		7907 494 230 
+		34550 39 242 
+		34548 20 258 
+		1781 -1 262 
+		34640 580 272 
+		34641 328 282 
+		34641 117 282 
+		34551 2 285 
+		7904 57 298 
+		7907 59 317 
+		7902 235 318 
+		1770 164 321 
+		7902 504 321 
+		1771 48 328 
+		34548 -3 339 
+		7900 -50 493 
+	end
+	objects
+		object RandomNewDead10055-0 of RandomNewDead
+			properties
+				loop 0
+				x 123
+				y 246
+			end
+		end
+		object RandomNewDead10055-1 of RandomNewDead
+			properties
+				loop 0
+				x 83
+				y 280
+			end
+		end
+		object Gladiator10055-0 of Gladiator
+			properties
+				loop 0
+				x 363
+				y 220
+			end
+		end
+		object RandomCastleNPC10055-0 of RandomCastleNPC
+			properties
+				loop 0
+				x 463
+				y 226
+			end
+		end
+		object Crusader10055-0 of Crusader
+			properties
+				loop 0
+				x 538
+				y 199
+			end
+		end
+	end
+end
+room 10056
+	properties
+		picture 3071
+		north 10061
+        flags 248
+		east 10055
+		west 10057
+	end
+	atpinfo
+		34548 486 175 
+		1751 476 182 
+		7906 415 186 
+		1783 234 205 
+		7909 260 206 
+		1750 515 210 
+		1750 18 212 
+		1877 495 218 
+		1751 91 218 
+		1750 171 222 
+		1782 40 225 
+		1751 589 227 
+		7906 205 229 
+		7906 485 232 
+		7906 584 235 
+		34540 393 237 
+		1772 60 302 
+		1771 505 303 
+		1771 263 303 
+		34549 336 319 
+		1771 39 321 
+		1877 193 322 
+		1781 541 324 
+		34550 363 326 
+		34643 132 326 
+		1876 282 327 
+		7902 307 329 
+		1875 31 330 
+		7902 101 332 
+		34551 627 336 
+		1782 408 337 
+		7901 80 338 100
+		7902 579 339 
+		1780 213 348 
+		1783 446 351 
+		1780 473 374 
+		34548 77 416 
+	end
+	objects
+		object RandomCastleNPC10056-0 of RandomCastleNPC
+			properties
+				loop 0
+				x 437
+				y 211
+			end
+		end
+		object Gladiator10056-0 of Gladiator
+			properties
+				loop 0
+				x 85
+				y 235
+			end
+		end
+		object Gladiator10056-1 of Gladiator
+			properties
+				loop 0
+				x 163
+				y 236
+			end
+		end
+		object RandomCastleNPC10056-1 of RandomCastleNPC
+			properties
+				loop 0
+				x 521
+				y 240
+			end
+		end
+		object Nobleman10056-0 of Nobleman
+			properties
+				loop 0
+				x 602
+				y 261
+			end
+		end
+	end
+end
+room 10057
+	properties
+		picture 3071
+        flags 248
+		east 10056
+		west 10058
+	end
+	atpinfo
+		34520 407 142 3
+		34519 248 151 
+		34520 587 158 3
+		1780 417 160 
+		1876 463 165 
+		7900 551 169 
+		1877 28 170 
+		34520 87 175 3
+		34518 318 176 
+		7906 133 177 
+		7906 360 181 
+		1782 241 181 
+		7906 244 185 
+		1783 78 186 
+		1875 13 195 
+		7902 -14 200 
+		1770 123 314 
+		1771 664 321 
+	end
+	objects
+		object Nobleman10057-0 of Nobleman
+			properties
+				loop 0
+				x 109
+				y 210
+			end
+		end
+		object Nobleman10057-1 of Nobleman
+			properties
+				loop 0
+				x 520
+				y 198
+			end
+		end
+		object Gladiator10057-0 of Gladiator
+			properties
+				loop 0
+				x 239
+				y 203
+			end
+		end
+		object RandomCastleNPC10057-0 of RandomCastleNPC
+			properties
+				loop 0
+				x 394
+				y 207
+			end
+		end
+	end
+end
+room 10058
+	properties
+		picture 3071
+		 flags 248
+		north 10059
+		east 10057
+	end
+	atpinfo
+		7907 426 113 
+		34520 530 115 
+		1850 471 131 
+		34550 429 176 
+		7907 419 182 
+		7907 118 193 
+		1870 582 198 
+		1783 440 207 
+		7907 134 220 
+		1850 501 222 
+		1781 99 223 
+		1752 22 224 
+		7907 47 231 
+		1752 579 234 
+		7900 547 237 
+		1876 123 239 
+		7907 73 239 
+		34551 56 240 
+		7907 151 243 
+		1782 87 257 
+		1772 443 258 
+		7907 88 264 
+		34540 52 278 
+		1872 285 279 
+		1873 35 283 
+		1873 542 286 
+		7904 2 315 
+		1770 260 317 
+		34644 555 322 
+		1771 380 323 
+		7902 131 323 
+		7902 392 327 
+		1875 472 329 
+		7907 588 329 
+		1780 618 368 
+	end
+	objects
+		object Nobleman10058-0 of Nobleman
+			properties
+				loop 0
+				x 134
+				y 234
+			end
+		end
+		object Nobleman10058-1 of Nobleman
+			properties
+				loop 0
+				x 81
+				y 265
+			end
+		end
+		object Nobleman10058-2 of Nobleman
+			properties
+				loop 0
+				x 31
+				y 294
+			end
+		end
+	end
+end
+room 10059
+	properties
+		picture 3071
+        flags 248
+		north 10060
+		south 10058
+	end
+	atpinfo
+		1750 557 179 
+		1750 342 182 
+		7909 394 183 
+		7901 555 186 
+		1830 205 220 
+		1831 354 232 
+		1751 265 242 
+		7901 314 249 
+		34548 203 250 
+		1850 601 252 
+		1750 146 260 
+		1782 556 263 
+		7909 511 267 
+		1780 169 283 
+		34519 41 291 
+		34548 206 302 
+		7909 251 302 
+		1780 56 306 
+		34548 132 312 
+		34538 168 314 
+		1770 154 316 
+		34618 622 317 -21
+		1850 23 318 
+		1770 566 318 
+		1772 148 321 
+		34539 137 324 
+		7901 619 336 
+		7906 173 339 
+		1780 162 354 
+	end
+	objects
+		object Gladiator10059-0 of Gladiator
+			properties
+				loop 0
+				x 300
+				y 249
+			end
+		end
+		object RandomCastleNPC10059-0 of RandomCastleNPC
+			properties
+				loop 0
+				x 234
+				y 263
+			end
+		end
+		object RandomCastleNPC10059-1 of RandomCastleNPC
+			properties
+				loop 0
+				x 161
+				y 296
+			end
+		end
+	end
+end
+room 10060
+	properties
+		picture 3071
+		 flags 248
+		south 10059
+	end
+	atpinfo
+		1754 165 225 
+		7906 162 233 
+		34518 561 234 
+		1751 338 242 
+		1751 79 248 
+		7906 317 248 
+		34518 432 254 
+		1751 165 264 
+		34518 506 266 
+		14 516 287 
+		34618 565 288 
+		1780 118 289 
+		34518 12 290 
+		32782 132 292 
+		1780 71 300 
+		1850 606 316 -21
+		1780 557 316 
+		34538 392 319 
+		32782 22 320 
+		34539 431 323 
+		1771 225 328 
+		1780 366 329 
+		1780 41 353 
+		40672 564 380 
+		7906 36 404 66
+	end
+	objects
+		object Nobleman10060-0 of Nobleman
+			properties
+				loop 0
+				x 256
+				y 250
+			end
+		end
+		object button10060-0 of Button
+			properties
+				x 322
+				y 264
+				loop 0
+			end
+			actions
+				vBeActivated unlock dungeonBackDoor10095-0
+				vBeActivated open dungeonBackDoor10095-0
+			end
+		end
+		object Nobleman10060-1 of Nobleman
+			properties
+				loop 0
+				x 477
+				y 279
+			end
+		end
+		object RandomCastleNPC10060-0 of RandomCastleNPC
+			properties
+				loop 0
+				x 408
+				y 305
+			end
+		end
+		object Nobleman10060-2 of Nobleman
+			properties
+				loop 0
+				x 97
+				y 306
+			end
+		end
+	end
+end
+room 10061
+	properties
+		picture 3071
+		 flags 248
+		north 10062
+		south 10056
+	end
+	atpinfo
+		7906 162 233 
+		34518 561 234 
+		1751 79 248 
+		34518 432 254 
+		1751 165 264 
+		34518 506 266 
+		1751 483 275 
+		14 516 287 
+		34618 565 288 
+		1780 118 289 
+		34518 12 290 
+		32782 132 292 
+		1780 71 300 
+		1850 606 316 -21
+		1780 557 316 
+		34538 392 319 
+		32782 22 320 
+		34539 431 323 
+		1771 225 328 
+		1780 366 329 
+		1780 41 353 
+		40672 564 380 
+		7906 36 404 66
+	end
+	objects
+		object Gladiator10061-0 of Gladiator
+			properties
+				loop 0
+				x 414
+				y 289
+			end
+		end
+		object Gladiator10061-1 of Gladiator
+			properties
+				loop 0
+				x 482
+				y 289
+			end
+		end
+		object RandomCastleNPC10061-0 of RandomCastleNPC
+			properties
+				loop 0
+				x 75
+				y 315
+			end
+		end
+		object RandomNewDead10061-0 of RandomNewDead
+			properties
+				loop 0
+				x 166
+				y 280
+			end
+		end
+	end
+end
+room 10062
+	properties
+		picture 3071
+        flags 248
+		north 10063
+		south 10061
+	end
+	atpinfo
+		1750 148 237 
+		1750 435 241 
+		1831 369 242 
+		1830 205 243 
+		7906 369 248 
+		7901 167 249 
+		34519 47 250 
+		34548 421 256 
+		7909 392 261 
+		1750 506 266 
+		1780 455 277 
+		1751 20 287 
+		1850 542 304 
+		34548 510 310 
+		1770 154 316 
+		34618 622 317 -21
+		1850 23 318 
+		1771 520 324 
+		34538 392 325 
+		7904 90 329 
+		1770 579 330 
+		40673 491 332 
+		34539 437 333 
+		1780 540 356 
+	end
+	objects
+		object Nobleman10062-0 of Nobleman
+			properties
+				loop 0
+				x 157
+				y 248
+			end
+		end
+		object Nobleman10062-1 of Nobleman
+			properties
+				loop 0
+				x 374
+				y 258
+			end
+		end
+		object RandomCastleNPC10062-0 of RandomCastleNPC
+			properties
+				loop 0
+				x 86
+				y 305
+			end
+		end
+		object RandomCastleNPC10062-1 of RandomCastleNPC
+			properties
+				loop 0
+				x 446
+				y 312
+			end
+		end
+		object RandomNewDead10062-0 of RandomNewDead
+			properties
+				loop 0
+				x 269
+				y 289
+			end
+		end
+	end
+end
+room 10063
+	properties
+		picture 3071
+		 flags 248
+		north 10064
+		south 10062
+	end
+	atpinfo
+		1750 442 223 
+		1751 196 224 
+		1751 656 225 
+		1831 383 228 
+		7906 465 229 
+		1750 278 234 
+		34598 345 235 
+		1780 625 237 
+		1750 100 241 
+		7900 266 241 
+		7909 150 249 
+		34598 91 260 
+		7906 77 263 
+		34548 634 284 
+		1750 30 298 12
+		1771 649 312 
+		1751 -14 317 -2
+		34540 27 317 
+		1772 81 318 
+		1772 20 318 277
+		34539 589 319 
+		1770 114 319 
+		7906 597 320 
+		7906 50 320 
+		1780 608 324 
+		7907 571 325 
+		34548 587 345 
+	end
+	objects
+		object Nobleman10063-0 of Nobleman
+			properties
+				loop 0
+				x 153
+				y 245
+			end
+		end
+		object Nobleman10063-1 of Nobleman
+			properties
+				loop 0
+				x 92
+				y 304
+			end
+		end
+		object Gladiator10063-0 of Gladiator
+			properties
+				loop 0
+				x 360
+				y 241
+			end
+		end
+		object RandomCastleNPC10063-0 of RandomCastleNPC
+			properties
+				loop 0
+				x 440
+				y 233
+			end
+		end
+	end
+end
+room 10064
+	properties
+		picture 3071
+		south 10063
+		west 10065
+        flags 248
+	end
+	atpinfo
+		34520 571 218 
+		34518 453 223 
+		1752 179 224 
+		7901 168 231 
+		7906 481 231 
+		1751 346 236 
+		7901 314 243 
+		7909 431 245 
+		34518 593 274 
+		7909 538 274 
+		1850 34 318 
+		1850 643 318 
+		7907 59 325 
+		7906 593 328 48
+		7906 34 337 104
+		7907 596 632 300
+	end
+	objects
+		object RandomCastleNPC10064-0 of RandomCastleNPC
+			properties
+				loop 0
+				x 119
+				y 232
+			end
+		end
+		object RandomNewDead10064-0 of RandomNewDead
+			properties
+				loop 0
+				x 237
+				y 234
+			end
+		end
+		object Nobleman10064-0 of Nobleman
+			properties
+				loop 0
+				x 423
+				y 238
+			end
+		end
+		object RandomNewDead10064-1 of RandomNewDead
+			properties
+				loop 0
+				x 516
+				y 239
+			end
+		end
+	end
+end
+room 10065
+	properties
+		picture 3071
+		 flags 248
+		east 10064
+		west 10066
+	end
+	atpinfo
+		1754 608 92 
+		1754 329 214 
+		7900 450 221 
+		7906 267 221 
+		1752 83 225 
+		1751 577 226 
+		7900 75 233 
+		7901 548 233 
+		1874 58 274 
+		1872 247 280 
+		34641 517 286 
+		7907 271 287 277
+		7907 54 317 
+		7902 516 322 
+		7902 246 330 
+		1771 505 330 
+		1770 358 331 
+	end
+	objects
+		object Gladiator10065-0 of Gladiator
+			properties
+				loop 0
+				x 203
+				y 223
+			end
+		end
+		object Gladiator10065-1 of Gladiator
+			properties
+				loop 0
+				x 274
+				y 225
+			end
+		end
+		object Gladiator10065-2 of Gladiator
+			properties
+				loop 0
+				x 340
+				y 227
+			end
+		end
+		object Gladiator10065-3 of Gladiator
+			properties
+				loop 0
+				x 405
+				y 229
+			end
+		end
+		object Gladiator10065-4 of Gladiator
+			properties
+				loop 0
+				x 473
+				y 228
+			end
+		end
+	end
+end
+room 10066
+	properties
+		picture 3071
+		east 10065
+		west 10067
+        flags 248
+	end
+	atpinfo
+		1751 357 204 
+		7906 11 210 
+		1752 152 211 
+		7906 358 212 
+		7906 131 215 
+		1830 310 218 
+		1752 631 218 
+		1877 398 219 
+		7906 601 224 
+		1831 281 226 
+		1876 237 229 
+		7906 279 232 
+		7906 210 235 
+		1751 487 241 
+		7906 536 242 
+		7906 420 242 
+		7906 484 248 
+		1771 640 293 
+		1780 9 303 
+		34598 69 319 
+		1876 222 321 
+		1782 25 325 
+		1875 290 326 
+		1781 102 330 
+		1781 421 330 
+		7902 80 331 
+		1770 129 332 
+		7902 352 336 
+		1782 240 338 
+		1771 269 341 20
+		34539 26 344 20
+		1782 373 354 
+		1780 184 368 
+		1780 156 370 
+		1780 342 386 
+	end
+	objects
+		object Gladiator10066-0 of Gladiator
+			properties
+				loop 0
+				x 151
+				y 231
+			end
+		end
+		object Crusader10066-0 of Crusader
+			properties
+				loop 0
+				x 277
+				y 237
+			end
+		end
+		object Crusader10066-1 of Crusader
+			properties
+				loop 0
+				x 372
+				y 237
+			end
+		end
+		object RandomCastleNPC10066-0 of RandomCastleNPC
+			properties
+				loop 0
+				x 526
+				y 246
+			end
+		end
+	end
+end
+room 10067
+	properties
+		picture 3071
+		 flags 248
+		east 10066
+		west 10068
+	end
+	atpinfo
+		1752 138 185 
+		1751 267 196 
+		1782 138 201 
+		1750 632 205 
+		34519 430 207 
+		1876 207 209 
+		7906 168 212 
+		7906 439 213 
+		7906 229 214 
+		1877 477 215 
+		1750 338 219 
+		7909 382 220 
+		1750 58 221 
+		7906 307 223 
+		34518 547 225 
+		7901 43 225 
+		34642 90 280 
+		34642 15 280 
+		1872 525 281 
+		1873 274 285 
+		7902 322 325 
+		7902 542 328 
+		7902 100 329 
+		1872 137 341 
+		7900 574 354 125
+		1780 371 394 
+	end
+	objects
+		object Gladiator10067-0 of Gladiator
+			properties
+				loop 0
+				x 134
+				y 226
+			end
+		end
+		object Gladiator10067-1 of Gladiator
+			properties
+				loop 0
+				x 251
+				y 230
+			end
+		end
+		object Nobleman10067-0 of Nobleman
+			properties
+				loop 0
+				x 419
+				y 230
+			end
+		end
+		object Nobleman10067-1 of Nobleman
+			properties
+				loop 0
+				x 541
+				y 237
+			end
+		end
+		object Gladiator10067-0 of Gladiator
+			properties
+				loop 0
+				x 340
+				y 275
+			end
+		end
+	end
+end
+room 10068
+	properties
+		picture 3071
+		east 10067
+		south 10069
+		west 10076
+        flags 248
+	end
+	atpinfo
+		1752 631 214 
+		1752 329 222 
+		1772 310 222 
+		1752 84 231 
+		34518 211 232 
+		7906 56 236 
+		7900 248 238 
+		34519 458 238 
+		1750 608 244 
+		7900 500 248 
+		34640 -29 277 
+		1873 558 281 
+		1879 133 293 
+		7907 421 312 
+		7907 56 318 
+		1771 68 319 
+		7907 587 320 
+		7907 474 322 
+		7907 128 324 
+		7907 403 325 
+		1850 411 337 6
+	end
+	objects
+		object RandomCastleNPC10068-0 of RandomCastleNPC
+			properties
+				loop 0
+				x 179
+				y 240
+			end
+		end
+		object RandomCastleNPC10068-1 of RandomCastleNPC
+			properties
+				loop 0
+				x 262
+				y 236
+			end
+		end
+		object Gladiator10068-0 of Gladiator
+			properties
+				loop 0
+				x 471
+				y 252
+			end
+		end
+		object Gladiator10068-1 of Gladiator
+			properties
+				loop 0
+				x 543
+				y 258
+			end
+		end
+	end
+end
+room 10076
+	properties
+		picture 3071
+		 flags 248
+		east 10068
+		west 10077
+	end
+	atpinfo
+		1751 238 219 
+		1751 446 224 
+		1752 674 227 
+		1831 262 227 
+		1752 68 229 
+		34518 332 232 
+		1750 542 235 
+		7900 82 238 
+		7900 337 241 
+		7901 554 244 
+		1772 558 296 
+		34540 617 310 
+		1780 613 330 
+		1783 554 332 
+		7902 626 332 
+	end
+	objects
+		object Gladiator10076-0 of Gladiator
+			properties
+				loop 2
+				x 152
+				y 238
+			end
+		end
+		object RandomCastleNPC10076-0 of RandomCastleNPC
+			properties
+				loop 2
+				x 281
+				y 239
+			end
+		end
+		object RandomCastleNPC10076-1 of RandomCastleNPC
+			properties
+				loop 2
+				x 490
+				y 245
+			end
+		end
+		object Gladiator10076-1 of Gladiator
+			properties
+				loop 2
+				x 352
+				y 250
+			end
+		end
+	end
+end
+room 10077
+	properties
+		picture 3071
+		east 10076
+		west 10000
+        flags 248
+	end
+	atpinfo
+		1751 437 223 
+		34518 620 226 
+		34520 83 227 
+		7906 441 231 
+		34518 326 232 
+		7906 54 234 
+		1750 542 235 
+		7906 353 238 
+		7906 506 241 
+		7906 611 243 
+		1751 223 245 
+		7906 160 249 
+		7901 254 252 
+		1772 558 296 
+		34540 617 310 
+		7907 588 321 
+		1780 613 330 
+	end
+	objects
+		object Gladiator10077-0 of Gladiator
+			properties
+				loop 2
+				x 465
+				y 238
+			end
+		end
+		object Gladiator10077-1 of Gladiator
+			properties
+				loop 2
+				x 352
+				y 241
+			end
+		end
+		object Gladiator10077-2 of Gladiator
+			properties
+				loop 2
+				x 111
+				y 252
+			end
+		end
+		object Gladiator10077-3 of Gladiator
+			properties
+				loop 2
+				x 228
+				y 261
+			end
+		end
+	end
+end
+room 10069
+	properties
+		picture 3071
+		north 10068
+		south 10070
+        flags 248
+	end
+	atpinfo
+		1830 524 216 
+		34599 229 216 
+		7906 229 221 
+		34598 405 223 
+		34599 92 225 
+		7906 399 227 
+		7906 84 230 
+		7906 536 232 
+		1830 562 238 
+		1831 52 254 
+		1830 601 283 
+		34599 19 283 
+		1830 634 308 
+		1831 -7 310 
+		7904 23 328 
+		40672 607 329 
+		1771 202 338 
+		1770 121 340 
+		1771 284 344 20
+		34539 28 349 20
+	end
+	objects
+		object Gladiator10069-0 of Gladiator
+			properties
+				loop 0
+				x 221
+				y 228
+			end
+		end
+		object Gladiator10069-1 of Gladiator
+			properties
+				loop 0
+				x 397
+				y 230
+			end
+		end
+		object RandomCastleNPC10069-0 of RandomCastleNPC
+			properties
+				loop 0
+				x 112
+				y 258
+			end
+		end
+		object RandomCastleNPC10069-1 of RandomCastleNPC
+			properties
+				loop 0
+				x 526
+				y 262
+			end
+		end
+		object RandomNewDead10069-0 of RandomNewDead
+			properties
+				loop 0
+				x 41
+				y 308
+			end
+		end
+		object RandomNewDead10069-1 of RandomNewDead
+			properties
+				loop 0
+				x 590
+				y 316
+			end
+		end
+	end
+end
+room 10070
+	properties
+		picture 3071
+		north 10069
+		south 10071
+        flags 248
+	end
+	atpinfo
+		1750 148 237 
+		1750 435 241 
+		1831 369 242 
+		1830 205 243 
+		7906 369 248 
+		7901 167 249 
+		34519 47 250 
+		34548 421 256 
+		7909 392 261 
+		1750 506 266 
+		1780 455 277 
+		1751 20 287 
+		1850 542 304 
+		34548 510 310 
+		1770 154 316 
+		34618 622 317 -21
+		1850 23 318 
+		1771 520 324 
+		34538 392 325 
+		7904 90 329 
+		1770 579 330 
+		40673 491 332 
+		34539 437 333 
+		1780 540 356 
+	end
+	objects
+		object Gladiator10070-0 of Gladiator
+			properties
+				loop 0
+				x 151
+				y 248
+			end
+		end
+		object Gladiator10070-1 of Gladiator
+			properties
+				loop 0
+				x 368
+				y 257
+			end
+		end
+		object RandomCastleNPC10070-0 of RandomCastleNPC
+			properties
+				loop 0
+				x 116
+				y 311
+			end
+		end
+		object RandomCastleNPC10070-1 of RandomCastleNPC
+			properties
+				loop 0
+				x 446
+				y 316
+			end
+		end
+	end
+end
+room 10071
+	properties
+		picture 3071
+		north 10070
+        flags 248
+		south 10072
+	end
+	atpinfo
+		1750 149 235 
+		1750 435 241 
+		1831 369 242 
+		1830 205 243 
+		7906 194 248 
+		34519 47 250 
+		34548 421 256 
+		7907 411 258 
+		1750 506 266 
+		1780 455 277 
+		7907 86 286 
+		1751 20 287 
+		1850 542 304 
+		34548 510 310 
+		34618 622 317 -21
+		1850 23 318 
+		7906 48 318 
+		7906 438 319 38
+		7906 496 320 
+		34538 389 323 
+		34539 435 324 
+		7906 371 324 77
+		1771 526 325 
+		1770 574 326 
+		7906 105 328 76
+		1780 536 346 
+	end
+	objects
+		object Gladiator10071-0 of Gladiator
+			properties
+				loop 0
+				x 150
+				y 242
+			end
+		end
+		object Gladiator10071-1 of Gladiator
+			properties
+				loop 0
+				x 109
+				y 264
+			end
+		end
+		object Gladiator10071-2 of Gladiator
+			properties
+				loop 0
+				x 76
+				y 299
+			end
+		end
+		object RandomCastleNPC10071-0 of RandomCastleNPC
+			properties
+				loop 0
+				x 432
+				y 293
+			end
+		end
+	end
+end
+room 10072
+	properties
+		picture 3071
+		north 10071
+		south 10073
+        flags 248
+	end
+	atpinfo
+		34518 520 97 
+		7900 573 100 
+		1772 216 113 -87
+		34520 680 114 
+		7907 544 143 
+		1782 556 143 
+		1780 133 153 
+		1751 61 175 
+		1783 66 181 
+		7900 40 188 
+		34518 612 189 
+		7900 664 192 
+		34518 29 212 
+		7901 10 216 
+		34518 13 286 
+		7901 -12 302 
+		7900 711 304 
+		1850 629 314 
+		1770 603 320 
+		34549 597 320 
+		1850 410 324 
+		7907 586 328 
+		7907 19 332 
+		1783 43 333 
+	end
+	objects
+		object Gladiator10072-0 of Gladiator
+			properties
+				loop 0
+				x 106
+				y 190
+			end
+		end
+		object Gladiator10072-1 of Gladiator
+			properties
+				loop 0
+				x 74
+				y 255
+			end
+		end
+		object Gladiator10072-2 of Gladiator
+			properties
+				loop 0
+				x 541
+				y 221
+			end
+		end
+		object Gladiator10072-3 of Gladiator
+			properties
+				loop 0
+				x 490
+				y 318
+			end
+		end
+	end
+end
+room 10073
+	properties
+		picture 3071
+		north 10072
+        flags 248
+		south 10074
+	end
+	atpinfo
+		1750 557 179 
+		1750 342 182 
+		7909 394 183 
+		7901 555 186 
+		1830 205 220 
+		1831 354 232 
+		1751 265 242 
+		7901 314 249 
+		34548 203 250 
+		1850 601 252 
+		1750 146 260 
+		1782 556 263 
+		7909 511 267 
+		1780 169 283 
+		34519 41 291 
+		34548 206 302 
+		7909 251 302 
+		1780 56 306 
+		34548 132 312 
+		34538 168 314 
+		1770 154 316 
+		34618 622 317 -21
+		1850 23 318 
+		1770 566 318 
+		1772 148 321 
+		34539 137 324 
+		7901 619 336 
+		7906 173 339 
+		1780 162 354 
+	end
+	objects
+		object RandomCastleNPC10073-0 of RandomCastleNPC
+			properties
+				loop 0
+				x 237
+				y 262
+			end
+		end
+		object RandomCastleNPC10073-1 of RandomCastleNPC
+			properties
+				loop 0
+				x 320
+				y 250
+			end
+		end
+		object RandomNewDead10073-0 of RandomNewDead
+			properties
+				loop 0
+				x 537
+				y 244
+			end
+		end
+		object RandomNewDead10073-1 of RandomNewDead
+			properties
+				loop 0
+				x 550
+				y 317
+			end
+		end
+	end
+end
+room 10074
+	properties
+		picture 3071
+		north 10073
+		west 10075
+        flags 248
+	end
+	atpinfo
+		1830 559 139 
+		7906 587 159 
+		1750 604 176 
+		1831 619 212 
+		7906 615 214 
+		34519 697 239 
+		34640 671 265 
+		1872 -78 265 
+		34640 430 271 
+		1872 167 271 
+		1850 663 278 
+		7906 631 295 
+		7902 179 316 
+		7902 618 317 
+		7902 -28 317 
+		7902 412 319 
+		1770 154 321 
+		34539 334 323 
+		1782 477 324 
+		1781 120 324 
+		1783 388 324 
+		1780 171 354 
+	end
+	objects
+		object Gladiator10074-0 of Gladiator
+			properties
+				loop 0
+				x 489
+				y 173
+			end
+		end
+		object Gladiator10074-1 of Gladiator
+			properties
+				loop 0
+				x 534
+				y 232
+			end
+		end
+		object Gladiator10074-2 of Gladiator
+			properties
+				loop 0
+				x 583
+				y 274
+			end
+		end
+		object RandomNewDead10074-0 of RandomNewDead
+			properties
+				loop 0
+				x 178
+				y 208
+			end
+		end
+		object RandomCastleNPC10074-0 of RandomCastleNPC
+			properties
+				loop 0
+				x 230
+				y 273
+			end
+		end
+	end
+end
+room 10075
+	properties
+		picture 3071
+		east 10074
+        flags 248
+	end
+	atpinfo
+		1752 538 123 
+		1750 388 130 
+		7906 574 153 15
+		7906 483 157 15
+		1751 289 162 
+		7906 360 164 
+		1871 471 227 
+		34520 151 237 
+		1870 97 255 
+		1751 38 260 
+		34518 101 287 
+		7906 241 321 
+		7900 89 322 
+		1850 184 324 
+		34618 22 324 
+		7907 356 324 
+		1876 541 326 
+		7907 467 328 
+		7907 613 330 
+		1875 434 333 
+		7907 578 335 
+		1782 611 335 
+		34550 327 336 
+		1782 108 339 
+		1783 381 343 
+		34640 250 358 
+	end
+	objects
+		object RandomCastleNPC10075-0 of RandomCastleNPC
+			properties
+				loop 0
+				x 464
+				y 165
+			end
+		end
+		object Gladiator10075-0 of Gladiator
+			properties
+				loop 0
+				x 374
+				y 174
+			end
+		end
+		object Crusader10075-0 of Crusader
+			properties
+				loop 0
+				x 276
+				y 196
+			end
+		end
+		object button10075-0 of Button
+			properties
+				loop 0
+				x 346
+				y 236
+			end
+			actions
+				vBeActivated unlock dungeonBackDoor10100-0
+				vBeActivated open dungeonBackDoor10100-0
+			end
+		end
+		object Crusader10075-1 of Crusader
+			properties
+				loop 0
+				x 529
+				y 302
+			end
+		end
+		object RandomNewDead10075-0 of RandomNewDead
+			properties
+				loop 0
+				x 413
+				y 308
+			end
+		end
+	end
+end
+room 10078
+	properties
+		picture 3071
+		north 10079
+        flags 248
+	end
+	atpinfo
+		1750 149 235 
+		1750 435 241 
+		1831 388 241 
+		1830 205 243 
+		7906 194 248 
+		34548 421 256 
+		7907 411 258 
+		34519 95 266 
+		1750 506 266 
+		1780 455 277 
+		7907 86 286 
+		1751 20 287 
+		1850 542 304 
+		34548 510 310 
+		34618 622 317 -21
+		1850 23 318 
+		7906 48 318 
+		7906 438 319 38
+		7906 496 320 
+		34538 389 323 
+		34539 435 324 
+		7906 371 324 77
+		1771 526 325 
+		1770 574 326 
+		7906 105 328 76
+		1780 536 346 
+	end
+	objects
+		object dungeonBackUp10078-0 of DungeonBackUp
+			properties
+				loop 0
+				x 132
+				y 269
+				linkTo dungeonBackDoor10039-0
+			end
+		end
+		object sign10078-0 of Sign
+			properties
+				loop 0
+				x 65
+				y 297
+			end
+			base described
+				text "Further down you head.\nYou hear sounds of swords clanging against armor in the distance...\n"
+			end
+		end
+	end
+end
+room 10079
+	properties
+		picture 3071
+		north 10089
+		south 10078
+        flags 248
+	end
+	atpinfo
+		34518 520 97 
+		7900 573 100 
+		1772 216 113 -87
+		34520 680 114 
+		7907 544 143 
+		1782 556 143 
+		1780 133 153 
+		1751 61 175 
+		1783 66 181 
+		7900 40 188 
+		34518 612 189 
+		7900 664 192 
+		34518 29 212 
+		7901 10 216 
+		7900 714 292 
+		1850 629 314 
+		7900 -71 317 
+		1770 603 320 
+		34549 597 320 
+		1850 410 324 
+		7907 586 328 
+		7907 19 332 
+		1783 43 333 
+	end
+	objects
+		object Gladiator10079-0 of Gladiator
+			properties
+				loop 0
+				x 99
+				y 194
+			end
+		end
+		object Gladiator10079-1 of Gladiator
+			properties
+				loop 0
+				x 528
+				y 224
+			end
+		end
+		object Gladiator10079-2 of Gladiator
+			properties
+				loop 0
+				x 477
+				y 304
+			end
+		end
+	end
+end
+room 10089
+	properties
+		picture 3071
+		north 10090
+		east 10093
+		south 10079
+		west 10088
+        flags 248
+	end
+	atpinfo
+		34520 204 226 
+		1751 509 226 
+		7900 536 231 
+		7900 210 231 
+		34518 608 233 
+		1751 42 244 
+		7906 100 250 
+		7906 28 250 
+		34618 -13 326 
+		1770 613 327 
+		7906 3 594 
+	end
+	objects
+		object Gladiator10089-0 of Gladiator
+			properties
+				loop 0
+				x 134
+				y 237
+			end
+		end
+		object Gladiator10089-1 of Gladiator
+			properties
+				loop 0
+				x 254
+				y 244
+			end
+		end
+		object Gladiator10089-2 of Gladiator
+			properties
+				loop 0
+				x 543
+				y 247
+			end
+		end
+	end
+end
+room 10088
+	properties
+		picture 3071
+		east 10089
+        flags 248
+		west 10085
+	end
+	atpinfo
+		1750 242 104 
+		1751 353 106 
+		1752 523 108 
+		1752 125 113 
+		7900 491 114 
+		7900 333 117 
+		7900 89 119 
+		7907 549 174 
+		7907 371 178 
+		7907 636 178 
+		7907 477 180 
+		7904 283 191 
+		7907 107 196 
+		1751 432 199 
+		7907 658 199 
+		1781 65 200 
+		34548 520 201 
+		7907 24 204 
+		1871 -127 205 
+		34550 357 208 
+		34551 374 208 
+		34549 373 209 
+		1752 12 210 
+		7907 133 211 
+		1782 433 212 
+		7907 384 214 
+		34638 119 215 
+		1752 645 217 
+		1782 35 219 
+		7907 35 220 
+		7909 313 223 24
+		34551 498 224 
+		7907 604 225 
+		7907 67 225 
+		7907 494 230 
+		34550 39 242 
+		34548 20 258 
+		1781 -1 262 
+		34640 580 272 
+		34641 328 282 
+		34641 117 282 
+		34551 2 285 
+		7904 57 298 
+		7907 59 317 
+		7902 235 318 
+		1770 164 321 
+		7902 504 321 
+		1771 48 328 
+		34548 -3 339 
+		7900 -50 493 
+	end
+	objects
+		object Gladiator10088-0 of Gladiator
+			properties
+				loop 0
+				x 502
+				y 208
+			end
+		end
+		object Nobleman10088-0 of Nobleman
+			properties
+				loop 0
+				x 365
+				y 220
+			end
+		end
+		object RandomCastleNPC10088-0 of RandomCastleNPC
+			properties
+				loop 0
+				x 111
+				y 269
+			end
+		end
+		object RandomCastleNPC10088-1 of RandomCastleNPC
+			properties
+				loop 0
+				x 230
+				y 225
+			end
+		end
+		object RandomCastleNPC10088-2 of RandomCastleNPC
+			properties
+				loop 0
+				x 88
+				y 227
+			end
+		end
+		object Nobleman10088-1 of Nobleman
+			properties
+				loop 0
+				x 497
+				y 229
+			end
+		end
+	end
+end
+room 10085
+	properties
+		picture 3071
+		 flags 248
+		north 10086
+		east 10088
+		west 10084
+	end
+	atpinfo
+		34548 486 175 
+		1751 476 182 
+		7906 415 186 
+		1783 234 205 
+		7909 260 206 
+		1750 515 210 
+		1750 18 212 
+		1750 231 217 
+		1877 495 218 
+		1751 91 218 
+		1750 171 222 
+		1782 40 225 
+		1751 589 227 
+		7906 205 229 
+		7906 485 232 
+		7906 584 235 
+		34540 393 237 
+		1772 60 302 
+		1771 505 303 
+		1771 263 303 
+		34549 336 319 
+		1771 39 321 
+		1877 193 322 
+		1781 541 324 
+		34550 363 326 
+		34643 132 326 
+		1876 282 327 
+		7902 307 329 
+		1875 31 330 
+		7902 101 332 
+		34551 627 336 
+		1782 408 337 
+		7901 80 338 100
+		7902 579 339 
+		1780 213 348 
+		1783 446 351 
+		1780 473 374 
+		34548 77 416 
+	end
+end
+room 10086
+	properties
+		picture 3071
+		south 10085
+        flags 248
+	end
+	atpinfo
+		1750 557 179 
+		1750 342 182 
+		7909 394 183 
+		7901 555 186 
+		1830 205 220 
+		1754 479 228 1
+		1831 354 232 
+		1751 265 242 
+		7901 449 228 
+		34548 203 250 
+		1850 601 252 
+		1750 146 260 
+		1782 556 263 
+		7909 511 267 
+		1780 169 283 
+		34519 41 291 
+		34548 206 302 
+		7909 212 320 
+		1780 56 306 
+		34548 132 312 
+		34538 168 314 
+		1770 154 316 
+		34618 622 317 -21
+		1850 23 318 
+		1770 566 318 
+		1772 148 321 
+		34539 137 324 
+		7901 619 336 
+		7906 182 296 
+		1780 162 354 
+	end
+	objects
+		object dungeonBackDoor10086-0 of DungeonBackDoor
+			properties
+				loop 0
+				x 424
+				y 230
+				enchantResistance 100
+				linkTo dungeonBackUp10087-0
+			end
+			base lockable
+				isLocked 1
+			end
+		end
+		object Nobleman10086-0 of Nobleman
+			properties
+				loop 0
+				x 505
+				y 235
+			end
+		end
+		object Gladiator10086-0 of Gladiator
+			properties
+				loop 0
+				x 319
+				y 245
+			end
+		end
+		object RandomCastleNPC10086-0 of RandomCastleNPC
+			properties
+				loop 0
+				x 236
+				y 259
+			end
+		end
+		object Crusader10086-0 of Crusader
+			properties
+				loop 0
+				x 158
+				y 316
+			end
+		end
+	end
+end
+room 10087
+	properties
+		picture 3071
+		 flags 248
+	end
+	atpinfo
+		1754 295 140 
+		1751 346 148 
+		34518 467 156 
+		7906 326 156 
+		1751 154 161 
+		34518 534 177 
+		32782 110 160 
+		14 543 159 
+		34518 561 234 
+		1751 79 248 
+		7906 61 327 
+		34618 565 288 
+		1780 118 289 
+		34518 12 290 
+		1780 71 300 
+		1850 606 316 -21
+		1780 557 316 
+		34538 392 319 
+		32782 716 305 
+		34539 431 323 
+		1771 225 328 
+		1780 366 329 
+		14 659 331 
+		1780 41 353 
+		40672 600 380 
+		7906 36 404 66
+	end
+	objects
+		object CastleBoss210087-0 of CastleBoss2
+			properties
+				loop 2
+				x 455
+				y 306
+			end
+		end
+		object key10087-0 of SancChestKey4
+			properties
+				x -200
+				y -200
+			end
+			base carryable
+				owner CastleBoss210087-0
+			end
+		end
+		object dungeonBackUp10087-0 of DungeonBackUp
+			properties
+				loop 0
+				x 167
+				y 250
+				linkTo dungeonBackDoor10086-0
+			end
+		end
+	end
+end
+room 10084
+	properties
+		picture 3071
+		 flags 248
+		east 10085
+		west 10083
+	end
+	atpinfo
+		1754 496 170 
+		34618 40 188 
+		34618 435 194 
+		34518 205 200 
+		1875 503 203 
+		1750 111 209 
+		1850 309 211 
+		34518 595 215 
+		1783 97 217 
+		1780 141 220 
+		1780 450 220 
+		1875 293 222 
+		1782 480 223 
+		34550 57 224 
+		34644 239 224 
+		1876 603 225 
+		7900 130 226 
+		7901 571 228 
+		34548 384 229 
+		7906 309 232 
+		7906 426 233 
+		1772 502 239 
+		1874 -11 279 
+		1872 436 280 
+		1874 626 284 
+		1874 153 286 
+		1781 33 300 
+		1771 165 305 
+		1770 344 305 
+		1850 265 317 
+		34538 383 319 
+		7902 144 319 
+		34539 518 323 
+		34618 -13 325 
+		7907 309 331 
+		1782 63 337 
+		1782 353 356 
+		1780 386 358 
+		34551 335 363 
+	end
+	objects
+		object Crusader10084-0 of Crusader
+			properties
+				loop 0
+				x 80
+				y 233
+			end
+		end
+		object Crusader10084-1 of Crusader
+			properties
+				loop 0
+				x 352
+				y 243
+			end
+		end
+		object Nobleman10084-0 of Nobleman
+			properties
+				loop 0
+				x 265
+				y 295
+			end
+		end
+		object Nobleman10084-1 of Nobleman
+			properties
+				loop 0
+				x 510
+				y 234
+			end
+		end
+	end
+end
+room 10083
+	properties
+		picture 3071
+		east 10084
+		west 10082
+        flags 248
+	end
+	atpinfo
+		1751 357 204 
+		7906 11 210 
+		1752 152 211 
+		7906 358 212 
+		7906 131 215 
+		1830 310 218 
+		1752 631 218 
+		1877 398 219 
+		7906 601 224 
+		1831 281 226 
+		1876 237 229 
+		7906 279 232 
+		7906 210 235 
+		1751 487 241 
+		7906 536 242 
+		7906 420 242 
+		7906 484 248 
+		1771 640 293 
+		1780 9 303 
+		34598 69 319 
+		1876 222 321 
+		1782 25 325 
+		1875 290 326 
+		1781 102 330 
+		1781 421 330 
+		7902 80 331 
+		1770 129 332 
+		7902 352 336 
+		1782 240 338 
+		1771 269 341 20
+		34539 26 344 20
+		1782 373 354 
+		1780 184 368 
+		1780 156 370 
+		1780 342 386 
+	end
+	objects
+		object Nobleman10083-0 of Nobleman
+			properties
+				loop 0
+				x 380
+				y 233
+			end
+		end
+		object Gladiator10083-0 of Gladiator
+			properties
+				loop 0
+				x 174
+				y 222
+			end
+		end
+		object Gladiator10083-1 of Gladiator
+			properties
+				loop 0
+				x 567
+				y 249
+			end
+		end
+	end
+end
+room 10082
+	properties
+		picture 3071
+		north 10081
+		east 10083
+        flags 248
+	end
+	atpinfo
+		34618 625 208 -21
+		1750 149 235 
+		1750 435 241 
+		1831 369 242 
+		1830 205 243 
+		7906 194 248 
+		34519 47 250 
+		1850 597 255 
+		34548 421 256 
+		1780 122 258 
+		7907 411 258 
+		1750 506 266 
+		7906 577 272 
+		1780 455 277 
+		7907 86 286 
+		1751 20 287 
+		34548 88 311 
+		7906 455 313 38
+		1850 23 318 
+		7906 48 318 
+		34538 389 323 
+		34539 435 324 
+		7906 371 324 77
+		1771 526 325 
+		1770 574 326 
+		7906 105 328 76
+	end
+	objects
+		object Nobleman10082-0 of Nobleman
+			properties
+				loop 0
+				x 188
+				y 252
+			end
+		end
+		object Nobleman10082-1 of Nobleman
+			properties
+				loop 0
+				x 354
+				y 256
+			end
+		end
+		object Crusader10082-0 of Crusader
+			properties
+				loop 0
+				x 547
+				y 229
+			end
+		end
+	end
+end
+room 10081
+	properties
+		picture 3071
+		south 10082
+        flags 248
+	end
+	atpinfo
+		1750 543 149 
+		7906 505 191 38
+		7906 581 196 38
+		1754 224 224 
+		1754 531 227 
+		7906 275 227 
+		7907 607 229 
+		1750 149 235 
+		7907 422 235 
+		1750 376 236 
+		1831 369 242 
+		1780 382 243 
+		1830 205 243 
+		34519 47 250 
+		34548 424 255 
+		1780 139 273 
+		7907 86 286 
+		1751 20 287 
+		34618 596 299 -21
+		7907 584 303 
+		34538 129 309 
+		1850 23 318 
+		7906 47 319 
+		7906 505 321 77
+		34539 435 324 
+		7903 603 326 
+		7906 166 343 76
+		34548 87 373 
+	end
+	objects
+		object dungeonBackDoor10081-0 of DungeonBackDoor
+			properties
+				loop 0
+				x 284
+				y 232
+				enchantResistance 100
+				linkTo dungeonBackUp10080-0
+			end
+			base lockable
+				isLocked 1
+			end
+		end
+		object Nobleman10081-0 of Nobleman
+			properties
+				loop 0
+				x 448
+				y 243
+			end
+		end
+		object Nobleman10081-1 of Nobleman
+			properties
+				loop 0
+				x 510
+				y 245
+			end
+		end
+		object RandomCastleNPC10081-0 of RandomCastleNPC
+			properties
+				loop 0
+				x 107
+				y 299
+			end
+		end
+	end
+end
+room 10080
+	properties
+		picture 3071
+		 flags 248
+	end
+	atpinfo
+		7907 439 84 
+		7902 237 84 
+		1850 514 128 
+		34550 501 168 
+		7907 950 277 
+		1850 549 207 
+		34639 762 208 
+		1870 593 210 
+		1783 501 215 
+		1772 467 220 
+		1781 99 223 
+		1752 22 224 
+		7900 -22 235 
+		7907 928 319 
+		7900 598 231 
+		7907 946 168 
+		1876 123 239 
+		34551 56 240 
+		1782 78 249 
+		7907 1022 175 
+		1752 637 273 
+		34540 52 278 
+		1873 35 283 
+		1873 542 286 
+		7907 961 239 
+		1783 605 290 
+		7900 655 312 
+		1770 260 317 
+		34644 555 322 
+		1771 380 323 
+		7902 8 329 
+		1782 155 324 
+		7902 556 330 
+		1875 472 329 
+		7907 588 329 
+		40672 633 330 
+		7907 692 331 
+		1780 618 368 
+	end
+	objects
+		object CastleBoss110080-0 of CastleBoss1
+			properties
+				loop 2
+				x 386
+				y 300
+			end
+		end
+		object key10080-0 of SancChestKey3
+			properties
+				x -200
+				y -200
+			end
+			base carryable
+				owner CastleBoss110080-0
+			end
+		end
+		object dungeonBackUp10080-0 of DungeonBackUp
+			properties
+				loop 0
+				x 135
+				y 240
+				linkTo dungeonBackDoor10081-0
+			end
+		end
+	end
+end
+room 10090
+	properties
+		picture 3071
+		north 10091
+		south 10089
+        flags 248
+	end
+	atpinfo
+		1750 557 179 
+		1750 342 182 
+		7909 394 183 
+		7901 555 186 
+		1830 205 220 
+		1831 354 232 
+		1751 265 242 
+		7901 314 249 
+		34548 203 250 
+		1850 601 252 
+		1750 146 260 
+		1782 556 263 
+		7909 511 267 
+		1780 169 283 
+		34519 41 291 
+		34548 206 302 
+		7909 251 302 
+		1780 56 306 
+		34548 132 312 
+		34538 168 314 
+		1770 154 316 
+		34618 622 317 -21
+		1850 23 318 
+		1770 566 318 
+		1772 148 321 
+		34539 137 324 
+		7901 619 336 
+		7906 173 339 
+		1780 162 354 
+	end
+end
+room 10091
+	properties
+		picture 3071
+        flags 248
+		south 10090
+	end
+	atpinfo
+		1754 287 224 
+		7906 287 224 
+		1750 149 235 
+		1750 435 241 
+		1831 369 242 
+		1830 205 243 
+		34519 47 250 
+		34548 421 256 
+		1750 506 266 
+		1780 455 277 
+		1751 20 287 
+		1850 542 304 
+		34548 510 310 
+		7906 165 316 76
+		34618 622 317 -21
+		1850 23 318 
+		7906 43 271 
+		7906 624 326 
+		34538 389 323 
+		34539 435 324 
+		1771 526 325 
+		1770 574 326 
+		7906 540 399 77
+		1780 536 346 
+		14 398 250 
+		7907 381 250 
+	end
+	objects
+		object dungeonBackDoor10091-0 of EnidBackDoor
+			properties
+				loop 2
+				x 287
+				y 227
+				linkTo dungeonBackUp10092-0
+			end
+			base lockable
+				isLocked 1
+				lockValue 5775
+			end
+		end
+		object Nobleman10091-0 of Nobleman
+			properties
+				loop 0
+				x 193
+				y 251
+			end
+		end
+		object Nobleman10091-1 of Nobleman
+			properties
+				loop 0
+				x 361
+				y 256
+			end
+		end
+		object Nobleman10091-2 of Nobleman
+			properties
+				loop 0
+				x 121
+				y 273
+			end
+		end
+		object Nobleman10091-3 of Nobleman
+			properties
+				loop 0
+				x 66
+				y 319
+			end
+		end
+		object key10091-0 of SancDoorKey
+			properties
+				x -200
+				y -200
+			end
+			base carryable
+				owner Nobleman10091-3
+			end
+		end
+		object sign10091-0 of Sign
+			properties
+				loop 0
+				x 184
+				y 249
+			end
+			base described
+				text "Sanctuary Store Room.\nKept under lock and key by the Nobleman.\n"
+			end
+		end
+		object Nobleman10091-4 of Nobleman
+			properties
+				loop 0
+				x 425
+				y 307
+			end
+		end
+	end
+end
+room 10092
+	properties
+		roomName "Store Room"
+		picture 3071
+        flags 248
+	end
+	atpinfo
+		34618 411 157 -21
+		1850 327 157 -21
+		1831 475 178 
+		1830 170 191 
+		1751 218 194 
+		1750 541 202 
+		7906 323 197 
+		7901 174 197 
+		7906 444 197 
+		1780 158 214 
+		1750 117 218 
+		1750 562 242 
+		34519 47 250 
+		1780 112 270 
+		1751 20 287 
+		1850 574 303 
+		1770 154 316 
+		34618 622 317 -21
+		1850 23 318 
+		1771 520 324 
+		34538 392 325 
+		7906 603 332 
+		7904 875 240 
+		1770 579 330 
+		34539 437 333 
+		34548 574 337 
+	end
+	objects
+		object chest10092-0 of Chest
+			properties
+				loop 0
+				x 432
+				y 211
+				enchantResistance 100
+			end
+			base lockable
+				isLocked 1
+				unlockValue 4555
+			end
+		end
+		object chest10092-1 of Chest
+			properties
+				loop 0
+				x 238
+				y 211
+				enchantResistance 100
+			end
+			base lockable
+				isLocked 1
+				unlockValue 4556
+			end
+		end
+		object chest10092-2 of Chest
+			properties
+				loop 0
+				x 482
+				y 257
+				enchantResistance 100
+			end
+			base lockable
+				isLocked 1
+				unlockValue 4554
+			end
+		end
+		object chest10092-3 of Chest
+			properties
+				loop 0
+				x 201
+				y 257
+				enchantResistance 100
+			end
+			base lockable
+				isLocked 1
+				unlockValue 4557
+			end
+		end
+		object RaidBossTable10092-0 of RaidBossTable
+			properties
+				x -200
+				y -200
+				loop 0
+			end
+			base carryable
+				owner	chest10092-0
+			end
+		end
+      	object RaidBossTable10092-1 of RaidBossTable
+			properties
+				x -200
+				y -200
+				loop 0
+			end
+			base carryable
+				owner	chest10092-3
+			end
+		end
+		object RaidBossTable10092-0 of RaidBossTable
+			properties
+				x -200
+				y -200
+				loop 0
+			end
+			base carryable
+				owner	chest10092-2
+			end
+		end
+      	object RaidBossTable10092-0 of RaidBossTable
+			properties
+				x -200
+				y -200
+				loop 0
+			end
+			base carryable
+				owner	chest10092-1
+			end
+		end
+		object dungeonBackUp10092-0 of DungeonBackUp
+			properties
+				loop 0
+				x 107
+				y 287
+				linkTo dungeonBackDoor10091-0
+			end
+		end
+	end
+end
+room 10093
+	properties
+		picture 3071
+		 flags 248
+		east 10094
+		west 10089
+	end
+	atpinfo
+		1752 138 185 
+		1751 267 196 
+		1782 138 201 
+		1750 632 205 
+		34519 430 207 
+		1876 207 209 
+		7906 168 212 
+		7906 439 213 
+		7906 229 214 
+		1877 477 215 
+		1750 338 219 
+		7909 382 220 
+		1750 58 221 
+		7906 307 223 
+		34518 547 225 
+		7901 43 225 
+		34642 90 280 
+		34642 15 280 
+		1872 525 281 
+		1873 274 285 
+		7902 322 325 
+		7902 542 328 
+		7902 100 329 
+		1872 137 341 
+		7900 574 354 125
+		1780 371 394 
+	end
+	objects
+		object Gladiator10093-0 of Gladiator
+			properties
+				loop 0
+				x 149
+				y 219
+			end
+		end
+		object Gladiator10093-1 of Gladiator
+			properties
+				loop 0
+				x 306
+				y 226
+			end
+		end
+		object RandomCastleNPC10093-0 of RandomCastleNPC
+			properties
+				loop 0
+				x 429
+				y 222
+			end
+		end
+		object RandomNewDead10093-0 of RandomNewDead
+			properties
+				loop 0
+				x 570
+				y 233
+			end
+		end
+	end
+end
+room 10094
+	properties
+		picture 3071
+		north 10095
+        flags 248
+		east 10097
+		west 10093
+	end
+	atpinfo
+		34548 486 175 
+		1751 476 182 
+		7906 415 186 
+		1783 234 205 
+		7909 260 206 
+		1750 515 210 
+		1750 18 212 
+		1877 495 218 
+		1751 91 218 
+		1750 171 222 
+		1782 40 225 
+		1751 589 227 
+		7906 205 229 
+		7906 485 232 
+		7906 584 235 
+		34540 393 237 
+		1772 60 302 
+		1771 505 303 
+		1771 263 303 
+		34549 336 319 
+		1771 39 321 
+		1877 193 322 
+		1781 541 324 
+		34550 363 326 
+		34643 132 326 
+		1876 282 327 
+		7902 307 329 
+		1875 31 330 
+		7902 101 332 
+		34551 627 336 
+		1782 408 337 
+		7901 80 338 100
+		7902 579 339 
+		1780 213 348 
+		1783 446 351 
+		1780 473 374 
+		34548 77 416 
+	end
+	objects
+		object Nobleman10094-0 of Nobleman
+			properties
+				loop 0
+				x 230
+				y 214
+			end
+		end
+		object Nobleman10094-1 of Nobleman
+			properties
+				loop 0
+				x 90
+				y 233
+			end
+		end
+		object Nobleman10094-2 of Nobleman
+			properties
+				loop 0
+				x 435
+				y 213
+			end
+		end
+		object Gladiator10094-0 of Gladiator
+			properties
+				loop 0
+				x 558
+				y 247
+			end
+		end
+	end
+end
+room 10095
+	properties
+		picture 3071
+		south 10094
+        flags 248
+	end
+	atpinfo
+		1750 557 179 
+		1750 342 182 
+		7909 394 183 
+		7901 555 186 
+		1830 205 220 
+		1754 415 220 -9
+		1831 354 232 
+		1751 265 242 
+		7901 462 228 
+		34548 203 250 
+		1850 601 252 
+		1750 146 260 
+		1782 556 263 
+		7909 224 252 
+		1780 169 283 
+		34519 41 291 
+		34548 206 302 
+		7909 205 319 
+		1780 56 306 
+		34548 132 312 
+		34538 168 314 
+		1770 154 316 
+		34618 622 317 -21
+		1850 23 318 
+		1770 566 318 
+		1772 148 321 
+		34539 137 324 
+		7901 619 336 
+		7906 61 328 
+		1780 162 354 
+	end
+	objects
+		object dungeonBackDoor10095-0 of DungeonBackDoor
+			properties
+				loop 0
+				x 426
+				y 232
+				enchantResistance 100
+				linkTo dungeonBackUp10096-0
+			end
+			base lockable
+				isLocked 1
+			end
+		end
+		object Nobleman10095-0 of Nobleman
+			properties
+				loop 0
+				x 220
+				y 259
+			end
+		end
+		object Nobleman10095-1 of Nobleman
+			properties
+				loop 0
+				x 302
+				y 259
+			end
+		end
+		object RandomCastleNPC10095-0 of RandomCastleNPC
+			properties
+				loop 0
+				x 481
+				y 249
+			end
+		end
+	end
+end
+room 10096
+	properties
+		picture 3071
+		 flags 248
+	end
+	atpinfo
+		1754 224 225 
+		7906 162 233 
+		34518 561 234 
+		1751 338 242 
+		1751 79 248 
+		7906 332 243 
+		34518 432 254 
+		1751 165 264 
+		34518 506 266 
+		14 533 261 
+		34618 565 288 
+		1780 118 289 
+		34518 12 290 
+		32782 122 246 
+		1780 71 300 
+		1850 606 316 -21
+		1780 557 316 
+		34538 392 319 
+		32782 5 321 
+		34539 431 323 
+		1771 225 328 
+		1780 366 329 
+		1780 41 353 
+		40672 590 329 
+		7906 36 404 66
+	end
+	objects
+		object CastleBoss310096-0 of CastleBoss3
+			properties
+				loop 2
+				x 440
+				y 299
+			end
+		end
+		object key10096-0 of SancChestKey2
+			properties
+				x -200
+				y -200
+			end
+			base carryable
+				owner CastleBoss310096-0
+			end
+		end
+		object dungeonBackUp10096-0 of DungeonBackUp
+			properties
+				loop 0
+				x 193
+				y 268
+				linkTo dungeonBackDoor10095-0
+			end
+		end
+	end
+end
+room 10097
+	properties
+		picture 3071
+		 flags 248
+		east 10098
+		west 10094
+	end
+	atpinfo
+		1754 608 92 
+		1754 329 214 
+		7900 450 221 
+		7906 267 221 
+		1752 83 225 
+		1751 577 226 
+		7900 75 233 
+		7901 548 233 
+		1874 58 274 
+		1872 247 280 
+		34641 517 286 
+		7907 271 287 277
+		7907 54 317 
+		7902 516 322 
+		7902 246 330 
+		1771 505 330 
+		1770 358 331 
+	end
+	objects
+		object Gladiator10097-0 of Gladiator
+			properties
+				loop 0
+				x 213
+				y 227
+			end
+		end
+		object RandomCastleNPC10097-0 of RandomCastleNPC
+			properties
+				loop 0
+				x 298
+				y 228
+			end
+		end
+		object RandomCastleNPC10097-1 of RandomCastleNPC
+			properties
+				loop 0
+				x 379
+				y 230
+			end
+		end
+		object Nobleman10097-0 of Nobleman
+			properties
+				loop 0
+				x 466
+				y 230
+			end
+		end
+	end
+end
+room 10098
+	properties
+		picture 3071
+		 flags 248
+		east 10099
+		west 10097
+	end
+	atpinfo
+		1752 571 218 
+		34520 167 223 
+		7901 549 225 
+		34519 325 231 
+		34518 433 240 
+		7901 319 242 3
+		7909 387 249 
+		7906 472 252 
+		34618 34 316 
+		7907 58 318 
+		7900 114 331 100
+	end
+	objects
+		object Gladiator10098-0 of Gladiator
+			properties
+				loop 0
+				x 133
+				y 235
+			end
+		end
+		object Gladiator10098-1 of Gladiator
+			properties
+				loop 0
+				x 269
+				y 243
+			end
+		end
+		object Nobleman10098-0 of Nobleman
+			properties
+				loop 0
+				x 494
+				y 229
+			end
+		end
+	end
+end
+room 10099
+	properties
+		picture 3071
+		north 10100
+		west 10098
+        flags 248
+	end
+	atpinfo
+		1830 354 91 
+		34598 336 112 
+		7907 345 115 
+		34520 476 140 
+		7901 395 146 
+		1751 576 157 
+		34518 566 189 
+		7908 518 195 
+		7901 543 197 48
+		7907 135 207 
+		1752 33 225 
+		7907 139 226 
+		7906 76 229 
+		7906 44 232 
+		1750 607 235 
+		7906 582 235 19
+		1831 601 250 
+		7909 507 261 
+		34599 529 279 
+		7907 531 284 
+		1770 432 293 
+		7906 638 317 
+		1771 550 320 
+		1850 658 333 
+	end
+	objects
+		object Nobleman10099-0 of Nobleman
+			properties
+				loop 0
+				x 434
+				y 212
+			end
+		end
+		object Nobleman10099-1 of Nobleman
+			properties
+				loop 0
+				x 565
+				y 307
+			end
+		end
+		object RandomCastleNPC10099-0 of RandomCastleNPC
+			properties
+				loop 0
+				x 98
+				y 236
+			end
+		end
+	end
+end
+room 10101
+	properties
+		picture 3071
+		 flags 248
+	end
+	atpinfo
+		1754 154 225 
+		7906 162 233 
+		34518 561 234 
+		1751 338 242 
+		1751 79 248 
+		7906 317 248 
+		32782 100 250 
+		34518 432 254 
+		14 532 257 
+		1751 165 264 
+		34518 506 266 
+		32782 5 280 
+		34618 565 288 
+		1780 118 289 
+		34518 12 290 
+		1780 71 300 
+		1850 606 316 -21
+		1780 557 316 
+		34538 392 319 
+		34539 431 323 
+		1771 225 328 
+		1780 366 329 
+		40672 558 334 
+		1780 41 353 
+		7906 36 404 66
+	end
+	objects
+		object CastleBoss410101-0 of CastleBoss4
+			properties
+				loop 2
+				x 455
+				y 310
+			end
+		end
+		object key10101-0 of SancChestKey1
+			properties
+				x -200
+				y -200
+			end
+			base carryable
+				owner CastleBoss410101-0
+			end
+		end
+		object dungeonBackUp10101-0 of DungeonBackUp
+			properties
+				loop 0
+				x 200
+				y 267
+				linkTo dungeonBackDoor10100-0
+			end
+		end
+	end
+end
+room 10100
+	properties
+		picture 3071
+		south 10099
+        flags 248
+	end
+	atpinfo
+		1750 557 179 
+		1750 342 182 
+		7909 394 183 
+		7901 555 186 
+		1754 415 205 -17
+		1830 205 220 
+		7901 437 221 
+		1831 354 232 
+		1751 265 242 
+		34548 203 250 
+		1850 601 252 
+		1750 146 260 
+		1782 556 263 
+		1780 169 283 
+		34519 41 291 
+		34548 206 302 
+		1780 56 306 
+		34548 132 312 
+		34538 168 314 
+		1770 154 316 
+		34618 622 317 -21
+		1850 23 318 
+		1770 566 318 
+		7909 84 320 
+		1772 148 321 
+		7909 229 324 
+		34539 137 324 
+		7901 619 336 
+		7906 173 339 
+		1780 162 354 
+	end
+	objects
+		object dungeonBackDoor10100-0 of DungeonBackDoor
+			properties
+				loop 0
+				x 428
+				y 230
+				enchantResistance 100
+				linkTo dungeonBackUp10101-0
+			end
+			base lockable
+				isLocked 1
+			end
+		end
+		object Nobleman10100-0 of Nobleman
+			properties
+				loop 0
+				x 506
+				y 234
+			end
+		end
+		object RandomCastleNPC10100-0 of RandomCastleNPC
+			properties
+				loop 0
+				x 253
+				y 258
+			end
+		end
+		object Crusader10100-0 of Crusader
+			properties
+				loop 0
+				x 161
+				y 311
+			end
+		end
+	end
+end

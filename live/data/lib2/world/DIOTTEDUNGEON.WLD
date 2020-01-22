@@ -1,0 +1,93 @@
+# Max player level = 255
+# Dungeon reset time = 2000
+# Dungeon start room = 95000
+# Dungeon last room = 95000
+# Level 0 information:
+room 95000
+	properties
+		template 31301
+		east  95001
+		west 94999
+		flags	0
+	end
+	objects
+		object Sandor-95000-0 of Sandor
+			properties
+				x		320
+				y		240
+				loop	2
+			end
+			base character
+			end
+		end
+		object DungeonBackUp-95000-2 of DungeonBackUp
+			properties
+				x	369
+				y	231
+				loop	2
+				linkTo	movingRock9050-0
+			end
+			base described
+				text "The Entrance to Acetos Caverns"
+			end
+		end
+	end
+end
+room 95001
+   properties
+      picture	3071
+      east	95002
+	  west 95000
+	
+   end
+   atpinfo
+      1752  97 224
+      1751  348 249
+      34520  545 228
+      1750  238 229
+      1750  57 259
+      34640  263 284
+      1873  501 286
+      1874  56 282
+      7907  333 318
+      7902  516 329
+      7902  133 331
+      7908  83 279 17
+      7900  505 236
+      7906  168 236
+      7906  404 256
+      7909  470 249
+      1750  431 239
+      7907  45 314 294
+      7901  313 256
+      7908  27 279 17
+   end
+end
+room 95002
+   properties
+      picture	3071
+	  south 95100 
+      east	95003 
+      west	95001 
+      flags	2
+   end
+   atpinfo
+      1850  -3 343 25
+      1750  58 221
+      1872  137 341
+      1752  553 227
+      34518  272 229
+      1750  343 219
+      1850  614 343 25
+      1751  185 214
+      34519  429 212
+      7907  40 325
+      7901  45 229
+      7902  655 332
+      7900  533 359 125
+      7909  222 236
+      7906  302 238
+      7906  169 222
+      7906  369 224
+   end
+end

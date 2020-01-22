@@ -1,0 +1,141 @@
+room 30044
+	properties
+		template 30201
+		west 30043
+		flags	0
+		roomName	"Fafnir's Treasure"
+	end
+	objects
+		object LockedChest-30044-0 of LockedChest
+			properties
+				x	464
+				y	270
+				loop	0
+			end
+			actions
+				vBeOpened changeExperience dobj -5000 
+				vBeOpened clearActions LockedChest-30044-0 vBeOpened 
+			end
+			base lockable
+			end
+			base described
+				text	"Private Property\nDo Not Disturb."
+			end
+		end
+		object LavaA-30044-1 of LavaA
+			properties
+				x	123
+				y	329
+				loop	2
+			end
+			base described
+				text	"Thick and gooey, it looks hot.\nScaldingly, burningly, boilingly hot."
+			end
+		end
+		object LavaC-30044-2 of LavaC
+			properties
+				x	305
+				y	326
+				loop	1
+			end
+			base described
+				text	"Thick and gooey, it looks hot.\nScaldingly, burningly, boilingly hot."
+			end
+		end
+		object LavaB-30044-3 of LavaB
+			properties
+				x	504
+				y	321
+				loop	0
+			end
+			base described
+				text	"Thick and gooey, it looks hot.\nScaldingly, burningly, boilingly hot."
+			end
+		end
+		object CellFloorF-30044-4 of CellFloorF
+			properties
+				x	550
+				y	229
+				loop	0
+			end
+			base described
+				text	"A reddish glow tinges the ancient looking tiles."
+			end
+		end
+		object CellFloorF-30044-5 of CellFloorF
+			properties
+				x	404
+				y	200
+				loop	0
+			end
+			base described
+				text	"A reddish glow tinges the ancient looking tiles."
+			end
+		end
+		object Lever-30044-6 of Lever
+			properties
+				x	177
+				y	245
+				loop	0
+			end
+			actions
+				#vBeActivated damage dobj 8 5000 15000 #experience .5 to 1.5 levels 
+				vBeActivated changeExperience dobj -10000
+#				vBeActivated teleport dobj 30000 
+				#vBeDeactivated damage dobj 8 5000 15000 #experience .5 to 1.5 levels 
+				vBeDeactivated changeExperience dobj -10000
+#				vBeDeactivated teleport dobj 30000 
+			end
+			base described
+			end
+		end
+#		object RandomMaterial-30044-7 of RandomMaterial
+#			properties
+#				x	-200
+#				y	-200
+#				loop	0
+#			end
+#			base carryable
+#				owner	LockedChest-30044-0
+#			end
+#			base described
+#			end
+#		end
+		object LockedChest-30044-8 of LockedChest
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	LockedChest-30044-0
+			end
+			base described
+			end
+		end
+                object RandomMegaTreasure-30044-9 of RandomMegaTreasure
+                        properties
+                                x       -200
+                                y       -200
+                                loop    0
+                        end
+                        base carryable
+                                owner   LockedChest-30044-0
+                        end
+                        base described
+                        end
+                end
+                object RandomMegaTreasure-30044-10 of RandomMegaTreasure
+                        properties
+                                x       -200
+                                y       -200
+                                loop    0
+                        end
+                        base carryable
+                                owner   LockedChest-30044-0
+                        end
+                        base described
+                        end
+                end
+	end
+end

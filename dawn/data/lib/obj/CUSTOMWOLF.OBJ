@@ -1,0 +1,2924 @@
+object dNaturalBrownWolfPelt of WolfPelt
+	properties
+		special
+		name "Natural Brown WolfPelt"
+		color 0
+		value 6
+	end
+
+	base described
+		text "You see a Natural Brown colored WolfPelt."
+	end
+end
+
+object dRustBrownWolfPelt of WolfPelt
+	properties
+		special
+		name "Rust Brown WolfPelt"
+		color 1
+		value 6
+	end
+
+	base described
+		text "You see a Rust Brown colored WolfPelt."
+	end
+end
+
+object dMediumRustBrownWolfPelt of WolfPelt
+	properties
+		special
+		name "Medium Rust Brown WolfPelt"
+		color 2
+		value 6
+	end
+
+	base described
+		text "You see a Medium Rust Brown colored WolfPelt."
+	end
+end
+
+object dLightRustBrownWolfPelt of WolfPelt
+	properties
+		special
+		name "Light Rust Brown WolfPelt"
+		color 3
+		value 6
+	end
+
+	base described
+		text "You see a Light Rust Brown colored WolfPelt."
+	end
+end
+
+object dPaleRustBrownWolfPelt of WolfPelt
+	properties
+		special
+		name "Pale Rust Brown WolfPelt"
+		color 4
+		value 6
+	end
+
+	base described
+		text "You see a Pale Rust Brown colored WolfPelt."
+	end
+end
+
+object dSepiaWolfPelt of WolfPelt
+	properties
+		special
+		name "Sepia WolfPelt"
+		color 5
+		value 6
+	end
+
+	base described
+		text "You see a Sepia colored WolfPelt."
+	end
+end
+
+object dOliveBrownWolfPelt of WolfPelt
+	properties
+		special
+		name "Olive Brown WolfPelt"
+		color 6
+		value 6
+	end
+
+	base described
+		text "You see a Olive Brown colored WolfPelt."
+	end
+end
+
+object dDarkOliveGreenWolfPelt of WolfPelt
+	properties
+		special
+		name "Dark Olive Green WolfPelt"
+		color 7
+		value 6
+	end
+
+	base described
+		text "You see a Dark Olive Green colored WolfPelt."
+	end
+end
+
+object dSiennaWolfPelt of WolfPelt
+	properties
+		special
+		name "Sienna WolfPelt"
+		color 8
+		value 6
+	end
+
+	base described
+		text "You see a Sienna colored WolfPelt."
+	end
+end
+
+object dCeruleanWolfPelt of WolfPelt
+	properties
+		special
+		name "Cerulean WolfPelt"
+		color 9
+		value 6
+	end
+
+	base described
+		text "You see a Cerulean colored WolfPelt."
+	end
+end
+
+object dDodgerBlueWolfPelt of WolfPelt
+	properties
+		special
+		name "Dodger Blue WolfPelt"
+		color 10
+		value 6
+	end
+
+	base described
+		text "You see a Dodger Blue colored WolfPelt."
+	end
+end
+
+object dDeepSkyBlueWolfPelt of WolfPelt
+	properties
+		special
+		name "Deep Sky Blue WolfPelt"
+		color 11
+		value 6
+	end
+
+	base described
+		text "You see a Deep Sky Blue colored WolfPelt."
+	end
+end
+
+object dTurquoiseWolfPelt of WolfPelt
+	properties
+		special
+		name "Turquoise WolfPelt"
+		color 12
+		value 6
+	end
+
+	base described
+		text "You see a Turquoise colored WolfPelt."
+	end
+end
+
+object dRoyalBlueWolfPelt of WolfPelt
+	properties
+		special
+		name "Royal Blue WolfPelt"
+		color 13
+		value 6
+	end
+
+	base described
+		text "You see a Royal Blue colored WolfPelt."
+	end
+end
+
+object dCeladonWolfPelt of WolfPelt
+	properties
+		special
+		name "Celadon WolfPelt"
+		color 14
+		value 6
+	end
+
+	base described
+		text "You see a Celadon colored WolfPelt."
+	end
+end
+
+object dFireBrickWolfPelt of WolfPelt
+	properties
+		special
+		name "Fire Brick WolfPelt"
+		color 15
+		value 6
+	end
+
+	base described
+		text "You see a Fire Brick colored WolfPelt."
+	end
+end
+
+object dCoralRedGlowWolfPelt of WolfPelt
+	properties
+		special
+		name "Coral Red Glow WolfPelt"
+		color 16
+		value 6
+	end
+
+	base described
+		text "You see a Coral Red Glow colored WolfPelt."
+	end
+end
+
+object dBabyPinkWolfPelt of WolfPelt
+	properties
+		special
+		name "Baby Pink WolfPelt"
+		color 17
+		value 6
+	end
+
+	base described
+		text "You see a Baby Pink colored WolfPelt."
+	end
+end
+
+object dGingerWolfPelt of WolfPelt
+	properties
+		special
+		name "Ginger WolfPelt"
+		color 18
+		value 6
+	end
+
+	base described
+		text "You see a Ginger colored WolfPelt."
+	end
+end
+
+object dLightAmberWolfPelt of WolfPelt
+	properties
+		special
+		name "Light Amber WolfPelt"
+		color 19
+		value 6
+	end
+
+	base described
+		text "You see a Light Amber colored WolfPelt."
+	end
+end
+
+object dPaleYellowWolfPelt of WolfPelt
+	properties
+		special
+		name "Pale Yellow WolfPelt"
+		color 20
+		value 6
+	end
+
+	base described
+		text "You see a Pale Yellow colored WolfPelt."
+	end
+end
+
+object dEggPlantWolfPelt of WolfPelt
+	properties
+		special
+		name "Egg Plant WolfPelt"
+		color 21
+		value 6
+	end
+
+	base described
+		text "You see a Egg Plant colored WolfPelt."
+	end
+end
+
+object dMagentaGlowWolfPelt of WolfPelt
+	properties
+		special
+		name "Magenta Glow WolfPelt"
+		color 22
+		value 6
+	end
+
+	base described
+		text "You see a Magenta Glow colored WolfPelt."
+	end
+end
+
+object dLightMagentaWolfPelt of WolfPelt
+	properties
+		special
+		name "Light Magenta WolfPelt"
+		color 23
+		value 6
+	end
+
+	base described
+		text "You see a Light Magenta colored WolfPelt."
+	end
+end
+
+object dBrownMagentaGlowWolfPelt of WolfPelt
+	properties
+		special
+		name "Brown Magenta Glow WolfPelt"
+		color 24
+		value 6
+	end
+
+	base described
+		text "You see a Brown Magenta Glow colored WolfPelt."
+	end
+end
+
+object dBrownPinkGlowWolfPelt of WolfPelt
+	properties
+		special
+		name "Brown Pink Glow WolfPelt"
+		color 25
+		value 6
+	end
+
+	base described
+		text "You see a Brown Pink Glow colored WolfPelt."
+	end
+end
+
+object dSandyBrownWolfPelt of WolfPelt
+	properties
+		special
+		name "Sandy Brown WolfPelt"
+		color 26
+		value 6
+	end
+
+	base described
+		text "You see a Sandy Brown colored WolfPelt."
+	end
+end
+
+object dMediumCyanWolfPelt of WolfPelt
+	properties
+		special
+		name "Medium Cyan WolfPelt"
+		color 27
+		value 6
+	end
+
+	base described
+		text "You see a Medium Cyan colored WolfPelt."
+	end
+end
+
+object dCadetBlueWolfPelt of WolfPelt
+	properties
+		special
+		name "Cadet Blue WolfPelt"
+		color 28
+		value 6
+	end
+
+	base described
+		text "You see a Cadet Blue colored WolfPelt."
+	end
+end
+
+object dLightCyanWolfPelt of WolfPelt
+	properties
+		special
+		name "Light Cyan WolfPelt"
+		color 29
+		value 6
+	end
+
+	base described
+		text "You see a Light Cyan colored WolfPelt."
+	end
+end
+
+object dSatoriWolfPelt of WolfPelt
+	properties
+		special
+		name "Satori WolfPelt"
+		color 30
+		value 6
+	end
+
+	base described
+		text "You see a Satori colored WolfPelt."
+	end
+end
+
+object dSeaGreenGlowWolfPelt of WolfPelt
+	properties
+		special
+		name "Sea Green Glow WolfPelt"
+		color 31
+		value 6
+	end
+
+	base described
+		text "You see a Sea Green Glow colored WolfPelt."
+	end
+end
+
+object dLightGreenWolfPelt of WolfPelt
+	properties
+		special
+		name "Light Green WolfPelt"
+		color 32
+		value 6
+	end
+
+	base described
+		text "You see a Light Green colored WolfPelt."
+	end
+end
+
+object dDarkScarletWolfPelt of WolfPelt
+	properties
+		special
+		name "Dark Scarlet WolfPelt"
+		color 33
+		value 6
+	end
+
+	base described
+		text "You see a Dark Scarlet colored WolfPelt."
+	end
+end
+
+object dOrangeGlowWolfPelt of WolfPelt
+	properties
+		special
+		name "Orange Glow WolfPelt"
+		color 34
+		value 6
+	end
+
+	base described
+		text "You see a Orange Glow colored WolfPelt."
+	end
+end
+
+object dIndigoWolfPelt of WolfPelt
+	properties
+		special
+		name "Indigo WolfPelt"
+		color 36
+		value 6
+	end
+
+	base described
+		text "You see a Indigo colored WolfPelt."
+	end
+end
+
+object dPlumGlowWolfPelt of WolfPelt
+	properties
+		special
+		name "Plum Glow WolfPelt"
+		color 37
+		value 6
+	end
+
+	base described
+		text "You see a Plum Glow colored WolfPelt."
+	end
+end
+
+object dLightPurpleLinesWolfPelt of WolfPelt
+	properties
+		special
+		name "Light Purple Lines WolfPelt"
+		color 38
+		value 6
+	end
+
+	base described
+		text "You see a Light Purple Lines colored WolfPelt."
+	end
+end
+
+object dBlueBlackWolfPelt of WolfPelt
+	properties
+		special
+		name "Blue Black WolfPelt"
+		color 39
+		value 6
+	end
+
+	base described
+		text "You see a Blue Black colored WolfPelt."
+	end
+end
+
+object dBlackGlowWolfPelt of WolfPelt
+	properties
+		special
+		name "Black Glow WolfPelt"
+		color 40
+		value 6
+	end
+
+	base described
+		text "You see a Black Glow colored WolfPelt."
+	end
+end
+
+object dBrightWhiteWolfPelt of WolfPelt
+	properties
+		special
+		name "Bright White WolfPelt"
+		color 41
+		value 6
+	end
+
+	base described
+		text "You see a Bright White colored WolfPelt."
+	end
+end
+
+object dChocolateWolfPelt of WolfPelt
+	properties
+		special
+		name "Chocolate WolfPelt"
+		color 42
+		value 6
+	end
+
+	base described
+		text "You see a Chocolate colored WolfPelt."
+	end
+end
+
+object dBrownGlowWolfPelt of WolfPelt
+	properties
+		special
+		name "Brown Glow WolfPelt"
+		color 43
+		value 6
+	end
+
+	base described
+		text "You see a Brown Glow colored WolfPelt."
+	end
+end
+
+object dCreamBrownWolfPelt of WolfPelt
+	properties
+		special
+		name "Cream Brown WolfPelt"
+		color 44
+		value 6
+	end
+
+	base described
+		text "You see a Cream Brown colored WolfPelt."
+	end
+end
+
+object dLightCreamBrownWolfPelt of WolfPelt
+	properties
+		special
+		name "Light Cream Brown WolfPelt"
+		color 45
+		value 6
+	end
+
+	base described
+		text "You see a Light Cream Brown colored WolfPelt."
+	end
+end
+
+object dDarkOliveGlowWolfPelt of WolfPelt
+	properties
+		special
+		name "Dark Olive Glow WolfPelt"
+		color 46
+		value 6
+	end
+
+	base described
+		text "You see a Dark Olive Glow colored WolfPelt."
+	end
+end
+
+object dOliveGlowWolfPelt of WolfPelt
+	properties
+		special
+		name "Olive Glow WolfPelt"
+		color 47
+		value 6
+	end
+
+	base described
+		text "You see a Olive Glow colored WolfPelt."
+	end
+end
+
+object dLightYellowLinesWolfPelt of WolfPelt
+	properties
+		special
+		name "Light Yellow Lines WolfPelt"
+		color 50
+		value 6
+	end
+
+	base described
+		text "You see a Light Yellow Lines colored WolfPelt."
+	end
+end
+
+object dDarkBlueWolfPelt of WolfPelt
+	properties
+		special
+		name "Dark Blue WolfPelt"
+		color 51
+		value 6
+	end
+
+	base described
+		text "You see a Dark Blue colored WolfPelt."
+	end
+end
+
+object dBlueGlowWolfPelt of WolfPelt
+	properties
+		special
+		name "Blue Glow WolfPelt"
+		color 52
+		value 6
+	end
+
+	base described
+		text "You see a Blue Glow colored WolfPelt."
+	end
+end
+
+object dMaroonWolfPelt of WolfPelt
+	properties
+		special
+		name "Maroon WolfPelt"
+		color 56
+		value 6
+	end
+
+	base described
+		text "You see a Maroon colored WolfPelt."
+	end
+end
+
+object dMaroonGlowWolfPelt of WolfPelt
+	properties
+		special
+		name "Maroon Glow WolfPelt"
+		color 57
+		value 6
+	end
+
+	base described
+		text "You see a Maroon Glow colored WolfPelt."
+	end
+end
+
+object dLightPinkWolfPelt of WolfPelt
+	properties
+		special
+		name "Light Pink WolfPelt"
+		color 60
+		value 6
+	end
+
+	base described
+		text "You see a Light Pink colored WolfPelt."
+	end
+end
+
+object dTawnyWolfPelt of WolfPelt
+	properties
+		special
+		name "Tawny WolfPelt"
+		color 61
+		value 6
+	end
+
+	base described
+		text "You see a Tawny colored WolfPelt."
+	end
+end
+
+object WolfPeltllowOrangeGlowWolfPelt of WolfPelt
+	properties
+		special
+		name "Yellow Orange Glow WolfPelt"
+		color 62
+		value 6
+	end
+
+	base described
+		text "You see a Yellow Orange Glow colored WolfPelt."
+	end
+end
+
+object dEggplantYellowWolfPelt of WolfPelt
+	properties
+		special
+		name "Eggplant Yellow WolfPelt"
+		color 66
+		value 6
+	end
+
+	base described
+		text "You see a Eggplant Yellow colored WolfPelt."
+	end
+end
+
+object dPurpleGlowWolfPelt of WolfPelt
+	properties
+		special
+		name "Purple Glow WolfPelt"
+		color 67
+		value 6
+	end
+
+	base described
+		text "You see a Purple Glow colored WolfPelt."
+	end
+end
+
+object dLighterMagentaWolfPelt of WolfPelt
+	properties
+		special
+		name "Lighter Magenta WolfPelt"
+		color 70
+		value 6
+	end
+
+	base described
+		text "You see a Lighter Magenta colored WolfPelt."
+	end
+end
+
+object dDarkChocolateWolfPelt of WolfPelt
+	properties
+		special
+		name "Dark Chocolate WolfPelt"
+		color 71
+		value 6
+	end
+
+	base described
+		text "You see a Dark Chocolate colored WolfPelt."
+	end
+end
+
+object dDarkBrownMagentaGlowWolfPelt of WolfPelt
+	properties
+		special
+		name "Dark Brown Magenta Glow WolfPelt"
+		color 72
+		value 6
+	end
+
+	base described
+		text "You see a Dark Brown Magenta Glow colored WolfPelt."
+	end
+end
+
+object dCyprusWolfPelt of WolfPelt
+	properties
+		special
+		name "Cyprus WolfPelt"
+		color 76
+		value 6
+	end
+
+	base described
+		text "You see a Cyprus colored WolfPelt."
+	end
+end
+
+object dDeepSeaGlowWolfPelt of WolfPelt
+	properties
+		special
+		name "Deep Sea Glow WolfPelt"
+		color 80
+		value 6
+	end
+
+	base described
+		text "You see a Deep Sea Glow colored WolfPelt."
+	end
+end
+
+object dForestGreenWolfPelt of WolfPelt
+	properties
+		special
+		name "Forest Green WolfPelt"
+		color 81
+		value 6
+	end
+
+	base described
+		text "You see a Forest Green colored WolfPelt."
+	end
+end
+
+object dForestGreenGlowWolfPelt of WolfPelt
+	properties
+		special
+		name "Forest Green Glow WolfPelt"
+		color 82
+		value 6
+	end
+
+	base described
+		text "You see a Forest Green Glow colored WolfPelt."
+	end
+end
+
+object dPaleGreenWolfPelt of WolfPelt
+	properties
+		special
+		name "Pale Green WolfPelt"
+		color 85
+		value 6
+	end
+
+	base described
+		text "You see a Pale Green colored WolfPelt."
+	end
+end
+
+object dDarkBurntOrangeWolfPelt of WolfPelt
+	properties
+		special
+		name "Dark Burnt Orange WolfPelt"
+		color 86
+		value 6
+	end
+
+	base described
+		text "You see a Dark Burnt Orange colored WolfPelt."
+	end
+end
+
+object dDarkOrangeGlowWolfPelt of WolfPelt
+	properties
+		special
+		name "Dark Orange Glow WolfPelt"
+		color 87
+		value 6
+	end
+
+	base described
+		text "You see a Dark Orange Glow colored WolfPelt."
+	end
+end
+
+object dDarkPurpleOrangeWolfPelt of WolfPelt
+	properties
+		special
+		name "Dark Purple Orange WolfPelt"
+		color 91
+		value 6
+	end
+
+	base described
+		text "You see a Dark Purple Orange colored WolfPelt."
+	end
+end
+
+object dDarkPurpleGlowWolfPelt of WolfPelt
+	properties
+		special
+		name "Dark Purple Glow WolfPelt"
+		color 92
+		value 6
+	end
+
+	base described
+		text "You see a Dark Purple Glow colored WolfPelt."
+	end
+end
+
+object dLightPurpleWolfPelt of WolfPelt
+	properties
+		special
+		name "Light Purple WolfPelt"
+		color 95
+		value 6
+	end
+
+	base described
+		text "You see a Light Purple colored WolfPelt."
+	end
+end
+
+object dDarkPupleWolfPelt of WolfPelt
+	properties
+		special
+		name "Dark Puple WolfPelt"
+		color 96
+		value 6
+	end
+
+	base described
+		text "You see a Dark Puple colored WolfPelt."
+	end
+end
+
+object dDarkBlackGlowWolfPelt of WolfPelt
+	properties
+		special
+		name "Dark Black Glow WolfPelt"
+		color 97
+		value 6
+	end
+
+	base described
+		text "You see a Dark Black Glow colored WolfPelt."
+	end
+end
+
+object dBrighterWhiteWolfPelt of WolfPelt
+	properties
+		special
+		name "Brighter White WolfPelt"
+		color 101
+		value 6
+	end
+
+	base described
+		text "You see a Brighter White colored WolfPelt."
+	end
+end
+
+object dSaddleBrownWolfPelt of WolfPelt
+	properties
+		special
+		name "Saddle Brown WolfPelt"
+		color 102
+		value 6
+	end
+
+	base described
+		text "You see a Saddle Brown colored WolfPelt."
+	end
+end
+
+object dDarkBrownGlowWolfPelt of WolfPelt
+	properties
+		special
+		name "Dark Brown Glow WolfPelt"
+		color 103
+		value 6
+	end
+
+	base described
+		text "You see a Dark Brown Glow colored WolfPelt."
+	end
+end
+
+object dDarkFleshWolfPelt of WolfPelt
+	properties
+		special
+		name "Dark Flesh WolfPelt"
+		color 104
+		value 6
+	end
+
+	base described
+		text "You see a Dark Flesh colored WolfPelt."
+	end
+end
+
+object dTanFleshWolfPelt of WolfPelt
+	properties
+		special
+		name "Tan Flesh WolfPelt"
+		color 105
+		value 6
+	end
+
+	base described
+		text "You see a Tan Flesh colored WolfPelt."
+	end
+end
+
+object dLightFleshGreenWolfPelt of WolfPelt
+	properties
+		special
+		name "Light Flesh Green WolfPelt"
+		color 108
+		value 6
+	end
+
+	base described
+		text "You see a Light Flesh Green colored WolfPelt."
+	end
+end
+
+object dGreenLightFleshWolfPelt of WolfPelt
+	properties
+		special
+		name "Green Light Flesh WolfPelt"
+		color 109
+		value 6
+	end
+
+	base described
+		text "You see a Green Light Flesh colored WolfPelt."
+	end
+end
+
+object dGrayGreenWolfPelt of WolfPelt
+	properties
+		special
+		name "Gray Green WolfPelt"
+		color 110
+		value 6
+	end
+
+	base described
+		text "You see a Gray Green colored WolfPelt."
+	end
+end
+
+object dGrayLittleGreenWolfPelt of WolfPelt
+	properties
+		special
+		name "Gray Little Green WolfPelt"
+		color 111
+		value 6
+	end
+
+	base described
+		text "You see a Gray Little Green colored WolfPelt."
+	end
+end
+
+object dLightestFinvarraWolfPelt of WolfPelt
+	properties
+		special
+		name "Lightest Finvarra WolfPelt"
+		color 112
+		value 6
+	end
+
+	base described
+		text "You see a Lightest Finvarra colored WolfPelt."
+	end
+end
+
+object dLightFinvarraWolfPelt of WolfPelt
+	properties
+		special
+		name "Light Finvarra WolfPelt"
+		color 113
+		value 6
+	end
+	
+	base described
+		text "You see a Light Finvarra colored WolfPelt."
+	end
+end
+
+object dLighterFinvarraWolfPelt of WolfPelt
+	properties
+		special
+		name "Lighter Finvarra WolfPelt"
+		color 114
+		value 6
+	end
+
+	base described
+		text "You see a Lighter Finvarra colored WolfPelt."
+	end
+end
+
+object dFinvarraWolfPelt of WolfPelt
+	properties
+		special
+		name "Finvarra WolfPelt"
+		color 115
+		value 6
+	end
+
+	base described
+		text "You see a Finvarra colored WolfPelt."
+	end
+end
+
+object dBlackLatexWolfPelt of WolfPelt
+	properties
+		special
+		name "Black Latex WolfPelt"
+		color 116
+		value 6
+	end
+
+	base described
+		text "You see a Black Latex colored WolfPelt."
+	end
+end
+
+object dGrayBlackWolfPelt of WolfPelt
+	properties
+		special
+		name "Gray Black WolfPelt"
+		color 117
+		value 6
+	end
+
+	base described
+		text "You see a Gray Black colored WolfPelt."
+	end
+end
+
+object dAlmondFrostWolfPelt of WolfPelt
+	properties
+		special
+		name "Almond Frost WolfPelt"
+		color 118
+		value 6
+	end
+
+	base described
+		text "You see a Almond Frost colored WolfPelt."
+	end
+end
+
+object dPharlapWolfPelt of WolfPelt
+	properties
+		special
+		name "Pharlap WolfPelt"
+		color 119
+		value 6
+	end
+
+	base described
+		text "You see a Pharlap colored WolfPelt."
+	end
+end
+
+object dDarkPharlapWolfPelt of WolfPelt
+	properties
+		special
+		name "Dark Pharlap WolfPelt"
+		color 120
+		value 6
+	end
+
+	base described
+		text "You see a Dark Pharlap colored WolfPelt."
+	end
+end
+
+object dDarkerPharlapWolfPelt of WolfPelt
+	properties
+		special
+		name "Darker Pharlap WolfPelt"
+		color 121
+		value 6
+	end
+
+	base described
+		text "You see a Darker Pharlap colored WolfPelt."
+	end
+end
+
+object dDarkestPharlapWolfPelt of WolfPelt
+	properties
+		special
+		name "Darkest Pharlap WolfPelt"
+		color 122
+		value 6
+	end
+
+	base described
+		text "You see a Darkest Pharlap colored WolfPelt."
+	end
+end
+
+object dSealBrownGlowWolfPelt of WolfPelt
+	properties
+		special
+		name "Seal Brown Glow WolfPelt"
+		color 123
+		value 6
+	end
+
+	base described
+		text "You see a Seal Brown Glow colored WolfPelt."
+	end
+end
+
+object dLightTanWolfPelt of WolfPelt
+	properties
+		special
+		name "Light Tan WolfPelt"
+		color 124
+		value 6
+	end
+
+	base described
+		text "You see a Light Tan colored WolfPelt."
+	end
+end
+
+object dTeakWolfPelt of WolfPelt
+	properties
+		special
+		name "Teak WolfPelt"
+		color 125
+		value 6
+	end
+
+	base described
+		text "You see a Teak colored WolfPelt."
+	end
+end
+
+object dMediumTeakWolfPelt of WolfPelt
+	properties
+		special
+		name "Medium Teak WolfPelt"
+		color 126
+		value 6
+	end
+
+	base described
+		text "You see a Medium Teak colored WolfPelt."
+	end
+end
+
+object dDarkTeakWolfPelt of WolfPelt
+	properties
+		special
+		name "Dark Teak WolfPelt"
+		color 127
+		value 6
+	end
+
+	base described
+		text "You see a Dark Teak colored WolfPelt."
+	end
+end
+
+object dDarkerTeakWolfPelt of WolfPelt
+	properties
+		special
+		name "Darker Teak WolfPelt"
+		color 128
+		value 6
+	end
+
+	base described
+		text "You see a Darker Teak colored WolfPelt."
+	end
+end
+
+object dDarkestTeakWolfPelt of WolfPelt
+	properties
+		special
+		name "Darkest Teak WolfPelt"
+		color 129
+		value 6
+	end
+
+	base described
+		text "You see a Darkest Teak colored WolfPelt."
+	end
+end
+
+object dDarkBrownCitrusGlowWolfPelt of WolfPelt
+	properties
+		special
+		name "Dark Brown Citrus Glow WolfPelt"
+		color 130
+		value 6
+	end
+
+	base described
+		text "You see a Dark Brown Citrus Glow colored WolfPelt."
+	end
+end
+
+object dCitrusDarkbrownWolfPelt of WolfPelt
+	properties
+		special
+		name "Citrus Dark brown WolfPelt"
+		color 131
+		value 6
+	end
+
+	base described
+		text "You see a Citrus Dark brown colored WolfPelt."
+	end
+end
+
+object dUltraOliveWolfPelt of WolfPelt
+	properties
+		special
+		name "Ultra Olive WolfPelt"
+		color 132
+		value 6
+	end
+
+	base described
+		text "You see a Ultra Olive colored WolfPelt."
+	end
+end
+
+object dDarkOliveWolfPelt of WolfPelt
+	properties
+		special
+		name "Dark Olive WolfPelt"
+		color 133
+		value 6
+	end
+
+	base described
+		text "You see a Dark Olive colored WolfPelt."
+	end
+end
+
+object dDarkerOliveWolfPelt of WolfPelt
+	properties
+		special
+		name "Darker Olive WolfPelt"
+		color 134
+		value 6
+	end
+
+	base described
+		text "You see a Darker Olive colored WolfPelt."
+	end
+end
+
+object dDarkestOliveWolfPelt of WolfPelt
+	properties
+		special
+		name "Darker Olive WolfPelt"
+		color 135
+		value 6
+	end
+
+	base described
+		text "You see a Darker Olive colored WolfPelt."
+	end
+end
+
+object dDarkPrussianBlueWolfPelt of WolfPelt
+	properties
+		special
+		name "Dark Prussian Blue WolfPelt"
+		color 136
+		value 6
+	end
+
+	base described
+		text "You see a Dark Prussian Blue colored WolfPelt."
+	end
+end
+
+object dPrussianBlueWolfPelt of WolfPelt
+	properties
+		special
+		name "Prussian Blue WolfPelt"
+		color 137
+		value 6
+	end
+
+	base described
+		text "You see a Prussian Blue colored WolfPelt."
+	end
+end
+
+object dPrussianBlueGlowWolfPelt of WolfPelt
+	properties
+		special
+		name "Prussian Blue Glow WolfPelt"
+		color 138
+		value 6
+	end
+
+	base described
+		text "You see a Prussian Blue Glow colored WolfPelt."
+	end
+end
+
+object dSaplingWolfPelt of WolfPelt
+	properties
+		special
+		name "Sapling WolfPelt"
+		color 139
+		value 6
+	end
+
+	base described
+		text "You see a Sapling colored WolfPelt."
+	end
+end
+
+object dEcruWolfPelt of WolfPelt
+	properties
+		special
+		name "Ecru WolfPelt"
+		color 140
+		value 6
+	end
+
+	base described
+		text "You see a Ecru colored WolfPelt."
+	end
+end
+
+object dDarkEcruWolfPelt of WolfPelt
+	properties
+		special
+		name "Dark Ecru WolfPelt"
+		color 141
+		value 6
+	end
+
+	base described
+		text "You see a Dark Ecru colored WolfPelt."
+	end
+end
+
+object dDarkerEcruWolfPelt of WolfPelt
+	properties
+		special
+		name "Darker Ecru WolfPelt"
+		color 142
+		value 6
+	end
+
+	base described
+		text "You see a Darker Ecru colored WolfPelt."
+	end
+end
+
+object WolfPeltllowOrangeWolfPelt of WolfPelt
+	properties
+		special
+		name "Yellow Orange WolfPelt"
+		color 143
+		value 6
+	end
+
+	base described
+		text "You see a Yellow Orange colored WolfPelt."
+	end
+end
+
+object dMediumYellowOrangeWolfPelt of WolfPelt
+	properties
+		special
+		name "Medium Yellow Orange WolfPelt"
+		color 144
+		value 6
+	end
+
+	base described
+		text "You see a Medium Yellow Orange colored WolfPelt."
+	end
+end
+
+object dDarkYellowOrangeWolfPelt of WolfPelt
+	properties
+		special
+		name "Dark Yellow Orange WolfPelt"
+		color 145
+		value 6
+	end
+
+	base described
+		text "You see a Dark Yellow Orange colored WolfPelt."
+	end
+end
+
+object dDarkerYellowOrangeWolfPelt of WolfPelt
+	properties
+		special
+		name "Darker Yellow Orange WolfPelt"
+		color 146
+		value 6
+	end
+
+	base described
+		text "You see a Darker Yellow Orange colored WolfPelt."
+	end
+end
+
+object dDarkestYellowOrangeWolfPelt of WolfPelt
+	properties
+		special
+		name "Darkest Yellow Orange WolfPelt"
+		color 147
+		value 6
+	end
+
+	base described
+		text "You see a Darkest Yellow Orange colored WolfPelt."
+	end
+end
+
+object dDarkOrangeRedGlowWolfPelt of WolfPelt
+	properties
+		special
+		name "Dark Orange Red Glow WolfPelt"
+		color 148
+		value 6
+	end
+
+	base described
+		text "You see a Dark Orange Red Glow colored WolfPelt."
+	end
+end
+
+object dFleshDarkBrownWolfPelt of WolfPelt
+	properties
+		special
+		name "Flesh Dark Brown WolfPelt"
+		color 149
+		value 6
+	end
+
+	base described
+		text "You see a Flesh Dark Brown colored WolfPelt."
+	end
+end
+
+object dLightFleshBluredWolfPelt of WolfPelt
+	properties
+		special
+		name "Light Flesh Blured WolfPelt"
+		color 150
+		value 6
+	end
+
+	base described
+		text "You see a Light Flesh Blured colored WolfPelt."
+	end
+end
+
+object dPaleFleshWolfPelt of WolfPelt
+	properties
+		special
+		name "Pale Flesh WolfPelt"
+		color 151
+		value 6
+	end
+
+	base described
+		text "You see a Pale Flesh colored WolfPelt."
+	end
+end
+
+object dLightTawnyWolfPelt of WolfPelt
+	properties
+		special
+		name "Light Tawny WolfPelt"
+		color 152
+		value 6
+	end
+
+	base described
+		text "You see a Light Tawny colored WolfPelt."
+	end
+end
+
+object dCarrotOrangeGlowWolfPelt of WolfPelt
+	properties
+		special
+		name "Carrot Orange Glow WolfPelt"
+		color 153
+		value 6
+	end
+
+	base described
+		text "You see a Carrot Orange Glow colored WolfPelt."
+	end
+end
+
+object dKournikovaWolfPelt of WolfPelt
+	properties
+		special
+		name "Kournikova WolfPelt"
+		color 154
+		value 6
+	end
+
+	base described
+		text "You see a Kournikova colored WolfPelt."
+	end
+end
+
+object dLightYellowWolfPelt of WolfPelt
+	properties
+		special
+		name "Light Yellow WolfPelt"
+		color 155
+		value 6
+	end
+
+	base described
+		text "You see a Light Yellow colored WolfPelt."
+	end
+end
+
+object dGrayYellowWolfPelt of WolfPelt
+	properties
+		special
+		name "Gray Yellow WolfPelt"
+		color 156
+		value 6
+	end
+
+	base described
+		text "You see a Gray Yellow colored WolfPelt."
+	end
+end
+
+object dGrayLittleYellowWolfPelt of WolfPelt
+	properties
+		special
+		name "Gray Little Yellow WolfPelt"
+		color 157
+		value 6
+	end
+
+	base described
+		text "You see a Gray Little Yellow colored WolfPelt."
+	end
+end
+
+object dLighterSilkWolfPelt of WolfPelt
+	properties
+		special
+		name "Lighter Silk WolfPelt"
+		color 158
+		value 6
+	end
+
+	base described
+		text "You see a Lighter Silk colored WolfPelt."
+	end
+end
+
+object dLightSilkWolfPelt of WolfPelt
+	properties
+		special
+		name "Light Silk WolfPelt"
+		color 159
+		value 6
+	end
+
+	base described
+		text "You see a Light Silk colored WolfPelt."
+	end
+end
+
+object dSilkWolfPelt of WolfPelt
+	properties
+		special
+		name "Silk WolfPelt"
+		color 160
+		value 6
+	end
+
+	base described
+		text "You see a Silk colored WolfPelt."
+	end
+end
+
+object dDarkSilkWolfPelt of WolfPelt
+	properties
+		special
+		name "Dark Silk WolfPelt"
+		color 161
+		value 6
+	end
+
+	base described
+		text "You see a Dark Silk colored WolfPelt."
+	end
+end
+
+object dDarkerSilkWolfPelt of WolfPelt
+	properties
+		special
+		name "Darker Silk WolfPelt"
+		color 162
+		value 6
+	end
+
+	base described
+		text "You see a Darker Silk colored WolfPelt."
+	end
+end
+
+object dDarkestSilkWolfPelt of WolfPelt
+	properties
+		special
+		name "Darkest Silk WolfPelt"
+		color 163
+		value 6
+	end
+
+	base described
+		text "You see a Darkerst Silk colored WolfPelt."
+	end
+end
+
+object dDarkBrownWolfPelt of WolfPelt
+	properties
+		special
+		name "Dark Brown WolfPelt"
+		color 164
+		value 6
+	end
+
+	base described
+		text "You see a Dark Brown colored WolfPelt."
+	end
+end
+
+object dMediumBrownWolfPelt of WolfPelt
+	properties
+		special
+		name "Medium Brown WolfPelt"
+		color 165
+		value 6
+	end
+
+	base described
+		text "You see a Medium Brown colored WolfPelt."
+	end
+end
+
+object dLightBrownWolfPelt of WolfPelt
+	properties
+		special
+		name "Light Brown WolfPelt"
+		color 166
+		value 6
+	end
+
+	base described
+		text "You see a Light Brown colored WolfPelt."
+	end
+end
+
+object dPaleBrownWolfPelt of WolfPelt
+	properties
+		special
+		name "Pale Brown WolfPelt"
+		color 167
+		value 6
+	end
+
+	base described
+		text "You see a Pale Brown colored WolfPelt."
+	end
+end
+
+object dDarkLightBrownWolfPelt of WolfPelt
+	properties
+		special
+		name "Dark Light Brown WolfPelt"
+		color 168
+		value 6
+	end
+
+	base described
+		text "You see a Dark Light Brown colored WolfPelt."
+	end
+end
+
+object dDarkestBrownGlowWolfPelt of WolfPelt
+	properties
+		special
+		name "Darkest Brown Glow WolfPelt"
+		color 169
+		value 6
+	end
+
+	base described
+		text "You see a Darkest Brown Glow colored WolfPelt."
+	end
+end
+
+object dDarkMudBrownWolfPelt of WolfPelt
+	properties
+		special
+		name "Dark Mud Brown WolfPelt"
+		color 170
+		value 6
+	end
+
+	base described
+		text "You see a Dark Mud Brown colored WolfPelt."
+	end
+end
+
+object dBlackBrownWolfPelt of WolfPelt
+	properties
+		special
+		name "Black Brown WolfPelt"
+		color 171
+		value 6
+	end
+
+	base described
+		text "You see a Black Brown colored WolfPelt."
+	end
+end
+
+object dBlackLittleBrownWolfPelt of WolfPelt
+	properties
+		special
+		name "Black Little Brown WolfPelt"
+		color 172
+		value 6
+	end
+
+	base described
+		text "You see a Black Little Brown colored WolfPelt."
+	end
+end
+
+object dGrayLittleBlackWolfPelt of WolfPelt
+	properties
+		special
+		name "Gray Little Black WolfPelt"
+		color 173
+		value 6
+	end
+
+	base described
+		text "You see a Gray Little Black colored WolfPelt."
+	end
+end
+
+object dLightGrayWolfPelt of WolfPelt
+	properties
+		special
+		name "Light Gray WolfPelt"
+		color 174
+		value 6
+	end
+
+	base described
+		text "You see a Light Gray colored WolfPelt."
+	end
+end
+
+object dShiftingWhiteLinesWolfPelt of WolfPelt
+	properties
+		special
+		name "Shifting White Lines WolfPelt"
+		color 175
+		value 6
+	end
+
+	base described
+		text "You see a Shifting White Lines colored WolfPelt."
+	end
+end
+
+object dShiftingWhiteWolfPelt of WolfPelt
+	properties
+		special
+		name "Shifting White WolfPelt"
+		color 176
+		value 6
+	end
+
+	base described
+		text "You see a Shifting White colored WolfPelt."
+	end
+end
+
+object dShiftingAllWhiteWolfPelt of WolfPelt
+	properties
+		special
+		name "Shifting all White WolfPelt"
+		color 177
+		value 6
+	end
+
+	base described
+		text "You see a Shifting all White colored WolfPelt."
+	end
+end
+
+object dShiftingLightGrayWolfPelt of WolfPelt
+	properties
+		special
+		name "Shifting Light Gray WolfPelt"
+		color 178
+		value 6
+	end
+
+	base described
+		text "You see a Shifting Light Gray colored WolfPelt."
+	end
+end
+
+object dShiftingGrayWolfPelt of WolfPelt
+	properties
+		special
+		name "Shifting Gray WolfPelt"
+		color 179
+		value 6
+	end
+
+	base described
+		text "You see a Shifting Gray colored WolfPelt."
+	end
+end
+
+object dShiftingDarkGrayWolfPelt of WolfPelt
+	properties
+		special
+		name "Shifting Dark Gray WolfPelt"
+		color 180
+		value 6
+	end
+
+	base described
+		text "You see a Shifting Dark Gray colored WolfPelt."
+	end
+end
+
+object dShiftingDarkerGrayWolfPelt of WolfPelt
+	properties
+		special
+		name "Shifting Darker Gray WolfPelt"
+		color 181
+		value 6
+	end
+
+	base described
+		text "You see a Shifting Darker Gray colored WolfPelt."
+	end
+end
+
+object dShiftingDarkestGrayWolfPelt of WolfPelt
+	properties
+		special
+		name "Shifting Darkest Gray WolfPelt"
+		color 182
+		value 6
+	end
+
+	base described
+		text "You see a Shifting Darkest M colored WolfPelt."
+	end
+end
+
+object dShiftingBlackWolfPelt of WolfPelt
+	properties
+		special
+		name "Shifting Black WolfPelt"
+		color 183
+		value 6
+	end
+
+	base described
+		text "You see a Shifting Black colored WolfPelt."
+	end
+end
+
+object dShiftingBlackGlowWolfPelt of WolfPelt
+	properties
+		special
+		name "Shifting Black Glow WolfPelt"
+		color 184
+		value 6
+	end
+
+	base described
+		text "You see a Shifting Black Glow colored WolfPelt."
+	end
+end
+
+object dShiftingStarkBlackWolfPelt of WolfPelt
+	properties
+		special
+		name "Shifting Stark Black WolfPelt"
+		color 185
+		value 6
+	end
+
+	base described
+		text "You see a Shifting Stark Black colored WolfPelt."
+	end
+end
+
+object dShiftingStarkWhiteWolfPelt of WolfPelt
+	properties
+		special
+		name "Shifting Stark White WolfPelt"
+		color 186
+		value 6
+	end
+
+	base described
+		text "You see a Shifting StarkWhite colored WolfPelt."
+	end
+end
+
+object dShiftingLightestRosyBrownWolfPelt of WolfPelt
+	properties
+		special
+		name "Shifting Lightest Rosy Brown WolfPelt"
+		color 187
+		value 6
+	end
+
+	base described
+		text "You see a Shifting Lightest Rosy Brown colored WolfPelt."
+	end
+end
+
+object dShiftingLightRosyBrownWolfPelt of WolfPelt
+	properties
+		special
+		name "Shifting Light Rosy Brown WolfPelt"
+		color 188
+		value 6
+	end
+
+	base described
+		text "You see a Shifting Light Rosy Brown colored WolfPelt."
+	end
+end
+
+object dShiftingRosyBrownWolfPelt of WolfPelt
+	properties
+		special
+		name "Shifting Rosy Brown WolfPelt"
+		color 189
+		value 6
+	end
+
+	base described
+		text "You see a 189 colored WolfPelt."
+	end
+end
+
+object dShiftingDarkRosyBrownWolfPelt of WolfPelt
+	properties
+		special
+		name "Shifting Dark Rosy Brown WolfPelt"
+		color 190
+		value 6
+	end
+
+	base described
+		text "You see a Shifting Dark Rosy Brown colored WolfPelt."
+	end
+end
+
+object dShiftingDarkerRosyBrownWolfPelt of WolfPelt
+	properties
+		special
+		name "Shifting Darker Rosy Brown WolfPelt"
+		color 191
+		value 6
+	end
+
+	base described
+		text "You see a Shifting Darker Rosy Brown colored WolfPelt."
+	end
+end
+
+object dShiftingDarkestRosyBrownWolfPelt of WolfPelt
+	properties
+		special
+		name "Shifting Darkest Rosy Brown WolfPelt"
+		color 192
+		value 6
+	end
+
+	base described
+		text "You see a Shifting Darkest Rosy Brown colored WolfPelt."
+	end
+end
+
+object dShiftingDarkRosyBrownGlowWolfPelt of WolfPelt
+	properties
+		special
+		name "Shifting Dark Rosy Brown Glow WolfPelt"
+		color 193
+		value 6
+	end
+
+	base described
+		text "You see a Shifting Dark Rosy Brown Glow colored WolfPelt."
+	end
+end
+
+object dShiftingOffWhiteWolfPelt of WolfPelt
+	properties
+		special
+		name "Shifting Off White WolfPelt"
+		color 194
+		value 6
+	end
+
+	base described
+		text "You see a Shifting Off White colored WolfPelt."
+	end
+end
+
+object dShiftingLightCreamWolfPelt of WolfPelt
+	properties
+		special
+		name "Shifting Light Cream WolfPelt"
+		color 195
+		value 6
+	end
+
+	base described
+		text "You see a Shifting Light Cream colored WolfPelt."
+	end
+end
+
+object dShiftingCreamWolfPelt of WolfPelt
+	properties
+		special
+		name "Shifting Cream WolfPelt"
+		color 196
+		value 6
+	end
+
+	base described
+		text "You see a Shifting Cream colored WolfPelt."
+	end
+end
+
+object dShiftingBronzeOliveWolfPelt of WolfPelt
+	properties
+		special
+		name "Shifting Bronze Olive WolfPelt"
+		color 197
+		value 6
+	end
+
+	base described
+		text "You see a Shifting Bronze Olive colored WolfPelt."
+	end
+end
+
+object dShiftingDarkBronzeGlowWolfPelt of WolfPelt
+	properties
+		special
+		name "Shifting Dark Bronze Glow WolfPelt"
+		color 198
+		value 6
+	end
+
+	base described
+		text "You see a Shifting Dark Bronze Glow colored WolfPelt."
+	end
+end
+
+object dShiftingOrangeBrownWolfPelt of WolfPelt
+	properties
+		special
+		name "Shifting Orange Brown WolfPelt"
+		color 199
+		value 6
+	end
+
+	base described
+		text "You see a Shifting Orange Brown colored WolfPelt."
+	end
+end
+
+object dShiftingOrangeBrownGlowWolfPelt of WolfPelt
+	properties
+		special
+		name "Shifting Orange Brown Glow WolfPelt"
+		color 200
+		value 6
+	end
+
+	base described
+		text "You see a Shifting Orange Brown Glow colored WolfPelt."
+	end
+end
+
+object dShiftingWhiteOrangeWolfPelt of WolfPelt
+	properties
+		special
+		name "Shifting White Orange WolfPelt"
+		color 201
+		value 6
+	end
+
+	base described
+		text "You see a Shifting White Orange colored WolfPelt."
+	end
+end
+
+object dShiftingLightestChromeWolfPelt of WolfPelt
+	properties
+		special
+		name "Shifting Lightest Chrome WolfPelt"
+		color 202
+		value 6
+	end
+
+	base described
+		text "You see a Shifting Lightest Chrome colored WolfPelt."
+	end
+end
+
+object dShiftingLighterChromeWolfPelt of WolfPelt
+	properties
+		special
+		name "Shifting Lighter Chrome WolfPelt"
+		color 203
+		value 6
+	end
+
+	base described
+		text "You see a Shifting Lighter Chrome colored WolfPelt."
+	end
+end
+
+object dShiftingLightChromeWolfPelt of WolfPelt
+	properties
+		special
+		name "Shifting Light Chrome WolfPelt"
+		color 204
+		value 6
+	end
+
+	base described
+		text "You see a Shifting Light Chrome colored WolfPelt."
+	end
+end
+
+object dShiftingChromeWolfPelt of WolfPelt
+	properties
+		special
+		name "Shifting Chrome WolfPelt"
+		color 205
+		value 6
+	end
+
+	base described
+		text "You see a Shifting Chrome colored WolfPelt."
+	end
+end
+
+object dShiftingDarkChromeWolfPelt of WolfPelt
+	properties
+		special
+		name "Shifting Dark Chrome WolfPelt"
+		color 206
+		value 6
+	end
+
+	base described
+		text "You see a Shifting Dark Chrome colored WolfPelt."
+	end
+end
+
+object dShiftingDarkerChromeWolfPelt of WolfPelt
+	properties
+		special
+		name "Shifting Darker Chrome WolfPelt"
+		color 207
+		value 6
+	end
+
+	base described
+		text "You see a Shifting Darker Chrome colored WolfPelt."
+	end
+end
+
+object dShiftingDarkestChromeWolfPelt of WolfPelt
+	properties
+		special
+		name "Shifting Darkest Chrome WolfPelt"
+		color 208
+		value 6
+	end
+
+	base described
+		text "You see a Shifting Darkest Chrome colored WolfPelt."
+	end
+end
+
+object dShiftingDarkBrownWolfPelt of WolfPelt
+	properties
+		special
+		name "Shifting Dark Brown WolfPelt"
+		color 209
+		value 6
+	end
+
+	base described
+		text "You see a Shifting Dark Brown colored WolfPelt."
+	end
+end
+
+object dShiftingLightestVanillaWolfPelt of WolfPelt
+	properties
+		special
+		name "Shifting Lightest Vanilla WolfPelt"
+		color 210
+		value 6
+	end
+
+	base described
+		text "You see a Shifting Lightest Vanilla colored WolfPelt."
+	end
+end
+
+object dShiftingLighterVanillaWolfPelt of WolfPelt
+	properties
+		special
+		name "Shifting Lighter Vanilla WolfPelt"
+		color 211
+		value 6
+	end
+
+	base described
+		text "You see a Shifting Lighter Vanilla colored WolfPelt."
+	end
+end
+
+object dShiftingLightVanillaWolfPelt of WolfPelt
+	properties
+		special
+		name "Shifting Light Vanilla WolfPelt"
+		color 212
+		value 6
+	end
+
+	base described
+		text "You see a Shifting Light Vanilla colored WolfPelt."
+	end
+end
+
+object dShiftingVanillaWolfPelt of WolfPelt
+	properties
+		special
+		name "Shifting Vanilla WolfPelt"
+		color 213
+		value 6
+	end
+
+	base described
+		text "You see a Shifting Vanilla colored WolfPelt."
+	end
+end
+
+object dShiftingDarkVanillaWolfPelt of WolfPelt
+	properties
+		special
+		name "Shifting Dark Vanilla WolfPelt"
+		color 214
+		value 6
+	end
+
+	base described
+		text "You see a Shifting Dark Vanilla colored WolfPelt."
+	end
+end
+
+object dShiftingDarkerVanillaWolfPelt of WolfPelt
+	properties
+		special
+		name "Shifting Darker Vanilla WolfPelt"
+		color 215
+		value 6
+	end
+
+	base described
+		text "You see a Shifting Darker Vanilla colored WolfPelt."
+	end
+end
+
+object dShiftingDarkestVanillaWolfPelt of WolfPelt
+	properties
+		special
+		name "Shifting Darkest Vanilla WolfPelt"
+		color 216
+		value 6
+	end
+
+	base described
+		text "You see a Shifting Darkest Vanilla colored WolfPelt."
+	end
+end
+
+object dShiftingCoffeeGlowWolfPelt of WolfPelt
+	properties
+		special
+		name "Shifting Coffee Glow WolfPelt"
+		color 217
+		value 6
+	end
+
+	base described
+		text "You see a Shifting Coffee Glow colored WolfPelt."
+	end
+end
+
+object dShiftingOffWhiteLinesWolfPelt of WolfPelt
+	properties
+		special
+		name "Shifting Off White Lines WolfPelt"
+		color 218
+		value 6
+	end
+
+	base described
+		text "You see a Shifting Off White Lines colored WolfPelt."
+	end
+end
+
+object dShiftingDarkGreenGlowWolfPelt of WolfPelt
+	properties
+		special
+		name "Shifting Dark Green Glow WolfPelt"
+		color 219
+		value 6
+	end
+
+	base described
+		text "You see a Shifting Dark Green Glow colored WolfPelt."
+	end
+end
+
+object dShiftingGreenGlowWolfPelt of WolfPelt
+	properties
+		special
+		name "Shifting Green Glow WolfPelt"
+		color 220
+		value 6
+	end
+
+	base described
+		text "You see a Shifting Green Glow colored WolfPelt."
+	end
+end
+
+object dShiftingOliveWolfPelt of WolfPelt
+	properties
+		special
+		name "Shifting Olive WolfPelt"
+		color 221
+		value 6
+	end
+
+	base described
+		text "You see a Shifting Olive colored WolfPelt."
+	end
+end
+
+object dShiftingLimeWolfPelt of WolfPelt
+	properties
+		special
+		name "Shifting Lime WolfPelt"
+		color 222
+		value 6
+	end
+
+	base described
+		text "You see a Shifting Lime colored WolfPelt."
+	end
+end
+
+object dShiftingWhiteGreenWolfPelt of WolfPelt
+	properties
+		special
+		name "Shifting White Green WolfPelt"
+		color 223
+		value 6
+	end
+
+	base described
+		text "You see a Shifting White Green colored WolfPelt."
+	end
+end
+
+object dShiftingGrayLimeWolfPelt of WolfPelt
+	properties
+		special
+		name "Shifting Gray Lime WolfPelt"
+		color 224
+		value 6
+	end
+
+	base described
+		text "You see a Shifting Gray Lime colored WolfPelt."
+	end
+end
+
+object dShiftingLighterFossilWolfPelt of WolfPelt
+	properties
+		special
+		name "Shifting Lighter Fossil WolfPelt"
+		color 225
+		value 6
+	end
+
+	base described
+		text "You see a Shifting Lighter Fossil colored WolfPelt."
+	end
+end
+
+object dShiftingLightFossilWolfPelt of WolfPelt
+	properties
+		special
+		name "Shifting Light Fossil WolfPelt"
+		color 226
+		value 6
+	end
+
+	base described
+		text "You see a Shifting Light Fossil colored WolfPelt."
+	end
+end
+
+object dShiftingFossilWolfPelt of WolfPelt
+	properties
+		special
+		name "Shifting Fossil WolfPelt"
+		color 227
+		value 6
+	end
+
+	base described
+		text "You see a Shifting Fossil colored WolfPelt."
+	end
+end
+
+object dShiftingDarkFossilWolfPelt of WolfPelt
+	properties
+		special
+		name "Shifting Dark Fossil WolfPelt"
+		color 228
+		value 6
+	end
+
+	base described
+		text "You see a Shifting Dark Fossil colored WolfPelt."
+	end
+end
+
+object dShiftingDarkerFossilWolfPelt of WolfPelt
+	properties
+		special
+		name "Shifting Darker Fossil WolfPelt"
+		color 229
+		value 6
+	end
+
+	base described
+		text "You see a Shifting Darker Fossil colored WolfPelt."
+	end
+end
+
+object dShiftingBlackGreenGlowWolfPelt of WolfPelt
+	properties
+		special
+		name "Shifting Black Green Glow WolfPelt"
+		color 230
+		value 6
+	end
+
+	base described
+		text "You see a Shifting Black Green Glow colored WolfPelt."
+	end
+end
+
+object dShiftingLightGreenWolfPelt of WolfPelt
+	properties
+		special
+		name "Shifting Light Green WolfPelt"
+		color 231
+		value 6
+	end
+
+	base described
+		text "You see a Shifting Light Green colored WolfPelt."
+	end
+end
+
+object dDarkGreenGlowWolfPelt of WolfPelt
+	properties
+		special
+		name "Dark Green Glow WolfPelt"
+		color 232
+		value 6
+	end
+
+	base described
+		text "You see a Dark Green Glow colored WolfPelt."
+	end
+end
+
+object dLightGreenInvisibleLinesWolfPelt of WolfPelt
+	properties
+		special
+		name "Light Green Invisible Lines WolfPelt"
+		color 233
+		value 6
+	end
+
+	base described
+		text "You see a Light Green Invisible Lines colored WolfPelt."
+	end
+end
+
+object dInvisibleLightGreenWolfPelt of WolfPelt
+	properties
+		special
+		name "Invisible Light Green WolfPelt"
+		color 234
+		value 6
+	end
+
+	base described
+		text "You see a Invisible Light Green colored WolfPelt."
+	end
+end
+
+object dInvisibleLightGreenLinesWolfPelt of WolfPelt
+	properties
+		special
+		name "Invisible Light Green Lines WolfPelt"
+		color 235
+		value 6
+	end
+
+	base described
+		text "You see a Invisible Light Green Lines colored WolfPelt."
+	end
+end
+
+object dCompletelyInvisibleWolfPelt of WolfPelt
+	properties
+		special
+		name "Completely Invisible WolfPelt"
+		color 236
+		value 6
+	end
+
+	base described
+		text "You see a Completely Invisible colored WolfPelt."
+	end
+end
+
+object dInvisibleBlackOutlinedWolfPelt of WolfPelt
+	properties
+		special
+		name "Invisible Black Outlined WolfPelt"
+		color 237
+		value 6
+	end
+
+	base described
+		text "You see a Invisible Black Outlined colored WolfPelt."
+	end
+end
+
+object dInvisibleClearSpotsWolfPelt of WolfPelt
+	properties
+		special
+		name "Invisible Clear Spots WolfPelt"
+		color 238
+		value 6
+	end
+
+	base described
+		text "You see a Invisible Clear Spots colored WolfPelt."
+	end
+end
+
+object dDarkInvisibleWolfPelt of WolfPelt
+	properties
+		special
+		name "Dark Invisible WolfPelt"
+		color 239
+		value 6
+	end
+
+	base described
+		text "You see a Dark Invisible colored WolfPelt."
+	end
+end
+
+object dNormalInvisibleWolfPelt of WolfPelt
+	properties
+		special
+		name "Normal Invisible WolfPelt"
+		color 240
+		value 6
+	end
+
+	base described
+		text "You see a Normal Invisible colored WolfPelt."
+	end
+end
+
+object dAlmostInvisibleWolfPelt of WolfPelt
+	properties
+		special
+		name "Almost Invisible WolfPelt"
+		color 241
+		value 6
+	end
+
+	base described
+		text "You see a Almost Invisible colored WolfPelt."
+	end
+end
+
+object dAlmostInvisibleLinesWolfPelt of WolfPelt
+	properties
+		special
+		name "Almost Invisible Lines WolfPelt"
+		color 242
+		value 6
+	end
+
+	base described
+		text "You see a Almost Invisible Lines colored WolfPelt."
+	end
+end
+
+object dNearInvisibleLinesWolfPelt of WolfPelt
+	properties
+		special
+		name "Near Invisible Lines WolfPelt"
+		color 243
+		value 6
+	end
+
+	base described
+		text "You see a Near Invisible Lines colored WolfPelt."
+	end
+end
+
+object dSecondCompletelyInvisibleWolfPelt of WolfPelt
+	properties
+		special
+		name "Second Completely Invisible WolfPelt"
+		color 244
+		value 6
+	end
+
+	base described
+		text "You see a Second Completely Invisible colored WolfPelt."
+	end
+end
+
+object dThirdCompletelyInvisibleWolfPelt of WolfPelt
+	properties
+		special
+		name "Third Completely Invisible WolfPelt"
+		color 245
+		value 6
+	end
+
+	base described
+		text "You see a Third Completely Invisible colored WolfPelt."
+	end
+end
+
+object dForthCompletelyInvisibleWolfPelt of WolfPelt
+	properties
+		special
+		name "Forth Completely Invisible WolfPelt"
+		color 246
+		value 6
+	end
+
+	base described
+		text "You see a Forth Completely Invisible colored WolfPelt."
+	end
+end
+
+object dFithCompletelyInvisibleWolfPelt of WolfPelt
+	properties
+		special
+		name "Fith Completely Invisible WolfPelt"
+		color 247
+		value 6
+	end
+
+	base described
+		text "You see a Fith Completely Invisible colored WolfPelt."
+	end
+end
+
+object dSixthCompletelyInvisibleWolfPelt of WolfPelt
+	properties
+		special
+		name "Sixth Completely Invisible WolfPelt"
+		color 248
+		value 6
+	end
+
+	base described
+		text "You see a Sixth Completely Invisible colored WolfPelt."
+	end
+end
+
+object dSeventhCompletelyInvisibleWolfPelt of WolfPelt
+	properties
+		special
+		name "Seventh Completely Invisible WolfPelt"
+		color 249
+		value 6
+	end
+
+	base described
+		text "You see a Seventh Completely Invisible colored WolfPelt."
+	end
+end
+
+object dEighthCompletelyInvisibleWolfPelt of WolfPelt
+	properties
+		special
+		name "Eighth Completely Invisible WolfPelt"
+		color 250
+		value 6
+	end
+
+	base described
+		text "You see a Eighth Completely Invisible colored WolfPelt."
+	end
+end
+
+object dNinthCompletelyInvisibleWolfPelt of WolfPelt
+	properties
+		special
+		name "Ninth Completely Invisible WolfPelt"
+		color 251
+		value 6
+	end
+
+	base described
+		text "You see a Ninth Completely Invisible colored WolfPelt."
+	end
+end
+
+object dTenthCompletelyInvisibleWolfPelt of WolfPelt
+	properties
+		special
+		name "Tenth Completely Invisible WolfPelt"
+		color 252
+		value 6
+	end
+
+	base described
+		text "You see a Tenth Completely Invisible colored WolfPelt."
+	end
+end
+
+object dInvisibleBlackLinesWolfPelt of WolfPelt
+	properties
+		special
+		name "Invisible Black Lines WolfPelt"
+		color 253
+		value 6
+	end
+
+	base described
+		text "You see a Invisible Black Lines colored WolfPelt."
+	end
+end
+
+object dBlackInvisibleLinesWolfPelt of WolfPelt
+	properties
+		special
+		name "Black Invisible Lines WolfPelt"
+		color 254
+		value 6
+	end
+
+	base described
+		text "You see a Black Invisible Lines colored WolfPelt."
+	end
+end
+
+object dDarkNaturalBrownWolfPelt of WolfPelt
+	properties
+		special
+		name "Dark Natural Brown WolfPelt"
+		color 255
+		value 6
+	end
+
+	base described
+		text "You see a Dark Natural Brown colored WolfPelt."
+	end
+end

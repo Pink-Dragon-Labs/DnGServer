@@ -1,0 +1,355 @@
+object GodsNPC of NPC
+# Base NPC Gods
+	properties
+	special
+		name "Gods"
+		view 100                #100
+		alignment 127
+		
+		minLevel 1400
+		maxLevel 1800
+
+		intelligence 75
+		strength 300
+		endurance 150		# 140k - 180k
+		dexterity 40
+		quickness 80
+
+		soundGroup 16
+
+		damageType 2		#Bludgeon
+		armorType 3			#Plate
+		 
+
+		caffect 0			# Cancel affect (0)
+		#affect 8 0 0 -1		# do experience damage
+		
+		girth 100
+		height 100		
+		
+
+	end
+
+	base character
+		
+		skill 11 5	# Grandmaster Sorcerer
+		skill 12 5	# Grandmaster Elementalism
+		skill 13 5	# Grandmaster Mysticism
+		skill 14 5	# Grandmaster Thaumaturgist
+		skill 15 5	# Grandmaster Necromancy
+		skill 28 5	# Grandmaster Meditation
+		skill 29 5	# Grandmaster Critical Striker
+		skill 9 5	# Grandmaster Dodger
+		skill 16 5	# Grandmaster Theurgism
+
+		# Grandmaster Weapons
+		skill 0 5
+		skill 1 5
+		skill 2 5
+		skill 3 5
+		skill 4 5
+		skill 5 5
+		skill 6 5
+		skill 7 5
+		skill 8 5
+		skill 10 5
+	end
+
+	base container
+		worn aCombat
+		#worn rEndurance
+		worn rStrength
+		object GodScrollTable
+	end
+
+	actions
+		vBeBorn changeSDM self 500 0 1 3 4		# Increase Overall Circle SDM
+		vBeBorn changeSDM self 50 2				# Increase Myst SDM
+	end
+
+	base npc
+		code godsewer
+	end
+
+	base described
+		text "Game-controlled Wizard.\n\n"
+	end
+end
+
+#------------------------------------------------------------Avatar of Duach
+object godDuach of GodsNPC
+	properties
+	special
+		name "Avatar of Duach"
+		alignment 127
+		 
+		
+		affect 1 2 0 -1		# damage +fire				
+		affect 2 2 0 -1		# damage +cold	
+		affect 3 2 0 -1		# damage +elecric			
+		affect 4 2 0 -1		# damage +acid
+		affect 17 0 0 -1	# see invisible
+		 	
+		affect 55 0 0 -1	# RESSURECT 100%
+		affect 65 0 0 -1	# Retention		
+ 		affect 56 0 0 -1	# Extra Attack
+		
+	end
+
+	base container
+		#HeadNo. = 1-Sex, 2-SkinColor, 3-HeadNo, 4-BrowNo, 5-EyeClr, 6-EyeNo,  
+		#          7-FaceHairNo, 8-HairNo, 9-HairClr, 10-Nose, 11-Mouth, 12-Ear, 13-Race,   
+		head 2 2 15 2 2 2 2 31 2 2 2 2
+		worn GodDagger
+		worn DesBoots 
+		worn DesWrist
+		worn DesPlate
+		worn DesPants
+		worn DesCowl
+		worn DesBelt
+		object Sewerdrop8
+	end
+
+	actions
+		vBeBorn changeSpellResistance self 80 4			#80% Resist Necro
+		vBeBorn changeSpellResistance self 60 0 1 2 3	#60% Resist Sorc, Elem, and Thau, Myst
+		vBeBorn changeGoodMDMMod self 300				#+300% melee vs Good
+		vBeBorn changeEvilMDMMod self 300				#+300% melee vs Evil		
+	end
+
+	base described
+		text "Avatar of Duach\n\nGod of Evil and Darkness.\n\n""
+	end
+end
+
+#------------------------------------------------------------Avatar of Elphame
+object godElphame of GodsNPC
+	properties
+	special
+		name "Avatar of Elphame"
+		alignment 127
+		girth 100
+		height 100			
+		affect 1 2 0 -1		# damage +fire				
+		affect 2 2 0 -1		# damage +cold	
+		affect 3 2 0 -1		# damage +elecric			
+		affect 4 2 0 -1		# damage +acid
+		affect 17 0 0 -1	# see invisible
+		 	
+		affect 55 0 0 -1	# RESSURECT 100%
+		affect 65 0 0 -1	# Retention		
+ 		affect 56 0 0 -1	# Extra Attack
+				
+	end
+
+	base container
+		#HeadNo. = 1-Sex, 2-SkinColor, 3-HeadNo, 4-BrowNo, 5-EyeClr, 6-EyeNo,  
+		#          7-FaceHairNo, 8-HairNo, 9-HairClr, 10-Nose, 11-Mouth, 12-Ear, 13-Race,   
+		head 1 3 19 0 0 0 0 31 2 0 0 0
+	
+		worn GodDagger
+		worn ElpBoots
+		worn ElpWrist 
+		worn ElpPlate
+		worn ElpPants
+		worn ElpCowl
+		worn ElpSkirt
+		worn ElpBelt
+		object Sewerdrop8
+	end
+
+	actions
+		vBeBorn changeSpellResistance self 60 4			#60% Resist Necro
+		vBeBorn changeSpellResistance self 60 0 1 2 3	#60% Resist Sorc, Elem, and Thau, Myst
+		vBeBorn changeGoodMDMMod self 300				#+300% melee vs Good
+		vBeBorn changeEvilMDMMod self 300				#+300% melee vs Evil		
+	end
+
+	base described
+		text "Avatar of Elphame\n\nGoddess of Death.\n\n""
+	end
+	base character
+		sex 1
+	end
+end
+
+#------------------------------------------------------------Avatar of Enid 
+object GodEnid of GodsNPC
+	properties
+	special
+		name "Avatar of Enid"
+		alignment 127
+		girth 100
+		height 100		
+		affect 1 2 0 -1		# damage +fire				
+		affect 2 2 0 -1		# damage +cold	
+		affect 3 2 0 -1		# damage +elecric			
+		affect 4 2 0 -1		# damage +acid
+		affect 17 0 0 -1	# see invisible
+		 	
+		affect 55 0 0 -1	# RESSURECT 100%
+		affect 65 0 0 -1	# Retention		
+ 		affect 56 0 0 -1	# Extra Attack
+				
+	end
+
+	base container
+		#HeadNo. = 1-Sex, 2-SkinColor, 3-HeadNo, 4-BrowNo, 5-EyeClr, 6-EyeNo,  
+		#          7-FaceHairNo, 8-HairNo, 9-HairClr, 10-Nose, 11-Mouth, 12-Ear, 13-Race,   
+		head 1 0 16 0 0 0 0 31 2 0 0 0
+		worn GodDagger
+		worn EniBoots 
+		worn EniWrist
+		worn EniPlate 
+		worn EniPants
+		worn EniCowl
+		worn EniSkirt
+		worn EniBelt
+		object Sewerdrop8
+	end
+
+	actions
+		vBeBorn changeSpellResistance self 60 1 2 4		#60% Resist Elem, Necro, Myst
+		vBeBorn changeEvilMDMMod self 300				#+300% melee vs Evil
+		vBeBorn changeGoodMDMMod self 300				#+300% melee vs Good
+	end
+
+	base described
+		text "Avatar of Enid\n\nGoddess of Peace, Romance, Nature, and all things good.\n\n""
+	end
+	base character
+		sex 1
+	end
+end
+#------------------------------------------------------------Avatar of Mabon 
+object GodMabon of GodsNPC
+	properties
+	special
+		name "Avatar of Mabon"
+		alignment 127
+		
+		affect 1 2 0 -1		# damage +fire				
+		affect 2 2 0 -1		# damage +cold	
+		affect 3 2 0 -1		# damage +elecric			
+		affect 4 2 0 -1		# damage +acid
+		affect 17 0 0 -1	# see invisible
+		 	
+		affect 55 0 0 -1	# RESSURECT 100%
+		affect 65 0 0 -1	# Retention		
+ 		affect 56 0 0 -1	# Extra Attack
+				
+	end
+
+	base container
+		#HeadNo. = 1-Sex, 2-SkinColor, 3-HeadNo, 4-BrowNo, 5-EyeClr, 6-EyeNo,  
+		#          7-FaceHairNo, 8-HairNo, 9-HairClr, 10-Nose, 11-Mouth, 12-Ear, 13-Race,   
+		head 2 2 18 2 2 2 2 31 2 2 2 2
+		worn GodDagger
+		worn MabBoots 
+		worn MabWrist
+		worn MabPlate 
+		worn MabPants
+		worn MabCowl
+		worn MabRobe
+		worn MabBelt
+		object Sewerdrop8
+	end
+
+	actions
+		vBeBorn changeSpellResistance self 60 1 2 4		#60% Resist Elem, Necro, Myst
+		vBeBorn changeEvilMDMMod self 300				#+300% melee vs Evil
+		vBeBorn changeGoodMDMMod self 300				#+300% melee vs Good
+	end
+
+	base described
+		text "Avatar of Mabon\n\nGod of Mysticism and Magic.\n\n""
+	end
+end
+#------------------------------------------------------------Avatar of Finvarra
+object GodFinvarra of GodsNPC
+	properties
+	special
+		name "Avatar of Finvarra"
+		alignment 127
+		
+		affect 1 2 0 -1		# damage +fire				
+		affect 2 2 0 -1		# damage +cold	
+		affect 3 2 0 -1		# damage +elecric			
+		affect 4 2 0 -1		# damage +acid
+		affect 17 0 0 -1	# see invisible
+		 	
+		affect 55 0 0 -1	# RESSURECT 100%
+		affect 65 0 0 -1	# Retention		
+ 		affect 56 0 0 -1	# Extra Attack
+				
+	end
+
+	base container
+		#HeadNo. = 1-Sex, 2-SkinColor, 3-HeadNo, 4-BrowNo, 5-EyeClr, 6-EyeNo,  
+		#          7-FaceHairNo, 8-HairNo, 9-HairClr, 10-Nose, 11-Mouth, 12-Ear, 13-Race,   
+		head 2 2 17 2 2 2 2 31 2 2 2 2
+		worn GodDagger
+		worn FinBoots
+		worn FinWrist 
+		worn FinPants
+		worn FinCowl
+		worn FinBelt
+		object Sewerdrop8
+	end
+	actions
+		vBeBorn changeSpellResistance self 25 0			#25% Resist Sorc
+		vBeBorn changeSpellResistance self 60 1 2 4		#60% Resist Elem, Necro, Myst
+		vBeBorn changeGoodMDMMod self 300				#+300% melee vs Good
+		vBeBorn changeEvilMDMMod self 300				#+300% melee vs Evil
+	end
+
+	base described
+		text "Avatar of Finvarra\n\nGod of War and Violence.\n\n""
+	end
+end
+
+#------------------------------------------------------------Avatar of Despothes
+object GodDespothes of GodsNPC
+	properties
+	special
+		name "Avatar of Despothes"
+		alignment 127
+		
+		affect 1 2 0 -1		# damage +fire				
+		affect 2 2 0 -1		# damage +cold	
+		affect 3 2 0 -1		# damage +elecric			
+		affect 4 2 0 -1		# damage +acid
+		affect 17 0 0 -1	# see invisible
+		 	
+		affect 55 0 0 -1	# RESSURECT 100%
+		affect 65 0 0 -1	# Retention		
+ 		affect 56 0 0 -1	# Extra Attack
+				
+	end
+
+	base container
+		#HeadNo. = 1-Sex, 2-SkinColor, 3-HeadNo, 4-BrowNo, 5-EyeClr, 6-EyeNo,  
+		#          7-FaceHairNo, 8-HairNo, 9-HairClr, 10-Nose, 11-Mouth, 12-Ear, 13-Race,   
+		head 2 2 14 2 2 2 2 31 2 2 2 2
+		worn GodDagger
+		worn DesBoots
+		worn DesWrist 
+		worn DesPlate
+		worn DesPants
+		worn DesCowl
+		worn DesRobe
+		worn DesBelt
+		object Sewerdrop8
+	end
+	actions
+		vBeBorn changeSpellResistance self 100 1	#100% Resist Elem
+		vBeBorn changeSpellResistance self 25 0 4	#25% Resist Sorc, Necro
+		vBeBorn changeSpellResistance self 60 2		#60% Resist Myst
+		vBeBorn changeGoodMDMMod self 300			#+300% melee vs Good
+		vBeBorn changeEvilMDMMod self 300			#+300% melee vs Evil
+	end
+
+	base described
+		text "Avatar of Despothes\n\nKing of all ten Realm Gods.\n\n""
+	end
+end

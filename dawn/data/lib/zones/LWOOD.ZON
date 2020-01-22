@@ -1,0 +1,119 @@
+name "lostwoods"
+title "The Lost Woods"
+worldFile "../data/lib/world/LWOOD1.WLD"
+worldFile "../data/lib/world/LWOOD2.WLD"
+worldFile "../data/lib/world/LWOOD3.WLD"
+worldFile "../data/lib/world/LWOOD4.WLD"
+worldFile "../data/lib/world/LWOOD5.WLD"
+resetInterval 9000000 
+maximumObjectAge 0 
+allowCombat 11
+midiFile 12
+
+
+groupChance 1200
+monster Goo 40
+monster GooA 40
+monster GooB 40
+monster GooC 40
+monster GooD 40
+monster GooE 40
+monster GooF 40
+monster GooG 40
+monster GooH 40
+monster GooI 40
+monster GooJ 40
+monster GooK 40
+monster GooL 40
+monster GooM 40
+monster GooN 40
+monster GooO 40
+monster GooP 40
+monster GooQ 40
+monster GooR 40
+monster GooS 40
+monster GooT 40
+monster Basilisk 35
+monster ColdBasilisk 35
+monster AcidBasilisk 35
+monster PoisonBasilisk 35
+monster ElectricBasilisk 35
+monster Crusader 115
+monster Gladiator 130
+monster BanditMystic 45
+monster Azazel 25
+monster AncientPaladin 25
+monsterGroup 6 1 GooM 1 GooJ 1 GooP 1 GooH 1 GooN 1 GooD
+monsterGroup 4 1 GooM 1 GooJ 1 GooP 1 GooH
+monsterGroup 4 1 GooM 1 GooJ 1 GooN 1 GooD
+monsterGroup 4 1 GooP 1 GooH 1 GooN 1 GooD
+monsterGroup 4 1 GooM 1 GooJ 1 GooP 1 GooH
+monsterGroup 4 1 GooM 1 GooJ 1 GooN 1 GooD
+monsterGroup 4 1 GooP 1 GooH 1 GooN 1 GooD
+monsterGroup 6 1 GooM 1 GooJ 1 GooP 1 GooH 1 GooN 1 GooD
+monsterGroup 6 1 GooM 1 GooJ 1 GooP 1 GooH 1 GooN 1 GooD
+monsterGroup 6 1 GooM 1 GooJ 1 GooP 1 GooH 1 GooN 1 GooD
+monsterGroup 10 1 GooM 1 GooJ 1 GooP 1 GooH 1 GooM 1 GooJ 1 GooP 1 GooH 1 GooM 1 GooJ
+monsterGroup 10 1 GooM 1 GooJ 1 GooP 1 GooH 1 GooM 1 GooJ 1 GooP 1 GooH 1 GooM 1 GooJ
+monsterGroup 10 1 GooM 1 GooJ 1 GooP 1 GooH 1 GooM 1 GooJ 1 GooP 1 GooH 1 GooM 1 GooJ
+monsterGroup 10 1 GooM 1 GooJ 1 GooP 1 GooH 1 GooM 1 GooJ 1 GooP 1 GooH 1 GooM 1 GooJ
+monsterGroup 6 1 GooA 1 GooH 1 GooE 1 GooH 1 GooK 1 GooS
+monsterGroup 4 1 GooA 1 GooH 1 GooE 1 GooH
+monsterGroup 4 1 GooA 1 GooH 1 GooK 1 GooS
+monsterGroup 4 1 GooE 1 GooH 1 GooK 1 GooS
+monsterGroup 4 1 GooA 1 GooH 1 GooE 1 GooH
+monsterGroup 4 1 GooA 1 GooH 1 GooK 1 GooS
+monsterGroup 4 1 GooE 1 GooH 1 GooK 1 GooS
+monsterGroup 6 1 GooA 1 GooH 1 GooE 1 GooH 1 GooK 1 GooS
+monsterGroup 6 1 GooA 1 GooH 1 GooE 1 GooH 1 GooK 1 GooS
+monsterGroup 6 1 GooA 1 GooH 1 GooE 1 GooH 1 GooK 1 GooS
+monsterGroup 10 1 GooA 1 GooH 1 GooE 1 GooH 1 GooA 1 GooH 1 GooE 1 GooH 1 GooA 1 GooH
+monsterGroup 10 1 GooA 1 GooH 1 GooE 1 GooH 1 GooA 1 GooH 1 GooE 1 GooH 1 GooA 1 GooH
+monsterGroup 10 1 GooA 1 GooH 1 GooE 1 GooH 1 GooA 1 GooH 1 GooE 1 GooH 1 GooA 1 GooH
+monsterGroup 10 1 GooA 1 GooH 1 GooE 1 GooH 1 GooA 1 GooH 1 GooE 1 GooH 1 GooA 1 GooH
+monsterGroup 6 1 GooM 1 GooJ 1 GooP 1 GooH 1 GooN 1 GooD
+monsterGroup 4 1 GooM 1 GooJ 1 GooP 1 GooH
+monsterGroup 4 1 GooM 1 GooJ 1 GooN 1 GooD
+monsterGroup 4 1 GooP 1 GooH 1 GooN 1 GooD
+monsterGroup 4 1 GooM 1 GooJ 1 GooP 1 GooH
+monsterGroup 4 1 GooM 1 GooJ 1 GooN 1 GooD
+monsterGroup 4 1 GooP 1 GooH 1 GooN 1 GooD
+monsterGroup 6 1 GooM 1 GooJ 1 GooP 1 GooH 1 GooN 1 GooD
+monsterGroup 6 1 GooM 1 GooJ 1 GooP 1 GooH 1 GooN 1 GooD
+monsterGroup 6 1 GooM 1 GooJ 1 GooP 1 GooH 1 GooN 1 GooD
+monsterGroup 10 1 GooM 1 GooJ 1 GooP 1 GooH 1 GooM 1 GooJ 1 GooP 1 GooH 1 GooM 1 GooJ
+monsterGroup 10 1 GooM 1 GooJ 1 GooP 1 GooH 1 GooM 1 GooJ 1 GooP 1 GooH 1 GooM 1 GooJ
+monsterGroup 10 1 GooM 1 GooJ 1 GooP 1 GooH 1 GooM 1 GooJ 1 GooP 1 GooH 1 GooM 1 GooJ
+monsterGroup 10 1 GooM 1 GooJ 1 GooP 1 GooH 1 GooM 1 GooJ 1 GooP 1 GooH 1 GooM 1 GooJ
+monsterGroup 6 1 GooA 1 GooH 1 GooE 1 GooH 1 GooK 1 GooS
+monsterGroup 4 1 GooA 1 GooH 1 GooE 1 GooH
+monsterGroup 4 1 GooA 1 GooH 1 GooK 1 GooS
+monsterGroup 4 1 GooE 1 GooH 1 GooK 1 GooS
+monsterGroup 4 1 GooA 1 GooH 1 GooE 1 GooH
+monsterGroup 4 1 GooA 1 GooH 1 GooK 1 GooS
+monsterGroup 4 1 GooE 1 GooH 1 GooK 1 GooS
+monsterGroup 6 1 GooA 1 GooH 1 GooE 1 GooH 1 GooK 1 GooS
+monsterGroup 6 1 GooA 1 GooH 1 GooE 1 GooH 1 GooK 1 GooS
+monsterGroup 6 1 GooA 1 GooH 1 GooE 1 GooH 1 GooK 1 GooS
+monsterGroup 10 1 GooA 1 GooH 1 GooE 1 GooH 1 GooA 1 GooH 1 GooE 1 GooH 1 GooA 1 GooH
+monsterGroup 10 1 GooA 1 GooH 1 GooE 1 GooH 1 GooA 1 GooH 1 GooE 1 GooH 1 GooA 1 GooH
+monsterGroup 10 1 GooA 1 GooH 1 GooE 1 GooH 1 GooA 1 GooH 1 GooE 1 GooH 1 GooA 1 GooH
+monsterGroup 10 1 GooA 1 GooH 1 GooE 1 GooH 1 GooA 1 GooH 1 GooE 1 GooH 1 GooA 1 GooH
+
+#ambushInterval 40
+#ambush 10 Gladiator Gladiator
+#ambush 10 Gladiator Gladiator Crusader
+#ambush 10 Gladiator Gladiator BanditMystic
+#ambush 10 Basilisk Basilisk Basilisk Basilisk 
+#ambush 10 GooA GooB GooC GooD GooE GooF GooG GooH GooI GooJ GooK GooL GooM GooN
+#ambush 10 Gladiator Crusader BanditMystic BanditMystic 
+#ambush 10 Goo Goo Goo Basilisk Basilisk 
+#ambush 10 Azazel 
+#ambush 10 Azazel Azazel
+#ambush 10 SavageOgre
+#ambush 10 SavageOgreWizard
+#ambush 10 AncientWizard
+#ambush 10 AncientPriestess
+#ambush 10 AncientPaladin AncientSeraph
+#ambush 10 AncientSeraph AncientSeraph
+#ambush 10 AncientPaladin AncientPriestess

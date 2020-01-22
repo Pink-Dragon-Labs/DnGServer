@@ -1,0 +1,1725 @@
+room 14064
+	properties
+		picture 3071
+		north 14065
+		south 14068
+		west 14060
+	end
+	objects
+		object fire314064-0 of Fire3
+			properties
+				x 385
+				y 129
+				loop 0
+				 
+			end
+		end
+		object stalagmite314064-0 of Stalagmite3
+			properties
+				x 350
+				y 131
+				loop 0
+				 
+			end
+		end
+		object column14064-0 of Column
+			properties
+				x 466
+				y 145
+				loop 0
+				 
+			end
+		end
+		object character14064-0 of Gladiator
+			properties
+				loop 0
+				x 298
+				y 168
+				 
+			end
+		end
+		object character14064-1 of Crusader
+			properties
+				loop 1
+				x 400
+				y 170
+				 
+			end
+		end
+		object fire214064-0 of Fire2
+			properties
+				x 228
+				y 189
+				loop 0
+				 
+			end
+		end
+		object fatColumn14064-0 of FatColumn
+			properties
+				x 546
+				y 190
+				loop 0
+				 
+			end
+		end
+		object fire214064-1 of Fire2
+			properties
+				x 57
+				y 191
+				loop 0
+				 
+			end
+		end
+		object fatColumn14064-1 of FatColumn
+			properties
+				x 140
+				y 193
+				loop 0
+				 
+			end
+		end
+		object character14064-2 of BanditThief
+			properties
+				loop 0
+				x 69
+				y 199
+				 
+			end
+		end
+		object character14064-3 of BanditMystic
+			properties
+				loop 1
+				x 219
+				y 199
+				 
+			end
+		end
+		object character14064-4 of AncientPaladin
+			properties
+				loop 1
+				x 520
+				y 233
+				 
+			end
+		end
+		object column14064-1 of Column
+			properties
+				x 619
+				y 240
+				loop 0
+				 
+			end
+		end
+		object stalagmite114064-0 of Stalagmite1
+			properties
+				x 630
+				y 285
+				loop 0
+				 
+			end
+		end
+		object character14064-5 of EvilMinion
+			properties
+				loop 1
+				x 570
+				y 303
+				 
+			end
+		end
+		object smoke114064-0 of Smoke1
+			properties
+				x 353
+				y 307
+				loop 0
+				 
+			end
+		end
+		object rock114064-0 of Rock1
+			properties
+				x 339
+				y 323
+				loop 0
+				 
+			end
+		end
+		object stalagmite114064-1 of Stalagmite1
+			properties
+				x 30
+				y 328
+				loop 0
+				 
+			end
+		end
+		object stalagmite114064-2 of Stalagmite1
+			properties
+				x 634
+				y 330
+				loop 0
+				 
+			end
+		end
+	end
+end
+room 14063
+	properties
+		picture 3071
+		flags 2
+		north 14066
+		east 14060
+		south 14067
+	end
+	atpinfo
+		204 12 305 
+	end
+	objects
+		object fatColumn14063-0 of FatColumn
+			properties
+				x 78
+				y 115
+				loop 0
+				 
+			end
+		end
+		object column14063-0 of Column
+			properties
+				x 33
+				y 134
+				loop 0
+				 
+			end
+		end
+		object stalagmite114063-0 of Stalagmite1
+			properties
+				x 24
+				y 171
+				loop 0
+				 
+			end
+		end
+		object smoke214063-0 of Smoke2
+			properties
+				x 480
+				y 186
+				loop 0
+				 
+			end
+		end
+		object fatColumn14063-1 of FatColumn
+			properties
+				x 299
+				y 191
+				loop 0
+				 
+			end
+		end
+		object fire114063-0 of Fire1
+			properties
+				x 480
+				y 214
+				loop 0
+				 
+			end
+		end
+		object yellowShroomC14063-0 of YellowShroomC
+			properties
+				x 97
+				y 218
+				loop 0
+				 
+			end
+		end
+		object rock314063-0 of Rock3
+			properties
+				x 133
+				y 219
+				loop 0
+				 
+			end
+		end
+		object column14063-1 of Column
+			properties
+				x 385
+				y 221
+				loop 0
+				 
+			end
+		end
+		object yellowShroomB14063-0 of YellowShroomB
+			properties
+				x 566
+				y 259
+				loop 0
+				 
+			end
+		end
+		object stalagmite214063-0 of Stalagmite2
+			properties
+				x 515
+				y 263
+				loop 0
+				 
+			end
+		end
+		object stalagmite114063-1 of Stalagmite1
+			properties
+				x 366
+				y 273
+				loop 0
+				 
+			end
+		end
+		object stool14063-0 of Stool
+			properties
+				x 398
+				y 282
+				loop 0
+				 
+			end
+		end
+		object stool14063-1 of Stool
+			properties
+				x 235
+				y 283
+				loop 0
+				 
+			end
+		end
+		object bones14063-0 of Bones
+			properties
+				x 313
+				y 305
+				loop 0
+				 
+			end
+		end
+		object rock114063-0 of Rock1
+			properties
+				x 9
+				y 320
+				loop 0
+				 
+			end
+		end
+		object stalagmite114063-2 of Stalagmite1
+			properties
+				x 629
+				y 332
+				loop 0
+				 
+			end
+		end
+		object character14063-0 of Gladiator
+			properties
+				loop 0
+				x 245
+				y 292
+				 
+			end
+		end
+		object character14063-1 of Protector
+			properties
+				loop 1
+				x 365
+				y 293
+				 
+			end
+		end
+		object character14063-2 of Champion
+			properties
+				loop 0
+				x 22
+				y 301
+				 
+			end
+		end
+		object character14063-3 of Crusader
+			properties
+				loop 0
+				x 77
+				y 167
+				 
+			end
+		end
+		object character14063-4 of BanditMystic
+			properties
+				loop 2
+				x 300
+				y 207
+				 
+			end
+		end
+		object character14063-5 of BanditThief
+			properties
+				loop 2
+				x 538
+				y 211
+				 
+			end
+		end
+	end
+end
+room 14061
+	properties
+		picture 3071
+		flags 2
+		east 14065
+		south 14060
+		west 14066
+	end
+	atpinfo
+		181 485 191 
+	end
+	objects
+		object fatColumn14061-0 of FatColumn
+			properties
+				x 448
+				y 97
+				loop 0
+				 
+			end
+		end
+		object fatColumn14061-1 of FatColumn
+			properties
+				x 589
+				y 100
+				loop 0
+				 
+			end
+		end
+		object fatColumn14061-2 of FatColumn
+			properties
+				x 124
+				y 106
+				loop 0
+				 
+			end
+		end
+		object fatColumn14061-3 of FatColumn
+			properties
+				x 298
+				y 107
+				loop 0
+				 
+			end
+		end
+		object column14061-0 of Column
+			properties
+				x 496
+				y 110
+				loop 0
+				 
+			end
+		end
+		object column14061-1 of Column
+			properties
+				x 399
+				y 110
+				loop 0
+				 
+			end
+		end
+		object column14061-2 of Column
+			properties
+				x 211
+				y 115
+				loop 0
+				 
+			end
+		end
+		object column14061-3 of Column
+			properties
+				x 33
+				y 116
+				loop 0
+				 
+			end
+		end
+		object stalagmite314061-0 of Stalagmite3
+			properties
+				x 92
+				y 171
+				loop 0
+				 
+			end
+		end
+		object skull14061-0 of Skull
+			properties
+				x 67
+				y 174
+				loop 0
+				 
+			end
+		end
+		object yellowShroomC14061-0 of YellowShroomC
+			properties
+				x 249
+				y 206
+				loop 0
+				 
+			end
+		end
+		object rock214061-0 of Rock2
+			properties
+				x 305
+				y 210
+				loop 0
+				 
+			end
+		end
+		object fatColumn14061-4 of FatColumn
+			properties
+				x 479
+				y 237
+				loop 0
+				 
+			end
+		end
+		object yellowShroomB14061-0 of YellowShroomB
+			properties
+				x 107
+				y 315
+				loop 0
+				 
+			end
+		end
+		object rock114061-0 of Rock1
+			properties
+				x 42
+				y 321
+				loop 0
+				 
+			end
+		end
+		object stalagmite414061-0 of Stalagmite4
+			properties
+				x 323
+				y 330
+				loop 0
+				 
+			end
+		end
+		object character14061-0 of AncientPriestess
+			properties
+				loop 0
+				x 412
+				y 244
+				 
+			end
+		end
+		object character14061-1 of Crusader
+			properties
+				loop 1
+				x 544
+				y 244
+				 
+			end
+		end
+		object character14061-2 of Gladiator
+			properties
+				loop 2
+				x 139
+				y 189
+				 
+			end
+		end
+		object character14061-3 of Champion
+			properties
+				loop 2
+				x 204
+				y 190
+				 
+			end
+		end
+		object character14061-4 of Protector
+			properties
+				loop 2
+				x 94
+				y 315
+				 
+			end
+		end
+		object character14061-5 of EvilMinion
+			properties
+				loop 2
+				x 169
+				y 318
+				 
+			end
+		end
+	end
+end
+room 14065
+	properties
+		picture 3071
+		south 14064
+		west 14061
+	end
+	objects
+		object fatColumn14065-0 of FatColumn
+			properties
+				x 454
+				y 86
+				loop 0
+				 
+			end
+		end
+		object column14065-0 of Column
+			properties
+				x 554
+				y 89
+				loop 0
+				 
+			end
+		end
+		object column14065-1 of Column
+			properties
+				x 168
+				y 90
+				loop 0
+				 
+			end
+		end
+		object fire314065-0 of Fire3
+			properties
+				x 438
+				y 91
+				loop 0
+				 
+			end
+		end
+		object column14065-2 of Column
+			properties
+				x 247
+				y 92
+				loop 0
+				 
+			end
+		end
+		object fatColumn14065-1 of FatColumn
+			properties
+				x 66
+				y 95
+				loop 0
+				 
+			end
+		end
+		object fatColumn14065-2 of FatColumn
+			properties
+				x 349
+				y 106
+				loop 0
+				 
+			end
+		end
+		object column14065-3 of Column
+			properties
+				x 594
+				y 132
+				loop 0
+				 
+			end
+		end
+		object rock114065-0 of Rock1
+			properties
+				x 132
+				y 134
+				loop 0
+				 
+			end
+		end
+		object rock214065-0 of Rock2
+			properties
+				x 437
+				y 171
+				loop 0
+				 
+			end
+		end
+		object column14065-4 of Column
+			properties
+				x 630
+				y 190
+				loop 0
+				 
+			end
+		end
+		object column14065-5 of Column
+			properties
+				x 247
+				y 224
+				loop 0
+				 
+			end
+		end
+		object skull14065-0 of Skull
+			properties
+				x 195
+				y 227
+				loop 0
+				 
+			end
+		end
+		object column14065-6 of Column
+			properties
+				x 658
+				y 244
+				loop 0
+				 
+			end
+		end
+		object rock214065-1 of Rock2
+			properties
+				x 72
+				y 246
+				loop 0
+				 
+			end
+		end
+		object smoke214065-0 of Smoke2
+			properties
+				x 399
+				y 246
+				loop 0
+				 
+			end
+		end
+		object stalagmite214065-0 of Stalagmite2
+			properties
+				x 387
+				y 271
+				loop 0
+				 
+			end
+		end
+		object stalagmite114065-0 of Stalagmite1
+			properties
+				x 631
+				y 294
+				loop 0
+				 
+			end
+		end
+		object stalagmite114065-1 of Stalagmite1
+			properties
+				x 616
+				y 328
+				loop 0
+				 
+			end
+		end
+		object character14065-0 of BanditMystic
+			properties
+				loop 1
+				x 560
+				y 170
+				 
+			end
+		end
+		object character14065-1 of BanditMystic
+			properties
+				loop 1
+				x 580
+				y 278
+				 
+			end
+		end
+		object character14065-2 of BanditThief
+			properties
+				loop 0
+				x 171
+				y 233
+				 
+			end
+		end
+		object character14065-3 of BanditThief
+			properties
+				loop 1
+				x 319
+				y 236
+				 
+			end
+		end
+		object character14065-4 of Crusader
+			properties
+				loop 2
+				x 50
+				y 308
+				 
+			end
+		end
+		object character14065-5 of Crusader
+			properties
+				loop 2
+				x 107
+				y 167
+				 
+			end
+		end
+	end
+end
+room 14066
+	properties
+		picture 3071
+		flags 2
+		east 14061
+		south 14063
+	end
+	atpinfo
+		32948 165 106 
+	end
+	objects
+		object column14066-0 of Column
+			properties
+				x 144
+				y 112
+				loop 0
+				 
+			end
+		end
+		object fatColumn14066-0 of FatColumn
+			properties
+				x 240
+				y 121
+				loop 0
+				 
+			end
+		end
+		object fatColumn14066-1 of FatColumn
+			properties
+				x 486
+				y 122
+				loop 0
+				 
+			end
+		end
+		object column14066-1 of Column
+			properties
+				x 395
+				y 124
+				loop 0
+				 
+			end
+		end
+		object column14066-2 of Column
+			properties
+				x 332
+				y 126
+				loop 0
+				 
+			end
+		end
+		object fatColumn14066-2 of FatColumn
+			properties
+				x 608
+				y 139
+				loop 0
+				 
+			end
+		end
+		object fatColumn14066-3 of FatColumn
+			properties
+				x 61
+				y 141
+				loop 0
+				 
+			end
+		end
+		object shroom314066-0 of Shroom3
+			properties
+				x 142
+				y 142
+				loop 0
+				 
+			end
+		end
+		object column14066-3 of Column
+			properties
+				x 45
+				y 178
+				loop 0
+				 
+			end
+		end
+		object column14066-4 of Column
+			properties
+				x 16
+				y 217
+				loop 0
+				 
+			end
+		end
+		object fire214066-0 of Fire2
+			properties
+				x 367
+				y 221
+				loop 0
+				 
+			end
+		end
+		object fire214066-1 of Fire2
+			properties
+				x 460
+				y 221
+				loop 0
+				 
+			end
+		end
+		object bones14066-0 of Bones
+			properties
+				x 413
+				y 223
+				loop 0
+				 
+			end
+		end
+		object cellFloorA14066-0 of CellFloorA
+			properties
+				x 3
+				y 239
+				loop 0
+				 
+			end
+		end
+		object column14066-5 of Column
+			properties
+				x 385
+				y 256
+				loop 0
+				 
+			end
+		end
+		object stalagmite214066-0 of Stalagmite2
+			properties
+				x 195
+				y 279
+				loop 0
+				 
+			end
+		end
+		object stalagmite114066-0 of Stalagmite1
+			properties
+				x 366
+				y 297
+				loop 0
+				 
+			end
+		end
+		object character14066-0 of nLGM
+			properties
+				loop 2
+				x 120
+				y 191
+				 
+			end
+		end
+		object character14066-1 of nLGM
+			properties
+				loop 2
+				x 205
+				y 190
+				 
+			end
+		end
+		object character14066-2 of Crusader
+			properties
+				loop 2
+				x 289
+				y 194
+				 
+			end
+		end
+		object character14066-3 of Gladiator
+			properties
+				loop 0
+				x 30
+				y 301
+				 
+			end
+		end
+		object character14066-4 of Protector
+			properties
+				loop 1
+				x 504
+				y 234
+				 
+			end
+		end
+		object character14066-5 of Champion     
+			properties
+				loop 2
+				x 392
+				y 270
+				 
+			end
+		end
+	end
+end
+room 14067
+	properties
+		picture 3071
+		flags 2
+		north 14063
+		east 14062
+	end
+	atpinfo
+		180 54 281 
+		180 164 285 
+		32948 254 285 
+		181 449 288 
+		182 613 289 
+		7907 578 317 
+		7907 473 317 
+		171 284 319 
+	end
+	objects
+		object smokeA14067-0 of SmokeA
+			properties
+				x 153
+				y 115
+				loop 0
+				 
+			end
+		end
+		object stalagmite214067-0 of Stalagmite2
+			properties
+				x 142
+				y 119
+				loop 0
+				 
+			end
+		end
+		object shroom314067-0 of Shroom3
+			properties
+				x 117
+				y 120
+				loop 0
+				 
+			end
+		end
+		object shroom114067-0 of Shroom1
+			properties
+				x 522
+				y 145
+				loop 0
+				 
+			end
+		end
+		object smokeB14067-0 of SmokeB
+			properties
+				x 299
+				y 179
+				loop 0
+				 
+			end
+		end
+		object column14067-0 of Column
+			properties
+				x 9
+				y 188
+				loop 0
+				 
+			end
+		end
+		object fireA14067-0 of FireA
+			properties
+				x 299
+				y 206
+				loop 0
+				 
+			end
+		end
+		object rock314067-0 of Rock3
+			properties
+				x 321
+				y 210
+				loop 0
+				 
+			end
+		end
+		object stalagmite114067-0 of Stalagmite1
+			properties
+				x 260
+				y 225
+				loop 0
+				 
+			end
+		end
+		object stalagmite214067-1 of Stalagmite2
+			properties
+				x 288
+				y 236
+				loop 0
+				 
+			end
+		end
+		object column14067-1 of Column
+			properties
+				x 385
+				y 241
+				loop 0
+				 
+			end
+		end
+		object rock314067-1 of Rock3
+			properties
+				x 220
+				y 322
+				loop 0
+				 
+			end
+		end
+		object yellowShroomA14067-0 of YellowShroomA
+			properties
+				x 5
+				y 323
+				loop 0
+				 
+			end
+		end
+		object stalagmite214067-2 of Stalagmite2
+			properties
+				x 369
+				y 330
+				loop 0
+				 
+			end
+		end
+		object character14067-0 of BanditMystic
+			properties
+				loop 0
+				x 17
+				y 303
+				 
+			end
+		end
+		object character14067-1 of BanditThief
+			properties
+				loop 0
+				x 57
+				y 194
+				 
+			end
+		end
+		object character14067-2 of Gladiator
+			properties
+				loop 0
+				x 322
+				y 244
+				 
+			end
+		end
+		object character14067-3 of Crusader
+			properties
+				loop 1
+				x 426
+				y 246
+				 
+			end
+		end
+		object character14067-4 of AncientPaladin
+			properties
+				loop 2
+				x 194
+				y 308
+				 
+			end
+		end
+		object character14067-5 of Gladiator
+			properties
+				loop 2
+				x 492
+				y 301
+				 
+			end
+		end
+	end
+end
+room 14068
+	properties
+		picture 3071
+		north 14064
+		west 14062
+	end
+	atpinfo
+		180 88 268 
+		186 172 270 
+		186 281 274 
+		181 506 275 
+		181 317 287 
+		182 7 291 
+		181 298 293 
+		171 274 317 
+	end
+	objects
+		object smokeB14068-0 of SmokeB
+			properties
+				x 210
+				y 93
+				loop 0
+				 
+			end
+		end
+		object rock314068-0 of Rock3
+			properties
+				x 208
+				y 112
+				loop 0
+				 
+			end
+		end
+		object fatColumn14068-0 of FatColumn
+			properties
+				x 58
+				y 188
+				loop 0
+				 
+			end
+		end
+		object shroom314068-0 of Shroom3
+			properties
+				x 21
+				y 192
+				loop 0
+				 
+			end
+		end
+		object fatColumn14068-1 of FatColumn
+			properties
+				x 578
+				y 223
+				loop 0
+				 
+			end
+		end
+		object shroom614068-0 of Shroom6
+			properties
+				x 506
+				y 224
+				loop 0
+				 
+			end
+		end
+		object column14068-0 of Column
+			properties
+				x 328
+				y 247
+				loop 0
+				 
+			end
+		end
+		object rock114068-0 of Rock1
+			properties
+				x 340
+				y 316
+				loop 0
+				 
+			end
+		end
+		object rock314068-1 of Rock3
+			properties
+				x 14
+				y 321
+				loop 0
+				 
+			end
+		end
+		object stalagmite314068-0 of Stalagmite3
+			properties
+				x 494
+				y 325
+				loop 0
+				 
+			end
+		end
+		object rock114068-1 of Rock1
+			properties
+				x 210
+				y 328
+				loop 0
+				 
+			end
+		end
+		object stalagmite114068-0 of Stalagmite1
+			properties
+				x 629
+				y 329
+				loop 0
+				 
+			end
+		end
+		object character14068-0 of Champion
+			properties
+				loop 0
+				x 268
+				y 253
+				 
+			end
+		end
+		object character14068-1 of EvilMinion
+			properties
+				loop 1
+				x 375
+				y 252
+				 
+			end
+		end
+		object character14068-2 of nLGM
+			properties
+				loop 0
+				x 488
+				y 240
+				 
+			end
+		end
+		object character14068-3 of nLGM
+			properties
+				loop 1
+				x 599
+				y 243
+				 
+			end
+		end
+		object character14068-4 of nLGM
+			properties
+				loop 2
+				x 434
+				y 185
+				 
+			end
+		end
+		object character14068-5 of BanditMystic
+			properties
+				loop 2
+				x 62
+				y 200
+				 
+			end
+		end
+	end
+end
+room 14062
+	properties
+		picture 3071
+		north 14060
+		east 14068
+		west 14067
+	end
+	atpinfo
+		204 240 117 
+		181 124 274 
+		180 307 277 
+		181 568 280 
+		182 444 284 
+		7907 468 316 
+		171 290 319 
+	end
+	objects
+		object rock214062-0 of Rock2
+			properties
+				x 222
+				y 118
+				loop 0
+				 
+			end
+		end
+		object fatColumn14062-0 of FatColumn
+			properties
+				x 510
+				y 140
+				loop 0
+				 
+			end
+		end
+		object smokeA14062-0 of SmokeA
+			properties
+				x 391
+				y 179
+				loop 0
+				 
+			end
+		end
+		object rock114062-0 of Rock1
+			properties
+				x 377
+				y 199
+				loop 0
+				 
+			end
+		end
+		object shroom314062-0 of Shroom3
+			properties
+				x 330
+				y 204
+				loop 0
+				 
+			end
+		end
+		object stalagmite114062-0 of Stalagmite1
+			properties
+				x 71
+				y 220
+				loop 0
+				 
+			end
+		end
+		object rock114062-1 of Rock1
+			properties
+				x 21
+				y 305
+				loop 0
+				 
+			end
+		end
+		object stalagmite214062-0 of Stalagmite2
+			properties
+				x 227
+				y 315
+				loop 0
+				 
+			end
+		end
+		object rock214062-1 of Rock2
+			properties
+				x 365
+				y 316
+				loop 0
+				 
+			end
+		end
+		object rock314062-0 of Rock3
+			properties
+				x 469
+				y 320
+				loop 0
+				 
+			end
+		end
+		object rock314062-1 of Rock3
+			properties
+				x 628
+				y 325
+				loop 0
+				 
+			end
+		end
+		object stalagmite314062-0 of Stalagmite3
+			properties
+				x 167
+				y 330
+				loop 0
+				 
+			end
+		end
+		object stalagmite414062-0 of Stalagmite4
+			properties
+				x 9
+				y 330
+				loop 0
+				 
+			end
+		end
+		object character14062-0 of Gladiator
+			properties
+				loop 0
+				x 435
+				y 149
+				 
+			end
+		end
+		object character14062-1 of Crusader
+			properties
+				loop 1
+				x 569
+				y 150
+				 
+			end
+		end
+		object character14062-2 of Gladiator
+			properties
+				loop 2
+				x 89
+				y 285
+				 
+			end
+		end
+		object character14062-3 of Crusader
+			properties
+				loop 2
+				x 192
+				y 285
+				 
+			end
+		end
+		object character14062-4 of Gladiator
+			properties
+				loop 0
+				x 233
+				y 177
+				 
+			end
+		end
+		object character14062-5 of Crusader
+			properties
+				loop 1
+				x 317
+				y 177
+				 
+			end
+		end
+	end
+end
+room 14060
+	properties
+		picture 3071
+		flags 2
+		north 14061
+		east 14064
+		south 14062
+		west 14063
+	end
+	atpinfo
+		186 140 88 
+		32954 84 100 
+		186 159 100 
+		32954 59 112 
+		186 173 112 
+		32954 85 124 
+		186 165 125 
+		32954 109 136 
+		180 337 155 
+		181 425 157 
+		32954 311 165 
+		182 516 169 
+		186 352 172 
+		180 356 173 
+		186 365 183 
+		182 501 184 
+		32954 317 189 
+		186 394 194 
+		182 479 200 
+		32954 353 207 
+		186 446 211 
+	end
+	objects
+		object fireA14060-0 of FireA
+			properties
+				x 119
+				y 99
+				loop 0
+				 
+			end
+		end
+		object fireA14060-1 of FireA
+			properties
+				x 146
+				y 101
+				loop 0
+				 
+			end
+		end
+		object fireA14060-2 of FireA
+			properties
+				x 87
+				y 102
+				loop 0
+				 
+			end
+		end
+		object smokeB14060-0 of SmokeB
+			properties
+				x 120
+				y 105
+				loop 0
+				 
+			end
+		end
+		object fireA14060-3 of FireA
+			properties
+				x 173
+				y 111
+				loop 0
+				 
+			end
+		end
+		object fireA14060-4 of FireA
+			properties
+				x 67
+				y 111
+				loop 0
+				 
+			end
+		end
+		object fireA14060-5 of FireA
+			properties
+				x 191
+				y 125
+				loop 0
+				 
+			end
+		end
+		object fireA14060-6 of FireA
+			properties
+				x 47
+				y 127
+				loop 0
+				 
+			end
+		end
+		object bones14060-0 of Bones
+			properties
+				x 123
+				y 138
+				loop 0
+				 
+			end
+		end
+		object fireA14060-7 of FireA
+			properties
+				x 63
+				y 144
+				loop 0
+				 
+			end
+		end
+		object fireA14060-8 of FireA
+			properties
+				x 186
+				y 147
+				loop 0
+				 
+			end
+		end
+		object fireA14060-9 of FireA
+			properties
+				x 88
+				y 156
+				loop 0
+				 
+			end
+		end
+		object fireA14060-10 of FireA
+			properties
+				x 151
+				y 158
+				loop 0
+				 
+			end
+		end
+		object fireA14060-11 of FireA
+			properties
+				x 121
+				y 158
+				loop 0
+				 
+			end
+		end
+		object fatColumn14060-0 of FatColumn
+			properties
+				x 380
+				y 198
+				loop 0
+				 
+			end
+		end
+		object yellowShroomC14060-0 of YellowShroomC
+			properties
+				x 313
+				y 198
+				loop 0
+				 
+			end
+		end
+		object column14060-0 of Column
+			properties
+				x 481
+				y 203
+				loop 0
+				 
+			end
+		end
+		object dungeonBackUp14060-0 of DungeonBackUp
+			properties
+				x 416
+				y 206
+				loop 0
+				linkTo movingRock1315-0
+				 
+			end
+		end
+		object sign14060-0 of Sign
+			properties
+				x 451
+				y 210
+				loop 0
+				 
+			end
+			base described
+				text "Welcome to Yours Is Mine."
+			end
+		end
+		object stool14060-0 of Stool
+			properties
+				x 62
+				y 277
+				loop 0
+				 
+			end
+		end
+		object stool14060-1 of Stool
+			properties
+				x 167
+				y 278
+				loop 0
+				 
+			end
+		end
+		object character14060-0 of Champion
+			properties
+				loop 0
+				x 57
+				y 292
+				 
+			end
+		end
+		object character14060-1 of AncientPaladin
+			properties
+				loop 1
+				x 140
+				y 293
+				 
+			end
+		end
+		object character14060-2 of Protector
+			properties
+				loop 0
+				x 298
+				y 215
+				 
+			end
+		end
+		object character14060-3 of Crusader
+			properties
+				loop 1
+				x 528
+				y 214
+				 
+			end
+		end
+		object character14060-4 of AncientPriestess
+			properties
+				loop 2
+				x 186
+				y 170
+				 
+			end
+		end
+		object character14060-5 of nLGM
+			properties
+				loop 2
+				x 40
+				y 165
+				 
+			end
+		end
+	end
+end

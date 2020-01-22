@@ -1,0 +1,166 @@
+room 98001
+   properties
+      picture	3500
+	  north 98000 458 318
+      roomName	"Ambush Arena: Midrange"
+   end
+   atpinfo
+      64  51 206 10
+      32792  471 259
+      233  462 1
+      24  187 259
+      63  153 207 10
+      112  341 316
+      113  79 315
+      2716  111 190
+      2534  2 329
+      2534  -1 168
+      35302  638 325
+      35302  639 164
+      13  -76 1
+      13  587 3
+      2712  52 340
+      35480  597 338
+      32994  478 84
+      2599  197 122
+      23  105 92
+      32791  287 94
+      27  217 94
+      32795  178 95
+      203  202 158
+      226  472 3
+      225  430 100
+      204  523 90
+   end
+   objects
+      object chair23001-2 of Chair
+         properties
+            x	165
+            y	294
+            loop	0
+         end
+      end
+      object chair23001-3 of Chair
+         properties
+            x	498
+            y	295
+            loop	1
+         end
+      end
+      object fountain23001-5 of Fountain
+         properties
+            x	109
+            y	195
+            loop	0
+         end
+      end
+      object torch32464-6 of Torch
+         properties
+            x	17
+            y	225
+            loop	0
+         end
+      end
+      object torch32464-7 of Torch
+         properties
+            x	622
+            y	222
+            loop	0
+         end
+      end
+      object chair32464-8 of Chair
+         properties
+            x	196
+            y	102
+            loop	2
+         end
+      end
+      object chair32464-9 of Chair
+         properties
+            x	131
+            y	114
+            loop	0
+         end
+      end
+      object chair32464-10 of Chair
+         properties
+            x	252
+            y	109
+            loop	1
+         end
+	  end
+   end
+end 
+room 98006
+   properties
+      picture	3000
+   end
+   atpinfo
+      240  110 297
+      240  282 298
+      240  484 302
+      240  540 301
+      240  74 268
+      240  17 234
+      240  618 265
+      240  571 236
+      240  415 259
+      243  499 225
+      246  85 209
+      240  239 261
+      240  204 231
+      240  385 231
+      240  624 194
+      240  338 198
+      244  55 43 10
+      240  109 196
+      1303  172 117
+      240  83 172
+      240  217 174
+      170  32 107
+      171  246 107
+      240  342 158
+      240  554 159
+      240  62 133
+      240  178 127
+      240  11 131
+      240  324 130
+      240  492 122
+      240  609 125
+      240  474 200
+      242  454 28
+      240  380 284
+      7902  138 136
+      7902  423 136
+      7902  686 136
+      172  316 104
+      1303  587 106
+   end
+   objects
+      object chair25100-1 of Chair
+         properties
+            x	47
+            y	289
+            loop	0
+         end
+      end
+      object chair25100-2 of Chair
+         properties
+            x	595
+            y	293
+            loop	1
+         end
+      end
+      object lever25100-3 of Lever
+         properties
+            x	320
+            y	322
+            loop	0
+         end
+		 actions 
+		 vBeActivated teleport dobj 98000
+         vBeDeactivated teleport dobj 98000
+		  end
+	  end
+   end
+end

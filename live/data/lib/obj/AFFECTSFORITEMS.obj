@@ -1,0 +1,203 @@
+(check it out zach i finished it woo)
+Change x to match Orignal Affect.
+
+vBePutOn setAffect dobj 0 0 0 -1   #DAMAGE_NORMAL
+vBeTakenOff clearAffect dobj  x 0 0	
+vBePutOn setAffect dobj 1 0 0 -1   #DAMAGE_FIRE
+vBeTakenOff clearAffect dobj  x 0 0	
+vBePutOn setAffect dobj 2 0 0 -1   #DAMAGE_COLD
+vBeTakenOff clearAffect dobj  x 0 0	
+vBePutOn setAffect dobj 3 0 0 -1   #DAMAGE_LIGHTNING
+vBeTakenOff clearAffect dobj  x 0 0	
+vBePutOn setAffect dobj 4 0 0 -1   #DAMAGE_ACID
+vBeTakenOff clearAffect dobj  x 0 0	
+vBePutOn setAffect dobj 5 0 0 -1   #DAMAGE_POISON
+vBeTakenOff clearAffect dobj  x 0 0	
+vBePutOn setAffect dobj 6 0 0 -1   #DAMAGE_STAMINA
+vBeTakenOff clearAffect dobj  x 0 0	
+vBePutOn setAffect dobj 7 0 0 -1   #DAMAGE_STEAL_STAMINA
+vBeTakenOff clearAffect dobj  x 0 0	
+vBePutOn setAffect dobj 8 0 0 -1   #DAMAGE_EXPERIENCE
+vBeTakenOff clearAffect dobj  x 0 0	
+vBePutOn setAffect dobj 9 0 0 -1   #DAMAGE_STEAL_EXPERIENCE
+vBeTakenOff clearAffect dobj  x 0 0	
+vBePutOn setAffect dobj 10 0 0 -1   #DAMAGE_STEAL_LIFE
+vBeTakenOff clearAffect dobj  x 0 0	
+vBePutOn setAffect dobj 11 0 0 -1   #DAMAGE_RUST
+vBeTakenOff clearAffect dobj  x 0 0	
+vBePutOn setAffect dobj 12 0 0 -1   #DAMAGE_ETHEREAL
+vBeTakenOff clearAffect dobj  x 0 0	
+vBePutOn setAffect dobj 13 0 0 -1   #DAMAGE_STUN
+vBeTakenOff clearAffect dobj  x 0 0	
+vBePutOn setAffect dobj 14 0 0 -1   #DAMAGE_MISSILE
+vBeTakenOff clearAffect dobj  x 0 0	
+vBePutOn setAffect dobj 15 0 0 -1   #IMPROVE_ARMOR
+vBeTakenOff clearAffect dobj  x 0 0	
+vBePutOn setAffect dobj 16 0 0 -1   #IMPROVE_DAMAGE
+vBeTakenOff clearAffect dobj  x 0 0	
+vBePutOn setAffect dobj 17 0 0 -1   #SEE_INVISIBLE
+vBeTakenOff clearAffect dobj  x 0 0	
+vBePutOn setAffect dobj 18 0 0 -1   #INVISIBILITY
+vBeTakenOff clearAffect dobj  x 0 0	
+vBePutOn setAffect dobj 19 0 0 -1   #PERMANENCY
+vBeTakenOff clearAffect dobj  x 0 0	
+vBePutOn setAffect dobj 20 0 0 -1   #DEFENSELESS
+vBeTakenOff clearAffect dobj  x 0 0	
+vBePutOn setAffect dobj 21 0 0 -1   #IMPROVED_INVISIBILITY
+vBeTakenOff clearAffect dobj  x 0 0	
+vBePutOn setAffect dobj 22 0 0 -1   #ENCHANT_ITEM
+vBeTakenOff clearAffect dobj  x 0 0	
+vBePutOn setAffect dobj 23 0 0 -1   #IMMOLATION_FIRE
+vBeTakenOff clearAffect dobj  x 0 0	
+vBePutOn setAffect dobj 24 0 0 -1   #IMMOLATION_COLD
+vBeTakenOff clearAffect dobj  x 0 0	
+vBePutOn setAffect dobj 25 0 0 -1   #IMMOLATION_ACID
+vBeTakenOff clearAffect dobj  x 0 0	
+vBePutOn setAffect dobj 26 0 0 -1   #IMMOLATION_POISON
+vBeTakenOff clearAffect dobj  x 0 0	
+vBePutOn setAffect dobj 27 0 0 -1   #IMMOLATION_LIGHTNING
+vBeTakenOff clearAffect dobj  x 0 0	
+vBePutOn setAffect dobj 28 0 0 -1   #FREEZE
+vBeTakenOff clearAffect dobj  x 0 0	
+vBePutOn setAffect dobj 29 0 0 -1   #HOLD
+vBeTakenOff clearAffect dobj  x 0 0	
+vBePutOn setAffect dobj 30 0 0 -1   #CONFUSION
+vBeTakenOff clearAffect dobj  x 0 0	
+vBePutOn setAffect dobj 31 0 0 -1   #SHACKLED
+vBeTakenOff clearAffect dobj  x 0 0	
+vBePutOn setAffect dobj 32 0 0 -1   #IDENTIFIED
+vBeTakenOff clearAffect dobj  x 0 0	
+vBePutOn setAffect dobj 33 0 0 -1   #BERSERK
+vBeTakenOff clearAffect dobj  x 0 0	
+vBePutOn setAffect dobj 34 0 0 -1   #STUN
+vBeTakenOff clearAffect dobj  x 0 0	
+vBePutOn setAffect dobj 35 0 0 -1   #LOYALTY_SHIFT
+vBeTakenOff clearAffect dobj  x 0 0	
+vBePutOn setAffect dobj 36 0 0 -1   #FEAR
+vBeTakenOff clearAffect dobj  x 0 0	
+vBePutOn setAffect dobj 37 0 0 -1   #QUICKEN
+vBeTakenOff clearAffect dobj  x 0 0	
+vBePutOn setAffect dobj 38 0 0 -1   #SLOW
+vBeTakenOff clearAffect dobj  x 0 0	
+vBePutOn setAffect dobj 39 0 0 -1   #EMPOWER
+vBeTakenOff clearAffect dobj  x 0 0	
+vBePutOn setAffect dobj 40 0 0 -1   #ENFEEBLE
+vBeTakenOff clearAffect dobj  x 0 0	
+vBePutOn setAffect dobj 41 0 0 -1   #SHIELD
+vBeTakenOff clearAffect dobj  x 0 0	
+vBePutOn setAffect dobj 42 0 0 -1   #GREATER_SHIELD
+vBeTakenOff clearAffect dobj  x 0 0	
+vBePutOn setAffect dobj 43 0 0 -1   #INVULNERABLE
+vBeTakenOff clearAffect dobj  x 0 0	
+vBePutOn setAffect dobj 44 0 0 -1   #REGENERATION
+vBeTakenOff clearAffect dobj  x 0 0	
+vBePutOn setAffect dobj 45 0 0 -1   #INDESTRUCTION
+vBeTakenOff clearAffect dobj  x 0 0	
+vBePutOn setAffect dobj 46 0 0 -1   #CURSED
+vBeTakenOff clearAffect dobj  x 0 0	
+vBePutOn setAffect dobj 47 0 0 -1   #JAIL
+vBeTakenOff clearAffect dobj  x 0 0	
+vBePutOn setAffect dobj 48 0 0 -1   #MAGIC_RESISTANCE
+vBeTakenOff clearAffect dobj  x 0 0	
+vBePutOn setAffect dobj 49 0 0 -1   #MAGIC_IMMUNITY
+vBeTakenOff clearAffect dobj  x 0 0	
+vBePutOn setAffect dobj 50 0 0 -1   #IMMOLATION_RUST
+vBeTakenOff clearAffect dobj  x 0 0	
+vBePutOn setAffect dobj 51 0 0 -1   #OBJ_DATED
+vBeTakenOff clearAffect dobj  x 0 0	
+vBePutOn setAffect dobj 52 0 0 -1   #REGENERATE_STAMINA
+vBeTakenOff clearAffect dobj  x 0 0	
+vBePutOn setAffect dobj 53 0 0 -1   #RESSURECT_25
+vBeTakenOff clearAffect dobj  x 0 0	
+vBePutOn setAffect dobj 54 0 0 -1   #RESSURECT_50
+vBeTakenOff clearAffect dobj  x 0 0	
+vBePutOn setAffect dobj 55 0 0 -1   #RESSURECT_100
+vBeTakenOff clearAffect dobj  x 0 0	
+vBePutOn setAffect dobj 56 0 0 -1   #EXTRA_ATTACK
+vBeTakenOff clearAffect dobj  x 0 0	
+vBePutOn setAffect dobj 57 0 0 -1   #EXTRA_DODGE
+vBeTakenOff clearAffect dobj  x 0 0	
+vBePutOn setAffect dobj 58 0 0 -1   #MEMORY
+vBeTakenOff clearAffect dobj  x 0 0	
+vBePutOn setAffect dobj 59 0 0 -1   #POS_DEX_MOD
+vBeTakenOff clearAffect dobj  x 0 0	
+vBePutOn setAffect dobj 60 0 0 -1   #NEG_DEX_MOD
+vBeTakenOff clearAffect dobj  x 0 0	
+vBePutOn setAffect dobj 61 0 0 -1   #POS_INT_MOD
+vBeTakenOff clearAffect dobj  x 0 0	
+vBePutOn setAffect dobj 62 0 0 -1   #NEG_INT_MOD
+vBeTakenOff clearAffect dobj  x 0 0	
+vBePutOn setAffect dobj 63 0 0 -1   #POS_END_MOD
+vBeTakenOff clearAffect dobj  x 0 0	
+vBePutOn setAffect dobj 64 0 0 -1   #NEG_END_MOD
+vBeTakenOff clearAffect dobj  x 0 0	
+vBePutOn setAffect dobj 65 0 0 -1  #RETENTION
+vBeTakenOff clearAffect dobj  x 0 0	
+vBePutOn setAffect dobj 66 0 0 -1   #VULNERABLE
+vBeTakenOff clearAffect dobj  x 0 0	
+vBePutOn setAffect dobj 67 0 0 -1   #NOURISHED
+vBeTakenOff clearAffect dobj  x 0 0	
+vBePutOn setAffect dobj 68 0 0 -1   #SWITCH_GENDER
+vBeTakenOff clearAffect dobj  x 0 0	
+vBePutOn setAffect dobj 69 0 0 -1   #NAKED
+vBeTakenOff clearAffect dobj  x 0 0	
+vBePutOn setAffect dobj 70 0 0 -1   #UGLY
+vBeTakenOff clearAffect dobj  x 0 0	
+vBePutOn setAffect dobj 71 0 0 -1   #DISGUISED
+vBeTakenOff clearAffect dobj  x 0 0	
+vBePutOn setAffect dobj 72 0 0 -1   #ENCUMBERANCE_BLESSING
+vBeTakenOff clearAffect dobj  x 0 0	
+vBePutOn setAffect dobj 73 0 0 -1   #ENCUMBERANCE_CURSE
+vBeTakenOff clearAffect dobj  x 0 0	
+vBePutOn setAffect dobj 74 0 0 -1   #ENGRAVED
+vBeTakenOff clearAffect dobj  x 0 0	
+vBePutOn setAffect dobj 75 0 0 -1   #SHIFT
+vBeTakenOff clearAffect dobj  x 0 0	
+vBePutOn setAffect dobj 76 0 0 -1   #EXTENSION
+vBeTakenOff clearAffect dobj  x 0 0	
+vBePutOn setAffect dobj 77 0 0 -1   #POISONED
+vBeTakenOff clearAffect dobj  x 0 0	
+vBePutOn setAffect dobj 78 0 0 -1   #ACID_BURN
+vBeTakenOff clearAffect dobj  x 0 0	
+vBePutOn setAffect dobj 79 0 0 -1   #SLOWED
+vBeTakenOff clearAffect dobj  x 0 0	
+vBePutOn setAffect dobj 80 0 0 -1   #SPELL_BLAST
+vBeTakenOff clearAffect dobj  x 0 0	
+vBePutOn setAffect dobj 81 0 0 -1   #ANTI_MAGIC
+vBeTakenOff clearAffect dobj  x 0 0	
+vBePutOn setAffect dobj 82 0 0 -1   #CONVERTED
+vBeTakenOff clearAffect dobj  x 0 0	
+vBePutOn setAffect dobj 83 0 0 -1   #RESET
+vBeTakenOff clearAffect dobj  x 0 0	
+vBePutOn setAffect dobj 84 0 0 -1   #RESET_A
+vBeTakenOff clearAffect dobj  x 0 0	
+vBePutOn setAffect dobj 85 0 0 -1   #PROT_DEATH
+vBeTakenOff clearAffect dobj  x 0 0	
+vBePutOn setAffect dobj 86 0 0 -1   #FREE_WILL
+vBeTakenOff clearAffect dobj  x 0 0	
+vBePutOn setAffect dobj 87 0 0 -1   #ENH_IDENTIFIED
+vBeTakenOff clearAffect dobj  x 0 0	
+vBePutOn setAffect dobj 88 0 0 -1   #MARK_ENID
+vBeTakenOff clearAffect dobj  x 0 0	
+vBePutOn setAffect dobj 89 0 0 -1   #MARK_DUACH
+vBeTakenOff clearAffect dobj  x 0 0	
+vBePutOn setAffect dobj 90 0 0 -1   #CURSE_ENID
+vBeTakenOff clearAffect dobj  x 0 0	
+vBePutOn setAffect dobj 91 0 0 -1   #CURSE_DUACH
+vBeTakenOff clearAffect dobj  x 0 0	
+vBePutOn setAffect dobj 92 0 0 -1   #MARK_DESPOTHES
+vBeTakenOff clearAffect dobj  x 0 0	
+vBePutOn setAffect dobj 93 0 0 -1   #CURSE_DESPOTHES
+vBeTakenOff clearAffect dobj  x 0 0	
+vBePutOn setAffect dobj 94 0 0 -1   #SKINCOLOR_GREEN
+vBeTakenOff clearAffect dobj  x 0 0	
+vBePutOn setAffect dobj 95 0 0 -1   #SKINCOLOR_YELLOW
+vBeTakenOff clearAffect dobj  x 0 0	
+vBePutOn setAffect dobj 96 0 0 -1   #SKINCOLOR_GREY
+vBeTakenOff clearAffect dobj  x 0 0	
+vBePutOn setAffect dobj 97 0 0 -1   #HAIRCOLOR_WHITE
+vBeTakenOff clearAffect dobj  x 0 0	
+vBePutOn setAffect dobj 98 0 0 -1   #HAIRCOLOR_BLACK
+vBeTakenOff clearAffect dobj  x 0 0	
+vBePutOn setAffect dobj 99 0 0 -1   #STAFF
+vBeTakenOff clearAffect dobj  x 0 0	

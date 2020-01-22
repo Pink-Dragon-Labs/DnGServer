@@ -1,0 +1,21 @@
+name "fallows"
+title "Fallows"
+worldFile "../data/lib/world/fallow01.wld"
+worldFile "../data/lib/world/fallo01a.wld"
+worldFile "../data/lib/world/fallow02.wld"
+worldFile "../data/lib/world/fallo02a.wld"
+worldFile "../data/lib/world/fallow03.wld"
+worldFile "../data/lib/world/fallo03a.wld"
+worldFile "../data/lib/world/fallow04.wld"
+worldFile "../data/lib/world/fallo04a.wld"
+worldFile "../data/lib/world/falwfarm.wld"
+
+resetInterval 9000000
+maximumObjectAge 0
+allowCombat 3
+midiFile 17
+groupChance 20
+
+monster Hunter 100
+monster Scavenger 100
+monster Feral 100

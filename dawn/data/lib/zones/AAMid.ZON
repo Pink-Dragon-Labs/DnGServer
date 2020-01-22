@@ -1,0 +1,72 @@
+name "AAMid"
+title "Ambush Arena: Mid"
+worldFile "../data/lib/world/AAMid.wld"
+resetInterval 9000000 
+maximumObjectAge 0 
+allowCombat 3
+midiFile 17
+
+
+ambushInterval 70
+ambush 10 ThiefA
+ambush 10 ThiefA ThiefB
+ambush 10 ThiefA ThiefA ThiefB
+ambush 10 ThiefC ThiefA ThiefB ThiefA
+ambush 10 ThiefA Ratling
+ambush 10 ThiefC UglyOgre OgreChild
+ambush 10 SeraphWarrior 
+ambush 10 SeraphWarrior SeraphWarrior
+ambush 10 SeraphWarrior SeraphWarrior Seraph SearphWarrior
+ambush 10 CryptKeeper
+ambush 10 CryptKeeper Lich 
+ambush 10 CryptKeeper Lich Lich
+ambush 10 CryptKeeper Lich Lich Lich Lich
+ambush 10 HellSnake
+ambush 10 HellSnake HellSnake
+ambush 10 HellSnake HellSnake HellHound
+ambush 10 LavaSerpent
+ambush 10 LavaSerpent LavaSerpent
+ambush 10 LavaSerpent LavaSerpent LavaSerpent Warden
+ambush 10 Devil
+ambush 10 Devil Devil
+ambush 10 Devil Devil Devil
+ambush 10 Devil Devil Devil Devil Devil Devil
+ambush 10 ImpGuard
+ambush 10 ImpGuard ImpGuard 
+ambush 10 ImpGuard ImpGuard ImpGuard ImpKing
+ambush 10 ImpKing
+ambush 10 ImpKing ImpKing
+ambush 10 ImpKing ImpKing ImpKing
+ambush 10 ImpKing ImpKing UglyOgre
+ambush 10 Guardian
+ambush 10 Guardian Guardian Guardian
+ambush 10 Guardian Guardian Guardian SearphWarrior
+ambush 10 HellHound HellHound HellHound HellHound HellHound HellHound HellHound HellHound
+ambush 10 TrollKing TrollKing TrollKing TrollKing TrollKing TrollKing 
+ambush 10 OgreChild
+ambush 10 OgreChild CryptKeeper Thief
+ambush 10 OgreChild OgreChild OgreChild
+ambush 10 UndeadNecromander UndeadNecromander
+ambush 10 UglyOgre 
+ambush 10 UglyOgre UglyOgre 
+ambush 10 UglyOgre UglyOgre UglyOgre SpittingCobra
+ambush 10 SpittingCobra
+ambush 10 SpittingCobra SpittingCobra
+ambush 10 SpittingCobra SpittingCobra SpittingCobra ImpKing
+ambush 10 Kilrog
+ambush 10 Kilrog Kilrog
+ambush 10 Kilrog Paladin
+ambush 10 Kilrog Kilrog Kilrog
+ambush 10 KingKilrog
+ambush 10 KingKilrog KingKilrog
+ambush 10 KingKilrog KingKilrog HellHound
+ambush 10 Fury
+ambush 10 Fury Fury
+ambush 10 Fury Fury Fury
+ambush 10 Fury Fury Fury Fury 
+ambush 10 Fury Fury Fury Fury Fury
+ambush 10 Meatbag
+
+
+
+

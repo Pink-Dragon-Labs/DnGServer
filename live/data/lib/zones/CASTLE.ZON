@@ -1,0 +1,23 @@
+name "TheCastle"
+title "The Castle"
+worldFile "../data/lib/world/CASTLE.wld"
+worldFile "../data/lib/world/CASTLE2.wld"
+worldFile "../data/lib/world/CASTLE3.WLD"
+resetInterval 9000000 
+maximumObjectAge 0 
+allowCombat 3
+midiFile 13
+
+groupChance 200
+monster CastleGuard 35
+monster CastleWizard 25
+monster CastleMage 25
+monster CastleWarlock 25
+monster RogueThief 30
+
+ambushInterval 40
+ambush 10 CastleMage CastleGuard CastleGuard 
+ambush 10 RogueThief CastleGuard CastleGuard 
+ambush 10 GoodWizard CastleGuard CastleGuard
+ambush 10 CastleMage CastleGuard CastleGuard CastleGuard 
+ambush 10 RogueThief CastleGuard CastleGuard CastleGuard 

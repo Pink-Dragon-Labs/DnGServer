@@ -1,0 +1,1475 @@
+object DragKey of MoneyBag
+	properties
+	special
+		random 100
+	end
+
+	base treasure
+		DragonKey
+	end
+end
+#
+#
+#
+object Dragon of NPC
+	properties
+		name "Dragon"
+		view 41900
+	end
+
+	base described
+		text "This is a Dragon."
+	end
+end
+
+object DragonA of NPC
+	properties
+		name "Legendary Dragon"
+		view 41900
+		alignment 0
+		#clutStart -1
+		color -1
+
+		minLevel 2200
+		maxLevel 2800
+		minDamage 800
+		maxDamage 1100
+
+		strength 250
+		endurance 35
+		intelligence 70
+		dexterity 20
+
+		soundGroup 13
+		damageType 2
+		armorType 1
+		range 2
+		quickness 8
+		  
+
+		girth 130
+		height 130
+
+		# affects
+		# do fire damage
+		affect 1 0 0 -1
+
+		# acid damage
+		affect 4 0 0 -1
+
+		# poison damage
+		affect 5 0 0 -1
+
+		# fire immolation
+		affect 23 0 0 -1
+
+		# cold immolation
+		affect 24 0 0 -1
+
+		# lightning immolation
+		affect 27 0 0 -1
+	end
+
+	base container
+		object RandomNewGear
+		object RandomRareGlowDye
+		object RandomRareHelmet
+		 
+		object RandomMonsterMegaTreasure
+	end
+
+	base character
+		skill 0 5
+		skill 1 5
+		skill 2 5
+		skill 3 5
+		skill 4 5
+		skill 5 5
+		skill 6 5
+		skill 7 5
+		skill 8 5
+		skill 10 5
+		## grand master wiz
+		skill 11 5
+		skill 12 5
+		skill 13 5
+		skill 14 5
+		skill 15 5
+		skill 28 5
+		skill 29 5
+		properName "Legendary Dragon"
+	end
+
+	actions
+		vBeBorn changeSpellResistance self 100 2	#100% Resist Myst
+		#  350% SDM to all
+        vBeBorn changeSDM self 350 0 2 1 3 4
+	end
+
+	base npc
+		code Dragon
+	end
+	
+	base described
+		text "One of the most powerful dragons!  Watch out!\n\n 100% Myst Resistance.\n"
+	end
+end
+
+object DragonB of NPC
+	properties
+		name "Legendary Wyrm"
+		view 41900
+		clutStart -1
+		color 65
+
+		minLevel 2200
+		maxLevel 2800
+		minDamage 800
+		maxDamage 1100
+
+		strength 200
+		endurance 35
+		intelligence 70
+		dexterity 20
+
+		soundGroup 13
+		damageType 2
+		armorType 1
+		range 2
+		quickness 8
+		  
+
+		girth 130
+		height 130
+
+		# affects
+		# do fire damage
+		affect 1 0 0 -1
+
+		# acid damage
+		affect 4 0 0 -1
+
+		# poison damage
+		affect 5 0 0 -1
+
+		# fire immolation
+		affect 23 0 0 -1
+
+		# cold immolation
+		affect 24 0 0 -1
+
+		# lightning immolation
+		affect 27 0 0 -1
+	end
+
+	base described
+		text "This is an aged dragon.  With age comes power."
+	end
+
+	base npc
+		code Dragon
+	end
+
+ 	base character
+		skill 0 5
+		skill 1 5
+		skill 2 5
+		skill 3 5
+		skill 4 5
+		skill 5 5
+		skill 6 5
+		skill 7 5
+		skill 8 5
+		skill 10 5
+		## grand master wiz
+		skill 11 5
+		skill 12 5
+		skill 13 5
+		skill 14 5
+		skill 15 5
+		skill 28 5
+		skill 29 5
+		properName "Legendary Wyrm"
+	end
+
+	actions
+		vBeBorn changeSpellResistance self 100 2	#100% Resist Myst
+		#  350% SDM to all
+        vBeBorn changeSDM self 350 0 2 1 3 4
+	end
+
+	base container
+		object RandomNewGear
+		object RandomRareGlowDye
+		object RandomRareHelmet
+		 
+		object RandomMonsterMegaTreasure
+	end
+end
+
+object DragonC of NPC
+	properties
+		name "Bog Dragon"
+		view 41900
+		clutStart -1
+		color 66
+		minLevel 2200
+		maxLevel 2800
+		minDamage 800
+		maxDamage 1100
+
+		strength 200
+		endurance 25
+		intelligence 70
+		dexterity 20
+
+		soundGroup 13
+		damageType 2
+		armorType 1
+		range 2
+		quickness 8
+		  
+
+		girth 100
+		height 100
+
+		# affects
+		# do fire damage
+		affect 1 0 0 -1
+
+		# acid damage
+		affect 4 0 0 -1
+
+		# poison damage
+		affect 5 0 0 -1
+
+		# fire immolation
+		affect 23 0 0 -1
+
+		# cold immolation
+		affect 24 0 0 -1
+
+		# lightning immolation
+		affect 27 0 0 -1
+	end
+
+	base described
+		text "You see a Bog Dragon."
+	end
+
+	base npc
+		code Dragon
+	end
+
+ 	base character
+	 	properName "Bog Dragon"
+		skill 0 5
+		skill 1 5
+		skill 2 5
+		skill 3 5
+		skill 4 5
+		skill 5 5
+		skill 6 5
+		skill 7 5
+		skill 8 5
+		skill 10 5
+		## grand master wiz
+		skill 11 5
+		skill 12 5
+		skill 13 5
+		skill 14 5
+		skill 15 5
+		skill 28 5
+		skill 29 5
+	end
+
+	actions
+		vBeBorn changeSpellResistance self 100 2	#100% Resist Myst
+		#  350% SDM to all
+        vBeBorn changeSDM self 350 0 2 1 3 4
+	end
+
+	base container
+		object RandomNewGear
+		object RandomRareGlowDye
+		object RandomRareHelmet
+		 
+		object RandomMonsterMegaTreasure
+	end
+end
+
+object DragonD of NPC
+	properties
+		name "Mire Dragon"
+		view 41900
+		clutStart -1
+		color 67
+
+		minLevel 2400
+		maxLevel 2900
+		minDamage 800
+		maxDamage 1100
+
+		strength 200
+		endurance 25
+		intelligence 70
+		dexterity 20
+
+		soundGroup 13
+		damageType 2
+		armorType 1
+		range 2
+		quickness 8
+		  
+
+		girth 100
+		height 100
+
+		# affects
+		# do fire damage
+		affect 1 0 0 -1
+
+		# acid damage
+		affect 4 0 0 -1
+
+		# poison damage
+		affect 5 0 0 -1
+
+		# fire immolation
+		affect 23 0 0 -1
+
+		# cold immolation
+		affect 24 0 0 -1
+
+		# lightning immolation
+		affect 27 0 0 -1
+	end
+
+	base described
+		text "You see a Mire Dragon."
+	end
+
+	base npc
+		code Dragon
+	end
+
+ 	base character
+		skill 0 5
+		skill 1 5
+		skill 2 5
+		skill 3 5
+		skill 4 5
+		skill 5 5
+		skill 6 5
+		skill 7 5
+		skill 8 5
+		skill 10 5
+		## grand master wiz
+		skill 11 5
+		skill 12 5
+		skill 13 5
+		skill 14 5
+		skill 15 5
+		skill 28 5
+		skill 29 5
+		properName "Mire Dragon"
+	end
+
+	actions
+		vBeBorn changeSpellResistance self 100 2	#100% Resist Myst
+		#  350% SDM to all
+        vBeBorn changeSDM self 350 0 2 1 3 4
+	end
+
+	base container
+		object RandomNewGear
+		object RandomRareGlowDye
+		object RandomRareHelmet
+		 
+		object RandomMonsterMegaTreasure
+	end
+end
+
+object DragonE of NPC
+	properties
+		name "Elder Bog Dragon"
+		view 41900
+		clutStart -1
+		color 68
+		minLevel 2400
+		maxLevel 3300
+		minDamage 800
+		maxDamage 1100
+
+		strength 250
+		endurance 40
+		intelligence 70
+		dexterity 20
+
+		soundGroup 13
+		damageType 2
+		armorType 1
+		range 2
+		quickness 8
+		  
+
+		girth 90
+		height 90
+
+		# affects
+		# do fire damage
+		affect 1 0 0 -1
+
+		# acid damage
+		affect 4 0 0 -1
+
+		# poison damage
+		affect 5 0 0 -1
+
+		# fire immolation
+		affect 23 0 0 -1
+
+		# cold immolation
+		affect 24 0 0 -1
+
+		# lightning immolation
+		affect 27 0 0 -1
+	end
+
+	base described
+		text "You see an elder Bog Dragon."
+	end
+
+	base npc
+		code Dragon
+	end
+
+ 	base character
+		skill 0 5
+		skill 1 5
+		skill 2 5
+		skill 3 5
+		skill 4 5
+		skill 5 5
+		skill 6 5
+		skill 7 5
+		skill 8 5
+		skill 10 5
+		## grand master wiz
+		skill 11 5
+		skill 12 5
+		skill 13 5
+		skill 14 5
+		skill 15 5
+		skill 28 5
+		skill 29 5
+		properName "Elder Bog Dragon"
+	end
+
+	actions
+		vBeBorn changeSpellResistance self 100 2	#100% Resist Myst
+		#  350% SDM to all
+        vBeBorn changeSDM self 350 0 2 1 3 4
+	end
+
+	base container
+		object RandomNewGear
+		object RandomRareGlowDye
+		object RandomRareHelmet
+		 
+		object RandomMonsterMegaTreasure
+	end
+end
+
+object DragonF of NPC
+	properties
+		name "Legendary Obsidian Dragon"
+		view 41900
+		clutStart -1
+		color 69
+		strength 300
+        dexterity 75
+        intelligence 70
+        endurance 35
+        quickness 75
+        minLevel 2400
+        maxLevel 3150
+        minDamage 4000
+        maxDamage 8000
+        #  freeze resistance
+        affect 28 2 0 -1
+        #  invulnerable
+        affect 43 0 0 -1
+        #  regeneration
+        affect 44 0 0 -1
+        #  extra attack
+        affect 56 0 0 -1
+        #  extra dodge
+        affect 57 0 0 -1
+	end
+
+	base npc
+		code Dragon
+	end
+
+	base character
+		# elementalism grandmaster
+		skill 12 5
+		properName "Legendary Obsidian Dragon"
+	end
+
+	actions
+		vBeBorn changeSpellResistance self 100 2	#100% Resist Myst
+		#  350% SDM to all
+        vBeBorn changeSDM self 350 0 2 1 3 4
+	end
+
+	base container
+		object RandomNewGear
+		object RandomRareGlowDye
+		object RandomRareHelmet
+		 
+		object RandomMonsterMegaTreasure
+	end
+
+	base described
+		text "One of the most powerful dragons!  Watch out!"
+	end
+end
+
+object DragonG of NPC
+	properties
+		name "Legendary Lava Dragon"
+		view 41900
+		clutStart -1
+		color 70
+		strength 300
+        dexterity 75
+        intelligence 70
+        endurance 35
+        quickness 75
+        minLevel 2500
+        maxLevel 3500
+        minDamage 4000
+        maxDamage 8000
+        #  freeze resistance
+        affect 28 2 0 -1
+        #  invulnerable
+        affect 43 0 0 -1
+        #  regeneration
+        affect 44 0 0 -1
+        #  extra attack
+        affect 56 0 0 -1
+        #  extra dodge
+        affect 57 0 0 -1
+	end
+
+	base npc
+		code Dragon
+	end
+
+	base character
+		# necromancy grandmaster
+		skill 15 5
+		properName "Legendary Lava Dragon"
+	end
+
+	actions
+		vBeBorn changeSpellResistance self 100 2	#100% Resist Myst
+		#  350% SDM to all
+        vBeBorn changeSDM self 350 0 2 1 3 4
+	end
+
+	base container
+		object RandomNewGear
+		object RandomRareGlowDye
+		object RandomRareHelmet
+		 
+		object RandomMonsterMegaTreasure
+	end
+
+	base described
+		text "One of the most powerful dragons!  Watch out!"
+	end
+end
+
+object DragonH of NPC
+	properties
+		name "Goin"
+		view 41900
+		clutStart -1
+		color 71
+		strength 300
+        dexterity 75
+        intelligence 70
+        endurance 55
+        quickness 75
+        minLevel 3100
+        maxLevel 4000
+        minDamage 4000
+        maxDamage 8000
+        #  freeze resistance
+        affect 28 2 0 -1
+        #  invulnerable
+        affect 43 0 0 -1
+        #  regeneration
+        affect 44 0 0 -1
+        #  extra attack
+        affect 56 0 0 -1
+        #  extra dodge
+        affect 57 0 0 -1
+
+		height 135
+		girth 135
+	end
+	actions
+        #  300% elementalism SDM
+        vBeBorn changeSDM self 300 1
+
+        #  100% mysticism resistance
+        vBeBorn changeSpellResistance self 100 2
+    end
+    base character
+        properName "Goin"
+    end
+    base described
+        text "Goin the librarian."
+    end
+	base npc
+		code Dragon
+	end
+	base container
+		object RandomNewGear
+		object RandomRareGodSpell
+		object DragonBossTable
+		object GodScrollTable
+	end
+end
+
+object DragonI of NPC
+	properties
+		name "Dragon"
+		view 41900
+		clutStart -1
+		color 72
+
+		height 135
+		girth 135
+	end
+	base npc
+		code Dragon
+	end
+end
+
+object Svafnir of DragonI
+	properties
+		special
+		name "Svafnir"
+		view 41900
+		clutStart -1
+		color 73
+		strength 300
+        dexterity 75
+        intelligence 70
+        endurance 45
+        quickness 75
+        minLevel 2600
+        maxLevel 4100
+        minDamage 3000
+        maxDamage 6000
+        #  freeze resistance
+        affect 28 2 0 -1
+        #  invulnerable
+        affect 43 0 0 -1
+        #  regeneration
+        affect 44 0 0 -1
+        #  extra attack
+        affect 56 0 0 -1
+        #  extra dodge
+        affect 57 0 0 -1
+
+		height 135
+		girth 135
+    end
+    actions
+    	#  100% mysticism resistance
+    	vBeBorn changeSpellResistance self 100 2
+		#  350% SDM to all
+        vBeBorn changeSDM self 350 0 2 1 3 4
+    end
+    base character
+        properName "Svafnir"
+    end
+    base described
+        text "Svafnir, Swamp Dragon Brood Mother."
+    end
+	base npc
+		code Dragon
+	end
+	base container
+		object RandomNewGear
+		object RandomRareGodSpell
+		object DragonBossTable
+		object GodScrollTable
+	end
+end
+
+object Fafnir of DragonI
+	properties
+		special
+		name "Fafnir"
+		view 41900
+		clutStart -1
+		color 72
+
+		strength 300
+        dexterity 100
+        intelligence 70
+        endurance 70
+        quickness 100
+        minLevel 3600
+        maxLevel 4200
+        minDamage 8000
+        maxDamage 12000
+        #  freeze resistance
+        affect 28 2 0 -1
+        #  invulnerable
+        affect 43 0 0 -1
+        #  regeneration
+    	affect 44 0 0 -1
+        #  extra attack
+        affect 56 0 0 -1
+        #  extra dodge
+        affect 57 0 0 -1
+
+		height 135
+		girth 135
+    end
+	actions
+        #  350% SDM to all
+        vBeBorn changeSDM self 350 0 2 1 3 4
+
+        #  25% sorcery / elementalism / thaumaturgy / necromancy resistance
+        vBeBorn changeSpellResistance self 25 0 1 3 4
+
+        #  100% mysticism resistance
+        vBeBorn changeSpellResistance self 100 2
+    end
+    base character
+        properName "Fafnir"
+    end
+    base described
+        text "Fafnir, son of Hreidmar.  Time to die."
+    end
+	base npc
+		code Dragon
+	end
+	base container
+		object RandomNewGear
+		object RandomRareGodSpell
+		object DragonBossTable
+		object DragKey
+		object GodScrollTable
+	end
+end
+
+object DragonJ of NPC
+	properties
+		name "Ofnir"
+		view 41900
+		clutStart -1
+		color 73
+		strength 300
+        dexterity 75
+        intelligence 70
+        endurance 45
+        quickness 75
+        minLevel 2600
+        maxLevel 4100
+        minDamage 3000
+        maxDamage 6000
+        #  freeze resistance
+        affect 28 2 0 -1
+        #  invulnerable
+        affect 43 0 0 -1
+        #  regeneration
+        affect 44 0 0 -1
+        #  extra attack
+        affect 56 0 0 -1
+        #  extra dodge
+        affect 57 0 0 -1
+
+		height 135
+		girth 135
+    end
+    actions
+    	#  100% mysticism resistance
+    	vBeBorn changeSpellResistance self 100 2
+		#  350% SDM to all
+        vBeBorn changeSDM self 350 0 2 1 3 4
+    end
+    base character
+        properName "Ofnir"
+    end
+    base described
+        text "Ofnir, Moor Dragon Brood Mother."
+    end
+	base npc
+		code Dragon
+	end
+	base container
+		object RandomNewGear
+		object RandomRareGodSpell
+		object DragonBossTable
+		object GodScrollTable
+	end
+end
+
+object DragonK of NPC
+	properties
+		name "Grafvollund"
+		view 41900
+		clutStart -1
+		color 74
+		strength 300
+        dexterity 75
+        intelligence 70
+        endurance 45
+        quickness 75
+        minLevel 2700
+        maxLevel 4100
+        minDamage 3000
+        maxDamage 6000
+        #  freeze resistance
+        affect 28 2 0 -1
+        #  invulnerable
+        affect 43 0 0 -1
+        #  regeneration
+        affect 44 0 0 -1
+        #  extra attack
+        affect 56 0 0 -1
+        #  extra dodge
+        affect 57 0 0 -1
+
+		height 135
+		girth 135
+    end
+    actions
+        #  100% mysticism resistance
+        vBeBorn changeSpellResistance self 100 2
+		#  350% SDM to all
+        vBeBorn changeSDM self 350 0 2 1 3 4
+    end
+    base character
+        properName "Grafvollund"
+    end
+    base described
+        text "Grafvollund, Mire Dragon Brood Mother."
+    end
+	base npc
+		code Dragon
+	end
+	base container
+		object RandomNewGear
+		object RandomRareGodSpell
+		object DragonBossTable
+		object GodScrollTable
+	end
+end
+
+object DragonL of NPC
+	properties
+		name "Grabak"
+		view 41900
+		clutStart -1
+		color 75
+		strength 300
+        dexterity 75
+        intelligence 70
+        endurance 45
+        quickness 75
+        minLevel 3157
+        maxLevel 4014
+        minDamage 3000
+        maxDamage 6000
+        #  freeze resistance
+        affect 28 2 0 -1
+        #  invulnerable
+        affect 43 0 0 -1
+        #  regeneration
+        affect 44 0 0 -1
+        #  extra attack
+        affect 56 0 0 -1
+        #  extra dodge
+        affect 57 0 0 -1
+
+		height 135
+		girth 135
+    end
+    actions
+        #  100% mysticism resistance
+        vBeBorn changeSpellResistance self 100 2
+		#  350% SDM to all
+        vBeBorn changeSDM self 350 0 2 1 3 4
+    end
+    base character
+        properName "Grabak"
+    end
+    base described
+        text "Grabak, Bog Dragon Brood Mother."
+    end
+	base npc
+		code Dragon
+	end
+	base container
+		object RandomNewGear
+		object RandomRareGodSpell
+		object DragonBossTable
+		object GodScrollTable
+	end
+end
+
+object DragonM of NPC
+	properties
+		name "Moin"
+		view 41900
+		clutStart -1
+		color 76
+		strength 300
+        dexterity 75
+        intelligence 70
+        endurance 45
+        quickness 75
+        minLevel 2900
+        maxLevel 4000
+        minDamage 4000
+        maxDamage 8000
+        #  freeze resistance
+        affect 28 2 0 -1
+        #  invulnerability
+        affect 43 0 0 -1
+        #  regeneration
+        affect 44 0 0 -1
+        #  extra attack
+        affect 56 0 0 -1
+        #  extra dodge
+        affect 57 0 0 -1
+
+		height 135
+		girth 135
+	end
+	actions
+        #  350% SDM to all
+        vBeBorn changeSDM self 350 0 2 1 3 4
+
+        #  100% mysticism resistance
+        vBeBorn changeSpellResistance self 100 2
+    end
+    base character
+        properName "Moin"
+    end
+    base described
+        text "Moin the librarian."
+    end
+	base npc
+		code Dragon
+	end
+	base container
+		object RandomNewGear
+		object RandomRareGodSpell
+		object DragonBossTable
+		object GodScrollTable
+	end
+end
+
+object DPDragWizE of DragonD
+	properties
+		special
+		name "Lost Mire Dragon"
+		view 42200
+		alignment 0
+
+		minLevel 1300
+		maxLevel 2200
+		minDamage 800
+		maxDamage 1100
+
+		strength 85
+		endurance 45
+		intelligence 70
+		dexterity 20
+
+		# do fire damage
+		affect 1 0 0 -1
+
+		soundGroup 13
+		damageType 2
+		armorType 1
+		range 2
+		quickness 8
+		  
+
+		girth 85
+		height 85
+	end
+
+	base container
+		object RandomStatBoots
+		object RandomRareGlowDye
+		object RandomRareHelmet
+		object RandomNewGear
+		object RandomMonsterMegaTreasure
+	end
+
+	base character
+		skill 0 5
+		skill 1 5
+		skill 2 5
+		skill 3 5
+		skill 4 5
+		skill 5 5
+		skill 6 5
+		skill 7 5
+		skill 8 5
+		skill 10 5
+		## grand master wiz
+		skill 11 5
+		skill 12 5
+		skill 13 5
+		skill 14 5
+		skill 15 5
+		skill 28 5
+		skill 29 5
+		properName "Lost Mire Dragon"
+	end
+
+	actions
+		vBeBorn changeSpellResistance self 100 2	#100% Resist Myst
+
+		#  350% SDM to all
+        vBeBorn changeSDM self 350 0 2 1 3 4
+	end
+
+	base npc
+		code EvilWizard
+	end
+	
+	base described
+		text "You see a Lost Mire Dragon, maybe it's friendly?\n\n 100% Myst Resistance.\n"
+	end
+end
+
+
+object DPDragWizN of DragonC
+	properties
+		special
+		name "Lost Bog Dragon"
+		view 42200
+		alignment 127
+
+		minLevel 1300
+		maxLevel 2200
+		minDamage 800
+		maxDamage 1100
+
+		strength 85
+		endurance 45
+		intelligence 70
+		dexterity 20
+
+		# do fire damage
+		affect 1 0 0 -1
+
+		soundGroup 13
+		damageType 2
+		armorType 1
+		range 2
+		quickness 8
+		  
+
+		girth 85
+		height 85
+	end
+
+	base container
+		object RandomStatBoots
+		object RandomRareGlowDye
+		object RandomRareHelmet
+		object RandomNewGear
+		object RandomMonsterMegaTreasure
+	end
+
+	base character
+		skill 0 5
+		skill 1 5
+		skill 2 5
+		skill 3 5
+		skill 4 5
+		skill 5 5
+		skill 6 5
+		skill 7 5
+		skill 8 5
+		skill 10 5
+		## grand master wiz
+		skill 11 5
+		skill 12 5
+		skill 13 5
+		skill 14 5
+		skill 15 5
+		skill 28 5
+		skill 29 5
+		properName "Lost Bog Dragon"
+	end
+
+	actions
+		vBeBorn changeSpellResistance self 100 2	#100% Resist Myst
+		#  350% SDM to all
+        vBeBorn changeSDM self 350 0 2 1 3 4
+	end
+
+	base npc
+		code NeutralWizard
+	end
+	
+	base described
+		text "You see a Lost Bog Dragon, maybe it's friendly?\n\n 100% Myst Resistance.\n"
+	end
+end
+
+object DPDragWizG of DragonB
+	properties
+		special
+		name "Lost Wyrm Dragon"
+		view 42200
+		alignment 127
+
+		minLevel 1300
+		maxLevel 2200
+		minDamage 800
+		maxDamage 1100
+
+		strength 85
+		endurance 45
+		intelligence 70
+		dexterity 20
+
+		# do fire damage
+		affect 1 0 0 -1
+
+		soundGroup 13
+		damageType 2
+		armorType 1
+		range 2
+		quickness 8
+		  
+
+		girth 85
+		height 85
+	end
+
+	base container
+		object RandomStatBoots
+		object RandomRareGlowDye
+		object RandomRareHelmet
+		object RandomNewGear
+		object RandomMonsterMegaTreasure
+	end
+
+	base character
+		skill 0 5
+		skill 1 5
+		skill 2 5
+		skill 3 5
+		skill 4 5
+		skill 5 5
+		skill 6 5
+		skill 7 5
+		skill 8 5
+		skill 10 5
+		## grand master wiz
+		skill 11 5
+		skill 12 5
+		skill 13 5
+		skill 14 5
+		skill 15 5
+		skill 28 5
+		skill 29 5
+		properName "Lost Wyrm Dragon"
+	end
+
+	actions
+		vBeBorn changeSpellResistance self 100 2	#100% Resist Myst
+		#  350% SDM to all
+        vBeBorn changeSDM self 350 0 2 1 3 4
+	end
+
+	base npc
+		code GoodWizard
+	end
+	
+	base described
+		text "You see a Lost Wyrm Dragon, maybe it's friendly?\n\n 100% Myst Resistance.\n"
+	end
+end
+
+
+
+
+
+
+object RandomLostDragon of NPC
+	properties
+		special
+		random 100
+	end
+
+	base treasure
+		DPDragWizE
+		DPDragWizG	
+		DPDragWizN
+	end
+end	
+
+object RandomDragon of NPC
+	properties
+		special
+		random 100
+	end
+
+	base treasure
+		DragonA
+		DragonB	
+		DragonC
+		DragonD
+		DragonE
+		DragonF
+		DragonG
+	end
+end	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#####
+#####
+#####
+#####
+#####
+#####
+object SummonedDragon of DragonC
+	properties
+		special
+		alignment 127
+		color 100
+
+		minLevel 900
+		maxLevel 1200
+		minDamage 800
+		maxDamage 1100
+
+		strength 20
+		endurance 15
+		intelligence 70
+		dexterity 20
+
+		# do fire damage
+		affect 1 0 0 -1
+
+		soundGroup 13
+		damageType 2
+		armorType 1
+		range 2
+		quickness 8
+		treasure 2
+
+		girth 130
+		height 130
+	end
+
+	base character
+		## unarmed combat grandmaster
+		skill 7 5
+
+		## acrobatics grandmaster
+		skill 9 5
+
+		## sorcery grandmaster
+		skill 11 5
+
+		## elementalism grandmaster
+		skill 12 5
+
+		## mysticism grandmaster
+		skill 13 5
+
+		## necromancy grandmaster
+		skill 15 5
+
+		## critical striking grandmaster
+		skill 29 5
+	end
+
+	base described
+		text "This is a Player-Summoned Dragon."
+	end
+
+	actions
+		vBeBorn changeSpellResistance self 50 2		# 50% Resist Myst
+	end
+end

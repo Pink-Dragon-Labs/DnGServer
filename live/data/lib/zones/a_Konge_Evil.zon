@@ -1,0 +1,28 @@
+name "kongeevil"
+title "Konge"
+worldFile "../data/lib/world/kong_bn.wld"
+worldFile "../data/lib/world/kong_bn2.wld"
+#worldFile "../data/lib/world/konge_no.wld"
+
+resetInterval 9000000
+maximumObjectAge 0
+allowCombat 3
+midiFile 17
+groupChance 20
+
+#monster OrcScout 80
+#monster OrcThug 80
+#monster OrcBandit 80
+#monster OrcMagus 80
+#monster OrcWarlord 60
+#monsterGroup 4 2 OrcWarlord 1 OrcMagus
+#monsterGroup 2 4 OrcBandit 1 OrcMagus
+#monsterGroup 4 2 OrcWarlord 3 OrcScout 2 OrcMagus
+#monster Phantasm 80
+#monster Revenant 80
+#monster Specter 80
+#monster Poltergeist 80
+#monster Yurei 60
+#monsterGroup 4 2 Yurei 1 Poltergeist
+#monsterGroup 2 4 Specter 1 Poltergeist
+#monsterGroup 4 2 Yurei 3 Phantasm 2 Poltergeist

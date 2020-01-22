@@ -1,0 +1,67 @@
+object HibiscusBlue 
+	properties
+		name "2018 Blue Hibiscus"
+		view  30151 
+		value 200
+ 		toss
+	end
+	base carryable
+		bulk 0.1			 
+		weight 0.1
+	end
+	base described
+		text "You see a beautiful blue hibiscus from the 2018 celebration!"
+		shopText "This is a blue hibiscus."
+	end
+end
+
+object HibiscusPink
+	properties
+		name "2018 Pink Hibiscus"
+		view  30152
+		value 200
+ 		toss
+	end
+	base carryable
+		bulk 0.1			 
+		weight 0.1
+	end
+	base described
+		text "You see a beautiful pink hibiscus from the 2018 celebration!"
+		shopText "This is a pink hibiscus."
+	end
+end
+
+object HibiscusPurple
+	properties
+		name "2018 Purple Hibiscus"
+		view  30153
+		value 200
+ 		toss
+	end
+	base carryable
+		bulk 0.1			 
+		weight 0.1
+	end
+	base described
+		text "You see a beautiful purple hibiscus from the 2018 celebration!"
+		shopText "This is a purple hibiscus."
+	end
+end
+
+object HibiscusYellow
+	properties
+		name "2018 Yellow Hibiscus"
+		view  30158 
+		value 200
+ 		toss
+	end
+	base carryable
+		bulk 0.1			 
+		weight 0.1
+	end
+	base described
+		text "You see a beautiful yellow hibiscus from the 2018 celebration!"
+		shopText "This is a yellow hibiscus."
+	end
+end

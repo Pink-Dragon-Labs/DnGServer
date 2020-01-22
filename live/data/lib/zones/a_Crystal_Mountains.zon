@@ -1,0 +1,46 @@
+name "crystalmountains"
+title "Crystal Mountains"
+worldFile "../data/lib/world/CRYS01.WLD"
+worldFile "../data/lib/world/CRYS02.WLD"
+worldFile "../data/lib/world/CRYS03.WLD"
+worldFile "../data/lib/world/CRYS04.WLD"
+worldFile "../data/lib/world/CRYS05.WLD"
+worldFile "../data/lib/world/CRYS06.WLD"
+worldFile "../data/lib/world/CRYS07.WLD"
+worldFile "../data/lib/world/CRYS08.WLD"
+worldFile "../data/lib/world/CRYS09.WLD"
+worldFile "../data/lib/world/CRYS10.WLD"
+worldFile "../data/lib/world/CRYS11.WLD"
+worldFile "../data/lib/world/CRYS12.WLD"
+worldFile "../data/lib/world/CRYS13.WLD"
+resetInterval 9000000
+maximumObjectAge 0
+allowCombat 3
+midiFile 17
+
+
+
+groupChance 600
+monster SwampImp 50
+monster ElderSwampImp 35
+monster CobaltImp 30
+monster ToxicImp 30
+monster EmperorImp 15
+monster HolyImp 15
+monster CrimsonImp 45
+monster MireImp 50
+monster BogImp 50
+monster LegendaryImp 15
+monster ImpReaver 35
+monster CorruptImp 20
+monster DemonicImp 25
+monster GladiatorImp 35
+monster GodlyImp 1
+monster Azazel 25
+monster Bandit 20
+monster BanditMystic 45
+monster Goo 20
+monster Basilisk 35
+monster EvilMinion 20
+monster Champion 20
+monster Protector 20

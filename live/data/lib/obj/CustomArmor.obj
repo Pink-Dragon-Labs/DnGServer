@@ -1,0 +1,2176 @@
+# CustomWeapons
+
+object AppRobeOfStrength of Robe
+	properties
+	special
+                name "Apprentice Robe of Strength"
+                value 15000
+                color -1
+                armorFlat    10
+                armorPercent 20
+                level 100
+	end
+	
+	actions
+		vBePutOn setAffect dobj 39 0 0 -1
+		vBeTakenOff clearAffect dobj 39 0 0
+	end
+	
+	base described
+				text "You see a Robe."
+                idText "You see an Apprentice Robe of Strength.\nLevel 100\n"
+                shopText "The uses of this robe don't stop at the shower.\nLevel 100\n"
+	end
+end
+
+object AppRobeOfDexterity of Robe
+	properties
+	special
+                name "Apprentice Robe of Dexterity"
+                value 15000
+                color -1
+                armorFlat    10
+                armorPercent 20
+                level 100
+	end
+	
+	actions
+		vBePutOn setAffect dobj 59 0 0 -1
+		vBeTakenOff clearAffect dobj 59 0 0
+	end
+	
+	base described
+				text "You see a Robe."
+                idText "You see an Apprentice Robe of Dexterity.\nLevel 100\n"
+                shopText "The uses of this robe don't stop at the shower.\nLevel 100\n"
+	end
+end
+
+object AppRobeOfIntelligence of Robe
+	properties
+	special
+                name "Apprentice Robe of Intelligence"
+                value 15000
+                color -1
+                armorFlat    10
+                armorPercent 20
+                level 100
+	end
+	
+	actions
+		vBePutOn setAffect dobj 61 0 0 -1
+		vBeTakenOff clearAffect dobj 61 0 0
+	end
+
+	base wearable
+		mask warrior
+	end
+	
+	base described
+				text "You see a Robe."
+                idText "You see an Apprentice Robe of Intelligence.\nNo Warriors!!\nLevel 100\n"
+                shopText "The uses of this robe don't stop at the shower.\nNo Warriors!!\nLevel 100\n"
+	end
+end
+
+object AppRobeOfEndurance of Robe
+	properties
+	special
+                name "Apprentice Robe of Endurance"
+                value 15000
+                color -1
+                armorFlat    10
+                armorPercent 20
+                level 100
+	end
+	
+	actions
+		vBePutOn setAffect dobj 63 0 0 -1
+		vBeTakenOff clearAffect dobj 63 0 0
+	end
+	
+	base wearable
+		mask wizard
+	end
+	
+	base described
+				text "You see a Robe."
+                idText "You see an Apprentice Robe of Endurance.\nNo Wizards!!\nLevel 100\n"
+                shopText "The uses of this robe don't stop at the shower.\nNo Wizards!!\nLevel 100\n"
+	end
+end
+
+# Skirts Long
+object AppLongSkirtOfStrength of LeatherShortSkirt
+	properties
+	special
+	name "Apprentice Long Skirt of Strength"
+                value 15000
+                color -1
+                armorFlat    10
+                armorPercent 20
+                level 100
+	end
+
+	actions
+		vBePutOn setAffect dobj 39 0 0 -1
+		vBeTakenOff clearAffect dobj 39 0 0
+	end
+	
+	base described
+				text "You see a Long Skirt."
+                idText "You see ab Apprentice Long Skirt of Strength.\nLevel 100\n"
+                shopText "The uses of this skirt don't stop at the shower.\nLevel 100\n"
+	end
+end
+
+object AppLongSkirtOfDexterity of LeatherShortSkirt
+	properties
+	special
+	name "Apprentice Long Skirt of Dexterity"
+                value 15000
+                color -1
+                armorFlat    10
+                armorPercent 20
+                level 100
+	end
+
+	actions
+		vBePutOn setAffect dobj 59 0 0 -1
+		vBeTakenOff clearAffect dobj 59 0 0
+	end
+	
+	base described
+				text "You see a Long Skirt."
+                idText "You see an Apprentice Long Skirt of Deterity.\nLevel 100\n"
+                shopText "The uses of this skirt don't stop at the shower.\nLevel 100\n"
+	end
+end
+
+object AppLongSkirtOfIntelligence of LeatherShortSkirt
+	properties
+	special
+	name "Apprentice Long Skirt of Intelligence"
+                value 15000
+                color -1
+                armorFlat    10
+                armorPercent 20
+                level 100
+	end
+
+	actions
+		vBePutOn setAffect dobj 61 0 0 -1
+		vBeTakenOff clearAffect dobj 61 0 0
+	end
+
+	base wearable
+		mask warrior
+	end
+	base described
+				text "You see a Long Skirt."
+                idText "You see an Apprentice Long Skirt of Intelligence.\nNo Warriors!!\nLevel 100\n"
+                shopText "The uses of this skirt don't stop at the shower.\nNo Warriors!!\nLevel 100\n"
+	end
+end
+
+object AppLongSkirtOfEndurance of LeatherShortSkirt
+	properties
+	special
+	name "Apprentice Long Skirt of Endurance"
+                value 15000
+                color -1
+                armorFlat    10
+                armorPercent 20
+                level 100
+	end
+
+	actions
+		vBePutOn setAffect dobj 63 0 0 -1
+		vBeTakenOff clearAffect dobj 63 0 0
+	end
+	
+	base wearable
+		mask wizard
+	end
+	
+	base described
+				text "You see a Long Skirt."
+                idText "You see an Apprentice Long Skirt of Endurance.\nNo Wizards!!\nLevel 100\n"
+                shopText "The uses of this skirt don't stop at the shower.\nNo Wizards!!\nLevel 100\n"
+	end
+end
+
+object EvilHighBoots of HighBoots
+	properties
+	special
+		name "Evil High Boots"
+		value 7500
+		armor 50
+		health 400
+		color 97
+		level 300
+		special
+	end
+
+	base carryable
+		weight 2.5
+	end
+
+	actions
+		# Pos Dex (as per Boots of Nimbility)
+		vBePutOn setAffect dobj 59 0 0 -1
+		vBeTakenOff clearAffect dobj 59 0 0
+		# Change good sdm modifer 25%
+		vBePutOn changeGoodMDMMod dobj 25
+		vBeTakenOff changeGoodMDMMod dobj -25
+	end
+
+	base described
+		text "You see a pair of High Boots."
+		idText "You see a pair of Evil High Boots.\nLevel 300\n25% Damage vs Good.\n"
+		shopText "These are the feared, majestic Evil High Boots.\nLevel 300\n25% Damage vs Good.\n"
+	end
+end
+
+object GoodHighBoots of HighBoots
+	properties
+	special
+		name "Good High Boots"
+		value 7500
+		armor 50
+		health 400
+		color 152
+		level 300
+		special
+	end
+
+	base carryable
+		weight 2.5
+	end
+
+	actions
+		# Pos Dex (as per Boots of Nimbility)
+		vBePutOn setAffect dobj 59 0 0 -1
+		vBeTakenOff clearAffect dobj 59 0 0
+		# 25% dmg vs evil
+		vBePutOn changeEvilMDMMod dobj 25
+		vBeTakenOff changeEvilMDMMod dobj -25
+	end
+
+	base described
+		text "You see a pair of High Boots."
+		idText "You see a pair of Good High Boots.\nLevel 300\n25% Damage vs Evil.\n"
+		shopText "These are the feared, majestic Good High Boots.\nLevel 300\n25% Damage vs Evil.\n"
+	end
+end
+
+object AppHighBootsOfStrength of HighBoots
+	properties
+	special
+		name "Apprentice High Boots of Strength"
+		value 7500
+		armor 50
+		health 400
+		color -1
+		level 100
+		special
+	end
+
+	base carryable
+		weight 2.5
+	end
+
+	actions
+		# Int
+		vBePutOn setAffect dobj 39 2 0 -1
+		vBeTakenOff clearAffect dobj 39 2 0
+	end
+
+	base described
+		text "You see a pair of High Boots."
+		idText "You see a pair of Apprentice High Boots of Strength.\nLevel 100\n"
+		shopText "These are the feared, majestic Apprentice High Boots of Strength.\nLevel 100\n"
+	end
+end
+
+object AppHighBootsOfIntelligence of HighBoots
+	properties
+	special
+		name "Apprentice High Boots of Intelligence"
+		value 7500
+		armor 50
+		health 400
+		color -1
+		level 100
+		special
+	end
+
+	base carryable
+		weight 2.5
+	end
+
+	actions
+		# Str
+		vBePutOn setAffect dobj 61 2 0 -1
+		vBeTakenOff clearAffect dobj 61 2 0
+	end
+
+	base wearable
+		mask warrior
+	end
+	
+	base described
+		text "You see a pair of High Boots."
+		idText "You see a pair of Apprentice High Boots of Intelligence.\nNo Warriors!!\nLevel 100\n"
+		shopText "These are the feared, majestic Apprentice High Boots of Intelligence.\nNo Warriors!!\nLevel 100\n"
+	end
+end
+
+object AppHighBootsOfDexterity of HighBoots
+	properties
+	special
+		name "Apprentice High Boots of Dexterity"
+		value 7500
+		armor 50
+		health 400
+		color -1
+		level 100
+		special
+	end
+
+	base carryable
+		weight 2.5
+	end
+
+	actions
+		# Dex
+		vBePutOn setAffect dobj 59 2 0 -1
+		vBeTakenOff clearAffect dobj 59 2 0
+		# DBLE Dex
+		vBePutOn setAffect dobj 59 2 0 -1
+		vBeTakenOff clearAffect dobj 59 2 0
+	end
+
+	base described
+		text "You see a pair of High Boots."
+		idText "You see a pair of Apprentice High Boots of Dexterity.\nLevel 100\n"
+		shopText "These are the feared, majestic Apprentice High Boots of Dexterity.\nLevel 100\n"
+	end
+end
+
+object AppHighBootsOfEndurance of HighBoots
+	properties
+	special
+		name "Apprentice High Boots of Endurance"
+		value 7500
+		armor 50
+		health 400
+		color -1
+		level 100
+		special
+	end
+
+	base carryable
+		weight 2.5
+	end
+	
+	base wearable
+		mask wizard
+	end
+	
+	actions
+		# End
+		vBePutOn setAffect dobj 63 2 0 -1
+		vBeTakenOff clearAffect dobj 63 2 0
+	end
+
+	base described
+		text "You see a pair of High Boots."
+		idText "You see a pair of Apprentice High Boots of Endurance.\nNo Wizards!!\nLevel 100\n"
+		shopText "These are the feared, majestic Apprentice High Boots of Endurance.\nNo Wizards!!\nLevel 100\n"
+	end
+end
+
+
+object EvilThiefMask of ThiefMask
+	properties
+	special
+		# Bandanna Special Version
+		view 30950
+		name "Evil Thieves' Mask"
+		clutStart 63
+		clutStart 21
+		armorFlat 15
+		level 425
+		color 97
+		enchantResistance 20
+	end
+
+	base wearable
+				areaWorn 0
+                # only Thieves
+                mask warrior
+                mask adventurer
+                mask wizard
+	end
+
+	base carryable
+		weight 1
+	end
+
+	actions
+		vBePutOn clearAffect dobj 21 0 0
+		# Magic Resist 15% to all except Myst
+		vBePutOn changeSpellResistance dobj 15 0 1 3 4
+		vBeTakenOff changeSpellResistance dobj -15 0 1 3 4
+		# Free Will
+		vBePutOn setAffect dobj 86 0 0 -1
+		vBeTakenOff clearAffect dobj 86 0 0
+	end
+
+	base described
+		text "You see a mask and bandanna."
+		idText "You see a special mask and bandanna prized by thieves for its invisibility bestowing powers. You must be a level 425 thief, or higher, to wear this bandanna.\nEnchant Resistance: 20 percent.\n\n"
+		shopText "These things are frowned upon by the local constabulary. Quick, put it away before someone sees you with it."
+	end
+end
+
+object ShiftHoodOfIntelligence of ShiftHood
+	properties
+	special
+		name "Hood of Intelligence"
+		color 109
+	end
+
+	base carryable
+		weight 2
+	end
+
+	base wearable
+		areaWorn 0
+	end
+
+	base described
+		text "You see a cloth hood."
+		idText "You see a special type of hood prized for its Shift bestowing properties. It is said that the hood gains its power by draining energy from the wearer, making them weak and tired.\n You must be level 100 or higher to wear this hood.\n\n"
+		shopText "These hoods make it hard to pin you down but it's said it drains your energy, making you tired and weak."
+	end
+end
+
+object GlowingBerserkHelmet of BerserkHelmet
+	properties
+	special
+		name "Berserker's Helmet"
+		color 194
+	end
+
+	base carryable
+		# same weight as Mythril
+		weight 2.5 
+	end
+
+	base described
+		text "You see a horned helm."
+		idText "You see the legendary Berserker's Helmet. It is rumored to increase the wearer's attacks and protect them from poison, but it drives anyone who places it on their head into a blood-thirsty frenzy, distorting their face and bleaching their hair pure white.\n\n"
+		shopText "A Helm of the Berserker! It takes a brave heart to use one of these."
+	end
+end
+
+object GlowingNightmareHelmet of NightmareHelmet
+	properties
+	special
+		name "Nightmare Helm"
+		color 91
+	end
+
+	base carryable
+		weight 3
+	end
+
+	base described
+		text "You see a winged helm."
+		idText "A Nightmare Helm. This fearsome helm draws upon the forces of darkness to aid the wearer. You must be level 150 or higher to wear this helm.\nEnchant Resistance: 20 percent.\n\n"
+		shopText "A Nightmare Helm! A dangerous item."
+	end
+end
+
+object GlowingKhanHelmet of KhanHelmet 
+	properties
+	special
+		name "Helm of the Khan"
+		color 81
+	end
+
+	base carryable
+		weight 3
+	end
+	base described
+		text "You see a vile looking helm."
+		idText "A Helm of the Khan! This, the most powerful of magical helms, increases endurance, provides the ability to attack more often, and ensures the wearer of free will. Be aware that such power does not come without a price.\n This helm requires a wearer of level 700 or higher.\n\n"
+		shopText "A Helm of the Khan! A dangerous item."
+	end
+end
+
+object EvilPants of LeatherPants
+	properties
+	special
+		color 97
+	end
+end
+
+object EvilTunic of ExoticTunic
+	properties
+	special
+		color 97
+	end
+end
+
+object EvilChainCowl of Cowl
+	properties
+	special
+		name "Evil Chain Cowl"
+		view 13500
+		clutStart 93
+		color 176
+		value 125
+		health 175
+		armor 50
+		strength 2
+		armorType 1
+
+		# remove rust immunity
+		caffect 11
+
+		# add fire immunity
+		affect 1 2 0 -1
+	end
+
+	base carryable
+		weight 4.0
+	end
+
+	base described
+		text "You see a finely crafted Chain Cowl."
+		shopText "This fine chain cowl will protect your neck and chest from damage."
+	end
+end
+
+object EvilWrist of Wristband
+	properties
+	special
+		name "Evil Wristbands"
+		value 130
+		health 150
+		color 176
+		strength 2
+	end
+
+	base carryable
+		weight 1.5
+	end
+
+	base described
+		text "You see a pair of steel wristbands."
+	end
+end
+
+##--------Novice
+object NoviceRobeOfStrength of Robe
+	properties
+	special
+                name "Novice Robe of Strength"
+                value 15000
+                color -1
+                armorFlat    10
+                armorPercent 20
+                level 500
+	end
+	
+	actions
+		vBePutOn setAffect dobj 39 0 0 -1
+		vBeTakenOff clearAffect dobj 39 0 0
+		vBePutOn setAffect dobj 39 0 0 -1
+		vBeTakenOff clearAffect dobj 39 0 0
+	end
+	
+	base described
+				text "You see a Robe."
+                idText "You see an Novice Robe of Strength.\nLevel 500\n"
+                shopText "The uses of this robe don't stop at the shower.\nLevel 500\n"
+	end
+end
+
+object NoviceRobeOfDexterity of Robe
+	properties
+	special
+                name "Novice Robe of Dexterity"
+                value 15000
+                color -1
+                armorFlat    10
+                armorPercent 20
+                level 500
+	end
+	
+	actions
+		vBePutOn setAffect dobj 59 0 0 -1
+		vBeTakenOff clearAffect dobj 59 0 0
+		vBePutOn setAffect dobj 59 0 0 -1
+		vBeTakenOff clearAffect dobj 59 0 0
+	end
+	
+	base described
+				text "You see a Robe."
+                idText "You see an Novice Robe of Dexterity.\nLevel 500\n"
+                shopText "The uses of this robe don't stop at the shower.\nLevel 500\n"
+	end
+end
+
+object NoviceRobeOfIntelligence of Robe
+	properties
+	special
+                name "Novice Robe of Intelligence"
+                value 15000
+                color -1
+                armorFlat    10
+                armorPercent 20
+                level 500
+	end
+	
+	actions
+		vBePutOn setAffect dobj 61 0 0 -1
+		vBeTakenOff clearAffect dobj 61 0 0
+		vBePutOn setAffect dobj 61 0 0 -1
+		vBeTakenOff clearAffect dobj 61 0 0
+	end
+
+	base wearable
+		mask warrior
+	end
+	
+	base described
+				text "You see a Robe."
+                idText "You see an Novice Robe of Intelligence.\nNo Warriors!!\nLevel 500\n"
+                shopText "The uses of this robe don't stop at the shower.\nNo Warriors!!\nLevel 500\n"
+	end
+end
+
+object NoviceRobeOfEndurance of Robe
+	properties
+	special
+                name "Novice Robe of Endurance"
+                value 15000
+                color -1
+                armorFlat    10
+                armorPercent 20
+                level 500
+	end
+	
+	actions
+		vBePutOn setAffect dobj 63 0 0 -1
+		vBeTakenOff clearAffect dobj 63 0 0
+		vBePutOn setAffect dobj 63 0 0 -1
+		vBeTakenOff clearAffect dobj 63 0 0
+	end
+	
+	base wearable
+		mask wizard
+	end
+	
+	base described
+				text "You see a Robe."
+                idText "You see an Novice Robe of Endurance.\nNo Wizards!!\nLevel 500\n"
+                shopText "The uses of this robe don't stop at the shower.\nNo Wizards!!\nLevel 500\n"
+	end
+end
+
+# Skirts Short
+object NoviceShortSkirtOfStrength of LeatherShortSkirt
+	properties
+	special
+	name "Novice Short Skirt of Strength"
+                value 15000
+                color -1
+                armorFlat    10
+                armorPercent 20
+                level 500
+	end
+
+	actions
+		vBePutOn setAffect dobj 39 0 0 -1
+		vBeTakenOff clearAffect dobj 39 0 0
+		vBePutOn setAffect dobj 39 0 0 -1
+		vBeTakenOff clearAffect dobj 39 0 0
+	end
+	
+	base described
+				text "You see a Short Skirt."
+                idText "You see ab Novice Short Skirt of Strength.\nLevel 500\n"
+                shopText "The uses of this skirt don't stop at the shower.\nLevel 500\n"
+	end
+end
+
+object NoviceShortSkirtOfDexterity of LeatherShortSkirt
+	properties
+	special
+	name "Novice Short Skirt of Dexterity"
+                value 15000
+                color -1
+                armorFlat    10
+                armorPercent 20
+                level 500
+	end
+
+	actions
+		vBePutOn setAffect dobj 59 0 0 -1
+		vBeTakenOff clearAffect dobj 59 0 0
+		vBePutOn setAffect dobj 59 0 0 -1
+		vBeTakenOff clearAffect dobj 59 0 0
+	end
+	
+	base described
+				text "You see a Short Skirt."
+                idText "You see an Novice Short Skirt of Dexterity.\nLevel 500\n"
+                shopText "The uses of this skirt don't stop at the shower.\nLevel 500\n"
+	end
+end
+
+object NoviceShortSkirtOfIntelligence of LeatherShortSkirt
+	properties
+	special
+	name "Novice Short Skirt of Intelligence"
+                value 15000
+                color -1
+                armorFlat    10
+                armorPercent 20
+                level 500
+	end
+
+	actions
+		vBePutOn setAffect dobj 61 0 0 -1
+		vBeTakenOff clearAffect dobj 61 0 0
+		vBePutOn setAffect dobj 61 0 0 -1
+		vBeTakenOff clearAffect dobj 61 0 0
+	end
+
+	base wearable
+		mask warrior
+	end
+	base described
+				text "You see a Short Skirt."
+                idText "You see an Novice Short Skirt of Intelligence.\nNo Warriors!!\nLevel 500\n"
+                shopText "The uses of this skirt don't stop at the shower.\nNo Warriors!!\nLevel 500\n"
+	end
+end
+
+object NoviceShortSkirtOfEndurance of LeatherShortSkirt
+	properties
+	special
+	name "Novice Short Skirt of Endurance"
+                value 15000
+                color -1
+                armorFlat    10
+                armorPercent 20
+                level 500
+	end
+
+	actions
+		vBePutOn setAffect dobj 63 0 0 -1
+		vBeTakenOff clearAffect dobj 63 0 0
+		vBePutOn setAffect dobj 63 0 0 -1
+		vBeTakenOff clearAffect dobj 63 0 0
+	end
+	
+	base wearable
+		mask wizard
+	end
+	
+	base described
+				text "You see a Short Skirt."
+                idText "You see an Novice Short Skirt of Endurance.\nNo Wizards!!\nLevel 500\n"
+                shopText "The uses of this skirt don't stop at the shower.\nNo Wizards!!\nLevel 500\n"
+	end
+end
+
+object NoviceHighBootsOfStrength of HighBoots
+	properties
+	special
+		name "Novice High Boots of Strength"
+		value 7500
+		armor 50
+		health 400
+		color -1
+		level 500
+		special
+	end
+
+	base carryable
+		weight 2.5
+	end
+
+	actions
+		vBePutOn setAffect dobj 39 2 0 -1
+		vBeTakenOff clearAffect dobj 39 2 0
+		vBePutOn setAffect dobj 39 2 0 -1
+		vBeTakenOff clearAffect dobj 39 2 0
+	end
+
+	base described
+		text "You see a pair of High Boots."
+		idText "You see a pair of Novice High Boots of Strength.\nLevel 500\n"
+		shopText "These are the feared, majestic Novice High Boots of Strength.\nLevel 500\n"
+	end
+end
+
+object NoviceHighBootsOfIntelligence of HighBoots
+	properties
+	special
+		name "Novice High Boots of Intelligence"
+		value 7500
+		armor 50
+		health 400
+		color -1
+		level 500
+		special
+	end
+
+	base carryable
+		weight 2.5
+	end
+
+	actions
+		vBePutOn setAffect dobj 61 2 0 -1
+		vBeTakenOff clearAffect dobj 61 2 0
+		vBePutOn setAffect dobj 61 2 0 -1
+		vBeTakenOff clearAffect dobj 61 2 0
+	end
+
+	base wearable
+		mask warrior
+	end
+	
+	base described
+		text "You see a pair of High Boots."
+		idText "You see a pair of Novice High Boots of Intelligence.\nNo Warriors!!\nLevel 500\n"
+		shopText "These are the feared, majestic Novice High Boots of Intelligence.\nNo Warriors!!\nLevel 500\n"
+	end
+end
+
+object NoviceHighBootsOfDexterity of HighBoots
+	properties
+	special
+		name "Novice High Boots of Dexterity"
+		value 7500
+		armor 50
+		health 400
+		color -1
+		level 500
+		special
+	end
+
+	base carryable
+		weight 2.5
+	end
+
+	actions
+		vBePutOn setAffect dobj 59 2 0 -1
+		vBeTakenOff clearAffect dobj 59 2 0
+		vBePutOn setAffect dobj 59 2 0 -1
+		vBeTakenOff clearAffect dobj 59 2 0
+		vBePutOn setAffect dobj 59 2 0 -1
+		vBeTakenOff clearAffect dobj 59 2 0
+	end
+
+	base described
+		text "You see a pair of High Boots."
+		idText "You see a pair of Novice High Boots of Dexterity.\nLevel 500\n"
+		shopText "These are the feared, majestic Novice High Boots of Dexterity.\nLevel 500\n"
+	end
+end
+
+object NoviceHighBootsOfEndurance of HighBoots
+	properties
+	special
+		name "Novice High Boots of Endurance"
+		value 7500
+		armor 50
+		health 400
+		color -1
+		level 500
+		special
+	end
+
+	base carryable
+		weight 2.5
+	end
+	
+	base wearable
+		mask wizard
+	end
+	
+	actions
+		vBePutOn setAffect dobj 63 2 0 -1
+		vBeTakenOff clearAffect dobj 63 2 0
+		vBePutOn setAffect dobj 63 2 0 -1
+		vBeTakenOff clearAffect dobj 63 2 0
+	end
+
+	base described
+		text "You see a pair of High Boots."
+		idText "You see a pair of Novice High Boots of Endurance.\nNo Wizards!!\nLevel 500\n"
+		shopText "These are the feared, majestic Novice High Boots of Endurance.\nNo Wizards!!\nLevel 500\n"
+	end
+end
+##------------Master
+object MasterRobeOfStrength of Robe
+	properties
+	special
+                name "Master Robe of Strength"
+                value 50
+                color -1
+                armorFlat    10
+                armorPercent 20
+                level 1000
+	end
+	
+	actions
+		vBePutOn setAffect dobj 39 0 0 -1
+		vBeTakenOff clearAffect dobj 39 0 0
+		vBePutOn setAffect dobj 39 0 0 -1
+		vBeTakenOff clearAffect dobj 39 0 0
+		vBePutOn setAffect dobj 39 0 0 -1
+		vBeTakenOff clearAffect dobj 39 0 0
+	end
+	
+	base described
+				text "You see a Robe."
+                idText "You see an Master Robe of Strength.\nLevel 1000\n"
+                shopText "The uses of this robe don't stop at the shower.\nLevel 1000\n"
+	end
+end
+
+object MasterRobeOfDexterity of Robe
+	properties
+	special
+                name "Master Robe of Dexterity"
+                value 50
+                color -1
+                armorFlat    10
+                armorPercent 20
+                level 1000
+	end
+	
+	actions
+		vBePutOn setAffect dobj 59 0 0 -1
+		vBeTakenOff clearAffect dobj 59 0 0
+		vBePutOn setAffect dobj 59 0 0 -1
+		vBeTakenOff clearAffect dobj 59 0 0
+		vBePutOn setAffect dobj 59 0 0 -1
+		vBeTakenOff clearAffect dobj 59 0 0
+	end
+	
+	base described
+				text "You see a Robe."
+                idText "You see an Master Robe of Dexterity.\nLevel 1000\n"
+                shopText "The uses of this robe don't stop at the shower.\nLevel 1000\n"
+	end
+end
+
+object MasterRobeOfIntelligence of Robe
+	properties
+	special
+                name "Master Robe of Intelligence"
+                value 50
+                color -1
+                armorFlat    10
+                armorPercent 20
+                level 1000
+	end
+	
+	actions
+		vBePutOn setAffect dobj 61 0 0 -1
+		vBeTakenOff clearAffect dobj 61 0 0
+		vBePutOn setAffect dobj 61 0 0 -1
+		vBeTakenOff clearAffect dobj 61 0 0
+		vBePutOn setAffect dobj 61 0 0 -1
+		vBeTakenOff clearAffect dobj 61 0 0
+	end
+	
+	base described
+				text "You see a Robe."
+                idText "You see an Master Robe of Intelligence.\nLevel 1000\n"
+                shopText "The uses of this robe don't stop at the shower.\nLevel 1000\n"
+	end
+end
+
+object MasterRobeOfEndurance of Robe
+	properties
+	special
+                name "Master Robe of Endurance"
+                value 50
+                color -1
+                armorFlat    10
+                armorPercent 20
+                level 1000
+	end
+	
+	actions
+		vBePutOn setAffect dobj 63 0 0 -1
+		vBeTakenOff clearAffect dobj 63 0 0
+		vBePutOn setAffect dobj 63 0 0 -1
+		vBeTakenOff clearAffect dobj 63 0 0
+		vBePutOn setAffect dobj 63 0 0 -1
+		vBeTakenOff clearAffect dobj 63 0 0
+	end
+	
+	base described
+				text "You see a Robe."
+                idText "You see an Master Robe of Endurance.\nLevel 1000\n"
+                shopText "The uses of this robe don't stop at the shower.\nLevel 1000\n"
+	end
+end
+
+# Skirts Short
+object MasterSkirtOfStrength of LeatherShortSkirt
+	properties
+	special
+	name "Master Skirt of Strength"
+                value 50
+                color -1
+                armorFlat    10
+                armorPercent 20
+                level 1000
+	end
+
+	actions
+		vBePutOn setAffect dobj 39 0 0 -1
+		vBeTakenOff clearAffect dobj 39 0 0
+		vBePutOn setAffect dobj 39 0 0 -1
+		vBeTakenOff clearAffect dobj 39 0 0
+		vBePutOn setAffect dobj 39 0 0 -1
+		vBeTakenOff clearAffect dobj 39 0 0
+	end
+	
+	base described
+				text "You see a Long Skirt."
+                idText "You see ab Master Skirt of Strength.\nLevel 1000\n"
+                shopText "The uses of this skirt don't stop at the shower.\nLevel 1000\n"
+	end
+end
+
+object MasterSkirtOfDexterity of LeatherShortSkirt
+	properties
+	special
+	name "Master Skirt of Dexterity"
+                value 50
+                color -1
+                armorFlat    10
+                armorPercent 20
+                level 1000
+	end
+
+	actions
+		vBePutOn setAffect dobj 59 0 0 -1
+		vBeTakenOff clearAffect dobj 59 0 0
+		vBePutOn setAffect dobj 59 0 0 -1
+		vBeTakenOff clearAffect dobj 59 0 0
+		vBePutOn setAffect dobj 59 0 0 -1
+		vBeTakenOff clearAffect dobj 59 0 0
+	end
+	
+	base described
+				text "You see a Long Skirt."
+                idText "You see an Master Skirt of Dexterity.\nLevel 1000\n"
+                shopText "The uses of this skirt don't stop at the shower.\nLevel 1000\n"
+	end
+end
+
+object MasterSkirtOfIntelligence of LeatherShortSkirt
+	properties
+	special
+	name "Master Skirt of Intelligence"
+                value 50
+                color -1
+                armorFlat    10
+                armorPercent 20
+                level 1000
+	end
+
+	actions
+		vBePutOn setAffect dobj 61 0 0 -1
+		vBeTakenOff clearAffect dobj 61 0 0
+		vBePutOn setAffect dobj 61 0 0 -1
+		vBeTakenOff clearAffect dobj 61 0 0
+		vBePutOn setAffect dobj 61 0 0 -1
+		vBeTakenOff clearAffect dobj 61 0 0
+	end
+
+	base described
+				text "You see a Long Skirt."
+                idText "You see an Master Skirt of Intelligence.\nLevel 1000\n"
+                shopText "The uses of this skirt don't stop at the shower.\nLevel 1000\n"
+	end
+end
+
+object MasterSkirtOfEndurance of LeatherShortSkirt
+	properties
+	special
+	name "Master Skirt of Endurance"
+                value 50
+                color -1
+                armorFlat    10
+                armorPercent 20
+                level 1000
+	end
+
+	actions
+		vBePutOn setAffect dobj 63 0 0 -1
+		vBeTakenOff clearAffect dobj 63 0 0
+		vBePutOn setAffect dobj 63 0 0 -1
+		vBeTakenOff clearAffect dobj 63 0 0
+		vBePutOn setAffect dobj 63 0 0 -1
+		vBeTakenOff clearAffect dobj 63 0 0
+	end
+	
+	base described
+				text "You see a Long Skirt."
+                idText "You see an Master Skirt of Endurance.\nLevel 1000\n"
+                shopText "The uses of this skirt don't stop at the shower.\nLevel 1000\n"
+	end
+end
+
+# Skirts Long
+object MasterLongSkirtOfStrength of LeatherLongSkirt
+	properties
+	special
+	name "Master Skirt of Strength"
+                value 50
+                color -1
+                armorFlat    10
+                armorPercent 20
+                level 1000
+	end
+
+	actions
+		vBePutOn setAffect dobj 39 0 0 -1
+		vBeTakenOff clearAffect dobj 39 0 0
+		vBePutOn setAffect dobj 39 0 0 -1
+		vBeTakenOff clearAffect dobj 39 0 0
+		vBePutOn setAffect dobj 39 0 0 -1
+		vBeTakenOff clearAffect dobj 39 0 0
+	end
+	
+	base described
+				text "You see a Long Skirt."
+                idText "You see ab Master Skirt of Strength.\nLevel 1000\n"
+                shopText "The uses of this skirt don't stop at the shower.\nLevel 1000\n"
+	end
+end
+
+object MasterLongSkirtOfDexterity of LeatherLongSkirt
+	properties
+	special
+	name "Master Skirt of Dexterity"
+                value 50
+                color -1
+                armorFlat    10
+                armorPercent 20
+                level 1000
+	end
+
+	actions
+		vBePutOn setAffect dobj 59 0 0 -1
+		vBeTakenOff clearAffect dobj 59 0 0
+		vBePutOn setAffect dobj 59 0 0 -1
+		vBeTakenOff clearAffect dobj 59 0 0
+		vBePutOn setAffect dobj 59 0 0 -1
+		vBeTakenOff clearAffect dobj 59 0 0
+	end
+	
+	base described
+				text "You see a Long Skirt."
+                idText "You see an Master Skirt of Dexterity.\nLevel 1000\n"
+                shopText "The uses of this skirt don't stop at the shower.\nLevel 1000\n"
+	end
+end
+
+object MasterLongSkirtOfIntelligence of LeatherLongSkirt
+	properties
+	special
+	name "Master Skirt of Intelligence"
+                value 50
+                color -1
+                armorFlat    10
+                armorPercent 20
+                level 1000
+	end
+
+	actions
+		vBePutOn setAffect dobj 61 0 0 -1
+		vBeTakenOff clearAffect dobj 61 0 0
+		vBePutOn setAffect dobj 61 0 0 -1
+		vBeTakenOff clearAffect dobj 61 0 0
+		vBePutOn setAffect dobj 61 0 0 -1
+		vBeTakenOff clearAffect dobj 61 0 0
+	end
+
+	base described
+				text "You see a Long Skirt."
+                idText "You see an Master Skirt of Intelligence.\nLevel 1000\n"
+                shopText "The uses of this skirt don't stop at the shower.\nLevel 1000\n"
+	end
+end
+
+object MasterLongSkirtOfEndurance of LeatherLongSkirt
+	properties
+	special
+	name "Master Skirt of Endurance"
+                value 50
+                color -1
+                armorFlat    10
+                armorPercent 20
+                level 1000
+	end
+
+	actions
+		vBePutOn setAffect dobj 63 0 0 -1
+		vBeTakenOff clearAffect dobj 63 0 0
+		vBePutOn setAffect dobj 63 0 0 -1
+		vBeTakenOff clearAffect dobj 63 0 0
+		vBePutOn setAffect dobj 63 0 0 -1
+		vBeTakenOff clearAffect dobj 63 0 0
+	end
+	
+	base described
+				text "You see a Long Skirt."
+                idText "You see an Master Skirt of Endurance.\nLevel 1000\n"
+                shopText "The uses of this skirt don't stop at the shower.\nLevel 1000\n"
+	end
+end
+
+object MasterHighBootsOfStrength of HighBoots
+	properties
+	special
+		name "Master High Boots of Strength"
+		value 50
+		armor 50
+		health 400
+		color -1
+		level 1000
+		special
+	end
+
+	base carryable
+		weight 2.5
+	end
+
+	actions
+		vBePutOn setAffect dobj 39 2 0 -1
+		vBeTakenOff clearAffect dobj 39 2 0
+		vBePutOn setAffect dobj 39 2 0 -1
+		vBeTakenOff clearAffect dobj 39 2 0
+		vBePutOn setAffect dobj 39 2 0 -1
+		vBeTakenOff clearAffect dobj 39 2 0
+	end
+
+	base described
+		text "You see a pair of High Boots."
+		idText "You see a pair of Master High Boots of Strength.\nLevel 1000\n"
+		shopText "These are the feared, majestic Master High Boots of Strength.\nLevel 1000\n"
+	end
+end
+
+object MasterHighBootsOfIntelligence of HighBoots
+	properties
+	special
+		name "Master High Boots of Intelligence"
+		value 50
+		armor 50
+		health 400
+		color -1
+		level 1000
+		special
+	end
+
+	base carryable
+		weight 2.5
+	end
+
+	actions
+		vBePutOn setAffect dobj 61 2 0 -1
+		vBeTakenOff clearAffect dobj 61 2 0
+		vBePutOn setAffect dobj 61 2 0 -1
+		vBeTakenOff clearAffect dobj 61 2 0
+		vBePutOn setAffect dobj 61 2 0 -1
+		vBeTakenOff clearAffect dobj 61 2 0
+	end
+	
+	base described
+		text "You see a pair of High Boots."
+		idText "You see a pair of Master High Boots of Intelligence.\nLevel 1000\n"
+		shopText "These are the feared, majestic Master High Boots of Intelligence.\nLevel 1000\n"
+	end
+end
+
+object MasterHighBootsOfDexterity of HighBoots
+	properties
+	special
+		name "Master High Boots of Dexterity"
+		value 50
+		armor 50
+		health 400
+		color -1
+		level 1000
+		special
+	end
+
+	base carryable
+		weight 2.5
+	end
+
+	actions
+		vBePutOn setAffect dobj 59 2 0 -1
+		vBeTakenOff clearAffect dobj 59 2 0
+		vBePutOn setAffect dobj 59 2 0 -1
+		vBeTakenOff clearAffect dobj 59 2 0
+		vBePutOn setAffect dobj 59 2 0 -1
+		vBeTakenOff clearAffect dobj 59 2 0
+		vBePutOn setAffect dobj 59 2 0 -1
+		vBeTakenOff clearAffect dobj 59 2 0
+	end
+
+	base described
+		text "You see a pair of High Boots."
+		idText "You see a pair of Master High Boots of Dexterity.\nLevel 1000\n"
+		shopText "These are the feared, majestic Master High Boots of Dexterity.\nLevel 1000\n"
+	end
+end
+
+object MasterHighBootsOfEndurance of HighBoots
+	properties
+	special
+		name "Master High Boots of Endurance"
+		value 50
+		armor 50
+		health 400
+		color -1
+		level 1000
+		special
+	end
+
+	base carryable
+		weight 2.5
+	end
+	
+	
+	actions
+		vBePutOn setAffect dobj 63 2 0 -1
+		vBeTakenOff clearAffect dobj 63 2 0
+		vBePutOn setAffect dobj 63 2 0 -1
+		vBeTakenOff clearAffect dobj 63 2 0
+		vBePutOn setAffect dobj 63 2 0 -1
+		vBeTakenOff clearAffect dobj 63 2 0
+	end
+
+	base described
+		text "You see a pair of High Boots."
+		idText "You see a pair of Master High Boots of Endurance.\nLevel 1000\n"
+		shopText "These are the feared, majestic Master High Boots of Endurance.\nLevel 1000\n"
+	end
+end
+
+object MasterLowBootsOfStrength of LowBoots
+	properties
+	special
+		name "Master Low Boots of Strength"
+		value 50
+		armor 50
+		health 400
+		color -1
+		level 1000
+		special
+	end
+
+	base carryable
+		weight 2.5
+	end
+
+	actions
+		vBePutOn setAffect dobj 39 2 0 -1
+		vBeTakenOff clearAffect dobj 39 2 0
+		vBePutOn setAffect dobj 39 2 0 -1
+		vBeTakenOff clearAffect dobj 39 2 0
+		vBePutOn setAffect dobj 39 2 0 -1
+		vBeTakenOff clearAffect dobj 39 2 0
+	end
+
+	base described
+		text "You see a pair of Low Boots."
+		idText "You see a pair of Master Low Boots of Strength.\nLevel 1000\n"
+		shopText "These are the feared, majestic Master Low Boots of Strength.\nLevel 1000\n"
+	end
+end
+
+object MasterLowBootsOfIntelligence of LowBoots
+	properties
+	special
+		name "Master Low Boots of Intelligence"
+		value 50
+		armor 50
+		health 400
+		color -1
+		level 1000
+		special
+	end
+
+	base carryable
+		weight 2.5
+	end
+
+	actions
+		vBePutOn setAffect dobj 61 2 0 -1
+		vBeTakenOff clearAffect dobj 61 2 0
+		vBePutOn setAffect dobj 61 2 0 -1
+		vBeTakenOff clearAffect dobj 61 2 0
+		vBePutOn setAffect dobj 61 2 0 -1
+		vBeTakenOff clearAffect dobj 61 2 0
+	end
+	
+	base described
+		text "You see a pair of Low Boots."
+		idText "You see a pair of Master Low Boots of Intelligence.\nLevel 1000\n"
+		shopText "These are the feared, majestic Master Low Boots of Intelligence.\nLevel 1000\n"
+	end
+end
+
+object MasterLowBootsOfDexterity of LowBoots
+	properties
+	special
+		name "Master Low Boots of Dexterity"
+		value 50
+		armor 50
+		health 400
+		color -1
+		level 1000
+		special
+	end
+
+	base carryable
+		weight 2.5
+	end
+
+	actions
+		vBePutOn setAffect dobj 59 2 0 -1
+		vBeTakenOff clearAffect dobj 59 2 0
+		vBePutOn setAffect dobj 59 2 0 -1
+		vBeTakenOff clearAffect dobj 59 2 0
+		vBePutOn setAffect dobj 59 2 0 -1
+		vBeTakenOff clearAffect dobj 59 2 0
+		vBePutOn setAffect dobj 59 2 0 -1
+		vBeTakenOff clearAffect dobj 59 2 0
+	end
+
+	base described
+		text "You see a pair of Low Boots."
+		idText "You see a pair of Master Low Boots of Dexterity.\nLevel 1000\n"
+		shopText "These are the feared, majestic Master Low Boots of Dexterity.\nLevel 1000\n"
+	end
+end
+
+object MasterLowBootsOfEndurance of LowBoots
+	properties
+	special
+		name "Master Low Boots of Endurance"
+		value 50
+		armor 50
+		health 400
+		color -1
+		level 1000
+		special
+	end
+
+	base carryable
+		weight 2.5
+	end
+	
+	
+	actions
+		vBePutOn setAffect dobj 63 2 0 -1
+		vBeTakenOff clearAffect dobj 63 2 0
+		vBePutOn setAffect dobj 63 2 0 -1
+		vBeTakenOff clearAffect dobj 63 2 0
+		vBePutOn setAffect dobj 63 2 0 -1
+		vBeTakenOff clearAffect dobj 63 2 0
+	end
+
+	base described
+		text "You see a pair of Low Boots."
+		idText "You see a pair of Master Low Boots of Endurance.\nLevel 1000\n"
+		shopText "These are the feared, majestic Master Low Boots of Endurance.\nLevel 1000\n"
+	end
+end
+##------------Godlike
+object GodlikeRobeOfStrength of Robe
+	properties
+	special
+                name "Godlike Robe of Strength"
+                value 200
+                color -1
+                armorFlat    10
+                armorPercent 20
+                level 2500
+	end
+	
+	actions
+		vBePutOn setAffect dobj 39 0 0 -1
+		vBeTakenOff clearAffect dobj 39 0 0
+		vBePutOn setAffect dobj 39 0 0 -1
+		vBeTakenOff clearAffect dobj 39 0 0
+		vBePutOn setAffect dobj 39 0 0 -1
+		vBeTakenOff clearAffect dobj 39 0 0
+        vBePutOn setAffect dobj 39 0 0 -1
+		vBeTakenOff clearAffect dobj 39 0 0
+        vBePutOn setAffect dobj 39 0 0 -1
+		vBeTakenOff clearAffect dobj 39 0 0
+	end
+	
+	base described
+				text "You see a Robe."
+                idText "You see an Godlike Robe of Strength.\nlevel 2500\n"
+                shopText "The uses of this robe don't stop at the shower.\nlevel 2500\n"
+	end
+end
+
+object GodlikeRobeOfDexterity of Robe
+	properties
+	special
+                name "Godlike Robe of Dexterity"
+                value 200
+                color -1
+                armorFlat    10
+                armorPercent 20
+                level 2500
+	end
+	
+	actions
+		vBePutOn setAffect dobj 59 0 0 -1
+		vBeTakenOff clearAffect dobj 59 0 0
+		vBePutOn setAffect dobj 59 0 0 -1
+		vBeTakenOff clearAffect dobj 59 0 0
+		vBePutOn setAffect dobj 59 0 0 -1
+		vBeTakenOff clearAffect dobj 59 0 0
+        vBePutOn setAffect dobj 59 0 0 -1
+		vBeTakenOff clearAffect dobj 59 0 0
+        vBePutOn setAffect dobj 59 0 0 -1
+		vBeTakenOff clearAffect dobj 59 0 0
+	end
+	
+	base described
+				text "You see a Robe."
+                idText "You see an Godlike Robe of Dexterity.\nlevel 2500\n"
+                shopText "The uses of this robe don't stop at the shower.\nlevel 2500\n"
+	end
+end
+
+object GodlikeRobeOfIntelligence of Robe
+	properties
+	special
+                name "Godlike Robe of Intelligence"
+                value 200
+                color -1
+                armorFlat    10
+                armorPercent 20
+                level 2500
+	end
+	
+	actions
+		vBePutOn setAffect dobj 61 0 0 -1
+		vBeTakenOff clearAffect dobj 61 0 0
+		vBePutOn setAffect dobj 61 0 0 -1
+		vBeTakenOff clearAffect dobj 61 0 0
+		vBePutOn setAffect dobj 61 0 0 -1
+		vBeTakenOff clearAffect dobj 61 0 0
+        vBePutOn setAffect dobj 61 0 0 -1
+		vBeTakenOff clearAffect dobj 61 0 0
+        vBePutOn setAffect dobj 61 0 0 -1
+		vBeTakenOff clearAffect dobj 61 0 0
+	end
+	
+	base described
+				text "You see a Robe."
+                idText "You see an Godlike Robe of Intelligence.\nlevel 2500\n"
+                shopText "The uses of this robe don't stop at the shower.\nlevel 2500\n"
+	end
+end
+
+object GodlikeRobeOfEndurance of Robe
+	properties
+	special
+                name "Godlike Robe of Endurance"
+                value 200
+                color -1
+                armorFlat    10
+                armorPercent 20
+                level 2500
+	end
+	
+	actions
+		vBePutOn setAffect dobj 63 0 0 -1
+		vBeTakenOff clearAffect dobj 63 0 0
+		vBePutOn setAffect dobj 63 0 0 -1
+		vBeTakenOff clearAffect dobj 63 0 0
+		vBePutOn setAffect dobj 63 0 0 -1
+		vBeTakenOff clearAffect dobj 63 0 0
+        vBePutOn setAffect dobj 63 0 0 -1
+		vBeTakenOff clearAffect dobj 63 0 0
+        vBePutOn setAffect dobj 63 0 0 -1
+		vBeTakenOff clearAffect dobj 63 0 0
+	end
+	
+	base described
+				text "You see a Robe."
+                idText "You see an Godlike Robe of Endurance.\nlevel 2500\n"
+                shopText "The uses of this robe don't stop at the shower.\nlevel 2500\n"
+	end
+end
+
+# Skirts Short
+object GodlikeSkirtOfStrength of LeatherShortSkirt
+	properties
+	special
+	name "Godlike Skirt of Strength"
+                value 200
+                color -1
+                armorFlat    10
+                armorPercent 20
+                level 2500
+	end
+
+	actions
+		vBePutOn setAffect dobj 39 0 0 -1
+		vBeTakenOff clearAffect dobj 39 0 0
+		vBePutOn setAffect dobj 39 0 0 -1
+		vBeTakenOff clearAffect dobj 39 0 0
+		vBePutOn setAffect dobj 39 0 0 -1
+		vBeTakenOff clearAffect dobj 39 0 0
+        vBePutOn setAffect dobj 39 0 0 -1
+		vBeTakenOff clearAffect dobj 39 0 0
+        vBePutOn setAffect dobj 39 0 0 -1
+		vBeTakenOff clearAffect dobj 39 0 0
+	end
+	
+	base described
+				text "You see a Long Skirt."
+                idText "You see ab Godlike Skirt of Strength.\nlevel 2500\n"
+                shopText "The uses of this skirt don't stop at the shower.\nlevel 2500\n"
+	end
+end
+
+object GodlikeSkirtOfDexterity of LeatherShortSkirt
+	properties
+	special
+	name "Godlike Skirt of Dexterity"
+                value 200
+                color -1
+                armorFlat    10
+                armorPercent 20
+                level 2500
+	end
+
+	actions
+		vBePutOn setAffect dobj 59 0 0 -1
+		vBeTakenOff clearAffect dobj 59 0 0
+		vBePutOn setAffect dobj 59 0 0 -1
+		vBeTakenOff clearAffect dobj 59 0 0
+		vBePutOn setAffect dobj 59 0 0 -1
+		vBeTakenOff clearAffect dobj 59 0 0
+        vBePutOn setAffect dobj 59 0 0 -1
+		vBeTakenOff clearAffect dobj 59 0 0
+        vBePutOn setAffect dobj 59 0 0 -1
+		vBeTakenOff clearAffect dobj 59 0 0
+	end
+	
+	base described
+				text "You see a Long Skirt."
+                idText "You see an Godlike Skirt of Dexterity.\nlevel 2500\n"
+                shopText "The uses of this skirt don't stop at the shower.\nlevel 2500\n"
+	end
+end
+
+object GodlikeSkirtOfIntelligence of LeatherShortSkirt
+	properties
+	special
+	name "Godlike Skirt of Intelligence"
+                value 200
+                color -1
+                armorFlat    10
+                armorPercent 20
+                level 2500
+	end
+
+	actions
+		vBePutOn setAffect dobj 61 0 0 -1
+		vBeTakenOff clearAffect dobj 61 0 0
+		vBePutOn setAffect dobj 61 0 0 -1
+		vBeTakenOff clearAffect dobj 61 0 0
+		vBePutOn setAffect dobj 61 0 0 -1
+		vBeTakenOff clearAffect dobj 61 0 0
+        vBePutOn setAffect dobj 61 0 0 -1
+		vBeTakenOff clearAffect dobj 61 0 0
+        vBePutOn setAffect dobj 61 0 0 -1
+		vBeTakenOff clearAffect dobj 61 0 0
+	end
+
+	base described
+				text "You see a Long Skirt."
+                idText "You see an Godlike Skirt of Intelligence.\nlevel 2500\n"
+                shopText "The uses of this skirt don't stop at the shower.\nlevel 2500\n"
+	end
+end
+
+object GodlikeSkirtOfEndurance of LeatherShortSkirt
+	properties
+	special
+	name "Godlike Skirt of Endurance"
+                value 200
+                color -1
+                armorFlat    10
+                armorPercent 20
+                level 2500
+	end
+
+	actions
+		vBePutOn setAffect dobj 63 0 0 -1
+		vBeTakenOff clearAffect dobj 63 0 0
+		vBePutOn setAffect dobj 63 0 0 -1
+		vBeTakenOff clearAffect dobj 63 0 0
+		vBePutOn setAffect dobj 63 0 0 -1
+		vBeTakenOff clearAffect dobj 63 0 0
+        vBePutOn setAffect dobj 63 0 0 -1
+		vBeTakenOff clearAffect dobj 63 0 0
+        vBePutOn setAffect dobj 63 0 0 -1
+		vBeTakenOff clearAffect dobj 63 0 0
+	end
+	
+	base described
+				text "You see a Long Skirt."
+                idText "You see an Godlike Skirt of Endurance.\nlevel 2500\n"
+                shopText "The uses of this skirt don't stop at the shower.\nlevel 2500\n"
+	end
+end
+
+# Skirts Long
+object GodlikeLongSkirtOfStrength of LeatherLongSkirt
+	properties
+	special
+	name "Godlike Skirt of Strength"
+                value 200
+                color -1
+                armorFlat    10
+                armorPercent 20
+                level 2500
+	end
+
+	actions
+		vBePutOn setAffect dobj 39 0 0 -1
+		vBeTakenOff clearAffect dobj 39 0 0
+		vBePutOn setAffect dobj 39 0 0 -1
+		vBeTakenOff clearAffect dobj 39 0 0
+		vBePutOn setAffect dobj 39 0 0 -1
+		vBeTakenOff clearAffect dobj 39 0 0
+        vBePutOn setAffect dobj 39 0 0 -1
+		vBeTakenOff clearAffect dobj 39 0 0
+        vBePutOn setAffect dobj 39 0 0 -1
+		vBeTakenOff clearAffect dobj 39 0 0
+	end
+	
+	base described
+				text "You see a Long Skirt."
+                idText "You see ab Godlike Skirt of Strength.\nlevel 2500\n"
+                shopText "The uses of this skirt don't stop at the shower.\nlevel 2500\n"
+	end
+end
+
+object GodlikeLongSkirtOfDexterity of LeatherLongSkirt
+	properties
+	special
+	name "Godlike Skirt of Dexterity"
+                value 200
+                color -1
+                armorFlat    10
+                armorPercent 20
+                level 2500
+	end
+
+	actions
+		vBePutOn setAffect dobj 59 0 0 -1
+		vBeTakenOff clearAffect dobj 59 0 0
+		vBePutOn setAffect dobj 59 0 0 -1
+		vBeTakenOff clearAffect dobj 59 0 0
+		vBePutOn setAffect dobj 59 0 0 -1
+		vBeTakenOff clearAffect dobj 59 0 0
+        vBePutOn setAffect dobj 59 0 0 -1
+		vBeTakenOff clearAffect dobj 59 0 0
+        vBePutOn setAffect dobj 59 0 0 -1
+		vBeTakenOff clearAffect dobj 59 0 0
+	end
+	
+	base described
+				text "You see a Long Skirt."
+                idText "You see an Godlike Skirt of Dexterity.\nlevel 2500\n"
+                shopText "The uses of this skirt don't stop at the shower.\nlevel 2500\n"
+	end
+end
+
+object GodlikeLongSkirtOfIntelligence of LeatherLongSkirt
+	properties
+	special
+	name "Godlike Skirt of Intelligence"
+                value 200
+                color -1
+                armorFlat    10
+                armorPercent 20
+                level 2500
+	end
+
+	actions
+		vBePutOn setAffect dobj 61 0 0 -1
+		vBeTakenOff clearAffect dobj 61 0 0
+		vBePutOn setAffect dobj 61 0 0 -1
+		vBeTakenOff clearAffect dobj 61 0 0
+		vBePutOn setAffect dobj 61 0 0 -1
+		vBeTakenOff clearAffect dobj 61 0 0
+        vBePutOn setAffect dobj 61 0 0 -1
+		vBeTakenOff clearAffect dobj 61 0 0
+        vBePutOn setAffect dobj 61 0 0 -1
+		vBeTakenOff clearAffect dobj 61 0 0
+	end
+
+	base described
+				text "You see a Long Skirt."
+                idText "You see an Godlike Skirt of Intelligence.\nlevel 2500\n"
+                shopText "The uses of this skirt don't stop at the shower.\nlevel 2500\n"
+	end
+end
+
+object GodlikeLongSkirtOfEndurance of LeatherLongSkirt
+	properties
+	special
+	name "Godlike Skirt of Endurance"
+                value 200
+                color -1
+                armorFlat    10
+                armorPercent 20
+                level 2500
+	end
+
+	actions
+		vBePutOn setAffect dobj 63 0 0 -1
+		vBeTakenOff clearAffect dobj 63 0 0
+		vBePutOn setAffect dobj 63 0 0 -1
+		vBeTakenOff clearAffect dobj 63 0 0
+		vBePutOn setAffect dobj 63 0 0 -1
+		vBeTakenOff clearAffect dobj 63 0 0
+        vBePutOn setAffect dobj 63 0 0 -1
+		vBeTakenOff clearAffect dobj 63 0 0
+        vBePutOn setAffect dobj 63 0 0 -1
+		vBeTakenOff clearAffect dobj 63 0 0
+	end
+	
+	base described
+				text "You see a Long Skirt."
+                idText "You see an Godlike Skirt of Endurance.\nlevel 2500\n"
+                shopText "The uses of this skirt don't stop at the shower.\nlevel 2500\n"
+	end
+end
+
+object GodlikeHighBootsOfStrength of HighBoots
+	properties
+	special
+		name "Godlike High Boots of Strength"
+		value 200
+		armor 50
+		health 400
+		color -1
+		level 2500
+		special
+	end
+
+	base carryable
+		weight 2.5
+	end
+
+	actions
+		vBePutOn setAffect dobj 39 2 0 -1
+		vBeTakenOff clearAffect dobj 39 2 0
+		vBePutOn setAffect dobj 39 2 0 -1
+		vBeTakenOff clearAffect dobj 39 2 0
+		vBePutOn setAffect dobj 39 2 0 -1
+		vBeTakenOff clearAffect dobj 39 2 0
+        vBePutOn setAffect dobj 39 2 0 -1
+		vBeTakenOff clearAffect dobj 39 2 0
+        vBePutOn setAffect dobj 39 2 0 -1
+		vBeTakenOff clearAffect dobj 39 2 0
+	end
+
+	base described
+		text "You see a pair of High Boots."
+		idText "You see a pair of Godlike High Boots of Strength.\nlevel 2500\n"
+		shopText "These are the feared, majestic Godlike High Boots of Strength.\nlevel 2500\n"
+	end
+end
+
+object GodlikeHighBootsOfIntelligence of HighBoots
+	properties
+	special
+		name "Godlike High Boots of Intelligence"
+		value 200
+		armor 50
+		health 400
+		color -1
+		level 2500
+		special
+	end
+
+	base carryable
+		weight 2.5
+	end
+
+	actions
+		vBePutOn setAffect dobj 61 2 0 -1
+		vBeTakenOff clearAffect dobj 61 2 0
+		vBePutOn setAffect dobj 61 2 0 -1
+		vBeTakenOff clearAffect dobj 61 2 0
+		vBePutOn setAffect dobj 61 2 0 -1
+		vBeTakenOff clearAffect dobj 61 2 0
+        vBePutOn setAffect dobj 61 2 0 -1
+		vBeTakenOff clearAffect dobj 61 2 0
+        vBePutOn setAffect dobj 61 2 0 -1
+		vBeTakenOff clearAffect dobj 61 2 0
+	end
+	
+	base described
+		text "You see a pair of High Boots."
+		idText "You see a pair of Godlike High Boots of Intelligence.\nlevel 2500\n"
+		shopText "These are the feared, majestic Godlike High Boots of Intelligence.\nlevel 2500\n"
+	end
+end
+
+object GodlikeHighBootsOfDexterity of HighBoots
+	properties
+	special
+		name "Godlike High Boots of Dexterity"
+		value 200
+		armor 50
+		health 400
+		color -1
+		level 2500
+		special
+	end
+
+	base carryable
+		weight 2.5
+	end
+
+	actions
+		vBePutOn setAffect dobj 59 2 0 -1
+		vBeTakenOff clearAffect dobj 59 2 0
+		vBePutOn setAffect dobj 59 2 0 -1
+		vBeTakenOff clearAffect dobj 59 2 0
+		vBePutOn setAffect dobj 59 2 0 -1
+		vBeTakenOff clearAffect dobj 59 2 0
+		vBePutOn setAffect dobj 59 2 0 -1
+		vBeTakenOff clearAffect dobj 59 2 0
+        vBePutOn setAffect dobj 59 2 0 -1
+		vBeTakenOff clearAffect dobj 59 2 0
+        vBePutOn setAffect dobj 59 2 0 -1
+		vBeTakenOff clearAffect dobj 59 2 0
+	end
+
+	base described
+		text "You see a pair of High Boots."
+		idText "You see a pair of Godlike High Boots of Dexterity.\nlevel 2500\n"
+		shopText "These are the feared, majestic Godlike High Boots of Dexterity.\nlevel 2500\n"
+	end
+end
+
+object GodlikeHighBootsOfEndurance of HighBoots
+	properties
+	special
+		name "Godlike High Boots of Endurance"
+		value 200
+		armor 50
+		health 400
+		color -1
+		level 2500
+		special
+	end
+
+	base carryable
+		weight 2.5
+	end
+	
+	
+	actions
+		vBePutOn setAffect dobj 63 2 0 -1
+		vBeTakenOff clearAffect dobj 63 2 0
+		vBePutOn setAffect dobj 63 2 0 -1
+		vBeTakenOff clearAffect dobj 63 2 0
+		vBePutOn setAffect dobj 63 2 0 -1
+		vBeTakenOff clearAffect dobj 63 2 0
+        vBePutOn setAffect dobj 63 2 0 -1
+		vBeTakenOff clearAffect dobj 63 2 0
+	end
+
+	base described
+		text "You see a pair of High Boots."
+		idText "You see a pair of Godlike High Boots of Endurance.\nlevel 2500\n"
+		shopText "These are the feared, majestic Godlike High Boots of Endurance.\nlevel 2500\n"
+	end
+end
+
+object GodlikeLowBootsOfStrength of LowBoots
+	properties
+	special
+		name "Godlike Low Boots of Strength"
+		value 200
+		armor 50
+		health 400
+		color -1
+		level 2500
+		special
+	end
+
+	base carryable
+		weight 2.5
+	end
+
+	actions
+		vBePutOn setAffect dobj 39 2 0 -1
+		vBeTakenOff clearAffect dobj 39 2 0
+		vBePutOn setAffect dobj 39 2 0 -1
+		vBeTakenOff clearAffect dobj 39 2 0
+		vBePutOn setAffect dobj 39 2 0 -1
+		vBeTakenOff clearAffect dobj 39 2 0
+        vBePutOn setAffect dobj 39 2 0 -1
+		vBeTakenOff clearAffect dobj 39 2 0
+        vBePutOn setAffect dobj 39 2 0 -1
+		vBeTakenOff clearAffect dobj 39 2 0
+	end
+
+	base described
+		text "You see a pair of Low Boots."
+		idText "You see a pair of Godlike Low Boots of Strength.\nlevel 2500\n"
+		shopText "These are the feared, majestic Godlike Low Boots of Strength.\nlevel 2500\n"
+	end
+end
+
+object GodlikeLowBootsOfIntelligence of LowBoots
+	properties
+	special
+		name "Godlike Low Boots of Intelligence"
+		value 200
+		armor 50
+		health 400
+		color -1
+		level 2500
+		special
+	end
+
+	base carryable
+		weight 2.5
+	end
+
+	actions
+		vBePutOn setAffect dobj 61 2 0 -1
+		vBeTakenOff clearAffect dobj 61 2 0
+		vBePutOn setAffect dobj 61 2 0 -1
+		vBeTakenOff clearAffect dobj 61 2 0
+		vBePutOn setAffect dobj 61 2 0 -1
+		vBeTakenOff clearAffect dobj 61 2 0
+        vBePutOn setAffect dobj 61 2 0 -1
+		vBeTakenOff clearAffect dobj 61 2 0
+        vBePutOn setAffect dobj 61 2 0 -1
+		vBeTakenOff clearAffect dobj 61 2 0
+	end
+	
+	base described
+		text "You see a pair of Low Boots."
+		idText "You see a pair of Godlike Low Boots of Intelligence.\nlevel 2500\n"
+		shopText "These are the feared, majestic Godlike Low Boots of Intelligence.\nlevel 2500\n"
+	end
+end
+
+object GodlikeLowBootsOfDexterity of LowBoots
+	properties
+	special
+		name "Godlike Low Boots of Dexterity"
+		value 200
+		armor 50
+		health 400
+		color -1
+		level 2500
+		special
+	end
+
+	base carryable
+		weight 2.5
+	end
+
+	actions
+		vBePutOn setAffect dobj 59 2 0 -1
+		vBeTakenOff clearAffect dobj 59 2 0
+		vBePutOn setAffect dobj 59 2 0 -1
+		vBeTakenOff clearAffect dobj 59 2 0
+		vBePutOn setAffect dobj 59 2 0 -1
+		vBeTakenOff clearAffect dobj 59 2 0
+		vBePutOn setAffect dobj 59 2 0 -1
+		vBeTakenOff clearAffect dobj 59 2 0
+        vBePutOn setAffect dobj 59 2 0 -1
+		vBeTakenOff clearAffect dobj 59 2 0
+        vBePutOn setAffect dobj 59 2 0 -1
+		vBeTakenOff clearAffect dobj 59 2 0
+	end
+
+	base described
+		text "You see a pair of Low Boots."
+		idText "You see a pair of Godlike Low Boots of Dexterity.\nlevel 2500\n"
+		shopText "These are the feared, majestic Godlike Low Boots of Dexterity.\nlevel 2500\n"
+	end
+end
+
+object GodlikeLowBootsOfEndurance of LowBoots
+	properties
+	special
+		name "Godlike Low Boots of Endurance"
+		value 200
+		armor 50
+		health 400
+		color -1
+		level 2500
+		special
+	end
+
+	base carryable
+		weight 2.5
+	end
+	
+	
+	actions
+		vBePutOn setAffect dobj 63 2 0 -1
+		vBeTakenOff clearAffect dobj 63 2 0
+		vBePutOn setAffect dobj 63 2 0 -1
+		vBeTakenOff clearAffect dobj 63 2 0
+		vBePutOn setAffect dobj 63 2 0 -1
+		vBeTakenOff clearAffect dobj 63 2 0
+        vBePutOn setAffect dobj 63 2 0 -1
+		vBeTakenOff clearAffect dobj 63 2 0
+        vBePutOn setAffect dobj 63 2 0 -1
+		vBeTakenOff clearAffect dobj 63 2 0
+	end
+
+	base described
+		text "You see a pair of Low Boots."
+		idText "You see a pair of Godlike Low Boots of Endurance.\nlevel 2500\n"
+		shopText "These are the feared, majestic Godlike Low Boots of Endurance.\nlevel 2500\n"
+	end
+end

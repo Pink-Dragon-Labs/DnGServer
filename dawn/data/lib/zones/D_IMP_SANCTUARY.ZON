@@ -1,0 +1,29 @@
+name "D_IMP_SANCTUARY"
+title "Sanctuary"
+worldFile "../data/lib/world/D_IMP_SANCTUARY.WLD"
+allowCombat 3
+midiFile 29
+isDungeon 1
+entrance plankDoor24749-3
+
+
+ambushInterval 40
+ambush 10 Nobleman Nobleman Nobleman Nobleman
+ambush 10 CastleGuard CastleGuard CastleGuard 
+ambush 10 CastleMage CastleWizard CastleWarlock
+ambush 10 RogueThief RogueThief RogueThief
+ambush 10 CastleGuard RogueThief Nobleman 
+ambush 10 TulorTheTerrible TulorTheTerrible TulorTheTerrible TulorTheTerrible
+ambush 10 Fuloran Fuloran Fuloran Fuloran Fuloran Fuloran 
+ambush 10 Gladiator Gladiator
+ambush 10 Gladiator Gladiator WaspHealer
+ambush 10 Gladiator Gladiator LostSoldier
+ambush 10 EvilMinion EvilMinion EvilMinion EvilMinion EvilMinion EvilMinion EvilMinion EvilMinion EvilMinion EvilMinion EvilMinion EvilMinion EvilMinion EvilMinion EvilMinion 
+ambush 10 Azazel Azazel
+ambush 10 SavageOgre SavageOgre
+ambush 10 SavageOgreWizard SavageOgreWizard
+ambush 10 AncientWizard AncientWizard AncientPriestess
+ambush 10 AncientPriestess AncientPriestess AncientPriestess
+ambush 10 AncientPaladin AncientSeraph AncientPriestess
+ambush 10 AncientSeraph AncientSeraph AncientPriestess
+ambush 10 AncientPaladin AncientPriestess AncientSeraph 

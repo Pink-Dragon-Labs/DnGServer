@@ -1,0 +1,9 @@
+name "Garrison"
+title "The Garrison"
+worldFile "../data/lib/world/D_NEWRAX.WLD"
+allowCombat 3
+#resetInterval 120
+midiFile 31
+groupChance 30
+isDungeon 1
+entrance Tent91009-0

@@ -1,0 +1,22 @@
+name "AchrenOld"
+title "Old Achren"
+worldFile "../data/lib/world/ACHREN_OLD.WLD"
+resetInterval 9000000 
+maximumObjectAge 0 
+allowCombat 3
+midiFile 31
+groupChance 20
+monster SavageOgre 20
+monster SavageKnight 15
+monster Azazel 25
+monster SavageOgreWizard 15
+
+ambushInterval 40
+ambush 10 SavageOgre SavageOgre
+ambush 10 SabageOgreKnight SavageOgreWizard
+ambush 10 SavageOgreWizard SavageOgreWizard
+ambush 10 Azazel Azazel
+ambush 10 SavageOgreKnight
+ambush 10 SavageOgre
+ambush 10 SavageOgreWizard
+ambush 10 Azazel

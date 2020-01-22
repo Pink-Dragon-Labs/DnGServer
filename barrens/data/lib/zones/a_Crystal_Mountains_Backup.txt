@@ -1,0 +1,16 @@
+monster BasiliskFire 80
+monster BasiliskIce 80
+monster BasiliskElec 80
+monster BasiliskPoison 80
+monster BasiliskAcid 80
+monster RockTroll 55
+monster RockTrollHealer 55
+monster RockTrollWarrior 55
+monster RockTrollHunter 55
+monster RockTrollMage 55
+monster RockTrollChieftan 55
+monsterGroup 2 1 RockTroll 1 RockTrollHealer
+monsterGroup 2 1 RockTrollHealer 1 RockTrollWarrior
+monsterGroup 2 1 RockTrollHealer 1 RockTrollHunter
+monsterGroup 2 1 RockTrollHealer 1 RockTrollMage
+monsterGroup 2 1 RockTrollHealer 1 RockTrollChieftan

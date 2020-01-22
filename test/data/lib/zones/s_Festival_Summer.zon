@@ -1,0 +1,8 @@
+name "Festival_Summer"
+title "Summer Festival"
+#worldFile "../data/lib/world/summer01.wld"
+worldFile "../data/lib/world/summer_09.wld"
+resetInterval 9000000 
+maximumObjectAge 0 
+allowCombat 0
+midiFile 9

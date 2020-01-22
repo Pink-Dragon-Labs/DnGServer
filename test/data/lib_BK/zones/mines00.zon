@@ -1,0 +1,8 @@
+name "mines00"
+title "Mine All Mines"
+worldFile "../data/lib/world/mine00.wld"
+allowCombat 3
+isDungeon 1
+entrance movingRock12120-0
+midiFile 31
+groupChance 30

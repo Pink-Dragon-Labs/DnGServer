@@ -1,0 +1,17 @@
+quest 99998
+	name "Item Upgrade: Amulet of Concentration"
+	type fedex
+
+	proposal "You've come a long way to see me. I can empower your amulet to become much stronger.. but be weary, it will lose any enchantments you had."
+
+	accepted "Excellent. I will call upon the dark forces, hand me the amulet once you are ready."
+
+	declined "Then I will provide the next warlock boundless power. Begone."
+
+	reminder "The amulet, now."
+
+	completed "*mumbles demonic incantation* Yes, the dark lord is pleased. Here is your amulet."
+
+	getItem aConcentrate
+	reward aConcentrate2000
+end 

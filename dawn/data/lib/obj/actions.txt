@@ -1,0 +1,52 @@
+ public static class Act
+    {
+        public const string ActTeleport = "teleport";
+        public const string ActDamage = "damage";
+        public const string ActHeal = "heal";
+        public const string ActSetAffect = "setAffect";
+        public const string ActClearAffect = "clearAffect";
+        public const string ActKill = "kill";
+        public const string ActForceDrop = "forceDrop";
+        public const string ActDamn = "damn";
+        public const string ActInspire = "inspire";
+        public const string ActChaneExperiance = "changeExperience";
+        public const string ActOpen = "open";
+        public const string ActClose = "close";
+        public const string ActLock = "lock";
+        public const string ActUnlock = "unlock";
+        public const string ActActivate = "activate";
+        public const string ActDeactivate = "deactivate";
+        public const string ActEnable = "enable";
+        public const string ActDisable = "disable";
+        public const string ActCreateObj = "createObj";
+        public const string ActSummon = "summon";
+        public const string ActFloatingText = "floatingText";
+        public const string ActZoneMsg = "zoneMsg";
+        public const string ActRoomMsg = "roomMsg";
+        public const string ActPlaySound = "playSound";
+        public const string ActPlayMusic = "playMusic";
+        public const string ActCastSpell = "castSpell";
+        public const string ActCastSpellRoom = "castSpellRoom";
+        public const string ActDestroyObj = "destroyObj";
+        public const string ActTimedOpen = "timedOpen";
+        public const string ActClearActions = "clearActions";
+        public const string ActAddAction = "addAction";
+        public const string ActEnidMark = "enidMark";
+        public const string ActDuachMark = "duachMark";
+        public const string ActDespothesMark = "despothesMark";
+        public const string ActChangeManaDrain = "changeManaDrain";
+        public const string ActChangeMeleePhase = "changeMeleePhase";
+        public const string ActChangeEvilMDMMod = "changeEvilMDMMod";
+        public const string ActChangeGoodMDMMod = "changeGoodMDMMod";
+        public const string ActChangeMeleeArmorPiercing = "changeMeleeArmorPiercing";
+        public const string ActChangeMysticImmunityCount = "changeMystImmunityCount";
+        public const string changeCastResistance = "changeCastResistance";
+        public const string ActChangeSpellResistance = "changeSpellResistance";
+        public const string ActChangeSDM = "changeSDM";
+        public const string ActMinotaurSoulConsume = "minotaurSoulConsume";
+        public const string ActGemChestClose = "gemChest-vClose";
+        public const string ActGemChestLock = "gemChest-vLock";
+    }
+	
+		vBePutOn setAffect dobj (Spell id from ACTIONS) 0 0 -1
+		vBeTakenOff clearAffect dobj (SAME ID AS ABOVE) 0 0

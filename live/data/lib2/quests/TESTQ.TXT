@@ -1,0 +1,17 @@
+quest 99998 
+	name "Weapon Exchange: God's Grasp"
+	type fedex
+
+	proposal "Hi there! Want to test something for me? Hand me a Despothes Grasp!"
+
+	accepted "Great!  I'm so glad that you can help me out."
+
+	declined "I understand..."
+
+	reminder "Hand when ready!"
+
+	completed "Thank you very much!  You should have gotten Finarra's Grasp from me!"
+
+	getItem mwDespothes
+	reward mwBardiche
+end 

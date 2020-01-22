@@ -1,0 +1,354 @@
+#
+# Seraphs
+#
+
+object Seraph of NPC
+	properties
+		name "Seraph"
+		view 40600
+		clutStart -1
+		color 768
+
+		alignment 255
+
+		minLevel 40
+		maxLevel 60
+
+		minDamage 24
+		maxDamage 40
+
+		dexterity 15
+		endurance 8
+		intelligence 15
+
+		# do normal damage
+		affect 0 0 0 -1
+
+		# immune to electrical damage
+		affect 3 2 0 -1
+
+		# immune to poison
+		affect 5 2 0 -1
+
+		soundGroup 11
+		range 2
+		quickness 14
+		 
+
+		damageType 1
+		armorType 2
+	end
+
+	base container
+#		object RandomSeraphTreasureI
+#		object RandomSeraphTreasureI
+		object RandomMonsterMegaTreasure
+	end
+
+	base character
+		## unarmed combat grand-master
+		skill 7 4
+
+		## acrobatics grand-master
+		skill 9 4
+
+		## thaumaturgy master
+		skill 14 4
+
+		## elementalism master
+		skill 12 4
+
+		## meditation master
+		skill 28 4
+	end
+
+	base described
+		text "Seraph -- 25% sorcery resistance, 25% elementalism resistance, 25% mysticism resistance, 25% necromancy resistance, 24 - 40 melee damage.\n\n"
+	end
+
+	actions
+		vBeBorn changeSpellResistance self 25 0 1 2 4  # 50% resistance to magic
+		vBeBorn changeSDM self 75 0 1 2 3 4  # +150% SDM
+	end
+
+	base npc
+		code seraph
+	end
+end
+
+object SeraphWarrior of Seraph
+	properties
+		name "Seraph Warrior"
+		color 813
+
+		minLevel 50
+		maxLevel 70
+
+		minDamage 30
+		maxDamage 50
+
+		endurance 12
+
+		# do fire + cold + normal damage
+
+		## do fire damage
+		affect 1 0 0 -1
+
+		## do cold damage
+		affect 2 0 0 -1
+	end
+
+	base character
+		## thaumaturgy expert
+		skill 14 3
+
+		## elementalism unknown
+		skill 12 0
+	end
+
+	base described
+		text "Seraph Warrior -- 25% sorcery resistance, 25% elementalism resistance, 25% mysticism resistance, 25% necromancy resistance, 30 - 50 melee damage.\n\n"
+	end
+end
+
+object SeraphThaumaturgist of Seraph
+	properties
+		name "Seraph Thaumaturgist"
+		color 814
+
+		minLevel 50
+		maxLevel 70
+
+		minDamage 20
+		maxDamage 40
+
+		# immune to cold
+		affect 2 2 0 -1
+
+		# immune to fire
+		affect 1 2 0 -1
+	end
+
+	base character
+		## thaumaturgy grand-master
+		skill 14 5
+
+		## elementalism unknown
+		skill 12 0
+
+		skill 28 5
+	end
+
+	base described
+		text "Seraph Thaumaturgist -- 25% sorcery resistance, 25% elementalism resistance, 25% mysticism resistance, 25% necromancy resistance, 20 - 40 melee damage.\n\n"
+	end
+end
+
+object SeraphQueen of Seraph
+	properties
+		name "Seraph Queen"
+		color 815
+
+		minLevel 70
+		maxLevel 90
+
+		minDamage 50
+		maxDamage 90
+
+		endurance 12
+
+		# immune to cold
+		affect 2 2 0 -1
+
+		# immune to fire
+		affect 1 2 0 -1
+	end
+
+	base container
+		object RandomCommonHelmet
+#		object RandomSeraphTreasureI
+#		object RandomSeraphTreasureI
+	end
+
+	base character
+		## thaumaturgy grand-master
+		skill 14 5
+
+		## elementalism grand-master
+		skill 12 5
+
+		skill 28 5
+	end
+
+	actions
+		vBeBorn changeSpellResistance self 5 0 1 2 4 # +5% magic resistance...
+	end
+
+	base described
+		text "Seraph Queen -- 30% sorcery resistance, 30% elementalism resistance, 30% mysticism resistance, 30% necromancy resistance, 50 - 90 melee damage.\n\n"
+	end
+end
+
+#------------------------------------------------------------
+object DarkSeraph of Seraph
+	properties
+		name "Dark Seraph"
+		alignment 0
+		color 99
+		minLevel 25
+		maxLevel 35
+		minDamage 15
+		maxDamage 24
+		  
+		special
+	end
+
+	base character
+		skill 7 5	# unarmed combat grandmaster
+		skill 9 4	# acrobatics master
+		skill 14 4	# thaumaturgy master
+		skill 15 5	# necromancy grandmaster
+		skill 28 5	# meditation grandmaster
+	end
+
+	base container
+		object RandomMonsterOrb
+	end
+
+	base npc
+		code evilFaery
+	end
+
+	actions
+		vBeBorn changeSDM self 175 0 1 2 3 4  # +175% SDM...
+	end
+
+	base described
+		text "Dark Seraph -- 25% mysticism resistance, 25% elementalism resistance, 25% necromancy resistance, 25% sorcery resistance, 16 - 24 melee damage.\n\n"
+	end
+end
+#------------------------------------------------------------
+object AncientLongSword of LongSword
+	properties
+	special
+		name "Seraph LongSword"
+		value 0
+		health 2000
+		color 101 # Brighter White
+		strength 5
+	end
+
+	base described
+		text "You shouldn't be holding this...\n"
+		idText "You shouldn't be holding this...\n Level Required 2000\n\n"
+		shopText "What a piece of junk.." 
+	end
+
+	base carryable
+		weight 0.5
+	end
+	
+	base weapon
+		minDamage 2500
+		maxDamage 2700
+		mask warrior
+		mask adventurer
+		mask thief
+		mask wizard
+	end
+end
+#------------------------------------------------------------
+object AncientSeraph of Seraph
+	properties
+		special
+		name "Ancient Seraph"
+		view 40600
+		color 38
+		alignment 255
+
+		minLevel 2200
+		maxLevel 3700
+
+		minDamage 800
+		maxDamage 1200
+
+		endurance 85
+		dexterity 30
+		intelligence 70
+		strength 140
+		
+		affect 1 0 0 -1			# do fire damage
+		affect 2 0 0 -1			# do cold damage
+		affect 17 0 0 -1   		# see invisible
+		affect 86 0 0 -1        # free will
+		affect 65 0 0 -1		# retention
+		affect 5 2 0 -1			# immune to poison
+		affect 3 2 0 -1			# immune to electric damage
+		
+		soundGroup 11
+		range 2
+		quickness 14
+
+		damageType 2
+		armorType 1
+		  
+	end
+
+	base character
+		# grandmaster weapons
+		skill 0 5
+		skill 1 5
+		skill 2 5
+		skill 3 5
+		skill 4 5
+		skill 5 5
+		skill 6 5
+		skill 7 5
+		skill 8 5
+		skill 10 5
+
+		# grandmaster acrobatics
+		skill 9 5
+
+		# grandmaster sorcery
+		skill 11 5
+
+		# grandmaster elementalism
+		skill 12 5
+
+		# grandmaster mysticism
+		skill 13 5
+
+		# grandmaster thaumaturgy
+		skill 14 5
+
+		# grandmaster necromancy
+		skill 15 5
+		
+		# grandmaster meditation
+		skill 28 5
+	end
+
+	actions
+		vBeBorn changeSpellResistance self 25 0 1 2 4  # 50% resistance to magic
+		vBeBorn changeSDM self 75 0 1 2 3 4  # +75% SDM
+		vBeBorn changeEvilMDMMod self 400
+	end
+	
+	base npc
+		code seraph
+	end
+	
+	base container
+		worn AncientLongSword
+		object RandomNewGear
+		object RandomRareGlowDye
+		object RandomNewBaldric
+		object RandomRareMagicHelm
+		object AncientWineTable
+	end
+	
+	base described
+		text "Ancient Seraph -- 50% sorcery resistance, 50% elementalism resistance, 50% mysticism resistance, 50% necromancy resistance, 2200 - 3800 melee damage.\n\n"
+	end
+end

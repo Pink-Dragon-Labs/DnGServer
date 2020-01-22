@@ -1,0 +1,41 @@
+object TokenGreen of Emerald
+    properties
+        special
+        name "Rare Magical Emerald"
+        value 0
+    end
+
+	base described
+		text "A magical emerald that is not like the others you have encountered..."
+        idText "This magical Emerald is heavily saught after by various merchants..\n\nSome say they are worth nothing, but to some, they are worth everything.."
+		shopText "This magical Emerald is heavily saught after by various merchants..\n\nSome say they are worth nothing, but to some, they are worth everything.."
+	end
+end
+#------
+object TokenRed of Ruby
+    properties
+        special
+        name "Rare Magical Ruby"
+        value 0
+    end
+
+	base described
+		text "A magical Ruby that is not like the others you have encountered..."
+        idText "This magical Ruby is heavily saught after by various merchants..\n\nSome say they are worth nothing, but to some, they are worth everything.."
+		shopText "This magical Ruby is heavily saught after by various merchants..\n\nSome say they are worth nothing, but to some, they are worth everything.."
+	end
+end
+#-----
+object TokenDiamond of Diamond
+    properties
+        special
+        name "Rare Magical Diamond"
+        value 0
+    end
+
+	base described
+		text "A magical Diamond that is not like the others you have encountered..."
+        idText "This magical Diamond is heavily saught after by various merchants..\n\nSome say they are worth nothing, but to some, they are worth everything.."
+		shopText "This magical Diamond is heavily saught after by various merchants..\n\nSome say they are worth nothing, but to some, they are worth everything.."
+	end
+end

@@ -1,0 +1,1013 @@
+object Baldric of Clothing
+	properties
+		name "Baldric"
+		view 10900
+		clutStart 11
+		color 58
+		value 20
+
+		# immune to fire damage
+		affect 1 2 0 -1
+
+		# immune to acid
+		affect 4 2 0 -1
+	end
+
+	base carryable
+		weight 0.5
+	end
+
+	base wearable
+		areaWorn 99
+		layer 80
+	end
+
+	base described
+		text "You see a baldric."
+		shopText "Ahhh!  This is the highest quality baldric that you will find anywhere.  If you buy one, you won't be disappointed!"
+	end
+end
+	
+object OliveBaldric of Baldric
+	properties
+		name "Olive Baldric"
+		color 48
+	end
+	base dye
+	end
+	base described
+		text "You see a nice Olive Baldric."
+	end
+end
+
+#
+# Lime Baldric is in use
+#
+
+object BlueBaldric of Baldric
+	properties
+		name "Neophyte's Baldric"
+		color 53
+		level 3
+		value 300
+	end
+	base dye
+	end
+	base described
+		text "You see a Neophyte's Baldric."
+		shopText "This baldric is awarded to 3rd level players."
+	end
+end
+
+object AzureBaldric of Baldric
+	properties
+		name "Azure Baldric"
+		color 54
+        #
+		# Same color as GM's Baldric
+        #
+	end
+	base dye
+	end
+	base described
+		text "You see a nice azure Baldric."
+	end
+end
+
+object RedBaldric of Baldric
+	properties
+		name "Familiar Player's Baldric"
+		color 58
+		level 7
+		value 700
+	end
+	base dye
+	end
+	base described
+		text "You see a Familiar Player's baldric."
+		shopText "Here is a Familiar Player's baldric.  These are typically given only to 7th level players."
+	end
+end
+
+object PinkBaldric of Baldric
+	properties
+		name "Pink Baldric"
+		color 59
+		value 5
+	end
+	base dye
+	end
+	base described
+		text "You see a nice Pink Baldric."
+	end
+end
+
+object GoldBaldric of Baldric
+	properties
+		name "Seasoned Player's Baldric"
+		color 63
+		level 50
+		value 5000
+	end
+	base dye
+	end
+	base described
+		text "You see a Seasoned Player's Baldric."
+		shopText "This fine baldric is given as an award when level 50 is achieved."
+	end
+end
+
+object YellowBaldric of Baldric
+	properties
+		name "Veteran's Baldric"
+		color 64
+		level 150
+		value 15000
+	end
+	base dye
+	end
+	base described
+		text "You see a Veteran's Baldric."
+		shopText "This baldric is given as an award when level 150 is achieved."
+	end
+end
+
+
+object VioletBaldric of Baldric
+	properties
+		name "Violet Baldric"
+		color 68
+		value 5
+	end
+	base dye
+	end
+	base described
+		text "You see a finely crafted, Voilet Baldric."
+		shopText "This is the finest Baldric; you must buy it now!"
+	end
+end
+
+object MagentaBaldric of Baldric
+	properties
+		name "Expert Player's Baldric"
+		color 69
+		level 100
+		value 10000
+	end
+	base dye
+	end
+	base described
+		text "You see an Expert Player's Baldric."
+		shopText "This fine baldric is given as an award when level 100 is achieved."
+	end
+end
+
+object BrownBaldric of Baldric
+	properties
+		name "Skilled Player's Baldric"
+		color 73
+		level 15
+		value 1500
+	end
+	base dye
+	end
+	base described
+		text "You see a Skilled Player's Baldric."
+		shopText "You get one of these free when you attain level 15."
+	end
+end
+
+object TanBaldric of Baldric
+	properties
+		name "Tan Baldric"
+		color 74
+		value 1
+	end
+	base dye
+	end
+	base described
+		text "You see a Tan Baldric."
+	end
+end
+
+object AquaBaldric of Baldric
+	properties
+		name "Aqua Baldric"
+		color 78
+                value 2499
+	end
+	base dye
+	end
+	base described
+		text "You see a lovely Aqua Baldric."
+		shopText "Look at this lovely color -- you will love this!"
+	end
+end
+
+object TealBaldric of Baldric
+	properties
+		name "Teal Baldric"
+		color 79
+	end
+	base dye
+	end
+	base described
+		text "You see a lovely Teal Baldric."
+		shopText "Look at this lovely color -- you will love this!"
+	end
+end
+
+#
+# Green Baldric is in use
+#
+
+object JadeBaldric of Baldric
+	properties
+		name "Jade Baldric"
+		color 84
+		value 1700
+	end
+	base dye
+	end
+	base described
+		text "You see a lovely Jade Baldric."
+		shopText "Look at this lovely color -- you will love this!"
+	end
+end
+
+#
+# Orange Baldric is in use
+#
+
+object AmberBaldric of Baldric
+	properties
+		name "Grand-Master's Baldric"
+		color 89
+		level 300
+		value 30000
+	end
+	base dye
+	end
+	base described
+		text "You see a Grand-Master's Baldric."
+		shopText "This baldric is given as an award when level 300 is achieved."
+	end
+end
+
+#
+# Royal Baldric is in use
+#
+object RoyalBaldric of Baldric
+	properties
+		name "Legend's Baldric"
+		color 93
+		level 500
+	end
+	base dye
+	end
+	base described
+		text "You see a Legend's Baldric."
+		shopText "This fine baldric is given as an award to players who reach level 500!"
+	end
+end
+
+object PurpleBaldric of PinkBaldric
+end
+
+object RealPurpleBaldric of Baldric
+	properties
+		name "Purple Baldric"
+		color 94
+		value 5
+	end
+	base dye
+	end
+	base described
+		text "You see a lovely Purple Baldric."
+		shopText "Look at this lovely color -- you will love this!"
+	end
+end
+
+object WhiteBaldric of Baldric
+	properties
+		name "White Baldric"
+		color 100
+		value 5
+	end
+	base dye
+	end
+	base described
+		text "You see an ordinary white Baldric."
+	end
+end
+
+object BlackBaldric of WhiteBaldric
+end
+
+object RealBlackBaldric of Baldric
+	properties
+		name "Black Baldric"
+		color 98
+		value 1000
+		#
+		# Same color as Implementor's Baldric
+		#
+	end
+	base dye
+	end
+	base described
+		text "You see a brilliantly dark Baldric."
+		shopText "Oh, yes.  This Baldric is very exceptional.  You can never pay too much for one."
+	end
+end
+
+object GrayBaldric of Baldric
+	properties
+		name "Advanced Player's Baldric"
+		color 99
+		level 25
+		value 2500
+	end
+	base dye
+	end
+	base described
+		text "You see an Advanced Player's Baldric."
+		shopText "This baldric is awarded to players that achieve level 25."
+	end
+end
+
+object GreenBaldric of Baldric
+	properties
+		name "Master Player's Baldric"
+		color 83
+		level 200
+		value 20000
+	end
+	base dye
+	end
+	base described
+		text "You see a Master Player's Baldric."
+		shopText "This baldric is typically awarded to level 200 players."
+	end
+end
+
+object SatoriBaldric of Baldric
+	properties
+		name "Baldric of Satori"
+		color 30
+		level 1000
+	end
+
+	actions
+		vBePutOn setAffect dobj 39 0 0 -1	#Strength
+		vBeTakenOff clearAffect dobj 39 0 0
+		vBePutOn setAffect dobj 37 0 0 -1
+		vBeTakenOff clearAffect dobj 37 0 0
+	end
+	base dye
+	end
+
+	base described
+		text "You see a Baldric of Satori.\n This Baldric grants Strength and Dexterity to the wearer."
+		shopText "This baldric is awarded to players who have achieved the enlightenment of level 1000."
+	end
+end
+
+#------------------------------------------------------------
+object KnightBaldric of Baldric
+	properties
+		special
+		name "Knight Baldric"
+		value 47500
+		health 10
+		armor 5
+	end
+	base dye
+	end
+end
+
+#------------------------------------------------------------
+object DarkKnightBaldric of KnightBaldric 
+	properties
+		special
+		name "Dark Knight Baldric"
+		color 97
+	end
+	base dye
+	end
+	base described
+		text "This baldric marks its wearer as a Knight of Darkness, a follower of Duach, and an instrument of Evil, devoted to the pursuit of the Dark Arts with honor, dignity, and chivalry.\n\n"
+		shopText "A Dark Knight's Baldric. This baldric marks its wearer as a follower of Duach.\n\n"
+	end
+end
+
+#------------------------------------------------------------
+object EnidKnightBaldric of KnightBaldric 
+	properties
+		special
+		name "Knight of Enid Baldric"
+		color 41
+	end
+	base dye
+	end
+	base described
+		text "This baldric marks its wearer as a Knight of Enid, a follower of the Goddess of Peace, Harmony, and Nature, and an instrument of Good, devoted to the pursuit of the Arts of Light with honor, dignity, and chivalry.\n\n"
+		shopText "A Knight of Enid Baldric. This baldric marks its wearer as a follower of Enid.\n\n"
+	end
+end
+
+#------------------------------------------------------------
+object ScepterKnightBaldric of KnightBaldric 
+	properties
+		special
+		name "Knight of the Scepter Baldric"
+		color 40
+	end
+	base dye
+	end
+	base described
+		text "This baldric marks its wearer as a Knight of the Scepter, a follower of Despothes, one who walks the path between Darkness and Light, encompassing both but committed to neither, and an instrument of the King of the Gods, devoted to the pursuit of Balance with honor, dignity, and chivalry.\n\n"
+		shopText "A Knight of the Scepter Baldric. This baldric marks its wearer as a follower of Despothes.\n\n"
+	end
+end
+
+#------------------------------------------------------------
+object FinvarraBaldric of KnightBaldric 
+	properties
+		special
+		name "Sash of Finvarra"
+		color 115
+	end
+	base dye
+	end
+	actions
+		# Pos Dex 
+		vBePutOn setAffect dobj 37 0 0 -1
+		vBeTakenOff clearAffect dobj 37 0 0
+		# Pos Str 
+		vBePutOn setAffect dobj 39 0 0 -1
+		vBeTakenOff clearAffect dobj 39 0 0
+	end
+	base described
+		text "This is the fabled Sash of Finvarra.  This finely crafted Baldric will endow the wearer with special added abilities.\n\n"
+		shopText "A Finvarra Baldric. This baldric was crafted by Lord Finvarra himself.\n\n"
+	end
+end
+
+#------------------------------------------------------------
+object MazeMasterBaldric of KnightBaldric 
+	properties
+		special
+		name "Maze Master Baldric"
+		color 20
+	end
+	base dye
+	end
+	actions
+		# Pos Dex 
+		vBePutOn setAffect dobj 37 0 0 -1
+		vBeTakenOff clearAffect dobj 37 0 0
+		# Pos Str 
+		vBePutOn setAffect dobj 39 0 0 -1
+		vBeTakenOff clearAffect dobj 39 0 0
+	end
+	base described
+		text "This baldric was worn by the Master of the Maze.  The wearer can proudly display the fact that it was won in mortal combat with the Master of the Maze.\n\n"
+		shopText "A Maze Master's Baldric. This baldric marks its wearer as the victor over the Master of the Maze in mortal combat.\n\n"
+	end
+end
+#------------------------------------------------------------
+object MazeMasterBaldric2 of KnightBaldric 
+	properties
+		special
+		name "Maze Master Baldric"
+		color 74
+	end
+	base dye
+	end
+	actions
+		# Pos Dex 
+		vBePutOn setAffect dobj 37 0 0 -1
+		vBeTakenOff clearAffect dobj 37 0 0
+		# Pos Str 
+		vBePutOn setAffect dobj 39 0 0 -1
+		vBeTakenOff clearAffect dobj 39 0 0
+	end
+	base described
+		text "This baldric was worn by the Master of the Maze.  The wearer can proudly display the fact that it was won in mortal combat with the Master of the Maze.\n\n"
+		shopText "A Maze Master's Baldric. This baldric marks its wearer as the victor over the Master of the Maze in mortal combat.\n\n"
+	end
+end
+#---------------------------#
+#							#
+#							#
+#		New Baldrics		#
+#							#
+#							#
+#							#
+#---------------------------#
+object YorkBaldric of Baldric
+	properties
+		special
+		name "Baldric of York"
+		color 36	#Indigo (Deep Purple Glow)
+		level 750
+	end
+	base dye
+	end
+	actions
+		vBePutOn setAffect dobj 61 0 0 -1             # Intel
+		vBeTakenOff clearAffect dobj 61 0 0           	
+	end
+
+	base described
+		text "A familiar baldric, but something is different..\n"
+		idText "A Baldric reclaimed from the lost York. This ancient Baldric will provide the wearer a boost to their Intelligence!\n Level Required: 750\n"
+		shopText "I've never seen such a thing!"
+	end
+end
+#------------------------------------------------------------
+object AchrenBaldric of Baldric
+	properties
+		special
+		name "Baldric of Achren"
+		color 116	#Black Latex
+		level 750
+	end
+	base dye
+	end
+	actions
+		vBePutOn setAffect dobj 1 2 0 -1			# Str
+		vBeTakenOff clearAffect dobj 1 2 0		
+		vBePutOn setAffect dobj 56 0 0 -1			# Attack
+		vBeTakenOff clearAffect dobj 56 0 0	
+	end
+
+	base described
+		text "A baldric made from an exotic silk..\n"
+		idText "An ancient Baldric from Achren!\n This Baldric will provide the wearer will increased Strength, as well as an extra Attack in combat.\n Level Required: 750\n"
+		shopText "I've never seen such a thing!"
+	end
+end
+#------------------------------------------------------------
+object CrucibleBaldric of Baldric
+	properties
+		special
+		name "Crucible Baldric"
+		color 76	#Cyprus
+		level 1000
+	end
+	base dye
+	end
+	actions
+		vBePutOn setAffect dobj 59 0 0 -1			# Dex
+		vBeTakenOff clearAffect dobj 59 0 0
+		vBePutOn setAffect dobj 1 2 0 -1			# Str
+		vBeTakenOff clearAffect dobj 1 2 0	
+		vBePutOn setAffect dobj 61 0 0 -1			# Intel
+		vBeTakenOff clearAffect dobj 61 0 0
+		vBePutOn setAffect dobj 56 0 0 -1			# Attack
+		vBeTakenOff clearAffect dobj 56 0 0	
+		vBePutOn setAffect dobj 1 3 0 -1            # Fire Weakness (Hidden)
+		vBeTakenOff clearAffect dobj 1 3  0         
+		vBePutOn setAffect dobj 2 3 0 -1            # Cold Weakness (Hidden)
+		vBeTakenOff clearAffect dobj 2 3  0         		
+	end
+
+	base described
+		text "There is something with this baldric, you can feel the raw power pulsing from it..\n"
+		idText "A Baldric that represents only the hardened of veterans.\n This Baldric could surely cause destruction were it to fall into the wrong hands.\n Wearing this, you will gain a boost to your Strength, Dexterity, as well as your Intelligence. The ancient knowledge imbued into this baldric will also provide you with an extra Attack.\n This Baldric does not come without its drawbacks. Wearing this, you will also take more Cold and Fire damage.\n Level Required: 950\n"
+		shopText "I've never seen such a thing!"
+	end
+end
+#------------------------------------------------------------
+object AvoidanceBaldric of Baldric
+	properties
+		special
+		name "Baldric of Avoidance"
+		color 105	#DTan Flesh (MDF)
+		level 200
+	end
+	base dye
+	end
+	actions
+		vBePutOn setAffect dobj 57 0 0 -1       # Extra Dodge
+		vBeTakenOff clearAffect dobj 57 0 0  
+		vBePutOn setAffect dobj 59 0 0 -1       # +Dex
+		vBeTakenOff clearAffect dobj 59 0 0		
+		vBePutOn changeEvilMDMMod dobj 10       # Evil MDM 10%
+		vBePutOn changeGoodMDMMod dobj 10       # Good MDM 10%
+		vBeTakenOff changeGoodMDMMod dobj -10   #
+		vBeTakenOff changeEvilMDMMod dobj -10   #		
+	end
+
+	base described
+		text "This baldric resembles flesh..\n"
+		idText "A Baldric of Avoidance.\n This Baldric will provide the wearer with a spare Dodge, as well as a boost to your Dexterity.\n This Baldric also provides 10% Damage Boost to Evil and Good targets.\n Level Required: 200\n"
+		shopText "You sure this isnt skin?"
+	end
+end
+#------------------------------------------------------------
+object ProtectionBaldric of Baldric
+	properties
+		special
+		name "Baldric of Protection"
+		color 138	#Prussian Blue Glow 
+	end
+	base dye
+	end
+	actions
+		vBePutOn setAffect dobj 41 0 0 -1       # Shielding
+		vBeTakenOff clearAffect dobj 41 0 0	
+		vBePutOn setAffect dobj 67 0 0 -1		# Nourishment
+		vBeTakenOff clearAffect dobj 67 0 0		
+		vBePutOn changeEvilMDMMod dobj 10       # Evil MDM 10%
+		vBePutOn changeGoodMDMMod dobj 10       # Good MDM 10%
+		vBeTakenOff changeGoodMDMMod dobj -10   #
+		vBeTakenOff changeEvilMDMMod dobj -10   #
+	end
+
+	base described
+		text "A very shiny baldric, this could be worth something...\n"
+		idText "A Baldric of Protection.\n This Baldric will provide the wearer with Shielding, as well as Eternal Nourishment.\n This Baldric also provides 10% Damage Boost to Evil and Good targets.\n"
+		shopText "Wow, thats unique!"
+	end
+end
+#------------------------------------------------------------
+object GeneralBaldric of Baldric
+	properties
+	special
+		name "General's Baldric"
+		color 43	#Brown Glow
+		level 500
+		value 75000
+	end
+	base dye
+	end
+	actions
+		vBePutOn setAffect dobj 17 0 0 -1		  # See Invis
+		vBeTakenOff clearAffect dobj 17 0 0
+		vBePutOn setAffect dobj 39 0 0 -1		  # Str
+		vBeTakenOff clearAffect dobj 39 0 0
+		vBePutOn setAffect dobj 59 0 0 -1		  # Dex
+		vBeTakenOff clearAffect dobj 59 0 0		
+	end
+	
+	base described
+		text "You see a General's Baldric."
+		idText "This Baldric once belonged to a powerful General.\n Wearing this, you will be granted additional Strength as well as Dexterity.\n This Baldric also possesses the magic to grant the wearer ability to see invisible beings.\n \nLevel Required: 500\n"
+		shopText "Whoa, where'd you steal this from?"
+	end
+end
+#------------------------------------------------------------
+object DungeonDweller of Baldric
+	properties
+		special
+		name "Dungeon Dweller's Baldric"
+		color 0
+		level 750
+	end
+	base dye
+	end
+	actions
+		vBePutOn setAffect dobj 39 0 0 -1		#Str
+		vBeTakenOff clearAffect dobj 39 0 0
+		vBePutOn setAffect dobj 59 0 0 -1		#Dex
+		vBeTakenOff clearAffect dobj 59 0 0
+	end
+
+	base described
+		text "A Baldric in a familiar color."
+		idText "A Natural Brown Baldric that has been designed for every dungeon dweller out there. It provides a boost to your Strength and Dexterity."
+		shopText "You sure you wanna be selling this?"
+	end
+end
+#------------------------------------------------------------
+object SkyBlueBaldric of Baldric
+	properties
+		special
+		name "Lieutenant's Baldric"
+		color 11
+		level 750
+	end
+	base dye
+	end
+	base described
+		text "You see a Lieutenant's Baldric."
+		shopText "This fine baldric is given as an award to players who reach level 750!"
+	end
+end
+#------------------------------------------------------------
+object AmazingBaldric of Baldric
+	properties
+		special
+		name "Prestigous Baldric"
+		color 202		# Shifting Lightest Chrome
+		level 2000
+	end
+	base dye
+	end
+	actions
+		vBePutOn setAffect dobj 39 0 0 -1			# Strength
+		vBeTakenOff clearAffect dobj 39 0 0
+		vBePutOn setAffect dobj 37 0 0 -1			# Dex
+		vBeTakenOff clearAffect dobj 37 0 0
+		vBePutOn setAffect dobj 17 0 0 -1			# See Invis
+		vBeTakenOff clearAffect dobj 17 0 0
+		vBePutOn setAffect dobj 56 0 0 -1			# Attack
+		vBeTakenOff clearAffect dobj 56 0 0
+	end
+
+
+	base described
+		text "You see a Prestegious Shifting Baldric.\n This Baldric grants Strength and Dexterity to the wearer, an extra Attack as well as grants the ability to see invisible beings."
+		shopText "This baldric is awarded to players who have achieved the unbelievable goal of level 2000."
+	end
+end
+#-------------------------------------------------------------
+object Thistlebark of Clothing
+	properties
+		name "Thistlebark"
+		view 10950
+		clutStart 11
+		value 20
+
+		# immune to fire damage
+		affect 1 2 0 -1
+
+		# immune to acid
+		affect 4 2 0 -1
+	end
+
+	base dye
+	end
+
+	base carryable
+		weight 0.5
+	end
+
+	base wearable
+		areaWorn 99
+		layer 80
+	end
+
+	base described
+		text "You see a baldric."
+		shopText "Ahhh!  This is the highest quality baldric that you will find anywhere.  If you buy one, you won't be disappointed!"
+	end
+end
+
+object ThistlebarkA of Thistlebark
+	properties
+		name "Sacred Temple Sash"
+		clutStart -1
+		color 125
+		level 1900
+	end
+	actions
+		vBePutOn setAffect dobj 17 0 0 -1		  # See Invis
+		vBeTakenOff clearAffect dobj 17 0 0
+		vBePutOn setAffect dobj 67 0 0 -1   	  # NOURISHED
+		vBeTakenOff clearAffect dobj 67 0 0	
+		vBePutOn setAffect dobj 61 0 0 -1		  # Intel
+		vBeTakenOff clearAffect dobj 61 0 0
+		vBePutOn setAffect dobj 61 0 0 -1		  # Intel
+		vBeTakenOff clearAffect dobj 61 0 0
+		vBePutOn setAffect dobj 61 0 0 -1		  # Intel
+		vBeTakenOff clearAffect dobj 61 0 0
+		vBePutOn setAffect dobj 61 0 0 -1		  # Intel
+		vBeTakenOff clearAffect dobj 61 0 0
+		vBePutOn setAffect dobj 39 0 0 -1	  	  # Strength
+		vBeTakenOff clearAffect dobj 39 0 0
+		vBePutOn setAffect dobj 39 0 0 -1	  	  # Strength
+		vBeTakenOff clearAffect dobj 39 0 0
+		vBePutOn setAffect dobj 39 0 0 -1	  	  # Strength
+		vBeTakenOff clearAffect dobj 39 0 0
+		vBePutOn setAffect dobj 39 0 0 -1	  	  # Strength
+		vBeTakenOff clearAffect dobj 39 0 0
+		vBePutOn setAffect dobj 37 0 0 -1		  # Dex
+		vBeTakenOff clearAffect dobj 37 0 0
+		vBePutOn setAffect dobj 37 0 0 -1	  	  # Dex
+		vBeTakenOff clearAffect dobj 37 0 0
+		vBePutOn setAffect dobj 37 0 0 -1		  # Dex
+		vBeTakenOff clearAffect dobj 37 0 0
+		vBePutOn setAffect dobj 37 0 0 -1	  	  # Dex
+		vBeTakenOff clearAffect dobj 37 0 0
+	end
+
+
+	base described
+		text "A Baldric worn by those who guarded the Sacred Temple.\n\n"
+		idText "Sacred Temple Sash!\n\nThis baldric grants you god-like Strength, Dexterity and Intelligence!\n\nDonning this sash you will be able to see invisible opponents, and never have to eat.\n\nThis sash holds magical dying properties..\n\nLevel Required: 1900\n\n"
+		shopText "Sacred Temple Sash!\n\nThis baldric grants you god-like Strength, Dexterity and Intelligence!\n\nDonning this sash you will be able to see invisible opponents, and never have to eat.\n\nThis sash holds magical dying properties..\n\nLevel Required: 1900\n\n"
+	end
+end
+
+object ThistlebarkB of Thistlebark
+	properties
+		clutStart -1
+		color 126
+	end
+end
+
+#------------------10k Server First Reward--------------------
+object 10kRewardBaldric of ThistlebarkB
+	properties
+		special
+		name "World First: Daddy"
+		value 1000000000
+		armor 120
+	end
+
+	base carryable
+		weight 0
+	end
+
+	base dye
+	end
+
+	actions
+		vBePutOn setAffect dobj 39 0 0 -1	  	# Strength
+		vBeTakenOff clearAffect dobj 39 0 0
+		vBePutOn setAffect dobj 39 0 0 -1	  	# Strength
+		vBeTakenOff clearAffect dobj 39 0 0
+		vBePutOn setAffect dobj 39 0 0 -1	  	# Strength
+		vBeTakenOff clearAffect dobj 39 0 0
+		vBePutOn setAffect dobj 39 0 0 -1	  	# Strength
+		vBeTakenOff clearAffect dobj 39 0 0
+		vBePutOn setAffect dobj 37 0 0 -1		# Dex
+		vBeTakenOff clearAffect dobj 37 0 0
+		vBePutOn setAffect dobj 37 0 0 -1	  	# Dex
+		vBeTakenOff clearAffect dobj 37 0 0
+		vBePutOn setAffect dobj 37 0 0 -1		# Dex
+		vBeTakenOff clearAffect dobj 37 0 0
+		vBePutOn setAffect dobj 37 0 0 -1	  	# Dex
+		vBeTakenOff clearAffect dobj 37 0 0
+		vBePutOn setAffect dobj 61 0 0 -1		# Intel
+		vBeTakenOff clearAffect dobj 61 0 0
+		vBePutOn setAffect dobj 61 0 0 -1		# Intel
+		vBeTakenOff clearAffect dobj 61 0 0
+		vBePutOn setAffect dobj 61 0 0 -1		# Intel
+		vBeTakenOff clearAffect dobj 61 0 0
+		vBePutOn setAffect dobj 61 0 0 -1		# Intel
+		vBeTakenOff clearAffect dobj 61 0 0
+		vBePutOn setAffect dobj 17 0 0 -1		# See Invis
+		vBeTakenOff clearAffect dobj 17 0 0
+		vBePutOn setAffect dobj 67 0 0 -1   	# NOURISHED
+		vBeTakenOff clearAffect dobj 67 0 0	
+		vBePutOn setAffect dobj 43 0 0 -1	  	# Invul
+		vBeTakenOff clearAffect dobj 43 0 0
+		vBePutOn setAffect dobj 57 0 0 -1       # Extra Dodge
+		vBeTakenOff clearAffect dobj 57 0 0  
+		vBePutOn setAffect dobj 57 0 0 -1       # Extra Dodge
+		vBeTakenOff clearAffect dobj 57 0 0  
+		vBePutOn setAffect dobj 57 0 0 -1       # Extra Dodge
+		vBeTakenOff clearAffect dobj 57 0 0  
+		vBePutOn setAffect dobj 37 0 0 -1       # Quicken
+		vBeTakenOff clearAffect dobj 37 0 0 
+		vBePutOn setAffect dobj 37 0 0 -1       # Quicken
+		vBeTakenOff clearAffect dobj 37 0 0 
+		vBePutOn setAffect dobj 37 0 0 -1       # Quicken
+		vBeTakenOff clearAffect dobj 37 0 0 
+		vBePutOn setAffect dobj 37 0 0 -1       # Quicken
+		vBeTakenOff clearAffect dobj 37 0 0 
+		vBePutOn changeSDM dobj 1000 1 3 4		# Add 1000% to Tham/Ele/Necro. 
+		vBeTakenOff changeSDM dobj -1000 1 3 4
+	end
+
+	base described
+		text "Obtained by Daddy on May 23rd, 2019 7:43 AM\n\n"
+		idText "Obtained by Daddy on May 23rd, 2019 7:43 AM\n\n++++Str\n++++Dex\n++++Int\n++++Quicken\n+Invul\n+See Invis\n+Nourish\n+++Dodge\n\n+1000% SDM to Thaum/Ele/Necro\n\n"
+		shopText "If you are reading this, report to Zach immediately!\n\n\n\n\n\n\n\n\n"
+	end
+end
+#------------------10k Server First Reward--------------------
+#-------------------------------------------------------------
+object IllustriousBaldric of Baldric
+	properties
+		special
+		name "Illustrious Baldric"
+		color 171		# Black-Brown
+		level 1500
+	end
+	base dye
+	end
+	actions
+		vBePutOn setAffect dobj 39 0 0 -1	  	  # Strength
+		vBeTakenOff clearAffect dobj 39 0 0
+		vBePutOn setAffect dobj 37 0 0 -1		  # Dex
+		vBeTakenOff clearAffect dobj 37 0 0
+		vBePutOn setAffect dobj 17 0 0 -1		  # See Invis
+		vBeTakenOff clearAffect dobj 17 0 0
+	end
+
+
+	base described
+		text "You see an Illustrious baldric.\n This Baldric grants Strength and Dexterity to the wearer, as well as grants the ability to see invisible beings."
+		shopText "This baldric is awarded to players who have achieved the unbelievable goal of level 1500."
+	end
+end
+#----------------------------------------
+object tSash of Thistlebark
+	properties
+		special
+		name "Baldric of the Woods"
+		level 1750
+	end
+	base dye
+	end
+	actions
+		vBePutOn setAffect dobj 39 0 0 -1	  	  # Strength
+		vBeTakenOff clearAffect dobj 39 0 0
+		vBePutOn setAffect dobj 39 0 0 -1	  	  # Strength
+		vBeTakenOff clearAffect dobj 39 0 0
+		vBePutOn setAffect dobj 37 0 0 -1		  # Dex
+		vBeTakenOff clearAffect dobj 37 0 0
+		vBePutOn setAffect dobj 37 0 0 -1	  	  # Dex
+		vBeTakenOff clearAffect dobj 37 0 0
+		vBePutOn setAffect dobj 17 0 0 -1		  # See Invis
+		vBeTakenOff clearAffect dobj 17 0 0
+		vBePutOn setAffect dobj 67 0 0 -1   	  #NOURISHED
+		vBeTakenOff clearAffect dobj 67 0 0	
+	end
+
+
+	base described
+		text "You see the Baldric of the Woods.\n This baldric grants you an incredible strength bonus and dexterity bonus. Coming from the Lost Woods it attunes your eyes to see the invisible and your stomach to never need filling."
+		shopText "The GOAT."
+	end
+end
+#-----------------------------------
+object DespothesGuardianBaldric of Baldric
+	properties
+		special
+		name "Despothes' Guardian Baldric"
+		color 208		# Shifting Darkest Chrome
+		level 2000
+	end
+	base dye
+	end
+	actions
+		vBePutOn setAffect dobj 37 0 0 -1		  # Dex
+		vBeTakenOff clearAffect dobj 37 0 0
+		vBePutOn setAffect dobj 37 0 0 -1	  	  # Dex
+		vBeTakenOff clearAffect dobj 37 0 0
+		vBePutOn setAffect dobj 17 0 0 -1		  # See Invis
+		vBeTakenOff clearAffect dobj 17 0 0
+		vBePutOn setAffect dobj 67 0 0 -1   	  # NOURISHED
+		vBeTakenOff clearAffect dobj 67 0 0	
+		vBePutOn setAffect dobj 61 0 0 -1		  # Intel
+		vBeTakenOff clearAffect dobj 61 0 0
+		vBePutOn setAffect dobj 61 0 0 -1		  # Intel
+		vBeTakenOff clearAffect dobj 61 0 0
+		vBePutOn changeSDM dobj 300 1 3 4		  # Add 300% to Tham/Ele/Necro. 
+		vBeTakenOff changeSDM dobj -300 1 3 4
+	end
+
+
+	base described
+		text "Despothes Guardian Baldric\n\n"
+		idText "Despothes Guardian Baldric\n\nThis baldric grants you an incredible Intelligence and Dexterity bonus.\n\n Being enchanted by Despothes himself, you will remain full and gain the ability to see invisible opponents.\n\n+300% Thaum/Ele/Necro\n\n"
+		shopText "Despothes Guardian Baldric\n\nThis baldric grants you an incredible Intelligence and Dexterity bonus.\n\n Being enchanted by Despothes himself, you will remain full and gain the ability to see invisible opponents.\n\n+300% Thaum/Ele/Necro\n\n"
+	end
+end
+#-----------------------------------
+object ElphameGuardianBaldric of Baldric
+	properties
+		special
+		name "Elphame's Guardian Baldric"
+		color 196		# Shifting Cream
+		level 2000
+	end
+	base dye
+	end
+	actions
+		vBePutOn setAffect dobj 39 0 0 -1	  	  # Strength
+		vBeTakenOff clearAffect dobj 39 0 0
+		vBePutOn setAffect dobj 39 0 0 -1	  	  # Strength
+		vBeTakenOff clearAffect dobj 39 0 0
+		vBePutOn setAffect dobj 39 0 0 -1	  	  # Strength
+		vBeTakenOff clearAffect dobj 39 0 0
+		vBePutOn setAffect dobj 39 0 0 -1	  	  # Strength
+		vBeTakenOff clearAffect dobj 39 0 0
+		vBePutOn setAffect dobj 37 0 0 -1		  # Dex
+		vBeTakenOff clearAffect dobj 37 0 0
+		vBePutOn setAffect dobj 37 0 0 -1	  	  # Dex
+		vBeTakenOff clearAffect dobj 37 0 0
+		vBePutOn setAffect dobj 37 0 0 -1		  # Dex
+		vBeTakenOff clearAffect dobj 37 0 0
+		vBePutOn setAffect dobj 37 0 0 -1	  	  # Dex
+		vBeTakenOff clearAffect dobj 37 0 0
+		vBePutOn setAffect dobj 17 0 0 -1		  # See Invis
+		vBeTakenOff clearAffect dobj 17 0 0
+		vBePutOn setAffect dobj 67 0 0 -1   	  # NOURISHED
+		vBeTakenOff clearAffect dobj 67 0 0	
+	end
+
+
+	base described
+		text "Elphame Guardian Baldric\n\n"
+		idText "Elphame's Guardian Baldric\n\nThis baldric grants you an unbelievable Strength and Dexterity bonus.\n\n Being enchanted by Elphame herself, you will remain full and gain the ability to see invisible opponents.\n\n"
+		shopText "Elphame's Guardian Baldric\n\nThis baldric grants you an unbelievable Strength and Dexterity bonus.\n\n Being enchanted by Elphame herself, you will remain full and gain the ability to see invisible opponents.\n\n"
+	end
+end

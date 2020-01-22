@@ -1,0 +1,73 @@
+object Gargoyle of NPC
+	properties
+		name "Gargoyle"
+		view 41800
+		clutStart -1
+		color 115
+		
+		minLevel 1000
+		maxLevel 1400
+		
+		alignment 128 #neutral
+		
+		intelligence 60
+		strength 100
+		endurance 50
+		dexterity 25
+		
+		soundGroup 16
+		  
+		
+		caffect 0			# Cancel affect (0)
+		affect 0 0 0 -1		# do normal damage
+		affect 1 0 0 -1		# do fire damage
+		
+		damageType 0
+		armorType 3
+		affect 0 0 0 -1
+	end
+	base container
+		worn FinColorBelt
+		worn mwSpecialNullsword
+		object RandomMegaMoney
+		object RandomNewGear
+		object RandomRareHelmet
+	end
+	
+	base character
+		# grandmaster weapons
+		skill 0 5
+		skill 1 5
+		skill 2 5
+		skill 3 5
+		skill 4 5
+		skill 5 5
+		skill 6 5
+		skill 7 5
+		skill 8 5
+		skill 10 5
+		# grandmaster sorcery
+		skill 11 5
+		# grandmaster elementalism
+		skill 12 5
+		# grandmaster mysticism
+		skill 13 5
+		# grandmaster thaumaturgy
+		skill 14 5
+		# grandmaster necromancy
+		skill 15 5
+	end
+	
+	actions
+		vBeBorn changeSDM self 200 0 1 2 3 4
+		vBeBorn changeSpellResistance self 60 0 1 2 3 4 #60% Resist to all
+	end
+	
+	base described
+		text "This is a Gargoyle. --60% Resist to ALL Circles. \n\n"
+	end
+
+	base npc
+	    code tulor
+	end
+end

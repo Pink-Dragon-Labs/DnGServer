@@ -1,0 +1,1519 @@
+object FlyingImp of NPC
+	properties
+		name "Flying Imp"
+		view 42650
+	end
+
+	base described
+		text "This is a Flying Imp."
+	end
+end
+
+object FlyingImpA of FlyingImp
+	properties
+		name "Flying Imp A"
+		clutStart -1
+		color 111
+	end
+
+	base described
+		text "This is a Flying Imp."
+	end
+end
+
+object FlyingImpB of FlyingImp
+	properties
+		name "Flying Imp B"
+		clutStart -1
+		color 112
+	end
+
+	base described
+		text "This is a Flying Imp."
+	end
+end
+
+object FlyingImpC of FlyingImp
+	properties
+		name "Flying Imp C"
+		clutStart -1
+		color 113
+	end
+
+	base described
+		text "This is a Flying Imp."
+	end
+end
+
+
+object FlyingImpD of FlyingImp
+	properties
+		name "Flying Imp D"
+		clutStart -1
+		color 114
+	end
+
+	base described
+		text "This is a Flying Imp."
+	end
+end
+
+
+object FlyingImpE of FlyingImp
+	properties
+		name "Flying Imp E"
+		clutStart -1
+		color 115
+	end
+
+	base described
+		text "This is a Flying Imp."
+	end
+end
+
+
+object FlyingImpF of FlyingImp
+	properties
+		name "Flying Imp F"
+		clutStart -1
+		color 116
+	end
+
+	base described
+		text "This is a Flying Imp."
+	end
+end
+
+
+object FlyingImpG of FlyingImp
+	properties
+		name "Flying Imp G"
+		clutStart -1
+		color 117
+	end
+
+	base described
+		text "This is a Flying Imp."
+	end
+end
+
+object FlyingImpH of FlyingImp
+	properties
+		name "Flying Imp H"
+		clutStart -1
+		color 118
+	end
+
+	base described
+		text "This is a Flying Imp."
+	end
+end
+
+object FlyingImpI of FlyingImp
+	properties
+		name "Flying Imp I"
+		clutStart -1
+		color 119
+	end
+
+	base described
+		text "This is a Flying Imp."
+	end
+end
+
+object FlyingImpJ of FlyingImp
+	properties
+		name "Flying Imp J"
+		clutStart -1
+		color 120
+	end
+
+	base described
+		text "This is a Flying Imp."
+	end
+end
+
+object FlyingImpK of FlyingImp
+	properties
+		name "Flying Imp K"
+		clutStart -1
+		color 121
+	end
+
+	base described
+		text "This is a Flying Imp."
+	end
+end
+
+object FlyingImpL of FlyingImp
+	properties
+		name "Flying Imp L"
+		clutStart -1
+		color 122
+	end
+
+	base described
+		text "This is a Flying Imp."
+	end
+end
+
+object FlyingImpM of FlyingImp
+	properties
+		name "Flying Imp M"
+		clutStart -1
+		color 123
+	end
+
+	base described
+		text "This is a Flying Imp."
+	end
+end
+
+object FlyingImpN of FlyingImp
+	properties
+		name "Flying Imp N"
+		clutStart -1
+		color 124
+	end
+
+	base described
+		text "This is a Flying Imp."
+	end
+end
+#################################################
+#												#
+#												#
+#												#
+#												#
+#												#
+#												#
+#					Custom						#
+#												#
+#												#
+#												#
+#												#
+#												#
+#												#
+#################################################
+
+object SwampImp of FlyingImp
+	properties
+		special
+		name "Swamp Imp"
+		alignment 127
+
+		minLevel 1600
+		maxLevel 2000
+		minDamage 2200
+		maxDamage 4500
+
+		strength 250
+		endurance 35
+		intelligence 175
+		dexterity 20
+
+		soundGroup 7
+		armorType 1
+		damageType 1
+		range 2
+		quickness 8
+		  
+		girth 80
+		height 80
+
+		# affects
+		# do fire damage
+		affect 1 0 0 -1
+
+		# acid damage
+		affect 4 0 0 -1
+
+		# poison damage
+		affect 5 0 0 -1
+
+		# fire immolation
+		affect 23 0 0 -1
+
+		# cold immolation
+		affect 24 0 0 -1
+
+		# lightning immolation
+		affect 27 0 0 -1
+	end
+
+	base container
+		object RandomNewGear
+		object RandomRareGlowDye
+		object RandomRareHelmet
+		object RandomMegaMoney
+		object RandomMonsterMegaTreasure
+	end
+
+	base character
+		skill 0 5
+		skill 1 5
+		skill 2 5
+		skill 3 5
+		skill 4 5
+		skill 5 5
+		skill 6 5
+		skill 7 5
+		skill 8 5
+		skill 10 5
+		## grand master wiz
+		skill 11 5
+		skill 12 5
+		skill 13 5
+		 
+		skill 15 5
+		skill 28 5
+		skill 29 5
+		properName "Swamp Imp"
+	end
+
+	actions
+		vBeBorn changeSpellResistance self 75 2	#75% Resist Myst
+		#  350% SDM to all
+        vBeBorn changeSDM self 350 0 2 1 3 4
+	end
+
+	base npc
+		code imp
+	end
+	
+	base described
+		text "A nasty Imp long since evolved from the typical Imp.\n\n 75% Myst Resistance.\n"
+	end
+end
+
+object ElderSwampImp of FlyingImpA
+	properties
+		special
+		name "Elder Swamp Imp"
+		alignment 127
+
+		minLevel 2200
+		maxLevel 2800
+		minDamage 2200
+		maxDamage 4500
+
+		strength 250
+		endurance 35
+		intelligence 175
+		dexterity 20
+
+		soundGroup 7
+		armorType 1
+		damageType 1
+		range 2
+		quickness 8
+		  
+		girth 90
+		height 90
+
+		# affects
+		# do fire damage
+		affect 1 0 0 -1
+
+		# acid damage
+		affect 4 0 0 -1
+
+		# poison damage
+		affect 5 0 0 -1
+
+		# fire immolation
+		affect 23 0 0 -1
+
+		# cold immolation
+		affect 24 0 0 -1
+
+		# lightning immolation
+		affect 27 0 0 -1
+	end
+
+	base container
+		object RandomNewGear
+		object RandomRareGlowDye
+		object RandomRareHelmet
+		object RandomMegaMoney
+		object RandomMonsterMegaTreasure
+	end
+
+	base character
+		skill 0 5
+		skill 1 5
+		skill 2 5
+		skill 3 5
+		skill 4 5
+		skill 5 5
+		skill 6 5
+		skill 7 5
+		skill 8 5
+		skill 10 5
+		## grand master wiz
+		skill 11 5
+		skill 12 5
+		skill 13 5
+		 
+		skill 15 5
+		skill 28 5
+		skill 29 5
+		properName "Elder Swamp Imp"
+	end
+
+	actions
+		vBeBorn changeSpellResistance self 75 2	#75% Resist Myst
+		#  350% SDM to all
+        vBeBorn changeSDM self 350 0 2 1 3 4
+	end
+
+	base npc
+		code imp
+	end
+	
+	base described
+		text "A nasty Imp long since evolved from the typical Imp.\n\n 75% Myst Resistance.\n"
+	end
+end
+
+object CobaltImp of FlyingImpB
+	properties
+		special
+		name "Cobalt Imp"
+		alignment 127
+
+		minLevel 2200
+		maxLevel 2800
+		minDamage 2200
+		maxDamage 4500
+
+		strength 250
+		endurance 35
+		intelligence 175
+		dexterity 20
+
+		soundGroup 7
+		armorType 1
+		damageType 1
+		range 2
+		quickness 8
+		  
+		girth 100
+		height 100
+
+		# affects
+
+		# do cold damage
+		affect 2 0 0 -1
+
+		# poison damage
+		affect 5 0 0 -1
+
+		# cold immolation
+		affect 24 0 0 -1
+	end
+
+	base container
+		object RandomNewGear
+		object RandomRareGlowDye
+		object RandomRareHelmet
+		object RandomMegaMoney
+		object RandomMonsterMegaTreasure
+	end
+
+	base character
+		skill 0 5
+		skill 1 5
+		skill 2 5
+		skill 3 5
+		skill 4 5
+		skill 5 5
+		skill 6 5
+		skill 7 5
+		skill 8 5
+		skill 10 5
+		## grand master wiz
+		skill 11 5
+		skill 12 5
+		skill 13 5
+		 
+		skill 15 5
+		skill 28 5
+		skill 29 5
+		properName "Cobalt Imp"
+	end
+
+	actions
+		vBeBorn changeSpellResistance self 75 2	#75% Resist Myst
+		#  350% SDM to all
+        vBeBorn changeSDM self 350 0 2 1 3 4
+	end
+
+	base npc
+		code imp
+	end
+	
+	base described
+		text "A nasty Imp long since evolved from the typical Imp.\n\n 75% Myst Resistance.\n"
+	end
+end
+
+object ToxicImp of FlyingImpC
+	properties
+		special
+		name "Cobalt Imp"
+		alignment 127
+
+		minLevel 2200
+		maxLevel 2800
+		minDamage 2200
+		maxDamage 4500
+
+		strength 250
+		endurance 35
+		intelligence 175
+		dexterity 20
+
+		soundGroup 7
+		armorType 1
+		damageType 1
+		range 2
+		quickness 8
+		  
+		girth 100
+		height 100
+
+		# affects
+
+		# poison damage
+		affect 5 0 0 -1
+
+		# cold immolation
+		affect 24 0 0 -1
+	end
+
+	base container
+		object RandomNewGear
+		object RandomRareGlowDye
+		object RandomRareHelmet
+		object RandomMegaMoney
+		object RandomMonsterMegaTreasure
+	end
+
+	base character
+		skill 0 5
+		skill 1 5
+		skill 2 5
+		skill 3 5
+		skill 4 5
+		skill 5 5
+		skill 6 5
+		skill 7 5
+		skill 8 5
+		skill 10 5
+		## grand master wiz
+		skill 11 5
+		skill 12 5
+		skill 13 5
+		 
+		skill 15 5
+		skill 28 5
+		skill 29 5
+		properName "Toxic Imp"
+	end
+
+	actions
+		vBeBorn changeSpellResistance self 75 2	#75% Resist Myst
+		#  350% SDM to all
+        vBeBorn changeSDM self 350 0 2 1 3 4
+	end
+
+	base npc
+		code imp
+	end
+	
+	base described
+		text "A nasty Imp long since evolved from the typical Imp.\n\n 75% Myst Resistance.\n"
+	end
+end
+
+object EmperorImp of FlyingImpD
+	properties
+		special
+		name "Emperor Imp"
+		alignment 127
+
+		minLevel 2200
+		maxLevel 2800
+		minDamage 2200
+		maxDamage 4500
+
+		strength 250
+		endurance 35
+		intelligence 175
+		dexterity 20
+
+		soundGroup 7
+		armorType 1
+		damageType 1
+		range 2
+		quickness 8
+		  
+		girth 100
+		height 100
+
+		# affects
+		# do fire damage
+		affect 1 0 0 -1
+
+		# acid damage
+		affect 4 0 0 -1
+
+		# poison damage
+		affect 5 0 0 -1
+
+		# fire immolation
+		affect 23 0 0 -1
+
+		# cold immolation
+		affect 24 0 0 -1
+
+		# lightning immolation
+		affect 27 0 0 -1
+	end
+
+	base container
+		object RandomNewGear
+		object RandomRareGlowDye
+		object RandomRareHelmet
+		object RandomMegaMoney
+		object RandomMonsterMegaTreasure
+	end
+
+	base character
+		skill 0 5
+		skill 1 5
+		skill 2 5
+		skill 3 5
+		skill 4 5
+		skill 5 5
+		skill 6 5
+		skill 7 5
+		skill 8 5
+		skill 10 5
+		## grand master wiz
+		skill 11 5
+		skill 12 5
+		skill 13 5
+		 
+		skill 15 5
+		skill 28 5
+		skill 29 5
+		properName "Emperor Imp"
+	end
+
+	actions
+		vBeBorn changeSpellResistance self 75 2	#75% Resist Myst
+		#  350% SDM to all
+        vBeBorn changeSDM self 350 0 2 1 3 4
+	end
+
+	base npc
+		code imp
+	end
+	
+	base described
+		text "A nasty Imp long since evolved from the typical Imp.\n\n 75% Myst Resistance.\n"
+	end
+end
+
+object HolyImp of FlyingImpE
+	properties
+		special
+		name "Holy Imp"
+		alignment 255
+
+		minLevel 2200
+		maxLevel 2800
+		minDamage 2200
+		maxDamage 4500
+
+		strength 250
+		endurance 35
+		intelligence 175
+		dexterity 20
+
+		soundGroup 7
+		armorType 1
+		damageType 1
+		range 2
+		quickness 8
+		  
+		girth 100
+		height 100
+
+		# affects
+		# do fire damage
+		affect 1 0 0 -1
+
+		# acid damage
+		affect 4 0 0 -1
+
+		# poison damage
+		affect 5 0 0 -1
+
+		# fire immolation
+		affect 23 0 0 -1
+
+		# cold immolation
+		affect 24 0 0 -1
+
+		# lightning immolation
+		affect 27 0 0 -1
+	end
+
+	base container
+		object RandomNewGear
+		object RandomRareGlowDye
+		object RandomRareHelmet
+		object RandomMegaMoney
+		object RandomMonsterMegaTreasure
+	end
+
+	base character
+		skill 0 5
+		skill 1 5
+		skill 2 5
+		skill 3 5
+		skill 4 5
+		skill 5 5
+		skill 6 5
+		skill 7 5
+		skill 8 5
+		skill 10 5
+		## grand master wiz
+		skill 11 5
+		skill 12 5
+		skill 13 5
+		 
+		skill 15 5
+		skill 28 5
+		skill 29 5
+		properName "Holy Imp"
+	end
+
+	actions
+		vBeBorn changeSpellResistance self 75 2	#75% Resist Myst
+		#  350% SDM to all
+        vBeBorn changeSDM self 350 0 2 1 3 4
+	end
+
+	base npc
+		code imp
+	end
+	
+	base described
+		text "A nasty Imp long since evolved from the typical Imp.\n\n 75% Myst Resistance.\n"
+	end
+end
+
+object CrimsonImp of FlyingImpF
+	properties
+		special
+		name "Crimson Imp"
+		alignment 127
+
+		minLevel 2200
+		maxLevel 2800
+		minDamage 2200
+		maxDamage 4500
+
+		strength 250
+		endurance 35
+		intelligence 175
+		dexterity 20
+
+		soundGroup 7
+		armorType 1
+		damageType 1
+		range 2
+		quickness 8
+		  
+		girth 100
+		height 100
+
+		# affects
+		# do fire damage
+		affect 1 0 0 -1
+
+		# fire immolation
+		affect 23 0 0 -1
+	end
+
+	base container
+		object RandomNewGear
+		object RandomRareGlowDye
+		object RandomRareHelmet
+		object RandomMegaMoney
+		object RandomMonsterMegaTreasure
+	end
+
+	base character
+		skill 0 5
+		skill 1 5
+		skill 2 5
+		skill 3 5
+		skill 4 5
+		skill 5 5
+		skill 6 5
+		skill 7 5
+		skill 8 5
+		skill 10 5
+		## grand master wiz
+		skill 11 5
+		skill 12 5
+		skill 13 5
+		 
+		skill 15 5
+		skill 28 5
+		skill 29 5
+		properName "Crimson Imp"
+	end
+
+	actions
+		vBeBorn changeSpellResistance self 75 2	#75% Resist Myst
+		#  350% SDM to all
+        vBeBorn changeSDM self 350 0 2 1 3 4
+	end
+
+	base npc
+		code imp
+	end
+	
+	base described
+		text "A nasty Imp long since evolved from the typical Imp.\n\n 75% Myst Resistance.\n"
+	end
+end
+
+object MireImp of FlyingImpG
+	properties
+		special
+		name "Mire Imp"
+		alignment 127
+
+		minLevel 2200
+		maxLevel 2800
+		minDamage 2200
+		maxDamage 4500
+
+		strength 250
+		endurance 35
+		intelligence 175
+		dexterity 20
+
+		soundGroup 7
+		armorType 1
+		damageType 1
+		range 2
+		quickness 8
+		  
+		girth 100
+		height 100
+
+		# affects
+		# do fire damage
+		affect 1 0 0 -1
+
+		# acid damage
+		affect 4 0 0 -1
+
+		# poison damage
+		affect 5 0 0 -1
+
+		# fire immolation
+		affect 23 0 0 -1
+
+		# cold immolation
+		affect 24 0 0 -1
+
+		# lightning immolation
+		affect 27 0 0 -1
+	end
+
+	base container
+		object RandomNewGear
+		object RandomRareGlowDye
+		object RandomRareHelmet
+		object RandomMegaMoney
+		object RandomMonsterMegaTreasure
+	end
+
+	base character
+		skill 0 5
+		skill 1 5
+		skill 2 5
+		skill 3 5
+		skill 4 5
+		skill 5 5
+		skill 6 5
+		skill 7 5
+		skill 8 5
+		skill 10 5
+		## grand master wiz
+		skill 11 5
+		skill 12 5
+		skill 13 5
+		 
+		skill 15 5
+		skill 28 5
+		skill 29 5
+		properName "Mire Imp"
+	end
+
+	actions
+		vBeBorn changeSpellResistance self 75 2	#75% Resist Myst
+		#  350% SDM to all
+        vBeBorn changeSDM self 350 0 2 1 3 4
+	end
+
+	base npc
+		code imp
+	end
+	
+	base described
+		text "A nasty Imp long since evolved from the typical Imp.\n\n 75% Myst Resistance.\n"
+	end
+end
+
+object BogImp of FlyingImpH
+	properties
+		special
+		name "Bog Imp"
+		alignment 127
+
+		minLevel 2200
+		maxLevel 2800
+		minDamage 2200
+		maxDamage 4500
+
+		strength 250
+		endurance 35
+		intelligence 175
+		dexterity 20
+
+		soundGroup 7
+		armorType 1
+		damageType 1
+		range 2
+		quickness 8
+		  
+		girth 100
+		height 100
+
+		# affects
+		# do fire damage
+		affect 1 0 0 -1
+
+		# acid damage
+		affect 4 0 0 -1
+
+		# poison damage
+		affect 5 0 0 -1
+
+		# fire immolation
+		affect 23 0 0 -1
+
+		# cold immolation
+		affect 24 0 0 -1
+
+		# lightning immolation
+		affect 27 0 0 -1
+	end
+
+	base container
+		object RandomNewGear
+		object RandomRareGlowDye
+		object RandomRareHelmet
+		object RandomMegaMoney
+		object RandomMonsterMegaTreasure
+	end
+
+	base character
+		skill 0 5
+		skill 1 5
+		skill 2 5
+		skill 3 5
+		skill 4 5
+		skill 5 5
+		skill 6 5
+		skill 7 5
+		skill 8 5
+		skill 10 5
+		## grand master wiz
+		skill 11 5
+		skill 12 5
+		skill 13 5
+		 
+		skill 15 5
+		skill 28 5
+		skill 29 5
+		properName "Bog Imp"
+	end
+
+	actions
+		vBeBorn changeSpellResistance self 75 2	#75% Resist Myst
+		#  350% SDM to all
+        vBeBorn changeSDM self 350 0 2 1 3 4
+	end
+
+	base npc
+		code imp
+	end
+	
+	base described
+		text "A nasty Imp long since evolved from the typical Imp.\n\n 75% Myst Resistance.\n"
+	end
+end
+
+object LegendaryImp of FlyingImpI
+	properties
+		special
+		name "Legendary Imp"
+		alignment 255
+
+		minLevel 2200
+		maxLevel 2800
+		minDamage 2200
+		maxDamage 4500
+
+		strength 300
+		endurance 35
+		intelligence 175
+		dexterity 20
+
+		soundGroup 7
+		armorType 1
+		damageType 1
+		range 2
+		quickness 8
+		  
+		girth 120
+		height 120
+
+		# affects
+		# do fire damage
+		affect 1 0 0 -1
+
+		# acid damage
+		affect 4 0 0 -1
+
+		# poison damage
+		affect 5 0 0 -1
+
+		# fire immolation
+		affect 23 0 0 -1
+
+		# cold immolation
+		affect 24 0 0 -1
+
+		# lightning immolation
+		affect 27 0 0 -1
+	end
+
+	base container
+		object RandomNewGear
+		object RandomRareGlowDye
+		object RandomRareHelmet
+		object RandomMegaMoney
+		object RandomMonsterMegaTreasure
+	end
+
+	base character
+		skill 0 5
+		skill 1 5
+		skill 2 5
+		skill 3 5
+		skill 4 5
+		skill 5 5
+		skill 6 5
+		skill 7 5
+		skill 8 5
+		skill 10 5
+		properName "Legendary Imp"
+	end
+
+	actions
+		vBeBorn changeSpellResistance self 75 2	#75% Resist Myst
+		#  350% SDM to all
+        vBeBorn changeSDM self 350 0 2 1 3 4
+	end
+
+	base npc
+		code imp
+	end
+	
+	base described
+		text "A nasty Imp long since evolved from the typical Imp.\n\n 75% Myst Resistance.\n"
+	end
+end
+
+object ImpReaver of FlyingImpJ
+	properties
+		special
+		name "Imp Reaver"
+		alignment 0
+
+		minLevel 2200
+		maxLevel 2800
+		minDamage 2200
+		maxDamage 4500
+
+		strength 250
+		endurance 35
+		intelligence 175
+		dexterity 20
+
+		soundGroup 7
+		armorType 1
+		damageType 1
+		range 2
+		quickness 8
+		  
+		girth 100
+		height 100
+
+		# affects
+		# do fire damage
+		affect 1 0 0 -1
+
+		# acid damage
+		affect 4 0 0 -1
+
+		# poison damage
+		affect 5 0 0 -1
+
+		# fire immolation
+		affect 23 0 0 -1
+
+		# cold immolation
+		affect 24 0 0 -1
+
+		# lightning immolation
+		affect 27 0 0 -1
+	end
+
+	base container
+		object RandomNewGear
+		object RandomRareGlowDye
+		object RandomRareHelmet
+		object RandomMegaMoney
+		object RandomMonsterMegaTreasure
+	end
+
+	base character
+		skill 0 5
+		skill 1 5
+		skill 2 5
+		skill 3 5
+		skill 4 5
+		skill 5 5
+		skill 6 5
+		skill 7 5
+		skill 8 5
+		skill 10 5
+		properName "Imp Reaver"
+	end
+
+	actions
+		vBeBorn changeSpellResistance self 75 2	#75% Resist Myst
+		#  350% SDM to all
+        vBeBorn changeSDM self 350 0 2 1 3 4
+	end
+
+	base npc
+		code imp
+	end
+	
+	base described
+		text "A nasty Imp long since evolved from the typical Imp.\n\n 75% Myst Resistance.\n"
+	end
+end
+
+object CorruptImp of FlyingImpK
+	properties
+		special
+		name "Corrupted Imp"
+		alignment 0
+
+		minLevel 2200
+		maxLevel 2800
+		minDamage 2200
+		maxDamage 4500
+
+		strength 250
+		endurance 35
+		intelligence 175
+		dexterity 20
+
+		soundGroup 7
+		armorType 1
+		damageType 1
+		range 2
+		quickness 8
+		  
+		girth 100
+		height 100
+
+		# affects
+		# do fire damage
+		affect 1 0 0 -1
+
+		# acid damage
+		affect 4 0 0 -1
+
+		# poison damage
+		affect 5 0 0 -1
+
+		# fire immolation
+		affect 23 0 0 -1
+
+		# cold immolation
+		affect 24 0 0 -1
+
+		# lightning immolation
+		affect 27 0 0 -1
+	end
+
+	base container
+		object RandomNewGear
+		object RandomRareGlowDye
+		object RandomRareHelmet
+		object RandomMegaMoney
+		object RandomMonsterMegaTreasure
+	end
+
+	base character
+		skill 0 5
+		skill 1 5
+		skill 2 5
+		skill 3 5
+		skill 4 5
+		skill 5 5
+		skill 6 5
+		skill 7 5
+		skill 8 5
+		skill 10 5
+		## grand master wiz
+		skill 11 5
+		skill 12 5
+		skill 13 5
+		 
+		skill 15 5
+		skill 28 5
+		skill 29 5
+		properName "Corrupted Imp"
+	end
+
+	actions
+		vBeBorn changeSpellResistance self 75 2	#75% Resist Myst
+		#  350% SDM to all
+        vBeBorn changeSDM self 350 0 2 1 3 4
+	end
+
+	base npc
+		code imp
+	end
+	
+	base described
+		text "A nasty Imp long since evolved from the typical Imp.\n\n 75% Myst Resistance.\n"
+	end
+end
+
+object DemonicImp of FlyingImpL
+	properties
+		special
+		name "Demonic Imp"
+		alignment 0
+
+		minLevel 2200
+		maxLevel 2800
+		minDamage 2200
+		maxDamage 4500
+
+		strength 250
+		endurance 35
+		intelligence 175
+		dexterity 20
+
+		soundGroup 7
+		armorType 1
+		damageType 1
+		range 2
+		quickness 8
+		  
+		girth 100
+		height 100
+
+		# affects
+		# do fire damage
+		affect 1 0 0 -1
+
+		# acid damage
+		affect 4 0 0 -1
+
+		# poison damage
+		affect 5 0 0 -1
+
+		# fire immolation
+		affect 23 0 0 -1
+
+		# cold immolation
+		affect 24 0 0 -1
+
+		# lightning immolation
+		affect 27 0 0 -1
+	end
+
+	base container
+		object RandomNewGear
+		object RandomRareGlowDye
+		object RandomRareHelmet
+		object RandomMegaMoney
+		object RandomMonsterMegaTreasure
+	end
+
+	base character
+		skill 0 5
+		skill 1 5
+		skill 2 5
+		skill 3 5
+		skill 4 5
+		skill 5 5
+		skill 6 5
+		skill 7 5
+		skill 8 5
+		skill 10 5
+		## grand master wiz
+		skill 11 5
+		skill 12 5
+		skill 13 5
+		 
+		skill 15 5
+		skill 28 5
+		skill 29 5
+		properName "Demonic Imp"
+	end
+
+	actions
+		vBeBorn changeSpellResistance self 75 2	#75% Resist Myst
+		#  350% SDM to all
+        vBeBorn changeSDM self 350 0 2 1 3 4
+	end
+
+	base npc
+		code imp
+	end
+	
+	base described
+		text "A nasty Imp long since evolved from the typical Imp.\n\n 75% Myst Resistance.\n"
+	end
+end
+
+object GladiatorImp of FlyingImpM
+	properties
+		special
+		name "Gladiator Imp"
+		alignment 127
+
+		minLevel 2200
+		maxLevel 2800
+		minDamage 2200
+		maxDamage 4500
+
+		strength 450
+		endurance 35
+		intelligence 175
+		dexterity 20
+
+		soundGroup 7
+		armorType 1
+		damageType 1
+		range 2
+		quickness 8
+		  
+		girth 110
+		height 110
+
+		# affects
+		# do fire damage
+		affect 1 0 0 -1
+
+		# acid damage
+		affect 4 0 0 -1
+
+		# poison damage
+		affect 5 0 0 -1
+
+		# fire immolation
+		affect 23 0 0 -1
+
+		# cold immolation
+		affect 24 0 0 -1
+
+		# lightning immolation
+		affect 27 0 0 -1
+	end
+
+	base container
+		object RandomNewGear
+		object RandomRareGlowDye
+		object RandomRareHelmet
+		object RandomMegaMoney
+		object RandomMonsterMegaTreasure
+	end
+
+	base character
+		skill 0 5
+		skill 1 5
+		skill 2 5
+		skill 3 5
+		skill 4 5
+		skill 5 5
+		skill 6 5
+		skill 7 5
+		skill 8 5
+		skill 10 5
+		properName "Gladiator Imp"
+	end
+
+	actions
+		vBeBorn changeSpellResistance self 75 2	#75% Resist Myst
+		#  350% SDM to all
+        vBeBorn changeSDM self 350 0 2 1 3 4
+	end
+
+	base npc
+		code imp
+	end
+	
+	base described
+		text "A nasty Imp long since evolved from the typical Imp.\n\n 75% Myst Resistance.\n"
+	end
+end
+
+object GodlyImp of FlyingImpN
+	properties
+		special
+		name "Fvolln"
+		alignment 127
+
+		minLevel 3200
+		maxLevel 4000 
+		minDamage 2200
+		maxDamage 4500
+
+		strength 250
+		endurance 35
+		intelligence 175
+		dexterity 20
+
+		soundGroup 7
+		armorType 1
+		damageType 1
+		range 2
+		quickness 8
+		  
+		girth 140
+		height 140
+
+		# affects
+		# do fire damage
+		affect 1 0 0 -1
+
+		# acid damage
+		affect 4 0 0 -1
+
+		# poison damage
+		affect 5 0 0 -1
+
+		# fire immolation
+		affect 23 0 0 -1
+
+		# cold immolation
+		affect 24 0 0 -1
+
+		# lightning immolation
+		affect 27 0 0 -1
+	end
+
+	base container
+		object RandomNewGear
+		object RandomRareGlowDye
+		object RandomRareHelmet
+		object RandomMegaMoney
+		object RandomMonsterMegaTreasure
+	end
+
+	base character
+		skill 0 5
+		skill 1 5
+		skill 2 5
+		skill 3 5
+		skill 4 5
+		skill 5 5
+		skill 6 5
+		skill 7 5
+		skill 8 5
+		skill 10 5
+		## grand master wiz
+		skill 11 5
+		skill 12 5
+		skill 13 5
+		skill 14 5
+		skill 15 5
+		skill 28 5
+		skill 29 5
+		properName "Fvolln"
+	end
+
+	actions
+		vBeBorn changeSpellResistance self 100 2	#100% Resist Myst
+		#  550% SDM to all
+        vBeBorn changeSDM self 550 0 2 1 3 4
+	end
+
+	base npc
+		code imp
+	end
+	
+	base described
+		text "Fvolln\nGod of Imps\nSaid to have fathered all other imps in the world\n\n 100% Myst Resistance.\n"
+	end
+end
+
+####################################################
+
+object RandomFlyingImp of NPC
+	properties
+		special
+		random 100
+	end
+
+	base treasure
+		GladiatorImp
+        DemonicImp
+        CorruptImp
+        ImpReaver
+        LegendaryImp
+        BogImp
+        MireImp
+        CrimsonImp
+        HolyImp
+        EmperorImp
+        ToxicImp
+        CobaltImp
+        ElderSwampImp
+        SwampImp
+        GodlyImp
+	end
+end

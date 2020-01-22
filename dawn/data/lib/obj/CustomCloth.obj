@@ -1,0 +1,23 @@
+object AppRobe of Clothing
+	properties
+	special
+                name "Robe of Strength"
+				baseName "a robe"
+                value 15000
+                color -1
+                armorFlat    10
+                armorPercent 20
+                level 300
+	end
+	
+	actions
+		vBePutOn setAffect dobj 39 0 0 -1
+		vBeTakenOff clearAffect dobj 39 0 0
+	end
+	
+	base described
+				text "You see a Robe."
+                idText "You see a Robe of Strength."
+                shopText "The uses of this robe don't stop at the shower."
+	end
+end

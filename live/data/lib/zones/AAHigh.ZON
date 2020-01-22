@@ -1,0 +1,65 @@
+name "AAHigh"
+title "Ambush Arena: High"
+worldFile "../data/lib/world/AAHigh.wld"
+resetInterval 9000000 
+maximumObjectAge 0 
+allowCombat 3
+midiFile 17
+
+
+ambushInterval 70
+ambush 10 BabyDragon
+ambush 10 BabyDragon BabyDragon
+ambush 10 BabyDragon BabyDragon BabyDragon LostSoldier
+ambush 10 BabyDragon WaspHealer BabyDragon WaspHealer
+ambush 10 Protector
+ambush 10 Protector Protector
+ambush 10 Protector Protector Protector
+ambush 10 Champion
+ambush 10 Champion Champion
+ambush 10 Champion Champion Champion
+ambush 10 EvilMinion
+ambush 10 EvilMinion EvilMinion
+ambush 10 EvilMinion EvilMinion EvilMinion
+ambush 10 Protector Champion
+ambush 10 EvilWizard EvilWizard EvilWizard
+ambush 10 EvilWizard Champion Protector
+ambush 10 Protector Champion EvilMinion
+ambush 10 MistMage Champion Champion Champion
+ambush 10 TulorTheTerrible MistMage EvilWizard
+ambush 10 TulorTheTerrible TulorTheTerrible TulorTheTerrible TulorTheTerrible
+ambush 10 Fuloran
+ambush 10 Fuloran Fuloran Fuloran Fuloran Fuloran Fuloran 
+ambush 10 LostSoldier
+ambush 10 LostGiantMidget
+ambush 10 LostGiantMidget WaspHealer
+ambush 10 LostGiantMidget LostGiantMidget Gremlin
+ambush 10 Gladiator Gladiator
+ambush 10 Gladiator Gladiator WaspHealer
+ambush 10 Gladiator Gladiator LostSoldier
+ambush 10 Gladiator Ratling Protector SpittingCobra Wraith UglyOgre ImpGuard Gargoyle
+ambush 10 EvilMinion EvilMinion EvilMinion EvilMinion EvilMinion EvilMinion LostSoldier
+ambush 10 nDragonWizA
+ambush 10 nDragonWizB nDragonWizA
+ambush 10 nDragonWizA nDragonWizD WaspHealer
+ambush 10 nDragonWizC nDragonWizA nDragonWizB
+ambush 10 Gargoyle DireWolf DireWolf DireWolf
+ambush 10 DireWolf
+ambush 10 DireWolf Ratling
+ambush 10 Direwolf DireWolf DireWolf
+ambush 10 SoldierG
+ambush 10 SoldierN SoldierE SoldierG SoldierE SoldierN LostSoldierG
+ambush 10 BerserkerLow BerserkerLow BerserkerLow BerserkerLow BerserkerLow
+ambush 10 Azazel 
+ambush 10 Azazel Azazel
+ambush 10 SavageOgre
+ambush 10 SavageOgreWizard
+ambush 10 AncientWizard
+ambush 10 AncientPriestess
+ambush 10 AncientPaladin AncientSeraph
+ambush 10 AncientSeraph AncientSeraph
+ambush 10 AncientPaladin AncientPriestess
+
+
+
+

@@ -1,0 +1,1141 @@
+room 5700
+   properties
+      picture	3071
+      north	5704 
+      east	5701 
+   end
+   atpinfo
+      1850  23 318
+      7902  412 319
+      7906  133 266
+      34539  334 323
+      1770  154 321
+      1780  171 354
+      1831  135 262
+      7902  179 316
+      7906  182 225
+      1830  202 171
+      1750  152 220
+      7906  82 303
+      1751  19 281
+      34519  47 250
+      1850  32 306
+      34640  671 265
+      1782  477 324
+      1781  120 324
+      34640  430 271
+      1872  168 270
+      1783  388 324
+      7902  618 317
+   end
+   objects
+      object torch5700-0 of Torch
+         properties
+            x	137
+            y	264
+            loop	0
+         end
+         base described
+            text	"You see a flaming torch."
+         end
+      end
+      object stoneBench5700-1 of StoneBench
+         properties
+            x	519
+            y	165
+            loop	2
+         end
+      end
+      object chair5700-2 of Chair
+         properties
+            x	448
+            y	163
+            loop	0
+         end
+      end
+      object chair5700-3 of Chair
+         properties
+            x	583
+            y	170
+            loop	1
+         end
+      end
+   end
+end
+room 5701
+   properties
+      picture	3071
+      north	5705 
+      east	5702 
+      west	5700 
+   end
+   atpinfo
+      1752  73 225
+      1872  247 280
+      1874  58 274
+      1751  577 226
+      7906  18 233
+      7907  178 222
+      7906  608 231
+      7906  547 231
+      7907  163 191
+   end
+   objects
+      object torch5701-1 of Torch
+         properties
+            x	54
+            y	231
+            loop	0
+         end
+         base described
+            text	"You see a flaming torch."
+         end
+      end
+      object sign5701-2 of Sign
+         properties
+            x	171
+            y	226
+            loop	0
+         end
+         base described
+            text	"Welcome to Sigurd's Retreat."
+         end
+      end
+      object dungeonBackUp5701-0 of DungeonBackUp
+         properties
+            x	113
+            y	226
+            loop	0
+            linkTo	movingRock29095-1
+         end
+      end
+   end
+end
+room 5702
+   properties
+      picture	3071
+      north	5706 
+      west	5701 
+   end
+   atpinfo
+      1752  84 222
+      34639  310 290 -161
+      1875  428 299
+      34640  249 280
+      34641  -8 283
+      34540  535 325
+      34540  441 306
+      1771  294 106
+      1771  456 325
+      1830  471 214
+      1783  405 290
+      1752  532 279
+      7905  279 318
+      7904  388 280
+      7902  127 324
+      1874  420 276
+      1781  507 301
+      34643  570 297
+      7907  475 424 234
+      34640  623 275
+      7902  106 228
+      7907  180 429 234
+      13  558 297 486
+      13  65 310 486
+      13  -39 305 486
+      13  463 310 486
+   end
+   objects
+      object torch5702-0 of Torch
+         properties
+            x	86
+            y	223
+            loop	0
+         end
+         base described
+            text	"You see a flaming torch."
+         end
+      end
+      object spring5702-1 of Spring
+         properties
+            x	498
+            y	280
+            loop	0
+         end
+      end
+      object spring5702-2 of Spring
+         properties
+            x	515
+            y	281
+            loop	1
+         end
+      end
+      object spring5702-3 of Spring
+         properties
+            x	601
+            y	280
+            loop	0
+         end
+      end
+      object spring5702-4 of Spring
+         properties
+            x	614
+            y	288
+            loop	1
+         end
+      end
+      object spring5702-5 of Spring
+         properties
+            x	380
+            y	298
+            loop	1
+         end
+      end
+      object spring5702-6 of Spring
+         properties
+            x	472
+            y	295
+            loop	1
+         end
+      end
+      object spring5702-7 of Spring
+         properties
+            x	612
+            y	296
+            loop	0
+         end
+      end
+      object spring5702-8 of Spring
+         properties
+            x	457
+            y	291
+            loop	0
+         end
+      end
+      object spring5702-9 of Spring
+         properties
+            x	537
+            y	295
+            loop	1
+         end
+      end
+      object spring5702-10 of Spring
+         properties
+            x	290
+            y	315
+            loop	0
+         end
+      end
+      object spring5702-11 of Spring
+         properties
+            x	215
+            y	331
+            loop	1
+         end
+      end
+      object spring5702-12 of Spring
+         properties
+            x	337
+            y	314
+            loop	1
+         end
+      end
+      object spring5702-13 of Spring
+         properties
+            x	337
+            y	306
+            loop	0
+         end
+      end
+      object spring5702-14 of Spring
+         properties
+            x	251
+            y	343
+            loop	1
+         end
+      end
+      object stool5702-15 of Stool
+         properties
+            x	381
+            y	211
+            loop	2
+         end
+      end
+      object stool5702-16 of Stool
+         properties
+            x	329
+            y	248
+            loop	2
+         end
+      end
+   end
+end
+room 5703
+   properties
+      picture	3071
+      north	5708 
+      east	5704 
+   end
+   atpinfo
+      1750  116 284
+      1850  0 326
+      34539  506 491 162
+      1750  642 320
+      1780  65 311
+      1770  649 336
+      1772  72 314
+      1750  24 284
+      7900  329 228
+      7906  459 222
+      7901  44 338 21
+      7907  145 287
+      7907  606 319
+      1875  40 330
+   end
+   objects
+      object torch5703-0 of Torch
+         properties
+            x	162
+            y	213
+            loop	0
+         end
+         base described
+            text	"You see a flaming torch."
+         end
+      end
+      object sittingRock5703-1 of SittingRock
+         properties
+            x	504
+            y	174
+            loop	1
+         end
+      end
+      object sittingRock5703-2 of SittingRock
+         properties
+            x	553
+            y	210
+            loop	1
+         end
+      end
+      object fireC5703-3 of FireC
+         properties
+            x	393
+            y	159
+            loop	0
+         end
+      end
+      object fire15703-4 of FireA
+         properties
+            x	380
+            y	161
+            loop	0
+         end
+      end
+      object fire15703-5 of FireA
+         properties
+            x	398
+            y	157
+            loop	0
+         end
+      end
+      object fire15703-6 of FireA
+         properties
+            x	408
+            y	162
+            loop	0
+         end
+      end
+      object smokeA5703-8 of SmokeA
+         properties
+            x	392
+            y	140
+            loop	0
+         end
+      end
+      object dungeonBackUp5703-9 of DungeonBackUp
+         properties
+            x	127
+            y	287
+            loop	0
+            linkTo	movingRock29083-0
+         end
+         base described
+            text	"Welcome to Sigurd's Retreat."
+         end
+      end
+   end
+end
+room 5704
+   properties
+      picture	3071
+      north	5709 
+      south	5700 
+      west	5703 
+   end
+   atpinfo
+      1752  89 222
+      1830  196 232
+      1831  348 231
+      1751  446 224
+      1750  542 235
+      34518  584 260
+      1751  665 293
+      34540  617 310
+      1772  558 296
+      1780  613 330
+      7907  13 327
+      7909  486 244
+      7900  106 231
+      7900  426 279 47
+      7906  592 319
+      40672  556 308
+      7909  198 239
+      7909  348 240
+      1850  -13 324
+   end
+   objects
+      object torch5704-0 of Torch
+         properties
+            x	449
+            y	228
+            loop	0
+         end
+         base described
+            text	"You see a flaming torch."
+         end
+      end
+      object torch5704-1 of Torch
+         properties
+            x	102
+            y	224
+            loop	0
+         end
+         base described
+            text	"You see a flaming torch."
+         end
+      end
+      object sittingMushroom5704-2 of SittingMushroom
+         properties
+            x	433
+            y	226
+            loop	2
+         end
+      end
+   end
+end
+room 5705
+   properties
+      picture	3071
+      north	5710 
+      south	5701 
+   end
+   atpinfo
+      1780  594 339
+      7900  75 227
+      1751  165 121
+      7902  -58 329
+      1770  155 321
+      1771  232 315
+      1752  55 226 2
+      7901  629 320
+      1850  -9 327
+      7902  154 119
+      1750  608 219
+      7904  64 310
+      1750  594 120
+      7901  599 225
+      34638  129 209
+      1753  -104 174 -247
+      34638  128 184 -51
+      7907  591 332
+      1850  616 327
+      1782  31 253
+      1783  77 228
+      1750  152 155
+   end
+   objects
+      object torch5705-0 of Torch
+         properties
+            x	103
+            y	241
+            loop	0
+         end
+         base described
+            text	"You see a flaming torch."
+         end
+      end
+      object Delwyn5705-1 of Shop
+         properties
+            x   178
+            y   269
+            loop        2
+            name "Delwyn"
+         end
+         base described
+            text "You see Delwyn, purveyor of rare hair dyes."
+         end
+         base character
+            sex 0
+            properName  "Delwyn (NPC)"
+            title "the Shopkeeper"
+         end
+         base container
+            worn        Wristband
+            worn        BlackPants
+            worn        BrownLeatherBoots
+            head        0 5 0 4 4 4 0 2 21 2 4 0 3
+         end
+         base shop
+            buyMarkup 25
+            sellMarkup 200000
+            inventory
+               object hdAqua
+               object hdLightAqua
+#               object hdOlive
+#               object hdLightOlive
+               object hdGreen
+               object hdLightGreen
+               object hdLightPurple
+               object hdMagenta
+               object hdLightMagenta
+               object hdPurple
+               object hdLightBlue
+               object hdBlue
+            end
+         end
+      end
+   end
+end
+room 5706
+   properties
+      picture	3071
+      north	5711 
+      east	5707 
+      south	5702 
+   end
+   atpinfo
+      34618  34 316
+      34520  167 223
+      34519  490 221
+      34518  60 270
+      1752  632 256
+      7900  5 374 100
+      7900  178 225
+      7901  540 165 3
+      7900  502 221
+      1770  181 323
+      7900  -40 446 100
+      7900  605 359 100
+      1772  124 286
+   end
+   objects
+      object torch5706-0 of Torch
+         properties
+            x	194
+            y	229
+            loop	0
+         end
+         base described
+            text	"You see a flaming torch."
+         end
+      end
+      object torch5706-1 of Torch
+         properties
+            x	495
+            y	226
+            loop	0
+         end
+         base described
+            text	"You see a flaming torch."
+         end
+      end
+      object altar5706-2 of Altar
+         properties
+            x	220
+            y	264
+            loop	0
+         end
+      end
+   end
+end
+room 5707
+   properties
+      picture	3071
+      north	5712 
+      west	5706 
+   end
+   atpinfo
+      1752  31 228
+      1780  571 354
+      1781  408 340
+      1782  515 334
+      1783  603 345
+      1770  603 320
+      1752  578 242
+      7906  615 251
+      7907  122 227
+      7906  28 233
+      7906  89 233
+      7907  122 197
+      7907  489 240
+      7907  489 210
+   end
+   objects
+      object torch5707-0 of Torch
+         properties
+            x	38
+            y	237
+            loop	0
+         end
+         base described
+            text	"You see a flaming torch."
+         end
+      end
+      object dungeonBackDown5707-1 of DungeonBackDown
+         properties
+            x	524
+            y	246
+            loop	1
+         end
+      end
+      object sign5707-2 of Sign
+         properties
+            x	452
+            y	253
+            loop	0
+         end
+         base described
+            text	"Under Construction."
+         end
+      end
+   end
+end
+room 5708
+   properties
+      picture	3071
+      east	5709 
+      south	5703 
+      roomName	"Mag's Hangout"
+   end
+   atpinfo
+      1750  607 235
+      1751  304 216
+      1850  -31 319
+      34518  206 227
+      1752  466 215
+      34520  78 216
+      1752  -59 292
+      34520  -2 248
+      1770  98 318
+      7901  594 242
+      7904  65 328
+      7906  478 222
+      7906  185 235
+      7901  354 246
+      7906  252 251
+      7906  7 318
+      7906  37 290
+      7906  70 259
+      7906  274 235
+   end
+   objects
+      object stand5708-0 of Stand
+         properties
+            x	369
+            y	279
+            loop	0
+         end
+      end
+      object torch5708-1 of Torch
+         properties
+            x	603
+            y	241
+            loop	0
+         end
+         base described
+            text	"You see a flaming torch."
+         end
+      end
+      object stool5708-2 of Stool
+         properties
+            x	138
+            y	289
+            loop	0
+         end
+      end
+      object stool5708-3 of Stool
+         properties
+            x	598
+            y	278
+            loop	1
+         end
+      end
+      object stool5708-4 of Stool
+         properties
+            x	202
+            y	257
+            loop	2
+         end
+      end
+      object Maggie5708-5 of Bartender
+         properties
+            x	418
+            y	269
+            loop	2
+         end
+         base character
+            sex	1
+            properName	"Maggie (NPC)"
+         end
+         base container
+            worn	PurpleCowl
+            worn	GrayShirt
+            worn	PurpleLongSkirt
+            worn	BrownLowBoots
+            head	1 5 2 4 4 4 0 2 6 2 4 0 
+         end
+      end
+   end
+end
+room 5709
+   properties
+      picture	3071
+      north	5713 
+      east	5710 
+      south	5704 
+      west	5708 
+   end
+   atpinfo
+      34520  204 226
+      1751  42 244
+      1770  613 327
+      1751  509 226
+      34518  608 233
+      34618  -13 326
+      7900  522 238
+      7900  223 232
+      7906  100 250
+      7906  28 250
+      7906  3 594
+   end
+   objects
+      object torch5709-0 of Torch
+         properties
+            x	219
+            y	227
+            loop	0
+         end
+         base described
+            text	"You see a flaming torch."
+         end
+      end
+      object torch5709-1 of Torch
+         properties
+            x	517
+            y	231
+            loop	0
+         end
+         base described
+            text	"You see a flaming torch."
+         end
+      end
+      object shroom15709-2 of Shroom1
+         properties
+            x	168
+            y	232
+            loop	0
+         end
+      end
+      object shroom35709-3 of Shroom3
+         properties
+            x	207
+            y	232
+            loop	0
+         end
+      end
+      object shroom35709-4 of Shroom3
+         properties
+            x	135
+            y	244
+            loop	0
+         end
+      end
+   end
+end
+room 5710
+   properties
+      picture	3071
+      north	5714 
+      east	5711 
+      south	5705 
+      west	5709 
+   end
+   atpinfo
+      1752  50 283
+      1752  541 249
+      7909  30 335
+      7909  611 266
+      1783  183 275
+      1783  15 322
+      34551  168 244
+      1781  175 289
+      34549  645 258
+      7900  513 255
+      7900  50 294
+      7909  221 291
+      7909  208 267
+   end
+   objects
+      object fountainA5710-0 of FountainA
+         properties
+            x	295
+            y	159
+            loop	0
+         end
+         base described
+            text	"You see a fountain."
+         end
+      end
+      object torch5710-1 of Torch
+         properties
+            x	555
+            y	250
+            loop	0
+         end
+         base described
+            text	"You see a flaming torch."
+         end
+      end
+   end
+end
+room 5711
+   properties
+      picture	3071
+      north	5715 
+      east	5712 
+      south	5706 
+      west	5710 
+   end
+   atpinfo
+      34520  204 226
+      1751  42 244 1
+      1770  399 310
+      1751  509 226
+      34618  -18 319
+      34518  546 236
+      34618  615 323
+      7907  586 324
+      7906  183 233
+      7901  553 339 96
+      7901  65 333 83
+      7907  13 327
+      7906  290 230
+      7906  453 251 21
+   end
+   objects
+      object torch5711-0 of Torch
+         properties
+            x	224
+            y	228
+            loop	0
+         end
+         base described
+            text	"You see a flaming torch."
+         end
+      end
+   end
+end
+room 5712
+   properties
+      picture	3071
+      south	5707 
+      west	5711 
+      roomName	"Clothing Galore!"
+   end
+   atpinfo
+      1750  579 231
+      1772  561 315
+      34519  475 244
+      1771  498 318
+      1752  320 223
+      1752  84 231
+      34519  578 278
+      34518  207 232
+      1850  654 323 6
+      7906  328 230
+      7900  157 237
+      7906  632 320
+      7906  -17 241
+      7906  406 248
+      7909  546 327
+      7901  544 286
+   end
+   objects
+      object stand5712-0 of Stand
+         properties
+            x	294
+            y	276
+            loop	0
+         end
+      end
+      object torch5712-1 of Torch
+         properties
+            x	91
+            y	232
+            loop	0
+         end
+         base described
+            text	"You see a flaming torch."
+         end
+      end
+      object clothesShop5712-2 of ClothesShop
+         properties
+            x	297
+            y	254
+            loop	2
+         end
+         base character
+            sex	1
+            properName	"Bianca (NPC)"
+            title	""
+         end
+         base container
+            worn	GoldBelt
+            worn	BlueChainTunic
+            worn	BluePants
+            worn	GoldBoots
+            head	1 5 3 1 4 0 0 1 8 3 2 1 3 
+         end
+      end
+   end
+end
+room 5713
+   properties
+      picture	3071
+      south	5709 
+      roomName	"Teagan's Edibles"
+   end
+   atpinfo
+      1750  607 235
+      1751  320 239
+      1850  -31 319
+      34518  206 227
+      1752  466 215
+      34598  109 199
+      1752  -59 292
+      34520  -2 248
+      1770  98 329
+      1831  608 250
+      1830  138 216
+      34599  626 277
+      1771  529 326
+      1850  658 333
+      7906  182 254 19
+      7906  638 317
+      7906  -7 320
+      7906  93 325 71
+      7901  294 245
+      7901  497 271 48
+      7907  48 294
+      7907  580 328 89
+      7908  409 240
+      7909  598 260
+   end
+   objects
+      object stand5713-0 of Stand
+         properties
+            x	461
+            y	287
+            loop	0
+         end
+      end
+      object torch5713-1 of Torch
+         properties
+            x	299
+            y	241
+            loop	0
+         end
+         base described
+            text	"You see a flaming torch."
+         end
+      end
+      object chair5713-2 of Chair
+         properties
+            x	145
+            y	282
+            loop	0
+         end
+      end
+      object chair5713-3 of Chair
+         properties
+            x	215
+            y	255
+            loop	0
+         end
+      end
+      object Teagan5713-4 of FoodShop
+         properties
+            x	501
+            y	273
+            loop	2
+         end
+         base character
+            sex	0
+            properName	"Teagan (NPC)"
+         end
+         base container
+            worn	GoldBelt
+            worn	BlueChainTunic
+            worn	BluePants
+            worn	GoldBoots
+            head	0 5 0 4 6 7 15 2 1 3 1 3 
+         end
+      end
+   end
+end
+room 5714
+   properties
+      picture	3071
+      south	5710 
+   end
+   atpinfo
+      1750  579 231
+      1772  561 315
+      34519  475 244
+      1771  498 318
+      1752  320 223
+      1752  72 248
+      1751  578 278
+      34518  211 232
+      1850  654 323 6
+      1751  -11 280
+      1850  -18 331 6
+      7907  55 292 8
+      7906  6 319
+      7906  635 321
+      7906  518 285
+      7906  409 249
+      7906  322 230
+      7906  244 256 18
+      7901  142 292 36
+   end
+   objects
+      object dungeonBackArch5714-0 of DungeonBackArch
+         properties
+            x	323
+            y	227
+            loop	0
+            linkTo	dungeonBackUp5716-0
+         end
+      end
+      object sign5714-1 of Sign
+         properties
+            x	225
+            y	240
+            loop	0
+         end
+         base described
+            text	"Beware of PvP."
+         end
+      end
+      object torch5714-2 of Torch
+         properties
+            x	398
+            y	248
+            loop	0
+         end
+         base described
+            text	"You see a flaming torch."
+         end
+      end
+   end
+end
+room 5715
+   properties
+      picture	3071
+      south	5711 
+      roomName	"The Basics"
+   end
+   atpinfo
+      1750  579 231
+      1772  560 327
+      1751  475 244
+      1771  496 328
+      34520  320 223
+      1752  84 231
+      34519  578 278
+      34518  211 232
+      1850  654 323 6
+      34539  48 316
+      34520  -19 245
+      34519  -20 291
+      1850  -4 334 6
+      7904  64 314
+      7906  20 319
+      7906  627 320
+      7906  512 286
+      7906  414 249
+      7906  325 228
+      7906  241 239
+      7906  131 330 95
+      7907  554 327
+   end
+   objects
+      object stand5715-0 of Stand
+         properties
+            x	199
+            y	272
+            loop	0
+         end
+      end
+      object torch5715-1 of Torch
+         properties
+            x	374
+            y	230
+            loop	0
+         end
+         base described
+            text	"You see a flaming torch."
+         end
+      end
+      object chair5715-2 of Chair
+         properties
+            x	392
+            y	253
+            loop	2
+         end
+      end
+      object stool5715-3 of Stool
+         properties
+            x	347
+            y	294
+            loop	0
+         end
+      end
+      object stool5715-4 of Stool
+         properties
+            x	471
+            y	290
+            loop	1
+         end
+      end
+      object Declan5715-5 of GeneralShop
+         properties
+            x	147
+            y	283
+            loop	2
+         end
+         base character
+            sex	0
+            properName	"Declan (NPC)"
+         end
+         base container
+            worn	BlueTunic
+            worn	GoldPants
+            worn	GrayBelt
+            worn	BlueBoots
+            head	0 4 0 1 1 0 0 8 3 1 0 2 3 
+         end
+      end
+   end
+end

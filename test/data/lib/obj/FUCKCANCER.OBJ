@@ -1,0 +1,36 @@
+object fuckcancer of ThrowingDagger 
+	properties
+		special
+		name "Fuck Cancer"
+		value 100000
+		health 1000
+		level 1
+		strength 5
+		color 176
+		# do posion damage
+		caffect 0
+		affect 5 0 0 -1
+		# do half life-steal damage
+		affect 10 0 0 -1
+	end
+	actions
+		# Extra Attack
+		vBePutOn setAffect dobj 56 0 0 -1
+		vBeTakenOff clearAffect dobj 56 0 0
+		# damage vs evil 50
+		vBePutOn changeEvilMDMMod dobj 50
+		vBeTakenOff changeEvilMDMMod dobj -50
+	end
+	base carryable
+		weight 2.3
+	end
+	base weapon
+		minDamage 1200
+		maxDamage 5000
+	end	
+	base described
+		text "This dagger shines with a holy aura.  It has been wiped clean of all salt." 
+		idText "This happy dagger reminds you of your childhood.  It is inherently venomous.  It also gives lifesteal, an extra attack and increased damage to evil enemies. Level Required: 1001\n\n"
+		shopText "This holy dagger reminds you that we can all be friends.\n"
+	end
+end

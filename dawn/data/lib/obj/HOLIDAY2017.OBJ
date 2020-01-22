@@ -1,0 +1,945 @@
+#--- Holds the views for holidays in the year 2017
+
+object XmasAngel of HolidayItem
+	properties
+		name "Christmas Angel"
+		view 50405
+		value  500000
+	end
+	base carryable
+		restrict homeowner
+		bulk 15.0
+		weight 15.0
+	end
+	base described
+		text "You see a Christmas Angel."
+		shopText "A Christmas Angel."
+	end
+end
+#-------------------------------------
+object XmasDog of HolidayItem
+	properties
+		name "Christmas Doggie"
+		view  50406
+		value  500000
+	end
+	base carryable
+		restrict homeowner
+		bulk 15.0
+		weight 15.0
+	end
+	base described
+		text "You see a Stuffed Dog."
+		shopText "A Stuffed Dog."
+	end
+end
+#-------------------------------------
+object XmasDog2 of HolidayItem
+	properties
+		name "Naughty Doggie"
+		view  50407
+		value  500000
+	end
+	base carryable
+		restrict homeowner
+		bulk 15.0
+		weight 15.0
+	end
+	base described
+		text "You see a Naughty Boy!"
+		shopText "A Naughty Boy!"
+	end
+end
+#--------------------------------------
+object XmasDog3 of HolidayItem
+	properties
+		name "Christmas Puppy"
+		view 50408
+		value  500000
+	end
+	base carryable
+		restrict homeowner
+		bulk 15.0
+		weight 15.0
+	end
+	base described
+		text "You see a Stuffed Puppy."
+		shopText "A Stuffed Puppy."
+	end
+end
+#--------------------------------------
+object XmasElf of HolidayItem
+	properties
+		name "Santa's Helper"
+		view  50413
+		value  500000
+	end
+	base carryable
+		restrict homeowner
+		bulk 15.0
+		weight 15.0
+	end
+	base described
+		text "You see Santa's Little Helper!"
+		shopText "Santa's Little Helper!"
+	end
+end
+#--------------------------------------
+object XmasDog4 of HolidayItem
+	properties
+		name "Christmas Wreath Puppy"
+		view  50414
+		value  500000
+	end
+	base carryable
+		restrict homeowner
+		bulk 15.0
+		weight 15.0
+	end
+	base described
+		text "You see a Stuffed Puppy."
+		shopText "A Stuffed Puppy."
+	end
+end
+#--------------------------------------
+object XmasGrinch of HolidayItem
+	properties
+		name "The Grinch"
+		view  50415
+		value  500000
+	end
+	base carryable
+		restrict homeowner
+		bulk 15.0
+		weight 15.0
+	end
+	base described
+		text "You see the Grich who stole Christmas!"
+		shopText "The Grich who stole Christmas!"
+	end
+end
+#--------------------------------------
+object XmasIgloo of HolidayItem
+	properties
+		name "Penguin Party"
+		view  50416
+		value  500000
+	end
+	base carryable
+		restrict homeowner
+		bulk 15.0
+		weight 15.0
+	end
+	base described
+		text "You see a Penguin Party in progress!"
+		shopText "A Penguin Party!"
+	end
+end
+#--------------------------------------
+object XmasMerrySign of HolidayItem
+	properties
+		name "Merry Christmas Candy Cane"
+		view  50421
+		value  500000
+	end
+	base carryable
+		restrict homeowner
+		bulk 15.0
+		weight 15.0
+	end
+	base described
+		text "Merry Christmas, and a Happy New Year!"
+		shopText "A 'Merry Christmas' Sign on a Candy Cane."
+	end
+end
+#--------------------------------------
+object XmasClausFam of HolidayItem
+	properties
+		name "Cringle Family"
+		view  50422
+		value  500000
+	end
+	base carryable
+		restrict homeowner
+		bulk 15.0
+		weight 15.0
+	end
+	base described
+		text "You see Mrs. Claus, Mr. Claus, and Santa's Helper!"
+		shopText "Mrs. Claus, Mr. Claus, and Santa's Helper!"
+	end
+end
+#--------------------------------------
+object XmasBear of HolidayItem
+	properties
+		name "Waving Polar Bear"
+		view  50423
+		value 500000
+	end
+	base carryable
+		restrict homeowner
+		bulk 15.0
+		weight 15.0
+	end
+	base described
+		text "You see a waving Polar Bear."
+		shopText "A Waving Polar Bear."
+	end
+end
+#--------------------------------------
+object XmasSanta of HolidayItem
+	properties
+		name "Santa Claus"
+		view  50424
+		value  500000
+	end
+	base carryable
+		restrict homeowner
+		bulk 15.0
+		weight 15.0
+	end
+	base described
+		text "You see Father Christmas!"
+		shopText "Father Christmas."
+	end
+end
+#--------------------------------------
+object XmasSantaSleigh1 of HolidayItem
+	properties
+		name "Santa's Sleigh"
+		view  50429
+		value  500000
+	end
+	base carryable
+		restrict homeowner
+		bulk 15.0
+		weight 15.0
+	end
+	base described
+		text "You see Santa, and his Reindeer!"
+		shopText "Santa, and his Reindeer."
+	end
+end
+#--------------------------------------
+object XmasSantaSleigh2 of HolidayItem
+	properties
+		name "Santa's Sleigh"
+		view  50430
+		value  500000
+	end
+	base carryable
+		restrict homeowner
+		bulk 15.0
+		weight 15.0
+	end
+	base described
+		text "You see Santa, and his Helpers!"
+		shopText "Santa, and his Helpers."
+	end
+end
+#--------------------------------------
+object XmasSantaClock of HolidayItem
+	properties
+		name "Merry Christmas Clock"
+		view  50431
+		value  500000
+	end
+	base carryable
+		restrict homeowner
+		bulk 15.0
+		weight 15.0
+	end
+	base described
+		text "You see a Merry Christmas Cuckoo Clock!"
+		shopText "Merry Christmas Cuckoo Clock."
+	end
+end
+#--------------------------------------
+object XmasSantaArch of HolidayItem
+	properties
+		name "Merry Christmas Archway"
+		view  50432
+		value  500000
+	end
+	base carryable
+		restrict homeowner
+		bulk 15.0
+		weight 15.0
+	end
+	base described
+		text "You see a Merry Christmas Walkway!"
+		shopText "Merry Christmas Walkway."
+	end
+end
+#--------------------------------------
+object XmasSnowGlobe of HolidayItem
+	properties
+		name "2017 XMas Snow Globe"
+		view  50437
+		value  500000
+	end
+	base carryable
+		restrict homeowner
+		bulk 15.0
+		weight 15.0
+	end
+	base described
+		text "Merry Christmas from all of us here at Sacred Temple: Reborn!\n\nThank you so much for playing!"
+		shopText "A 2017 ST Reborn Snow Globe"
+	end
+end
+#--------------------------------------
+object XmasTeddy of HolidayItem
+	properties
+		name "Santa's Teddy Bear"
+		view   50438
+		value  500000
+	end
+	base carryable
+		restrict homeowner
+		bulk 15.0
+		weight 15.0
+	end
+	base described
+		text "You see Santa's Teddy Bear!"
+		shopText "Santa's Teddy Bear."
+	end
+end
+#--------------------------------------
+object XmasGrandTree of HolidayItem
+	properties
+		name "Grand Christmas Tree"
+		view  50439
+		value   500000
+	end
+	base carryable
+		weight 1000.0
+	end
+	base cycler
+	end
+	base described
+		text "You see a Grand Christmas Tree commemorating this year on Sacred Temple!\n\nThank you to every single person who has logged on and played, it means the world to the team!\n"
+		shopText "NOT SOLD."
+	end
+end
+#--------------------------------------
+object Menorah of HolidayItem
+	properties
+		name "Hanukkah Menorah"
+		view  50440
+		value   500000
+	end
+	base carryable
+		restrict homeowner
+		bulk 15.0
+		weight 15.0
+	end
+	base described
+		text "You see a Hanukkah Menorah!"
+		shopText "Hanukkah Menorah."
+	end
+end
+#--------------------------------------
+object XmasDog5 of HolidayItem
+	properties
+		name "Christmas Dog House"
+		view  50445
+		value   500000
+	end
+	base carryable
+		restrict homeowner
+		bulk 15.0
+		weight 15.0
+	end
+	base described
+		text "You see a dog in a festive dog house!
+		shopText "Christmas Dog House."
+	end
+end
+#--------------------------------------
+object XmasGrinchAndMax of HolidayItem
+	properties
+		name "The Grinch and Max"
+		view  50447
+		value   500000
+	end
+	base carryable
+		restrict homeowner
+		bulk 15.0
+		weight 15.0
+	end
+	base described
+		text "You see The Grinch with his dog Max!"
+		shopText "Grinch playing with max."
+	end
+end
+#--------------------------------------
+object XmasSignNorthPolePenguin of HolidayItem
+	properties
+		name "North Pole Sign"
+		view  50448
+		value   500000
+	end
+	base carryable
+		restrict homeowner
+		bulk 15.0
+		weight 15.0
+	end
+	base described
+		text "You see a North Pole sign with a penguin on top!"
+		shopText "Penguin North Pole Sign."
+	end
+end
+#--------------------------------------
+object XmasLampNorthPole of HolidayItem
+	properties
+		name "North Pole Sign"
+		view  50463
+		value   500000
+	end
+	base carryable
+		restrict homeowner
+		bulk 15.0
+		weight 15.0
+	end
+	base described
+		text "You see a North Pole Lamp!"
+		shopText "North Pole Lamp."
+	end
+end
+#--------------------------------------
+object XmasHolidayEntrance of HolidayItem
+	properties
+		name "Happy Holidays Entrance"
+		view  50456
+		value   500000
+	end
+	base carryable
+		restrict homeowner
+		bulk 15.0
+		weight 15.0
+	end
+	base described
+		text "You see a holiday entry way!"
+		shopText "Holiday Entry Way."
+	end
+end
+#--------------------------------------
+object XmasPolarBearGift of HolidayItem
+	properties
+		name "Polar Bear Gift"
+		view  50455
+		value   500000
+	end
+	base carryable
+		restrict homeowner
+		bulk 15.0
+		weight 15.0
+	end
+	base described
+		text "You see a Polar Bear holding a gift for you!"
+		shopText "Polar Bear Gift."
+	end
+end
+#--------------------------------------
+object XmasSnowmanFamily of HolidayItem
+	properties
+		name "Holiday Snowman Family"
+		view  50457
+		value   500000
+	end
+	base carryable
+		restrict homeowner
+		bulk 15.0
+		weight 15.0
+	end
+	base described
+		text "You see a friendly snowman family!"
+		shopText "Holiday Snowman Family."
+	end
+end
+#--------------------------------------
+object XmasChipmunk of HolidayItem
+	properties
+		name "Christmas Chipmunk"
+		view  50458
+		value   500000
+	end
+	base carryable
+		restrict homeowner
+		bulk 15.0
+		weight 15.0
+	end
+	base described
+		text "You see a happy Christmas Chipmunk!"
+		shopText "A Christmas Chipmunk."
+	end
+end
+#--------------------------------------
+object XmasSignSantaStop of HolidayItem
+	properties
+		name "Christmas Gift Sign"
+		view  50464
+		value   500000
+	end
+	base carryable
+		restrict homeowner
+		bulk 15.0
+		weight 15.0
+	end
+	base described
+		text "You see a sign that says 'Santa Please STOP Here'!"
+		shopText "Christmas Gift Sign."
+	end
+end
+#--------------------------------------
+
+#------------------------------------- HEAVY VERSIONS ---------------------------------------------------
+object HeavyXmasAngel of XmasAngel
+	base carryable
+		weight 1000.0
+	end
+end
+#-------------------------------------
+object HeavyXmasDog of XmasDog
+	base carryable
+		weight 1000.0
+	end
+end
+#-------------------------------------
+object HeavyXmasDog2 of XmasDog2
+	base carryable
+		weight 1000.0
+	end
+end
+#--------------------------------------
+object HeavyXmasDog3 of XmasDog3
+	base carryable
+		weight 1000.0
+	end
+end
+#--------------------------------------
+object HeavyXmasElf of XmasElf
+	base carryable
+		weight 1000.0
+	end
+end
+#--------------------------------------
+object HeavyXmasDog4 of XmasDog4
+	base carryable
+		weight 1000.0
+	end
+end
+#--------------------------------------
+object HeavyXmasGrinch of XmasGrinch
+	base carryable
+		weight 1000.0
+	end
+end
+#--------------------------------------
+object HeavyXmasIgloo of XmasIgloo
+	base carryable
+		weight 1000.0
+	end
+end
+#--------------------------------------
+object HeavyXmasMerrySign of XmasMerrySign
+	base carryable
+		weight 1000.0
+	end
+end
+#--------------------------------------
+object HeavyXmasClausFam of XmasClausFam
+	base carryable
+		weight 1000.0
+	end
+end
+#--------------------------------------
+object HeavyXmasBear of XmasBear
+	base carryable
+		weight 1000.0
+	end
+end
+#--------------------------------------
+object HeavyXmasSanta of XmasSanta
+	base carryable
+		weight 1000.0
+	end
+end
+#--------------------------------------
+object HeavyXmasSantaSleigh1 of XmasSantaSleigh1
+	base carryable
+		weight 1000.0
+	end
+end
+#--------------------------------------
+object HeavyXmasSantaSleigh2 of XmasSantaSleigh2
+	base carryable
+		weight 1000.0
+	end
+end
+#--------------------------------------
+object HeavyXmasSantaClock of XmasSantaClock
+	base carryable
+		weight 1000.0
+	end
+end
+#--------------------------------------
+object HeavyXmasSantaArch of XmasSantaArch
+	base carryable
+		weight 1000.0
+	end
+end
+#--------------------------------------
+object HeavyXmasSnowGlobe of XmasSnowGlobe
+	base carryable
+		weight 1000.0
+	end
+end
+#--------------------------------------
+object HeavyXmasTeddy of XmasTeddy
+	base carryable
+		weight 1000.0
+	end
+end
+#--------------------------------------
+object HeavyMenorah of Menorah
+	base carryable
+		weight 1000.0
+	end
+end
+#--------------------------------------
+object HeavyXmasDog5 of XmasDog5
+	base carryable
+		weight 1000.0
+	end
+end
+#--------------------------------------
+object HeavyXmasGrinchAndMax of XmasGrinchAndMax
+	base carryable
+		weight 1000.0
+	end
+end
+#--------------------------------------
+object HeavyXmasSignNorthPolePenguin of XmasSignNorthPolePenguin
+	base carryable
+		weight 1000.0
+	end
+end
+#--------------------------------------
+object HeavyXmasLampNorthPole of XmasLampNorthPole
+	base carryable
+		weight 1000.0
+	end
+end
+#--------------------------------------
+object HeavyXmasHolidayEntrance of XmasHolidayEntrance
+	base carryable
+		weight 1000.0
+	end
+end
+#--------------------------------------
+object HeavyXmasPolarBearGift of XmasPolarBearGift
+	base carryable
+		weight 1000.0
+	end
+end
+#--------------------------------------
+object HeavyXmasSnowmanFamily of XmasSnowmanFamily
+	base carryable
+		weight 1000.0
+	end
+end
+#--------------------------------------
+object HeavyXmasChipmunk of XmasChipmunk
+	base carryable
+		weight 1000.0
+	end
+end
+#--------------------------------------
+object HeavyXmasSignSantaStop of XmasSignSantaStop
+	base carryable
+		weight 1000.0
+	end
+end
+
+#------ HEAVY LOOP 1 ----------------------------------------------
+object HeavyXmasAngelL of XmasAngel
+	properties
+		special
+		loop	1
+	end
+	base carryable
+		weight 1000.0
+	end
+end
+#-------------------------------------
+object HeavyXmasDogL of XmasDog
+	properties
+		special
+		loop	1
+	end
+	base carryable
+		weight 1000.0
+	end
+end
+#-------------------------------------
+object HeavyXmasDog2L of XmasDog2
+	properties
+		special
+		loop	1
+	end
+	base carryable
+		weight 1000.0
+	end
+end
+#--------------------------------------
+object HeavyXmasDog3L of XmasDog3
+	properties
+		special
+		loop	1
+	end
+	base carryable
+		weight 1000.0
+	end
+end
+#--------------------------------------
+object HeavyXmasElfL of XmasElf
+	properties
+		special
+		loop	1
+	end
+	base carryable
+		weight 1000.0
+	end
+end
+#--------------------------------------
+object HeavyXmasDog4L of XmasDog4
+	properties
+		special
+		loop	1
+	end
+	base carryable
+		weight 1000.0
+	end
+end
+#--------------------------------------
+object HeavyXmasGrinchL of XmasGrinch
+	properties
+		special
+		loop	1
+	end
+	base carryable
+		weight 1000.0
+	end
+end
+#--------------------------------------
+object HeavyXmasIglooL of XmasIgloo
+	properties
+		special
+		loop	1
+	end
+	base carryable
+		weight 1000.0
+	end
+end
+#--------------------------------------
+object HeavyXmasMerrySignL of XmasMerrySign
+	properties
+		special
+		loop	1
+	end
+	base carryable
+		weight 1000.0
+	end
+end
+#--------------------------------------
+object HeavyXmasClausFamL of XmasClausFam
+	properties
+		special
+		loop	1
+	end
+	base carryable
+		weight 1000.0
+	end
+end
+#--------------------------------------
+object HeavyXmasBearL of XmasBear
+	properties
+		special
+		loop	1
+	end
+	base carryable
+		weight 1000.0
+	end
+end
+#--------------------------------------
+object HeavyXmasSantaL of XmasSanta
+	properties
+		special
+		loop	1
+	end
+	base carryable
+		weight 1000.0
+	end
+end
+#--------------------------------------
+object HeavyXmasSantaSleigh1L of XmasSantaSleigh1
+	properties
+		special
+		loop	1
+	end
+	base carryable
+		weight 1000.0
+	end
+end
+#--------------------------------------
+object HeavyXmasSantaSleigh2L of XmasSantaSleigh2
+	properties
+		special
+		loop	1
+	end
+	base carryable
+		weight 1000.0
+	end
+end
+#--------------------------------------
+object HeavyXmasSantaClockL of XmasSantaClock
+	properties
+		special
+		loop	1
+	end
+	base carryable
+		weight 1000.0
+	end
+end
+#--------------------------------------
+object HeavyXmasSantaArchL of XmasSantaArch
+	properties
+		special
+		loop	1
+	end
+	base carryable
+		weight 1000.0
+	end
+end
+#--------------------------------------
+object HeavyXmasSnowGlobeL of XmasSnowGlobe
+	properties
+		special
+		loop	1
+	end
+	base carryable
+		weight 1000.0
+	end
+end
+#--------------------------------------
+object HeavyXmasTeddyL of XmasTeddy
+	properties
+		special
+		loop	1
+	end
+	base carryable
+		weight 1000.0
+	end
+end
+#--------------------------------------
+object HeavyMenorahL of Menorah
+	properties
+		special
+		loop	1
+	end
+	base carryable
+		weight 1000.0
+	end
+end
+#--------------------------------------
+object HeavyXmasDog5L of XmasDog5
+	properties
+		special
+		loop	1
+	end
+	base carryable
+		weight 1000.0
+	end
+end
+#--------------------------------------
+object HeavyXmasGrinchAndMaxL of XmasGrinchAndMax
+	properties
+		special
+		loop	1
+	end
+	base carryable
+		weight 1000.0
+	end
+end
+#--------------------------------------
+object HeavyXmasSignNorthPolePenguinL of XmasSignNorthPolePenguin
+	properties
+		special
+		loop	1
+	end
+	base carryable
+		weight 1000.0
+	end
+end
+#--------------------------------------
+object HeavyXmasLampNorthPoleL of XmasLampNorthPole
+	properties
+		special
+		loop	1
+	end
+	base carryable
+		weight 1000.0
+	end
+end
+#--------------------------------------
+object HeavyXmasHolidayEntranceL of XmasHolidayEntrance
+	properties
+		special
+		loop	1
+	end
+	base carryable
+		weight 1000.0
+	end
+end
+#--------------------------------------
+object HeavyXmasPolarBearGiftL of XmasPolarBearGift
+	properties
+		special
+		loop	1
+	end
+	base carryable
+		weight 1000.0
+	end
+end
+#--------------------------------------
+object HeavyXmasSnowmanFamilyL of XmasSnowmanFamily
+	properties
+		special
+		loop	1
+	end
+	base carryable
+		weight 1000.0
+	end
+end
+#--------------------------------------
+object HeavyXmasChipmunkL of XmasChipmunk
+	properties
+		special
+		loop	1
+	end
+	base carryable
+		weight 1000.0
+	end
+end
+#--------------------------------------
+object HeavyXmasSignSantaStopL of XmasSignSantaStop
+	properties
+		special
+		loop	1
+	end
+	base carryable
+		weight 1000.0
+	end
+end

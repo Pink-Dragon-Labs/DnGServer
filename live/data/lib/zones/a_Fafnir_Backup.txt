@@ -1,0 +1,88 @@
+#monster Toad 30
+monster Grafvitnir 1
+monster GreenHatchling 10
+monster GreenYoungDragon 20
+monster GreenDragon 20
+monster GreenElderWyrm 10
+monster GreenLegendaryDragon 5
+monster BlackHatchling 10
+monster BlackYoungDragon 20
+monster BlackDragon 20
+monster BlackElderWyrm 10
+monster BlackLegendaryDragon 5
+monster BrownHatchling 10
+monster BrownYoungDragon 20
+monster BrownDragon 20
+monster BrownElderWyrm 10
+monster BrownLegendaryDragon 5
+monster TanHatchling 10
+monster TanYoungDragon 20
+monster TanDragon 20
+monster TanElderWyrm 10
+monster TanLegendaryDragon 5
+monster BlightedSoul 10
+monster MalevolentSoul 10
+monster CursedSoul 10
+monster FiendishSoul 10
+monster InfernalSoul 10
+monster Mire 25
+monster Muck 25
+monster Goo 25
+monster Gunk 25
+monster Slime 25
+monster Sludge 25
+#monster Jack 1
+
+monsterGroup 3 1 GreenLegendaryDragon 1 GreenElderWyrm 1 GreenDragon
+monsterGroup 3 1 GreenElderWyrm 1 GreenDragon 1 GreenYoungDragon
+monsterGroup 3 1 GreenDragon 1 GreenYoungDragon 1 GreenHatchling
+monsterGroup 2 1 GreenLegendaryDragon 1 GreenElderWyrm
+monsterGroup 2 1 GreenElderWyrm 1 GreenDragon
+monsterGroup 2 1 GreenDragon 1 GreenYoungDragon
+monsterGroup 2 1 GreenYoungDragon 1 GreenHatchling
+
+monsterGroup 3 1 BlackLegendaryDragon 1 BlackElderWyrm 1 BlackDragon
+monsterGroup 3 1 BlackElderWyrm 1 BlackDragon 1 BlackYoungDragon
+monsterGroup 3 1 BlackDragon 1 BlackYoungDragon 1 BlackHatchling
+monsterGroup 2 1 BlackLegendaryDragon 1 BlackElderWyrm
+monsterGroup 2 1 BlackElderWyrm 1 BlackDragon
+monsterGroup 2 1 BlackDragon 1 BlackYoungDragon
+monsterGroup 2 1 BlackYoungDragon 1 BlackHatchling
+
+monsterGroup 3 1 BrownLegendaryDragon 1 BrownElderWyrm 1 BrownDragon
+monsterGroup 3 1 BrownElderWyrm 1 BrownDragon 1 BrownYoungDragon
+monsterGroup 3 1 BrownDragon 1 BrownYoungDragon 1 BrownHatchling
+monsterGroup 2 1 BrownLegendaryDragon 1 BrownElderWyrm
+monsterGroup 2 1 BrownElderWyrm 1 BrownDragon
+monsterGroup 2 1 BrownDragon 1 BrownYoungDragon
+monsterGroup 2 1 BrownYoungDragon 1 BrownHatchling
+
+monsterGroup 3 1 TanLegendaryDragon 1 TanElderWyrm 1 TanDragon
+monsterGroup 3 1 TanElderWyrm 1 TanDragon 1 TanYoungDragon
+monsterGroup 3 1 TanDragon 1 TanYoungDragon 1 TanHatchling
+monsterGroup 2 1 TanLegendaryDragon 1 TanElderWyrm
+monsterGroup 2 1 TanElderWyrm 1 TanDragon
+monsterGroup 2 1 TanDragon 1 TanYoungDragon
+monsterGroup 2 1 TanYoungDragon 1 TanHatchling
+
+monsterGroup 5 1 InfernalSoul 1 FiendishSoul 1 CursedSoul 1 MalevolentSoul 1 BlightedSoul
+monsterGroup 4 1 InfernalSoul 1 FiendishSoul 1 CursedSoul 1 MalevolentSoul
+monsterGroup 4 1 FiendishSoul 1 CursedSoul 1 MalevolentSoul 1 BlightedSoul
+monsterGroup 3 1 InfernalSoul 1 FiendishSoul 1 CursedSoul
+monsterGroup 3 1 FiendishSoul 1 CursedSoul 1 MalevolentSoul
+monsterGroup 3 1 CursedSoul 1 MalevolentSoul 1 BlightedSoul
+monsterGroup 2 1 InfernalSoul 1 FiendishSoul
+monsterGroup 2 1 FiendishSoul 1 CursedSoul
+monsterGroup 2 1 CursedSoul 1 MalevolentSoul
+monsterGroup 2 1 MalevolentSoul 1 BlightedSoul
+
+monsterGroup 6 1 Sludge 1 Slime 1 Gunk 1 Goo 1 Muck 1 Mire
+monsterGroup 4 1 Sludge 1 Slime 1 Gunk 1 Goo
+monsterGroup 4 1 Sludge 1 Slime 1 Muck 1 Mire
+monsterGroup 4 1 Gunk 1 Goo 1 Muck 1 Mire
+monsterGroup 3 2 Sludge 1 Slime
+monsterGroup 3 2 Gunk 1 Goo
+monsterGroup 3 2 Muck 1 Mire
+monsterGroup 2 1 Sludge 1 Slime
+monsterGroup 2 1 Gunk 1 Goo
+monsterGroup 2 1 Muck 1 Mire

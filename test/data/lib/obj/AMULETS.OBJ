@@ -1,0 +1,1121 @@
+object Amulet
+	properties
+		view 51500
+		name "Amulet"
+		basicName "Amulet"
+		value 25
+		color -1
+		health 1000
+#		clutStart 17
+		clutStart 122
+
+		# immune to fire damage
+		affect 1 2 0 -1
+
+		# immune to cold damage
+		affect 2 2 0 -1
+
+		# immune to lightning
+		affect 3 2 0 -1
+
+		# immune to acid
+		affect 4 2 0 -1
+	end
+
+	base described
+		text "You see an amulet of some sort."
+		idText "You see a mundane amulet."
+		shopText "This is a simple amulet."
+	end
+
+	base carryable
+		weight 0.5
+	end
+
+	base wearable
+		areaWorn 19
+	end
+end
+
+object aConcentration of Amulet
+	properties
+		name "Amulet of Concentration"
+		value 12000
+	end
+
+	actions
+		vBePutOn setAffect dobj 34 2 0 -1
+		vBeTakenOff clearAffect dobj 34 2 0
+	end
+
+	base described
+		idText "You see an Amulet of Concentration.  While wearing this amulet you can never be stunned."
+		shopText "This unique pendant allows a magic user to concentrate on spells regardless of distraction."
+	end
+end
+
+object aChoking of Amulet
+	properties
+		name "Amulet of Choking"
+		value 300
+	end
+
+	actions
+		vBePutOn kill dobj
+		vBePutOn forceDrop self
+	end
+
+	base described
+		idText "You see an Amulet of Choking.  It will instantly kill whoever wears it."
+		shopText "Please do not put this amulet on.  It has been designed to choke the wearer to death."
+	end
+end
+
+object aClumsiness of Amulet
+	properties
+		name "Amulet of Clumsiness"
+		value 300
+
+		# cursed
+		affect 46 0 0 -1
+	end
+
+	actions
+		vBePutOn setAffect dobj 60 0 0 -1
+		vBeTakenOff clearAffect dobj 60 0 0
+	end
+
+	base described
+		idText "You see an amulet of Clumsiness.  Wearing it will lower your dexterity."
+		shopText "This cursed artifact will make you clumsy if you wear it.  I wouldn't put it on if I were you."
+	end
+end
+
+object aColdProtection of Amulet
+	properties
+		name "Amulet of Cold Protection"
+		value 5000
+	end
+
+	actions
+		vBePutOn setAffect dobj 2 2 0 -1
+		vBeTakenOff clearAffect dobj 2 2 0
+	end
+
+	base described
+		idText "You see an Amulet of Cold Protection.  It will protect you from cold damage."
+		shopText "This magical charm will protect the wearer from cold."
+	end
+end
+
+object aCombat of Amulet
+	properties
+		name "Amulet of Combat"
+		value 5000
+	end
+
+	actions
+		vBePutOn setAffect dobj 56 0 0 -1
+		vBeTakenOff clearAffect dobj 56 0 0
+	end
+
+	base described
+		idText "You see an Amulet of Combat.  This amulet gives you one extra melee attack per combat round."
+		shopText "This wonderful amulet allows the wearer to attack quicker in combat."
+	end
+end
+
+object aDexterity of Amulet
+	properties
+		name "Amulet of Dexterity"
+		value 3000
+	end
+
+	actions
+		vBePutOn setAffect dobj 59 0 0 -1
+		vBeTakenOff clearAffect dobj 59 0 0
+	end
+
+	base described
+		idText "This is an Amulet of Dexterity.  It imparts extra dexterity to the wearer."
+		shopText "This magical device, when worn, gives the wearer better muscle control."
+	end
+end
+
+object aDodging of Amulet
+	properties
+		name "Amulet of Dodging"
+		value 4000
+	end
+
+	actions
+		vBePutOn setAffect dobj 57 0 0 -1
+		vBeTakenOff clearAffect dobj 57 0 0
+	end
+
+	base described
+		idText "This is an Amulet of Dodging.  Wearing it will allow you to dodge one extra time per combat round."
+		shopText "This wonderful amulet allows the wearer to dodge attacks better."
+	end
+end
+
+object aEndurance of Amulet
+	properties
+		name "Amulet of Endurance"
+		value 3000
+	end
+
+	actions
+		vBePutOn setAffect dobj 63 0 0 -1
+		vBeTakenOff clearAffect dobj 63 0 0
+	end
+
+	base described
+		idText "You see an Amulet of Endurance.  It imparts extra endurance to the wearer."
+		shopText "This amulet will increase your endurance."
+	end
+end
+
+object aFireProtection of Amulet
+	properties
+		name "Amulet of Fire Protection"
+		value 5000
+	end
+
+	actions
+		vBePutOn setAffect dobj 1 2 0 -1
+		vBeTakenOff clearAffect dobj 1 2 0
+	end
+
+	base described
+		idText "You see an Amulet of Fire Protection.  This amulet will protect the wearer from fire damage."
+		shopText "This wonderful necklace will keep the wearer safe from fire damage."
+	end
+end
+
+object aMemory of Amulet
+	properties
+		name "Amulet of Memory"
+		value 15000
+	end
+
+	actions
+		vBePutOn setAffect dobj 58 0 0 -1
+		vBeTakenOff clearAffect dobj 58 0 0
+	end
+
+	base described
+		idText "You see the wonderous amulet of memory.  You are immune to forget spells or effects while wearing this amulet, and will gain 1 level of meditation skill."
+		shopText "This most rare of pendants will make you immune to forget spells!  Also, you will gain a level of meditation ability while you wear it."
+	end
+end
+
+object aGrounding of Amulet
+	properties
+		name "Amulet of Grounding"
+		value 5000
+	end
+
+	actions
+		vBePutOn setAffect dobj 3 2 0 -1
+		vBeTakenOff clearAffect dobj 3 2 0
+	end
+
+	base described
+		idText "You see an Amulet of Grounding.  You will be unharmed by electrical attacks while wearing this."
+		shopText "This rare artifact will protect the wearer from electrical harm."
+	end
+end
+
+object aIntelligence of Amulet
+	properties
+		name "Amulet of Intelligence"
+		value 5000
+	end
+
+	actions
+		vBePutOn setAffect dobj 61 0 0 -1
+		vBeTakenOff clearAffect dobj 61 0 0
+	end
+
+	base described
+		idText "You see the rare Amulet of Intelligence.  It imparts extra intelligence to the wearer."
+		shopText "This magical item will increase the wearer's intelligence."
+	end
+end
+
+object aRetention of Amulet
+	properties
+		name "Amulet of Retention"
+		value 10000
+	end
+
+	actions
+		vBePutOn setAffect dobj 65 0 0 -1
+		vBeTakenOff clearAffect dobj 65 0 0
+	end
+
+	base described
+		idText "You see an Amulet of Retention.  The wearer will be protected from Nakedness and Fumble effects."
+		shopText "This wonderful charm will protect you from those nasty Nakedness and Fumble spells!"
+	end
+end
+
+object aShielding of Amulet
+	properties
+		name "Amulet of Shielding"
+		value 3000
+	end
+
+	actions
+		vBePutOn setAffect dobj 41 0 0 -1
+		vBeTakenOff clearAffect dobj 41 0 0
+	end
+
+	base described
+		idText "You see an Amulet of Shielding.  It gives magical protection equivalent to a set of chain mail."
+		shopText "Wear this amulet if you do not want to wear bulky armor.  It will protect you as well as a good set of chain."
+	end
+end
+
+
+object aStrength of Amulet
+	properties
+		name "Amulet of Strength"
+		value 3000
+	end
+
+	actions
+		vBePutOn setAffect dobj 39 0 0 -1
+		vBeTakenOff clearAffect dobj 39 0 0
+	end
+
+	base described
+		idText "You see an Amulet of Strength.  The wearer's strength is enhanced."
+		shopText "This magical amulet will make the wearer stronger."
+	end
+end
+
+object aStupidity of Amulet
+	properties
+		name "Amulet of Stupidity"
+		value 300
+	end
+
+	actions
+		vBePutOn setAffect dobj 62 0 0 -1
+		vBeTakenOff clearAffect dobj 62 0 0
+	end
+
+	base described
+		idText "You see an Amulet of Stupidity.  The wearer's intelligence is lowered."
+		shopText "This amulet will make the wearer stupid."
+	end
+end
+
+object aVulnerability of Amulet
+	properties
+		name "Amulet of Vulnerability"
+		value 300
+
+		# cursed
+		affect 46 0 0 -1
+	end
+
+	actions
+		vBePutOn setAffect dobj 66 0 0 -1
+		vBeTakenOff clearAffect dobj 66 0 0
+	end
+
+	base described
+		idText "You see an Amulet of Vulnerability.  Wearing this amulet will halve your health."
+		shopText "This amulet has the unfortunate effect of making the wearer easily killable."
+	end
+end
+
+object aWeakness of Amulet
+	properties
+		name "Amulet of Weakness"
+		value 300
+
+		# cursed
+		affect 46 0 0 -1
+	end
+
+	actions
+		vBePutOn setAffect dobj 40 0 0 -1
+		vBeTakenOff clearAffect dobj 40 0 0
+	end
+
+	base described
+		idText "You see an Amulet of Weakness.  Wearing this item will reduce your strength."
+		shopText "This amulet will lessen the strength of the wearer."
+	end
+end
+
+object aWeatherproofing of Amulet
+	properties
+		name "Amulet of Weatherproofing"
+		value 15000
+	end
+
+	actions
+		vBePutOn setAffect dobj 11 2 0 -1
+		vBeTakenOff clearAffect dobj 11 2 0
+	end
+
+	base described
+		idText "You see an Amulet of Weatherproofing.  This amulet will protect you from rust effects."
+		shopText "This magical amulet will protect all your items from rust!"
+	end
+end
+
+
+object aFreeWill of Amulet
+	properties
+		name "Amulet of Free Will"
+		value 5000
+	end
+
+	actions
+		vBePutOn setAffect dobj 86 0 0 -1
+		vBePutOn changeSpellResistance dobj 60 2 
+		vBeTakenOff clearAffect dobj 86 0 0
+		vBeTakenOff changeSpellResistance dobj -60 2 
+	end
+
+	base described
+		idText "This amulet provides 60% immunity to Mysticism spells."
+		shopText "This amulet provides powerful protection against mental control magic." 
+	end
+end
+
+object aDeathProtection of Amulet
+	properties
+		name "Amulet of Death Magic Protection"
+		value 7000
+	end
+
+	actions 
+		vBePutOn setAffect dobj 85 0 0 -1
+		vBePutOn changeSpellResistance dobj 50 4
+		vBeTakenOff clearAffect dobj 85 0 0
+		vBeTakenOff changeSpellResistance dobj -50 4
+	end
+
+	base described
+		idText "Bonus: +50% necromancy resistance.\nPenalty: +50% necromancy cast resistance.\n\n"
+		shopText "Bonus: +50% necromancy resistance.\nPenalty: +50% necromancy cast resistance.\n\n"
+	end
+end
+#---------------------------#
+#							#
+#							#
+#		New Amulets			#
+#							#
+#							#
+#							#
+#---------------------------#
+object aConcentrate of Amulet
+	properties
+	special
+		name "Amulet of Concentration"
+		value 5000
+		level 950
+	end
+
+	base wearable
+                # only Wiz
+                mask warrior
+                mask adventurer
+                mask thief
+	end
+	
+	actions
+        vBePutOn changeSDM dobj 600 1 3 4             	#600% SDM Boost (Thaum, Ele, Necro)
+		vBeTakenOff changeSDM dobj -600 1 3 4
+		vBePutOn setAffect dobj 61 0 0 -1				#Int
+		vBeTakenOff clearAffect dobj 61 0 0
+		vBePutOn setAffect dobj 59 0 0 -1				#Dex
+		vBeTakenOff clearAffect dobj 59 0 0
+		vBePutOn setAffect dobj 56 0 0 -1				#Attack
+		vBeTakenOff clearAffect dobj 56 0 0
+	end
+
+	base described
+		idText "You see an Amulet of Concentration.  This powerful amulet provides a 600% SDM Boost to Thaumaturgy, Elementalism and Necromany. You will also gain a boost to Intelligence and Dexterity as well as an extra Attack. \nLevel Required: 950.\n"
+		shopText "This is quite the amulet."
+	end
+end
+#------------------------------------------------------------
+object aAdventure of Amulet
+	properties
+	special
+		name "Amulet of Adventure"
+		value 5000
+		level 950
+	end
+
+	base wearable
+                # only Adv
+                mask wizard
+                mask warrior
+                mask thief
+	end
+	
+	actions
+		vBePutOn setAffect dobj 61 0 0 -1				#Int
+		vBeTakenOff clearAffect dobj 61 0 0
+		vBePutOn setAffect dobj 59 0 0 -1				#Dex
+		vBeTakenOff clearAffect dobj 59 0 0
+		vBePutOn setAffect dobj 56 0 0 -1				#Attack
+		vBeTakenOff clearAffect dobj 56 0 0
+		vBePutOn setAffect dobj 39 0 0 -1				#Str
+		vBeTakenOff clearAffect dobj 39 0 0
+		vBePutOn setAffect dobj 63 0 0 -1				#End
+		vBeTakenOff clearAffect dobj 63 0 0
+	end
+
+	base described
+		idText "You see an Amulet of Adventure.  This powerful amulet provides a boost to your Intelligence, Strength, Dexterity and Endurance. You will also gain an extra swing. \nLevel Required: 950.\n"
+		shopText "This is quite the amulet."
+	end
+end
+#------------------------------------------------------------
+object aWar of Amulet
+	properties
+	special
+		name "Amulet of War"
+		value 5000
+		level 950
+	end
+
+	base wearable
+                # only Warriors
+                mask wizard
+                mask adventurer
+                mask thief
+	end
+	
+	actions
+ 		vBePutOn setAffect dobj 39 0 0 -1				#Str
+		vBeTakenOff clearAffect dobj 39 0 0
+		vBePutOn setAffect dobj 39 0 0 -1				#Str
+		vBeTakenOff clearAffect dobj 39 0 0
+		vBePutOn setAffect dobj 56 0 0 -1				#Attack
+		vBeTakenOff clearAffect dobj 56 0 0
+		vBePutOn changeMeleeArmorPiercing dobj 25		#25% Armor Pen
+		vBeTakenOff changeMeleeArmorPiercing dobj -25
+	end
+
+	base described
+		idText "You see an Amulet of War.  This powerful amulet provides a considerable boost to your Strength, as well as 25% Armor Penetration, and an extra swing. \nLevel Required: 950.\n"
+		shopText "This is quite the amulet."
+	end
+end
+#------------------------------------------------------------
+object aSneak of Amulet
+	properties
+	special
+		name "Amulet of Sneaking"
+		value 5000
+		level 950
+	end
+	
+	base wearable
+                # only Thief
+                mask warrior
+                mask adventurer
+                mask wizard
+	end
+	
+	actions
+		vBePutOn setAffect dobj 59 0 0 -1				#Dex
+		vBeTakenOff clearAffect dobj 59 0 0
+		vBePutOn setAffect dobj 59 0 0 -1				#Dex
+		vBeTakenOff clearAffect dobj 59 0 0
+		vBePutOn setAffect dobj 56 0 0 -1				#Attack
+		vBeTakenOff clearAffect dobj 56 0 0
+		vBePutOn changeMeleeArmorPiercing dobj 25		#25% Armor Pen
+		vBeTakenOff changeMeleeArmorPiercing dobj -25
+	end
+
+	base described
+		idText "You see an Amulet of Sneaking.  This powerful amulet provides a considerable boost to your Dexterity, as well as 25% Armor Penetration, and an extra swing. \nLevel Required: 950.\n"
+		shopText "This is quite the amulet."
+	end
+end
+#------------------------------------------------------------
+object aOffense of Amulet
+	properties
+		special
+		name "Amulet of Offense"
+		value 15000
+	end
+
+	actions
+		# extra attack
+		vBePutOn setAffect dobj 56 0 0 -1
+		vBeTakenOff clearAffect dobj 56 0 0
+		#str
+		vBePutOn setAffect dobj 39 0 0 -1
+		vBeTakenOff clearAffect dobj 39 0 0
+	end
+
+	base described
+		idText "You see an Amulet of Offense.  This amulet gives you one extra melee attack per combat round and improved strength."
+		shopText "This wonderful amulet allows the wearer to attack quicker and stronger in combat."
+	end
+end
+#---------------------------------------------
+object Totem of Amulet
+	properties
+	special
+		name "Totem of Power"
+		color 43
+		value 5000000
+		level 200
+		# cursed
+		affect 46 0 0 -1
+	end
+
+	base wearable
+		areaWorn 200
+	end
+
+	base described
+		text "An ancient and powerful Totem."
+		idText "A powerful Totem used by the mystical Shaman. Affixing this around your wrist, you will gain an additional slot for Enchantments, and the knowledge of the ancient mystical Shaman.\n\nLevel Required: 200\n\n20% Mysticism Resistance.\n\n"
+		shopText "A powerful Totem used by the mystical Shaman. Affixing this around your wrist, you will gain an additional slot for Enchantments, and the knowledge of the ancient mystical Shaman.\n\nLevel Required: 200\n\n20% Mysticism Resistance.\n\n"
+	end
+
+	actions
+		vBePutOn setAffect dobj 70 0 0 -1				# Ugly
+		vBeTakenOff clearAffect dobj 70 0 0
+		vBePutOn changeSpellResistance dobj 20 2		# 20% Myst Resist
+		vBeTakenOff changeSpellResistance dobj -20 2
+	end
+end
+#----------------------------------------
+object aConcentrate2000 of Amulet
+	properties
+	special
+		name "Amulet of Concentration x2"
+		value 5000
+		level 2000
+	end
+
+	base wearable
+                # only Wiz
+                mask warrior
+                mask adventurer
+                mask thief
+	end
+	
+	actions
+        vBePutOn changeSDM dobj 800 1 3 4             	#800% SDM Boost (Thaum, Ele, Necro)
+		vBeTakenOff changeSDM dobj -800 1 3 4
+		vBePutOn setAffect dobj 61 0 0 -1				#Int
+		vBeTakenOff clearAffect dobj 61 0 0
+		vBePutOn setAffect dobj 61 0 0 -1				#Int
+		vBeTakenOff clearAffect dobj 61 0 0
+		vBePutOn setAffect dobj 59 0 0 -1				#Dex
+		vBeTakenOff clearAffect dobj 59 0 0
+		vBePutOn setAffect dobj 56 0 0 -1				#Attack
+		vBeTakenOff clearAffect dobj 56 0 0
+	end
+
+	base described
+		idText "You see an Amulet of Concentration.  This powerful amulet provides a 800% SDM Boost to Thaumaturgy, Elementalism and Necromany. You will also gain a significant boost to Intelligence, and a boost to Dexterity as well as an extra Attack. \nLevel Required: 2000.\n"
+		shopText "This is quite the amulet."
+	end
+end
+#----------------------------------------
+object aConcentrate3000 of Amulet
+	properties
+	special
+		name "Amulet of Concentration x3"
+		value 5000
+		level 3000
+	end
+
+	base wearable
+                # only Wiz
+                mask warrior
+                mask adventurer
+                mask thief
+	end
+	
+	actions
+        vBePutOn changeSDM dobj 1000 1 3 4             	#1000% SDM Boost (Thaum, Ele, Necro)
+		vBeTakenOff changeSDM dobj -1000 1 3 4
+		vBePutOn setAffect dobj 61 0 0 -1				#Int
+		vBeTakenOff clearAffect dobj 61 0 0
+		vBePutOn setAffect dobj 61 0 0 -1				#Int
+		vBeTakenOff clearAffect dobj 61 0 0
+		vBePutOn setAffect dobj 59 0 0 -1				#Dex
+		vBeTakenOff clearAffect dobj 59 0 0
+		vBePutOn setAffect dobj 56 0 0 -1				#Attack
+		vBeTakenOff clearAffect dobj 56 0 0
+	end
+
+	base described
+		idText "You see an Amulet of Concentration.  This powerful amulet provides a 1000% SDM Boost to Thaumaturgy, Elementalism and Necromany. You will also gain a significant boost to Intelligence, and a boost to Dexterity as well as an extra Attack. \nLevel Required: 3000.\n"
+		shopText "This is quite the amulet."
+	end
+end
+#----------------------------------------
+object aConcentrate4000 of Amulet
+	properties
+	special
+		name "Amulet of Concentration x4"
+		value 5000
+		level 4000
+	end
+
+	base wearable
+                # only Wiz
+                mask warrior
+                mask adventurer
+                mask thief
+	end
+	
+	actions
+        vBePutOn changeSDM dobj 1200 1 3 4             	#1200% SDM Boost (Thaum, Ele, Necro)
+		vBeTakenOff changeSDM dobj -1200 1 3 4
+		vBePutOn setAffect dobj 61 0 0 -1				#Int
+		vBeTakenOff clearAffect dobj 61 0 0
+		vBePutOn setAffect dobj 61 0 0 -1				#Int
+		vBeTakenOff clearAffect dobj 61 0 0
+		vBePutOn setAffect dobj 59 0 0 -1				#Dex
+		vBeTakenOff clearAffect dobj 59 0 0
+		vBePutOn setAffect dobj 56 0 0 -1				#Attack
+		vBeTakenOff clearAffect dobj 56 0 0
+	end
+
+	base described
+		idText "You see an Amulet of Concentration.  This powerful amulet provides a 1200% SDM Boost to Thaumaturgy, Elementalism and Necromany. You will also gain a significant boost to Intelligence, and a boost to Dexterity as well as an extra Attack.  \nLevel Required: 4000.\n"
+		shopText "This is quite the amulet."
+	end
+end
+#----------------------------------------
+object aConcentrate5000 of Amulet
+	properties
+	special
+		name "Amulet of Concentration x5"
+		value 5000
+		level 5000
+	end
+
+	base wearable
+                # only Wiz
+                mask warrior
+                mask adventurer
+                mask thief
+	end
+	
+	actions
+        vBePutOn changeSDM dobj 1400 1 3 4             	#1400% SDM Boost (Thaum, Ele, Necro)
+		vBeTakenOff changeSDM dobj -1400 1 3 4
+		vBePutOn setAffect dobj 61 0 0 -1				#Int
+		vBeTakenOff clearAffect dobj 61 0 0
+		vBePutOn setAffect dobj 61 0 0 -1				#Int
+		vBeTakenOff clearAffect dobj 61 0 0
+		vBePutOn setAffect dobj 59 0 0 -1				#Dex
+		vBeTakenOff clearAffect dobj 59 0 0
+		vBePutOn setAffect dobj 56 0 0 -1				#Attack
+		vBeTakenOff clearAffect dobj 56 0 0
+	end
+
+	base described
+		idText "You see an Amulet of Concentration.  This powerful amulet provides a 1400% SDM Boost to Thaumaturgy, Elementalism and Necromany. You will also gain a significant boost to Intelligence, and a boost to Dexterity as well as an extra Attack.  \nLevel Required: 5000.\n"
+		shopText "This is quite the amulet."
+	end
+end
+#----------------------------------------
+object aConcentrate6000 of Amulet
+	properties
+	special
+		name "Amulet of Concentration x6"
+		value 5000
+		level 6000
+	end
+
+	base wearable
+                # only Wiz
+                mask warrior
+                mask adventurer
+                mask thief
+	end
+	
+	actions
+        vBePutOn changeSDM dobj 1600 1 3 4             	#1600% SDM Boost (Thaum, Ele, Necro)
+		vBeTakenOff changeSDM dobj -1600 1 3 4
+		vBePutOn setAffect dobj 61 0 0 -1				#Int
+		vBeTakenOff clearAffect dobj 61 0 0
+		vBePutOn setAffect dobj 61 0 0 -1				#Int
+		vBeTakenOff clearAffect dobj 61 0 0
+		vBePutOn setAffect dobj 59 0 0 -1				#Dex
+		vBeTakenOff clearAffect dobj 59 0 0
+		vBePutOn setAffect dobj 56 0 0 -1				#Attack
+		vBeTakenOff clearAffect dobj 56 0 0
+	end
+
+	base described
+		idText "You see an Amulet of Concentration.  This powerful amulet provides a 1600% SDM Boost to Thaumaturgy, Elementalism and Necromany. You will also gain a significant boost to Intelligence, and a boost to Dexterity as well as an extra Attack.  \nLevel Required: 6000.\n"
+		shopText "This is quite the amulet."
+	end
+end
+#----------------------------------------
+object aConcentrate7000 of Amulet
+	properties
+	special
+		name "Amulet of Concentration x7"
+		value 5000
+		level 7000
+	end
+
+	base wearable
+                # only Wiz
+                mask warrior
+                mask adventurer
+                mask thief
+	end
+	
+	actions
+        vBePutOn changeSDM dobj 1700 1 3 4             	#1700% SDM Boost (Thaum, Ele, Necro)
+		vBeTakenOff changeSDM dobj -1700 1 3 4
+		vBePutOn setAffect dobj 61 0 0 -1				#Int
+		vBeTakenOff clearAffect dobj 61 0 0
+		vBePutOn setAffect dobj 61 0 0 -1				#Int
+		vBeTakenOff clearAffect dobj 61 0 0
+		vBePutOn setAffect dobj 59 0 0 -1				#Dex
+		vBeTakenOff clearAffect dobj 59 0 0
+		vBePutOn setAffect dobj 56 0 0 -1				#Attack
+		vBeTakenOff clearAffect dobj 56 0 0
+	end
+
+	base described
+		idText "You see an Amulet of Concentration.  This powerful amulet provides a 1700% SDM Boost to Thaumaturgy, Elementalism and Necromany. You will also gain a significant boost to Intelligence, and a boost to Dexterity as well as an extra Attack.  \nLevel Required: 7000.\n"
+		shopText "This is quite the amulet."
+	end
+end
+#----------------------------------------
+object aConcentrate8000 of Amulet
+	properties
+	special
+		name "Amulet of Concentration x8"
+		value 5000
+		level 8000
+	end
+
+	base wearable
+                # only Wiz
+                mask warrior
+                mask adventurer
+                mask thief
+	end
+	
+	actions
+        vBePutOn changeSDM dobj 1800 1 3 4             	#1800% SDM Boost (Thaum, Ele, Necro)
+		vBeTakenOff changeSDM dobj -1800 1 3 4
+		vBePutOn setAffect dobj 61 0 0 -1				#Int
+		vBeTakenOff clearAffect dobj 61 0 0
+		vBePutOn setAffect dobj 61 0 0 -1				#Int
+		vBeTakenOff clearAffect dobj 61 0 0
+		vBePutOn setAffect dobj 59 0 0 -1				#Dex
+		vBeTakenOff clearAffect dobj 59 0 0
+		vBePutOn setAffect dobj 56 0 0 -1				#Attack
+		vBeTakenOff clearAffect dobj 56 0 0
+	end
+
+	base described
+		idText "You see an Amulet of Concentration.  This powerful amulet provides a 1800% SDM Boost to Thaumaturgy, Elementalism and Necromany. You will also gain a significant boost to Intelligence, and a boost to Dexterity as well as an extra Attack.  \nLevel Required: 8000.\n"
+		shopText "This is quite the amulet."
+	end
+end
+#----------------------------------------
+object aConcentrate9000 of Amulet
+	properties
+	special
+		name "Amulet of Concentration x9"
+		value 5000
+		level 9000
+	end
+
+	base wearable
+                # only Wiz
+                mask warrior
+                mask adventurer
+                mask thief
+	end
+	
+	actions
+        vBePutOn changeSDM dobj 2000 1 3 4             	#2000% SDM Boost (Thaum, Ele, Necro)
+		vBeTakenOff changeSDM dobj -2000 1 3 4
+		vBePutOn setAffect dobj 61 0 0 -1				#Int
+		vBeTakenOff clearAffect dobj 61 0 0
+		vBePutOn setAffect dobj 61 0 0 -1				#Int
+		vBeTakenOff clearAffect dobj 61 0 0
+		vBePutOn setAffect dobj 59 0 0 -1				#Dex
+		vBeTakenOff clearAffect dobj 59 0 0
+		vBePutOn setAffect dobj 56 0 0 -1				#Attack
+		vBeTakenOff clearAffect dobj 56 0 0
+	end
+
+	base described
+		idText "You see an Amulet of Concentration.  This powerful amulet provides a 2000% SDM Boost to Thaumaturgy, Elementalism and Necromany. You will also gain a significant boost to Intelligence, and a boost to Dexterity as well as an extra Attack.  \nLevel Required: 9000.\n"
+		shopText "This is quite the amulet."
+	end
+end
+#----------------------------------------
+object aConcentrate10000 of Amulet
+	properties
+	special
+		name "Amulet of Ascension"
+		value 5000
+		level 10000
+	end
+
+	base wearable
+                # only Wiz
+                mask warrior
+                mask adventurer
+                mask thief
+	end
+	
+	actions
+        vBePutOn changeSDM dobj 2400 1 3 4             	#2400% SDM Boost (Thaum, Ele, Necro)
+		vBeTakenOff changeSDM dobj -2400 1 3 4
+		vBePutOn setAffect dobj 61 0 0 -1				#Int
+		vBeTakenOff clearAffect dobj 61 0 0
+		vBePutOn setAffect dobj 61 0 0 -1				#Int
+		vBeTakenOff clearAffect dobj 61 0 0
+		vBePutOn setAffect dobj 61 0 0 -1				#Int
+		vBeTakenOff clearAffect dobj 61 0 0
+		vBePutOn setAffect dobj 59 0 0 -1				#Dex
+		vBeTakenOff clearAffect dobj 59 0 0
+		vBePutOn setAffect dobj 56 0 0 -1				#Attack
+		vBeTakenOff clearAffect dobj 56 0 0
+	end
+
+	base described
+		idText "You see an Amulet of Ascension.  This powerful amulet provides a 2400% SDM Boost to Thaumaturgy, Elementalism and Necromany. You will also gain a godlike boost to Intelligence, and a boost to Dexterity as well as an extra Attack.  \nLevel Required: 10000.\n"
+		shopText "This is quite the amulet."
+	end
+end
+#-----------------------------------------------------------------
+object aHitting of Amulet
+	properties
+	special
+		name "Offensive Totem"
+		value 5000
+		level 2000
+	end
+	
+	
+	actions
+		vBePutOn setAffect dobj 59 0 0 -1				# Dex
+		vBeTakenOff clearAffect dobj 59 0 0
+		vBePutOn setAffect dobj 59 0 0 -1				# Dex
+		vBeTakenOff clearAffect dobj 59 0 0
+        vBePutOn setAffect dobj 39 0 0 -1				# Str
+		vBeTakenOff clearAffect dobj 39 0 0
+		vBePutOn setAffect dobj 39 0 0 -1				# Str
+		vBeTakenOff clearAffect dobj 39 0 0
+        vBePutOn setAffect dobj 63 0 0 -1				# End
+		vBeTakenOff clearAffect dobj 63 0 0
+        vBePutOn setAffect dobj 63 0 0 -1				# End
+		vBeTakenOff clearAffect dobj 63 0 0
+		vBePutOn setAffect dobj 56 0 0 -1				# Attack
+		vBeTakenOff clearAffect dobj 56 0 0
+        vBePutOn setAffect dobj 56 0 0 -1				# Attack
+		vBeTakenOff clearAffect dobj 56 0 0
+		vBePutOn setAffect dobj 61 0 0 -1				#Int
+		vBeTakenOff clearAffect dobj 61 0 0
+		vBePutOn setAffect dobj 61 0 0 -1				#Int
+		vBeTakenOff clearAffect dobj 61 0 0
+		vBePutOn changeGoodMDMMod dobj 25               # vs Good MDM
+		vBeTakenOff changeGoodMDMMod dobj -25
+        vBePutOn changeEvilMDMMod dobj 25               # vs Evil MDM
+		vBeTakenOff changeEvilMDMMod dobj -25
+	end
+
+	base described
+		idText "This incredibly powerful totem will assist any who equip it, providing unprecedented combat prowess.\n\nThis totem grants Double Strength, Dexterity, Endurance, and provides 2 additional attacks as well as an Intelligence Boost.\n\nvs Good MDM: 25%\nvs Evil MDM: 25%\nLevel Required: 2000\n"
+		shopText "This incredibly powerful totem will assist any who equip it, providing unprecedented combat prowess.\n\nThis totem grants Double Strength, Dexterity, Endurance, and provides 2 additional attacks as well as an Intelligence Boost.\n\nvs Good MDM: 25%\nvs Evil MDM: 25%\nLevel Required: 2000\n"
+	end
+end
+#-----------------------------------------------------------------
+object aHitting2 of Amulet
+	properties
+	special
+		name "Offensive Totem x2"
+		value 5000
+		level 3000
+	end
+	
+	
+	actions
+		vBePutOn setAffect dobj 59 0 0 -1				# Dex
+		vBeTakenOff clearAffect dobj 59 0 0
+		vBePutOn setAffect dobj 59 0 0 -1				# Dex
+		vBeTakenOff clearAffect dobj 59 0 0
+        vBePutOn setAffect dobj 59 0 0 -1				# Dex
+		vBeTakenOff clearAffect dobj 59 0 0
+        vBePutOn setAffect dobj 39 0 0 -1				# Str
+		vBeTakenOff clearAffect dobj 39 0 0
+        vBePutOn setAffect dobj 39 0 0 -1				# Str
+		vBeTakenOff clearAffect dobj 39 0 0
+		vBePutOn setAffect dobj 39 0 0 -1				# Str
+		vBeTakenOff clearAffect dobj 39 0 0
+        vBePutOn setAffect dobj 63 0 0 -1				# End
+		vBeTakenOff clearAffect dobj 63 0 0
+        vBePutOn setAffect dobj 63 0 0 -1				# End
+		vBeTakenOff clearAffect dobj 63 0 0
+        vBePutOn setAffect dobj 63 0 0 -1				# End
+		vBeTakenOff clearAffect dobj 63 0 0
+		vBePutOn setAffect dobj 56 0 0 -1				# Attack
+		vBeTakenOff clearAffect dobj 56 0 0
+        vBePutOn setAffect dobj 56 0 0 -1				# Attack
+		vBeTakenOff clearAffect dobj 56 0 0
+        vBePutOn setAffect dobj 56 0 0 -1				# Attack
+		vBeTakenOff clearAffect dobj 56 0 0
+		vBePutOn setAffect dobj 61 0 0 -1				#Int
+		vBeTakenOff clearAffect dobj 61 0 0
+		vBePutOn setAffect dobj 61 0 0 -1				#Int
+		vBeTakenOff clearAffect dobj 61 0 0
+		vBePutOn changeGoodMDMMod dobj 50               # vs Good MDM
+		vBeTakenOff changeGoodMDMMod dobj -50
+        vBePutOn changeEvilMDMMod dobj 50               # vs Evil MDM
+		vBeTakenOff changeEvilMDMMod dobj -50
+	end
+
+	base described
+		idText "This incredibly powerful totem will assist any who equip it, providing unprecedented combat prowess.\n\nThis totem grants Triple Strength, Dexterity, Endurance, and provides 3 additional attacks as well as an Intelligence Boost.\n\nvs Good MDM: 50%\nvs Evil MDM: 50%\nLevel Required: 3000\n"
+		shopText "This incredibly powerful totem will assist any who equip it, providing unprecedented combat prowess.\n\nThis totem grants Triple Strength, Dexterity, Endurance, and provides 3 additional attacks as well as an Intelligence Boost.\n\nvs Good MDM: 50%\nvs Evil MDM: 50%\nLevel Required: 3000\n"
+	end
+end
+#-----------------------------------------------------------------
+object aHitting3 of Amulet
+	properties
+	special
+		name "Offensive Totem x3"
+		value 5000
+		level 4000
+	end
+	
+	
+	actions
+		vBePutOn setAffect dobj 59 0 0 -1				# Dex
+		vBeTakenOff clearAffect dobj 59 0 0
+		vBePutOn setAffect dobj 59 0 0 -1				# Dex
+		vBeTakenOff clearAffect dobj 59 0 0
+        vBePutOn setAffect dobj 59 0 0 -1				# Dex
+		vBeTakenOff clearAffect dobj 59 0 0
+        vBePutOn setAffect dobj 59 0 0 -1				# Dex
+		vBeTakenOff clearAffect dobj 59 0 0
+        vBePutOn setAffect dobj 39 0 0 -1				# Str
+		vBeTakenOff clearAffect dobj 39 0 0
+        vBePutOn setAffect dobj 39 0 0 -1				# Str
+		vBeTakenOff clearAffect dobj 39 0 0
+        vBePutOn setAffect dobj 39 0 0 -1				# Str
+		vBeTakenOff clearAffect dobj 39 0 0
+		vBePutOn setAffect dobj 39 0 0 -1				# Str
+		vBeTakenOff clearAffect dobj 39 0 0
+        vBePutOn setAffect dobj 63 0 0 -1				# End
+		vBeTakenOff clearAffect dobj 63 0 0
+        vBePutOn setAffect dobj 63 0 0 -1				# End
+		vBeTakenOff clearAffect dobj 63 0 0
+        vBePutOn setAffect dobj 63 0 0 -1				# End
+		vBeTakenOff clearAffect dobj 63 0 0
+        vBePutOn setAffect dobj 63 0 0 -1				# End
+		vBeTakenOff clearAffect dobj 63 0 0
+		vBePutOn setAffect dobj 56 0 0 -1				# Attack
+		vBeTakenOff clearAffect dobj 56 0 0
+        vBePutOn setAffect dobj 56 0 0 -1				# Attack
+		vBeTakenOff clearAffect dobj 56 0 0
+        vBePutOn setAffect dobj 56 0 0 -1				# Attack
+		vBeTakenOff clearAffect dobj 56 0 0
+        vBePutOn setAffect dobj 56 0 0 -1				# Attack
+		vBeTakenOff clearAffect dobj 56 0 0
+		vBePutOn setAffect dobj 61 0 0 -1				#Int
+		vBeTakenOff clearAffect dobj 61 0 0
+		vBePutOn setAffect dobj 61 0 0 -1				#Int
+		vBeTakenOff clearAffect dobj 61 0 0
+		vBePutOn changeGoodMDMMod dobj 75               # vs Good MDM
+		vBeTakenOff changeGoodMDMMod dobj -75
+        vBePutOn changeEvilMDMMod dobj 75               # vs Evil MDM
+		vBeTakenOff changeEvilMDMMod dobj -75
+	end
+
+	base described
+		idText "This incredibly powerful totem will assist any who equip it, providing unprecedented combat prowess.\n\nThis totem grants Quadruple Strength, Dexterity, Endurance, and provides 4 additional attacks as well as an Intelligence Boost.\n\nvs Good MDM: 75%\nvs Evil MDM: 75%\nLevel Required: 4000\n"
+		shopText "This incredibly powerful totem will assist any who equip it, providing unprecedented combat prowess.\n\nThis totem grants Quadruple Strength, Dexterity, Endurance, and provides 4 additional attacks as well as an Intelligence Boost.\n\nvs Good MDM: 75%\nvs Evil MDM: 75%\nLevel Required: 4000\n"
+	end
+end
+#-----------------------------------------------------------------
+object aHitting4 of Amulet
+	properties
+	special
+		name "Totem of Ascension"
+		value 5000
+		level 5000
+	end
+	
+	
+	actions
+		vBePutOn setAffect dobj 59 0 0 -1				# Dex
+		vBeTakenOff clearAffect dobj 59 0 0
+		vBePutOn setAffect dobj 59 0 0 -1				# Dex
+		vBeTakenOff clearAffect dobj 59 0 0
+        vBePutOn setAffect dobj 59 0 0 -1				# Dex
+		vBeTakenOff clearAffect dobj 59 0 0
+        vBePutOn setAffect dobj 59 0 0 -1				# Dex
+		vBeTakenOff clearAffect dobj 59 0 0
+        vBePutOn setAffect dobj 59 0 0 -1				# Dex
+		vBeTakenOff clearAffect dobj 59 0 0
+        vBePutOn setAffect dobj 39 0 0 -1				# Str
+		vBeTakenOff clearAffect dobj 39 0 0
+        vBePutOn setAffect dobj 39 0 0 -1				# Str
+		vBeTakenOff clearAffect dobj 39 0 0
+        vBePutOn setAffect dobj 39 0 0 -1				# Str
+		vBeTakenOff clearAffect dobj 39 0 0
+        vBePutOn setAffect dobj 39 0 0 -1				# Str
+		vBeTakenOff clearAffect dobj 39 0 0
+		vBePutOn setAffect dobj 39 0 0 -1				# Str
+		vBeTakenOff clearAffect dobj 39 0 0
+        vBePutOn setAffect dobj 63 0 0 -1				# End
+		vBeTakenOff clearAffect dobj 63 0 0
+        vBePutOn setAffect dobj 63 0 0 -1				# End
+		vBeTakenOff clearAffect dobj 63 0 0
+        vBePutOn setAffect dobj 63 0 0 -1				# End
+		vBeTakenOff clearAffect dobj 63 0 0
+        vBePutOn setAffect dobj 63 0 0 -1				# End
+		vBeTakenOff clearAffect dobj 63 0 0
+        vBePutOn setAffect dobj 63 0 0 -1				# End
+		vBeTakenOff clearAffect dobj 63 0 0
+		vBePutOn setAffect dobj 56 0 0 -1				# Attack
+		vBeTakenOff clearAffect dobj 56 0 0
+        vBePutOn setAffect dobj 56 0 0 -1				# Attack
+		vBeTakenOff clearAffect dobj 56 0 0
+        vBePutOn setAffect dobj 56 0 0 -1				# Attack
+		vBeTakenOff clearAffect dobj 56 0 0
+        vBePutOn setAffect dobj 56 0 0 -1				# Attack
+		vBeTakenOff clearAffect dobj 56 0 0
+		vBePutOn setAffect dobj 61 0 0 -1				#Int
+		vBeTakenOff clearAffect dobj 61 0 0
+		vBePutOn setAffect dobj 61 0 0 -1				#Int
+		vBeTakenOff clearAffect dobj 61 0 0
+		vBePutOn changeGoodMDMMod dobj 125              # vs Good MDM
+		vBeTakenOff changeGoodMDMMod dobj -125
+        vBePutOn changeEvilMDMMod dobj 125              # vs Evil MDM
+		vBeTakenOff changeEvilMDMMod dobj -125
+	end
+
+	base described
+		idText "This incredibly powerful totem will assist any who equip it, providing unprecedented combat prowess.\n\nThis totem grants Quintuple Strength, Dexterity, Endurance, and provides 4 additional attacks as well as an Intelligence Boost.\n\nvs Good MDM: 125%\nvs Evil MDM: 125%\nLevel Required: 5000\n"
+		shopText "This incredibly powerful totem will assist any who equip it, providing unprecedented combat prowess.\n\nThis totem grants Quintuple Strength, Dexterity, Endurance, and provides 4 additional attacks as well as an Intelligence Boost.\n\nvs Good MDM: 125%\nvs Evil MDM: 125%\nLevel Required: 5000\n"
+	end
+end
+#-----------------------------------------------------------------

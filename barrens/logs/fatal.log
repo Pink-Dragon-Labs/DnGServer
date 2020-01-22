@@ -1,0 +1,1936 @@
+login name : 9e668aaa  
+version    : 3.451
+time       : Sun Apr 22 22:23:13 2018
+-----------------------------------------------------
+BETA Version 40
+$010c: (ByteArray new:)
+$554c: (PlatePants setAffectedState:)
+$554c: (PlatePants fromPacket:)
+$4a4b: (BContainer fromPacket:)
+$6bb3: (MaleAdventurer fromPacket:)
+$6ee9: (GSShiftRoomScript handleMsg:)
+$33f6: (List eachElementDo:)
+$332c: (GameServer handleMsg:)
+$3904: (NetMsgProcessor processMsg:)
+$3904: (NetMsgProcessor handleMsg:)
+$03f0: (NetUser doit:)
+$039f: (RoomMgr doit:)
+$031b: (Game doit:)
+$0047: (RoomZero doit:)
+Out of available handles.
+-----------------------------------------------------
+
+login name : 33f07f
+version    : 3.451
+time       : Mon Apr 23 01:29:19 2018
+-----------------------------------------------------
+BETA Version 40
+$0074: (Obj new:)
+$00d7: (LongInt new:)
+$03ee: (curNetMsg getLong:)
+$7ab8: (MovieChangeHealth fromPacket:)
+$332c: (GameServer handleMsg:)
+$3904: (NetMsgProcessor processMsg:)
+$3904: (NetMsgProcessor handleMsg:)
+$03f0: (NetUser doit:)
+$039f: (RoomMgr doit:)
+$031b: (Game doit:)
+$0047: (RoomZero doit:)
+Out of available handles.
+-----------------------------------------------------
+
+login name : nasty
+version    : 3.451
+time       : Mon Apr 23 09:37:38 2018
+-----------------------------------------------------
+BETA Version 40
+$0074: (Obj new:)
+$00d7: (LongInt new:)
+$6385: (MovieInfo addDependency:)
+$6385: (MovieInfo init:)
+$6385: (MovieInfo fromPacket:)
+$332c: (GameServer handleMsg:)
+$3904: (NetMsgProcessor processMsg:)
+$3904: (NetMsgProcessor handleMsg:)
+$03f0: (NetUser doit:)
+$039f: (RoomMgr doit:)
+$031b: (Game doit:)
+$0047: (RoomZero doit:)
+Out of available handles.
+-----------------------------------------------------
+
+login name : heed2
+version    : 3.451
+time       : Mon Apr 23 11:39:48 2018
+-----------------------------------------------------
+BETA Version 40
+$0074: (Obj new:)
+$00d7: (LongInt new:)
+$779c: (MovieInfo addDependency:)
+$332c: (GameServer handleMsg:)
+$3904: (NetMsgProcessor processMsg:)
+$3904: (NetMsgProcessor handleMsg:)
+$03f0: (NetUser doit:)
+$039f: (RoomMgr doit:)
+$031b: (Game doit:)
+$0047: (RoomZero doit:)
+Out of available handles.
+-----------------------------------------------------
+
+login name : heed2
+version    : 3.451
+time       : Mon Apr 23 13:28:23 2018
+-----------------------------------------------------
+BETA Version 40
+$0401: (PackedData getString:)
+$03ee: (curNetMsg getString:)
+$6e77: (MovieText fromPacket:)
+$332c: (GameServer handleMsg:)
+$3904: (NetMsgProcessor processMsg:)
+$3904: (NetMsgProcessor handleMsg:)
+$03f0: (NetUser doit:)
+$039f: (RoomMgr doit:)
+$031b: (Game doit:)
+$0047: (RoomZero doit:)
+Out of available handles.
+-----------------------------------------------------
+
+login name : stone
+version    : 3.451
+time       : Mon Apr 23 16:58:11 2018
+-----------------------------------------------------
+BETA Version 40
+$0401: (PackedData getString:)
+$03ee: (curNetMsg getString:)
+$55f2: (MovieInfo fromPacket:)
+$332c: (GameServer handleMsg:)
+$3904: (NetMsgProcessor processMsg:)
+$3904: (NetMsgProcessor handleMsg:)
+$03f0: (NetUser doit:)
+$039f: (RoomMgr doit:)
+$031b: (Game doit:)
+$0047: (RoomZero doit:)
+Out of available handles.
+-----------------------------------------------------
+
+login name : heed5
+version    : 3.451
+time       : Mon Apr 23 17:05:02 2018
+-----------------------------------------------------
+BETA Version 40
+$0074: (Obj new:)
+$00d7: (LongInt new:)
+$03ee: (curNetMsg getLong:)
+$7e9f: (MovieChangeHealth fromPacket:)
+$332c: (GameServer handleMsg:)
+$3904: (NetMsgProcessor processMsg:)
+$3904: (NetMsgProcessor handleMsg:)
+$03f0: (NetUser doit:)
+$039f: (RoomMgr doit:)
+$031b: (Game doit:)
+$0047: (RoomZero doit:)
+Out of available handles.
+-----------------------------------------------------
+
+login name : stone
+version    : 3.451
+time       : Mon Apr 23 18:12:50 2018
+-----------------------------------------------------
+BETA Version 40
+$6cfd: (NetRoom addPolygon:)
+$4fbb: (WorldObject submitPolygon:)
+$4fbb: (WorldObject addToRoom:)
+$7c9a: (List eachElementDo:)
+$3cd5: (GSShiftRoomScript changeState:)
+$3cd5: (GSShiftRoomScript cue:)
+$3cd5: (GSShiftRoomScript doit:)
+$33f6: (List eachElementDo:)
+$332c: (GameServer doit:)
+$03f0: (NetUser doit:)
+$039f: (RoomMgr doit:)
+$031b: (Game doit:)
+$0047: (RoomZero doit:)
+Out of available handles.
+-----------------------------------------------------
+
+login name : 33f07f
+version    : 3.451
+time       : Mon Apr 23 20:00:41 2018
+-----------------------------------------------------
+BETA Version 40
+$5f6a: (Baldric fromPacket:)
+$6063: (BContainer fromPacket:)
+$77c0: (BackPack fromPacket:)
+$3d43: (GSNewRoomScript handleMsg:)
+$33f6: (List eachElementDo:)
+$332c: (GameServer handleMsg:)
+$3904: (NetMsgProcessor processMsg:)
+$3904: (NetMsgProcessor handleMsg:)
+$03f0: (NetUser doit:)
+$039f: (RoomMgr doit:)
+$031b: (Game doit:)
+$0047: (RoomZero doit:)
+Out of available handles.
+-----------------------------------------------------
+
+login name : 883713
+version    : 3.451
+time       : Mon Apr 23 20:43:37 2018
+-----------------------------------------------------
+BETA Version 40
+$0074: (Obj new:)
+$00d7: (LongInt new:)
+$1260: (MovieChangeHealth addDependency:)
+$1260: (MovieChangeHealth init:)
+$1260: (MovieChangeHealth fromPacket:)
+$332c: (GameServer handleMsg:)
+$3904: (NetMsgProcessor processMsg:)
+$3904: (NetMsgProcessor handleMsg:)
+$03f0: (NetUser doit:)
+$039f: (RoomMgr doit:)
+$031b: (Game doit:)
+$0047: (RoomZero doit:)
+Out of available handles.
+-----------------------------------------------------
+
+login name : b10f0a
+version    : 3.451
+time       : Mon Apr 23 21:31:27 2018
+-----------------------------------------------------
+BETA Version 40
+$0e30: (BWearable new:)
+$44c2: (PlatePants addBase:)
+$1bf6: (<noname> doit:)
+$44c2: (PlatePants fromPacket:)
+$75b4: (BContainer fromPacket:)
+$419c: (MaleWarrior fromPacket:)
+$7dd1: (GSNewRoomScript handleMsg:)
+$33f6: (List eachElementDo:)
+$332c: (GameServer handleMsg:)
+$3904: (NetMsgProcessor processMsg:)
+$3904: (NetMsgProcessor handleMsg:)
+$03f0: (NetUser doit:)
+$039f: (RoomMgr doit:)
+$031b: (Game doit:)
+$0047: (RoomZero doit:)
+Out of available handles.
+-----------------------------------------------------
+
+login name : bl9fblnt
+version    : 3.451
+time       : Mon Apr 23 21:58:36 2018
+-----------------------------------------------------
+BETA Version 40
+$0074: (Obj new:)
+$00d7: (LongInt new:)
+$03ee: (curNetMsg getLong:)
+$5574: (MovieChangeHealth fromPacket:)
+$332c: (GameServer handleMsg:)
+$3904: (NetMsgProcessor processMsg:)
+$3904: (NetMsgProcessor handleMsg:)
+$03f0: (NetUser doit:)
+$039f: (RoomMgr doit:)
+$031b: (Game doit:)
+$0047: (RoomZero doit:)
+Out of available handles.
+-----------------------------------------------------
+
+login name : stone
+version    : 3.451
+time       : Mon Apr 23 22:12:34 2018
+-----------------------------------------------------
+BETA Version 40
+$00ba: (WorldObject new:)
+$4be0: (GSNewRoomScript handleMsg:)
+$33f6: (List eachElementDo:)
+$332c: (GameServer handleMsg:)
+$3904: (NetMsgProcessor processMsg:)
+$3904: (NetMsgProcessor handleMsg:)
+$03f0: (NetUser doit:)
+$039f: (RoomMgr doit:)
+$031b: (Game doit:)
+$0047: (RoomZero doit:)
+Out of available handles.
+-----------------------------------------------------
+
+login name : 52zuosdu
+version    : 3.451
+time       : Mon Apr 23 23:03:42 2018
+-----------------------------------------------------
+BETA Version 40
+$0074: (Obj new:)
+$00d7: (LongInt new:)
+$332c: (GameServer add:)
+$6073: (Baldric addToServer:)
+$6073: (Baldric fromPacket:)
+$46df: (BContainer fromPacket:)
+$5fe5: (BackPack fromPacket:)
+$0782: (GSNewRoomScript handleMsg:)
+$33f6: (List eachElementDo:)
+$332c: (GameServer handleMsg:)
+$3904: (NetMsgProcessor processMsg:)
+$3904: (NetMsgProcessor handleMsg:)
+$03f0: (NetUser doit:)
+$039f: (RoomMgr doit:)
+$031b: (Game doit:)
+$0047: (RoomZero doit:)
+Out of available handles.
+-----------------------------------------------------
+
+login name : bl9fblnt
+version    : 3.451
+time       : Tue Apr 24 00:28:02 2018
+-----------------------------------------------------
+BETA Version 40
+$3df1: (Scaler new:)
+$13e6: (WorldObject matchScaler:)
+$13e6: (WorldObject init:)
+$13e6: (WorldObject fromPacket:)
+$7144: (BContainer fromPacket:)
+$5f64: (BackPack fromPacket:)
+$5336: (GSNewRoomScript handleMsg:)
+$33f6: (List eachElementDo:)
+$332c: (GameServer handleMsg:)
+$3904: (NetMsgProcessor processMsg:)
+$3904: (NetMsgProcessor handleMsg:)
+$03f0: (NetUser doit:)
+$039f: (RoomMgr doit:)
+$031b: (Game doit:)
+$0047: (RoomZero doit:)
+Out of available handles.
+-----------------------------------------------------
+
+login name : stone
+version    : 3.451
+time       : Tue Apr 24 09:04:49 2018
+-----------------------------------------------------
+BETA Version 40
+$006b: (List new:)
+$098a: (MovieChangeHealth new:)
+$332c: (GameServer handleMsg:)
+$3904: (NetMsgProcessor processMsg:)
+$3904: (NetMsgProcessor handleMsg:)
+$03f0: (NetUser doit:)
+$039f: (RoomMgr doit:)
+$031b: (Game doit:)
+$0047: (RoomZero doit:)
+Out of available handles.
+-----------------------------------------------------
+
+login name : heed
+version    : 3.451
+time       : Tue Apr 24 10:17:42 2018
+-----------------------------------------------------
+BETA Version 40
+$6331: (Scaler new:)
+$532c: (CandyHeal matchScaler:)
+$532c: (CandyHeal addToRoom:)
+$7ac1: (List eachElementDo:)
+$757c: (GSNewRoomScript changeState:)
+$757c: (GSNewRoomScript cue:)
+$757c: (GSNewRoomScript doit:)
+$33f6: (List eachElementDo:)
+$332c: (GameServer doit:)
+$03f0: (NetUser doit:)
+$039f: (RoomMgr doit:)
+$031b: (Game doit:)
+$0047: (RoomZero doit:)
+Out of available handles.
+-----------------------------------------------------
+
+login name : bgv582
+version    : 3.451
+time       : Tue Apr 24 10:30:04 2018
+-----------------------------------------------------
+BETA Version 40
+$0074: (Obj new:)
+$00d7: (LongInt new:)
+$03ee: (curNetMsg getLong:)
+$4ede: (MovieAttack fromPacket:)
+$332c: (GameServer handleMsg:)
+$3904: (NetMsgProcessor processMsg:)
+$3904: (NetMsgProcessor handleMsg:)
+$03f0: (NetUser doit:)
+$039f: (RoomMgr doit:)
+$031b: (Game doit:)
+$0047: (RoomZero doit:)
+Out of available handles.
+BETA Version 40
+$0074: (Obj new:)
+$00d7: (LongInt new:)
+$03e9: (curNetMsg getLong:)
+$13b7: (MovieChangeHealth fromPacket:)
+$3327: (GameServer handleMsg:)
+$3904: (NetMsgProcessor processMsg:)
+$3904: (NetMsgProcessor handleMsg:)
+$03eb: (NetUser doit:)
+$039a: (RoomMgr doit:)
+$031b: (Game doit:)
+$0047: (RoomZero doit:)
+Out of available handles.
+-----------------------------------------------------
+
+login name : hv0kpgah
+version    : 3.451
+time       : Tue Apr 24 12:10:45 2018
+-----------------------------------------------------
+BETA Version 40
+$43a1: (ActionQueue cue:)
+$702d: (MovieChangeHealth dispose:)
+$0047: (RoomZero doit:)
+Reference to handle 0x76df is not valid.
+script 40201, ip 0x13
+-----------------------------------------------------
+
+login name : heed1
+version    : 3.451
+time       : Tue Apr 24 12:19:43 2018
+-----------------------------------------------------
+BETA Version 40
+$0074: (Obj new:)
+$00d7: (LongInt new:)
+$03ee: (curNetMsg getLong:)
+$6de8: (MovieText fromPacket:)
+$332c: (GameServer handleMsg:)
+$3904: (NetMsgProcessor processMsg:)
+$3904: (NetMsgProcessor handleMsg:)
+$03f0: (NetUser doit:)
+$039f: (RoomMgr doit:)
+$031b: (Game doit:)
+$0047: (RoomZero doit:)
+Out of available handles.
+-----------------------------------------------------
+
+login name : b21a400f
+version    : 3.451
+time       : Tue Apr 24 12:55:41 2018
+-----------------------------------------------------
+BETA Version 40
+$6c8c: (NetRoom addPolygon:)
+$565a: (GreenCrystalD submitPolygon:)
+$565a: (GreenCrystalD addToRoom:)
+$07d4: (List eachElementDo:)
+$76a5: (GSShiftRoomScript changeState:)
+$76a5: (GSShiftRoomScript cue:)
+$76a5: (GSShiftRoomScript doit:)
+$33f6: (List eachElementDo:)
+$332c: (GameServer doit:)
+$03f0: (NetUser doit:)
+$039f: (RoomMgr doit:)
+$031b: (Game doit:)
+$0047: (RoomZero doit:)
+Out of available handles.
+-----------------------------------------------------
+
+login name : hv0kpgah
+version    : 3.451
+time       : Tue Apr 24 13:03:57 2018
+-----------------------------------------------------
+BETA Version 40
+$0074: (Obj new:)
+$00d7: (LongInt new:)
+$04c8: (MovieAttack addDependency:)
+$04c8: (MovieAttack init:)
+$04c8: (MovieAttack fromPacket:)
+$332c: (GameServer handleMsg:)
+$3904: (NetMsgProcessor processMsg:)
+$3904: (NetMsgProcessor handleMsg:)
+$03f0: (NetUser doit:)
+$039f: (RoomMgr doit:)
+$031b: (Game doit:)
+$0047: (RoomZero doit:)
+Out of available handles.
+BETA Version 40
+$0074: (Obj new:)
+$00d7: (LongInt new:)
+$3dd1: (MovieChangeHealth addDependency:)
+$3dd1: (MovieChangeHealth init:)
+$3dd1: (MovieChangeHealth fromPacket:)
+$332c: (GameServer handleMsg:)
+$3904: (NetMsgProcessor processMsg:)
+$3904: (NetMsgProcessor handleMsg:)
+$03f0: (NetUser doit:)
+$039f: (RoomMgr doit:)
+$031b: (Game doit:)
+$0047: (RoomZero doit:)
+Out of available handles.
+BETA Version 40
+$006b: (List new:)
+$098a: (MovieChangeHealth new:)
+$332c: (GameServer handleMsg:)
+$3904: (NetMsgProcessor processMsg:)
+$3904: (NetMsgProcessor handleMsg:)
+$03f0: (NetUser doit:)
+$039f: (RoomMgr doit:)
+$031b: (Game doit:)
+$0047: (RoomZero doit:)
+Out of available handles.
+-----------------------------------------------------
+
+login name : 2dmvcqv0
+version    : 3.451
+time       : Tue Apr 24 14:12:57 2018
+-----------------------------------------------------
+BETA Version 40
+$006b: (List new:)
+$097c: (MovieInfo new:)
+$332c: (GameServer handleMsg:)
+$3904: (NetMsgProcessor processMsg:)
+$3904: (NetMsgProcessor handleMsg:)
+$03f0: (NetUser doit:)
+$039f: (RoomMgr doit:)
+$031b: (Game doit:)
+$0047: (RoomZero doit:)
+Out of available handles.
+BETA Version 40
+$0074: (Obj new:)
+$00d7: (LongInt new:)
+$71ac: (MovieChangeHealth addDependency:)
+$332c: (GameServer handleMsg:)
+$3904: (NetMsgProcessor processMsg:)
+$3904: (NetMsgProcessor handleMsg:)
+$03f0: (NetUser doit:)
+$039f: (RoomMgr doit:)
+$031b: (Game doit:)
+$0047: (RoomZero doit:)
+Out of available handles.
+-----------------------------------------------------
+
+login name : killer
+version    : 3.451
+time       : Tue Apr 24 14:39:10 2018
+-----------------------------------------------------
+BETA Version 40
+$0074: (Obj new:)
+$00d7: (LongInt new:)
+$3f6f: (MovieChangeHealth addDependency:)
+$3f6f: (MovieChangeHealth init:)
+$3f6f: (MovieChangeHealth fromPacket:)
+$332c: (GameServer handleMsg:)
+$3904: (NetMsgProcessor processMsg:)
+$3904: (NetMsgProcessor handleMsg:)
+$03f0: (NetUser doit:)
+$039f: (RoomMgr doit:)
+$031b: (Game doit:)
+$0047: (RoomZero doit:)
+Out of available handles.
+BETA Version 40
+$006b: (List new:)
+$0970: (MovieAttack new:)
+$332c: (GameServer handleMsg:)
+$3904: (NetMsgProcessor processMsg:)
+$3904: (NetMsgProcessor handleMsg:)
+$03f0: (NetUser doit:)
+$039f: (RoomMgr doit:)
+$031b: (Game doit:)
+$0047: (RoomZero doit:)
+Out of available handles.
+-----------------------------------------------------
+
+login name : t7rnsei0
+version    : 3.451
+time       : Tue Apr 24 15:21:45 2018
+-----------------------------------------------------
+BETA Version 40
+$0074: (Obj new:)
+$00d7: (LongInt new:)
+$03ee: (curNetMsg getLong:)
+$779c: (MovieChangeHealth fromPacket:)
+$332c: (GameServer handleMsg:)
+$3904: (NetMsgProcessor processMsg:)
+$3904: (NetMsgProcessor handleMsg:)
+$03f0: (NetUser doit:)
+$039f: (RoomMgr doit:)
+$031b: (Game doit:)
+$0047: (RoomZero doit:)
+Out of available handles.
+-----------------------------------------------------
+
+login name : 2dmvcqv0
+version    : 3.451
+time       : Tue Apr 24 16:47:25 2018
+-----------------------------------------------------
+BETA Version 40
+$0074: (Obj new:)
+$00d7: (LongInt new:)
+$6659: (MovieChangeHealth addDependency:)
+$332c: (GameServer handleMsg:)
+$3904: (NetMsgProcessor processMsg:)
+$3904: (NetMsgProcessor handleMsg:)
+$03f0: (NetUser doit:)
+$039f: (RoomMgr doit:)
+$031b: (Game doit:)
+$0047: (RoomZero doit:)
+Out of available handles.
+-----------------------------------------------------
+
+login name : 59084c3f
+version    : 3.451
+time       : Tue Apr 24 17:48:02 2018
+-----------------------------------------------------
+BETA Version 40
+$0b88: (SESinglePoisonBolt new:)
+$55db: (SEPoisonBolt changeState:)
+$009d: (Script init:)
+$009e: (DemonsScript init:)
+$0b15: (SpecialEffect init:)
+$55db: (SEPoisonBolt init:)
+$58dd: (MovieSpecialEffect process:)
+$5a30: (ActionQueue cue:)
+$0956: (MovieCmd dispose:)
+$0e7a: (MovieText dispose:)
+$0047: (RoomZero doit:)
+Out of available handles.
+-----------------------------------------------------
+
+login name : stone
+version    : 3.451
+time       : Tue Apr 24 18:08:15 2018
+-----------------------------------------------------
+BETA Version 40
+$0074: (Obj new:)
+$00d7: (LongInt new:)
+$6bc1: (MovieChangeHealth addDependency:)
+$6bc1: (MovieChangeHealth init:)
+$6bc1: (MovieChangeHealth fromPacket:)
+$332c: (GameServer handleMsg:)
+$3904: (NetMsgProcessor processMsg:)
+$3904: (NetMsgProcessor handleMsg:)
+$03f0: (NetUser doit:)
+$039f: (RoomMgr doit:)
+$031b: (Game doit:)
+$0047: (RoomZero doit:)
+Out of available handles.
+-----------------------------------------------------
+
+login name : 52zuosdu
+version    : 3.451
+time       : Tue Apr 24 18:08:22 2018
+-----------------------------------------------------
+BETA Version 40
+$5340: (MaleAdventurer updateDisplay:)
+$5340: (MaleAdventurer inheritClut:)
+$3c27: (BWearable bePutOn:)
+$7d8f: (Robe perform:)
+$7d8f: (Robe bePutOn:)
+$7d8f: (Robe fromPacket:)
+$5446: (BContainer fromPacket:)
+$5340: (MaleAdventurer fromPacket:)
+$12e8: (GSNewRoomScript handleMsg:)
+$33f6: (List eachElementDo:)
+$332c: (GameServer handleMsg:)
+$3904: (NetMsgProcessor processMsg:)
+$3904: (NetMsgProcessor handleMsg:)
+$03f0: (NetUser doit:)
+$039f: (RoomMgr doit:)
+$031b: (Game doit:)
+$0047: (RoomZero doit:)
+Out of available handles.
+-----------------------------------------------------
+
+login name : 33f07f
+version    : 3.451
+time       : Tue Apr 24 18:14:14 2018
+-----------------------------------------------------
+BETA Version 40
+$0074: (Obj new:)
+$006b: (List new:)
+$0970: (MovieAttack new:)
+$332c: (GameServer handleMsg:)
+$3904: (NetMsgProcessor processMsg:)
+$3904: (NetMsgProcessor handleMsg:)
+$03f0: (NetUser doit:)
+$039f: (RoomMgr doit:)
+$031b: (Game doit:)
+$0047: (RoomZero doit:)
+Out of available handles.
+-----------------------------------------------------
+
+login name : 9e097a24
+version    : 3.451
+time       : Tue Apr 24 20:50:20 2018
+-----------------------------------------------------
+BETA Version 40
+$0074: (Obj new:)
+$02f6: (Str new:)
+$510d: (TwoHandSword fromPacket:)
+$7e6b: (GSNewRoomScript handleMsg:)
+$33f6: (List eachElementDo:)
+$332c: (GameServer handleMsg:)
+$3904: (NetMsgProcessor processMsg:)
+$3904: (NetMsgProcessor handleMsg:)
+$03f0: (NetUser doit:)
+$039f: (RoomMgr doit:)
+$031b: (Game doit:)
+$0047: (RoomZero doit:)
+Out of available handles.
+-----------------------------------------------------
+
+login name : extrinsic1
+version    : 3.451
+time       : Tue Apr 24 21:34:57 2018
+-----------------------------------------------------
+BETA Version 40
+$006b: (List new:)
+$098a: (MovieChangeHealth new:)
+$332c: (GameServer handleMsg:)
+$3904: (NetMsgProcessor processMsg:)
+$3904: (NetMsgProcessor handleMsg:)
+$03f0: (NetUser doit:)
+$039f: (RoomMgr doit:)
+$031b: (Game doit:)
+$0047: (RoomZero doit:)
+Out of available handles.
+-----------------------------------------------------
+
+login name : d9c50b
+version    : 3.451
+time       : Tue Apr 24 21:39:17 2018
+-----------------------------------------------------
+BETA Version 40
+$03cd: (scratchList release:)
+$03d0: (ActionQMgr addAction:)
+$332c: (GameServer handleMsg:)
+$3904: (NetMsgProcessor processMsg:)
+$3904: (NetMsgProcessor handleMsg:)
+$03f0: (NetUser doit:)
+$039f: (RoomMgr doit:)
+$031b: (Game doit:)
+$0047: (RoomZero doit:)
+Out of available handles.
+BETA Version 40
+$0401: (PackedData getString:)
+$03ee: (curNetMsg getString:)
+$4f90: (MovieInfo fromPacket:)
+$332c: (GameServer handleMsg:)
+$3904: (NetMsgProcessor processMsg:)
+$3904: (NetMsgProcessor handleMsg:)
+$03f0: (NetUser doit:)
+$039f: (RoomMgr doit:)
+$031b: (Game doit:)
+$0047: (RoomZero doit:)
+Out of available handles.
+-----------------------------------------------------
+
+login name : yid7uixp
+version    : 3.451
+time       : Tue Apr 24 21:48:05 2018
+-----------------------------------------------------
+BETA Version 40
+$03cd: (scratchList release:)
+$03d0: (ActionQMgr addAction:)
+$332c: (GameServer handleMsg:)
+$3904: (NetMsgProcessor processMsg:)
+$3904: (NetMsgProcessor handleMsg:)
+$03f0: (NetUser doit:)
+$039f: (RoomMgr doit:)
+$031b: (Game doit:)
+$0047: (RoomZero doit:)
+Out of available handles.
+-----------------------------------------------------
+
+login name : 33f07f
+version    : 3.451
+time       : Tue Apr 24 22:52:05 2018
+-----------------------------------------------------
+BETA Version 40
+$006b: (List new:)
+$098a: (MovieChangeHealth new:)
+$332c: (GameServer handleMsg:)
+$3904: (NetMsgProcessor processMsg:)
+$3904: (NetMsgProcessor handleMsg:)
+$03f0: (NetUser doit:)
+$039f: (RoomMgr doit:)
+$031b: (Game doit:)
+$0047: (RoomZero doit:)
+Out of available handles.
+-----------------------------------------------------
+
+login name : extrinsic1
+version    : 3.451
+time       : Tue Apr 24 22:59:08 2018
+-----------------------------------------------------
+BETA Version 40
+$0074: (Obj new:)
+$00d7: (LongInt new:)
+$651a: (MovieChangeHealth addDependency:)
+$651a: (MovieChangeHealth init:)
+$651a: (MovieChangeHealth fromPacket:)
+$332c: (GameServer handleMsg:)
+$3904: (NetMsgProcessor processMsg:)
+$3904: (NetMsgProcessor handleMsg:)
+$03f0: (NetUser doit:)
+$039f: (RoomMgr doit:)
+$031b: (Game doit:)
+$0047: (RoomZero doit:)
+Out of available handles.
+-----------------------------------------------------
+
+login name : d9c50b
+version    : 3.451
+time       : Tue Apr 24 22:59:31 2018
+-----------------------------------------------------
+BETA Version 40
+$006b: (List new:)
+$097c: (MovieInfo new:)
+$332c: (GameServer handleMsg:)
+$3904: (NetMsgProcessor processMsg:)
+$3904: (NetMsgProcessor handleMsg:)
+$03f0: (NetUser doit:)
+$039f: (RoomMgr doit:)
+$031b: (Game doit:)
+$0047: (RoomZero doit:)
+Out of available handles.
+-----------------------------------------------------
+
+login name : 33f07f
+version    : 3.451
+time       : Tue Apr 24 23:20:09 2018
+-----------------------------------------------------
+BETA Version 40
+$03cd: (scratchList release:)
+$03d0: (ActionQMgr addAction:)
+$332c: (GameServer handleMsg:)
+$3904: (NetMsgProcessor processMsg:)
+$3904: (NetMsgProcessor handleMsg:)
+$03f0: (NetUser doit:)
+$039f: (RoomMgr doit:)
+$031b: (Game doit:)
+$0047: (RoomZero doit:)
+Out of available handles.
+-----------------------------------------------------
+
+login name : d9c50b
+version    : 3.451
+time       : Tue Apr 24 23:26:15 2018
+-----------------------------------------------------
+BETA Version 40
+$0074: (Obj new:)
+$00d7: (LongInt new:)
+$665a: (MovieInfo addDependency:)
+$332c: (GameServer handleMsg:)
+$3904: (NetMsgProcessor processMsg:)
+$3904: (NetMsgProcessor handleMsg:)
+$03f0: (NetUser doit:)
+$039f: (RoomMgr doit:)
+$031b: (Game doit:)
+$0047: (RoomZero doit:)
+Out of available handles.
+-----------------------------------------------------
+
+login name : herc
+version    : 3.451
+time       : Tue Apr 24 23:26:40 2018
+-----------------------------------------------------
+BETA Version 40
+$0074: (Obj new:)
+$00d7: (LongInt new:)
+$4288: (MovieAttack addDependency:)
+$332c: (GameServer handleMsg:)
+$3904: (NetMsgProcessor processMsg:)
+$3904: (NetMsgProcessor handleMsg:)
+$03f0: (NetUser doit:)
+$039f: (RoomMgr doit:)
+$031b: (Game doit:)
+$0047: (RoomZero doit:)
+Out of available handles.
+-----------------------------------------------------
+
+login name : d9c50b
+version    : 3.451
+time       : Tue Apr 24 23:53:26 2018
+-----------------------------------------------------
+BETA Version 40
+$0401: (PackedData getString:)
+$03ee: (curNetMsg getString:)
+$56ad: (MovieText fromPacket:)
+$332c: (GameServer handleMsg:)
+$3904: (NetMsgProcessor processMsg:)
+$3904: (NetMsgProcessor handleMsg:)
+$03f0: (NetUser doit:)
+$039f: (RoomMgr doit:)
+$031b: (Game doit:)
+$0047: (RoomZero doit:)
+Out of available handles.
+-----------------------------------------------------
+
+login name : herc
+version    : 3.451
+time       : Wed Apr 25 00:14:25 2018
+-----------------------------------------------------
+BETA Version 40
+$35c0: (MaleAdventurer updateDisplay:)
+$35c0: (MaleAdventurer setVisible:)
+$35c0: (MaleAdventurer setAffectedState:)
+$35c0: (MaleAdventurer fromPacket:)
+$5848: (GSNewRoomScript handleMsg:)
+$33f6: (List eachElementDo:)
+$332c: (GameServer handleMsg:)
+$3904: (NetMsgProcessor processMsg:)
+$3904: (NetMsgProcessor handleMsg:)
+$03f0: (NetUser doit:)
+$039f: (RoomMgr doit:)
+$031b: (Game doit:)
+$0047: (RoomZero doit:)
+Out of available handles.
+-----------------------------------------------------
+
+login name : d9c50b
+version    : 3.451
+time       : Wed Apr 25 01:03:17 2018
+-----------------------------------------------------
+BETA Version 40
+$0074: (Obj new:)
+$00d7: (LongInt new:)
+$6d57: (MovieChangeHealth addDependency:)
+$6d57: (MovieChangeHealth init:)
+$6d57: (MovieChangeHealth fromPacket:)
+$332c: (GameServer handleMsg:)
+$3904: (NetMsgProcessor processMsg:)
+$3904: (NetMsgProcessor handleMsg:)
+$03f0: (NetUser doit:)
+$039f: (RoomMgr doit:)
+$031b: (Game doit:)
+$0047: (RoomZero doit:)
+Out of available handles.
+-----------------------------------------------------
+
+login name : 33f07f
+version    : 3.451
+time       : Wed Apr 25 01:06:48 2018
+-----------------------------------------------------
+BETA Version 40
+$0074: (Obj new:)
+$00d7: (LongInt new:)
+$73a6: (MovieChangeHealth addDependency:)
+$332c: (GameServer handleMsg:)
+$3904: (NetMsgProcessor processMsg:)
+$3904: (NetMsgProcessor handleMsg:)
+$03f0: (NetUser doit:)
+$039f: (RoomMgr doit:)
+$031b: (Game doit:)
+$0047: (RoomZero doit:)
+Out of available handles.
+-----------------------------------------------------
+
+login name : 246f7c 
+version    : 3.451
+time       : Wed Apr 25 01:14:18 2018
+-----------------------------------------------------
+BETA Version 40
+$00ba: (WorldObject new:)
+$1040: (BContainer fromPacket:)
+$7225: (SoldierN fromPacket:)
+$7c5c: (GSShiftRoomScript handleMsg:)
+$33f6: (List eachElementDo:)
+$332c: (GameServer handleMsg:)
+$3904: (NetMsgProcessor processMsg:)
+$3904: (NetMsgProcessor handleMsg:)
+$03f0: (NetUser doit:)
+$039f: (RoomMgr doit:)
+$031b: (Game doit:)
+$0047: (RoomZero doit:)
+Out of available handles.
+-----------------------------------------------------
+
+login name : e5e80a
+version    : 3.451
+time       : Wed Apr 25 01:17:19 2018
+-----------------------------------------------------
+BETA Version 40
+$0074: (Obj new:)
+$00d7: (LongInt new:)
+$03ee: (curNetMsg getLong:)
+$6f97: (MovieAttack fromPacket:)
+$332c: (GameServer handleMsg:)
+$3904: (NetMsgProcessor processMsg:)
+$3904: (NetMsgProcessor handleMsg:)
+$03f0: (NetUser doit:)
+$039f: (RoomMgr doit:)
+$031b: (Game doit:)
+$0047: (RoomZero doit:)
+Out of available handles.
+-----------------------------------------------------
+
+login name : 2a70ae
+version    : 3.451
+time       : Wed Apr 25 01:43:24 2018
+-----------------------------------------------------
+BETA Version 40
+$0074: (Obj new:)
+$00d7: (LongInt new:)
+$03ee: (curNetMsg getLong:)
+$7232: (MovieText fromPacket:)
+$332c: (GameServer handleMsg:)
+$3904: (NetMsgProcessor processMsg:)
+$3904: (NetMsgProcessor handleMsg:)
+$03f0: (NetUser doit:)
+$039f: (RoomMgr doit:)
+$031b: (Game doit:)
+$0047: (RoomZero doit:)
+Out of available handles.
+-----------------------------------------------------
+
+login name : 33f07f
+version    : 3.451
+time       : Wed Apr 25 02:00:34 2018
+-----------------------------------------------------
+BETA Version 40
+$0074: (Obj new:)
+$00d7: (LongInt new:)
+$69c4: (MovieChangeHealth addDependency:)
+$69c4: (MovieChangeHealth init:)
+$69c4: (MovieChangeHealth fromPacket:)
+$332c: (GameServer handleMsg:)
+$3904: (NetMsgProcessor processMsg:)
+$3904: (NetMsgProcessor handleMsg:)
+$03f0: (NetUser doit:)
+$039f: (RoomMgr doit:)
+$031b: (Game doit:)
+$0047: (RoomZero doit:)
+Out of available handles.
+-----------------------------------------------------
+
+login name : stone
+version    : 3.451
+time       : Wed Apr 25 04:15:59 2018
+-----------------------------------------------------
+BETA Version 40
+$1603: (BHead generateBitmap:)
+$1603: (BHead updateBitmaps:)
+$1603: (BHead calcViews:)
+$1603: (BHead fromPacket:)
+$7c8c: (Head fromPacket:)
+$519a: (BContainer fromPacket:)
+$150d: (MaleWarrior fromPacket:)
+$36dd: (GSShiftRoomScript handleMsg:)
+$33f6: (List eachElementDo:)
+$332c: (GameServer handleMsg:)
+$3904: (NetMsgProcessor processMsg:)
+$3904: (NetMsgProcessor handleMsg:)
+$03f0: (NetUser doit:)
+$039f: (RoomMgr doit:)
+$031b: (Game doit:)
+$0047: (RoomZero doit:)
+Out of available handles.
+-----------------------------------------------------
+
+login name : heed2
+version    : 3.451
+time       : Wed Apr 25 06:54:10 2018
+-----------------------------------------------------
+BETA Version 40
+$0074: (Obj new:)
+$00d7: (LongInt new:)
+$03ee: (curNetMsg getLong:)
+$07d6: (MovieChangeHealth fromPacket:)
+$332c: (GameServer handleMsg:)
+$3904: (NetMsgProcessor processMsg:)
+$3904: (NetMsgProcessor handleMsg:)
+$03f0: (NetUser doit:)
+$039f: (RoomMgr doit:)
+$031b: (Game doit:)
+$0047: (RoomZero doit:)
+Out of available handles.
+-----------------------------------------------------
+
+login name : stone
+version    : 3.451
+time       : Thu Apr 26 16:30:00 2018
+-----------------------------------------------------
+BETA Version 40
+$03cd: (scratchList release:)
+$03d0: (ActionQMgr addAction:)
+$332c: (GameServer handleMsg:)
+$3904: (NetMsgProcessor processMsg:)
+$3904: (NetMsgProcessor handleMsg:)
+$03f0: (NetUser doit:)
+$039f: (RoomMgr doit:)
+$031b: (Game doit:)
+$0047: (RoomZero doit:)
+Out of available handles.
+-----------------------------------------------------
+
+login name : heed
+version    : 3.451
+time       : Thu Apr 26 16:36:35 2018
+-----------------------------------------------------
+BETA Version 40
+$03cd: (scratchList release:)
+$03d0: (ActionQMgr addAction:)
+$332c: (GameServer handleMsg:)
+$3904: (NetMsgProcessor processMsg:)
+$3904: (NetMsgProcessor handleMsg:)
+$03f0: (NetUser doit:)
+$039f: (RoomMgr doit:)
+$031b: (Game doit:)
+$0047: (RoomZero doit:)
+Out of available handles.
+-----------------------------------------------------
+
+login name : fskbeg47
+version    : 3.451
+time       : Thu Apr 26 17:24:56 2018
+-----------------------------------------------------
+BETA Version 40
+$0074: (Obj new:)
+$00d7: (LongInt new:)
+$69fc: (MovieText addDependency:)
+$332c: (GameServer handleMsg:)
+$3904: (NetMsgProcessor processMsg:)
+$3904: (NetMsgProcessor handleMsg:)
+$03f0: (NetUser doit:)
+$039f: (RoomMgr doit:)
+$031b: (Game doit:)
+$0047: (RoomZero doit:)
+Out of available handles.
+-----------------------------------------------------
+
+login name : 10cf72a9
+version    : 3.451
+time       : Thu Apr 26 17:52:17 2018
+-----------------------------------------------------
+BETA Version 40
+$0074: (Obj new:)
+$00d7: (LongInt new:)
+$401f: (MovieCombatExit addDependency:)
+$401f: (MovieCombatExit init:)
+$401f: (MovieCombatExit fromPacket:)
+$332c: (GameServer handleMsg:)
+$3904: (NetMsgProcessor processMsg:)
+$3904: (NetMsgProcessor handleMsg:)
+$03f0: (NetUser doit:)
+$039f: (RoomMgr doit:)
+$031b: (Game doit:)
+$0047: (RoomZero doit:)
+Out of available handles.
+-----------------------------------------------------
+
+login name : 59084c3f
+version    : 3.451
+time       : Thu Apr 26 18:14:06 2018
+-----------------------------------------------------
+BETA Version 40
+$4776: (MovieChangeHealth process:)
+$6527: (ActionQueue cue:)
+$525d: (MovieInfo dispose:)
+$0047: (RoomZero doit:)
+Reference to handle 0x4a56 is not valid.
+script 40101, ip 0x29
+-----------------------------------------------------
+
+login name : lh21kg2e
+version    : 3.451
+time       : Thu Apr 26 19:25:39 2018
+-----------------------------------------------------
+BETA Version 40
+$390d: (Scaler new:)
+$413e: (LongSword matchScaler:)
+$413e: (LongSword addToRoom:)
+$7ce0: (List eachElementDo:)
+$75d5: (GSNewRoomScript changeState:)
+$75d5: (GSNewRoomScript cue:)
+$75d5: (GSNewRoomScript doit:)
+$33f6: (List eachElementDo:)
+$332c: (GameServer doit:)
+$03f0: (NetUser doit:)
+$039f: (RoomMgr doit:)
+$031b: (Game doit:)
+$0047: (RoomZero doit:)
+Out of available handles.
+-----------------------------------------------------
+
+login name : 33f07f
+version    : 3.451
+time       : Thu Apr 26 22:45:59 2018
+-----------------------------------------------------
+BETA Version 40
+$0b9e: (SESingleAcidSphere new:)
+$3925: (SEAcidSphere changeState:)
+$009d: (Script init:)
+$009e: (DemonsScript init:)
+$0b15: (SpecialEffect init:)
+$0b17: (SpecialEffectSourceTarget init:)
+$3925: (SEAcidSphere init:)
+$4896: (MovieSpecialEffect process:)
+$5d75: (ActionQueue cue:)
+$0956: (MovieCmd dispose:)
+$4db9: (MovieText dispose:)
+$0047: (RoomZero doit:)
+Out of available handles.
+-----------------------------------------------------
+
+login name : extrinsic1
+version    : 3.451
+time       : Thu Apr 26 23:01:21 2018
+-----------------------------------------------------
+BETA Version 40
+$02f6: (Str with:)
+$7df8: (MaleWizard fromPacket:)
+$7374: (GSShiftRoomScript handleMsg:)
+$33f6: (List eachElementDo:)
+$332c: (GameServer handleMsg:)
+$3904: (NetMsgProcessor processMsg:)
+$3904: (NetMsgProcessor handleMsg:)
+$03f0: (NetUser doit:)
+$039f: (RoomMgr doit:)
+$031b: (Game doit:)
+$0047: (RoomZero doit:)
+Out of available handles.
+-----------------------------------------------------
+
+login name : 35rr78bc
+version    : 3.451
+time       : Fri Apr 27 00:03:36 2018
+-----------------------------------------------------
+BETA Version 40
+$5a31: (AdmantiumLongSword updateDisplay:)
+$5a31: (AdmantiumLongSword setVisible:)
+$5a31: (AdmantiumLongSword setAffectedState:)
+$5a31: (AdmantiumLongSword fromPacket:)
+$11fd: (BContainer fromPacket:)
+$68ed: (BackPack fromPacket:)
+$79f4: (GSNewRoomScript handleMsg:)
+$33f6: (List eachElementDo:)
+$332c: (GameServer handleMsg:)
+$3904: (NetMsgProcessor processMsg:)
+$3904: (NetMsgProcessor handleMsg:)
+$03f0: (NetUser doit:)
+$039f: (RoomMgr doit:)
+$031b: (Game doit:)
+$0047: (RoomZero doit:)
+Out of available handles.
+-----------------------------------------------------
+
+login name : 33f07f
+version    : 3.451
+time       : Fri Apr 27 00:03:43 2018
+-----------------------------------------------------
+BETA Version 40
+$0074: (Obj new:)
+$00d7: (LongInt new:)
+$0f60: (MovieAttack addDependency:)
+$0f60: (MovieAttack init:)
+$0f60: (MovieAttack fromPacket:)
+$332c: (GameServer handleMsg:)
+$3904: (NetMsgProcessor processMsg:)
+$3904: (NetMsgProcessor handleMsg:)
+$03f0: (NetUser doit:)
+$039f: (RoomMgr doit:)
+$031b: (Game doit:)
+$0047: (RoomZero doit:)
+Out of available handles.
+-----------------------------------------------------
+
+login name : extrinsic1
+version    : 3.451
+time       : Fri Apr 27 00:11:51 2018
+-----------------------------------------------------
+BETA Version 40
+$0074: (Obj new:)
+$00d7: (LongInt new:)
+$03ee: (curNetMsg getLong:)
+$5b55: (MovieAttack fromPacket:)
+$332c: (GameServer handleMsg:)
+$3904: (NetMsgProcessor processMsg:)
+$3904: (NetMsgProcessor handleMsg:)
+$03f0: (NetUser doit:)
+$039f: (RoomMgr doit:)
+$031b: (Game doit:)
+$0047: (RoomZero doit:)
+Out of available handles.
+-----------------------------------------------------
+
+login name : 2a70ae
+version    : 3.451
+time       : Fri Apr 27 00:59:57 2018
+-----------------------------------------------------
+BETA Version 40
+$006b: (List new:)
+$098a: (MovieChangeHealth new:)
+$332c: (GameServer handleMsg:)
+$3904: (NetMsgProcessor processMsg:)
+$3904: (NetMsgProcessor handleMsg:)
+$03f0: (NetUser doit:)
+$039f: (RoomMgr doit:)
+$031b: (Game doit:)
+$0047: (RoomZero doit:)
+Out of available handles.
+-----------------------------------------------------
+
+login name : 33f07f
+version    : 3.451
+time       : Fri Apr 27 04:39:53 2018
+-----------------------------------------------------
+BETA Version 40
+$0074: (Obj new:)
+$00d7: (LongInt new:)
+$7e46: (MovieChangeHealth addDependency:)
+$7e46: (MovieChangeHealth init:)
+$7e46: (MovieChangeHealth fromPacket:)
+$332c: (GameServer handleMsg:)
+$3904: (NetMsgProcessor processMsg:)
+$3904: (NetMsgProcessor handleMsg:)
+$03f0: (NetUser doit:)
+$039f: (RoomMgr doit:)
+$031b: (Game doit:)
+$0047: (RoomZero doit:)
+Out of available handles.
+-----------------------------------------------------
+
+login name : 67739368
+version    : 3.451
+time       : Fri Apr 27 12:46:23 2018
+-----------------------------------------------------
+BETA Version 40
+$0074: (Obj new:)
+$00d7: (LongInt new:)
+$7815: (MovieChangeHealth addDependency:)
+$7815: (MovieChangeHealth init:)
+$7815: (MovieChangeHealth fromPacket:)
+$332c: (GameServer handleMsg:)
+$3904: (NetMsgProcessor processMsg:)
+$3904: (NetMsgProcessor handleMsg:)
+$03f0: (NetUser doit:)
+$039f: (RoomMgr doit:)
+$031b: (Game doit:)
+$0047: (RoomZero doit:)
+Out of available handles.
+-----------------------------------------------------
+
+login name : heed
+version    : 3.451
+time       : Fri Apr 27 13:04:49 2018
+-----------------------------------------------------
+BETA Version 40
+$0074: (Obj new:)
+$00d7: (LongInt new:)
+$03ee: (curNetMsg getLong:)
+$5ade: (MovieChangeHealth fromPacket:)
+$332c: (GameServer handleMsg:)
+$3904: (NetMsgProcessor processMsg:)
+$3904: (NetMsgProcessor handleMsg:)
+$03f0: (NetUser doit:)
+$039f: (RoomMgr doit:)
+$031b: (Game doit:)
+$0047: (RoomZero doit:)
+Out of available handles.
+-----------------------------------------------------
+
+login name : bl9fblnt
+version    : 3.451
+time       : Fri Apr 27 22:32:07 2018
+-----------------------------------------------------
+BETA Version 40
+$0074: (Obj new:)
+$00d7: (LongInt new:)
+$03ee: (curNetMsg getLong:)
+$5c1c: (MovieChangeHealth fromPacket:)
+$332c: (GameServer handleMsg:)
+$3904: (NetMsgProcessor processMsg:)
+$3904: (NetMsgProcessor handleMsg:)
+$03f0: (NetUser doit:)
+$039f: (RoomMgr doit:)
+$031b: (Game doit:)
+$0047: (RoomZero doit:)
+Out of available handles.
+-----------------------------------------------------
+
+login name : 2a70ae
+version    : 3.451
+time       : Sat Apr 28 05:00:27 2018
+-----------------------------------------------------
+BETA Version 40
+$00ba: (WorldObject new:)
+$5806: (BContainer fromPacket:)
+$4e6c: (BackPack fromPacket:)
+$4d93: (GSNewRoomScript handleMsg:)
+$33f6: (List eachElementDo:)
+$332c: (GameServer handleMsg:)
+$3904: (NetMsgProcessor processMsg:)
+$3904: (NetMsgProcessor handleMsg:)
+$03f0: (NetUser doit:)
+$039f: (RoomMgr doit:)
+$031b: (Game doit:)
+$0047: (RoomZero doit:)
+Out of available handles.
+-----------------------------------------------------
+
+login name : 33f07f
+version    : 3.451
+time       : Sat Apr 28 05:04:03 2018
+-----------------------------------------------------
+BETA Version 40
+$00ba: (WorldObject new:)
+$5b88: (BContainer fromPacket:)
+$7671: (NPC fromPacket:)
+$115a: (MovieCreateChar process:)
+$4f15: (ActionQueue cue:)
+$0956: (MovieCmd dispose:)
+$3dd6: (MovieCreateChar dispose:)
+$0047: (RoomZero doit:)
+Out of available handles.
+-----------------------------------------------------
+
+login name : heed3
+version    : 3.451
+time       : Sat Apr 28 09:14:31 2018
+-----------------------------------------------------
+BETA Version 40
+$0074: (Obj new:)
+$00d7: (LongInt new:)
+$03ee: (curNetMsg getLong:)
+$403f: (MovieText fromPacket:)
+$332c: (GameServer handleMsg:)
+$3904: (NetMsgProcessor processMsg:)
+$3904: (NetMsgProcessor handleMsg:)
+$03f0: (NetUser doit:)
+$039f: (RoomMgr doit:)
+$031b: (Game doit:)
+$0047: (RoomZero doit:)
+Out of available handles.
+-----------------------------------------------------
+
+login name : heed2
+version    : 3.451
+time       : Sat Apr 28 12:03:55 2018
+-----------------------------------------------------
+BETA Version 40
+$0074: (Obj new:)
+$00d7: (LongInt new:)
+$6ffb: (MovieChangeHealth addDependency:)
+$332c: (GameServer handleMsg:)
+$3904: (NetMsgProcessor processMsg:)
+$3904: (NetMsgProcessor handleMsg:)
+$03f0: (NetUser doit:)
+$039f: (RoomMgr doit:)
+$031b: (Game doit:)
+$0047: (RoomZero doit:)
+Out of available handles.
+-----------------------------------------------------
+
+login name : heed2
+version    : 3.451
+time       : Sat Apr 28 14:44:47 2018
+-----------------------------------------------------
+BETA Version 40
+$03cd: (scratchList release:)
+$03d0: (ActionQMgr addAction:)
+$332c: (GameServer handleMsg:)
+$3904: (NetMsgProcessor processMsg:)
+$3904: (NetMsgProcessor handleMsg:)
+$03f0: (NetUser doit:)
+$039f: (RoomMgr doit:)
+$031b: (Game doit:)
+$0047: (RoomZero doit:)
+Out of available handles.
+-----------------------------------------------------
+
+login name : heed1
+version    : 3.451
+time       : Sat Apr 28 17:15:11 2018
+-----------------------------------------------------
+BETA Version 40
+$0074: (Obj new:)
+$00d7: (LongInt new:)
+$03ee: (curNetMsg getLong:)
+$7bba: (MovieChangeHealth fromPacket:)
+$332c: (GameServer handleMsg:)
+$3904: (NetMsgProcessor processMsg:)
+$3904: (NetMsgProcessor handleMsg:)
+$03f0: (NetUser doit:)
+$039f: (RoomMgr doit:)
+$031b: (Game doit:)
+$0047: (RoomZero doit:)
+Out of available handles.
+-----------------------------------------------------
+
+login name : heed1
+version    : 3.451
+time       : Sat Apr 28 17:57:09 2018
+-----------------------------------------------------
+BETA Version 40
+$03cd: (scratchList release:)
+$03d0: (ActionQMgr addAction:)
+$332c: (GameServer handleMsg:)
+$3904: (NetMsgProcessor processMsg:)
+$3904: (NetMsgProcessor handleMsg:)
+$03f0: (NetUser doit:)
+$039f: (RoomMgr doit:)
+$031b: (Game doit:)
+$0047: (RoomZero doit:)
+Out of available handles.
+BETA Version 40
+$0074: (Obj new:)
+$006b: (List new:)
+$098a: (MovieChangeHealth new:)
+$332c: (GameServer handleMsg:)
+$3904: (NetMsgProcessor processMsg:)
+$3904: (NetMsgProcessor handleMsg:)
+$03f0: (NetUser doit:)
+$039f: (RoomMgr doit:)
+$031b: (Game doit:)
+$0047: (RoomZero doit:)
+Out of available handles.
+-----------------------------------------------------
+
+login name : heed1
+version    : 3.451
+time       : Sat Apr 28 18:29:31 2018
+-----------------------------------------------------
+BETA Version 40
+$03cd: (scratchList release:)
+$03d0: (ActionQMgr addAction:)
+$332c: (GameServer handleMsg:)
+$3904: (NetMsgProcessor processMsg:)
+$3904: (NetMsgProcessor handleMsg:)
+$03f0: (NetUser doit:)
+$039f: (RoomMgr doit:)
+$031b: (Game doit:)
+$0047: (RoomZero doit:)
+Out of available handles.
+-----------------------------------------------------
+
+login name : heed3
+version    : 3.451
+time       : Sat Apr 28 18:55:38 2018
+-----------------------------------------------------
+BETA Version 40
+$0074: (Obj new:)
+$00d7: (LongInt new:)
+$3fc8: (MovieChangeHealth addDependency:)
+$3fc8: (MovieChangeHealth init:)
+$3fc8: (MovieChangeHealth fromPacket:)
+$332c: (GameServer handleMsg:)
+$3904: (NetMsgProcessor processMsg:)
+$3904: (NetMsgProcessor handleMsg:)
+$03f0: (NetUser doit:)
+$039f: (RoomMgr doit:)
+$031b: (Game doit:)
+$0047: (RoomZero doit:)
+Out of available handles.
+BETA Version 40
+$0074: (Obj new:)
+$00d7: (LongInt new:)
+$03ee: (curNetMsg getLong:)
+$5e6a: (MovieText fromPacket:)
+$332c: (GameServer handleMsg:)
+$3904: (NetMsgProcessor processMsg:)
+$3904: (NetMsgProcessor handleMsg:)
+$03f0: (NetUser doit:)
+$039f: (RoomMgr doit:)
+$031b: (Game doit:)
+$0047: (RoomZero doit:)
+Out of available handles.
+-----------------------------------------------------
+
+login name : heed1
+version    : 3.451
+time       : Sun Apr 29 06:26:45 2018
+-----------------------------------------------------
+BETA Version 40
+$006b: (List new:)
+$098a: (MovieChangeHealth new:)
+$332c: (GameServer handleMsg:)
+$3904: (NetMsgProcessor processMsg:)
+$3904: (NetMsgProcessor handleMsg:)
+$03f0: (NetUser doit:)
+$039f: (RoomMgr doit:)
+$031b: (Game doit:)
+$0047: (RoomZero doit:)
+Out of available handles.
+-----------------------------------------------------
+
+login name : b33cfa
+version    : 3.451
+time       : Sun Apr 29 06:29:51 2018
+-----------------------------------------------------
+BETA Version 40
+$00ba: (WorldObject new:)
+$5c1b: (BContainer fromPacket:)
+$78ea: (BackPack fromPacket:)
+$3747: (GSNewRoomScript handleMsg:)
+$33f6: (List eachElementDo:)
+$332c: (GameServer handleMsg:)
+$3904: (NetMsgProcessor processMsg:)
+$3904: (NetMsgProcessor handleMsg:)
+$03f0: (NetUser doit:)
+$039f: (RoomMgr doit:)
+$031b: (Game doit:)
+$0047: (RoomZero doit:)
+Out of available handles.
+-----------------------------------------------------
+
+login name : heed1
+version    : 3.451
+time       : Sun Apr 29 06:57:30 2018
+-----------------------------------------------------
+BETA Version 40
+$0074: (Obj new:)
+$00d7: (LongInt new:)
+$03ee: (curNetMsg getLong:)
+$74f0: (MovieInfo fromPacket:)
+$332c: (GameServer handleMsg:)
+$3904: (NetMsgProcessor processMsg:)
+$3904: (NetMsgProcessor handleMsg:)
+$03f0: (NetUser doit:)
+$039f: (RoomMgr doit:)
+$031b: (Game doit:)
+$0047: (RoomZero doit:)
+Out of available handles.
+-----------------------------------------------------
+
+login name : 2a70ae
+version    : 3.451
+time       : Sun Apr 29 06:59:46 2018
+-----------------------------------------------------
+BETA Version 40
+$03cd: (scratchList release:)
+$03d0: (ActionQMgr addAction:)
+$332c: (GameServer handleMsg:)
+$3904: (NetMsgProcessor processMsg:)
+$3904: (NetMsgProcessor handleMsg:)
+$03f0: (NetUser doit:)
+$039f: (RoomMgr doit:)
+$031b: (Game doit:)
+$0047: (RoomZero doit:)
+Out of available handles.
+-----------------------------------------------------
+
+login name : 33f07f
+version    : 3.451
+time       : Sun Apr 29 07:00:45 2018
+-----------------------------------------------------
+BETA Version 40
+$0074: (Obj new:)
+$00d7: (LongInt new:)
+$640e: (MovieAttack addDependency:)
+$640e: (MovieAttack init:)
+$640e: (MovieAttack fromPacket:)
+$332c: (GameServer handleMsg:)
+$3904: (NetMsgProcessor processMsg:)
+$3904: (NetMsgProcessor handleMsg:)
+$03f0: (NetUser doit:)
+$039f: (RoomMgr doit:)
+$031b: (Game doit:)
+$0047: (RoomZero doit:)
+Out of available handles.
+-----------------------------------------------------
+
+login name : heed1
+version    : 3.451
+time       : Sun Apr 29 07:42:56 2018
+-----------------------------------------------------
+BETA Version 40
+$0074: (Obj new:)
+$00d7: (LongInt new:)
+$5ddf: (MovieText addDependency:)
+$5ddf: (MovieText init:)
+$5ddf: (MovieText fromPacket:)
+$332c: (GameServer handleMsg:)
+$3904: (NetMsgProcessor processMsg:)
+$3904: (NetMsgProcessor handleMsg:)
+$03f0: (NetUser doit:)
+$039f: (RoomMgr doit:)
+$031b: (Game doit:)
+$0047: (RoomZero doit:)
+Out of available handles.
+-----------------------------------------------------
+
+login name : heed
+version    : 3.451
+time       : Sun Apr 29 09:38:03 2018
+-----------------------------------------------------
+BETA Version 40
+$0074: (Obj new:)
+$00d7: (LongInt new:)
+$1856: (MovieAttack addDependency:)
+$1856: (MovieAttack init:)
+$1856: (MovieAttack fromPacket:)
+$332c: (GameServer handleMsg:)
+$3904: (NetMsgProcessor processMsg:)
+$3904: (NetMsgProcessor handleMsg:)
+$03f0: (NetUser doit:)
+$039f: (RoomMgr doit:)
+$031b: (Game doit:)
+$0047: (RoomZero doit:)
+Out of available handles.
+-----------------------------------------------------
+
+login name : eldon2
+version    : 3.451
+time       : Sun Apr 29 09:44:24 2018
+-----------------------------------------------------
+BETA Version 40
+$61fb: (Scaler new:)
+$389c: (WorldObject matchScaler:)
+$389c: (WorldObject init:)
+$389c: (WorldObject fromPacket:)
+$7fb8: (BContainer fromPacket:)
+$5d7b: (BackPack fromPacket:)
+$7505: (GSNewRoomScript handleMsg:)
+$33f6: (List eachElementDo:)
+$332c: (GameServer handleMsg:)
+$3904: (NetMsgProcessor processMsg:)
+$3904: (NetMsgProcessor handleMsg:)
+$03f0: (NetUser doit:)
+$039f: (RoomMgr doit:)
+$031b: (Game doit:)
+$0047: (RoomZero doit:)
+Out of available handles.
+-----------------------------------------------------
+
+login name : creekwalker
+version    : 3.451
+time       : Sun Apr 29 12:40:09 2018
+-----------------------------------------------------
+BETA Version 40
+$0074: (Obj new:)
+$00d7: (LongInt new:)
+$03ee: (curNetMsg getLong:)
+$48fb: (MovieChangeHealth fromPacket:)
+$332c: (GameServer handleMsg:)
+$3904: (NetMsgProcessor processMsg:)
+$3904: (NetMsgProcessor handleMsg:)
+$03f0: (NetUser doit:)
+$039f: (RoomMgr doit:)
+$031b: (Game doit:)
+$0047: (RoomZero doit:)
+Out of available handles.
+-----------------------------------------------------
+
+login name : 67739368
+version    : 3.451
+time       : Sun Apr 29 15:22:18 2018
+-----------------------------------------------------
+BETA Version 40
+$006b: (List new:)
+$097d: (MovieText new:)
+$332c: (GameServer handleMsg:)
+$3904: (NetMsgProcessor processMsg:)
+$3904: (NetMsgProcessor handleMsg:)
+$03f0: (NetUser doit:)
+$039f: (RoomMgr doit:)
+$031b: (Game doit:)
+$0047: (RoomZero doit:)
+Out of available handles.
+-----------------------------------------------------
+
+login name : cx39u3o3
+version    : 3.451
+time       : Sun Apr 29 16:33:49 2018
+-----------------------------------------------------
+BETA Version 40
+$0074: (Obj new:)
+$00d7: (LongInt new:)
+$075f: (MovieSpecialEffect addDependency:)
+$075f: (MovieSpecialEffect fromPacket:)
+$332c: (GameServer handleMsg:)
+$3904: (NetMsgProcessor processMsg:)
+$3904: (NetMsgProcessor handleMsg:)
+$03f0: (NetUser doit:)
+$039f: (RoomMgr doit:)
+$031b: (Game doit:)
+$0047: (RoomZero doit:)
+Out of available handles.
+-----------------------------------------------------
+
+login name : b33cfa
+version    : 3.451
+time       : Sun Apr 29 18:09:28 2018
+-----------------------------------------------------
+BETA Version 40
+$3d9c: (BDye new:)
+$321f: (Dye addBase:)
+$1c2c: (<noname> doit:)
+$321f: (Dye fromPacket:)
+$7e7b: (BContainer fromPacket:)
+$7c72: (BackPack fromPacket:)
+$44ef: (GSNewRoomScript handleMsg:)
+$33f6: (List eachElementDo:)
+$332c: (GameServer handleMsg:)
+$3904: (NetMsgProcessor processMsg:)
+$3904: (NetMsgProcessor handleMsg:)
+$03f0: (NetUser doit:)
+$039f: (RoomMgr doit:)
+$031b: (Game doit:)
+$0047: (RoomZero doit:)
+Out of available handles.
+-----------------------------------------------------
+
+login name : fskbeg47
+version    : 3.451
+time       : Sun Apr 29 19:44:22 2018
+-----------------------------------------------------
+BETA Version 40
+$0401: (PackedData getString:)
+$03ee: (curNetMsg getString:)
+$6251: (MovieInfo fromPacket:)
+$332c: (GameServer handleMsg:)
+$3904: (NetMsgProcessor processMsg:)
+$3904: (NetMsgProcessor handleMsg:)
+$03f0: (NetUser doit:)
+$039f: (RoomMgr doit:)
+$031b: (Game doit:)
+$0047: (RoomZero doit:)
+Out of available handles.
+-----------------------------------------------------
+
+login name : fskbeg47
+version    : 3.451
+time       : Sun Apr 29 20:59:50 2018
+-----------------------------------------------------
+BETA Version 40
+$006b: (List new:)
+$098a: (MovieChangeHealth new:)
+$332c: (GameServer handleMsg:)
+$3904: (NetMsgProcessor processMsg:)
+$3904: (NetMsgProcessor handleMsg:)
+$03f0: (NetUser doit:)
+$039f: (RoomMgr doit:)
+$031b: (Game doit:)
+$0047: (RoomZero doit:)
+Out of available handles.
+-----------------------------------------------------
+
+login name : k2e2292n
+version    : 3.451
+time       : Sun Apr 29 23:29:32 2018
+-----------------------------------------------------
+BETA Version 40
+$0074: (Obj new:)
+$00d7: (LongInt new:)
+$332c: (GameServer add:)
+$3df3: (HoldingPants addToServer:)
+$3df3: (HoldingPants fromPacket:)
+$6a25: (BContainer fromPacket:)
+$522f: (SNSBigStrongBox fromPacket:)
+$7461: (GSNewRoomScript handleMsg:)
+$33f6: (List eachElementDo:)
+$332c: (GameServer handleMsg:)
+$3904: (NetMsgProcessor processMsg:)
+$3904: (NetMsgProcessor handleMsg:)
+$03f0: (NetUser doit:)
+$039f: (RoomMgr doit:)
+$031b: (Game doit:)
+$0047: (RoomZero doit:)
+Out of available handles.
+-----------------------------------------------------
+
+login name : 33f07f
+version    : 3.451
+time       : Mon Apr 30 21:49:30 2018
+-----------------------------------------------------
+BETA Version 40
+$0e4a: (BDescribed new:)
+$5675: (Dye addBase:)
+$1c2c: (<noname> doit:)
+$5675: (Dye fromPacket:)
+$0f1f: (BContainer fromPacket:)
+$4d74: (BackPack fromPacket:)
+$3962: (GSNewRoomScript handleMsg:)
+$33f6: (List eachElementDo:)
+$332c: (GameServer handleMsg:)
+$3904: (NetMsgProcessor processMsg:)
+$3904: (NetMsgProcessor handleMsg:)
+$03f0: (NetUser doit:)
+$039f: (RoomMgr doit:)
+$031b: (Game doit:)
+$0047: (RoomZero doit:)
+Out of available handles.
+-----------------------------------------------------
+
+login name : heed
+version    : 3.451
+time       : Tue May  1 13:01:06 2018
+-----------------------------------------------------
+BETA Version 40
+$0b86: (SEDeathBlade new:)
+$7fbf: (SEMultiBlade changeState:)
+$009d: (Script init:)
+$009e: (DemonsScript init:)
+$0b15: (SpecialEffect init:)
+$7fbf: (SEMultiBlade init:)
+$06d2: (MovieSpecialEffect process:)
+$4f31: (ActionQueue cue:)
+$0956: (MovieCmd dispose:)
+$5cb1: (MovieText dispose:)
+$0047: (RoomZero doit:)
+Out of available handles.
+-----------------------------------------------------
+
+login name : heed
+version    : 3.451
+time       : Tue May  1 14:20:26 2018
+-----------------------------------------------------
+BETA Version 40
+$0401: (PackedData getString:)
+$03ee: (curNetMsg getString:)
+$7b39: (MovieInfo fromPacket:)
+$332c: (GameServer handleMsg:)
+$3904: (NetMsgProcessor processMsg:)
+$3904: (NetMsgProcessor handleMsg:)
+$03f0: (NetUser doit:)
+$039f: (RoomMgr doit:)
+$031b: (Game doit:)
+$0047: (RoomZero doit:)
+Out of available handles.
+-----------------------------------------------------
+
+login name : 59084c3f
+version    : 3.451
+time       : Tue May  1 20:20:43 2018
+-----------------------------------------------------
+BETA Version 40
+$0074: (Obj new:)
+$00d7: (LongInt new:)
+$3cbf: (MovieChangeHealth addDependency:)
+$3cbf: (MovieChangeHealth init:)
+$3cbf: (MovieChangeHealth fromPacket:)
+$332c: (GameServer handleMsg:)
+$3904: (NetMsgProcessor processMsg:)
+$3904: (NetMsgProcessor handleMsg:)
+$03f0: (NetUser doit:)
+$039f: (RoomMgr doit:)
+$031b: (Game doit:)
+$0047: (RoomZero doit:)
+Out of available handles.
+-----------------------------------------------------
+
+login name : zach
+version    : 3.451
+time       : Wed May  2 03:01:18 2018
+-----------------------------------------------------
+BETA Version 40
+$4e6e: (WorldEgo fromPacket:)
+$4cdb: (GSQueryCharactersScript handleMsg:)
+$33f6: (List eachElementDo:)
+$332c: (GameServer handleMsg:)
+$3904: (NetMsgProcessor processMsg:)
+$3904: (NetMsgProcessor handleMsg:)
+$03f0: (NetUser doit:)
+$039f: (RoomMgr doit:)
+$031b: (Game doit:)
+$0047: (RoomZero doit:)
+Reference to handle 0x0 is not valid.
+script 40004, ip 0x63
+-----------------------------------------------------
+
+login name : warper
+version    : 3.451
+time       : Tue May 15 17:06:40 2018
+-----------------------------------------------------
+BETA Version 40
+$332c: (GameServer getShopItemImage:)
+$332c: (GameServer handleMsg:)
+$3904: (NetMsgProcessor processMsg:)
+$3904: (NetMsgProcessor handleMsg:)
+$03f0: (NetUser doit:)
+$039f: (RoomMgr doit:)
+$031b: (Game doit:)
+$0047: (RoomZero doit:)
+Error 99: Error loading resource 32117.v56
+C:\git\sacredtemple_client_source\Interp\Restype.cpp(151)
+script 59954, ip 0x4d
+-----------------------------------------------------
+

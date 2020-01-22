@@ -1,0 +1,14 @@
+id 99899
+
+banner "Item Upgrade: Amulet of Concentration"
+
+topic "What's going on here?"
+        text "Oh, funny you should ask.."
+        text "I can empower your amulet to increase its power significantly."
+end
+
+topic "What's this about item upgrades?"
+	quest 99998
+	text "I've nothing for you today. Come back some other time and ask me again."
+end
+

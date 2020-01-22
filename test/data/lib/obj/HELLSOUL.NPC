@@ -1,0 +1,1569 @@
+object HellSoulBase of NPC
+	properties
+		name "Hell Soul"
+		view 42000
+	end
+
+	base described
+		text "This is a Hell Soul."
+	end
+end
+
+object HellSoulA of HellSoulBase
+	properties
+		name "Hell Soul A"
+		clutStart -1
+		color 97
+	end
+
+	base described
+		text "This is a Hell Soul."
+	end
+end
+
+object HellSoulB of HellSoulBase
+	properties
+		name "Hell Soul B"
+		clutStart -1
+		color 98
+	end
+
+	base described
+		text "This is a Hell Soul."
+	end
+end
+
+object HellSoulC of HellSoulBase
+	properties
+		name "Hell Soul C"
+		clutStart -1
+		color 99
+	end
+
+	base described
+		text "This is a Hell Soul."
+	end
+end
+
+object HellSoulD of HellSoulBase
+	properties
+		name "Hell Soul D"
+		clutStart -1
+		color 100
+	end
+
+	base described
+		text "This is a Hell Soul."
+	end
+end
+
+object HellSoulE of HellSoulBase
+	properties
+		name "Hell Soul E"
+		clutStart -1
+		color 101
+	end
+
+	base described
+		text "This is a Hell Soul."
+	end
+end
+
+object HellSoulF of HellSoulBase
+	properties
+		name "Hell Soul F"
+		clutStart -1
+		color 102
+	end
+
+	base described
+		text "This is a Hell Soul."
+	end
+end
+
+object HellSoulG of HellSoulBase
+	properties
+		name "Hell Soul G"
+		clutStart -1
+		color 103
+	end
+
+	base described
+		text "This is a Hell Soul."
+	end
+end
+
+object HellSoulH of HellSoulBase
+	properties
+		name "Hell Soul H"
+		clutStart -1
+		color 104
+	end
+
+	base described
+		text "This is a Hell Soul."
+	end
+end
+
+object HellSoulI of HellSoulBase
+	properties
+		name "Hell Soul I"
+		clutStart -1
+		color 105
+	end
+
+	base described
+		text "This is a Hell Soul."
+	end
+end
+
+object HellSoulJ of HellSoulBase
+	properties
+		name "Hell Soul J"
+		clutStart -1
+		color 106
+	end
+
+	base described
+		text "This is a Hell Soul."
+	end
+end
+
+object HellSoulK of HellSoulBase
+	properties
+		name "Hell Soul K"
+		clutStart -1
+		color 107
+	end
+
+	base described
+		text "This is a Hell Soul."
+	end
+end
+
+object HellSoulL of HellSoulBase
+	properties
+		name "Hell Soul L"
+		clutStart -1
+		color 108
+	end
+
+	base described
+		text "This is a Hell Soul."
+	end
+end
+
+object HellSoulM of HellSoulBase
+	properties
+		name "Hell Soul M"
+		clutStart -1
+		color 109
+	end
+
+	base described
+		text "This is a Hell Soul."
+	end
+end
+
+object HellSoulN of HellSoulBase
+	properties
+		name "Hell Soul N"
+		clutStart -1
+		color 110
+	end
+
+	base described
+		text "This is a Hell Soul."
+	end
+end
+#################################################
+#												#
+#												#
+#												#
+#												#
+#												#
+#												#
+#					Custom						#
+#												#
+#												#
+#												#
+#												#
+#												#
+#												#
+#################################################
+object AncientSoul of HellSoulA
+	properties
+		special
+		name "Ancient Hell Soul"
+		alignment 0
+
+		minLevel 2200
+		maxLevel 2800
+		minDamage 800
+		maxDamage 1100
+
+		strength 250
+		endurance 25
+		intelligence 175
+		dexterity 20
+
+		soundGroup 7
+		armorType 1
+		damageType 1
+		range 1
+		quickness 8
+		  
+		girth 90
+		height 90
+
+		# affects
+		# do fire damage
+		affect 1 0 0 -1
+
+		# acid damage
+		affect 4 0 0 -1
+
+		# poison damage
+		affect 5 0 0 -1
+
+		# fire immolation
+		affect 23 0 0 -1
+
+		# cold immolation
+		affect 24 0 0 -1
+
+		# lightning immolation
+		affect 27 0 0 -1
+	end
+
+	base container
+		object RandomNewGear
+		object RandomRareGlowDye
+		object RandomRareHelmet
+		object RandomMegaMoney
+		object RandomMonsterMegaTreasure
+	end
+
+	base character
+		skill 0 5
+		skill 1 5
+		skill 2 5
+		skill 3 5
+		skill 4 5
+		skill 5 5
+		skill 6 5
+		skill 7 5
+		skill 8 5
+		skill 10 5
+		## grand master wiz
+		skill 11 5
+		skill 12 5
+		skill 13 5
+		skill 14 5
+		skill 15 5
+		skill 28 5
+		skill 29 5
+		properName "Ancient Hell Soul"
+	end
+
+	actions
+		vBeBorn changeSpellResistance self 75 2	#75% Resist Myst
+		#  200% SDM to all
+        vBeBorn changeSDM self 200 0 2 1 3 4
+	end
+
+	base npc
+		code tulor
+	end
+	
+	base described
+		text "A Soul escaped from Hell.\n\n 75% Myst Resistance.\n"
+	end
+end
+
+object EarthSoul of HellSoulB
+	properties
+		special
+		name "Earthen Fury Soul"
+		alignment 0
+
+		minLevel 2200
+		maxLevel 2800
+		minDamage 800
+		maxDamage 1100
+
+		strength 250
+		endurance 25
+		intelligence 175
+		dexterity 20
+
+		soundGroup 7
+		armorType 1
+		damageType 1
+		range 1
+		quickness 8
+		  
+		girth 90
+		height 90
+
+		# affects
+		# do fire damage
+		affect 1 0 0 -1
+
+		# acid damage
+		affect 4 0 0 -1
+
+		# poison damage
+		affect 5 0 0 -1
+
+		# fire immolation
+		affect 23 0 0 -1
+
+		# cold immolation
+		affect 24 0 0 -1
+
+		# lightning immolation
+		affect 27 0 0 -1
+	end
+
+	base container
+		object RandomNewGear
+		object RandomRareGlowDye
+		object RandomRareHelmet
+		object RandomMegaMoney
+		object RandomMonsterMegaTreasure
+	end
+
+	base character
+		skill 0 5
+		skill 1 5
+		skill 2 5
+		skill 3 5
+		skill 4 5
+		skill 5 5
+		skill 6 5
+		skill 7 5
+		skill 8 5
+		skill 10 5
+		## grand master wiz
+		skill 11 5
+		skill 12 5
+		skill 13 5
+		skill 14 5
+		skill 15 5
+		skill 28 5
+		skill 29 5
+		properName "Earthen Fury Soul"
+	end
+
+	actions
+		vBeBorn changeSpellResistance self 75 2	#75% Resist Myst
+		#  200% SDM to all
+        vBeBorn changeSDM self 200 0 2 1 3 4
+	end
+
+	base npc
+		code tulor
+	end
+	
+	base described
+		text "A Soul escaped from Hell.\n\n 75% Myst Resistance.\n"
+	end
+end
+
+object FierySoul of HellSoulC
+	properties
+		special
+		name "Fiery Hell Soul"
+		alignment 0
+
+		minLevel 2200
+		maxLevel 2800
+		minDamage 800
+		maxDamage 1100
+
+		strength 250
+		endurance 25
+		intelligence 175
+		dexterity 20
+
+		soundGroup 7
+		armorType 1
+		damageType 1
+		range 1
+		quickness 8
+		  
+		girth 90
+		height 90
+
+		# affects
+		# do fire damage
+		affect 1 0 0 -1
+
+		# acid damage
+		affect 4 0 0 -1
+
+		# poison damage
+		affect 5 0 0 -1
+
+		# fire immolation
+		affect 23 0 0 -1
+
+		# cold immolation
+		affect 24 0 0 -1
+
+		# lightning immolation
+		affect 27 0 0 -1
+	end
+
+	base container
+		object RandomNewGear
+		object RandomRareGlowDye
+		object RandomRareHelmet
+		object RandomMegaMoney
+		object RandomMonsterMegaTreasure
+	end
+
+	base character
+		skill 0 5
+		skill 1 5
+		skill 2 5
+		skill 3 5
+		skill 4 5
+		skill 5 5
+		skill 6 5
+		skill 7 5
+		skill 8 5
+		skill 10 5
+		## grand master wiz
+		skill 11 5
+		skill 12 5
+		skill 13 5
+		skill 14 5
+		skill 15 5
+		skill 28 5
+		skill 29 5
+		properName "Fiery Hell Soul"
+	end
+
+	actions
+		vBeBorn changeSpellResistance self 75 2	#75% Resist Myst
+		#  200% SDM to all
+        vBeBorn changeSDM self 200 0 2 1 3 4
+	end
+
+	base npc
+		code tulor
+	end
+	
+	base described
+		text "A Soul escaped from Hell.\n\n 75% Myst Resistance.\n"
+	end
+end
+
+object DemonicSoul of HellSoulD
+	properties
+		special
+		name "Demonic Hell Soul"
+		alignment 0
+
+		minLevel 2200
+		maxLevel 2800
+		minDamage 800
+		maxDamage 1100
+
+		strength 250
+		endurance 25
+		intelligence 175
+		dexterity 20
+
+		soundGroup 7
+		armorType 1
+		damageType 1
+		range 1
+		quickness 8
+		  
+		girth 90
+		height 90
+
+		# affects
+		# do fire damage
+		affect 1 0 0 -1
+
+		# acid damage
+		affect 4 0 0 -1
+
+		# poison damage
+		affect 5 0 0 -1
+
+		# fire immolation
+		affect 23 0 0 -1
+
+		# cold immolation
+		affect 24 0 0 -1
+
+		# lightning immolation
+		affect 27 0 0 -1
+	end
+
+	base container
+		object RandomNewGear
+		object RandomRareGlowDye
+		object RandomRareHelmet
+		object RandomMegaMoney
+		object RandomMonsterMegaTreasure
+	end
+
+	base character
+		skill 0 5
+		skill 1 5
+		skill 2 5
+		skill 3 5
+		skill 4 5
+		skill 5 5
+		skill 6 5
+		skill 7 5
+		skill 8 5
+		skill 10 5
+		## grand master wiz
+		skill 11 5
+		skill 12 5
+		skill 13 5
+		skill 14 5
+		skill 15 5
+		skill 28 5
+		skill 29 5
+		properName "Demonic Hell Soul"
+	end
+
+	actions
+		vBeBorn changeSpellResistance self 75 2	#75% Resist Myst
+		#  200% SDM to all
+        vBeBorn changeSDM self 200 0 2 1 3 4
+	end
+
+	base npc
+		code tulor
+	end
+	
+	base described
+		text "A Soul escaped from Hell.\n\n 75% Myst Resistance.\n"
+	end
+end
+
+object GhostSoul of HellSoulE
+	properties
+		special
+		name "Ghost Hell Soul"
+		alignment 0
+
+		minLevel 2200
+		maxLevel 2800
+		minDamage 800
+		maxDamage 1100
+
+		strength 250
+		endurance 25
+		intelligence 175
+		dexterity 20
+
+		soundGroup 7
+		armorType 1
+		damageType 1
+		range 1
+		quickness 8
+		  
+		girth 100
+		height 100
+
+		# affects
+		# do fire damage
+		affect 1 0 0 -1
+
+		# acid damage
+		affect 4 0 0 -1
+
+		# poison damage
+		affect 5 0 0 -1
+
+		# fire immolation
+		affect 23 0 0 -1
+
+		# cold immolation
+		affect 24 0 0 -1
+
+		# lightning immolation
+		affect 27 0 0 -1
+	end
+
+	base container
+		object RandomNewGear
+		object RandomRareGlowDye
+		object RandomRareHelmet
+		object RandomMegaMoney
+		object RandomMonsterMegaTreasure
+	end
+
+	base character
+		skill 0 5
+		skill 1 5
+		skill 2 5
+		skill 3 5
+		skill 4 5
+		skill 5 5
+		skill 6 5
+		skill 7 5
+		skill 8 5
+		skill 10 5
+		## grand master wiz
+		skill 11 5
+		skill 12 5
+		skill 13 5
+		skill 14 5
+		skill 15 5
+		skill 28 5
+		skill 29 5
+		properName "Ghost Hell Soul"
+	end
+
+	actions
+		vBeBorn changeSpellResistance self 75 2	#75% Resist Myst
+		#  200% SDM to all
+        vBeBorn changeSDM self 200 0 2 1 3 4
+	end
+
+	base npc
+		code tulor
+	end
+	
+	base described
+		text "A Soul escaped from Hell.\n\n 75% Myst Resistance.\n"
+	end
+end
+
+object RoyalSoul of HellSoulF
+	properties
+		special
+		name "Royal Hell Soul"
+		alignment 0
+
+		minLevel 2200
+		maxLevel 2800
+		minDamage 800
+		maxDamage 1100
+
+		strength 250
+		endurance 25
+		intelligence 175
+		dexterity 20
+
+		soundGroup 7
+		armorType 1
+		damageType 1
+		range 1
+		quickness 8
+		  
+		girth 100
+		height 100
+
+		# affects
+		# do fire damage
+		affect 1 0 0 -1
+
+		# acid damage
+		affect 4 0 0 -1
+
+		# poison damage
+		affect 5 0 0 -1
+
+		# fire immolation
+		affect 23 0 0 -1
+
+		# cold immolation
+		affect 24 0 0 -1
+
+		# lightning immolation
+		affect 27 0 0 -1
+	end
+
+	base container
+		object RandomNewGear
+		object RandomRareGlowDye
+		object RandomRareHelmet
+		object RandomMegaMoney
+		object RandomMonsterMegaTreasure
+	end
+
+	base character
+		skill 0 5
+		skill 1 5
+		skill 2 5
+		skill 3 5
+		skill 4 5
+		skill 5 5
+		skill 6 5
+		skill 7 5
+		skill 8 5
+		skill 10 5
+		## grand master wiz
+		skill 11 5
+		skill 12 5
+		skill 13 5
+		skill 14 5
+		skill 15 5
+		skill 28 5
+		skill 29 5
+		properName "Royal Hell Soul"
+	end
+
+	actions
+		vBeBorn changeSpellResistance self 75 2	#75% Resist Myst
+		#  200% SDM to all
+        vBeBorn changeSDM self 200 0 2 1 3 4
+	end
+
+	base npc
+		code tulor
+	end
+	
+	base described
+		text "A Soul escaped from Hell.\n\n 75% Myst Resistance.\n"
+	end
+end
+
+object InsaneSoul of HellSoulG
+	properties
+		special
+		name "Insane Hell Soul"
+		alignment 0
+
+		minLevel 2200
+		maxLevel 2800
+		minDamage 800
+		maxDamage 1100
+
+		strength 250
+		endurance 25
+		intelligence 175
+		dexterity 20
+
+		soundGroup 7
+		armorType 1
+		damageType 1
+		range 1
+		quickness 8
+		  
+		girth 100
+		height 100
+
+		# affects
+		# do fire damage
+		affect 1 0 0 -1
+
+		# acid damage
+		affect 4 0 0 -1
+
+		# poison damage
+		affect 5 0 0 -1
+
+		# fire immolation
+		affect 23 0 0 -1
+
+		# cold immolation
+		affect 24 0 0 -1
+
+		# lightning immolation
+		affect 27 0 0 -1
+	end
+
+	base container
+		object RandomNewGear
+		object RandomRareGlowDye
+		object RandomRareHelmet
+		object RandomMegaMoney
+		object RandomMonsterMegaTreasure
+	end
+
+	base character
+		skill 0 5
+		skill 1 5
+		skill 2 5
+		skill 3 5
+		skill 4 5
+		skill 5 5
+		skill 6 5
+		skill 7 5
+		skill 8 5
+		skill 10 5
+		## grand master wiz
+		skill 11 5
+		skill 12 5
+		skill 13 5
+		skill 14 5
+		skill 15 5
+		skill 28 5
+		skill 29 5
+		properName "Insane Hell Soul"
+	end
+
+	actions
+		vBeBorn changeSpellResistance self 75 2	#75% Resist Myst
+		#  200% SDM to all
+        vBeBorn changeSDM self 200 0 2 1 3 4
+	end
+
+	base npc
+		code tulor
+	end
+	
+	base described
+		text "A Soul escaped from Hell.\n\n 75% Myst Resistance.\n"
+	end
+end
+
+
+object CorruptSoul of HellSoulH
+	properties
+		special
+		name "Corrupt Hell Soul"
+		alignment 0
+
+		minLevel 2200
+		maxLevel 2800
+		minDamage 800
+		maxDamage 1100
+
+		strength 250
+		endurance 25
+		intelligence 175
+		dexterity 20
+
+		soundGroup 7
+		armorType 1
+		damageType 1
+		range 1
+		quickness 8
+		  
+		girth 80
+		height 80
+
+		# affects
+		# do fire damage
+		affect 1 0 0 -1
+
+		# acid damage
+		affect 4 0 0 -1
+
+		# poison damage
+		affect 5 0 0 -1
+
+		# fire immolation
+		affect 23 0 0 -1
+
+		# cold immolation
+		affect 24 0 0 -1
+
+		# lightning immolation
+		affect 27 0 0 -1
+	end
+
+	base container
+		object RandomNewGear
+		object RandomRareGlowDye
+		object RandomRareHelmet
+		object RandomMegaMoney
+		object RandomMonsterMegaTreasure
+	end
+
+	base character
+		skill 0 5
+		skill 1 5
+		skill 2 5
+		skill 3 5
+		skill 4 5
+		skill 5 5
+		skill 6 5
+		skill 7 5
+		skill 8 5
+		skill 10 5
+		## grand master wiz
+		skill 11 5
+		skill 12 5
+		skill 13 5
+		skill 14 5
+		skill 15 5
+		skill 28 5
+		skill 29 5
+		properName "Corrupt Hell Soul"
+	end
+
+	actions
+		vBeBorn changeSpellResistance self 75 2	#75% Resist Myst
+		#  200% SDM to all
+        vBeBorn changeSDM self 200 0 2 1 3 4
+	end
+
+	base npc
+		code tulor
+	end
+	
+	base described
+		text "A Soul escaped from Hell.\n\n 75% Myst Resistance.\n"
+	end
+end
+
+object CorruptEarthSoul of HellSoulI
+	properties
+		special
+		name "Corrupt Earthen Hell Soul"
+		alignment 0
+
+		minLevel 2200
+		maxLevel 2800
+		minDamage 800
+		maxDamage 1100
+
+		strength 250
+		endurance 25
+		intelligence 175
+		dexterity 20
+
+		soundGroup 7
+		armorType 1
+		damageType 1
+		range 1
+		quickness 8
+		  
+		girth 90
+		height 90
+
+		# affects
+		# do fire damage
+		affect 1 0 0 -1
+
+		# acid damage
+		affect 4 0 0 -1
+
+		# poison damage
+		affect 5 0 0 -1
+
+		# fire immolation
+		affect 23 0 0 -1
+
+		# cold immolation
+		affect 24 0 0 -1
+
+		# lightning immolation
+		affect 27 0 0 -1
+	end
+
+	base container
+		object RandomNewGear
+		object RandomRareGlowDye
+		object RandomRareHelmet
+		object RandomMegaMoney
+		object RandomMonsterMegaTreasure
+	end
+
+	base character
+		skill 0 5
+		skill 1 5
+		skill 2 5
+		skill 3 5
+		skill 4 5
+		skill 5 5
+		skill 6 5
+		skill 7 5
+		skill 8 5
+		skill 10 5
+		## grand master wiz
+		skill 11 5
+		skill 12 5
+		skill 13 5
+		skill 14 5
+		skill 15 5
+		skill 28 5
+		skill 29 5
+		properName "Corrupt Earthen Hell Soul"
+	end
+
+	actions
+		vBeBorn changeSpellResistance self 75 2	#75% Resist Myst
+		#  200% SDM to all
+        vBeBorn changeSDM self 200 0 2 1 3 4
+	end
+
+	base npc
+		code tulor
+	end
+	
+	base described
+		text "A Soul escaped from Hell.\n\n 75% Myst Resistance.\n"
+	end
+end
+
+object HateSoul of HellSoulJ
+	properties
+		special
+		name "Hate Filled Soul"
+		alignment 0
+
+		minLevel 2200
+		maxLevel 2800
+		minDamage 800
+		maxDamage 1100
+
+		strength 250
+		endurance 25
+		intelligence 175
+		dexterity 20
+
+		soundGroup 7
+		armorType 1
+		damageType 1
+		range 1
+		quickness 8
+		  
+		girth 90
+		height 90
+
+		# affects
+		# do fire damage
+		affect 1 0 0 -1
+
+		# acid damage
+		affect 4 0 0 -1
+
+		# poison damage
+		affect 5 0 0 -1
+
+		# fire immolation
+		affect 23 0 0 -1
+
+		# cold immolation
+		affect 24 0 0 -1
+
+		# lightning immolation
+		affect 27 0 0 -1
+	end
+
+	base container
+		object RandomNewGear
+		object RandomRareGlowDye
+		object RandomRareHelmet
+		object RandomMegaMoney
+		object RandomMonsterMegaTreasure
+	end
+
+	base character
+		skill 0 5
+		skill 1 5
+		skill 2 5
+		skill 3 5
+		skill 4 5
+		skill 5 5
+		skill 6 5
+		skill 7 5
+		skill 8 5
+		skill 10 5
+		## grand master wiz
+		skill 11 5
+		skill 12 5
+		skill 13 5
+		skill 14 5
+		skill 15 5
+		skill 28 5
+		skill 29 5
+		properName "Hate Filled Soul"
+	end
+
+	actions
+		vBeBorn changeSpellResistance self 75 2	#75% Resist Myst
+		#  200% SDM to all
+        vBeBorn changeSDM self 200 0 2 1 3 4
+	end
+
+	base npc
+		code tulor
+	end
+	
+	base described
+		text "A Soul escaped from Hell.\n\n 75% Myst Resistance.\n"
+	end
+end
+
+object EternalFlameSoul of HellSoulK
+	properties
+		special
+		name "Eternal Flame"
+		alignment 0
+
+		minLevel 2200
+		maxLevel 2800
+		minDamage 800
+		maxDamage 1100
+
+		strength 250
+		endurance 25
+		intelligence 175
+		dexterity 20
+
+		soundGroup 7
+		armorType 1
+		damageType 1
+		range 1
+		quickness 8
+		  
+		girth 90
+		height 90
+
+		# affects
+		# do fire damage
+		affect 1 0 0 -1
+
+		# acid damage
+		affect 4 0 0 -1
+
+		# poison damage
+		affect 5 0 0 -1
+
+		# fire immolation
+		affect 23 0 0 -1
+
+		# cold immolation
+		affect 24 0 0 -1
+
+		# lightning immolation
+		affect 27 0 0 -1
+	end
+
+	base container
+		object RandomNewGear
+		object RandomRareGlowDye
+		object RandomRareHelmet
+		object RandomMegaMoney
+		object RandomMonsterMegaTreasure
+	end
+
+	base character
+		skill 0 5
+		skill 1 5
+		skill 2 5
+		skill 3 5
+		skill 4 5
+		skill 5 5
+		skill 6 5
+		skill 7 5
+		skill 8 5
+		skill 10 5
+		## grand master wiz
+		skill 11 5
+		skill 12 5
+		skill 13 5
+		skill 14 5
+		skill 15 5
+		skill 28 5
+		skill 29 5
+		properName "Eternal Flame"
+	end
+
+	actions
+		vBeBorn changeSpellResistance self 75 2	#75% Resist Myst
+		#  200% SDM to all
+        vBeBorn changeSDM self 200 0 2 1 3 4
+	end
+
+	base npc
+		code tulor
+	end
+	
+	base described
+		text "A Soul escaped from Hell.\n\n 75% Myst Resistance.\n"
+	end
+end
+
+object PurgedSoul of HellSoulL
+	properties
+		special
+		name "Purged Hell Soul"
+		alignment 0
+
+		minLevel 2200
+		maxLevel 2800
+		minDamage 800
+		maxDamage 1100
+
+		strength 250
+		endurance 25
+		intelligence 175
+		dexterity 20
+
+		soundGroup 7
+		armorType 1
+		damageType 1
+		range 1
+		quickness 8
+		  
+		girth 90
+		height 90
+
+		# affects
+		# do fire damage
+		affect 1 0 0 -1
+
+		# acid damage
+		affect 4 0 0 -1
+
+		# poison damage
+		affect 5 0 0 -1
+
+		# fire immolation
+		affect 23 0 0 -1
+
+		# cold immolation
+		affect 24 0 0 -1
+
+		# lightning immolation
+		affect 27 0 0 -1
+	end
+
+	base container
+		object RandomNewGear
+		object RandomRareGlowDye
+		object RandomRareHelmet
+		object RandomMegaMoney
+		object RandomMonsterMegaTreasure
+	end
+
+	base character
+		skill 0 5
+		skill 1 5
+		skill 2 5
+		skill 3 5
+		skill 4 5
+		skill 5 5
+		skill 6 5
+		skill 7 5
+		skill 8 5
+		skill 10 5
+		## grand master wiz
+		skill 11 5
+		skill 12 5
+		skill 13 5
+		skill 14 5
+		skill 15 5
+		skill 28 5
+		skill 29 5
+		properName "Purged Hell Soul"
+	end
+
+	actions
+		vBeBorn changeSpellResistance self 75 2	#75% Resist Myst
+		#  200% SDM to all
+        vBeBorn changeSDM self 200 0 2 1 3 4
+	end
+
+	base npc
+		code tulor
+	end
+	
+	base described
+		text "A Soul escaped from Hell.\n\n 75% Myst Resistance.\n"
+	end
+end
+
+object InfantSoul of HellSoulM
+	properties
+		special
+		name "Infant Hell Soul"
+		alignment 0
+
+		minLevel 2200
+		maxLevel 2800
+		minDamage 800
+		maxDamage 1100
+
+		strength 250
+		endurance 25
+		intelligence 175
+		dexterity 20
+
+		soundGroup 7
+		armorType 1
+		damageType 1
+		range 1
+		quickness 8
+		  
+		girth 90
+		height 90
+
+		# affects
+		# do fire damage
+		affect 1 0 0 -1
+
+		# acid damage
+		affect 4 0 0 -1
+
+		# poison damage
+		affect 5 0 0 -1
+
+		# fire immolation
+		affect 23 0 0 -1
+
+		# cold immolation
+		affect 24 0 0 -1
+
+		# lightning immolation
+		affect 27 0 0 -1
+	end
+
+	base container
+		object RandomNewGear
+		object RandomRareGlowDye
+		object RandomRareHelmet
+		object RandomMegaMoney
+		object RandomMonsterMegaTreasure
+	end
+
+	base character
+		skill 0 5
+		skill 1 5
+		skill 2 5
+		skill 3 5
+		skill 4 5
+		skill 5 5
+		skill 6 5
+		skill 7 5
+		skill 8 5
+		skill 10 5
+		## grand master wiz
+		skill 11 5
+		skill 12 5
+		skill 13 5
+		skill 14 5
+		skill 15 5
+		skill 28 5
+		skill 29 5
+		properName "Infant Hell Soul"
+	end
+
+	actions
+		vBeBorn changeSpellResistance self 75 2	#75% Resist Myst
+		#  200% SDM to all
+        vBeBorn changeSDM self 200 0 2 1 3 4
+	end
+
+	base npc
+		code tulor
+	end
+	
+	base described
+		text "A Soul escaped from Hell.\n\n 75% Myst Resistance.\n"
+	end
+end
+
+object HardenedSoul of HellSoulN
+	properties
+		special
+		name "Hardened Hell Soul"
+		alignment 0
+
+		minLevel 2200
+		maxLevel 2800
+		minDamage 800
+		maxDamage 1100
+
+		strength 250
+		endurance 25
+		intelligence 175
+		dexterity 20
+
+		soundGroup 7
+		armorType 1
+		damageType 1
+		range 1
+		quickness 8
+		  
+		girth 90
+		height 90
+
+		# affects
+		# do fire damage
+		affect 1 0 0 -1
+
+		# acid damage
+		affect 4 0 0 -1
+
+		# poison damage
+		affect 5 0 0 -1
+
+		# fire immolation
+		affect 23 0 0 -1
+
+		# cold immolation
+		affect 24 0 0 -1
+
+		# lightning immolation
+		affect 27 0 0 -1
+	end
+
+	base container
+		object RandomNewGear
+		object RandomRareGlowDye
+		object RandomRareHelmet
+		object RandomMegaMoney
+		object RandomMonsterMegaTreasure
+	end
+
+	base character
+		skill 0 5
+		skill 1 5
+		skill 2 5
+		skill 3 5
+		skill 4 5
+		skill 5 5
+		skill 6 5
+		skill 7 5
+		skill 8 5
+		skill 10 5
+		## grand master wiz
+		skill 11 5
+		skill 12 5
+		skill 13 5
+		skill 14 5
+		skill 15 5
+		skill 28 5
+		skill 29 5
+		properName "Hardened Hell Soul"
+	end
+
+	actions
+		vBeBorn changeSpellResistance self 75 2	#75% Resist Myst
+		#  200% SDM to all
+        vBeBorn changeSDM self 200 0 2 1 3 4
+	end
+
+	base npc
+		code tulor
+	end
+	
+	base described
+		text "A Soul escaped from Hell.\n\n 75% Myst Resistance.\n"
+	end
+end
+#---------------------------------------------------
+object GiantEvilHellSoul of HellSoulH
+	properties
+		special
+        alignment 0
+
+		minLevel 2200
+		maxLevel 2800
+		minDamage 800
+		maxDamage 1100
+
+		strength 650
+		endurance 45
+		intelligence 175
+		dexterity 20
+
+		soundGroup 7
+		armorType 1
+		damageType 1
+		range 1
+		quickness 8
+		  
+		girth 200
+		height 200
+
+		# affects
+		# do fire damage
+		affect 1 0 0 -1
+
+		# acid damage
+		affect 4 0 0 -1
+
+		# poison damage
+		affect 5 0 0 -1
+
+		# fire immolation
+		affect 23 0 0 -1
+
+		# cold immolation
+		affect 24 0 0 -1
+
+		# lightning immolation
+		affect 27 0 0 -1
+	end
+
+	base container
+		object RandomNewGear
+		object RandomRareGlowDye
+		object RandomRareHelmet
+		object RandomMegaMoney
+		object RandomMonsterMegaTreasure
+	end
+
+	base character
+		skill 0 5
+		skill 1 5
+		skill 2 5
+		skill 3 5
+		skill 4 5
+		skill 5 5
+		skill 6 5
+		skill 7 5
+		skill 8 5
+		skill 10 5
+		## grand master wiz
+		skill 11 5
+		skill 12 5
+		skill 13 5
+		skill 14 5
+		skill 15 5
+		skill 28 5
+		skill 29 5
+		properName "Giant Evil Hell Soul"
+	end
+
+	actions
+		vBeBorn changeSpellResistance self 75 2	#75% Resist Myst
+		#  200% SDM to all
+        vBeBorn changeSDM self 200 0 2 1 3 4
+	end
+
+	base npc
+		code fury
+	end
+
+	base described
+		text "This is a Giant Hell Soul."
+	end
+end
+
+####################################################
+
+object RandomHellSoul of NPC
+	properties
+		special
+		random 100
+	end
+
+	base treasure
+		AncientSoul
+        EarthSoul
+        FierySoul
+        DemonicSoul
+        GhostSoul
+        RoyalSoul
+        InsaneSoul
+        CorruptSoul
+        CorruptEarthSoul
+        HateSoul
+        EternalFlameSoul
+        PurgedSoul
+        InfantSoul
+        HardenedSoul
+        GiantEvilHellSoul
+	end
+end

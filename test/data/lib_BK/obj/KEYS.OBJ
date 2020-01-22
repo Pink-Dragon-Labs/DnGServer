@@ -1,0 +1,186 @@
+
+object GarrisonKey of Key
+	properties 	
+	special
+		toss
+		drop
+		name "Sturdy Key"
+		view 54450
+		value	5000000
+	end
+
+	base key
+		lockValue   8888
+		unlockValue 8888
+	end
+
+	base described
+		text "A heavy sturdy key found in The Garrison.\n\n"
+		shopText "A heavy sturdy key found in The Garrison.\n\n"
+	end
+		
+end
+
+object GarrisonKey2 of Key
+	properties 	
+	special
+		toss
+		drop
+		name "Sturdy Key"
+		view 54450
+		value	5000000
+	end
+
+	base key
+		lockValue   9999
+		unlockValue 9999
+	end
+
+	base described
+		text "A heavy sturdy key found in The Garrison.\n\n"
+		shopText "A heavy sturdy key found in The Garrison.\n\n"
+	end
+		
+end
+
+object GarrisonKey3 of Key
+	properties 	
+	special
+		toss
+		drop
+		name "Sturdy Key"
+		view 54450
+		value	5000000
+	end
+
+	base key
+		lockValue   7777
+		unlockValue 7777
+	end
+
+	base described
+		text "A heavy sturdy key found in The Garrison.\n\n"
+		shopText "A heavy sturdy key found in The Garrison.\n\n"
+	end
+		
+end
+
+object Castlekey of Key
+	properties
+		special
+		toss
+		drop
+		name "The Castle Key"
+		value 250
+	end
+
+	base key
+		lockValue 600
+		unlockValue 600
+	end
+
+	base described
+		text "You see a key that opens a chest in The Castle."
+		shopText "NOT TO BE SOLD\n\n"
+	end
+end
+
+object Castle2key of Key
+	properties
+		special
+		toss
+		drop
+		name "The Castle Key"
+		value 250
+	end
+
+	base key
+		lockValue 620
+		unlockValue 620
+	end
+
+	base described
+		text "You see a key that opens a chest in The Castle."
+		shopText "NOT TO BE SOLD\n\n"
+	end
+end
+
+object Castle3key of Key
+	properties
+		special
+		toss
+		drop
+		name "The Castle Key"
+		value 250
+	end
+
+	base key
+		lockValue 640
+		unlockValue 640
+	end
+
+	base described
+		text "You see a key that opens a chest in The Castle."
+		shopText "NOT TO BE SOLD\n\n"
+	end
+end
+
+object Castle4key of Key
+	properties
+		special
+		toss
+		drop
+		name "The Castle Key"
+		value 250
+	end
+
+	base key
+		lockValue 660
+		unlockValue 660
+	end
+
+	base described
+		text "You see a key that opens a chest in The Castle."
+		shopText "NOT TO BE SOLD\n\n"
+	end
+end
+
+object Castle5key of Key
+	properties
+		special
+		toss
+		drop
+		name "The Castle Key"
+		value 250
+	end
+
+	base key
+		lockValue 680
+		unlockValue 680
+	end
+
+	base described
+		text "You see a key that opens a chest in The Castle."
+		shopText "NOT TO BE SOLD\n\n"
+	end
+end
+
+object Castle6key of Key
+	properties
+		special
+		toss
+		drop
+		name "The Castle Key"
+		value 250
+	end
+
+	base key
+		lockValue 700
+		unlockValue 700
+	end
+
+	base described
+		text "You see a key that opens a chest in The Castle."
+		shopText "NOT TO BE SOLD\n\n"
+	end
+end

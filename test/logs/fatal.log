@@ -1,0 +1,1654 @@
+login name : herc
+version    : 3.451
+time       : Tue Apr 16 07:12:33 2019
+-----------------------------------------------------
+BETA Version 40
+No send stack.
+Reference to handle 0x6b0c is not valid.
+script 0, ip 0xf7e3
+-----------------------------------------------------
+
+login name : zach2
+version    : 3.451
+time       : Thu Apr 18 23:03:55 2019
+-----------------------------------------------------
+BETA Version 40
+$752b: (BHead generateBitmap:)
+$752b: (BHead updateBitmaps:)
+$752b: (BHead calcViews:)
+$752b: (BHead fromPacket:)
+$753c: (Head fromPacket:)
+$74c4: (BContainer fromPacket:)
+$74af: (GateKeeper fromPacket:)
+$6e7e: (GSShiftRoomScript handleMsg:)
+$33f6: (List eachElementDo:)
+$332c: (GameServer handleMsg:)
+$3904: (NetMsgProcessor processMsg:)
+$3904: (NetMsgProcessor handleMsg:)
+$03f0: (NetUser doit:)
+$039f: (RoomMgr doit:)
+$031b: (Game doit:)
+$0047: (RoomZero doit:)
+Error 99: Error loading resource 5001.v56
+C:\git\sacredtemple_client_source\Interp\Restype.cpp(151)
+script 40015, ip 0x111
+-----------------------------------------------------
+
+login name : zach2
+version    : 3.451
+time       : Thu Apr 18 23:04:43 2019
+-----------------------------------------------------
+BETA Version 40
+$4df1: (BHead generateBitmap:)
+$4df1: (BHead updateBitmaps:)
+$4df1: (BHead calcViews:)
+$4df1: (BHead fromPacket:)
+$4dec: (Head fromPacket:)
+$4d92: (BContainer fromPacket:)
+$4d84: (GateKeeper fromPacket:)
+$4702: (GSNewRoomScript handleMsg:)
+$33f6: (List eachElementDo:)
+$332c: (GameServer handleMsg:)
+$3904: (NetMsgProcessor processMsg:)
+$3904: (NetMsgProcessor handleMsg:)
+$03f0: (NetUser doit:)
+$039f: (RoomMgr doit:)
+$031b: (Game doit:)
+$0047: (RoomZero doit:)
+Error 99: Error loading resource 5001.v56
+C:\git\sacredtemple_client_source\Interp\Restype.cpp(151)
+script 40015, ip 0x111
+-----------------------------------------------------
+
+login name : zach
+version    : 3.451
+time       : Thu Apr 18 23:06:07 2019
+-----------------------------------------------------
+BETA Version 40
+$4dcc: (BHead generateBitmap:)
+$4dcc: (BHead updateBitmaps:)
+$4dcc: (BHead calcViews:)
+$4dcc: (BHead fromPacket:)
+$4dc7: (Head fromPacket:)
+$4d6d: (BContainer fromPacket:)
+$4d5f: (GateKeeper fromPacket:)
+$46dd: (GSNewRoomScript handleMsg:)
+$33f6: (List eachElementDo:)
+$332c: (GameServer handleMsg:)
+$3904: (NetMsgProcessor processMsg:)
+$3904: (NetMsgProcessor handleMsg:)
+$03f0: (NetUser doit:)
+$039f: (RoomMgr doit:)
+$031b: (Game doit:)
+$0047: (RoomZero doit:)
+Error 99: Error loading resource 5001.v56
+C:\git\sacredtemple_client_source\Interp\Restype.cpp(151)
+script 40015, ip 0x111
+-----------------------------------------------------
+
+login name : zach
+version    : 3.451
+time       : Thu Apr 18 23:37:32 2019
+-----------------------------------------------------
+BETA Version 40
+$66b4: (BHead generateBitmap:)
+$66b4: (BHead updateBitmaps:)
+$66b4: (BHead calcViews:)
+$66b4: (BHead fromPacket:)
+$66b5: (Head fromPacket:)
+$665e: (BContainer fromPacket:)
+$664b: (GateKeeper fromPacket:)
+$63af: (GSNewRoomScript handleMsg:)
+$33f6: (List eachElementDo:)
+$332c: (GameServer handleMsg:)
+$3904: (NetMsgProcessor processMsg:)
+$3904: (NetMsgProcessor handleMsg:)
+$03f0: (NetUser doit:)
+$039f: (RoomMgr doit:)
+$031b: (Game doit:)
+$0047: (RoomZero doit:)
+Error 99: Error loading resource 5001.v56
+C:\git\sacredtemple_client_source\Interp\Restype.cpp(151)
+script 40015, ip 0x111
+-----------------------------------------------------
+
+login name : zach
+version    : 3.451
+time       : Thu Apr 18 23:38:32 2019
+-----------------------------------------------------
+BETA Version 40
+$4ae6: (BHead generateBitmap:)
+$4ae6: (BHead updateBitmaps:)
+$4ae6: (BHead calcViews:)
+$4ae6: (BHead fromPacket:)
+$4ae1: (Head fromPacket:)
+$4a85: (BContainer fromPacket:)
+$4a77: (GateKeeper fromPacket:)
+$43f5: (GSNewRoomScript handleMsg:)
+$33f6: (List eachElementDo:)
+$332c: (GameServer handleMsg:)
+$3904: (NetMsgProcessor processMsg:)
+$3904: (NetMsgProcessor handleMsg:)
+$03f0: (NetUser doit:)
+$039f: (RoomMgr doit:)
+$031b: (Game doit:)
+$0047: (RoomZero doit:)
+Error 99: Error loading resource 5001.v56
+C:\git\sacredtemple_client_source\Interp\Restype.cpp(151)
+script 40015, ip 0x111
+-----------------------------------------------------
+
+login name : rog
+version    : 3.451
+time       : Fri Apr 19 00:11:03 2019
+-----------------------------------------------------
+BETA Version 40
+$4162: (HomeDoorOutside fromPacket:)
+$3e14: (GSNewRoomScript handleMsg:)
+$33f6: (List eachElementDo:)
+$332c: (GameServer handleMsg:)
+$3904: (NetMsgProcessor processMsg:)
+$3904: (NetMsgProcessor handleMsg:)
+$03f0: (NetUser doit:)
+$039f: (RoomMgr doit:)
+$031b: (Game doit:)
+$0047: (RoomZero doit:)
+Error 99: Error loading resource 55303.v56
+C:\git\sacredtemple_client_source\Interp\Restype.cpp(151)
+script 40005, ip 0x479
+-----------------------------------------------------
+
+login name : zach
+version    : 3.451
+time       : Fri Apr 19 00:11:06 2019
+-----------------------------------------------------
+BETA Version 40
+$3c85: (WorldEgo fromPacket:)
+$3b38: (GSQueryCharactersScript handleMsg:)
+$33f6: (List eachElementDo:)
+$332c: (GameServer handleMsg:)
+$3904: (NetMsgProcessor processMsg:)
+$3904: (NetMsgProcessor handleMsg:)
+$03f0: (NetUser doit:)
+$039f: (RoomMgr doit:)
+$031b: (Game doit:)
+$0047: (RoomZero doit:)
+Reference to handle 0x0 is not valid.
+script 40004, ip 0x63
+-----------------------------------------------------
+
+login name : zach2
+version    : 3.451
+time       : Fri Apr 19 01:02:58 2019
+-----------------------------------------------------
+BETA Version 40
+$5127: (MovieStartCombat process:)
+$50eb: (ActionQueue cue:)
+$03ce: (kickStartList eachElementDo:)
+$03d0: (ActionQMgr doit:)
+$6ad9: (NetRoom doit:)
+$039f: (RoomMgr doit:)
+$031b: (Game doit:)
+$0047: (RoomZero doit:)
+Reference to handle 0x0 is not valid.
+script 40101, ip 0x72
+-----------------------------------------------------
+
+login name : rog
+version    : 3.451
+time       : Fri Apr 19 01:03:04 2019
+-----------------------------------------------------
+BETA Version 40
+$615c: (MovieStartCombat process:)
+$6173: (ActionQueue cue:)
+$03ce: (kickStartList eachElementDo:)
+$03d0: (ActionQMgr doit:)
+$5e7a: (NetRoom doit:)
+$039f: (RoomMgr doit:)
+$031b: (Game doit:)
+$0047: (RoomZero doit:)
+Reference to handle 0x0 is not valid.
+script 40101, ip 0x72
+-----------------------------------------------------
+
+login name : zach2
+version    : 3.451
+time       : Fri Apr 19 01:04:38 2019
+-----------------------------------------------------
+BETA Version 40
+$590f: (MovieStartCombat process:)
+$5926: (ActionQueue cue:)
+$03ce: (kickStartList eachElementDo:)
+$03d0: (ActionQMgr doit:)
+$4731: (NetRoom doit:)
+$039f: (RoomMgr doit:)
+$031b: (Game doit:)
+$0047: (RoomZero doit:)
+Reference to handle 0x0 is not valid.
+script 40101, ip 0x72
+-----------------------------------------------------
+
+login name : rog
+version    : 3.451
+time       : Fri Apr 19 01:04:40 2019
+-----------------------------------------------------
+BETA Version 40
+$4af2: (MovieStartCombat process:)
+$4b09: (ActionQueue cue:)
+$03ce: (kickStartList eachElementDo:)
+$03d0: (ActionQMgr doit:)
+$4007: (NetRoom doit:)
+$039f: (RoomMgr doit:)
+$031b: (Game doit:)
+$0047: (RoomZero doit:)
+Reference to handle 0x0 is not valid.
+script 40101, ip 0x72
+-----------------------------------------------------
+
+login name : zach2
+version    : 3.451
+time       : Fri Apr 19 02:55:43 2019
+-----------------------------------------------------
+BETA Version 40
+$6660: (MovieStartCombat process:)
+$6675: (ActionQueue cue:)
+$03ce: (kickStartList eachElementDo:)
+$03d0: (ActionQMgr doit:)
+$6026: (NetRoom doit:)
+$039f: (RoomMgr doit:)
+$031b: (Game doit:)
+$0047: (RoomZero doit:)
+Reference to handle 0x0 is not valid.
+script 40101, ip 0x72
+-----------------------------------------------------
+
+login name : zach2
+version    : 3.451
+time       : Tue Apr 23 21:49:22 2019
+-----------------------------------------------------
+BETA Version 40
+$4ff4: (BHead generateBitmap:)
+$4ff4: (BHead updateBitmaps:)
+$4ff4: (BHead calcViews:)
+$4ff4: (BHead fromPacket:)
+$4fef: (Head fromPacket:)
+$4f9e: (BContainer fromPacket:)
+$4f90: (GateKeeper fromPacket:)
+$490e: (GSNewRoomScript handleMsg:)
+$33f6: (List eachElementDo:)
+$332c: (GameServer handleMsg:)
+$3904: (NetMsgProcessor processMsg:)
+$3904: (NetMsgProcessor handleMsg:)
+$03f0: (NetUser doit:)
+$039f: (RoomMgr doit:)
+$031b: (Game doit:)
+$0047: (RoomZero doit:)
+Error 99: Error loading resource 5001.v56
+C:\git\sacredtemple_client_source\Interp\Restype.cpp(151)
+script 40015, ip 0x111
+-----------------------------------------------------
+
+login name : zach
+version    : 3.451
+time       : Fri Apr 26 01:18:57 2019
+-----------------------------------------------------
+BETA Version 40
+$16e3: (BHead generateBitmap:)
+$16e3: (BHead updateBitmaps:)
+$16e3: (BHead calcViews:)
+$16e3: (BHead fromPacket:)
+$16d9: (Head fromPacket:)
+$167a: (BContainer fromPacket:)
+$165d: (GateKeeper fromPacket:)
+$161a: (GSNewRoomScript handleMsg:)
+$33f6: (List eachElementDo:)
+$332c: (GameServer handleMsg:)
+$3904: (NetMsgProcessor processMsg:)
+$3904: (NetMsgProcessor handleMsg:)
+$03f0: (NetUser doit:)
+$039f: (RoomMgr doit:)
+$031b: (Game doit:)
+$0047: (RoomZero doit:)
+Error 99: Error loading resource 5001.v56
+C:\git\sacredtemple_client_source\Interp\Restype.cpp(151)
+script 40015, ip 0x111
+-----------------------------------------------------
+
+login name : killer
+version    : 3.451
+time       : Fri Apr 26 02:02:20 2019
+-----------------------------------------------------
+BETA Version 40
+$0074: (Obj new:)
+$00d7: (LongInt new:)
+$537a: (MovieGainLevel addDependency:)
+$537a: (MovieGainLevel init:)
+$537a: (MovieGainLevel fromPacket:)
+$332c: (GameServer handleMsg:)
+$3904: (NetMsgProcessor processMsg:)
+$3904: (NetMsgProcessor handleMsg:)
+$03f0: (NetUser doit:)
+$039f: (RoomMgr doit:)
+$031b: (Game doit:)
+$0047: (RoomZero doit:)
+Out of available handles.
+-----------------------------------------------------
+
+login name : killer
+version    : 3.451
+time       : Fri Apr 26 02:03:47 2019
+-----------------------------------------------------
+BETA Version 40
+$031b: (Game doit:)
+$0047: (RoomZero doit:)
+PollSocket: message size is too big 98824
+script 60020, ip 0x33
+-----------------------------------------------------
+
+login name : zach
+version    : 3.451
+time       : Fri Apr 26 02:11:14 2019
+-----------------------------------------------------
+BETA Version 40
+$0074: (Obj new:)
+$00d7: (LongInt new:)
+$4dc5: (MovieGainLevel addDependency:)
+$4dc5: (MovieGainLevel init:)
+$4dc5: (MovieGainLevel fromPacket:)
+$332c: (GameServer handleMsg:)
+$3904: (NetMsgProcessor processMsg:)
+$3904: (NetMsgProcessor handleMsg:)
+$03f0: (NetUser doit:)
+$039f: (RoomMgr doit:)
+$031b: (Game doit:)
+$0047: (RoomZero doit:)
+Out of available handles.
+-----------------------------------------------------
+
+login name : shroomy1
+version    : 3.451
+time       : Fri Apr 26 02:11:15 2019
+-----------------------------------------------------
+BETA Version 40
+$031b: (Game doit:)
+$0047: (RoomZero doit:)
+PollSocket: message size is too big 104012
+script 60020, ip 0x33
+-----------------------------------------------------
+
+login name : killer
+version    : 3.451
+time       : Fri Apr 26 02:11:22 2019
+-----------------------------------------------------
+BETA Version 40
+$031b: (Game doit:)
+$0047: (RoomZero doit:)
+PollSocket: message size is too big 104012
+script 60020, ip 0x33
+-----------------------------------------------------
+
+login name : zach
+version    : 3.451
+time       : Fri Apr 26 02:11:41 2019
+-----------------------------------------------------
+BETA Version 40
+$031b: (Game doit:)
+$0047: (RoomZero doit:)
+PollSocket: message size is too big 104024
+script 60020, ip 0x33
+-----------------------------------------------------
+
+login name : shroomy1
+version    : 3.451
+time       : Fri Apr 26 02:11:44 2019
+-----------------------------------------------------
+BETA Version 40
+$031b: (Game doit:)
+$0047: (RoomZero doit:)
+PollSocket: message size is too big 104024
+script 60020, ip 0x33
+-----------------------------------------------------
+
+login name : killer
+version    : 3.451
+time       : Fri Apr 26 02:12:05 2019
+-----------------------------------------------------
+BETA Version 40
+$031b: (Game doit:)
+$0047: (RoomZero doit:)
+PollSocket: message size is too big 104024
+script 60020, ip 0x33
+-----------------------------------------------------
+
+login name : shroomy1
+version    : 3.451
+time       : Fri Apr 26 02:35:23 2019
+-----------------------------------------------------
+BETA Version 40
+$031b: (Game doit:)
+$0047: (RoomZero doit:)
+PollSocket: message size is too big 103904
+script 60020, ip 0x33
+-----------------------------------------------------
+
+login name : killer
+version    : 3.451
+time       : Fri Apr 26 02:35:28 2019
+-----------------------------------------------------
+BETA Version 40
+$031b: (Game doit:)
+$0047: (RoomZero doit:)
+PollSocket: message size is too big 103904
+script 60020, ip 0x33
+-----------------------------------------------------
+
+login name : ydf2em3u
+version    : 3.451
+time       : Fri Apr 26 04:14:13 2019
+-----------------------------------------------------
+BETA Version 40
+$031b: (Game doit:)
+$0047: (RoomZero doit:)
+PollSocket: message size is too big 121804
+script 60020, ip 0x33
+-----------------------------------------------------
+
+login name : r3a2kz5m
+version    : 3.451
+time       : Sun Apr 28 05:49:54 2019
+-----------------------------------------------------
+BETA Version 40
+$1809: (MovieStartCombat process:)
+$7e28: (ActionQueue cue:)
+$03ce: (kickStartList eachElementDo:)
+$03d0: (ActionQMgr doit:)
+$6d7c: (NetRoom doit:)
+$039f: (RoomMgr doit:)
+$031b: (Game doit:)
+$0047: (RoomZero doit:)
+Reference to handle 0x0 is not valid.
+script 40101, ip 0x72
+-----------------------------------------------------
+
+login name : bb8e9f3e
+version    : 3.451
+time       : Mon Apr 29 00:12:56 2019
+-----------------------------------------------------
+BETA Version 40
+$031b: (Game doit:)
+$0047: (RoomZero doit:)
+PollSocket: message size is too big 104048
+script 60020, ip 0x33
+-----------------------------------------------------
+
+login name : bb8e9f3e
+version    : 3.451
+time       : Mon Apr 29 00:15:22 2019
+-----------------------------------------------------
+BETA Version 40
+$031b: (Game doit:)
+$0047: (RoomZero doit:)
+PollSocket: message size is too big 130032
+script 60020, ip 0x33
+-----------------------------------------------------
+
+login name : bb8e9f3e
+version    : 3.451
+time       : Mon Apr 29 00:57:37 2019
+-----------------------------------------------------
+BETA Version 40
+$031b: (Game doit:)
+$0047: (RoomZero doit:)
+PollSocket: message size is too big 130032
+script 60020, ip 0x33
+BETA Version 40
+$031b: (Game doit:)
+$0047: (RoomZero doit:)
+PollSocket: message size is too big 130032
+script 60020, ip 0x33
+-----------------------------------------------------
+
+login name : 163dd357
+version    : 3.451
+time       : Mon Apr 29 10:00:38 2019
+-----------------------------------------------------
+BETA Version 40
+$031b: (Game doit:)
+$0047: (RoomZero doit:)
+PollSocket: message size is too big 130024
+script 60020, ip 0x33
+-----------------------------------------------------
+
+login name : gohan
+version    : 3.451
+time       : Tue Apr 30 06:47:09 2019
+-----------------------------------------------------
+BETA Version 40
+$039f: (RoomMgr doit:)
+$031b: (Game doit:)
+$0047: (RoomZero doit:)
+Draw items list exceeds 2000
+C:\git\sacredtemple_client_source\Interp\Drawlist.cpp(31)
+script 60093, ip 0xa1
+-----------------------------------------------------
+
+login name : zach2
+version    : 3.451
+time       : Tue Apr 30 08:35:37 2019
+-----------------------------------------------------
+BETA Version 40
+$006b: (List new:)
+$0981: (MovieGainLevel new:)
+$332c: (GameServer handleMsg:)
+$3904: (NetMsgProcessor processMsg:)
+$3904: (NetMsgProcessor handleMsg:)
+$03f0: (NetUser doit:)
+$039f: (RoomMgr doit:)
+$031b: (Game doit:)
+$0047: (RoomZero doit:)
+Out of available handles.
+-----------------------------------------------------
+
+login name : h9wonzak
+version    : 3.451
+time       : Wed May  1 00:07:48 2019
+-----------------------------------------------------
+BETA Version 40
+$031b: (Game doit:)
+$0047: (RoomZero doit:)
+PollSocket: message size is too big 128940
+script 60020, ip 0x33
+-----------------------------------------------------
+
+login name : d9c50b
+version    : 3.451
+time       : Wed May  1 00:11:25 2019
+-----------------------------------------------------
+BETA Version 40
+$332c: (GameServer getShopItemImage:)
+$332c: (GameServer handleMsg:)
+$3904: (NetMsgProcessor processMsg:)
+$3904: (NetMsgProcessor handleMsg:)
+$03f0: (NetUser doit:)
+$039f: (RoomMgr doit:)
+$031b: (Game doit:)
+$0047: (RoomZero doit:)
+Error 99: Error loading resource 32117.v56
+C:\git\sacredtemple_client_source\Interp\Restype.cpp(151)
+script 59954, ip 0x4d
+-----------------------------------------------------
+
+login name : d9c50b
+version    : 3.451
+time       : Wed May  1 00:15:03 2019
+-----------------------------------------------------
+BETA Version 40
+$031b: (Game doit:)
+$0047: (RoomZero doit:)
+PollSocket: message size is too big 130032
+script 60020, ip 0x33
+-----------------------------------------------------
+
+login name : fskbeg47
+version    : 3.451
+time       : Sun May  5 04:47:22 2019
+-----------------------------------------------------
+BETA Version 40
+$031b: (Game doit:)
+$0047: (RoomZero doit:)
+PollSocket: message size is too big 104048
+script 60020, ip 0x33
+-----------------------------------------------------
+
+login name : h9wonzak
+version    : 3.451
+time       : Sun May  5 04:56:05 2019
+-----------------------------------------------------
+BETA Version 40
+$031b: (Game doit:)
+$0047: (RoomZero doit:)
+PollSocket: message size is too big 130032
+script 60020, ip 0x33
+-----------------------------------------------------
+
+login name : 18fn36
+version    : 3.451
+time       : Sun May  5 21:13:57 2019
+-----------------------------------------------------
+BETA Version 40
+$031b: (Game doit:)
+$0047: (RoomZero doit:)
+PollSocket: message size is too big 130032
+script 60020, ip 0x33
+-----------------------------------------------------
+
+login name : zach2
+version    : 3.451
+time       : Sun May  5 21:19:17 2019
+-----------------------------------------------------
+BETA Version 40
+$031b: (Game doit:)
+$0047: (RoomZero doit:)
+PollSocket: message size is too big 130032
+script 60020, ip 0x33
+-----------------------------------------------------
+
+login name : 18fn36
+version    : 3.451
+time       : Mon May  6 00:01:52 2019
+-----------------------------------------------------
+BETA Version 40
+$0074: (Obj new:)
+$006b: (List new:)
+$097c: (MovieInfo new:)
+$332c: (GameServer handleMsg:)
+$3904: (NetMsgProcessor processMsg:)
+$3904: (NetMsgProcessor handleMsg:)
+$03f0: (NetUser doit:)
+$039f: (RoomMgr doit:)
+$031b: (Game doit:)
+$0047: (RoomZero doit:)
+Out of available handles.
+-----------------------------------------------------
+
+login name : f923b
+version    : 3.451
+time       : Mon May  6 00:40:45 2019
+-----------------------------------------------------
+BETA Version 40
+$031b: (Game doit:)
+$0047: (RoomZero doit:)
+PollSocket: message size is too big 130032
+script 60020, ip 0x33
+-----------------------------------------------------
+
+login name : 18fn36
+version    : 3.451
+time       : Mon May  6 02:10:51 2019
+-----------------------------------------------------
+BETA Version 40
+$0401: (PackedData getString:)
+$03ee: (curNetMsg getString:)
+$5181: (MovieText fromPacket:)
+$332c: (GameServer handleMsg:)
+$3904: (NetMsgProcessor processMsg:)
+$3904: (NetMsgProcessor handleMsg:)
+$03f0: (NetUser doit:)
+$039f: (RoomMgr doit:)
+$031b: (Game doit:)
+$0047: (RoomZero doit:)
+Out of available handles.
+-----------------------------------------------------
+
+login name : zach2
+version    : 3.451
+time       : Mon May  6 05:53:04 2019
+-----------------------------------------------------
+BETA Version 40
+$031b: (Game doit:)
+$0047: (RoomZero doit:)
+PollSocket: message size is too big 130032
+script 60020, ip 0x33
+-----------------------------------------------------
+
+login name : zach2
+version    : 3.451
+time       : Thu May  9 07:16:03 2019
+-----------------------------------------------------
+BETA Version 40
+$5f7a: (MagicActor linkToCenter:)
+$5f79: (SESingleFury changeState:)
+$009d: (Script init:)
+$009e: (DemonsScript init:)
+$0b15: (SpecialEffect init:)
+$5f79: (SESingleFury init:)
+$5e9e: (SEElectricFury changeState:)
+$009d: (Script init:)
+$009e: (DemonsScript init:)
+$0b15: (SpecialEffect init:)
+$5e9e: (SEElectricFury init:)
+$5e9b: (MovieSpecialEffect process:)
+$5e7e: (ActionQueue cue:)
+$5e91: (MovieChangeMana dispose:)
+$0047: (RoomZero doit:)
+Reference to handle 0x0 is not valid.
+script 40200, ip 0xf
+-----------------------------------------------------
+
+login name : zach2
+version    : 3.451
+time       : Sun May 12 12:07:21 2019
+-----------------------------------------------------
+BETA Version 40
+$3898: (BHead generateBitmap:)
+$3898: (BHead updateBitmaps:)
+$3898: (BHead calcViews:)
+$3898: (BHead fromPacket:)
+$3892: (Head fromPacket:)
+$3732: (BContainer fromPacket:)
+$371b: (Shop fromPacket:)
+$3702: (MovieCreate process:)
+$3719: (ActionQueue cue:)
+$03ce: (kickStartList eachElementDo:)
+$03d0: (ActionQMgr doit:)
+$7fcc: (NetRoom doit:)
+$039f: (RoomMgr doit:)
+$031b: (Game doit:)
+$0047: (RoomZero doit:)
+pHelmetView(1235) is not a valid selector for Shop
+script 40015, ip 0x103
+-----------------------------------------------------
+
+login name : zach2
+version    : 3.451
+time       : Sun May 12 12:08:01 2019
+-----------------------------------------------------
+BETA Version 40
+$4784: (BHead generateBitmap:)
+$4784: (BHead updateBitmaps:)
+$4784: (BHead calcViews:)
+$4784: (BHead fromPacket:)
+$477f: (Head fromPacket:)
+$467f: (BContainer fromPacket:)
+$4672: (Shop fromPacket:)
+$444f: (GSNewRoomScript handleMsg:)
+$33f6: (List eachElementDo:)
+$332c: (GameServer handleMsg:)
+$3904: (NetMsgProcessor processMsg:)
+$3904: (NetMsgProcessor handleMsg:)
+$03f0: (NetUser doit:)
+$039f: (RoomMgr doit:)
+$031b: (Game doit:)
+$0047: (RoomZero doit:)
+pHelmetView(1235) is not a valid selector for Shop
+script 40015, ip 0x103
+-----------------------------------------------------
+
+login name : zach2
+version    : 3.451
+time       : Sun May 12 12:15:09 2019
+-----------------------------------------------------
+BETA Version 40
+$4ac9: (BHead generateBitmap:)
+$4ac9: (BHead updateBitmaps:)
+$4ac9: (BHead calcViews:)
+$4ac9: (BHead fromPacket:)
+$4ac4: (Head fromPacket:)
+$49c4: (BContainer fromPacket:)
+$49b7: (Shop fromPacket:)
+$499f: (MovieCreate process:)
+$49af: (ActionQueue cue:)
+$03ce: (kickStartList eachElementDo:)
+$03d0: (ActionQMgr doit:)
+$448e: (NetRoom doit:)
+$039f: (RoomMgr doit:)
+$031b: (Game doit:)
+$0047: (RoomZero doit:)
+pHelmetView(1235) is not a valid selector for Shop
+script 40015, ip 0x103
+-----------------------------------------------------
+
+login name : zach2
+version    : 3.451
+time       : Sun May 12 21:03:37 2019
+-----------------------------------------------------
+BETA Version 40
+$77e3: (BHead generateBitmap:)
+$77e3: (BHead updateBitmaps:)
+$77e3: (BHead calcViews:)
+$77e3: (BHead fromPacket:)
+$77ce: (Head fromPacket:)
+$76e4: (BContainer fromPacket:)
+$76e8: (Shop fromPacket:)
+$74f6: (GSNewRoomScript handleMsg:)
+$33f6: (List eachElementDo:)
+$332c: (GameServer handleMsg:)
+$3904: (NetMsgProcessor processMsg:)
+$3904: (NetMsgProcessor handleMsg:)
+$03f0: (NetUser doit:)
+$039f: (RoomMgr doit:)
+$031b: (Game doit:)
+$0047: (RoomZero doit:)
+pHelmetView(1235) is not a valid selector for Shop
+script 40015, ip 0x103
+-----------------------------------------------------
+
+login name : zach2
+version    : 3.451
+time       : Sun May 12 21:41:08 2019
+-----------------------------------------------------
+BETA Version 40
+$4750: (BHead generateBitmap:)
+$4750: (BHead updateBitmaps:)
+$4750: (BHead calcViews:)
+$4750: (BHead fromPacket:)
+$474b: (Head fromPacket:)
+$4659: (BContainer fromPacket:)
+$464c: (Shop fromPacket:)
+$4458: (GSNewRoomScript handleMsg:)
+$33f6: (List eachElementDo:)
+$332c: (GameServer handleMsg:)
+$3904: (NetMsgProcessor processMsg:)
+$3904: (NetMsgProcessor handleMsg:)
+$03f0: (NetUser doit:)
+$039f: (RoomMgr doit:)
+$031b: (Game doit:)
+$0047: (RoomZero doit:)
+pHelmetView(1235) is not a valid selector for Shop
+script 40015, ip 0x103
+-----------------------------------------------------
+
+login name : zach2
+version    : 3.451
+time       : Mon May 13 20:08:27 2019
+-----------------------------------------------------
+BETA Version 40
+$64c7: (MovieDie process:)
+$4c7b: (ActionQueue cue:)
+$7183: (MovieChangeHealth dispose:)
+$0047: (RoomZero doit:)
+Something terrible has happened and has made Stinging Fury die twice!
+script 40101, ip 0xd0
+-----------------------------------------------------
+
+login name : d9c50b
+version    : 3.451
+time       : Mon May 13 20:33:08 2019
+-----------------------------------------------------
+BETA Version 40
+$031b: (Game doit:)
+$0047: (RoomZero doit:)
+PollSocket: message size is too big 130032
+script 60020, ip 0x33
+-----------------------------------------------------
+
+login name : d9c50b
+version    : 3.451
+time       : Mon May 13 20:36:34 2019
+-----------------------------------------------------
+BETA Version 40
+$031b: (Game doit:)
+$0047: (RoomZero doit:)
+PollSocket: message size is too big 103824
+script 60020, ip 0x33
+-----------------------------------------------------
+
+login name : killer
+version    : 3.451
+time       : Mon May 13 20:36:39 2019
+-----------------------------------------------------
+BETA Version 40
+$031b: (Game doit:)
+$0047: (RoomZero doit:)
+PollSocket: message size is too big 103824
+script 60020, ip 0x33
+-----------------------------------------------------
+
+login name : zach2
+version    : 3.451
+time       : Mon May 13 21:07:07 2019
+-----------------------------------------------------
+BETA Version 40
+$031b: (Game doit:)
+$0047: (RoomZero doit:)
+PollSocket: message size is too big 115708
+script 60020, ip 0x33
+-----------------------------------------------------
+
+login name : stone
+version    : 3.451
+time       : Mon May 13 21:12:55 2019
+-----------------------------------------------------
+BETA Version 40
+$031b: (Game doit:)
+$0047: (RoomZero doit:)
+PollSocket: message size is too big 104032
+script 60020, ip 0x33
+-----------------------------------------------------
+
+login name : zach2
+version    : 3.451
+time       : Mon May 13 21:15:13 2019
+-----------------------------------------------------
+BETA Version 40
+$031b: (Game doit:)
+$0047: (RoomZero doit:)
+PollSocket: message size is too big 103824
+script 60020, ip 0x33
+-----------------------------------------------------
+
+login name : d9c50b
+version    : 3.451
+time       : Mon May 13 23:16:23 2019
+-----------------------------------------------------
+BETA Version 40
+$0074: (Obj new:)
+$00d7: (LongInt new:)
+$03ee: (curNetMsg getLong:)
+$04bb: (MovieChangeHealth fromPacket:)
+$332c: (GameServer handleMsg:)
+$3904: (NetMsgProcessor processMsg:)
+$3904: (NetMsgProcessor handleMsg:)
+$03f0: (NetUser doit:)
+$039f: (RoomMgr doit:)
+$031b: (Game doit:)
+$0047: (RoomZero doit:)
+Out of available handles.
+-----------------------------------------------------
+
+login name : 163dd357
+version    : 3.451
+time       : Thu May 16 06:58:57 2019
+-----------------------------------------------------
+BETA Version 40
+$0074: (Obj new:)
+$006b: (List new:)
+$0981: (MovieGainLevel new:)
+$332c: (GameServer handleMsg:)
+$3904: (NetMsgProcessor processMsg:)
+$3904: (NetMsgProcessor handleMsg:)
+$03f0: (NetUser doit:)
+$039f: (RoomMgr doit:)
+$031b: (Game doit:)
+$0047: (RoomZero doit:)
+Out of available handles.
+-----------------------------------------------------
+
+login name : 7bc5207f
+version    : 3.451
+time       : Thu May 16 06:59:13 2019
+-----------------------------------------------------
+BETA Version 40
+$0074: (Obj new:)
+$00d7: (LongInt new:)
+$17aa: (MovieGainLevel addDependency:)
+$332c: (GameServer handleMsg:)
+$3904: (NetMsgProcessor processMsg:)
+$3904: (NetMsgProcessor handleMsg:)
+$03f0: (NetUser doit:)
+$039f: (RoomMgr doit:)
+$031b: (Game doit:)
+$0047: (RoomZero doit:)
+Out of available handles.
+-----------------------------------------------------
+
+login name : zach2
+version    : 3.451
+time       : Thu May 16 07:24:26 2019
+-----------------------------------------------------
+BETA Version 40
+$0074: (Obj new:)
+$00d7: (LongInt new:)
+$03ee: (curNetMsg getLong:)
+$45be: (MovieGainLevel fromPacket:)
+$332c: (GameServer handleMsg:)
+$3904: (NetMsgProcessor processMsg:)
+$3904: (NetMsgProcessor handleMsg:)
+$03f0: (NetUser doit:)
+$039f: (RoomMgr doit:)
+$031b: (Game doit:)
+$0047: (RoomZero doit:)
+Out of available handles.
+-----------------------------------------------------
+
+login name : kentest
+version    : 3.451
+time       : Thu May 23 00:28:00 2019
+-----------------------------------------------------
+BETA Version 40
+$031b: (Game doit:)
+$0047: (RoomZero doit:)
+PollSocket: message size is too big 130032
+script 60020, ip 0x33
+-----------------------------------------------------
+
+login name : lh21kg2e
+version    : 3.451
+time       : Thu May 23 00:45:40 2019
+-----------------------------------------------------
+BETA Version 40
+$031b: (Game doit:)
+$0047: (RoomZero doit:)
+PollSocket: message size is too big 104048
+script 60020, ip 0x33
+-----------------------------------------------------
+
+login name : kentest
+version    : 3.451
+time       : Thu May 23 00:51:12 2019
+-----------------------------------------------------
+BETA Version 40
+$332c: (GameServer getShopItemImage:)
+$332c: (GameServer handleMsg:)
+$3904: (NetMsgProcessor processMsg:)
+$3904: (NetMsgProcessor handleMsg:)
+$03f0: (NetUser doit:)
+$039f: (RoomMgr doit:)
+$031b: (Game doit:)
+$0047: (RoomZero doit:)
+Error 99: Error loading resource 32117.v56
+C:\git\sacredtemple_client_source\Interp\Restype.cpp(151)
+script 59954, ip 0x4d
+-----------------------------------------------------
+
+login name : lh21kg2e
+version    : 3.451
+time       : Thu May 23 00:54:11 2019
+-----------------------------------------------------
+BETA Version 40
+$332c: (GameServer getShopItemImage:)
+$332c: (GameServer handleMsg:)
+$3904: (NetMsgProcessor processMsg:)
+$3904: (NetMsgProcessor handleMsg:)
+$03f0: (NetUser doit:)
+$039f: (RoomMgr doit:)
+$031b: (Game doit:)
+$0047: (RoomZero doit:)
+Error 99: Error loading resource 32117.v56
+C:\git\sacredtemple_client_source\Interp\Restype.cpp(151)
+script 59954, ip 0x4d
+-----------------------------------------------------
+
+login name : zach
+version    : 3.451
+time       : Thu May 23 23:17:43 2019
+-----------------------------------------------------
+BETA Version 40
+$47f5: (BHead generateBitmap:)
+$47f5: (BHead updateBitmaps:)
+$47f5: (BHead calcViews:)
+$47f5: (BHead fromPacket:)
+$47f0: (Head fromPacket:)
+$479f: (BContainer fromPacket:)
+$4791: (GateKeeper fromPacket:)
+$40f7: (GSNewRoomScript handleMsg:)
+$33f6: (List eachElementDo:)
+$332c: (GameServer handleMsg:)
+$3904: (NetMsgProcessor processMsg:)
+$3904: (NetMsgProcessor handleMsg:)
+$03f0: (NetUser doit:)
+$039f: (RoomMgr doit:)
+$031b: (Game doit:)
+$0047: (RoomZero doit:)
+Error 99: Error loading resource 5001.v56
+C:\git\sacredtemple_client_source\Interp\Restype.cpp(151)
+script 40015, ip 0x111
+-----------------------------------------------------
+
+login name : zach
+version    : 3.451
+time       : Fri May 24 00:28:44 2019
+-----------------------------------------------------
+BETA Version 40
+$47d7: (BHead generateBitmap:)
+$47d7: (BHead updateBitmaps:)
+$47d7: (BHead calcViews:)
+$47d7: (BHead fromPacket:)
+$47d2: (Head fromPacket:)
+$4781: (BContainer fromPacket:)
+$4773: (GateKeeper fromPacket:)
+$40da: (GSNewRoomScript handleMsg:)
+$33f6: (List eachElementDo:)
+$332c: (GameServer handleMsg:)
+$3904: (NetMsgProcessor processMsg:)
+$3904: (NetMsgProcessor handleMsg:)
+$03f0: (NetUser doit:)
+$039f: (RoomMgr doit:)
+$031b: (Game doit:)
+$0047: (RoomZero doit:)
+Error 99: Error loading resource 5001.v56
+C:\git\sacredtemple_client_source\Interp\Restype.cpp(151)
+script 40015, ip 0x111
+-----------------------------------------------------
+
+login name : gtew5pv3
+version    : 3.451
+time       : Sat May 25 01:04:24 2019
+-----------------------------------------------------
+BETA Version 40
+$031b: (Game doit:)
+$0047: (RoomZero doit:)
+PollSocket: message size is too big 104048
+script 60020, ip 0x33
+-----------------------------------------------------
+
+login name : 2e0800
+version    : 3.451
+time       : Sat May 25 01:13:49 2019
+-----------------------------------------------------
+BETA Version 40
+$031b: (Game doit:)
+$0047: (RoomZero doit:)
+PollSocket: message size is too big 122128
+script 60020, ip 0x33
+-----------------------------------------------------
+
+login name : omnicide2
+version    : 3.451
+time       : Tue May 28 01:26:52 2019
+-----------------------------------------------------
+BETA Version 40
+$332c: (GameServer getShopItemImage:)
+$332c: (GameServer handleMsg:)
+$3904: (NetMsgProcessor processMsg:)
+$3904: (NetMsgProcessor handleMsg:)
+$03f0: (NetUser doit:)
+$039f: (RoomMgr doit:)
+$031b: (Game doit:)
+$0047: (RoomZero doit:)
+Error 99: Error loading resource 32117.v56
+C:\git\sacredtemple_client_source\Interp\Restype.cpp(151)
+script 59954, ip 0x4d
+-----------------------------------------------------
+
+login name : omnicide4
+version    : 3.451
+time       : Tue May 28 01:32:05 2019
+-----------------------------------------------------
+BETA Version 40
+$031b: (Game doit:)
+$0047: (RoomZero doit:)
+PollSocket: message size is too big 130032
+script 60020, ip 0x33
+-----------------------------------------------------
+
+login name : omnicide5
+version    : 3.451
+time       : Tue May 28 01:34:20 2019
+-----------------------------------------------------
+BETA Version 40
+$031b: (Game doit:)
+$0047: (RoomZero doit:)
+PollSocket: message size is too big 130032
+script 60020, ip 0x33
+-----------------------------------------------------
+
+login name : zach
+version    : 3.451
+time       : Thu May 30 07:37:48 2019
+-----------------------------------------------------
+BETA Version 40
+$1825: (MovieDie process:)
+$7a6d: (ActionQueue cue:)
+$17a3: (MovieChangeHealth dispose:)
+$0047: (RoomZero doit:)
+Something terrible has happened and has made Castle Guard die twice!
+script 40101, ip 0xd0
+-----------------------------------------------------
+
+login name : zach
+version    : 3.451
+time       : Thu May 30 07:51:15 2019
+-----------------------------------------------------
+BETA Version 40
+$039f: (RoomMgr doit:)
+$031b: (Game doit:)
+$0047: (RoomZero doit:)
+Error 99: Error loading resource 65535.v56
+C:\git\sacredtemple_client_source\Interp\Restype.cpp(151)
+script 60093, ip 0xa1
+-----------------------------------------------------
+
+login name : zach2
+version    : 3.451
+time       : Thu May 30 08:36:22 2019
+-----------------------------------------------------
+BETA Version 40
+$039f: (RoomMgr doit:)
+$031b: (Game doit:)
+$0047: (RoomZero doit:)
+Error 99: Error loading resource 65535.v56
+C:\git\sacredtemple_client_source\Interp\Restype.cpp(151)
+script 60093, ip 0xa1
+-----------------------------------------------------
+
+login name : 2e0800
+version    : 3.451
+time       : Sat Jun  1 04:34:30 2019
+-----------------------------------------------------
+BETA Version 40
+$0074: (Obj new:)
+$00d7: (LongInt new:)
+$332c: (GameServer lookup:)
+$730d: (Head fromPacket:)
+$06cb: (BContainer fromPacket:)
+$7b47: (MaleWarrior fromPacket:)
+$79bc: (GSNewRoomScript handleMsg:)
+$33f6: (List eachElementDo:)
+$332c: (GameServer handleMsg:)
+$3904: (NetMsgProcessor processMsg:)
+$3904: (NetMsgProcessor handleMsg:)
+$03f0: (NetUser doit:)
+$039f: (RoomMgr doit:)
+$031b: (Game doit:)
+$0047: (RoomZero doit:)
+Out of available handles.
+-----------------------------------------------------
+
+login name : da0e4c02
+version    : 3.451
+time       : Tue Jun 11 23:32:42 2019
+-----------------------------------------------------
+BETA Version 40
+$0074: (Obj new:)
+$00d7: (LongInt new:)
+$47e5: (MovieGainLevel addDependency:)
+$47e5: (MovieGainLevel init:)
+$47e5: (MovieGainLevel fromPacket:)
+$332c: (GameServer handleMsg:)
+$3904: (NetMsgProcessor processMsg:)
+$3904: (NetMsgProcessor handleMsg:)
+$03f0: (NetUser doit:)
+$039f: (RoomMgr doit:)
+$031b: (Game doit:)
+$0047: (RoomZero doit:)
+Out of available handles.
+-----------------------------------------------------
+
+login name : ant2
+version    : 3.451
+time       : Wed Jun 12 22:01:06 2019
+-----------------------------------------------------
+BETA Version 40
+$031b: (Game doit:)
+$0047: (RoomZero doit:)
+PollSocket: message size is too big 130024
+script 60020, ip 0x33
+-----------------------------------------------------
+
+login name : zach3
+version    : 3.451
+time       : Wed Jun 12 22:33:12 2019
+-----------------------------------------------------
+BETA Version 40
+$012e: (WorldActor doit:)
+$7452: (MaleAdventurer doit:)
+$123f: (RoomCast eachElementDo:)
+$123f: (RoomCast doit:)
+$039d: (ManagedRoom doit:)
+$3981: (RealmRoom doit:)
+$109e: (NetRoom doit:)
+$039f: (RoomMgr doit:)
+$031b: (Game doit:)
+$0047: (RoomZero doit:)
+Reference to handle 0x0 is not valid.
+script 40002, ip 0x56
+-----------------------------------------------------
+
+login name : zach3
+version    : 3.451
+time       : Wed Jun 12 22:33:42 2019
+-----------------------------------------------------
+BETA Version 40
+$012e: (WorldActor doit:)
+$3b5a: (MaleAdventurer doit:)
+$3dd3: (RoomCast eachElementDo:)
+$3dd3: (RoomCast doit:)
+$039d: (ManagedRoom doit:)
+$3981: (RealmRoom doit:)
+$3dcd: (NetRoom doit:)
+$039f: (RoomMgr doit:)
+$031b: (Game doit:)
+$0047: (RoomZero doit:)
+Reference to handle 0x0 is not valid.
+script 40002, ip 0x56
+-----------------------------------------------------
+
+login name : ant2
+version    : 3.451
+time       : Wed Jun 12 22:34:08 2019
+-----------------------------------------------------
+BETA Version 40
+$0047: (RoomZero doit:)
+Reference to handle 0x6c3b is not valid.
+script 0, ip 0x189
+-----------------------------------------------------
+
+login name : ant2
+version    : 3.451
+time       : Wed Jun 12 22:34:43 2019
+-----------------------------------------------------
+BETA Version 40
+$031b: (Game doit:)
+$0047: (RoomZero doit:)
+PollSocket: message size is too big 117024
+script 60020, ip 0x33
+-----------------------------------------------------
+
+login name : zach3
+version    : 3.451
+time       : Wed Jun 12 22:40:29 2019
+-----------------------------------------------------
+BETA Version 40
+$012e: (WorldActor doit:)
+$3b5a: (MaleAdventurer doit:)
+$67b7: (RoomCast eachElementDo:)
+$67b7: (RoomCast doit:)
+$039d: (ManagedRoom doit:)
+$3981: (RealmRoom doit:)
+$67b0: (NetRoom doit:)
+$039f: (RoomMgr doit:)
+$031b: (Game doit:)
+$0047: (RoomZero doit:)
+Reference to handle 0x0 is not valid.
+script 40002, ip 0x56
+-----------------------------------------------------
+
+login name : zach3
+version    : 3.451
+time       : Wed Jun 12 22:41:34 2019
+-----------------------------------------------------
+BETA Version 40
+$012e: (WorldActor doit:)
+$3b5a: (MaleAdventurer doit:)
+$51f2: (RoomCast eachElementDo:)
+$51f2: (RoomCast doit:)
+$039d: (ManagedRoom doit:)
+$3981: (RealmRoom doit:)
+$51ec: (NetRoom doit:)
+$039f: (RoomMgr doit:)
+$031b: (Game doit:)
+$0047: (RoomZero doit:)
+Reference to handle 0x0 is not valid.
+script 40002, ip 0x56
+-----------------------------------------------------
+
+login name : ant2
+version    : 3.451
+time       : Thu Jun 13 00:32:07 2019
+-----------------------------------------------------
+BETA Version 40
+$0047: (RoomZero doit:)
+Reference to handle 0x32bb is not valid.
+script 0, ip 0x189
+-----------------------------------------------------
+
+login name : ant2
+version    : 3.451
+time       : Thu Jun 13 00:33:11 2019
+-----------------------------------------------------
+BETA Version 40
+$031b: (Game doit:)
+$0047: (RoomZero doit:)
+PollSocket: message size is too big 117024
+script 60020, ip 0x33
+-----------------------------------------------------
+
+login name : ant2
+version    : 3.451
+time       : Thu Jun 13 01:08:10 2019
+-----------------------------------------------------
+BETA Version 40
+$332c: (GameServer getShopItemImage:)
+$332c: (GameServer handleMsg:)
+$3904: (NetMsgProcessor processMsg:)
+$3904: (NetMsgProcessor handleMsg:)
+$03f0: (NetUser doit:)
+$039f: (RoomMgr doit:)
+$031b: (Game doit:)
+$0047: (RoomZero doit:)
+Error 99: Error loading resource 32117.v56
+C:\git\sacredtemple_client_source\Interp\Restype.cpp(151)
+script 59954, ip 0x4d
+-----------------------------------------------------
+
+login name : ant2
+version    : 3.451
+time       : Thu Jun 13 01:08:33 2019
+-----------------------------------------------------
+BETA Version 40
+$332c: (GameServer getShopItemImage:)
+$332c: (GameServer handleMsg:)
+$3904: (NetMsgProcessor processMsg:)
+$3904: (NetMsgProcessor handleMsg:)
+$03f0: (NetUser doit:)
+$039f: (RoomMgr doit:)
+$031b: (Game doit:)
+$0047: (RoomZero doit:)
+Error 99: Error loading resource 32117.v56
+C:\git\sacredtemple_client_source\Interp\Restype.cpp(151)
+script 59954, ip 0x4d
+-----------------------------------------------------
+
+login name : zach3
+version    : 3.451
+time       : Thu Jun 13 02:41:19 2019
+-----------------------------------------------------
+BETA Version 40
+$031b: (Game doit:)
+$0047: (RoomZero doit:)
+PollSocket: message size is too big 130024
+script 60020, ip 0x33
+-----------------------------------------------------
+
+login name : ant1
+version    : 3.451
+time       : Thu Jun 13 03:01:19 2019
+-----------------------------------------------------
+BETA Version 40
+$031b: (Game doit:)
+$0047: (RoomZero doit:)
+PollSocket: message size is too big 130024
+script 60020, ip 0x33
+-----------------------------------------------------
+
+login name : ant1
+version    : 3.451
+time       : Thu Jun 13 04:33:43 2019
+-----------------------------------------------------
+BETA Version 40
+$031b: (Game doit:)
+$0047: (RoomZero doit:)
+PollSocket: message size is too big 130024
+script 60020, ip 0x33
+-----------------------------------------------------
+
+login name : r3a2kz5m
+version    : 3.451
+time       : Fri Jun 14 04:23:32 2019
+-----------------------------------------------------
+BETA Version 40
+$031b: (Game doit:)
+$0047: (RoomZero doit:)
+PollSocket: message size is too big 89556
+script 60020, ip 0x33
+-----------------------------------------------------
+
+login name : ant2
+version    : 3.451
+time       : Thu Jun 20 23:13:01 2019
+-----------------------------------------------------
+BETA Version 40
+$0074: (Obj new:)
+$00d7: (LongInt new:)
+$03ee: (curNetMsg getLong:)
+$5dce: (MovieChangeHealth fromPacket:)
+$332c: (GameServer handleMsg:)
+$3904: (NetMsgProcessor processMsg:)
+$3904: (NetMsgProcessor handleMsg:)
+$03f0: (NetUser doit:)
+$039f: (RoomMgr doit:)
+$031b: (Game doit:)
+$0047: (RoomZero doit:)
+Out of available handles.
+-----------------------------------------------------
+
+login name : ant1
+version    : 3.451
+time       : Fri Jun 21 04:54:20 2019
+-----------------------------------------------------
+BETA Version 40
+$472c: (WorldObject fromPacket:)
+$4701: (BContainer fromPacket:)
+$46f4: (CopperShop fromPacket:)
+$45b7: (BContainer fromPacket:)
+$012e: (WorldActor fromPacket:)
+$45a5: (MaleWarrior fromPacket:)
+$3b3d: (GSQueryCharactersScript handleMsg:)
+$33f6: (List eachElementDo:)
+$332c: (GameServer handleMsg:)
+$3904: (NetMsgProcessor processMsg:)
+$3904: (NetMsgProcessor handleMsg:)
+$03f0: (NetUser doit:)
+$039f: (RoomMgr doit:)
+$031b: (Game doit:)
+$0047: (RoomZero doit:)
+Error 99: Error loading resource 65535.v56
+C:\git\sacredtemple_client_source\Interp\Restype.cpp(151)
+script 40005, ip 0x28a
+-----------------------------------------------------
+
+login name : ant1
+version    : 3.451
+time       : Fri Jun 21 04:54:56 2019
+-----------------------------------------------------
+BETA Version 40
+$474f: (WorldObject fromPacket:)
+$4724: (BContainer fromPacket:)
+$4717: (CopperShop fromPacket:)
+$45da: (BContainer fromPacket:)
+$012e: (WorldActor fromPacket:)
+$45c8: (MaleWarrior fromPacket:)
+$3b60: (GSQueryCharactersScript handleMsg:)
+$33f6: (List eachElementDo:)
+$332c: (GameServer handleMsg:)
+$3904: (NetMsgProcessor processMsg:)
+$3904: (NetMsgProcessor handleMsg:)
+$03f0: (NetUser doit:)
+$039f: (RoomMgr doit:)
+$031b: (Game doit:)
+$0047: (RoomZero doit:)
+Error 99: Error loading resource 65535.v56
+C:\git\sacredtemple_client_source\Interp\Restype.cpp(151)
+script 40005, ip 0x28a
+-----------------------------------------------------
+
+login name : zach
+version    : 3.451
+time       : Fri Jun 21 04:56:11 2019
+-----------------------------------------------------
+BETA Version 40
+$3c6c: (WorldEgo fromPacket:)
+$3b26: (GSQueryCharactersScript handleMsg:)
+$33f6: (List eachElementDo:)
+$332c: (GameServer handleMsg:)
+$3904: (NetMsgProcessor processMsg:)
+$3904: (NetMsgProcessor handleMsg:)
+$03f0: (NetUser doit:)
+$039f: (RoomMgr doit:)
+$031b: (Game doit:)
+$0047: (RoomZero doit:)
+Reference to handle 0x0 is not valid.
+script 40004, ip 0x63
+-----------------------------------------------------
+
+login name : ant1
+version    : 3.451
+time       : Fri Jun 21 04:57:15 2019
+-----------------------------------------------------
+BETA Version 40
+$474f: (WorldObject fromPacket:)
+$4724: (BContainer fromPacket:)
+$4717: (CopperShop fromPacket:)
+$45da: (BContainer fromPacket:)
+$012e: (WorldActor fromPacket:)
+$45c8: (MaleWarrior fromPacket:)
+$3b60: (GSQueryCharactersScript handleMsg:)
+$33f6: (List eachElementDo:)
+$332c: (GameServer handleMsg:)
+$3904: (NetMsgProcessor processMsg:)
+$3904: (NetMsgProcessor handleMsg:)
+$03f0: (NetUser doit:)
+$039f: (RoomMgr doit:)
+$031b: (Game doit:)
+$0047: (RoomZero doit:)
+Error 99: Error loading resource 65535.v56
+C:\git\sacredtemple_client_source\Interp\Restype.cpp(151)
+script 40005, ip 0x28a
+-----------------------------------------------------
+
+login name : zach
+version    : 3.451
+time       : Fri Jun 21 05:27:13 2019
+-----------------------------------------------------
+BETA Version 40
+$0074: (Obj new:)
+$006b: (List new:)
+$097c: (MovieInfo new:)
+$332c: (GameServer handleMsg:)
+$3904: (NetMsgProcessor processMsg:)
+$3904: (NetMsgProcessor handleMsg:)
+$03f0: (NetUser doit:)
+$039f: (RoomMgr doit:)
+$031b: (Game doit:)
+$0047: (RoomZero doit:)
+Out of available handles.
+-----------------------------------------------------
+
+login name : ant1
+version    : 3.451
+time       : Fri Jun 21 05:27:49 2019
+-----------------------------------------------------
+BETA Version 40
+$006b: (List new:)
+$097c: (MovieInfo new:)
+$332c: (GameServer handleMsg:)
+$3904: (NetMsgProcessor processMsg:)
+$3904: (NetMsgProcessor handleMsg:)
+$03f0: (NetUser doit:)
+$039f: (RoomMgr doit:)
+$031b: (Game doit:)
+$0047: (RoomZero doit:)
+Out of available handles.
+-----------------------------------------------------
+
+login name : ant1
+version    : 3.451
+time       : Fri Jun 21 05:39:42 2019
+-----------------------------------------------------
+BETA Version 40
+$0074: (Obj new:)
+$00d7: (LongInt new:)
+$5b26: (MovieAttack addDependency:)
+$5b26: (MovieAttack init:)
+$5b26: (MovieAttack fromPacket:)
+$332c: (GameServer handleMsg:)
+$3904: (NetMsgProcessor processMsg:)
+$3904: (NetMsgProcessor handleMsg:)
+$03f0: (NetUser doit:)
+$039f: (RoomMgr doit:)
+$031b: (Game doit:)
+$0047: (RoomZero doit:)
+Out of available handles.
+-----------------------------------------------------
+
+login name : ant4
+version    : 3.451
+time       : Tue Jun 25 06:01:39 2019
+-----------------------------------------------------
+BETA Version 40
+$031b: (Game doit:)
+$0047: (RoomZero doit:)
+PollSocket: message size is too big 117024
+script 60020, ip 0x33
+-----------------------------------------------------
+
+login name : ant4
+version    : 3.451
+time       : Tue Jun 25 06:46:02 2019
+-----------------------------------------------------
+BETA Version 40
+$0074: (Obj new:)
+$00d7: (LongInt new:)
+$03ee: (curNetMsg getLong:)
+$6094: (MovieChangeHealth fromPacket:)
+$332c: (GameServer handleMsg:)
+$3904: (NetMsgProcessor processMsg:)
+$3904: (NetMsgProcessor handleMsg:)
+$03f0: (NetUser doit:)
+$039f: (RoomMgr doit:)
+$031b: (Game doit:)
+$0047: (RoomZero doit:)
+Out of available handles.
+-----------------------------------------------------
+

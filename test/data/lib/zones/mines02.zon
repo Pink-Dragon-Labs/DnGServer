@@ -1,0 +1,9 @@
+name "mines02"
+title "I Me Mines"
+worldFile "../data/lib/world/mine02.wld"
+allowCombat 3
+isDungeon 1
+entrance movingRock12407-0
+midiFile 29
+groupChance 30
+

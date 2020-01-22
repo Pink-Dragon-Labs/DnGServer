@@ -1,0 +1,779 @@
+object mwOdinsEdge of TwoHandSword
+	properties
+		name "Odins Anger"
+		view 15500
+		value 85000
+		health 1000
+		color 16
+	end
+
+	base described
+		text "You see an Odin's Edge."
+		idText "This is an Odin's Edge."
+		shopText "Here is an Odin's Edge."
+	end
+end
+
+object mwIronwoodCudgel of Club
+	properties
+		name "Ironwood Cudgel"
+		view 15550
+		value 28500
+		color 104
+		health 900
+	end
+
+	base described
+		idText "Ironwood Cudgel.\n\n"
+		shopText "Ironwood Cudgel"
+	end
+end
+
+object mwHarbringer of Axe
+	properties
+		name "Harbringer of Doom"
+		view 15750
+		value 28500
+		health 850
+		color 93
+	end
+end
+
+object mwGram of TwoHandSword
+    properties
+        name "Gram"
+        view 15050
+        value 95000
+        health 1500
+        color 16
+    end
+end
+
+object mwWyrd of ThrowingDagger
+    properties
+        name "Wyrd Dagger"
+        view 15600
+        value 95000
+        health 1500
+        color 16
+    end
+
+    base described
+        text "You see a Wyrd Dagger."
+        idText "This is Wyrd Dagger  Level Required: 500"
+        shopText "Here is Wyrd Dagger."
+    end
+end
+
+object mwEnidsNeedle of ThrowingDagger
+    properties
+        name "Enid's Needle"
+        view 15650
+        value 95000
+        health 1500
+        color 16
+    end
+
+
+    base described
+        text "You see a Enid's Needle."
+        idText "This is Enid's Needle."
+        shopText "Here is Enid's Needle."
+    end
+end
+
+object mwFafnirFang of Dagger
+    properties
+        name "Fafnir Fang"
+        view 15450
+        value 95000
+        health 1500
+        color 16
+    end
+
+    base carryable
+        weight 30.0
+    end
+
+    base described
+        text "You see a Fafnir Fang"
+        idText "This is Fafnir Fang"
+        shopText "Here is Fafnir Fang"
+    end
+end
+
+#------------------------------------- Beanie -------------------------------------
+object Beanie of Clothing
+	properties
+		# Beanie Standard Version
+		view 31450
+		name "Beanie"
+		clutStart 63
+		color -1
+		value 150
+	end
+
+	base carryable
+		weight 1
+	end
+
+	base wearable
+		areaWorn 0
+	end
+
+	base described
+		text "You see a Beanie."
+		idText "You see a Beanie.\n\n"
+		shopText "A Beanie?"
+	end
+end
+
+object Bikini of Clothing
+	properties
+		name "Bikini"
+		basicName "bikini"
+		view 10650
+		clutStart 73
+		color 100
+		value 150
+		armor 10
+	end
+
+	base wearable
+		# no males
+		mask male
+	end
+
+	base carryable
+		weight 0.5
+	end
+
+	base wearable
+		# wear on legs
+		areaWorn 6
+		layer 0
+	end
+
+	base described
+	   text "You see a Bikini."
+	   shopText "This is the a fine, Fashionable Bikini!"
+	end
+end
+
+object Swimsuit of Clothing
+	properties
+		name "Swimsuit"
+		basicName "swimsuit"
+		view 10550
+		clutStart 73
+		color 100
+		value 150
+		armor 10
+	end
+
+	base wearable
+		# no females
+		mask female
+	end
+
+	base carryable
+		weight 0.5
+	end
+
+	base wearable
+		# wear on legs
+		areaWorn 6
+		layer 0
+	end
+
+	base described
+	   text "You see a Swimsuit."
+	   shopText "This is the a fine, Fashionable Swimsuit!"
+	end
+end
+#------------------------------------------------------------
+#################################
+#								#
+#								#
+#								#
+#		New NG Weapons			#
+#								#
+#								#
+#								#
+#################################
+#------------------------------------------------------------
+object mwDeath of mwHarbringer
+	properties
+	special
+		name "Harbringer of Death"
+		value 100000
+		health 2000
+		strength 5
+		caffect 0
+		affect 10 0 0 -1		# Life-Steal
+		level 1500
+	end
+	
+	base dye
+	end
+
+	actions
+        vBePutOn setAffect dobj 39 0 0 -1 	            		  # Strength Bonus
+		vBeTakenOff clearAffect dobj 39 0 0               		  #
+        vBePutOn setAffect dobj 39 0 0 -1 		           		  # Strength Bonus
+		vBeTakenOff clearAffect dobj 39 0 0                		  #
+		vBePutOn setAffect dobj 56 0 0 -1                 		  # Extra Attack
+		vBeTakenOff clearAffect dobj 56 0 0               		  #
+		vBePutOn setAffect dobj 59 0 0 -1                 		  # +Dex
+		vBeTakenOff clearAffect dobj 59 0 0		        		  #	
+        vBePutOn setAffect dobj 45 0 0 -1                  		  # INDESTRUCTION
+        vBeTakenOff clearAffect dobj 45 0 0
+    	vBePutOn changeCastResistance dobj 100 0 1 2 3 4		  # Anti Magic
+		vBeTakenOff changeCastResistance dobj -100 0 1 2 3 4
+	end
+	
+	base carryable
+		weight 120.0
+	end
+	
+	base weapon
+		minDamage 315
+		maxDamage 405
+	end	
+	
+	base described
+	    text "An Axe not crafted like any you've ever seen.."
+		idText "The Harbringer of Death.\nThis is said to have been wielded by Death himself.\nUtilizing the powers of Death, it will suck the very essense from your opponent. The unholy aura around this axe prevents you from casting any spells while wielding.\nThis deadly axe will also imbue you with impressive Strength, an extra Attack in combat, and additional Dexterity.\n\nLevel Required: 1500\n"
+		shopText "This is not sold anywhere."
+	end
+end
+#------------------------------------------------------------
+object mwNeedle of mwEnidsNeedle
+	properties
+	special
+		name "Sunflare"
+		value 100000
+		health 2000
+		color 14				# Celadon
+		strength 5
+		caffect 0
+		affect 1 0 0 -1     # Fire Damage
+		level 1500
+	end
+
+	base carryable
+		weight 1.0
+	end
+
+	base weapon
+		minDamage 110
+		maxDamage 150
+        mask warrior
+        mask thief
+        mask adventurer
+	end
+	
+	
+	actions
+	    vBePutOn changeSDM dobj 400 1 3 4             # SDM Boost (Thaum, Ele, Necro)
+		vBeTakenOff changeSDM dobj -400 1 3 4	      #
+		vBePutOn setAffect dobj 61 0 0 -1             # Intel Boost (HoI)
+		vBeTakenOff clearAffect dobj 61 0 0           #
+		vBePutOn setAffect dobj 61 0 0 -1             # Intel Boost (HoI)
+		vBeTakenOff clearAffect dobj 61 0 0           #
+        vBePutOn setAffect dobj 61 0 0 -1             # Intel Boost (HoI)
+		vBeTakenOff clearAffect dobj 61 0 0           #
+        vBePutOn setAffect dobj 23 0 0 -1             # IMMOLATION_FIRE
+        vBeTakenOff clearAffect dobj 23 0 0	          #
+        vBePutOn setAffect dobj 45 0 0 -1             # INDESTRUCTION
+        vBeTakenOff clearAffect dobj 45 0 0           #
+        vBePutOn setAffect dobj 1 2 0 -1              # Fire Shield
+		vBeTakenOff clearAffect dobj 1 2 0            #
+	end
+	
+	base described
+		text ""
+		idText "Sunflare.\n This dagger was forged in the the center of a star.\n This will inflict natural fire damage to your opponent as well as grant you fire immolation and protection. Wielding this you will also gain incredible Intelligence, as well as a 400% Boost to your Thaumatugy, Elementalism and Necromancy Circles. \nLevel Required: 1500\n Wizards Only!\n"
+		shopText "This is not sold anywhere."
+	end
+end
+#------------------------------------------------------------
+object mwFalchion of mwGram
+	properties
+	special
+		name "Claymore"
+		value 100000
+		health 2000
+		level 1500
+		strength 5		
+		color 115             # Finvarra
+		affect 10 0 0 -1      # Life-Steal	
+	end
+
+	
+	base carryable
+		weight 25.0
+	end
+
+	
+	base weapon
+		minDamage 155
+		maxDamage 285
+	end
+	
+	
+	actions
+        vBePutOn setAffect dobj 39 0 0 -1 	           # Strength Bonus
+		vBeTakenOff clearAffect dobj 39 0 0            #
+		vBePutOn setAffect dobj 56 0 0 -1			   # Extra Attack
+		vBeTakenOff clearAffect dobj 56 0 0            #
+		vBePutOn setAffect dobj 59 0 0 -1       	   # Dexterity
+		vBeTakenOff clearAffect dobj 59 0 0  		   #		
+        vBePutOn setAffect dobj 61 0 0 -1              # Intel Boost (HoI)
+		vBeTakenOff clearAffect dobj 61 0 0            #
+        vBePutOn setAffect dobj 45 0 0 -1              # INDESTRUCTION
+        vBeTakenOff clearAffect dobj 45 0 0            #
+	end
+
+	
+	base described
+		text "What a fat sword...\n"
+		idText "The great Claymore of Highland. An unwieldy weapon, doubly edged; the length of the blade four feet long. This Claymore will grant the wielder extra Strength, Dexterity, as well as Intelligence.\n\nLevel Required: 1500\n"
+		shopText "What on earth is this made of?!"
+	end
+end
+#------------------------------------------------------------
+object mwFang of mwFafnirFang
+	properties
+	special
+		name "Incisor"
+		value 100000
+		health 2000
+		level 125
+		strength 5	
+		affect 10 0 0 -1	# Steal-Life Damage
+	end
+
+	base dye
+	end
+	
+	base carryable
+		weight 3.8
+	end
+
+	
+	base weapon
+		minDamage 55
+		maxDamage 160
+	end
+	
+	
+	actions
+	vBePutOn setAffect dobj 56 0 0 -1   			#EXTRA_ATTACK
+	vBeTakenOff clearAffect dobj 56 0 0			#
+	vBePutOn setAffect dobj 44 0 0 -1   			#REGENERATION
+	vBeTakenOff clearAffect dobj 44 0 0			#
+	vBePutOn setAffect dobj 39 0 0 -1   			#EMPOWER
+	vBeTakenOff clearAffect dobj 39 0 0			#
+	end
+
+	
+	base described
+		text "Is this a tooth?!\n"
+		idText "This has to be a fang from the Leviathan. Using it as a weapon grants you an additional attack. Somehow it is healing you and giving you strength. \n\nLevel Required: 125\n"
+		shopText "A TOOTH?"
+	end
+end
+#------------------------------------------------------------
+object mwFatSword of mwOdinsEdge
+	properties
+	special
+		name "Void Falchion"
+		value 100000
+		health 2000
+		level 375
+		strength 5	
+		color 98             # Black
+	end
+
+	
+	base carryable
+		weight 20.5
+	end
+
+	
+	base weapon
+		minDamage 75
+		maxDamage 185
+		range 3
+	end
+	
+	
+	actions
+	vBePutOn setAffect dobj 56 0 0 -1   			#EXTRA_ATTACK
+	vBeTakenOff clearAffect dobj 56 0 0			#
+	vBePutOn setAffect dobj 59 0 0 -1   			#POS_DEX_MOD
+	vBeTakenOff clearAffect dobj 59 0 0			#
+	vBePutOn setAffect dobj 39 0 0 -1   			#EMPOWER
+	vBeTakenOff clearAffect dobj 39 0 0			#
+	end
+
+	
+	base described
+		text "This blade feels as if it is reaching out to you.."
+		idText "A Falchion. Weapons like this hail from a reality long since closed, this must be leftover from the war.\nWeilding this falchion grants you an Extra Attack, it also unlocks your inner strength and speed.\n\nLevel Required: 375\n"
+		shopText "A Falchion. Weapons like this hail from a reality long since closed, this must be leftover from the war.\nWeilding this falchion grants you an Extra Attack, it also unlocks your inner strength and speed.\n\nLevel Required: 375\n"
+	end
+end
+#------------------------------------------------------------
+object mwMurmur of mwWyrd
+	properties
+	special
+		name "Murmur"
+		value 100000
+		health 2000
+		level 725
+	end
+
+	
+	base carryable
+		weight 2.5
+	end
+
+	base dye
+	end
+	
+	base weapon
+		minDamage 75
+		maxDamage 105
+	end
+	
+	
+	actions
+		vBePutOn setAffect dobj 56 0 0 -1		# Extra Attack
+		vBeTakenOff clearAffect dobj 56 0 0		#
+		vBePutOn setAffect dobj 59 0 0 -1   	# POS_DEX_MOD
+		vBeTakenOff clearAffect dobj 59 0 0		#
+		vBePutOn setAffect dobj 1 3 0 -1		# Fire Weakness (Hidden)
+		vBeTakenOff clearAffect dobj 1 3  0		#
+		vBePutOn setAffect dobj 39 0 0 -1		# Strength Bonus
+		vBeTakenOff clearAffect dobj 39 0 0		#
+	end
+
+	
+	base described
+		text "This dagger emits a somewhat of a beating noise..\n"
+		idText "Murmur.\nThis Throwing Dagger once lived a life such as yours. Cursed by the ancient Bishop, he is to live out his days trapped in this dagger. The soul inside will grant you an extra throw, a boost to your Strength as well as Dexterity, but you also inherit his fear of fire.\nLevel Required: 725\n"
+		shopText "This is not sold anywhere."
+	end
+end
+#------------------------------------------------------------
+object mwAgony of mwIronwoodCudgel
+	properties
+	special
+		name "Agony"
+		value 100000
+		health 2000
+		level 1800
+		affect 2 0 0 -1		# Cold Damage
+	end
+
+	
+	base carryable
+		weight 155.0
+	end
+
+	base dye
+	end
+	
+	base weapon
+		minDamage 320
+		maxDamage 425
+		range 3
+	end	
+	
+	
+	actions
+		vBePutOn setAffect dobj 56 0 0 -1						  # Extra Attack
+		vBeTakenOff clearAffect dobj 56 0 0						  #
+		vBePutOn setAffect dobj 39 0 0 -1 	            		  # Strength Bonus
+		vBeTakenOff clearAffect dobj 39 0 0               		  #
+        vBePutOn setAffect dobj 39 0 0 -1 		           		  # Strength Bonus
+		vBeTakenOff clearAffect dobj 39 0 0                		  #
+	end
+
+	
+	base described
+		text "What an unusual club..\n"
+		idText "Agony.\nAt least thats what they will be screaming..\nThis unique club grants you an extra swing, significant Strength and will strike fear into your opponent, chilling them to their bones.\nLevel Required: 1800\n"
+		shopText "This is not sold anywehre."
+	end
+end
+#--------------------------------------------
+object SantaHat of Beanie
+	properties
+		special
+		name "Santa Hat"
+		color 15		# Fire Brick
+		value 1000
+	end
+
+	actions
+		vBePutOn setAffect dobj 97 0 0 -1                # White Hair
+		vBeTakenOff clearAffect dobj 97 0 0              #
+	end
+
+	base described
+		text "You see Santa's Hat!\n\n"
+		idText "You see Santa's Hat!\n\n"
+		shopText "Ho Ho Ho"
+	end
+end
+#-------------------------------------------
+object mwCleaver of mwHarbringer
+	properties
+		special
+		name "Cleaver"
+		value 100000
+		level 2500
+		color 98	# Black
+		health 1000
+		strength 5	
+		affect 0 0 0 -1	   # Normal Damage		
+	end
+
+	base weapon 
+		minDamage 375
+		maxDamage 495
+		spellProcID 109			# Cleave (Physical)
+		forwardProcChance 100	# 100%
+	end	
+
+	base carryable 
+		weight 15
+	end
+
+	base dye
+	end
+
+	actions
+		vBePutOn setAffect dobj 56 0 0 -1		# Extra Attack
+		vBeTakenOff clearAffect dobj 56 0 0     #
+		vBePutOn setAffect dobj 56 0 0 -1		# Extra Attack
+		vBeTakenOff clearAffect dobj 56 0 0     #
+		vBePutOn setAffect dobj 56 0 0 -1		# Extra Attack
+		vBeTakenOff clearAffect dobj 56 0 0     #
+	end
+	
+	base described
+		text "The Cleaver.\n\nUsing this devastating weapon, you will strike all enemies in front of you.\nCleave damage is calculated by the wielder's Strength and Critical Strike skill.\nThis cleaver will provide Three additional attacks per round.\n\n"
+		shopText "The Cleaver.\n\nUsing this devastating weapon, you will strike all enemies in front of you.\nCleave damage is calculated by the wielder's Strength and Critical Strike skill.\nThis cleaver will provide Three additional attacks per round.\n\n"
+	end
+end
+
+object mwOmega of mwGram
+	properties
+		special
+		name "Omega"
+		value 100000
+		level 2500
+		color 185	# Shifting Stark Black
+		health 1000
+		strength 5	
+		affect 0 0 0 -1	   # Normal Damage		
+	end
+
+	base weapon 
+		minDamage 300
+		maxDamage 475
+		spellProcID 109			# Cleave (Physical)
+		forwardProcChance 100	# 100%
+	end	
+
+	base carryable 
+		weight 12
+	end
+
+	base dye
+	end
+
+	actions
+		vBePutOn setAffect dobj 56 0 0 -1		# Extra Attack
+		vBeTakenOff clearAffect dobj 56 0 0     #
+		vBePutOn setAffect dobj 56 0 0 -1		# Extra Attack
+		vBeTakenOff clearAffect dobj 56 0 0     #
+		vBePutOn setAffect dobj 56 0 0 -1		# Extra Attack
+		vBeTakenOff clearAffect dobj 56 0 0     #
+	end
+	
+	base described
+		text "Omega\n\nThis size of this blade is immense. You will find it very difficult to not hit everything in front of you when attacking.\nCleave damage is calculated by the wielder's Strength and Critical Strike skill.\nOmega will provide Three additional attacks per round.\n\n"
+		shopText "Omega\n\nThis size of this blade is immense. You will find it very difficult to not hit everything in front of you when attacking.\nCleave damage is calculated by the wielder's Strength and Critical Strike skill.\nOmega will provide Three additional attacks per round.\n\n"
+	end
+end
+
+
+
+
+
+
+
+
+
+
+object FafnirTable of MoneyBag
+	properties
+	special
+		random 100
+	end
+
+	base treasure
+		MoneyBag 1000000 3000000
+		MoneyBag 1000000 3000000
+		MoneyBag 1000000 3000000
+		MoneyBag 1000000 3000000
+		MoneyBag 1000000 3000000
+		MoneyBag 1000000 3000000
+		ProtectorBaldrics
+		spbDuachsVengeance
+		spbCrawlingCharge
+		spbDespothesWrath
+		spbSummonDragon
+		spbElphamesJustice
+		spbAcidCloud
+		spbEnidsBlessing
+		spbAntiMagicAura
+		spbMabonsForcedFlee
+		spbEtheralize
+		rSpelunking
+		rBlurredSpeed
+		rBrutality
+		rSpellpower
+		AssassinTarge
+		AdvTarge
+		ConjuredShield
+		BrutalShield
+		maElphamesBands
+		maElphamesShoes
+		maElphamesCowl
+		maElphamesShirt
+		maElphamesHose
+		maEnidGuards
+		maEnidsNecklace
+		maBanditGreaves
+		maBanditBrig
+		maBanditGauntlets
+		maReinforcedScarf
+		maBanditBoots
+		maFinvarrasCuirass
+		maFinvarrasGreaves
+		maFinvarrasBands
+		maFinvarrasTreads
+		maFinvarrasCollar
+		mwCrusher
+		mwWand
+		mwPowerFist
+		mwCleaver
+		mwOmega
+		mwAlpha
+		mwLightning
+		mwDeathWish
+		mwSapper
+		mwGnasher
+		mwMighty
+		mwLightDart
+		mwRepel 
+		mwFury
+		mwNeedle
+		mwAgony
+		tSash
+		Totem
+		bWarrior
+		bAdventurer
+		bThief
+		bWizard
+		rMighty
+		mwDespothes
+		mwCretin
+		mwBardiche
+		maThorsPlate
+		maHopliteF
+		maHopliteM
+		maCrownOfPower
+		ShieldWall
+		Parma
+		Barricade
+		ThistlebarkA
+		sEQForwardWeaponProc
+		sSparkForwardWeaponProc
+		sLDForwardWeaponProc
+		sCleaveForwardWeaponProc
+		sFOForwardWeaponProc
+		sIOForwardWeaponProc
+		sInvulReverseChestProc
+		sShiftReverseHelmProc
+		sHealReverseChestProc
+	end
+end
+
+object RaidBossTable of MoneyBag
+	properties
+	special
+		random 100
+	end
+
+	base treasure
+		MoneyBag 10000000 30000000
+		MoneyBag 10000000 30000000
+		maThorsPlate
+		spbDespothesWrath
+		spbElphamesJustice
+		spbAcidCloud
+		spbEnidsBlessing
+		spbMabonsForcedFlee
+		spbRepel
+		rSpelunking
+		rBlurredSpeed
+		rBrutality
+		rSpellpower
+		AssassinTarge
+		AdvTarge
+		MagicWardRingII
+		MagicWardRingI
+		ConjuredShield
+		BrutalShield
+		bWarrior
+		bAdventurer
+		bThief
+		bWizard
+		maHopliteF
+		maHopliteM
+		maCrownOfPower
+		mwCrusher
+		mwLightDart
+		mwLightning
+		mwDeathWish
+		mwLightning
+		mwRepel 
+		mwSapper
+		mwMighty
+		mwDespothes
+		mwCretin
+		mwGnasher
+		mwBardiche
+		mwHate
+		mwWand
+		mwCleaver
+		mwOmega
+		mwAlpha
+		mwZeus
+		mwPowerFist
+		ThistlebarkA
+		sEQForwardWeaponProc
+		sSparkForwardWeaponProc
+		sLDForwardWeaponProc
+		sCleaveForwardWeaponProc
+		sFOForwardWeaponProc
+		sIOForwardWeaponProc
+	end
+end

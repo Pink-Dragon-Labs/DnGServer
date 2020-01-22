@@ -1,0 +1,8 @@
+name "D_LEINSTER"
+title "Olde Leinster"
+worldFile "../data/lib/world/LEINEAST_PVP.WLD"
+worldFile "../data/lib/world/LEINCENT_PVP.WLD"
+worldFile "../data/lib/world/LEINWEST_PVP.WLD"
+resetInterval 9000000
+allowCombat 11
+midiFile 9

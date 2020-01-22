@@ -1,0 +1,1384 @@
+object maZanePants of Pants
+	properties
+	special
+		name "pants"
+		color 0              # NB
+		value 2500
+		health 15000
+		armor 45
+		level 1
+	end
+
+	base carryable
+		weight .5
+	end
+	
+	actions
+	vBePutOn setAffect dobj 17 0 0 -1   	#SEE_INVISIBLE
+	vBeTakenOff clearAffect dobj  17 0 0		
+	vBePutOn setAffect dobj 23 0 0 -1   	#IMMOLATION_FIRE
+	vBeTakenOff clearAffect dobj  23 0 0	
+	vBePutOn setAffect dobj 24 0 0 -1   	#IMMOLATION_COLD
+	vBeTakenOff clearAffect dobj  24 0 0	
+	vBePutOn setAffect dobj 25 0 0 -1   	#IMMOLATION_ACID
+	vBeTakenOff clearAffect dobj  25 0 0	
+	vBePutOn setAffect dobj 26 0 0 -1   	#IMMOLATION_POISON
+	vBeTakenOff clearAffect dobj  26 0 0	
+	vBePutOn setAffect dobj 27 0 0 -1   	#IMMOLATION_LIGHTNING
+	vBeTakenOff clearAffect dobj  27 0 0	
+	vBePutOn setAffect dobj 50 0 0 -1   	#IMMOLATION_RUST
+	vBeTakenOff clearAffect dobj  50 0 0	
+	vBePutOn setAffect dobj 44 0 0 -1   	#REGENERATION
+	vBeTakenOff clearAffect dobj  44 0 0	
+	vBePutOn setAffect dobj 59 0 0 -1   	#POS_DEX_MOD
+	vBeTakenOff clearAffect dobj  59 0 0		
+	vBePutOn setAffect dobj 39 0 0 -1   	#EMPOWER
+	vBeTakenOff clearAffect dobj  39 0 0	
+	end
+
+	base described
+		text "A very light pair of pants."
+		idText "Zane's Personal Pants."
+		shopText "What are these made of?!."
+	end
+end
+#------------------------------------------------------------
+object maZaneShirt of Shirt
+	properties
+	special
+		name "shirt"
+		color 0              # NB
+		value 3500
+		health 15000
+		armor 30
+		level 1
+	end
+
+	base carryable
+		weight .5
+	end
+	
+	actions
+	vBePutOn setAffect dobj 44 0 0 -1   	#REGENERATION
+	vBeTakenOff clearAffect dobj  44 0 0	
+	vBePutOn setAffect dobj 59 0 0 -1   	#POS_DEX_MOD
+	vBeTakenOff clearAffect dobj  59 0 0		
+	vBePutOn setAffect dobj 39 0 0 -1   	#EMPOWER
+	vBeTakenOff clearAffect dobj  39 0 0	
+	vBePutOn setAffect dobj 41 0 0 -1   #SHIELD
+	vBeTakenOff clearAffect dobj  41 0 0	
+	vBePutOn setAffect dobj 42 0 0 -1   #GREATER_SHIELD
+	vBeTakenOff clearAffect dobj  42 0 0	
+	vBePutOn setAffect dobj 43 0 0 -1   #INVULNERABLE
+	vBeTakenOff clearAffect dobj  43 0 0	
+	end
+	
+	base described
+		text "A very light cloth, almost see-through."
+		idText "Zane's Personal Shirt."
+		shopText "This looks like something I would sneeze into."
+	end
+end
+#------------------------------------------------------------
+object maZaneBands of Mythrilband
+	properties
+	special
+		name "bands"
+		color 0              # NB
+		value 3500
+		health 15000
+		armor 50
+		level 1
+	end
+	
+	base carryable
+		weight .5
+	end
+
+	actions
+	vBePutOn setAffect dobj 44 0 0 -1   	#REGENERATION
+	vBeTakenOff clearAffect dobj  44 0 0	
+	vBePutOn setAffect dobj 59 0 0 -1   	#POS_DEX_MOD
+	vBeTakenOff clearAffect dobj  59 0 0		
+	vBePutOn setAffect dobj 39 0 0 -1   	#EMPOWER
+	vBeTakenOff clearAffect dobj  39 0 0	
+	end
+	
+	base described
+		text "A pair of magical leather wristbraces."
+		idText "Zane's Personal Bracers."
+		shopText "Blargh"
+	end	
+end
+#------------------------------------------------------------
+object maZaneCowl of ChainCowl
+	properties
+	special
+		name "cowl"
+		value 1000
+		health 15000
+		armor 30			
+		color 0			# NB
+		level 1
+	end
+
+	base carryable
+		weight .5
+	end
+	
+	actions
+	vBePutOn setAffect dobj 44 0 0 -1   	#REGENERATION
+	vBeTakenOff clearAffect dobj  44 0 0	
+	vBePutOn setAffect dobj 59 0 0 -1   	#POS_DEX_MOD
+	vBeTakenOff clearAffect dobj  59 0 0		
+	vBePutOn setAffect dobj 39 0 0 -1   	#EMPOWER
+	vBeTakenOff clearAffect dobj  39 0 0	
+	end
+
+	base described
+		text "This metal feels light as air."
+		idText "Zane's Personal Cowl."
+		shopText "Blargh"
+	end
+end
+#------------------------------------------------------------
+object maZaneShoes of LowBoots
+	properties
+	special
+		name "shoes"
+		value 3500
+		armor 40
+		health 15000
+		color 43			# Glowie
+		level 1
+	end
+
+	base carryable
+		weight .5
+	end
+
+	actions
+	vBePutOn setAffect dobj 44 0 0 -1   	#REGENERATION
+	vBeTakenOff clearAffect dobj  44 0 0	
+	vBePutOn setAffect dobj 59 0 0 -1   	#POS_DEX_MOD
+	vBeTakenOff clearAffect dobj  59 0 0		
+	vBePutOn setAffect dobj 39 0 0 -1   	#EMPOWER
+	vBeTakenOff clearAffect dobj  39 0 0
+	vBePutOn setAffect dobj 33 0 0 -1   	#BERSERK
+	vBeTakenOff clearAffect dobj  33 0 0	
+	vBePutOn setAffect dobj 37 0 0 -1   	#QUICKEN
+	vBeTakenOff clearAffect dobj  37 0 0		
+	end
+
+	base described
+		text "You see a pair of magical shoes."
+		idText "Zane's Personal Slippers"
+		shopText "Blargh"
+	end
+end
+#--------------------------------------------------------------------
+object bZane of Belt
+	properties
+		name "belt"
+		value 7500
+		health 15000
+		color 103
+		special
+	end
+
+	actions
+	vBePutOn setAffect dobj 72 0 0 -1		# Encumberance Blessing
+	vBeTakenOff clearAffect dobj 72 0 0
+	vBePutOn setAffect dobj 39 0 0 -1		# Empower
+	vBeTakenOff clearAffect dobj 39 0 0
+	vBePutOn setAffect dobj 67 0 0 -1   	#NOURISHED
+	vBeTakenOff clearAffect dobj  67 0 0	
+	end
+
+	base described
+		idText "Zane's Personal Belt."
+		shopText "Blargh"
+	end
+end
+#------------------------------------------------
+object rZane of Ring
+	properties
+		special
+		name "ring"
+		value 2500
+		color 43
+	end
+
+	actions
+	vBePutOn setAffect dobj 63 0 0 -1		#END
+	vBeTakenOff clearAffect dobj 63 0 0
+	vBePutOn setAffect dobj 39 0 0 -1		#STR
+	vBeTakenOff clearAffect dobj 39 0 0
+	vBePutOn setAffect dobj 61 0 0 -1   	#POS_INT_MOD
+	vBeTakenOff clearAffect dobj  61 0 0	
+	vBePutOn setAffect dobj 59 0 0 -1   	#POS_DEX_MOD
+	vBeTakenOff clearAffect dobj  59 0 0	
+	vBePutOn setAffect dobj 86 0 0 -1   	#FREE_WILL
+	vBeTakenOff clearAffect dobj  86 0 0	
+	end
+
+	base described
+		idText "Zane's Personal Rings."
+		shopText "Blargh"
+	end
+end
+
+object aZane of Amulet
+	properties
+		special
+		name "amulet"
+		value 15000
+		color 43
+	end
+
+	actions
+	vBePutOn setAffect dobj 56 0 0 -1		#EXT ATK
+	vBeTakenOff clearAffect dobj 56 0 0
+	vBePutOn setAffect dobj 39 0 0 -1		#STR
+	vBeTakenOff clearAffect dobj 39 0 0
+	vBePutOn setAffect dobj 56 0 0 -1   	#EXTRA_ATTACK
+	vBeTakenOff clearAffect dobj  56 0 0	
+	vBePutOn setAffect dobj 57 0 0 -1   	#EXTRA_DODGE
+	vBeTakenOff clearAffect dobj  57 0 0	
+	vBePutOn setAffect dobj 86 0 0 -1   	#FREE_WILL
+	vBeTakenOff clearAffect dobj  86 0 0	
+	vBePutOn setAffect dobj 93 0 0 -1  		#CURSE_DESPOTHES
+	vBeTakenOff clearAffect dobj 93 0 0	
+	end
+
+	base described
+		idText "Zane's Personal Amulet."
+		shopText "Blargh"
+	end
+end
+#--------------------------------------------------------------------
+object sashZane of Baldric
+	properties
+		name "baldric"
+		color 90
+		value 1000
+		special
+	end
+
+	actions
+	vBePutOn setAffect dobj 63 0 0 -1		#END
+	vBeTakenOff clearAffect dobj 63 0 0
+	vBePutOn setAffect dobj 39 0 0 -1		#STR
+	vBeTakenOff clearAffect dobj 39 0 0
+	vBePutOn setAffect dobj 61 0 0 -1   	#POS_INT_MOD
+	vBeTakenOff clearAffect dobj  61 0 0	
+	vBePutOn setAffect dobj 59 0 0 -1   	#POS_DEX_MOD
+	vBeTakenOff clearAffect dobj  59 0 0	
+	end
+
+	base described
+		text "Zane's Personal Baldric."
+		shopText "Blargh"
+	end
+end
+#--------------------------------------------------------------------
+object maZaneHat of VikingHelmet
+	properties
+		special
+		name "helmet"
+		level 1
+		armor 90
+		color 0
+	end
+
+	base carryable
+		weight .5
+	end
+
+	actions
+	vBePutOn setAffect dobj 63 0 0 -1		#END
+	vBeTakenOff clearAffect dobj 63 0 0
+	vBePutOn setAffect dobj 39 0 0 -1		#STR
+	vBeTakenOff clearAffect dobj 39 0 0
+	vBePutOn setAffect dobj 61 0 0 -1   	#POS_INT_MOD
+	vBeTakenOff clearAffect dobj  61 0 0	
+	vBePutOn setAffect dobj 59 0 0 -1   	#POS_DEX_MOD
+	vBeTakenOff clearAffect dobj  59 0 0	
+	end
+
+
+	base described
+		idText "Zane's Personal Helmet"
+		shopText "Blargh"
+	end
+end
+#--------------------------------------------------------------------
+
+#--------------------------------------------------------------------
+object maBishopHat of BishopHat
+	properties
+		special
+		name "Bishop's Mitre"
+		value 12000
+		armor 65
+		level 1800
+		enchantResistance 30
+		color 116							# Black Latex
+	end
+
+	base carryable
+		weight 3.5
+	end
+
+	base wearable
+        # Wizards Only
+        mask warrior
+        mask adventurer
+        mask thief
+	end
+
+	actions
+		vBePutOn changeSDM dobj 250 1 3 4					# Add 250% to Tham/Ele/Necro. 
+		vBeTakenOff changeSDM dobj -250 1 3 4
+		vBePutOn setAffect dobj 63 0 0 -1					# Endurance
+		vBeTakenOff clearAffect dobj 63 0 0
+		vBePutOn setAffect dobj 57 0 0 -1					# Dodge
+		vBeTakenOff clearAffect dobj 57 0 0
+		vBePutOn setAffect dobj 61 0 0 -1             		# Intel
+		vBeTakenOff clearAffect dobj 61 0 0
+		vBePutOn setAffect dobj 61 0 0 -1             		# Intel
+		vBeTakenOff clearAffect dobj 61 0 0           		
+		vBePutOn setAffect dobj 61 0 0 -1             		# Intel
+		vBeTakenOff clearAffect dobj 61 0 0           		
+		vBePutOn setAffect dobj 42 0 0 -1  					# GREATER_SHIELD
+		vBeTakenOff clearAffect dobj 42 0 0	
+	end
+
+	base described
+		text "What is this?!\n\n"
+		idText "The Mitre once belonged the the Bishop of ancient times. While wearing this mitre, you will recieve a 250% increase to Thaumaturgy, Elementalism and Necromancy as well as an incredible Intelligence boost. This mitre also grants the wearer additional health, as well as an extra Dodge, and an ancient shielding. \nLevel Required: 1800\n \nEnchant Resistance: 30 percent.\n\n"
+		shopText "This should not be sold anywhere."
+	end
+end
+#--------------------------------------------------------------
+object maCrownOfPower of BishopHat
+	properties
+		special
+		name "Crown of Power"
+		value 120000
+		armor 115
+		level 2500
+		enchantResistance 30
+		color 20							# Pale Yellow
+	end
+
+	base carryable
+		weight 0
+	end
+
+	base wearable
+  	# Wizards Only
+  	mask warrior
+  	mask adventurer
+  	mask thief
+		reverseProcID 23				# Elphame's Justice
+		reverseProcChance 20		# 20%
+	end
+
+	actions
+		vBePutOn changeSDM dobj 750 1 3 4					# Add 750% to Tham/Ele/Necro. 
+		vBeTakenOff changeSDM dobj -750 1 3 4
+		vBePutOn setAffect dobj 63 0 0 -1					# Endurance
+		vBeTakenOff clearAffect dobj 63 0 0
+		vBePutOn setAffect dobj 63 0 0 -1					# Endurance
+		vBeTakenOff clearAffect dobj 63 0 0
+		vBePutOn setAffect dobj 63 0 0 -1					# Endurance
+		vBeTakenOff clearAffect dobj 63 0 0
+		vBePutOn setAffect dobj 63 0 0 -1					# Endurance
+		vBeTakenOff clearAffect dobj 63 0 0
+		vBePutOn setAffect dobj 57 0 0 -1					# Dodge
+		vBeTakenOff clearAffect dobj 57 0 0
+		vBePutOn setAffect dobj 57 0 0 -1					# Dodge
+		vBeTakenOff clearAffect dobj 57 0 0
+		vBePutOn setAffect dobj 61 0 0 -1         # Intel
+		vBeTakenOff clearAffect dobj 61 0 0
+		vBePutOn setAffect dobj 61 0 0 -1         # Intel
+		vBeTakenOff clearAffect dobj 61 0 0           		
+		vBePutOn setAffect dobj 61 0 0 -1         # Intel
+		vBeTakenOff clearAffect dobj 61 0 0       
+		vBePutOn setAffect dobj 61 0 0 -1         # Intel
+		vBeTakenOff clearAffect dobj 61 0 0      
+		vBePutOn setAffect dobj 61 0 0 -1         # Intel
+		vBeTakenOff clearAffect dobj 61 0 0      
+		vBePutOn setAffect dobj 61 0 0 -1         # Intel
+		vBeTakenOff clearAffect dobj 61 0 0        		
+	end
+
+	base described
+		text "You can feel the magic radiating from this crown from a good distance.\n\n"
+		idText "This Crown of Power was passed down a millenia of generations. He who donned the Crown found unbound power. Equipping this, you will recieve a 750% increase to Thaumaturgy, Elementalism and Necromancy as well as a godlike Intelligence boost. This Crown also grants the wearer additional health, as well as Two extra Dodges.\n\nLevel Required: 2500\n\n"
+		shopText "This Crown of Power was passed down a millenia of generations. He who donned the Crown found unbound power. Equipping this, you will recieve a 750% increase to Thaumaturgy, Elementalism and Necromancy as well as a godlike Intelligence boost. This Crown also grants the wearer additional health, as well as Two extra Dodges.\n\nLevel Required: 2500\n\n"
+	end
+end
+#--------------------------------------------------------------------
+object maRareCrown of RareCrown
+	properties
+		special
+		name "Grand Imperial Crown"
+		value 12000
+		armor 125
+		level 1800
+		enchantResistance 30
+		color 171							# Black-Brown
+	end
+
+	base carryable
+		weight 10.5
+	end
+
+	actions
+		vBePutOn setAffect dobj 63 0 0 -1					# Endurance
+		vBeTakenOff clearAffect dobj 63 0 0
+		vBePutOn setAffect dobj 61 0 0 -1             		# Intel
+		vBeTakenOff clearAffect dobj 61 0 0
+		vBePutOn setAffect dobj 42 0 0 -1  					# GREATER_SHIELD
+		vBeTakenOff clearAffect dobj 42 0 0	
+		vBePutOn setAffect dobj 59 0 0 -1       		  	# Dexterity
+		vBeTakenOff clearAffect dobj 59 0 0  				   	
+		vBePutOn setAffect dobj 39 0 0 -1 					# Strength 
+		vBeTakenOff clearAffect dobj 39 0 0    				   
+		vBePutOn setAffect dobj 57 0 0 -1					# Dodge
+		vBeTakenOff clearAffect dobj 57 0 0
+	end
+
+	base described
+		text "What is this?!\n\n"
+		idText "An Imperial Crown worn only by the elite.\n This Crown, passed down from generation to generation for a millenia is said to bestow upon the wearer Strength, Dexterity, Endurance and Intelligence, while also granting an extra Dodge.\nThis Crown was enchanted by the ancient Bishop himself, imbued with Greater Shielding.\nLevel Required: 1800\n \nEnchant Resistance: 30 percent.\n\n"
+		shopText "This should not be sold anywhere."
+	end
+end
+#--------------------------------------------------------------------
+object maMentor of MentorHelmet
+	properties
+		special
+		name "Spangenhelm"
+		value 12000
+		armor 80
+		color 12							# Turqoise
+	end
+
+	base carryable
+		weight 8.5
+	end
+
+	actions
+		vBePutOn setAffect dobj 56 0 0 -1			# Extra Attack
+		vBeTakenOff clearAffect dobj 56 0 0
+		vBePutOn setAffect dobj 33 0 0 -1			# Berserk
+		vBeTakenOff clearAffect dobj 33 0 0
+		vBePutOn setAffect dobj 98 0 0 -1			# Black Hair
+		vBeTakenOff clearAffect dobj 98 0 0
+	end
+
+	base described
+		text "This looks unique..\n\n"
+		idText "A Viking Spangenhelm!\nThese have not been seen for some time, nice find!\nThis helm will Berserk you!\nMagic Resistance: 15%\n\n"
+		shopText "A Viking Spangenhelm!\nThese have not been seen for some time, nice find!\nThis helm will Berserk you!\nMagic Resistance: 15%\n\n"
+	end
+end
+#--------------------------------------------------------------------
+object maSentinel of SentinelHelm
+	properties
+		special
+		name "Raider Helmet"
+		value 12000
+		armor 85
+		level 1
+		color 137							# Prussian Blue
+	end
+
+	base carryable
+		weight 3.5
+	end
+
+	actions
+		vBePutOn setAffect dobj 56 0 0 -1						# Attack
+		vBeTakenOff clearAffect dobj 56 0 0
+		vBePutOn setAffect dobj 56 0 0 -1						# Attack
+		vBeTakenOff clearAffect dobj 56 0 0
+		vBePutOn setAffect dobj 57 0 0 -1						# Dodge
+		vBeTakenOff clearAffect dobj 57 0 0
+	end
+
+	base described
+		text "This looks unique..\n\n"
+		idText "A Viking Raider's Helmet!\nThese have not been seen for some time, nice find!\nThis helm will grant two extra Attacks as well as an extra Dodge.\n"
+		shopText "This should not be sold anywhere."
+	end
+end
+#--------------------------------------------------------------------
+object LWoodTent of Tent
+     properties
+        special
+		name "Lost Woods"
+     end
+
+    base described
+         text	"A portal to the Lost Woods"
+    end
+
+    base entry
+         room	50000
+         startingLoop	3
+         endingLoop	3
+         startingX	330
+        startingY	500
+      endingX	330
+      endingY	300
+    end
+end
+
+object DPTent of Tent
+     properties
+        special
+		name "Dragon Pit"
+     end
+
+    base described
+         text	"A portal to Dragon Pit"
+    end
+
+    base entry
+         room	29065
+         startingLoop	3
+         endingLoop	3
+         startingX	330
+        startingY	500
+      endingX	330
+      endingY	300
+    end
+end
+#--------------------------------------------------------------------
+object LWoodAltar of Altar
+	properties
+		special
+		name "Altar"
+		view 62050
+	end
+
+	base use
+		uses 1
+		verb 2
+	end
+
+	base described
+		text "An altar used to pray to the guardian of the Lost Woods."
+	end
+
+	actions
+		vBeUsed teleport dobj 50000
+	end
+end
+#--------------------------------------------------------------------
+object BugBaldric of Baldric
+	properties
+		name "Bug Finder Baldric"
+		color 53
+		value 1000
+		special
+	end
+
+	actions
+	vBePutOn setAffect dobj 63 0 0 -1		#END
+	vBeTakenOff clearAffect dobj 63 0 0
+	vBePutOn setAffect dobj 39 0 0 -1		#STR
+	vBeTakenOff clearAffect dobj 39 0 0
+	vBePutOn setAffect dobj 61 0 0 -1   	#POS_INT_MOD
+	vBeTakenOff clearAffect dobj  61 0 0	
+	vBePutOn setAffect dobj 59 0 0 -1   	#POS_DEX_MOD
+	vBeTakenOff clearAffect dobj  59 0 0	
+	end
+	base described
+		text "You see a bug finder's baldric! The wearer of this proudly shows they have helped support the server!\n\n"
+		shopText "Bug baldrics shouldn't sell at a shop?!"
+	end
+end
+#--------------------------------------------------------------------
+object sashBug of BugBaldric
+	properties
+		color 17
+		special
+	end
+end
+#----------------------------------------
+object sashBug2 of BugBaldric
+	properties
+		color 39
+		special
+	end
+end
+#----------------------------------------
+object sashBug3 of BugBaldric
+	properties
+		color 57
+		special
+	end
+end
+#----------------------------------------
+
+
+
+
+
+
+
+
+
+object rBishopHat of Ring
+	properties
+		special
+		name "Bishop's Mitre"
+		value 12000
+		armor 65
+		level 1800
+		enchantResistance 30
+		color 116							# Black Latex
+	end
+
+	base carryable
+		weight 3.5
+	end
+
+	base wearable
+        # Wizards Only
+        mask warrior
+        mask adventurer
+        mask thief
+				areaWorn 0
+	end
+
+	actions
+		vBePutOn changeSDM dobj 250 1 3 4					# Add 250% to Tham/Ele/Necro. 
+		vBeTakenOff changeSDM dobj -250 1 3 4
+		vBePutOn setAffect dobj 63 0 0 -1					# Endurance
+		vBeTakenOff clearAffect dobj 63 0 0
+		vBePutOn setAffect dobj 57 0 0 -1					# Dodge
+		vBeTakenOff clearAffect dobj 57 0 0
+		vBePutOn setAffect dobj 61 0 0 -1             		# Intel
+		vBeTakenOff clearAffect dobj 61 0 0
+		vBePutOn setAffect dobj 61 0 0 -1             		# Intel
+		vBeTakenOff clearAffect dobj 61 0 0           		
+		vBePutOn setAffect dobj 61 0 0 -1             		# Intel
+		vBeTakenOff clearAffect dobj 61 0 0           		
+		vBePutOn setAffect dobj 42 0 0 -1  					# GREATER_SHIELD
+		vBeTakenOff clearAffect dobj 42 0 0	
+	end
+
+	base described
+		text "What is this?!\n\n"
+		idText "The Mitre once belonged the the Bishop of ancient times. While wearing this mitre, you will recieve a 250% increase to Thaumaturgy, Elementalism and Necromancy as well as an incredible Intelligence boost. This mitre also grants the wearer additional health, as well as an extra Dodge, and an ancient shielding. \nLevel Required: 1800\n \nEnchant Resistance: 30 percent.\n\n"
+		shopText "This should not be sold anywhere."
+	end
+end
+#--------------------------------------------------------------
+object rCrownOfPower of Ring
+	properties
+		special
+		name "Crown of Power"
+		value 120000
+		armor 115
+		level 2500
+		enchantResistance 30
+		color 20							# Pale Yellow
+	end
+
+	base carryable
+		weight 0
+	end
+
+	base wearable
+  	# Wizards Only
+  	mask warrior
+  	mask adventurer
+  	mask thief
+		reverseProcID 23				# Elphame's Justice
+		reverseProcChance 20		# 20%
+		areaWorn 0
+	end
+
+	actions
+		vBePutOn changeSDM dobj 750 1 3 4					# Add 750% to Tham/Ele/Necro. 
+		vBeTakenOff changeSDM dobj -750 1 3 4
+		vBePutOn setAffect dobj 63 0 0 -1					# Endurance
+		vBeTakenOff clearAffect dobj 63 0 0
+		vBePutOn setAffect dobj 63 0 0 -1					# Endurance
+		vBeTakenOff clearAffect dobj 63 0 0
+		vBePutOn setAffect dobj 63 0 0 -1					# Endurance
+		vBeTakenOff clearAffect dobj 63 0 0
+		vBePutOn setAffect dobj 63 0 0 -1					# Endurance
+		vBeTakenOff clearAffect dobj 63 0 0
+		vBePutOn setAffect dobj 57 0 0 -1					# Dodge
+		vBeTakenOff clearAffect dobj 57 0 0
+		vBePutOn setAffect dobj 57 0 0 -1					# Dodge
+		vBeTakenOff clearAffect dobj 57 0 0
+		vBePutOn setAffect dobj 61 0 0 -1         # Intel
+		vBeTakenOff clearAffect dobj 61 0 0
+		vBePutOn setAffect dobj 61 0 0 -1         # Intel
+		vBeTakenOff clearAffect dobj 61 0 0           		
+		vBePutOn setAffect dobj 61 0 0 -1         # Intel
+		vBeTakenOff clearAffect dobj 61 0 0       
+		vBePutOn setAffect dobj 61 0 0 -1         # Intel
+		vBeTakenOff clearAffect dobj 61 0 0      
+		vBePutOn setAffect dobj 61 0 0 -1         # Intel
+		vBeTakenOff clearAffect dobj 61 0 0      
+		vBePutOn setAffect dobj 61 0 0 -1         # Intel
+		vBeTakenOff clearAffect dobj 61 0 0        		
+	end
+
+	base described
+		text "You can feel the magic radiating from this crown from a good distance.\n\n"
+		idText "This Crown of Power was passed down a millenia of generations. He who donned the Crown found unbound power. Equipping this, you will recieve a 750% increase to Thaumaturgy, Elementalism and Necromancy as well as a godlike Intelligence boost. This Crown also grants the wearer additional health, as well as Two extra Dodges.\n\nLevel Required: 2500\n\n"
+		shopText "This Crown of Power was passed down a millenia of generations. He who donned the Crown found unbound power. Equipping this, you will recieve a 750% increase to Thaumaturgy, Elementalism and Necromancy as well as a godlike Intelligence boost. This Crown also grants the wearer additional health, as well as Two extra Dodges.\n\nLevel Required: 2500\n\n"
+	end
+end
+#--------------------------------------------------------------------
+object rRareCrown of Ring
+	properties
+		special
+		name "Grand Imperial Crown"
+		value 12000
+		armor 125
+		level 1800
+		enchantResistance 30
+		color 171							# Black-Brown
+	end
+
+	base carryable
+		weight 10.5
+	end
+
+	base wearable
+		areaWorn 0
+	end
+
+	actions
+		vBePutOn setAffect dobj 63 0 0 -1					# Endurance
+		vBeTakenOff clearAffect dobj 63 0 0
+		vBePutOn setAffect dobj 61 0 0 -1             		# Intel
+		vBeTakenOff clearAffect dobj 61 0 0
+		vBePutOn setAffect dobj 42 0 0 -1  					# GREATER_SHIELD
+		vBeTakenOff clearAffect dobj 42 0 0	
+		vBePutOn setAffect dobj 59 0 0 -1       		  	# Dexterity
+		vBeTakenOff clearAffect dobj 59 0 0  				   	
+		vBePutOn setAffect dobj 39 0 0 -1 					# Strength 
+		vBeTakenOff clearAffect dobj 39 0 0    				   
+		vBePutOn setAffect dobj 57 0 0 -1					# Dodge
+		vBeTakenOff clearAffect dobj 57 0 0
+	end
+
+	base described
+		text "What is this?!\n\n"
+		idText "An Imperial Crown worn only by the elite.\n This Crown, passed down from generation to generation for a millenia is said to bestow upon the wearer Strength, Dexterity, Endurance and Intelligence, while also granting an extra Dodge.\nThis Crown was enchanted by the ancient Bishop himself, imbued with Greater Shielding.\nLevel Required: 1800\n \nEnchant Resistance: 30 percent.\n\n"
+		shopText "This should not be sold anywhere."
+	end
+end
+#--------------------------------------------------------------------
+object rMentor of Ring
+	properties
+		special
+		name "Spangenhelm"
+		value 12000
+		armor 80
+		color 12							# Turqoise
+	end
+
+	base carryable
+		weight 8.5
+	end
+
+	base wearable
+		areaWorn 0
+	end
+
+	actions
+		vBePutOn setAffect dobj 56 0 0 -1			# Extra Attack
+		vBeTakenOff clearAffect dobj 56 0 0
+		vBePutOn setAffect dobj 33 0 0 -1			# Berserk
+		vBeTakenOff clearAffect dobj 33 0 0
+		vBePutOn setAffect dobj 98 0 0 -1			# Black Hair
+		vBeTakenOff clearAffect dobj 98 0 0
+	end
+
+	base described
+		text "This looks unique..\n\n"
+		idText "A Viking Spangenhelm!\nThese have not been seen for some time, nice find!\nThis helm will Berserk you!\nMagic Resistance: 15%\n\n"
+		shopText "A Viking Spangenhelm!\nThese have not been seen for some time, nice find!\nThis helm will Berserk you!\nMagic Resistance: 15%\n\n"
+	end
+end
+#--------------------------------------------------------------------
+object rSentinel of Ring
+	properties
+		special
+		name "Raider Helmet"
+		value 12000
+		armor 85
+		level 1
+		color 137							# Prussian Blue
+	end
+
+	base carryable
+		weight 3.5
+	end
+
+	base wearable
+		areaWorn 0
+	end
+
+	actions
+		vBePutOn setAffect dobj 56 0 0 -1						# Attack
+		vBeTakenOff clearAffect dobj 56 0 0
+		vBePutOn setAffect dobj 56 0 0 -1						# Attack
+		vBeTakenOff clearAffect dobj 56 0 0
+		vBePutOn setAffect dobj 57 0 0 -1						# Dodge
+		vBeTakenOff clearAffect dobj 57 0 0
+	end
+
+	base described
+		text "This looks unique..\n\n"
+		idText "A Viking Raider's Helmet!\nThese have not been seen for some time, nice find!\nThis helm will grant two extra Attacks as well as an extra Dodge.\n"
+		shopText "This should not be sold anywhere."
+	end
+end
+#--------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+object maZachPants of PlatePants
+	properties
+	special
+		name "Greaves"
+		color 0              # NB
+		value 2500
+		health 15000
+		armor 45
+		level 1
+	end
+
+	base carryable
+		weight 0
+	end
+	
+	base wearable
+        reverseProcID 47				# Electric Fury
+		reverseProcChance 20			# 20%
+    end
+
+	actions
+	vBePutOn setAffect dobj 17 0 0 -1   	#SEE_INVISIBLE
+	vBeTakenOff clearAffect dobj  17 0 0		
+	vBePutOn setAffect dobj 23 0 0 -1   	#IMMOLATION_FIRE
+	vBeTakenOff clearAffect dobj  23 0 0	
+	vBePutOn setAffect dobj 24 0 0 -1   	#IMMOLATION_COLD
+	vBeTakenOff clearAffect dobj  24 0 0	
+	vBePutOn setAffect dobj 25 0 0 -1   	#IMMOLATION_ACID
+	vBeTakenOff clearAffect dobj  25 0 0	
+	vBePutOn setAffect dobj 27 0 0 -1   	#IMMOLATION_LIGHTNING
+	vBeTakenOff clearAffect dobj  27 0 0	
+	vBePutOn setAffect dobj 44 0 0 -1   	#REGENERATION
+	vBeTakenOff clearAffect dobj  44 0 0	
+	vBePutOn setAffect dobj 59 0 0 -1   	#POS_DEX_MOD
+	vBeTakenOff clearAffect dobj  59 0 0		
+	vBePutOn setAffect dobj 59 0 0 -1   	#POS_DEX_MOD
+	vBeTakenOff clearAffect dobj  59 0 0	
+	vBePutOn setAffect dobj 39 0 0 -1   	#EMPOWER
+	vBeTakenOff clearAffect dobj  39 0 0	
+	vBePutOn setAffect dobj 39 0 0 -1   	#EMPOWER
+	vBeTakenOff clearAffect dobj  39 0 0	
+	vBePutOn changeSDM dobj 500 0 1 2 3 4            # 500% SDM Boost
+	vBeTakenOff changeSDM dobj -500 0 1 2 3 4
+	end
+
+	base described
+		text "Zach's Personal Greaves"
+		shopText "Not to be sold. ever."
+	end
+end
+#------------------------------------------------------------
+object maZachShirt of PlateTunic
+	properties
+	special
+		name "Chestplate"
+		color 0              # NB
+		value 3500
+		health 15000
+		armor 30
+		level 1
+	end
+
+	base carryable
+		weight 0
+	end
+
+	base wearable
+        reverseProcID 101		# Invulnerability
+		reverseProcChance 40	# 40%
+    end
+	
+	actions
+	vBePutOn setAffect dobj 44 0 0 -1   	#REGENERATION
+	vBeTakenOff clearAffect dobj  44 0 0	
+	vBePutOn setAffect dobj 59 0 0 -1   	#POS_DEX_MOD
+	vBeTakenOff clearAffect dobj  59 0 0		
+	vBePutOn setAffect dobj 59 0 0 -1   	#POS_DEX_MOD
+	vBeTakenOff clearAffect dobj  59 0 0	
+	vBePutOn setAffect dobj 39 0 0 -1   	#EMPOWER
+	vBeTakenOff clearAffect dobj  39 0 0	
+	vBePutOn setAffect dobj 39 0 0 -1   	#EMPOWER
+	vBeTakenOff clearAffect dobj  39 0 0	
+	vBePutOn setAffect dobj 41 0 0 -1   #SHIELD
+	vBeTakenOff clearAffect dobj  41 0 0	
+	vBePutOn setAffect dobj 42 0 0 -1   #GREATER_SHIELD
+	vBeTakenOff clearAffect dobj  42 0 0	
+	vBePutOn setAffect dobj 43 0 0 -1   #INVULNERABLE
+	vBeTakenOff clearAffect dobj  43 0 0	
+	end
+	
+	base described
+		text "Zach's Personal Chestplate"
+		shopText "Not to be sold. ever."
+	end
+end
+#------------------------------------------------------------
+object maZachBands of Mythrilband
+	properties
+	special
+		name "Wristbands"
+		color 0              # NB
+		value 3500
+		health 15000
+		armor 50
+		level 1
+	end
+	
+	base carryable
+		weight 0
+	end
+
+	actions
+	vBePutOn setAffect dobj 44 0 0 -1   	#REGENERATION
+	vBeTakenOff clearAffect dobj  44 0 0	
+	vBePutOn setAffect dobj 59 0 0 -1   	#POS_DEX_MOD
+	vBeTakenOff clearAffect dobj  59 0 0		
+	vBePutOn setAffect dobj 59 0 0 -1   	#POS_DEX_MOD
+	vBeTakenOff clearAffect dobj  59 0 0	
+	vBePutOn setAffect dobj 39 0 0 -1   	#EMPOWER
+	vBeTakenOff clearAffect dobj  39 0 0	
+	vBePutOn setAffect dobj 39 0 0 -1   	#EMPOWER
+	vBeTakenOff clearAffect dobj  39 0 0	
+	end
+	
+	base described
+		text "Zach's Personal Wristbands"
+		shopText "Not to be sold. ever."
+	end	
+end
+#------------------------------------------------------------
+object maZachCowl of ChainCowl
+	properties
+	special
+		name "Cowl"
+		value 1000
+		health 15000
+		armor 30			
+		color 0			# NB
+		level 1
+	end
+
+	base carryable
+		weight .5
+	end
+	
+	actions
+	vBePutOn setAffect dobj 44 0 0 -1   	#REGENERATION
+	vBeTakenOff clearAffect dobj  44 0 0	
+	vBePutOn setAffect dobj 59 0 0 -1   	#POS_DEX_MOD
+	vBeTakenOff clearAffect dobj  59 0 0		
+	vBePutOn setAffect dobj 59 0 0 -1   	#POS_DEX_MOD
+	vBeTakenOff clearAffect dobj  59 0 0	
+	vBePutOn setAffect dobj 39 0 0 -1   	#EMPOWER
+	vBeTakenOff clearAffect dobj  39 0 0	
+	vBePutOn setAffect dobj 39 0 0 -1   	#EMPOWER
+	vBeTakenOff clearAffect dobj  39 0 0	
+	end
+
+	base described
+		text "Zach's Personal Cowl"
+		shopText "Not to be sold. ever."
+	end
+end
+#------------------------------------------------------------
+object maZachBoots of HighBoots
+	properties
+	special
+		name "Boots"
+		value 3500
+		armor 40
+		health 15000
+		color 43			# Glowie
+		level 1
+	end
+
+	base carryable
+		weight .5
+	end
+
+	actions
+	vBePutOn setAffect dobj 44 0 0 -1   	#REGENERATION
+	vBeTakenOff clearAffect dobj  44 0 0	
+	vBePutOn setAffect dobj 59 0 0 -1   	#POS_DEX_MOD
+	vBeTakenOff clearAffect dobj  59 0 0		
+	vBePutOn setAffect dobj 59 0 0 -1   	#POS_DEX_MOD
+	vBeTakenOff clearAffect dobj  59 0 0	
+	vBePutOn setAffect dobj 39 0 0 -1   	#EMPOWER
+	vBeTakenOff clearAffect dobj  39 0 0	
+	vBePutOn setAffect dobj 39 0 0 -1   	#EMPOWER
+	vBeTakenOff clearAffect dobj  39 0 0	
+	vBePutOn setAffect dobj 33 0 0 -1   	#BERSERK
+	vBeTakenOff clearAffect dobj  33 0 0	
+	vBePutOn setAffect dobj 37 0 0 -1   	#QUICKEN
+	vBeTakenOff clearAffect dobj  37 0 0		
+	end
+
+	base described
+		text "Zach's Personal Boots"
+		shopText "Not to be sold. ever."
+	end
+end
+#--------------------------------------------------------------------
+object bZach of Belt
+	properties
+		name "Belt"
+		value 7500
+		health 15000
+		color 103
+		special
+	end
+
+	actions
+	vBePutOn setAffect dobj 72 0 0 -1		# Encumberance Blessing
+	vBeTakenOff clearAffect dobj 72 0 0
+	vBePutOn setAffect dobj 59 0 0 -1   	#POS_DEX_MOD
+	vBeTakenOff clearAffect dobj  59 0 0		
+	vBePutOn setAffect dobj 59 0 0 -1   	#POS_DEX_MOD
+	vBeTakenOff clearAffect dobj  59 0 0	
+	vBePutOn setAffect dobj 39 0 0 -1   	#EMPOWER
+	vBeTakenOff clearAffect dobj  39 0 0	
+	vBePutOn setAffect dobj 39 0 0 -1   	#EMPOWER
+	vBeTakenOff clearAffect dobj  39 0 0	
+	vBePutOn setAffect dobj 67 0 0 -1   	#NOURISHED
+	vBeTakenOff clearAffect dobj  67 0 0	
+	end
+
+	base described
+		text "Zach's Personal Belt"
+		shopText "Not to be sold. ever."
+	end
+end
+#------------------------------------------------
+object rZach of Ring
+	properties
+		special
+		name "Ring"
+		value 2500
+		color 43
+	end
+
+	actions
+	vBePutOn setAffect dobj 63 0 0 -1		#END
+	vBeTakenOff clearAffect dobj 63 0 0
+	vBePutOn setAffect dobj 63 0 0 -1		#END
+	vBeTakenOff clearAffect dobj 63 0 0
+	vBePutOn setAffect dobj 63 0 0 -1		#END
+	vBeTakenOff clearAffect dobj 63 0 0
+	vBePutOn setAffect dobj 59 0 0 -1   	#POS_DEX_MOD
+	vBeTakenOff clearAffect dobj  59 0 0		
+	vBePutOn setAffect dobj 59 0 0 -1   	#POS_DEX_MOD
+	vBeTakenOff clearAffect dobj  59 0 0	
+	vBePutOn setAffect dobj 39 0 0 -1   	#EMPOWER
+	vBeTakenOff clearAffect dobj  39 0 0	
+	vBePutOn setAffect dobj 39 0 0 -1   	#EMPOWER
+	vBeTakenOff clearAffect dobj  39 0 0	
+	vBePutOn setAffect dobj 61 0 0 -1   	#POS_INT_MOD
+	vBeTakenOff clearAffect dobj  61 0 0	
+	vBePutOn setAffect dobj 61 0 0 -1   	#POS_INT_MOD
+	vBeTakenOff clearAffect dobj  61 0 0	
+	vBePutOn setAffect dobj 86 0 0 -1   	#FREE_WILL
+	vBeTakenOff clearAffect dobj  86 0 0	
+	end
+
+	base described
+		text "Zach's Personal Rings"
+		shopText "Not to be sold. ever."
+	end
+end
+
+object aZach of Amulet
+	properties
+		special
+		name "Amulet"
+		value 15000
+		color 43
+	end
+
+	actions
+	vBePutOn setAffect dobj 56 0 0 -1		#EXT ATK
+	vBeTakenOff clearAffect dobj 56 0 0
+	vBePutOn setAffect dobj 56 0 0 -1		#EXT ATK
+	vBeTakenOff clearAffect dobj 56 0 0
+	vBePutOn setAffect dobj 39 0 0 -1		#STR
+	vBeTakenOff clearAffect dobj 39 0 0
+	vBePutOn setAffect dobj 39 0 0 -1		#STR
+	vBeTakenOff clearAffect dobj 39 0 0
+	vBePutOn setAffect dobj 57 0 0 -1   	#EXTRA_DODGE
+	vBeTakenOff clearAffect dobj  57 0 0	
+	vBePutOn setAffect dobj 57 0 0 -1   	#EXTRA_DODGE
+	vBeTakenOff clearAffect dobj  57 0 0
+	vBePutOn setAffect dobj 86 0 0 -1   	#FREE_WILL
+	vBeTakenOff clearAffect dobj  86 0 0	
+	end
+
+	base described
+		text "Zach's Personal Amulet"
+		shopText "Not to be sold. ever."
+	end
+end
+#--------------------------------------------------------------------
+object sashZach of Baldric
+	properties
+		name "Baldric"
+		color 135
+		value 1000
+		special
+	end
+
+	actions
+	vBePutOn setAffect dobj 56 0 0 -1		#EXT ATK
+	vBeTakenOff clearAffect dobj 56 0 0
+	vBePutOn setAffect dobj 56 0 0 -1		#EXT ATK
+	vBeTakenOff clearAffect dobj 56 0 0
+	vBePutOn setAffect dobj 63 0 0 -1		#END
+	vBeTakenOff clearAffect dobj 63 0 0
+	vBePutOn setAffect dobj 63 0 0 -1		#END
+	vBeTakenOff clearAffect dobj 63 0 0
+	vBePutOn setAffect dobj 63 0 0 -1		#END
+	vBeTakenOff clearAffect dobj 63 0 0
+	vBePutOn setAffect dobj 59 0 0 -1   	#POS_DEX_MOD
+	vBeTakenOff clearAffect dobj  59 0 0		
+	vBePutOn setAffect dobj 59 0 0 -1   	#POS_DEX_MOD
+	vBeTakenOff clearAffect dobj  59 0 0	
+	vBePutOn setAffect dobj 39 0 0 -1   	#EMPOWER
+	vBeTakenOff clearAffect dobj  39 0 0	
+	vBePutOn setAffect dobj 39 0 0 -1   	#EMPOWER
+	vBeTakenOff clearAffect dobj  39 0 0	
+	vBePutOn setAffect dobj 61 0 0 -1   	#POS_INT_MOD
+	vBeTakenOff clearAffect dobj  61 0 0	
+	vBePutOn setAffect dobj 61 0 0 -1   	#POS_INT_MOD
+	vBeTakenOff clearAffect dobj  61 0 0	
+	end
+
+	base described
+		text "Zach's Personal Baldric"
+		shopText "Not to be sold. ever."
+	end
+end
+#--------------------------------------------------------------------
+object maZachHat of Ring
+	properties
+		special
+		name "Hidden"
+		level 1
+		armor 90
+		color 0
+	end
+
+	base carryable
+		weight 0
+	end
+
+	base wearable
+		areaWorn 0
+	end
+
+	actions
+	vBePutOn setAffect dobj 63 0 0 -1		#END
+	vBeTakenOff clearAffect dobj 63 0 0
+	vBePutOn setAffect dobj 39 0 0 -1		#STR
+	vBeTakenOff clearAffect dobj 39 0 0
+	vBePutOn setAffect dobj 61 0 0 -1   	#POS_INT_MOD
+	vBeTakenOff clearAffect dobj  61 0 0	
+	vBePutOn setAffect dobj 59 0 0 -1   	#POS_DEX_MOD
+	vBeTakenOff clearAffect dobj  59 0 0	
+	end
+
+
+	base described
+		text "Zach's Personal Helmet"
+		shopText "Not to be sold. ever."
+	end
+end
+#--------------------------------------------------------------------
+
+object mwZachSword of TwoHandSword
+	properties
+	special
+		name "Death"
+        value 3000000
+		health 10000
+		strength 5		
+		affect 3 0 0 -1		    # Lightning Damage
+		level 1
+	end
+
+	base carryable
+		weight 0
+	end
+
+	base weapon
+		minDamage 425
+		maxDamage 500
+		#--------- Crazy Range on Sword --------
+		range 4
+		#------- Sometimes Smite Enemies -------
+		spellProcID 44			# Lightning Bolt
+		forwardProcChance 60	# 60%
+		#---------------------------------------
+	end
+
+	actions
+		vBePutOn changeManaDrain dobj 2000						# 2000 Mana Drain per Tick
+		vBeTakenOff changeManaDrain dobj -2000	
+		vBePutOn changeSDM dobj 1000 1            				# 1000% Elem Boost
+		vBeTakenOff changeSDM dobj -1000 1
+		vBePutOn setAffect dobj 65 0 0 -1  						# Retention (Anti-Fumble)
+		vBeTakenOff clearAffect dobj 65 0 0	
+		vBePutOn setAffect dobj 59 0 0 -1						# Attack
+		vBeTakenOff clearAffect dobj 59 0 0
+		vBePutOn setAffect dobj 59 0 0 -1						# Attack
+		vBeTakenOff clearAffect dobj 59 0 0
+		vBePutOn setAffect dobj 63 0 0 -1      					# Endurance
+		vBeTakenOff clearAffect dobj 63 0 0
+	end
+
+	base described
+		text "Death.\n\nWielding this, you will gain 2 additional attacks in combat, as well as a boost to your Endurance.\n1000% Elemental Bonus\n2000 Mana Tick/round\n"
+		shopText "Not to be sold. ever."
+	end
+end
+
+object maZachRobe of Robe
+	properties
+	special
+        name "Robe"
+        value 15000
+        color 0
+        armorFlat    40
+        armorPercent 60
+        level 1
+	end
+	
+	actions
+	vBePutOn setAffect dobj 56 0 0 -1		#EXT ATK
+	vBeTakenOff clearAffect dobj 56 0 0
+	vBePutOn setAffect dobj 56 0 0 -1		#EXT ATK
+	vBeTakenOff clearAffect dobj 56 0 0
+	vBePutOn setAffect dobj 63 0 0 -1		#END
+	vBeTakenOff clearAffect dobj 63 0 0
+	vBePutOn setAffect dobj 63 0 0 -1		#END
+	vBeTakenOff clearAffect dobj 63 0 0
+	vBePutOn setAffect dobj 63 0 0 -1		#END
+	vBeTakenOff clearAffect dobj 63 0 0
+	vBePutOn setAffect dobj 59 0 0 -1   	#POS_DEX_MOD
+	vBeTakenOff clearAffect dobj  59 0 0		
+	vBePutOn setAffect dobj 59 0 0 -1   	#POS_DEX_MOD
+	vBeTakenOff clearAffect dobj  59 0 0	
+	vBePutOn setAffect dobj 39 0 0 -1   	#EMPOWER
+	vBeTakenOff clearAffect dobj  39 0 0	
+	vBePutOn setAffect dobj 39 0 0 -1   	#EMPOWER
+	vBeTakenOff clearAffect dobj  39 0 0	
+	vBePutOn setAffect dobj 61 0 0 -1   	#POS_INT_MOD
+	vBeTakenOff clearAffect dobj  61 0 0	
+	vBePutOn setAffect dobj 61 0 0 -1   	#POS_INT_MOD
+	vBeTakenOff clearAffect dobj  61 0 0	
+	end
+	
+	base described
+		text "Zach's Personal Robe"
+        shopText "Not to be sold. ever."
+	end
+end

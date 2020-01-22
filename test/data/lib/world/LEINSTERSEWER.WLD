@@ -1,0 +1,5745 @@
+# Max player level = 255
+# Dungeon reset time = 2000
+# Dungeon start room = 40000
+# Dungeon last room = ?????
+# Room Numers alloted = 40000 -40050
+# Number of objects in dungeon = 249
+# Level 0 information:
+room 40000			##### Room 1
+   properties
+      picture	3071
+      south	40001
+	  flags 56
+	  
+
+   end
+   atpinfo
+      1850  23 318
+      34618  622 317 -21
+      1771  499 318
+      34539  432 318
+      1770  574 319
+      7901  552 319
+      1831  369 242
+      1750  506 266
+      34538  261 312
+      34519  282 241
+      1750  148 237
+      1750  435 241
+      1751  20 287
+      34519  47 250
+      1850  542 304
+      1830  205 243
+      7907  85 288
+      7906  46 319
+      7906  469 270
+      7900  299 247
+      7906  107 254
+   end
+   objects
+      object greenCrystalA40000-0 of GreenCrystalA
+         properties
+            x	45
+            y	323
+            loop	0
+         end
+      end
+      object greenCrystalB40000-1 of GreenCrystalB
+         properties
+            x	543
+            y	330
+            loop	0
+         end
+      end
+      object greenCrystalA40000-2 of GreenCrystalA
+         properties
+            x	619
+            y	327
+            loop	0
+         end
+      end
+      object noidBabyzerk40000-3 of NoidBabyzerk
+         properties
+            x	231
+            y	232
+            loop	0
+         end
+      end
+      object noidBabyzerk40000-4 of NoidBabyzerk
+         properties
+            x	375
+            y	233
+            loop	1
+         end
+      end
+      object noidBabyzerk40000-5 of NoidBabyzerk
+         properties
+            x	156
+            y	294
+            loop	0
+         end
+      end
+      object noidBabyzerk40000-6 of NoidBabyzerk
+         properties
+            x	447
+            y	293
+            loop	1
+         end
+      end
+      object noidBabyzerk40000-7 of NoidBabyzerk
+         properties
+            x	447
+            y	295
+            loop	1
+         end
+      end
+      object noidBabymag40000-8 of NoidBabymag
+         properties
+            x	447
+            y	297
+            loop	1
+         end
+      end
+      object noidBabymag40000-9 of NoidBabymag
+         properties
+            x	449
+            y	293
+            loop	1
+         end
+      end
+      object randomSewerNPC40000-10 of RandomSewerNPC
+         properties
+            x	450
+            y	293
+            loop	1
+         end
+      end	  
+      object DungeonBackUp-40000-7 of DungeonBackUp
+         properties
+            x	282
+            y	243
+			loop	2
+			linkTo	movingRock5087-6
+		end
+		base described
+			text "The Sewer"
+		end
+      end
+   end
+end
+room 40001			##### Room 2
+   properties
+      picture	3071
+      north	40000 
+      south	40002
+	  flags 56
+
+   end
+   atpinfo
+      1850  23 318
+      7909  543 284
+      1771  641 316
+      34539  562 304
+      34538  510 316
+      7906  92 303
+      34548  469 238
+      1772  106 317
+      1770  132 319
+      34548  110 349
+      1750  121 281
+      1831  379 228
+      1751  122 251
+      34519  38 315
+      34539  271 319
+      34643  467 244
+      1830  204 231
+      7907  417 248
+      1750  442 236
+      1751  548 267
+      7905  132 287
+      1875  581 277
+      7907  488 270
+      7907  129 312
+      7906  3 322
+      7906  145 285
+      7906  200 289 58
+      7906  379 232
+      7906  594 320
+      7907  505 286 267
+   end
+   objects
+      object greenWaterD40001-0 of GreenWaterD
+         properties
+            x	594
+            y	323
+            loop	1
+         end
+      end
+      object cellFloorA40001-1 of CellFloorA
+         properties
+            x	535
+            y	264
+            loop	0
+         end
+      end
+      object greenCrystalG40001-2 of GreenCrystalG
+         properties
+            x	599
+            y	286
+            loop	0
+         end
+      end
+      object greenCrystalG40001-3 of GreenCrystalG
+         properties
+            x	579
+            y	294
+            loop	0
+         end
+      end
+      object greenCrystalG40001-4 of GreenCrystalG
+         properties
+            x	560
+            y	295
+            loop	0
+         end
+      end
+      object greenCrystalG40001-5 of GreenCrystalG
+         properties
+            x	540
+            y	299
+            loop	0
+         end
+      end
+      object greenCrystalG40001-6 of GreenCrystalG
+         properties
+            x	618
+            y	280
+            loop	0
+         end
+      end
+      object greenCrystalG40001-7 of GreenCrystalG
+         properties
+            x	520
+            y	308
+            loop	0
+         end
+      end
+      object greenCrystalG40001-8 of GreenCrystalG
+         properties
+            x	514
+            y	325
+            loop	0
+         end
+      end
+      object sewerdaemon40001-9 of Sewerdaemon
+         properties
+            x	319
+            y	293
+            loop	2
+         end
+      end
+      object underworldWolf40001-10 of UnderworldWolf
+         properties
+            x	253
+            y	275
+            loop	2
+         end
+      end
+      object underworldWolf40001-11 of UnderworldWolf
+         properties
+            x	384
+            y	277
+            loop	2
+         end
+      end
+      object sewerRat40001-12 of SewerRat
+         properties
+            x	493
+            y	331
+            loop	1
+         end
+      end
+      object sewerRat40001-13 of SewerRat
+         properties
+            x	484
+            y	361
+            loop	1
+         end
+      end
+      object sewerbanshee40001-14 of Sewerbanshee
+         properties
+            x	159
+            y	288
+            loop	0
+         end
+      end
+   end
+end
+room 40002			##### Room 3
+   properties
+      picture	3071
+      north	40001 
+      west	40003 
+	  flags 152
+	  
+
+   end
+   atpinfo
+      1752  84 222
+      34639  310 290 -161
+      1875  428 299
+      13  -39 305 486
+      13  463 310 486
+      34540  505 317
+      34540  441 306
+      1771  294 106
+      1771  456 325
+      1830  471 214
+      1783  405 290
+      1752  532 279
+      7905  279 318
+      7904  388 280
+      7902  127 324
+      13  65 310 486
+      1781  507 301
+      34643  570 297
+      7907  475 424 234
+      13  558 297 486
+      7902  106 228
+      7907  180 429 234
+      34540  570 318
+      1783  469 291
+      1783  536 290
+      1783  619 292
+   end
+   objects
+      object greenWaterD40002-0 of GreenWaterD
+         properties
+            x	562
+            y	320
+            loop	0
+         end
+      end
+      object greenWaterD40002-1 of GreenWaterD
+         properties
+            x	474
+            y	320
+            loop	1
+         end
+      end
+      object greenWaterA40002-2 of GreenWaterA
+         properties
+            x	316
+            y	316
+            loop	0
+         end
+      end
+      object greenWaterA40002-3 of GreenWaterA
+         properties
+            x	106
+            y	317
+            loop	1
+         end
+      end
+      object greenWaterA40002-4 of GreenWaterA
+         properties
+            x	687
+            y	320
+            loop	0
+         end
+      end
+      object greenCrystalD40002-5 of GreenCrystalD
+         properties
+            x	594
+            y	283
+            loop	0
+         end
+      end
+      object greenCrystalD40002-6 of GreenCrystalD
+         properties
+            x	580
+            y	284
+            loop	0
+         end
+      end
+      object sewerDwellera40002-7 of SewerDwellera
+         properties
+            x	60
+            y	280
+            loop	2
+         end
+      end
+      object sewerDwellera40002-8 of SewerDwellera
+         properties
+            x	150
+            y	280
+            loop	2
+         end
+      end
+      object sewerDwellera40002-9 of SewerDwellera
+         properties
+            x	240
+            y	280
+            loop	2
+         end
+      end
+      object sewerDwellera40002-10 of SewerDwellera
+         properties
+            x	330
+            y	280
+            loop	2
+         end
+      end
+      object gorgonsNPC40002-11 of GorgonsNPC
+         properties
+            x	285
+            y	263
+            loop	2
+         end
+      end
+      object gorgonsNPC40002-12 of GorgonsNPC
+         properties
+            x	195
+            y	260
+            loop	2
+         end
+      end
+      object gorgonsNPC40002-13 of GorgonsNPC
+         properties
+            x	106
+            y	255
+            loop	2
+         end
+      end
+   end
+end
+room 40004			##### Room 5
+   properties
+      picture	3071
+      north	40003 
+	  flags 24
+	  
+
+   end
+   atpinfo
+      1750  579 231
+      7903  114 319
+      1751  396 207
+      1771  398 326
+      34520  539 218
+      7906  82 336 95
+      34519  578 278
+      7903  418 319
+      34539  441 321
+      34520  26 213
+      34519  21 245
+      7904  64 314
+      7906  20 319
+      7906  627 320
+      7906  512 286
+      7906  414 249
+      7906  360 248
+      7903  243 321
+      34519  -9 301
+   end
+   objects
+      object greenWaterA40004-0 of GreenWaterA
+         properties
+            x	105
+            y	322
+            loop	0
+         end
+      end
+      object greenWaterB40004-1 of GreenWaterB
+         properties
+            x	319
+            y	322
+            loop	0
+         end
+      end
+      object greenWaterC40004-2 of GreenWaterC
+         properties
+            x	494
+            y	327
+            loop	0
+         end
+      end
+      object greenWaterC40004-3 of GreenWaterC
+         properties
+            x	600
+            y	326
+            loop	0
+         end
+      end
+		object Chest-40004-4 of Chest
+			properties
+				name "Bronze Chest"
+				x	400
+				y	246
+				loop	0
+				enchantResistance 100
+			end
+			#actions
+			#	vBeOpened teleport dobj 40046 0 
+			#end
+			actions
+				vBeOpened summon 40004 1 1 ZGargoyle 242 279 2 
+				vBeOpened clearActions self vBeOpened 
+			end			
+			base container
+			end
+			base lockable
+				isLocked	1
+				unlockValue	40004
+			end
+			base described
+				text	"You see a chest made of bronze."
+			end
+		end
+		object RandomRareHelmet-40004-5 of RandomRareHelmet
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-40004-4
+			end
+			base described
+			end
+		end
+		object RandomMegaTreasure-40004-6 of RandomMegaTreasure
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-40004-4
+			end
+			base described
+			end
+		end
+		object RandomNewGear-40004-7 of RandomNewGear
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-40004-4
+			end
+			base described
+			end
+		end
+      object koDarkness40004-8 of KoDarkness
+         properties
+            x	239
+            y	266
+            loop	2
+         end
+      end
+      object poDarkness40004-9 of PoDarkness
+         properties
+            x	300
+            y	258
+            loop	2
+         end
+      end
+      object poDarkness40004-10 of PoDarkness
+         properties
+            x	179
+            y	258
+            loop	2
+         end
+      end
+      object wizardKing40004-11 of WizardKing
+         properties
+            x	340
+            y	253
+            loop	2
+         end
+      end
+      object wizardKing40004-12 of WizardKing
+         properties
+            x	139
+            y	252
+            loop	2
+         end
+      end
+		object Key-40004-10 of SewerKey01
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	koDarkness40004-8
+			end
+			base described
+			end
+		end	  
+   end
+end
+room 40003			##### Room 4
+   properties
+      picture	3071
+      south	40004 
+      east	40002 
+      west	40005 
+	  flags 168
+	  
+
+   end
+   atpinfo
+      1750  608 244
+      7900  248 238
+      7900  500 248
+      1752  84 231
+      1752  329 222
+      34518  211 232
+      1850  405 324 6
+      34519  458 238
+      1771  68 319
+      1772  310 222
+      7906  56 236
+      1752  631 214
+      7907  587 320
+      7907  474 322
+      7907  403 325
+      7907  421 312
+      7907  56 318
+      7907  128 324
+      1850  124 324 6
+   end
+   objects
+      object greenWaterA40003-0 of GreenWaterA
+         properties
+            x	2
+            y	319
+            loop	1
+         end
+      end
+      object greenWaterA40003-1 of GreenWaterA
+         properties
+            x	546
+            y	321
+            loop	1
+         end
+      end
+      object torch40003-2 of Torch
+         properties
+            x	123
+            y	326
+            loop	0
+         end
+      end
+      object torch40003-3 of Torch
+         properties
+            x	407
+            y	330
+            loop	0
+         end
+      end
+      object poDarkness40003-4 of PoDarkness
+         properties
+            x	50
+            y	248
+            loop	2
+         end
+      end
+      object poDarkness40003-5 of PoDarkness
+         properties
+            x	309
+            y	279
+            loop	2
+         end
+      end
+      object poDarkness40003-6 of PoDarkness
+         properties
+            x	238
+            y	280
+            loop	2
+         end
+      end
+      object poDarkness40003-7 of PoDarkness
+         properties
+            x	274
+            y	268
+            loop	2
+         end
+      end
+      object cryptKeeper40003-8 of CryptKeeper
+         properties
+            x	405
+            y	228
+            loop	2
+         end
+      end
+      object cryptKeeper40003-9 of CryptKeeper
+         properties
+            x	127
+            y	231
+            loop	2
+         end
+      end	  
+   end
+end
+room 40006			##### Room 7
+   properties
+      picture	3071
+      north	31201 
+      south	40011 
+      east	40005 
+      west	40007 
+      flags	2
+	  
+
+   end
+   atpinfo
+      1752  56 231
+      1751  577 226
+      7907  54 317
+      7902  246 319
+      7902  516 322
+      7900  75 233
+      7900  450 221
+      7901  548 233
+      1770  361 316
+      1771  511 319
+      7907  271 287 277
+      7906  267 221
+      2340  202 215
+      2340  311 216
+      2340  421 216
+      2340  528 217
+      2340  200 110
+      2340  308 100
+      2340  413 129
+      2340  517 137
+      1771  212 318
+      2310  246 226
+      2310  420 225
+   end
+   objects
+      object enidBackDoor40006-0 of EnidBackDoor
+         properties
+            x	335
+            y	220
+            loop	2
+			linkTo DungeonBackDoor-40040-0 Stopped Here
+         end
+		 base lockable
+		 end
+		 actions
+			vBeAnswered open enidBackDoor40006-0
+		 end
+		 base described
+			riddleFile "../data/riddles/riddle11.txt"
+		 end
+      end
+      object greenWaterD40006-1 of GreenWaterD
+         properties
+            x	376
+            y	325
+            loop	0
+         end
+      end
+      object greenWaterD40006-2 of GreenWaterD
+         properties
+            x	291
+            y	323
+            loop	1
+         end
+      end
+      object greenWaterA40006-3 of GreenWaterA
+         properties
+            x	534
+            y	323
+            loop	0
+         end
+      end
+      object greenWaterA40006-4 of GreenWaterA
+         properties
+            x	134
+            y	322
+            loop	1
+         end
+      end
+      object greenWaterA40006-5 of GreenWaterA
+         properties
+            x	0
+            y	323
+            loop	0
+         end
+      end
+      object greenCrystalB40006-6 of GreenCrystalB
+         properties
+            x	240
+            y	228
+            loop	0
+         end
+      end
+      object greenCrystalB40006-7 of GreenCrystalB
+         properties
+            x	448
+            y	232
+            loop	0
+         end
+      end
+      object sign40006-8 of Sign
+         properties
+            x	248
+            y	236
+            loop	0
+         end
+		base described
+			text	"The sign has a message.: 'This is a forgoten Temple that has been hidden for 27 years, not a good place for mortals to enter, many have tried......'"
+		 end		 
+      end
+      object gargoyle11001-0 of Gargoyle
+         properties
+            x	126
+            y	237
+            loop	2
+         end
+      end
+      object gargoyle11001-1 of Gargoyle
+         properties
+            x	469
+            y	237
+            loop	2
+         end
+      end	  
+   end
+end
+room 40007			##### Room 8
+   properties
+      picture	3071
+      south	40008 
+      east	40006
+	  flags 104
+
+   end
+   atpinfo
+      1850  23 318
+      34618  618 313 -21
+      1771  342 328
+      34539  81 320
+      1770  565 325
+      34550  372 216
+      34548  343 236
+      1780  263 227
+      34538  259 318
+      34548  219 247
+      1750  148 237
+      1750  428 241
+      1751  20 287
+      34519  47 250
+      34518  520 228
+      34540  337 259
+      1772  217 250
+      1783  310 216
+      34551  233 224
+      7906  47 319
+      7907  594 328
+      7906  309 254
+      1782  285 238
+      7901  415 347 99
+      7901  555 334 99
+      7907  86 288
+      1781  315 249
+      7901  170 351 99
+   end
+   objects
+      object greenWaterA40007-0 of GreenWaterA
+         properties
+            x	282
+            y	161
+            loop	0
+         end
+      end
+      object greenWaterA40007-1 of GreenWaterA
+         properties
+            x	284
+            y	138
+            loop	0
+         end
+      end
+      object greenWaterA40007-2 of GreenWaterA
+         properties
+            x	287
+            y	117
+            loop	0
+         end
+      end
+      object greenCrystalA40007-3 of GreenCrystalA
+         properties
+            x	224
+            y	95
+            loop	0
+         end
+      end
+      object greenCrystalA40007-4 of GreenCrystalA
+         properties
+            x	486
+            y	138
+            loop	0
+         end
+      end
+      object greenCrystalA40007-5 of GreenCrystalA
+         properties
+            x	342
+            y	97
+            loop	0
+         end
+      end
+      object greenCrystalA40007-6 of GreenCrystalA
+         properties
+            x	299
+            y	97
+            loop	0
+         end
+      end
+      object nDragonWizD40007-7 of nDragonWizD
+         properties
+            x	346
+            y	266
+            loop	2
+         end
+      end
+      object SavageOgreWizard40007-8 of SavageOgreWizard
+         properties
+            x	274
+            y	264
+            loop	2
+         end
+      end
+      object nDragonWizD40007-9 of nDragonWizD
+         properties
+            x	201
+            y	265
+            loop	2
+         end
+      end
+   end
+end
+room 40008			##### Room 9
+   properties
+      picture	3071
+      north	40007 
+      south	40009 
+	  flags 104
+	  
+
+   end
+   atpinfo
+      1850  25 311
+      34618  622 317 -21
+      1771  635 327
+      34539  256 320
+      1770  212 314
+      7904  90 329
+      40673  491 332
+      7906  369 248
+      34538  496 316
+      7909  392 261
+      1750  148 237
+      1750  435 241
+      1751  20 287
+      34519  47 250
+      1850  542 304
+      1750  506 266
+      1831  369 242
+      1830  205 243
+      7901  167 249
+      1770  101 313
+      34538  356 317
+   end
+   objects
+      object greenCrystalF40008-0 of GreenCrystalF
+         properties
+            x	428
+            y	248
+            loop	0
+         end
+      end
+      object greenCrystalF40008-1 of GreenCrystalF
+         properties
+            x	478
+            y	277
+            loop	0
+         end
+      end
+      object greenCrystalF40008-2 of GreenCrystalF
+         properties
+            x	556
+            y	311
+            loop	0
+         end
+      end
+      object greenCrystalE40008-3 of GreenCrystalE
+         properties
+            x	378
+            y	244
+            loop	0
+         end
+      end
+      object greenCrystalC40008-4 of GreenCrystalC
+         properties
+            x	465
+            y	273
+            loop	0
+         end
+      end
+      object fountain40008-5 of Fountain
+         properties
+            x	434
+            y	308
+            loop	0
+         end
+      end
+      object nLGM40008-6 of nLGM
+         properties
+            x	346
+            y	266
+            loop	2
+         end
+      end
+      object nLGM40008-7 of nLGM
+         properties
+            x	274
+            y	264
+            loop	2
+         end
+      end
+      object nLGM40008-8 of nLGM
+         properties
+            x	201
+            y	265
+            loop	2
+         end
+      end
+   end
+end
+room 40009			##### Room 10
+   properties
+      picture	3071
+      north	40008 
+      east	40010 
+	  flags 88
+
+   end
+   atpinfo
+      34638  139 203
+      1871  -104 182
+      34519  257 189
+      1871  -85 46
+      1770  450 317
+      1771  138 317
+      34520  93 217 3
+      7906  127 286
+      1780  113 293
+      7906  210 234
+      34518  611 219
+      1780  154 251
+      7906  33 321
+      7902  498 327
+      7902  223 330
+      7900  656 225
+      7906  326 231
+      34518  248 206
+      1771  239 310
+      1771  49 315
+   end
+   objects
+      object greenWaterA40009-0 of GreenWaterA
+         properties
+            x	532
+            y	319
+            loop	0
+         end
+      end
+      object greenWaterA40009-1 of GreenWaterA
+         properties
+            x	320
+            y	320
+            loop	1
+         end
+      end
+      object greenWaterA40009-2 of GreenWaterA
+         properties
+            x	107
+            y	321
+            loop	0
+         end
+      end
+      object greenCrystalA40009-3 of GreenCrystalA
+         properties
+            x	64
+            y	223
+            loop	0
+         end
+      end
+      object greenCrystalA40009-4 of GreenCrystalA
+         properties
+            x	28
+            y	253
+            loop	1
+         end
+      end
+      object greenCrystalA40009-5 of GreenCrystalA
+         properties
+            x	27
+            y	295
+            loop	0
+         end
+      end
+      object greenCrystalG40009-6 of GreenCrystalG
+         properties
+            x	135
+            y	259
+            loop	0
+         end
+      end
+      object greenCrystalG40009-7 of GreenCrystalG
+         properties
+            x	181
+            y	234
+            loop	0
+         end
+      end
+      object randomSewerNPCa40009-8 of RandomSewerNPCa
+         properties
+            x	346
+            y	266
+            loop	2
+         end
+      end
+      object Gargoyle40009-9 of Gargoyle
+         properties
+            x	274
+            y	264
+            loop	2
+         end
+      end
+      object randomSewerNPCa40009-10 of RandomSewerNPCa
+         properties
+            x	201
+            y	265
+            loop	2
+         end
+      end
+   end
+end
+room 40010			##### Room 11
+   properties
+      picture	3071
+      south	40011 
+      west	40009 
+	  flags 168
+	  
+
+   end
+   atpinfo
+      34618  27 319
+      1752  168 201
+      1751  681 279
+      1750  456 211
+      34520  582 209
+      1750  65 258
+      34519  303 207
+      1830  567 301
+      1771  223 314
+      1770  623 319
+      1875  198 239
+      34644  504 246
+      1877  384 240
+      34643  532 249
+      1876  555 276
+      1877  150 235
+      7909  467 262
+      7901  598 306
+      7906  178 280 35
+      7909  504 278
+      7906  432 249
+      7907  49 321
+      7901  323 217
+      7901  85 344 77
+      1830  393 248
+      1830  494 263
+      34598  147 270
+      34598  231 255
+      1771  433 316
+      1771  329 318
+      2389  312 209 40
+   end
+   objects
+		object Chest-40010-0 of Chest
+			properties
+				name "Bronze Chest"
+				x	314
+				y	242
+				loop	0
+				enchantResistance 100
+			end
+			base container
+			end
+			base lockable
+				isLocked	1
+				unlockValue	40010
+			end
+			base described
+				text	"You see a chest made of Gold."
+			end
+		end
+      object greenCrystalC40010-1 of GreenCrystalC
+         properties
+            x	180
+            y	214
+            loop	0
+         end
+      end
+      object greenCrystalC40010-2 of GreenCrystalC
+         properties
+            x	156
+            y	235
+            loop	0
+         end
+      end
+      object greenCrystalC40010-3 of GreenCrystalC
+         properties
+            x	111
+            y	223
+            loop	0
+         end
+      end
+      object greenCrystalC40010-4 of GreenCrystalC
+         properties
+            x	234
+            y	215
+            loop	0
+         end
+      end
+      object greenCrystalC40010-5 of GreenCrystalC
+         properties
+            x	376
+            y	220
+            loop	0
+         end
+      end
+      object greenCrystalC40010-6 of GreenCrystalC
+         properties
+            x	432
+            y	225
+            loop	0
+         end
+      end
+      object greenCrystalC40010-7 of GreenCrystalC
+         properties
+            x	474
+            y	233
+            loop	0
+         end
+      end
+      object greenCrystalC40010-8 of GreenCrystalC
+         properties
+            x	531
+            y	234
+            loop	0
+         end
+      end
+      object greenCrystalC40010-9 of GreenCrystalC
+         properties
+            x	599
+            y	244
+            loop	0
+         end
+      end
+      object greenCrystalC40010-10 of GreenCrystalC
+         properties
+            x	620
+            y	299
+            loop	0
+         end
+      end
+      object tulorTheTerrible40010-11 of TulorTheTerrible
+         properties
+            x	458
+            y	290
+            loop	2
+         end
+      end
+      object fuloran40010-12 of Fuloran
+         properties
+            x	298
+            y	252
+            loop	2
+         end
+      end
+      object SoldierBoss40010-13 of SoldierBoss
+         properties
+            x	146
+            y	289
+            loop	2
+         end
+      end
+      object HarlequinNeutral40010-14 of HarlequinNeutral
+         properties
+            x	220
+            y	257
+            loop	2
+         end
+      end
+      object HarlequinNeutra40010-15 of HarlequinNeutral
+         properties
+            x	382
+            y	261
+            loop	2
+         end
+      end
+		object Key-40010-16 of SewerKey02
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	fuloran40010-12
+			end
+			base described
+			end
+		end	  
+		object godKeys-40010-17 of GodKeys
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-40010-0
+			end
+			base described
+			end
+		end
+		object RandomMegaTreasure-40010-17 of RandomMegaTreasure
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-40010-0
+			end
+			base described
+			end
+		end
+	end	
+end
+room 40011			##### Room 12
+   properties
+      picture	3071
+      north	40010 
+      flags	2
+	  
+
+   end
+   atpinfo
+      1871  419 205
+      1870  135 211
+      1850  -3 343 25
+      1750  67 221
+      1872  137 341
+      1752  553 227
+      34518  270 223
+      40672  350 324
+      7900  124 326
+      7900  594 231
+      7902  614 230
+      7906  181 229
+      7907  338 336
+   end
+   objects
+      object sign40011-0 of Sign
+         properties
+            x	405
+            y	290
+            loop	0
+         end
+		base described
+			text	"Our workers got scared and stopped digging! Please help us clear the sewer so we can get back to work.'"
+		 end		 
+      end
+   end
+end
+room 40005			##### Room 6
+   properties
+      picture	3071
+      east	40003 
+      west	40006 
+	  flags 200
+	  
+
+   end
+   atpinfo
+      1752  97 224
+      1751  348 249
+      34520  545 228
+      1750  238 229
+      1750  57 259
+      7901  313 256
+      7907  45 314 294
+      7908  27 279 17
+      7907  333 318
+      7902  516 329
+      7902  133 331
+      7908  83 279 17
+      7900  505 236
+      7906  168 236
+      7906  404 256
+      7909  470 249
+      1750  431 239
+   end
+   objects
+      object greenWaterA40005-0 of GreenWaterA
+         properties
+            x	540
+            y	323
+            loop	0
+         end
+      end
+      object greenWaterA40005-1 of GreenWaterA
+         properties
+            x	328
+            y	321
+            loop	0
+         end
+      end
+      object greenWaterA40005-2 of GreenWaterA
+         properties
+            x	117
+            y	322
+            loop	1
+         end
+      end
+      object greenWaterA40005-3 of GreenWaterA
+         properties
+            x	0
+            y	322
+            loop	0
+         end
+      end
+      object greenCrystalA40005-4 of GreenCrystalA
+         properties
+            x	144
+            y	239
+            loop	0
+         end
+      end
+      object greenCrystalA40005-5 of GreenCrystalA
+         properties
+            x	195
+            y	251
+            loop	0
+         end
+      end
+      object greenCrystalA40005-6 of GreenCrystalA
+         properties
+            x	280
+            y	252
+            loop	0
+         end
+      end
+      object randomSewerNPC40005-7 of RandomSewerNPC
+         properties
+            x	415
+            y	265
+            loop	2
+         end
+      end
+#      object GremlinNeutral40005-8 of GremlinNeutral
+#         properties
+#           x	345
+#            y	265
+#            loop	2
+#        end
+#      end
+#      object RapscallionNeutral40005-9 of RapscallionNeutral
+#         properties
+#            x	277
+#            y	265
+#            loop	2
+#        end
+#      end
+      object bbustaknot40005-10 of bBustaknot
+         properties
+            x	212
+            y	265
+            loop	2
+         end
+      end
+   end
+end
+room 40042
+   properties
+      picture	4000
+      east	40040 
+
+   end
+   atpinfo
+      2382  93 135
+      2382  276 135
+      2382  459 135
+      2310  394 215
+      2310  83 215
+      2310  549 215
+      2310  235 215
+      2382  614 135
+      2322  387 218
+      2323  232 216
+      2323  78 220
+      2323  390 215
+      2323  546 216
+      35091  88 217
+      2280  323 232 210
+      2280  477 232 210
+      2280  159 230 210
+      2282  548 216
+      2282  547 217 130
+      35050  398 218
+      35050  397 220 130
+      2282  235 219 130
+      2282  235 217
+      35050  83 222 130
+      35050  86 221
+      63  46 143
+      64  335 289
+      32832  38 140
+      32832  227 144
+      32832  440 141
+      63  114 144
+      63  606 143
+      32832  381 138
+      32832  287 139
+      32832  646 142
+      32832  595 142
+      32832  533 139
+      63  318 291
+      32832  310 290
+      32832  310 290
+      2382  93 324 -130
+      2382  551 323 -130
+      2334  133 344
+      2310  199 345 -130
+      2310  440 474
+      2323  199 532
+      2323  440 526
+      35091  202 539
+      2334  28 344
+      35091  444 533
+      2334  600 340
+      35102  510 342
+      2280  561 531 210
+      2280  97 532 210
+      7900  77 582
+      7900  557 583
+   end
+   objects
+      object plankDoor40042-0 of PlankDoor #---------------------- Despothes Door
+         properties
+            x	162
+            y	141
+            loop	2
+			enchantResistance 100
+         end
+         base openable
+            isOpen	0
+         end
+      end
+      object plankDoor40042-1 of PlankDoor #------------------------- Mabon Door
+         properties
+            x	470
+            y	141
+			loop	2
+			enchantResistance 100
+			linkTo trapDoor40046-17
+			end
+			base lockable
+				isLocked	1
+				unlockValue	40046
+			end
+         base entry
+            room	40046
+         end			
+			base described
+				text	"Mabons's Retreat. DO NOT ENTER!!!"
+			end
+      end  
+      object plankDoor40042-2 of PlankDoor #-------------------------- Enid Door
+         properties
+            x	316
+            y	142
+			loop	2
+			enchantResistance 100
+			linkTo enidBackDoor40047-14
+			end
+			base lockable
+				isLocked	1
+				unlockValue	40047
+			end
+         base entry
+            room	40047
+         end			
+			base described
+				text	"Enid's Refuge. DO NOT ENTER!!!"
+			end
+      end  
+      object crest40042-4 of Crest
+         properties
+            x	556
+            y	338
+            loop	0
+         end
+		base described
+			text "The crest reads: 'I would like to thank Coyote for contributions he made to help build The Sewer.'"
+		end	
+      end
+      object crest40042-5 of Crest
+         properties
+            x	80
+            y	339
+            loop	0
+         end
+		base described
+			text "The crest reads: 'I would like to thank RainBlossom for the work she did to help get this dungeon finished.'"
+		end	
+      end
+      object fountain40042-6 of Fountain
+         properties
+            x	322
+            y	284
+            loop	0
+         end
+      end	  
+   end
+end
+room 40041
+   properties
+      picture	4000
+      west	40040 
+
+   end
+   atpinfo
+      2382  93 135
+      2382  276 135
+      2382  459 135
+      2310  394 215
+      2310  83 215
+      2310  549 215
+      2310  235 215
+      2382  614 135
+      2322  387 218
+      2323  232 216
+      2323  78 220
+      2323  390 215
+      2323  547 220
+      35091  88 217
+      7908  405 147
+      7908  233 142
+      7908  247 141
+      7908  385 146
+      7906  571 139
+      7906  64 143
+      7908  553 227
+      7908  395 220
+      7908  241 221
+      7908  86 217
+      2382  94 323 -130
+      2388  595 332 50
+      2388  501 332 50
+      2388  51 332 50
+      2382  277 323 -130
+      2382  460 323 -130
+      2382  643 323 -130
+      2388  140 332 50
+      2388  231 332 50
+      2388  321 332 50
+      2388  411 332 50
+      2334  51 341
+      2334  156 341
+      35102  259 341
+      35102  365 338
+      2334  472 339
+      2334  582 340
+      7900  138 579
+      7900  418 579
+      7900  662 580
+   end
+   objects
+      object plankDoor40041-0 of PlankDoor #--------------------------Duach Door
+         properties
+            x	162
+            y	141
+            loop	2
+			enchantResistance 100
+			linkTo DungeonBackDoor-40045-20
+			end
+			base lockable
+				isLocked	1
+				unlockValue	40045
+			end
+			base described
+				text	"The lair of Duach.DO NOT ENTER!!!"
+			end
+      end
+      object plankDoor40041-1 of PlankDoor #-------------------------- Elphame Door
+         properties
+            x	470
+            y	141
+            loop	2
+			enchantResistance 100
+			linkTo dungeonBackArch40048-47
+			end
+			base lockable
+				isLocked	1
+				unlockValue	40048
+			end
+         base entry
+            room	40048
+         end			
+			base described
+				text	"Elphame Nest. DO NOT ENTER!!!"
+			end
+      end 
+      object plankDoor40041-2 of PlankDoor #----------------------- Finvarra Door
+         properties
+            x	316
+            y	142
+            loop	2
+			enchantResistance 100
+			linkTo enidBackDoor40049-0
+			end
+			base lockable
+				isLocked	1
+				unlockValue	40049
+			end
+         base entry
+            room	40049
+         end			
+			base described
+				text	"Finvarra Den. DO NOT ENTER!!!"
+			end
+      end
+      object fireB40041-3 of FireB
+         properties
+            x	219
+            y	217
+            loop	0
+         end
+      end
+      object fireB40041-4 of FireB
+         properties
+            x	374
+            y	219
+            loop	0
+         end
+      end
+      object fireB40041-5 of FireB
+         properties
+            x	390
+            y	222
+            loop	0
+         end
+      end
+      object fireB40041-6 of FireB
+         properties
+            x	401
+            y	222
+            loop	0
+         end
+      end
+      object fireB40041-7 of FireB
+         properties
+            x	58
+            y	220
+            loop	0
+         end
+      end
+      object skull40041-8 of Skull
+         properties
+            x	45
+            y	139
+            loop	1
+         end
+      end
+      object skull40041-9 of Skull
+         properties
+            x	25
+            y	140
+            loop	1
+         end
+      end
+      object skull40041-10 of Skull
+         properties
+            x	5
+            y	140
+            loop	1
+         end
+      end
+      object skull40041-11 of Skull
+         properties
+            x	209
+            y	143
+            loop	1
+         end
+      end
+      object skull40041-12 of Skull
+         properties
+            x	363
+            y	147
+            loop	1
+         end
+      end
+      object skull40041-13 of Skull
+         properties
+            x	516
+            y	143
+            loop	1
+         end
+      end
+      object skull40041-14 of Skull
+         properties
+            x	115
+            y	142
+            loop	0
+         end
+      end
+      object skull40041-15 of Skull
+         properties
+            x	267
+            y	145
+            loop	0
+         end
+      end
+      object skull40041-16 of Skull
+         properties
+            x	422
+            y	146
+            loop	0
+         end
+      end
+      object skull40041-17 of Skull
+         properties
+            x	631
+            y	139
+            loop	0
+         end
+      end
+      object skull40041-18 of Skull
+         properties
+            x	609
+            y	140
+            loop	0
+         end
+      end
+      object skull40041-19 of Skull
+         properties
+            x	587
+            y	140
+            loop	0
+         end
+      end
+      object fireB40041-20 of FireB
+         properties
+            x	75
+            y	222
+            loop	0
+         end
+      end
+      object fireB40041-21 of FireB
+         properties
+            x	92
+            y	220
+            loop	0
+         end
+      end
+      object fireB40041-22 of FireB
+         properties
+            x	103
+            y	221
+            loop	0
+         end
+      end
+      object fireB40041-23 of FireB
+         properties
+            x	233
+            y	219
+            loop	0
+         end
+      end
+      object fireB40041-24 of FireB
+         properties
+            x	247
+            y	219
+            loop	0
+         end
+      end
+      object fireB40041-25 of FireB
+         properties
+            x	262
+            y	218
+            loop	0
+         end
+      end
+      object fireB40041-26 of FireB
+         properties
+            x	414
+            y	220
+            loop	0
+         end
+      end
+      object fireB40041-27 of FireB
+         properties
+            x	531
+            y	221
+            loop	0
+         end
+      end
+      object fireB40041-28 of FireB
+         properties
+            x	541
+            y	222
+            loop	0
+         end
+      end
+      object fireB40041-29 of FireB
+         properties
+            x	550
+            y	224
+            loop	0
+         end
+      end
+      object fireB40041-30 of FireB
+         properties
+            x	558
+            y	224
+            loop	0
+         end
+      end
+      object fireB40041-31 of FireB
+         properties
+            x	569
+            y	222
+            loop	0
+         end
+      end
+      object bones40041-32 of Bones
+         properties
+            x	240
+            y	231
+            loop	0
+         end
+      end
+      object bones40041-33 of Bones
+         properties
+            x	396
+            y	232
+            loop	0
+         end
+      end
+      object bones40041-34 of Bones
+         properties
+            x	553
+            y	234
+            loop	0
+         end
+      end
+      object bones40041-35 of Bones
+         properties
+            x	83
+            y	230
+            loop	0
+         end
+      end
+      object crest40041-36 of Crest
+         properties
+            x	311
+            y	339
+            loop	0
+         end
+		base described
+			text "The crest reads: 'Tom without all of your hard work we would be in a very bad situation. Thank you for being part of the team.'"
+		end	
+      end
+      object crest40041-37 of Crest
+         properties
+            x	418
+            y	338
+            loop	0
+         end
+		base described
+			text "The crest reads: 'This is a shout out to DaMoof for all that you do to help keep this server alive.'"
+		end	
+      end
+      object crest40041-38 of Crest
+         properties
+            x	528
+            y	337
+            loop	0
+         end
+		base described
+			text "The crest reads: 'I want to say thanks to Zwidar for all the help he gave while this Sewer was being built.'"
+		end			 
+      end
+      object crest40041-39 of Crest
+         properties
+            x	105
+            y	339
+            loop	0
+         end
+		base described
+			text "The crest reads:I would like to thank Wilt for contributions he made to help build The Sewer.'"
+		end	
+      end
+      object crest40041-40 of Crest
+         properties
+            x	207
+            y	338
+            loop	0
+         end
+		base described
+			text "The crest reads: 'This crest was placed here to give thanks to BOB. Without all of his hard work the realm as we know it today would not here. Thank you Bob for all of your work.'"
+		end			 
+      end
+   end
+end
+
+room 40040
+   properties
+      picture	4000
+      east	40041 
+      west	40042 
+
+   end
+   atpinfo
+      2380  24 122
+      2382  194 114
+      2339  157 143
+      2382  376 113
+      2382  559 114
+      2279  525 146
+      2269  434 161
+      2289  112 146
+      2299  615 133
+      2309  209 163
+      2259  23 143
+      2310  570 145
+      2310  480 165
+      2310  390 185
+      2310  65 145
+      2310  154 164
+      2310  255 185
+      2322  249 188
+      2323  249 187
+      35090  158 164
+      2323  149 168
+      2323  60 149
+      2323  385 185
+      2323  477 170
+      2323  566 146
+      35091  577 147
+      2322  382 188
+      35090  358 140
+      2322  8 130
+      35090  38 126
+      2322  623 121
+      35130  276 158
+      35090  532 143
+      2322  537 142
+      35090  453 158
+      2339  265 161
+      35107  372 158
+      2322  229 163
+      35090  416 162
+      2322  189 161
+      2322  283 150
+      2362  365 157
+      35107  468 141
+      2322  507 145
+      2322  101 145
+      7900  490 145
+      7900  137 151
+      7905  387 194
+      7905  474 180
+      40673  258 191
+      40673  162 179
+      8  368 179
+      7908  260 182
+      7908  388 184
+      7905  433 184
+      40673  205 186
+      2323  386 191
+      7905  552 158
+      2382  184 306 -130
+      2382  549 305 -130
+      2382  366 305 -130
+      2382  2 320 -130
+      2280  638 321
+      2280  323 321
+      2280  482 322
+      2280  165 321
+      2280  10 323
+      2334  34 325
+      2334  110 328
+      35102  205 327
+      35102  373 329
+      2334  275 328
+      2334  429 328
+      35102  536 329
+      2334  625 326
+      7900  124 572
+      7900  339 569
+      7900  566 570
+   end
+   objects
+            object doorway40040-0 of Doorway
+         properties
+            x	320
+            y	132
+            loop	2
+				linkTo	enidBackDoor40006-0
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+      object crest40040-1 of Crest
+         properties
+            x	321
+            y	330
+            loop	0
+         end
+		base described
+			text "The crest reads: 'This dungeon is dedicated to my son Damien Anthony Diotte June 6th, 2006 - November 5th, 2016. Will NEVER forget you son.'http://damiendiotte.com"
+		end		 
+      end
+      object crest40040-2 of Crest
+         properties
+            x	156
+            y	328
+            loop	0
+         end
+		base described
+			text "The crest reads: 'I want to say thank you to all of the players that play this 20 plus year old game. It is because of all of you that I had the motivation to build this cave.'"
+		end			 
+      end
+      object crest40040-3 of Crest
+         properties
+            x	484
+            y	329
+            loop	0
+         end
+		base described
+			text "The crest reads: 'Zach,I want to say thank you for everything you have done and do to make this a fun server to play on.'"
+		end			 
+      end
+   end
+end
+#-----------------------------------------------------------Duach------------------------------------------
+room 40045
+   properties
+      picture	3071
+	  roomName "Duach's Lair"
+
+   end
+   atpinfo
+      97  334 104
+      7902  102 312
+      7902  326 311
+      7902  513 317
+   end
+   objects
+      object column40045-0 of Column
+         properties
+            x	85
+            y	169
+            loop	0
+         end
+      end
+      object column40045-1 of Column
+         properties
+            x	165
+            y	130
+            loop	0
+         end
+      end
+      object column40045-2 of Column
+         properties
+            x	589
+            y	130
+            loop	0
+         end
+      end
+      object column40045-3 of Column
+         properties
+            x	472
+            y	130
+            loop	0
+         end
+      end
+      object fireC40045-4 of FireC
+         properties
+            x	4
+            y	199
+            loop	0
+         end
+      end
+      object lavaC40045-5 of LavaC
+         properties
+            x	638
+            y	318
+            loop	0
+         end
+      end
+      object lavaD40045-6 of LavaD
+         properties
+            x	380
+            y	318
+            loop	0
+         end
+      end
+      object lavaE40045-7 of LavaE
+         properties
+            x	519
+            y	163
+            loop	0
+         end
+      end
+      object lavaF40045-8 of LavaF
+         properties
+            x	652
+            y	208
+            loop	0
+         end
+      end
+      object lavaG40045-9 of LavaG
+         properties
+            x	463
+            y	134
+            loop	0
+         end
+      end
+      object lavaG40045-10 of LavaG
+         properties
+            x	577
+            y	138
+            loop	0
+         end
+      end
+      object column40045-11 of Column
+         properties
+            x	0
+            y	161
+            loop	0
+         end
+      end
+      object lavaD40045-12 of LavaD
+         properties
+            x	292
+            y	317
+            loop	1
+         end
+      end
+      object lavaD40045-13 of LavaD
+         properties
+            x	483
+            y	318
+            loop	1
+         end
+      end
+      object lavaD40045-14 of LavaD
+         properties
+            x	572
+            y	320
+            loop	0
+         end
+      end
+      object lavaD40045-15 of LavaD
+         properties
+            x	604
+            y	323
+            loop	0
+         end
+      end
+      object lavaD40045-16 of LavaD
+         properties
+            x	632
+            y	324
+            loop	0
+         end
+      end
+      object lavaD40045-17 of LavaD
+         properties
+            x	190
+            y	318
+            loop	0
+         end
+      end
+      object lavaD40045-18 of LavaD
+         properties
+            x	100
+            y	319
+            loop	1
+         end
+      end
+      object lavaD40045-19 of LavaD
+         properties
+            x	50
+            y	327
+            loop	1
+         end
+      end
+      object dungeonBackDoor40045-20 of DungeonBackDoor
+         properties
+            x	31
+            y	195
+            loop	0
+				linkTo	plankDoor40041-0
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+      object lavaG40045-21 of LavaG
+         properties
+            x	88
+            y	172
+            loop	1
+         end
+      end
+      object lavaG40045-22 of LavaG
+         properties
+            x	169
+            y	133
+            loop	1
+         end
+      end
+      object fireC40045-23 of FireC
+         properties
+            x	1
+            y	213
+            loop	0
+         end
+      end
+      object fireC40045-24 of FireC
+         properties
+            x	0
+            y	233
+            loop	0
+         end
+      end
+      object fireC40045-25 of FireC
+         properties
+            x	0
+            y	248
+            loop	0
+         end
+      end
+      object fireC40045-26 of FireC
+         properties
+            x	4
+            y	267
+            loop	0
+         end
+      end
+      object fireC40045-27 of FireC
+         properties
+            x	6
+            y	284
+            loop	0
+         end
+      end
+      object fireC40045-28 of FireC
+         properties
+            x	7
+            y	298
+            loop	0
+         end
+      end
+      object fireC40045-29 of FireC
+         properties
+            x	28
+            y	328
+            loop	0
+         end
+      end
+      object fireC40045-30 of FireC
+         properties
+            x	380
+            y	321
+            loop	0
+         end
+      end
+      object fireC40045-31 of FireC
+         properties
+            x	249
+            y	119
+            loop	0
+         end
+      end
+      object fireC40045-32 of FireC
+         properties
+            x	238
+            y	106
+            loop	0
+         end
+      end
+      object lavaE40045-33 of LavaE
+         properties
+            x	601
+            y	184
+            loop	0
+         end
+      end
+      object fireC40045-34 of FireC
+         properties
+            x	282
+            y	322
+            loop	0
+         end
+      end
+      object fireC40045-35 of FireC
+         properties
+            x	524
+            y	324
+            loop	0
+         end
+      end
+      object fireC40045-36 of FireC
+         properties
+            x	261
+            y	109
+            loop	0
+         end
+      end
+      object fireC40045-37 of FireC
+         properties
+            x	284
+            y	109
+            loop	0
+         end
+      end
+      object fireC40045-38 of FireC
+         properties
+            x	309
+            y	107
+            loop	0
+         end
+      end
+      object fireC40045-39 of FireC
+         properties
+            x	414
+            y	109
+            loop	0
+         end
+      end
+      object fireC40045-40 of FireC
+         properties
+            x	390
+            y	108
+            loop	0
+         end
+      end
+      object fireC40045-41 of FireC
+         properties
+            x	366
+            y	108
+            loop	0
+         end
+      end
+      object fireC40045-42 of FireC
+         properties
+            x	336
+            y	108
+            loop	0
+         end
+      end
+      object fireC40045-43 of FireC
+         properties
+            x	530
+            y	109
+            loop	0
+         end
+      end
+      object fireC40045-44 of FireC
+         properties
+            x	402
+            y	123
+            loop	0
+         end
+      end
+      object fireC40045-45 of FireC
+         properties
+            x	378
+            y	126
+            loop	0
+         end
+      end
+      object fireC40045-46 of FireC
+         properties
+            x	271
+            y	125
+            loop	0
+         end
+      end
+      object fireC40045-47 of FireC
+         properties
+            x	259
+            y	138
+            loop	0
+         end
+      end
+      object fireC40045-48 of FireC
+         properties
+            x	396
+            y	143
+            loop	0
+         end
+      end
+      object lavaF40045-49 of LavaF
+         properties
+            x	665
+            y	218
+            loop	0
+         end
+      end
+      object lavaF40045-50 of LavaF
+         properties
+            x	324
+            y	241
+            loop	0
+         end
+      end
+      object fireC40045-51 of FireC
+         properties
+            x	325
+            y	253
+            loop	0
+         end
+      end
+      object fireC40045-52 of FireC
+         properties
+            x	297
+            y	247
+            loop	0
+         end
+      end
+      object smokeA40045-53 of SmokeA
+         properties
+            x	236
+            y	110
+            loop	0
+         end
+      end
+      object smokeB40045-54 of SmokeB
+         properties
+            x	379
+            y	320
+            loop	0
+         end
+      end
+      object smokeA40045-55 of SmokeA
+         properties
+            x	258
+            y	112
+            loop	0
+         end
+      end
+      object smokeA40045-56 of SmokeA
+         properties
+            x	280
+            y	114
+            loop	0
+         end
+      end
+      object smokeA40045-57 of SmokeA
+         properties
+            x	307
+            y	112
+            loop	0
+         end
+      end
+      object smokeA40045-58 of SmokeA
+         properties
+            x	332
+            y	115
+            loop	0
+         end
+      end
+      object smokeA40045-59 of SmokeA
+         properties
+            x	361
+            y	115
+            loop	0
+         end
+      end
+      object smokeA40045-60 of SmokeA
+         properties
+            x	388
+            y	115
+            loop	0
+         end
+      end
+      object smokeA40045-61 of SmokeA
+         properties
+            x	414
+            y	111
+            loop	0
+         end
+      end
+      object smokeA40045-62 of SmokeA
+         properties
+            x	211
+            y	111
+            loop	0
+         end
+      end
+      object fireC40045-63 of FireC
+         properties
+            x	211
+            y	108
+            loop	0
+         end
+      end
+      object smokeA40045-64 of SmokeA
+         properties
+            x	525
+            y	110
+            loop	0
+         end
+      end
+      object smokeB40045-65 of SmokeB
+         properties
+            x	524
+            y	323
+            loop	0
+         end
+      end
+      object smokeB40045-66 of SmokeB
+         properties
+            x	281
+            y	322
+            loop	0
+         end
+      end
+      object smokeB40045-67 of SmokeB
+         properties
+            x	26
+            y	328
+            loop	0
+         end
+      end
+      object smokeA40045-68 of SmokeA
+         properties
+            x	71
+            y	379
+            loop	0
+         end
+      end
+      object smokeA40045-69 of SmokeA
+         properties
+            x	95
+            y	350
+            loop	0
+         end
+      end
+      object smokeA40045-70 of SmokeA
+         properties
+            x	86
+            y	329
+            loop	0
+         end
+      end
+      object smokeA40045-71 of SmokeA
+         properties
+            x	161
+            y	379
+            loop	0
+         end
+      end
+      object smokeA40045-72 of SmokeA
+         properties
+            x	221
+            y	371
+            loop	0
+         end
+      end
+      object smokeA40045-73 of SmokeA
+         properties
+            x	571
+            y	355
+            loop	0
+         end
+      end
+      object smokeA40045-74 of SmokeA
+         properties
+            x	484
+            y	373
+            loop	0
+         end
+      end
+      object smokeA40045-75 of SmokeA
+         properties
+            x	448
+            y	364
+            loop	0
+         end
+      end
+      object smokeA40045-76 of SmokeA
+         properties
+            x	312
+            y	346
+            loop	0
+         end
+      end
+      object smokeA40045-77 of SmokeA
+         properties
+            x	353
+            y	326
+            loop	0
+         end
+      end
+      object godduach40045-78 of godDuach
+         properties
+            x	327
+            y	205
+            loop	2
+         end
+         base character
+            properName	""
+            title	""
+         end
+      end
+      object rfenrisofDuach40045-79 of rFenrisofDuach
+         properties
+            x	224
+            y	152
+            loop	2
+         end
+         base character
+            properName	""
+            title	""
+         end
+      end
+      object fenrisofDuach40045-80 of FenrisofDuach
+         properties
+            x	419
+            y	149
+            loop	2
+         end
+         base character
+            properName	""
+            title	""
+         end
+      end
+      object wraithKing40045-81 of WraithKing
+         properties
+            x	145
+            y	184
+            loop	0
+         end
+         base character
+            properName	""
+            title	""
+         end
+      end
+      object protectorDuach40045-82 of ProtectorDuach
+         properties
+            x	84
+            y	194
+            loop	0
+         end
+         base character
+            properName	""
+            title	""
+         end
+      end
+      object wraithKing40045-83 of WraithKing
+         properties
+            x	554
+            y	191
+            loop	1
+         end
+         base character
+            properName	""
+            title	""
+         end
+      end
+      object protectorDuach40045-84 of ProtectorDuach
+         properties
+            x	606
+            y	216
+            loop	1
+         end
+         base character
+            properName	""
+            title	""
+         end
+      end
+      object fireC40045-85 of FireC
+         properties
+            x	356
+            y	247
+            loop	0
+         end
+      end
+      object smokeA40045-86 of SmokeA
+         properties
+            x	326
+            y	242
+            loop	0
+         end
+      end
+      object smokeA40045-87 of SmokeA
+         properties
+            x	354
+            y	248
+            loop	0
+         end
+      end
+      object smokeA40045-88 of SmokeA
+         properties
+            x	293
+            y	244
+            loop	0
+         end
+      end
+   end
+end
+#---------------------------------------------------Mabon-------------------------------
+room 40046
+   properties
+      picture	3071
+      roomName	"Mabon's Retreat"
+   end
+   atpinfo
+      34898  155 166 120
+      2133  233 220 62
+      2133  128 271 62
+      34989  48 142
+      2133  176 282 62
+      2338  -57 129 -30
+      34901  200 282 62
+      34898  188 150 10
+      34896  462 319 62
+      2132  320 224 60
+      3  509 142
+      2338  10 119 -30
+      2340  370 114 -20
+      34898  468 145 5
+      34898  432 168 120
+      2109  177 152 70
+      2340  180 114 -20
+      2340  275 114 -20
+      2340  93 114 -20
+      34898  468 168 120
+      34918  278 224 60
+      2600  241 218
+      34898  210 150 40
+      3  395 148
+      34898  335 150 40
+      2129  448 153 40
+      3  372 147
+      3  282 141
+      34898  274 151 10
+      2128  133 166 58
+      2340  474 114 -20
+      2147  168 225 62
+      34896  290 159 80
+      34898  366 157 80
+      34898  239 150 40
+      34898  467 157 80
+      34898  215 157 80
+      3  305 146
+      34898  370 152 10
+      34898  157 156 80
+      2109  175 144
+      2109  311 144
+      2109  447 144
+      2109  308 152 70
+      2109  447 152 70
+      34898  250 167 120
+      34898  342 168 120
+      2133  221 225 62
+      7900  396 160
+      7900  139 160
+      32782  -19 170
+      32782  -45 168
+      2382  626 133
+      2133  209 219 62
+      2598  505 310
+      2133  504 315 62
+      2147  545 318 62
+      2109  591 147
+      7900  606 160
+      2109  591 153 70
+      34898  564 147 5
+      34898  660 147 5
+      2129  581 154 40
+      34898  564 156 80
+      34898  646 156 80
+      34896  555 148 5
+      2128  608 147 5
+      34898  566 167 120
+      34898  611 168 120
+      2600  411 218
+      2150  368 222 60
+   end
+   objects
+      object fireB40046-0 of FireB
+         properties
+            x	54
+            y	147
+            loop	0
+         end
+         base described
+            text	"You see the flames of a burning hearth."
+         end
+      end
+      object fireB40046-1 of FireB
+         properties
+            x	48
+            y	143
+            loop	1
+         end
+         base described
+            text	"You see the flames of a burning hearth."
+         end
+      end
+      object fireB40046-2 of FireB
+         properties
+            x	35
+            y	145
+            loop	0
+         end
+         base described
+            text	"You see the flames of a burning hearth."
+         end
+      end
+      object fireB40046-3 of FireB
+         properties
+            x	25
+            y	149
+            loop	0
+         end
+         base described
+            text	"You see the flames of a burning hearth."
+         end
+      end
+      object fireB40046-4 of FireB
+         properties
+            x	76
+            y	143
+            loop	0
+         end
+         base described
+            text	"You see the flames of a burning hearth."
+         end
+      end
+      object embers40046-5 of Embers
+         properties
+            x	51
+            y	148
+            loop	0
+         end
+         base described
+            text	"Burning embers that warm the room."
+         end
+      end
+      object smokeB40046-6 of SmokeB
+         properties
+            x	132
+            y	185
+            loop	0
+         end
+      end
+      object smokeB40046-7 of SmokeB
+         properties
+            x	138
+            y	167
+            loop	0
+         end
+      end
+      object godMabon40046-8 of GodMabon
+         properties
+            x	85
+            y	198
+            loop	0
+         end
+         base character
+            properName	""
+            title	""
+         end
+      end
+      object apprenticeMabonA40046-11 of ApprenticeMabonA
+         properties
+            x	543
+            y	206
+            loop	1
+         end
+         base character
+            properName	""
+            title	""
+         end
+      end
+      object apprenticeMabonC40046-12 of ApprenticeMabonB
+         properties
+            x	412
+            y	191
+            loop	2
+         end
+         base character
+            properName	""
+            title	""
+         end
+      end
+      object apprenticeMabonC40046-13 of ApprenticeMabonC
+         properties
+            x	608
+            y	293
+            loop	1
+         end
+         base character
+            properName	""
+            title	""
+         end
+      end
+      object apprenticeMabonD40046-14 of ApprenticeMabonD
+         properties
+            x	229
+            y	172
+            loop	3
+         end
+         base character
+            properName	""
+            title	""
+         end
+      end
+       object trapDoor40046-17 of TrapDoor
+         properties
+            x	74
+            y	307
+            loop	0
+				linkTo	plankDoor40042-1
+			end
+				base lockable
+			end
+				base described
+			end
+      end
+   end
+end
+#--------------------------------------------Enid
+room 40047
+   properties
+      picture	3071
+	  roomName "Enid'd Refuge"
+   end
+   atpinfo
+      35092  179 156
+      2221  573 141
+      2251  193 97 10
+      23  309 111
+      35098  336 47 -10
+      2282  496 157
+      2333  335 48 10
+      2345  415 54
+      35113  253 54
+      35113  265 54
+      2345  403 54
+      2310  173 155
+      2392  53 157
+      2392  149 142
+      2280  204 66 10
+      2324  495 156
+      2132  17 165
+      35090  177 157
+      35091  621 275
+      2280  476 66 10
+      35107  -1 156
+      2251  472 98 10
+      94  374 31 -50
+      2339  573 136 -10
+      2322  496 157
+      35107  95 141
+      2310  494 155
+      35050  174 158
+      35113  277 54
+      2345  392 54
+      2323  21 275
+      2326  213 127
+      35094  454 127
+      35094  471 150
+      2326  199 150
+      24  276 71
+      7905  89 155
+      7905  3 178
+      110  49 160
+      111  468 177
+      20  476 137
+      21  444 95
+      22  690 285
+      23  195 115
+      40673  670 194
+      40673  569 161
+      240  78 323
+      241  321 34
+      240  270 318
+      240  478 311
+      240  576 306
+      7900  200 164
+      7900  485 165
+   end
+   objects
+      object fountain40047-0 of Fountain
+         properties
+            x	122
+            y	165
+            loop	0
+         end
+      end
+      object greenCrystalE40047-1 of GreenCrystalE
+         properties
+            x	143
+            y	146
+            loop	0
+         end
+      end
+      object greenCrystalE40047-2 of GreenCrystalE
+         properties
+            x	526
+            y	149
+            loop	1
+         end
+      end
+      object greenCrystalB40047-3 of GreenCrystalB
+         properties
+            x	44
+            y	159
+            loop	1
+         end
+      end
+      object rock40047-4 of Rock
+         properties
+            x	239
+            y	106
+            loop	0
+         end
+      end
+      object rock40047-5 of Rock
+         properties
+            x	426
+            y	108
+            loop	0
+         end
+      end
+      object greenCrystalC40047-6 of GreenCrystalC
+         properties
+            x	6
+            y	329
+            loop	0
+         end
+      end
+      object greenCrystalC40047-7 of GreenCrystalC
+         properties
+            x	635
+            y	332
+            loop	0
+         end
+      end
+      object fireB40047-8 of FireB
+         properties
+            x	563
+            y	142
+            loop	0
+         end
+      end
+      object fireB40047-9 of FireB
+         properties
+            x	574
+            y	143
+            loop	0
+         end
+      end
+      object fireB40047-10 of FireB
+         properties
+            x	602
+            y	145
+            loop	0
+         end
+      end
+      object fireB40047-11 of FireB
+         properties
+            x	588
+            y	149
+            loop	0
+         end
+      end
+      object fireB40047-12 of FireB
+         properties
+            x	568
+            y	145
+            loop	0
+         end
+      end
+      object fireB40047-13 of FireB
+         properties
+            x	577
+            y	149
+            loop	0
+         end
+      end
+      object enidBackDoor40047-14 of EnidBackDoor
+         properties
+            x	339
+            y	178
+            loop	2
+				linkTo	plankDoor40042-2
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+      object chair40047-15 of Chair
+         properties
+            x	78
+            y	193
+            loop	0
+         end
+      end
+      object faeryQueenEnid40047-16 of FaeryQueenEnid
+         properties
+            x	169
+            y	223
+            loop	0
+         end
+      end
+      object faeryQueenEnid40047-17 of FaeryQueenEnid
+         properties
+            x	468
+            y	216
+            loop	1
+         end
+      end
+      object waterElementalEnid40047-18 of WaterElementalEnid
+         properties
+            x	35
+            y	318
+            loop	0
+         end
+      end
+      object airElementalEnid40047-19 of AirElementalEnid
+         properties
+            x	609
+            y	299
+            loop	1
+         end
+      end
+      object godEnid40047-20 of GodEnid
+         properties
+            x	249
+            y	210
+            loop	2
+         end
+      end
+      object lockedChest40047-21 of LockedChest
+         properties
+            x	615
+            y	261
+            loop	0
+         end
+      end
+		object RandomMegaTreasure-40047-22 of RandomMegaTreasure
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	lockedChest40047-21
+			end
+			base described
+			end
+		end
+		object RandomMegaMoney-40047-6 of RandomMegaMoney
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	lockedChest40047-21
+			end
+			base described
+			end
+		end	  
+   end
+end
+#----------------------------Color Robes
+room 40100
+   properties
+      picture	3500
+      west	11007 
+   end
+   objects
+      object robe40100-0 of dPaleFleshRobe
+         properties
+            x	45
+            y	300
+            loop	0
+         end
+      end
+      object robe40100-1 of dLightTawnyRobe
+         properties
+            x	45
+            y	285
+            loop	0
+         end
+      end
+      object robe40100-2 of dCarrotOrangeGlowRobe
+         properties
+            x	45
+            y	270
+            loop	0
+         end
+      end
+      object robe40100-3 of dKournikovaRobe
+         properties
+            x	45
+            y	255
+            loop	0
+         end
+      end
+      object robe40100-4 of dLightYellowRobe
+         properties
+            x	45
+            y	240
+            loop	0
+         end
+      end
+      object robe40100-5 of dGrayYellowRobe
+         properties
+            x	45
+            y	225
+            loop	0
+         end
+      end
+      object robe40100-6 of dGrayLittleYellowRobe
+         properties
+            x	45
+            y	210
+            loop	0
+         end
+      end
+      object robe40100-7 of dLighterSilkRobe
+         properties
+            x	45
+            y	195
+            loop	0
+         end
+      end
+      object robe40100-8 of dLightSilkRobe
+         properties
+            x	45
+            y	180
+            loop	0
+         end
+      end
+      object robe40100-9 of dSilkRobe
+         properties
+            x	45
+            y	165
+            loop	0
+         end
+      end
+      object robe40100-10 of dDarkSilkRobe
+         properties
+            x	45
+            y	150
+            loop	0
+         end
+      end
+      object robe40100-11 of dDarkerSilkRobe
+         properties
+            x	45
+            y	135
+            loop	0
+         end
+      end
+      object robe40100-12 of dDarkestSilkRobe
+         properties
+            x	45
+            y	120
+            loop	0
+         end
+      end
+      object robe40100-13 of dDarkBrownRobe
+         properties
+            x	45
+            y	105
+            loop	0
+         end
+      end
+      object robe40100-14 of dMediumBrownRobe
+         properties
+            x	45
+            y	90
+            loop	0
+         end
+      end
+      object robe40100-15 of dLightBrownRobe
+         properties
+            x	45
+            y	75
+            loop	0
+         end
+      end
+      object robe40100-16 of dPaleBrownRobe
+         properties
+            x	45
+            y	60
+            loop	0
+         end
+      end
+      object robe40100-17 of dDarkLightBrownRobe
+         properties
+            x	45
+            y	45
+            loop	0
+         end
+      end
+      object robe40100-18 of dDarkestBrownGlowRobe
+         properties
+            x	45
+            y	30
+            loop	0
+         end
+      end
+      object robe40100-19 of dDarkMudBrownRobe
+         properties
+            x	45
+            y	15
+            loop	0
+         end
+      end
+      object robe40100-20 of dBlackBrownRobe
+         properties
+            x	45
+            y	1
+            loop	0
+         end
+      end
+      object robe40100-21 of dBlackLittleBrownRobe
+         properties
+            x	138
+            y	300
+            loop	0
+         end
+      end
+      object robe40100-22 of dGrayLittleBlackRobe
+         properties
+            x	138
+            y	285
+            loop	0
+         end
+      end
+      object robe40100-23 of dLightGrayRobe
+         properties
+            x	138
+            y	270
+            loop	0
+         end
+      end
+      object robe40100-24 of dShiftingWhiteLinesRobe
+         properties
+            x	138
+            y	255
+            loop	0
+         end
+      end
+      object robe40100-25 of dShiftingWhiteRobe
+         properties
+            x	138
+            y	240
+            loop	0
+         end
+      end
+      object robe40100-26 of dShiftingAllWhiteRobe
+         properties
+            x	138
+            y	225
+            loop	0
+         end
+      end
+      object robe40100-27 of dShiftingLightGrayRobe
+         properties
+            x	138
+            y	210
+            loop	0
+         end
+      end
+      object robe40100-28 of dShiftingGrayRobe
+         properties
+            x	138
+            y	195
+            loop	0
+         end
+      end
+      object robe40100-29 of dShiftingDarkGrayRobe
+         properties
+            x	138
+            y	180
+            loop	0
+         end
+      end
+      object robe40100-30 of dShiftingDarkerGrayRobe
+         properties
+            x	138
+            y	165
+            loop	0
+         end
+      end
+      object robe40100-31 of dShiftingDarkestGrayRobe
+         properties
+            x	138
+            y	150
+            loop	0
+         end
+      end
+      object robe40100-32 of dShiftingBlackRobe
+         properties
+            x	138
+            y	135
+            loop	0
+         end
+      end
+      object robe40100-33 of dShiftingBlackGlowRobe
+         properties
+            x	138
+            y	120
+            loop	0
+         end
+      end
+      object robe40100-34 of dShiftingStarkBlackRobe
+         properties
+            x	138
+            y	105
+            loop	0
+         end
+      end
+      object robe40100-35 of dShiftingStarkWhiteRobe
+         properties
+            x	138
+            y	90
+            loop	0
+         end
+      end
+      object robe40100-36 of dShiftingLightestRosyBrownRobe
+         properties
+            x	138
+            y	75
+            loop	0
+         end
+      end
+      object robe40100-37 of dShiftingLightRosyBrownRobe
+         properties
+            x	138
+            y	60
+            loop	0
+         end
+      end
+      object robe40100-38 of dShiftingRosyBrownRobe
+         properties
+            x	138
+            y	45
+            loop	0
+         end
+      end
+      object robe40100-39 of dShiftingDarkRosyBrownRobe
+         properties
+            x	138
+            y	30
+            loop	0
+         end
+      end
+      object robe40100-40 of dShiftingDarkerRosyBrownRobe
+         properties
+            x	138
+            y	15
+            loop	0
+         end
+      end
+      object robe40100-41 of dShiftingDarkestRosyBrownRobe
+         properties
+            x	138
+            y	1
+            loop	0
+         end
+      end
+      object robe40100-42 of dShiftingDarkRosyBrownGlowRobe
+         properties
+            x	231
+            y	300
+            loop	0
+         end
+      end
+      object robe40100-43 of dShiftingOffWhiteRobe
+         properties
+            x	231
+            y	285
+            loop	0
+         end
+      end
+      object robe40100-44 of dShiftingLightCreamRobe
+         properties
+            x	231
+            y	270
+            loop	0
+         end
+      end
+      object robe40100-45 of dShiftingCreamRobe
+         properties
+            x	231
+            y	255
+            loop	0
+         end
+      end
+      object robe40100-46 of dShiftingBronzeOliveRobe
+         properties
+            x	231
+            y	240
+            loop	0
+         end
+      end
+      object robe40100-47 of dShiftingDarkBronzeGlowRobe
+         properties
+            x	231
+            y	225
+            loop	0
+         end
+      end
+      object robe40100-48 of dShiftingOrangeBrownRobe
+         properties
+            x	231
+            y	210
+            loop	0
+         end
+      end
+      object robe40100-49 of dShiftingOrangeBrownGlowRobe
+         properties
+            x	231
+            y	195
+            loop	0
+         end
+      end
+      object robe40100-50 of dShiftingWhiteOrangeRobe
+         properties
+            x	231
+            y	180
+            loop	0
+         end
+      end
+      object robe40100-51 of dShiftingLightestChromeRobe
+         properties
+            x	231
+            y	165
+            loop	0
+         end
+      end
+      object robe40100-52 of dShiftingLighterChromeRobe
+         properties
+            x	231
+            y	150
+            loop	0
+         end
+      end
+      object robe40100-53 of dShiftingLightChromeRobe
+         properties
+            x	231
+            y	135
+            loop	0
+         end
+      end
+      object robe40100-54 of dShiftingChromeRobe
+         properties
+            x	231
+            y	120
+            loop	0
+         end
+      end
+      object robe40100-55 of dShiftingDarkChromeRobe
+         properties
+            x	231
+            y	105
+            loop	0
+         end
+      end
+      object robe40100-56 of dShiftingDarkerChromeRobe
+         properties
+            x	231
+            y	90
+            loop	0
+         end
+      end
+      object robe40100-57 of dShiftingDarkestChromeRobe
+         properties
+            x	231
+            y	75
+            loop	0
+         end
+      end
+      object robe40100-58 of dShiftingDarkBrownRobe
+         properties
+            x	231
+            y	60
+            loop	0
+         end
+      end
+      object robe40100-59 of dShiftingLightestVanillaRobe
+         properties
+            x	231
+            y	45
+            loop	0
+         end
+      end
+      object robe40100-60 of dShiftingLighterVanillaRobe
+         properties
+            x	231
+            y	30
+            loop	0
+         end
+      end
+      object robe40100-61 of dShiftingLightVanillaRobe
+         properties
+            x	231
+            y	15
+            loop	0
+         end
+      end
+      object robe40100-62 of dShiftingVanillaRobe
+         properties
+            x	231
+            y	1
+            loop	0
+         end
+      end
+      object robe40100-63 of dShiftingDarkVanillaRobe
+         properties
+            x	323
+            y	300
+            loop	0
+         end
+      end
+      object robe40100-64 of dShiftingDarkerVanillaRobe
+         properties
+            x	323
+            y	285
+            loop	0
+         end
+      end
+      object robe40100-65 of dShiftingDarkestVanillaRobe
+         properties
+            x	322
+            y	270
+            loop	0
+         end
+      end
+      object robe40100-66 of dShiftingCoffeeGlowRobe
+         properties
+            x	323
+            y	255
+            loop	0
+         end
+      end
+      object robe40100-67 of dShiftingOffWhiteLinesRobe
+         properties
+            x	323
+            y	240
+            loop	0
+         end
+      end
+      object robe40100-68 of dShiftingDarkGreenGlowRobe
+         properties
+            x	323
+            y	225
+            loop	0
+         end
+      end
+      object robe40100-69 of dShiftingGreenGlowRobe
+         properties
+            x	323
+            y	210
+            loop	0
+         end
+      end
+      object robe40100-70 of dShiftingOliveRobe
+         properties
+            x	323
+            y	195
+            loop	0
+         end
+      end
+      object robe40100-71 of dShiftingLimeRobe
+         properties
+            x	323
+            y	180
+            loop	0
+         end
+      end
+      object robe40100-72 of dShiftingWhiteGreenRobe
+         properties
+            x	323
+            y	165
+            loop	0
+         end
+      end
+      object robe40100-73 of dShiftingGrayLimeRobe
+         properties
+            x	323
+            y	150
+            loop	0
+         end
+      end
+      object robe40100-74 of dShiftingLighterFossilRobe
+         properties
+            x	323
+            y	135
+            loop	0
+         end
+      end
+      object robe40100-75 of dShiftingLightFossilRobe
+         properties
+            x	323
+            y	120
+            loop	0
+         end
+      end
+      object robe40100-76 of dShiftingFossilRobe
+         properties
+            x	323
+            y	105
+            loop	0
+         end
+      end
+      object robe40100-77 of dShiftingDarkFossilRobe
+         properties
+            x	323
+            y	90
+            loop	0
+         end
+      end
+      object robe40100-78 of dShiftingDarkerFossilRobe
+         properties
+            x	323
+            y	75
+            loop	0
+         end
+      end
+      object robe40100-79 of dShiftingBlackGreenGlowRobe
+         properties
+            x	323
+            y	60
+            loop	0
+         end
+      end
+      object robe40100-80 of dShiftingLightGreenRobe
+         properties
+            x	323
+            y	45
+            loop	0
+         end
+      end
+      object robe40100-81 of dDarkGreenGlowRobe
+         properties
+            x	323
+            y	30
+            loop	0
+         end
+      end
+      object robe40100-82 of dLightGreenInvisibleLinesRobe
+         properties
+            x	323
+            y	15
+            loop	0
+         end
+      end
+      object robe40100-83 of dInvisibleLightGreenRobe
+         properties
+            x	323
+            y	1
+            loop	0
+         end
+      end
+      object robe40100-84 of dInvisibleLightGreenLinesRobe
+         properties
+            x	415
+            y	300
+            loop	0
+         end
+      end
+      object robe40100-85 of dCompletelyInvisibleRobe
+         properties
+            x	415
+            y	285
+            loop	0
+         end
+      end
+      object robe40100-86 of dInvisibleBlackOutlinedRobe
+         properties
+            x	415
+            y	270
+            loop	0
+         end
+      end
+      object robe40100-87 of dInvisibleClearSpotsRobe
+         properties
+            x	415
+            y	255
+            loop	0
+         end
+      end
+      object robe40100-88 of dDarkInvisibleRobe
+         properties
+            x	415
+            y	240
+            loop	0
+         end
+      end
+      object robe40100-89 of dNormalInvisibleRobe
+         properties
+            x	415
+            y	225
+            loop	0
+         end
+      end
+      object robe40100-90 of dAlmostInvisibleRobe
+         properties
+            x	415
+            y	210
+            loop	0
+         end
+      end
+      object robe40100-91 of dAlmostInvisibleLinesRobe
+         properties
+            x	415
+            y	195
+            loop	0
+         end
+      end
+      object robe40100-92 of dNearInvisibleLinesRobe
+         properties
+            x	415
+            y	180
+            loop	0
+         end
+      end
+      object robe40100-93 of dSecondCompletelyInvisibleRobe
+         properties
+            x	415
+            y	165
+            loop	0
+         end
+      end
+      object robe40100-94 of dThirdCompletelyInvisibleRobe
+         properties
+            x	415
+            y	150
+            loop	0
+         end
+      end
+      object robe40100-95 of dForthCompletelyInvisibleRobe
+         properties
+            x	415
+            y	135
+            loop	0
+         end
+      end
+      object robe40100-96 of dFithCompletelyInvisibleRobe
+         properties
+            x	415
+            y	120
+            loop	0
+         end
+      end
+      object robe40100-97 of dSixthCompletelyInvisibleRobe
+         properties
+            x	415
+            y	105
+            loop	0
+         end
+      end
+      object robe40100-98 of dSeventhCompletelyInvisibleRobe
+         properties
+            x	415
+            y	90
+            loop	0
+         end
+      end
+      object robe40100-99 of dEighthCompletelyInvisibleRobe
+         properties
+            x	415
+            y	75
+            loop	0
+         end
+      end
+      object robe40100-100 of dNinthCompletelyInvisibleRobe
+         properties
+            x	415
+            y	60
+            loop	0
+         end
+      end
+      object robe40100-101 of dTenthCompletelyInvisibleRobe
+         properties
+            x	415
+            y	45
+            loop	0
+         end
+      end
+      object robe40100-102 of dInvisibleBlackLinesRobe
+         properties
+            x	415
+            y	30
+            loop	0
+         end
+      end
+      object robe40100-103 of dBlackInvisibleLinesRobe
+         properties
+            x	415
+            y	15
+            loop	0
+         end
+      end
+      object robe40100-104 of dDarkNaturalBrownRobe
+         properties
+            x	415
+            y	1
+            loop	0
+         end
+      end
+   end
+end
+room 40101
+   properties
+      picture	3500
+      west	11007 
+   end
+   objects
+      object robe40101-0 of dFireBrickRobe
+         properties
+            x	45
+            y	300
+            loop	0
+         end
+      end
+      object robe40101-1 of dCoralRedGlowRobe
+         properties
+            x	45
+            y	285
+            loop	0
+         end
+      end
+      object robe40101-2 of dBabyPinkRobe
+         properties
+            x	45
+            y	270
+            loop	0
+         end
+      end
+      object robe40101-3 of dGingerRobe
+         properties
+            x	45
+            y	255
+            loop	0
+         end
+      end
+      object robe40101-4 of dLightAmberRobe
+         properties
+            x	45
+            y	240
+            loop	0
+         end
+      end
+      object robe40101-5 of dPaleYellowRobe
+         properties
+            x	45
+            y	225
+            loop	0
+         end
+      end
+      object robe40101-6 of dEggPlantRobe
+         properties
+            x	45
+            y	210
+            loop	0
+         end
+      end
+      object robe40101-7 of dMagentaGlowRobe
+         properties
+            x	45
+            y	195
+            loop	0
+         end
+      end
+      object robe40101-8 of dLightMagentaRobe
+         properties
+            x	45
+            y	180
+            loop	0
+         end
+      end
+      object robe40101-9 of dBrownMagentaGlowRobe
+         properties
+            x	45
+            y	165
+            loop	0
+         end
+      end
+      object robe40101-10 of dBrownPinkGlowRobe
+         properties
+            x	45
+            y	150
+            loop	0
+         end
+      end
+      object robe40101-11 of dSandyBrownRobe
+         properties
+            x	45
+            y	135
+            loop	0
+         end
+      end
+      object robe40101-12 of dMediumCyanRobe
+         properties
+            x	45
+            y	120
+            loop	0
+         end
+      end
+      object robe40101-13 of dCadetBlueRobe
+         properties
+            x	45
+            y	105
+            loop	0
+         end
+      end
+      object robe40101-14 of dLightCyanRobe
+         properties
+            x	45
+            y	90
+            loop	0
+         end
+      end
+      object robe40101-15 of dSatoriRobe
+         properties
+            x	45
+            y	75
+            loop	0
+         end
+      end
+      object robe40101-16 of dSeaGreenGlowRobe
+         properties
+            x	45
+            y	60
+            loop	0
+         end
+      end
+      object robe40101-17 of dLightGreenRobe
+         properties
+            x	45
+            y	45
+            loop	0
+         end
+      end
+      object robe40101-18 of dDarkScarletRobe
+         properties
+            x	45
+            y	30
+            loop	0
+         end
+      end
+      object robe40101-19 of dOrangeGlowRobe
+         properties
+            x	45
+            y	15
+            loop	0
+         end
+      end
+      object robe40101-20 of dIndigoRobe
+         properties
+            x	45
+            y	1
+            loop	0
+         end
+      end
+      object robe40101-21 of dPlumGlowRobe
+         properties
+            x	138
+            y	300
+            loop	0
+         end
+      end
+      object robe40101-22 of dLightPurpleLinesRobe
+         properties
+            x	138
+            y	285
+            loop	0
+         end
+      end
+      object robe40101-23 of dBlueBlackRobe
+         properties
+            x	138
+            y	270
+            loop	0
+         end
+      end
+      object robe40101-24 of dBlackGlowRobe
+         properties
+            x	138
+            y	255
+            loop	0
+         end
+      end
+      object robe40101-25 of dBrightWhiteRobe
+         properties
+            x	138
+            y	240
+            loop	0
+         end
+      end
+      object robe40101-26 of dChocolateRobe
+         properties
+            x	138
+            y	225
+            loop	0
+         end
+      end
+      object robe40101-27 of dBrownGlowRobe
+         properties
+            x	138
+            y	210
+            loop	0
+         end
+      end
+      object robe40101-28 of dCreamBrownRobe
+         properties
+            x	138
+            y	195
+            loop	0
+         end
+      end
+      object robe40101-29 of dLightCreamBrownRobe
+         properties
+            x	138
+            y	180
+            loop	0
+         end
+      end
+      object robe40101-30 of dDarkOliveGlowRobe
+         properties
+            x	138
+            y	165
+            loop	0
+         end
+      end
+      object robe40101-31 of dOliveGlowRobe
+         properties
+            x	138
+            y	150
+            loop	0
+         end
+      end
+      object robe40101-32 of dLightYellowLinesRobe
+         properties
+            x	138
+            y	135
+            loop	0
+         end
+      end
+      object robe40101-33 of dDarkBlueRobe
+         properties
+            x	138
+            y	120
+            loop	0
+         end
+      end
+      object robe40101-34 of dBlueGlowRobe
+         properties
+            x	138
+            y	105
+            loop	0
+         end
+      end
+      object robe40101-35 of dMaroonRobe
+         properties
+            x	138
+            y	90
+            loop	0
+         end
+      end
+      object robe40101-36 of dMaroonGlowRobe
+         properties
+            x	138
+            y	75
+            loop	0
+         end
+      end
+      object robe40101-37 of dLightPinkRobe
+         properties
+            x	138
+            y	60
+            loop	0
+         end
+      end
+      object robe40101-38 of dTawnyRobe
+         properties
+            x	138
+            y	45
+            loop	0
+         end
+      end
+      object robe40101-39 of dNaturalBrownRobe
+         properties
+            x	138
+            y	30
+            loop	0
+         end
+      end
+      object robe40101-40 of dEggplantYellowRobe
+         properties
+            x	138
+            y	15
+            loop	0
+         end
+      end
+      object robe40101-41 of dPurpleGlowRobe
+         properties
+            x	138
+            y	1
+            loop	0
+         end
+      end
+      object robe40101-42 of dLighterMagentaRobe
+         properties
+            x	231
+            y	300
+            loop	0
+         end
+      end
+      object robe40101-43 of dDarkChocolateRobe
+         properties
+            x	231
+            y	285
+            loop	0
+         end
+      end
+      object robe40101-44 of dDarkBrownMagentaGlowRobe
+         properties
+            x	231
+            y	270
+            loop	0
+         end
+      end
+      object robe40101-45 of dCyprusRobe
+         properties
+            x	231
+            y	255
+            loop	0
+         end
+      end
+      object robe40101-46 of dDeepSeaGlowRobe
+         properties
+            x	231
+            y	240
+            loop	0
+         end
+      end
+      object robe40101-47 of dForestGreenRobe
+         properties
+            x	231
+            y	225
+            loop	0
+         end
+      end
+      object robe40101-48 of dForestGreenGlowRobe
+         properties
+            x	231
+            y	210
+            loop	0
+         end
+      end
+      object robe40101-49 of dPaleGreenRobe
+         properties
+            x	231
+            y	195
+            loop	0
+         end
+      end
+      object robe40101-50 of dDarkBurntOrangeRobe
+         properties
+            x	231
+            y	180
+            loop	0
+         end
+      end
+      object robe40101-51 of dDarkOrangeGlowRobe
+         properties
+            x	231
+            y	165
+            loop	0
+         end
+      end
+      object robe40101-52 of dDarkPurpleOrangeRobe
+         properties
+            x	231
+            y	150
+            loop	0
+         end
+      end
+      object robe40101-53 of dDarkPurpleGlowRobe
+         properties
+            x	231
+            y	135
+            loop	0
+         end
+      end
+      object robe40101-54 of dLightPurpleRobe
+         properties
+            x	231
+            y	120
+            loop	0
+         end
+      end
+      object robe40101-55 of dDarkPupleRobe
+         properties
+            x	231
+            y	105
+            loop	0
+         end
+      end
+      object robe40101-56 of dDarkBlackGlowRobe
+         properties
+            x	231
+            y	90
+            loop	0
+         end
+      end
+      object robe40101-57 of dBrighterWhiteRobe
+         properties
+            x	231
+            y	75
+            loop	0
+         end
+      end
+      object robe40101-58 of dSaddleBrownRobe
+         properties
+            x	231
+            y	60
+            loop	0
+         end
+      end
+      object robe40101-59 of dDarkBrownGlowRobe
+         properties
+            x	231
+            y	45
+            loop	0
+         end
+      end
+      object robe40101-60 of dDarkFleshRobe
+         properties
+            x	231
+            y	30
+            loop	0
+         end
+      end
+      object robe40101-61 of dTanFleshRobe
+         properties
+            x	231
+            y	15
+            loop	0
+         end
+      end
+      object robe40101-62 of dLightFleshGreenRobe
+         properties
+            x	231
+            y	1
+            loop	0
+         end
+      end
+      object robe40101-63 of dGreenLightFleshRobe
+         properties
+            x	323
+            y	300
+            loop	0
+         end
+      end
+      object robe40101-64 of dGrayGreenRobe
+         properties
+            x	323
+            y	285
+            loop	0
+         end
+      end
+      object robe40101-65 of dGrayLittleGreenRobe
+         properties
+            x	322
+            y	270
+            loop	0
+         end
+      end
+      object robe40101-66 of dLightestFinvarraRobe
+         properties
+            x	323
+            y	255
+            loop	0
+         end
+      end
+      object robe40101-67 of dLightFinvarraRobe
+         properties
+            x	323
+            y	240
+            loop	0
+         end
+      end
+      object robe40101-68 of dLighterFinvarraRobe
+         properties
+            x	323
+            y	225
+            loop	0
+         end
+      end
+      object robe40101-69 of dFinvarraRobe
+         properties
+            x	323
+            y	210
+            loop	0
+         end
+      end
+      object robe40101-70 of dBlackLatexRobe
+         properties
+            x	323
+            y	195
+            loop	0
+         end
+      end
+      object robe40101-71 of dGrayBlackRobe
+         properties
+            x	323
+            y	180
+            loop	0
+         end
+      end
+      object robe40101-72 of dAlmondFrostRobe
+         properties
+            x	323
+            y	165
+            loop	0
+         end
+      end
+      object robe40101-73 of dPharlapRobe
+         properties
+            x	323
+            y	150
+            loop	0
+         end
+      end
+      object robe40101-74 of dDarkPharlapRobe
+         properties
+            x	323
+            y	135
+            loop	0
+         end
+      end
+      object robe40101-75 of dDarkerPharlapRobe
+         properties
+            x	323
+            y	120
+            loop	0
+         end
+      end
+      object robe40101-76 of dDarkestPharlapRobe
+         properties
+            x	323
+            y	105
+            loop	0
+         end
+      end
+      object robe40101-77 of dSealBrownGlowRobe
+         properties
+            x	323
+            y	90
+            loop	0
+         end
+      end
+      object robe40101-78 of dLightTanRobe
+         properties
+            x	323
+            y	75
+            loop	0
+         end
+      end
+      object robe40101-79 of dTeakRobe
+         properties
+            x	323
+            y	60
+            loop	0
+         end
+      end
+      object robe40101-80 of dMediumTeakRobe
+         properties
+            x	323
+            y	45
+            loop	0
+         end
+      end
+      object robe40101-81 of dDarkTeakRobe
+         properties
+            x	323
+            y	30
+            loop	0
+         end
+      end
+      object robe40101-82 of dDarkerTeakRobe
+         properties
+            x	323
+            y	15
+            loop	0
+         end
+      end
+      object robe40101-83 of dDarkestTeakRobe
+         properties
+            x	323
+            y	1
+            loop	0
+         end
+      end
+      object robe40101-84 of dDarkBrownCitrusGlowRobe
+         properties
+            x	415
+            y	300
+            loop	0
+         end
+      end
+      object robe40101-85 of dCitrusDarkbrownRobe
+         properties
+            x	415
+            y	285
+            loop	0
+         end
+      end
+      object robe40101-86 of dUltraOliveRobe
+         properties
+            x	415
+            y	270
+            loop	0
+         end
+      end
+      object robe40101-87 of dDarkOliveRobe
+         properties
+            x	415
+            y	255
+            loop	0
+         end
+      end
+      object robe40101-88 of dDarkerOliveRobe
+         properties
+            x	415
+            y	240
+            loop	0
+         end
+      end
+      object robe40101-89 of dDarkestOliveRobe
+         properties
+            x	415
+            y	225
+            loop	0
+         end
+      end
+      object robe40101-90 of dDarkPrussianBlueRobe
+         properties
+            x	415
+            y	210
+            loop	0
+         end
+      end
+      object robe40101-91 of dPrussianBlueRobe
+         properties
+            x	415
+            y	195
+            loop	0
+         end
+      end
+      object robe40101-92 of dPrussianBlueGlowRobe
+         properties
+            x	415
+            y	180
+            loop	0
+         end
+      end
+      object robe40101-93 of dSaplingRobe
+         properties
+            x	415
+            y	165
+            loop	0
+         end
+      end
+      object robe40101-94 of dEcruRobe
+         properties
+            x	415
+            y	150
+            loop	0
+         end
+      end
+      object robe40101-95 of dDarkEcruRobe
+         properties
+            x	415
+            y	135
+            loop	0
+         end
+      end
+      object robe40101-96 of dDarkerEcruRobe
+         properties
+            x	415
+            y	120
+            loop	0
+         end
+      end
+      object robe40101-97 of dRustBrownRobe
+         properties
+            x	415
+            y	105
+            loop	0
+         end
+      end
+      object robe40101-98 of dMediumYellowOrangeRobe
+         properties
+            x	415
+            y	90
+            loop	0
+         end
+      end
+      object robe40101-99 of dDarkYellowOrangeRobe
+         properties
+            x	415
+            y	75
+            loop	0
+         end
+      end
+      object robe40101-100 of dDarkerYellowOrangeRobe
+         properties
+            x	415
+            y	60
+            loop	0
+         end
+      end
+      object robe40101-101 of dDarkestYellowOrangeRobe
+         properties
+            x	415
+            y	45
+            loop	0
+         end
+      end
+      object robe40101-102 of dDarkOrangeRedGlowRobe
+         properties
+            x	415
+            y	30
+            loop	0
+         end
+      end
+      object robe40101-103 of dLightFleshBluredRobe
+         properties
+            x	415
+            y	15
+            loop	0
+         end
+      end
+      object robe40101-104 of dLightFleshBluredRobe
+         properties
+            x	415
+            y	1
+            loop	0
+         end
+      end
+   end
+end
+room 40048
+   properties
+      picture	3071
+	  roomName "Elphame Nest"
+   end
+   atpinfo
+      97 338 100
+      7900  93 160
+      7900  507 153
+      7900  283 156
+   end
+   objects
+      object column40048-0 of Column
+         properties
+            x	591
+            y	143
+            loop	0
+         end
+      end
+      object lavaA40048-1 of LavaA
+         properties
+            x	336
+            y	324
+            loop	0
+         end
+      end
+      object lavaB40048-2 of LavaB
+         properties
+            x	112
+            y	320
+            loop	0
+         end
+      end
+      object lavaD40048-3 of LavaD
+         properties
+            x	495
+            y	328
+            loop	1
+         end
+      end
+      object lavaE40048-4 of LavaE
+         properties
+            x	49
+            y	289
+            loop	0
+         end
+      end
+      object lavaF40048-5 of LavaF
+         properties
+            x	126
+            y	184
+            loop	0
+         end
+      end
+      object lavaG40048-6 of LavaG
+         properties
+            x	576
+            y	152
+            loop	0
+         end
+      end
+      object cellFloorG40048-7 of CellFloorG
+         properties
+            x	142
+            y	234
+            loop	0
+         end
+      end
+      object cellFloorG40048-8 of CellFloorG
+         properties
+            x	62
+            y	202
+            loop	0
+         end
+      end
+      object lavaD40048-9 of LavaD
+         properties
+            x	586
+            y	328
+            loop	0
+         end
+      end
+      object cellFloorG40048-10 of CellFloorG
+         properties
+            x	110
+            y	165
+            loop	0
+         end
+      end
+      object cellFloorG40048-11 of CellFloorG
+         properties
+            x	17
+            y	244
+            loop	0
+         end
+      end
+      object cellFloorF40048-12 of CellFloorF
+         properties
+            x	312
+            y	115
+            loop	0
+         end
+      end
+      object cellFloorG40048-13 of CellFloorG
+         properties
+            x	0
+            y	171
+            loop	0
+         end
+      end
+      object cellFloorG40048-14 of CellFloorG
+         properties
+            x	29
+            y	131
+            loop	0
+         end
+      end
+      object cellFloorG40048-15 of CellFloorG
+         properties
+            x	41
+            y	83
+            loop	0
+         end
+      end
+      object cellFloorG40048-16 of CellFloorG
+         properties
+            x	123
+            y	116
+            loop	0
+         end
+      end
+      object cellFloorG40048-17 of CellFloorG
+         properties
+            x	174
+            y	78
+            loop	0
+         end
+      end
+      object cellFloorG40048-18 of CellFloorG
+         properties
+            x	221
+            y	122
+            loop	0
+         end
+      end
+      object cellFloorG40048-19 of CellFloorG
+         properties
+            x	95
+            y	276
+            loop	0
+         end
+      end
+      object cellFloorG40048-20 of CellFloorG
+         properties
+            x	226
+            y	269
+            loop	0
+         end
+      end
+      object cellFloorG40048-21 of CellFloorG
+         properties
+            x	270
+            y	82
+            loop	0
+         end
+      end
+      object cellFloorG40048-22 of CellFloorG
+         properties
+            x	189
+            y	195
+            loop	0
+         end
+      end
+      object cellFloorG40048-23 of CellFloorG
+         properties
+            x	203
+            y	150
+            loop	0
+         end
+      end
+      object cellFloorG40048-24 of CellFloorG
+         properties
+            x	265
+            y	230
+            loop	0
+         end
+      end
+      object cellFloorG40048-25 of CellFloorG
+         properties
+            x	282
+            y	183
+            loop	0
+         end
+      end
+      object cellFloorG40048-26 of CellFloorG
+         properties
+            x	296
+            y	132
+            loop	0
+         end
+      end
+      object cellFloorG40048-27 of CellFloorG
+         properties
+            x	371
+            y	87
+            loop	0
+         end
+      end
+      object cellFloorG40048-28 of CellFloorG
+         properties
+            x	489
+            y	80
+            loop	0
+         end
+      end
+      object cellFloorG40048-29 of CellFloorG
+         properties
+            x	591
+            y	82
+            loop	0
+         end
+      end
+      object cellFloorG40048-30 of CellFloorG
+         properties
+            x	444
+            y	120
+            loop	0
+         end
+      end
+      object cellFloorG40048-31 of CellFloorG
+         properties
+            x	546
+            y	121
+            loop	0
+         end
+      end
+      object cellFloorG40048-32 of CellFloorG
+         properties
+            x	619
+            y	133
+            loop	0
+         end
+      end
+      object cellFloorG40048-33 of CellFloorG
+         properties
+            x	391
+            y	143
+            loop	0
+         end
+      end
+      object cellFloorG40048-34 of CellFloorG
+         properties
+            x	500
+            y	162
+            loop	0
+         end
+      end
+      object cellFloorG40048-35 of CellFloorG
+         properties
+            x	396
+            y	176
+            loop	1
+         end
+      end
+      object cellFloorG40048-36 of CellFloorG
+         properties
+            x	570
+            y	174
+            loop	0
+         end
+      end
+      object cellFloorG40048-37 of CellFloorG
+         properties
+            x	630
+            y	216
+            loop	1
+         end
+      end
+      object cellFloorG40048-38 of CellFloorG
+         properties
+            x	539
+            y	206
+            loop	1
+         end
+      end
+      object cellFloorG40048-39 of CellFloorG
+         properties
+            x	461
+            y	196
+            loop	1
+         end
+      end
+      object cellFloorG40048-40 of CellFloorG
+         properties
+            x	358
+            y	219
+            loop	1
+         end
+      end
+      object cellFloorG40048-41 of CellFloorG
+         properties
+            x	644
+            y	264
+            loop	1
+         end
+      end
+      object cellFloorG40048-42 of CellFloorG
+         properties
+            x	557
+            y	249
+            loop	1
+         end
+      end
+      object cellFloorG40048-43 of CellFloorG
+         properties
+            x	462
+            y	238
+            loop	1
+         end
+      end
+      object cellFloorG40048-44 of CellFloorG
+         properties
+            x	397
+            y	254
+            loop	1
+         end
+      end
+      object cellFloorG40048-45 of CellFloorG
+         properties
+            x	330
+            y	254
+            loop	1
+         end
+      end
+      object fatColumn40048-46 of FatColumn
+         properties
+            x	302
+            y	207
+            loop	0
+         end
+      end
+      object dungeonBackArch40048-47 of DungeonBackArch
+         properties
+            x	297
+            y	214
+            loop	0
+				linkTo	plankDoor40041-1
+			end
+				base lockable
+			end
+				base described
+			end			
+      end
+      object bones40048-48 of Bones
+         properties
+            x	94
+            y	156
+            loop	0
+         end
+      end
+      object bones40048-49 of Bones
+         properties
+            x	55
+            y	120
+            loop	0
+         end
+      end
+      object bones40048-50 of Bones
+         properties
+            x	110
+            y	114
+            loop	0
+         end
+      end
+      object bones40048-51 of Bones
+         properties
+            x	186
+            y	118
+            loop	0
+         end
+      end
+      object bones40048-52 of Bones
+         properties
+            x	180
+            y	137
+            loop	0
+         end
+      end
+      object bones40048-53 of Bones
+         properties
+            x	145
+            y	153
+            loop	0
+         end
+      end
+      object bones40048-54 of Bones
+         properties
+            x	131
+            y	130
+            loop	1
+         end
+      end
+      object bones40048-55 of Bones
+         properties
+            x	45
+            y	140
+            loop	1
+         end
+      end
+      object godelphame40048-56 of godElphame
+         properties
+            x	483
+            y	250
+            loop	2
+         end
+         base character
+            properName	""
+            title	""
+         end
+      end
+      object bonesNPC40048-57 of BonesNPC
+         properties
+            x	41
+            y	200
+            loop	0
+         end
+         base character
+            properName	""
+            title	""
+         end
+      end
+      object bonesNPC40048-58 of BonesNPC
+         properties
+            x	199
+            y	200
+            loop	1
+         end
+         base character
+            properName	""
+            title	""
+         end
+      end
+      object gargoyle40048-59 of Gargoyle
+         properties
+            x	406
+            y	210
+            loop	2
+         end
+         base character
+            properName	""
+            title	""
+         end
+      end
+      object gargoyle40048-60 of Gargoyle
+         properties
+            x	560
+            y	210
+            loop	2
+         end
+         base character
+            properName	""
+            title	""
+         end
+      end
+      object lavaG40048-61 of LavaG
+         properties
+            x	600
+            y	152
+            loop	1
+         end
+      end
+      object skull40048-62 of Skull
+         properties
+            x	240
+            y	215
+            loop	0
+         end
+      end
+      object smokeA40048-63 of SmokeA
+         properties
+            x	117
+            y	170
+            loop	0
+         end
+      end
+      object smokeA40048-64 of SmokeA
+         properties
+            x	139
+            y	179
+            loop	0
+         end
+      end
+      object smokeA40048-65 of SmokeA
+         properties
+            x	542
+            y	150
+            loop	0
+         end
+      end
+      object smokeA40048-66 of SmokeA
+         properties
+            x	623
+            y	152
+            loop	0
+         end
+      end
+      object lockedChestJeweled40048-67 of LockedChestJeweled
+         properties
+            x	593
+            y	171
+            loop	0
+         end
+      end
+		object RandomMegaTreasure-40048-68 of RandomMegaTreasure
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	lockedChestJeweled40048-67
+			end
+			base described
+			end
+		end
+		object RandomMegaMoney-40048-68 of RandomMegaMoney
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	lockedChestJeweled40048-67
+			end
+			base described
+			end
+		end	  
+   end
+end
+room 40049
+   properties
+      picture	3071
+      west	11009 
+      roomName	"Finvarra's Den"
+   end
+   atpinfo
+      7902  381 301
+      7902  499 299
+      7900  196 133
+      7900  485 133
+      7902  137 295
+      7902  388 292
+      7902  512 289
+      7900  -87 221
+      7902  125 301	  
+      2119  579 128 75
+      34888  597 153 5
+      2121  356 124
+      34906  94 175
+      2138  97 150
+      2139  12 148 25
+      2118  573 124
+      2139  11 142
+      2139  12 154 50
+      2118  572 124 25
+      2118  574 125 50
+      2118  575 126 75
+      2118  575 129 100
+      2118  444 123
+      2118  315 123
+      2118  187 125
+      2118  444 124 25
+      34888  133 170 5
+      2118  188 124 25
+      2118  446 126 50
+      2138  149 147
+      2118  189 126 50
+      34886  445 130 75
+      34906  129 164
+      34886  186 130 75
+      2118  447 131 100
+      2118  320 132 100
+      2118  189 130 100
+      34889  184 126 50
+      2139  11 157 75
+      2139  11 160 100
+      2139  10 163 125
+      2139  10 168 150
+      2120  522 162 10
+      2139  -57 181 150
+      2139  -99 186 125
+      2139  -97 211 125
+      2138  313 144
+   end
+   objects
+      object enidBackDoor40049-0 of EnidBackDoor
+         properties
+            x	24
+            y	222
+            loop	0
+				linkTo	plankDoor40041-2
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+      object greenWaterA40049-4 of GreenWaterA
+         properties
+            x	307
+            y	90
+            loop	0
+         end
+      end
+      object greenWaterC40049-5 of GreenWaterC
+         properties
+            x	11
+            y	319
+            loop	0
+         end
+      end
+      object greenWaterD40049-6 of GreenWaterD
+         properties
+            x	587
+            y	318
+            loop	0
+         end
+      end
+      object greenWaterD40049-7 of GreenWaterD
+         properties
+            x	498
+            y	318
+            loop	1
+         end
+      end
+      object greenWaterD40049-8 of GreenWaterD
+         properties
+            x	396
+            y	319
+            loop	0
+         end
+      end
+      object greenWaterD40049-9 of GreenWaterD
+         properties
+            x	308
+            y	320
+            loop	1
+         end
+      end
+      object greenWaterD40049-10 of GreenWaterD
+         properties
+            x	207
+            y	320
+            loop	0
+         end
+      end
+      object greenWaterD40049-11 of GreenWaterD
+         properties
+            x	121
+            y	320
+            loop	1
+         end
+      end
+      object greenWaterD40049-12 of GreenWaterD
+         properties
+            x	368
+            y	69
+            loop	0
+         end
+      end
+      object greenWaterD40049-13 of GreenWaterD
+         properties
+            x	275
+            y	68
+            loop	1
+         end
+      end
+      object greenWaterD40049-14 of GreenWaterD
+         properties
+            x	249
+            y	59
+            loop	1
+         end
+      end
+      object column40049-15 of Column
+         properties
+            x	222
+            y	141
+            loop	0
+         end
+      end
+      object column40049-16 of Column
+         properties
+            x	419
+            y	136
+            loop	0
+         end
+      end
+      object cellFloorA40049-17 of CellFloorA
+         properties
+            x	23
+            y	219
+            loop	0
+         end
+      end
+      object cellFloorB40049-18 of CellFloorB
+         properties
+            x	164
+            y	188
+            loop	0
+         end
+      end
+      object cellFloorB40049-19 of CellFloorB
+         properties
+            x	93
+            y	212
+            loop	1
+         end
+      end
+      object cellFloorB40049-20 of CellFloorB
+         properties
+            x	82
+            y	164
+            loop	1
+         end
+      end
+      object cellFloorA40049-21 of CellFloorA
+         properties
+            x	155
+            y	244
+            loop	0
+         end
+      end
+      object cellFloorA40049-22 of CellFloorA
+         properties
+            x	446
+            y	156
+            loop	0
+         end
+      end
+      object cellFloorB40049-23 of CellFloorB
+         properties
+            x	161
+            y	139
+            loop	0
+         end
+      end
+      object cellFloorB40049-24 of CellFloorB
+         properties
+            x	226
+            y	173
+            loop	0
+         end
+      end
+      object cellFloorA40049-25 of CellFloorA
+         properties
+            x	253
+            y	103
+            loop	0
+         end
+      end
+      object cellFloorA40049-26 of CellFloorA
+         properties
+            x	401
+            y	101
+            loop	0
+         end
+      end
+      object cellFloorA40049-27 of CellFloorA
+         properties
+            x	331
+            y	154
+            loop	0
+         end
+      end
+      object cellFloorB40049-28 of CellFloorB
+         properties
+            x	317
+            y	193
+            loop	1
+         end
+      end
+      object cellFloorB40049-29 of CellFloorB
+         properties
+            x	477
+            y	124
+            loop	1
+         end
+      end
+      object cellFloorB40049-30 of CellFloorB
+         properties
+            x	612
+            y	111
+            loop	1
+         end
+      end
+      object cellFloorB40049-31 of CellFloorB
+         properties
+            x	560
+            y	154
+            loop	1
+         end
+      end
+      object cellFloorB40049-32 of CellFloorB
+         properties
+            x	683
+            y	137
+            loop	0
+         end
+      end
+      object cellFloorA40049-33 of CellFloorA
+         properties
+            x	571
+            y	173
+            loop	0
+         end
+      end
+      object cellFloorB40049-34 of CellFloorB
+         properties
+            x	212
+            y	220
+            loop	0
+         end
+      end
+      object cellFloorB40049-35 of CellFloorB
+         properties
+            x	630
+            y	211
+            loop	0
+         end
+      end
+      object cellFloorB40049-36 of CellFloorB
+         properties
+            x	609
+            y	239
+            loop	0
+         end
+      end
+      object cellFloorB40049-37 of CellFloorB
+         properties
+            x	502
+            y	216
+            loop	0
+         end
+      end
+      object cellFloorB40049-38 of CellFloorB
+         properties
+            x	447
+            y	237
+            loop	0
+         end
+      end
+      object cellFloorB40049-39 of CellFloorB
+         properties
+            x	414
+            y	206
+            loop	0
+         end
+      end
+      object cellFloorA40049-40 of CellFloorA
+         properties
+            x	270
+            y	236
+            loop	0
+         end
+      end
+      object cellFloorB40049-41 of CellFloorB
+         properties
+            x	333
+            y	236
+            loop	0
+         end
+      end
+      object godFinvarra40049-42 of GodFinvarra
+         properties
+            x	326
+            y	189
+            loop	2
+         end
+      end
+      object protectorofFinvarraB40049-43 of ProtectorofFinvarraB
+         properties
+            x	95
+            y	210
+            loop	2
+         end
+      end
+      object protectorofFinvarra0049-44 of ProtectorofFinvarra
+         properties
+            x	190
+            y	200
+            loop	2
+         end
+      end
+      object protectorofFinvarra40049-45 of ProtectorofFinvarra
+         properties
+            x	425
+            y	200
+            loop	2
+         end
+      end
+      object protectorofFinvarraB40049-46 of ProtectorofFinvarraB
+         properties
+            x	544
+            y	210
+            loop	2
+         end
+      end
+   end
+end
+room 40050
+   properties
+      picture	3000
+      east	11004 
+      west	11001 
+   end
+   atpinfo
+      93  428 102
+      93  39 102
+      93  -3 104
+      33700  713 152
+      941  19 212
+      33713  651 211
+      33714  579 300
+      947  212 330
+      950  564 326
+      947  389 330
+      945  20 302
+      950  15 329
+      169  233 105
+      170  422 104
+      141  580 106
+      141  535 106
+      141  494 106
+      141  619 106
+      141  452 107
+   end
+   objects
+      object hut40050-0 of Hut
+         properties
+            x	42
+            y	120
+            loop	0
+         end
+      end
+      object ghoul40050-1 of Ghoul
+         properties
+            x	145
+            y	219
+            loop	0
+         end
+      end
+      object fireElemental40050-2 of FireElemental
+         properties
+            x	499
+            y	245
+            loop	0
+         end
+      end
+      object daemonKing40050-3 of DaemonKing
+         properties
+            x	298
+            y	251
+            loop	0
+         end
+      end
+   end
+end

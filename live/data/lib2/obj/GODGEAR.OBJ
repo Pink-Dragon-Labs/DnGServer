@@ -1,0 +1,39 @@
+#----------------------------------- Baldrics
+object OliveBaldric of Baldric
+	properties
+		name "Olive Baldric"
+		color 48
+	end
+
+	base described
+		text "You see a nice Olive Baldric."
+	end
+end
+
+#-----------------------------------Mabon Armor
+object RobeofMabon of Robe
+	properties
+	special
+                name "  Apprentice Robe of Intelligence"
+                value 15000
+                color -1
+                armorFlat    10
+                armorPercent 20
+                level 100
+	end
+	
+	actions
+		vBePutOn setAffect dobj 61 0 0 -1
+		vBeTakenOff clearAffect dobj 61 0 0
+	end
+
+	base wearable
+		mask warrior
+	end
+	
+	base described
+				text "You see a Robe."
+                idText "You see an Apprentice Robe of Intelligence.\nNo Warriors!!\nLevel 100\n"
+                shopText "The uses of this robe don't stop at the shower.\nNo Warriors!!\nLevel 100\n"
+	end
+end

@@ -1,0 +1,8 @@
+name "Shifty"
+title "Gamblers Slum"
+worldFile "../data/lib/world/SHIFTY.WLD"
+allowCombat 0
+#resetInterval 120
+midiFile 29
+isDungeon 1
+entrance trapDoor95010-17

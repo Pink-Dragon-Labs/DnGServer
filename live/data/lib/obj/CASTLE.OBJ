@@ -1,0 +1,2067 @@
+object CastleMageHat of MageHat
+	properties
+		special
+		name "Castle Mage's Hat"
+		color 113			# Light Finvarra
+		armor 15
+		level 1100
+		enchantResistance 35
+	end
+
+	base carryable
+		weight 1
+	end
+
+	base wearable
+
+	end
+
+	actions
+		vBePutOn changeSDM dobj 150 1 3 4							# Add 150% to all magic circles except Myst and Sorc while worn.
+		vBeTakenOff changeSDM dobj -150 1 3 4
+		#vBePutOn changeSpellResistance dobj 45 2					# Myst Resist 45%
+		#vBeTakenOff changeSpellResistance dobj -45 2
+		vBePutOn setAffect dobj 75 0 0 -1                           # Shift
+        vBeTakenOff clearAffect dobj 75 0 0
+        vBePutOn setAffect dobj 63 0 0 -1                           # Endurance
+        vBeTakenOff clearAffect dobj 63 0 0
+        vBePutOn setAffect dobj 61 0 0 -1                           # Intel
+        vBeTakenOff clearAffect dobj 61 0 0
+        vBePutOn setAffect dobj 61 0 0 -1                           # Intel
+        vBeTakenOff clearAffect dobj 61 0 0                
+		# White Hair
+		vBePutOn setAffect dobj 97 0 0 -1
+		vBeTakenOff clearAffect dobj 97 0 0
+	end
+
+	base described
+		text "You see a wizard's hat with embroidered runes."
+		idText "You see a Mage's Hat once belonged to the Castle Mages. Wearing this arcane hat will improve the power of your spells.\n\n225% increase to SDM\n\nThis Arcane Mage's Hat adds additional Intelligence, Endurance and the ability to Shift. You must be a level 1100, or higher, to wear this hat.\nEnchant Resistance: 35 percent.\n\n"
+		shopText "A Mage's Hat. If I had one of these I could retire."
+	end
+end
+object CastleGladiatorHelm of GladiatorHelm
+    properties
+		special
+        name "Castle Guard's Helm"
+        view 30650                      # HoZerk
+        health 800
+        value 10000
+        level 1100
+        strength 5
+        armor 120
+        color 113			# Light Finvarra
+    end
+ 
+    base carryable
+        weight 15.0
+    end
+ 
+    base wearable
+
+    end
+   
+    actions
+        vBePutOn changeSpellResistance dobj 45 2					# Myst Resist 45%
+		vBeTakenOff changeSpellResistance dobj -45 2    
+		vBePutOn setAffect dobj 56 0 0 -1                   		# Extra Attack
+        vBeTakenOff clearAffect dobj 56 0 0
+		vBePutOn setAffect dobj 39 0 0 -1							# Strength	
+		vBeTakenOff clearAffect dobj 39 0 0
+		vBePutOn setAffect dobj 39 0 0 -1							# Strength
+		vBeTakenOff clearAffect dobj 39 0 0
+		#  Black Hair
+		vBePutOn setAffect dobj 98 0 0 -1
+		vBeTakenOff clearAffect dobj 98 0 0
+    end
+   
+    base described
+        text "A glorious shimmering helmet."
+        idText "A shining helmet once worn by a Castle Guard. \nThis helmet was worn in countless invasion attempts.\n Wearing this magnificent helmet, you will gain two extra Attacks, a Dodge, as well as a boost to your Health and Nourishment and significant Strength. You must be a level 1100, or higher, to wear this helm.\n\nArmor Penetration: 30%\n\nMysticism Resist: 45 percent.\n\n"
+        shopText "I've only heard stories about Gladiators! You sure this doesn't belong in a museum?"
+    end
+end
+object CastleAdvHelmet of AdvHelmet
+    properties
+		special
+        view 30450              # HoConq
+        name "Castle Guard's Helm"
+        health 800
+        strength 5
+        level 950
+        armorFlat 100
+        color 113               # Light Finvarra
+    end
+ 
+    base carryable
+        weight 10
+    end
+ 
+    base wearable
+
+    end
+   
+    actions
+        vBePutOn changeSpellResistance dobj 45 2					# Myst Resist 45%
+		vBeTakenOff changeSpellResistance dobj -45 2    
+		vBePutOn setAffect dobj 56 0 0 -1                   		# Extra Attack
+        vBeTakenOff clearAffect dobj 56 0 0
+		vBePutOn setAffect dobj 61 0 0 -1                   		# Intel
+        vBeTakenOff clearAffect dobj 61 0 0
+		vBePutOn setAffect dobj 63 0 0 -1                   		# Endurance Bonus
+        vBeTakenOff clearAffect dobj 63 0 0
+		# White Hair
+		vBePutOn setAffect dobj 97 0 0 -1
+		vBeTakenOff clearAffect dobj 97 0 0
+    end
+ 
+    base described
+        text "Quite the brilliant helmet.."
+        idText "This helmet once belonged to a Castle Guard. You can see the years of wear on it.\nWearing this rugged helmet you will gain 3 Attacks, an extra Dodge, incredible Intelligence, a boost to your Strength and Dexterity as well as  Double Endurance. You must be a level 1100, or higher, to wear this helm.\n\nArmor Penetration: 30%\n\nMysticism Resist: 45 percent.\n\n"
+        shopText "Is this what I think it is?!"
+    end
+end
+object CastleBanditMask of BanditMask
+    properties
+		special
+        view 30950
+        name "Rogue Mask"
+        clutStart 63
+        armorFlat 30
+        color 113                # Light Finvarra
+        value 10000
+        level 1100    
+    end
+ 
+    base wearable
+
+    end
+   
+    base carryable
+        weight 8.5
+    end
+ 
+    actions
+        vBePutOn setAffect dobj 56 0 0 -1               # Attack
+        vBeTakenOff clearAffect dobj 56 0 0
+        vBePutOn setAffect dobj 57 0 0 -1               # Dodge
+        vBeTakenOff clearAffect dobj 57 0 0
+        vBePutOn setAffect dobj 59 0 0 -1               # Dex
+        vBeTakenOff clearAffect dobj 59 0 0
+		vBePutOn changeSpellResistance dobj 45 2		# Myst Resist 45%
+		vBeTakenOff changeSpellResistance dobj -45 2    
+		# White Hair
+		vBePutOn setAffect dobj 97 0 0 -1
+		vBeTakenOff clearAffect dobj 97 0 0
+    end
+ 
+    base described
+        text "A crumpled up mask."
+        idText "You see a Rogue's Mask.\nThis type of mask is used by Rogues to defend the Castle and it's men.\n\nDonning this mask will grant you 2 Attacks and 3 extra dodges.\nThis Rogue's Mask further provides you with Dexterity. You must be level 1100 to wear this mask.\n\nArmor Penetration: 30%\n\nMysticism Resist: 45 percent.\n\n"
+        shopText "A rogue eh? No funny business.."
+    end
+end
+
+object CastleUplanderHelmet of UplanderHelmet
+    properties
+		special
+        name "Castle Uplander Helm"
+        health 1500
+        value 10000
+        strength 5
+        armor 150
+        color 148			# Dark Orange Red Glow
+    end
+ 
+    base carryable
+        weight 10.0
+    end
+
+   
+    actions
+        vBePutOn changeSpellResistance dobj 45 2					# Myst Resist 45%
+		vBeTakenOff changeSpellResistance dobj -45 2    
+		vBePutOn setAffect dobj 56 0 0 -1                   		# Extra Attack
+        vBeTakenOff clearAffect dobj 56 0 0
+		vBePutOn setAffect dobj 56 0 0 -1                   		# Extra Attack
+        vBeTakenOff clearAffect dobj 56 0 0
+		vBePutOn setAffect dobj 39 0 0 -1							# Strength	
+		vBeTakenOff clearAffect dobj 39 0 0
+		vBePutOn setAffect dobj 39 0 0 -1							# Strength
+		vBeTakenOff clearAffect dobj 39 0 0
+		vBePutOn setAffect dobj 98 0 0 -1							# Black Hair
+		vBeTakenOff clearAffect dobj 98 0 0
+		vBePutOn setAffect dobj 61 0 0 -1                           # Intel
+        vBeTakenOff clearAffect dobj 61 0 0
+        vBePutOn setAffect dobj 61 0 0 -1                           # Intel
+        vBeTakenOff clearAffect dobj 61 0 0 
+		vBePutOn setAffect dobj 63 0 0 -1							# End
+		vBeTakenOff clearAffect dobj 63 0 0
+    end
+   
+    base described
+        text "A glorious shimmering helmet."
+        idText "As cold and brutal in its appearance as those who wore such helms in ancient times were in heart.\n\nThis helmet is stained from centuries of war.\n\nWearing this sturdy helmet, you will gain two extra Attacks, as well as a boost to your Health and significant Strength and Intelligence!\n\nMysticism Resist: 45 percent.\n\n"
+        shopText "A Castle Guard's Uplander Helm. Remove this abomination from my sight!"
+    end
+end
+
+
+
+
+
+object RandomCastleArmor of Helmet
+	properties
+		random 4
+		special
+	end
+	base treasure
+		MoneyBag 30000 45000
+		MoneyBag 40000 55000
+		MoneyBag 50000 65000
+		MoneyBag 60000 75000
+		MoneyBag 30000 45000
+		MoneyBag 60000 75000
+		MoneyBag 30000 45000
+		maElphamesBands
+		maElphamesShoes
+		maElphamesCowl
+		maElphamesShirt
+		maElphamesHose
+		RandomCoppers
+		RandomMegaTreasure
+		RandomRareGlowDye
+		RandomRareMegaTreasure
+	end
+end
+
+object RandomCastle of Helmet
+	properties
+		random 4
+		special
+	end
+	base treasure
+		 CastleBanditMask
+		 CastleMageHat
+		 CastleAdvHelmet
+		 CastleGladiatorHelm
+		 CastleUplanderHelmet
+	end
+end
+object RandomCastleHelmet of Helmet
+	properties
+		random 4
+		special
+	end
+	base treasure
+		Bandanna
+		Bandanna
+		Hood
+		Hood
+		HuntressHelmet
+		HuntressHelmet
+		NightSoulHelmet
+		NightSoulHelmet
+		RaptorHelmet
+		RaptorHelmet
+		UplanderHelmet
+		UplanderHelmet
+		hornedHelm
+		hornedHelm
+		RandomCommonMagicHelm
+		RandomCommonGod
+		RandomCastle
+		RandomCastleArmor
+	end
+end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+###CASTLE MOB GEAR##
+# Robes #
+# Robes #
+# Robes #
+object GuardWizRobe of MasterRobeOfIntelligence
+	properties
+	special
+                name "Master Robe of Intelligence"
+                value 100
+                color 116   # Black Latex
+                armorFlat    10
+                armorPercent 20
+                level 1000
+	end
+	
+	actions
+		vBePutOn setAffect dobj 61 0 0 -1
+		vBeTakenOff clearAffect dobj 61 0 0
+		vBePutOn setAffect dobj 61 0 0 -1
+		vBeTakenOff clearAffect dobj 61 0 0
+		vBePutOn setAffect dobj 61 0 0 -1
+		vBeTakenOff clearAffect dobj 61 0 0
+	end
+	
+	base described
+				text "You see a Robe."
+                idText "You see an Master Robe of Intelligence.\nLevel 1000\n"
+                shopText "The uses of this robe don't stop at the shower.\nLevel 1000\n"
+	end
+end
+object RogueRobe of MasterRobeOfDexterity
+	properties
+	special
+                name "Master Robe of Dexterity"
+                value 100
+                color -1
+                armorFlat    10
+                armorPercent 20
+                level 1000
+	end
+	
+	actions
+		vBePutOn setAffect dobj 59 0 0 -1
+		vBeTakenOff clearAffect dobj 59 0 0
+		vBePutOn setAffect dobj 59 0 0 -1
+		vBeTakenOff clearAffect dobj 59 0 0
+	end
+	
+	base described
+				text "You see a Robe."
+                idText "You see an Master Robe of Dexterity.\nLevel 1000\n"
+                shopText "The uses of this robe don't stop at the shower.\nLevel 1000\n"
+	end
+end
+object GuardRobe of MasterRobeOfStrength
+	properties
+	special
+                name "Master Robe of Strength"
+                value 100
+                color 136	# Prussian Blue
+                armorFlat    10
+                armorPercent 20
+                level 1000
+	end
+	
+	actions
+		vBePutOn setAffect dobj 39 0 0 -1
+		vBeTakenOff clearAffect dobj 39 0 0
+		vBePutOn setAffect dobj 39 0 0 -1
+		vBeTakenOff clearAffect dobj 39 0 0
+		vBePutOn setAffect dobj 39 0 0 -1
+		vBeTakenOff clearAffect dobj 39 0 0
+	end
+	
+	base described
+				text "You see a Robe."
+                idText "You see an Master Robe of Strength.\nLevel 1000\n"
+                shopText "The uses of this robe don't stop at the shower.\nLevel 1000\n"
+	end
+end
+#Baldrics#
+#Baldrics#
+#Baldrics#
+object CastleMageBaldric of Baldric 
+	properties
+		special
+		name "Castle Mage Baldric"
+		color 41		# Bright White
+	end
+	base described
+		text "NON-PLAYER-ITEM"
+	end
+end
+object CastleGuardBaldric of Baldric 
+	properties
+		special
+		name "Castle Mage Baldric"
+		color 136	# Prussian Blue
+	end
+	base described
+		text "NON-PLAYER-ITEM"
+	end
+end
+object CastleThiefBaldric of Baldric 
+	properties
+		special
+		name "Castle Thief Baldric"
+		color 163           # Darkest Silk
+	end
+	base described
+		text "NON-PLAYER-ITEM"
+	end
+end
+# Weapons #
+# Weapons #
+# Weapons #
+object mwCastleVengeance of LongSword
+	properties
+	special
+		name "Guardsman's Vengeance"
+		value 10000
+		health 100000
+		strength 5
+		color 136	            # Prussian Blue
+		affect 5 0 0 -1			# Poison
+		affect 0 0 0 -1			# Normal Damage	
+	end
+
+	
+	base carryable
+		weight 155.0
+	end
+	
+	base weapon
+		minDamage 1200
+		maxDamage 2100
+		mask thief
+		mask adventurer
+		mask wizard
+        mask warrior
+	end
+	
+	actions
+		vBePutOn setAffect dobj 59 0 0 -1						# +Attack
+		vBeTakenOff clearAffect dobj 59 0 0						#
+        vBePutOn setAffect dobj 59 0 0 -1						# +Attack
+		vBeTakenOff clearAffect dobj 59 0 0						#
+		vBePutOn setAffect dobj 39 0 0 -1						# Strength Bonus
+		vBeTakenOff clearAffect dobj 39 0 0						#
+        vBePutOn setAffect dobj 39 0 0 -1						# Strength Bonus
+		vBeTakenOff clearAffect dobj 39 0 0						#
+	end
+
+	
+	base described
+		text "An unusable Sword worn by Castle Guardsmen."
+	end
+end
+object mwRogueDevastation of ThrowingDagger
+	properties
+	special
+		name "Devastation"
+		value 100000
+		health 2000
+		color 81
+		strength 5
+		affect 0 0 0 -1		# Normal Damage
+        affect 1 0 0 -1     # Fire Damage
+        affect 2 0 0 -1     # Cold Damage
+	end
+
+	base described
+		text "An unusable Dagger worn by Castle Rogues."
+	end
+
+	base carryable
+		weight 3.4
+	end
+	
+	base weapon
+		minDamage 2700
+		maxDamage 3200
+		mask warrior
+		mask adventurer
+		mask wizard
+        mask thief
+	end
+
+	actions
+		vBePutOn changeEvilMDMMod dobj 25             # 25 Dmg Vs Evil
+		vBeTakenOff changeEvilMDMMod dobj -25         #
+		vBePutOn changeGoodMDMMod dobj 25             # 25 Dmg Vs Good
+		vBeTakenOff changeGoodMDMMod dobj -25         #
+	end
+end
+object mwCastleNeedle of mwEnidsNeedle
+	properties
+	special
+		name "Sunflare"
+		value 100000
+		health 2000
+		color 14				# Celadon
+		strength 5
+		caffect 0
+		affect 1 0 0 -1     # Fire Damage
+	end
+
+	base carryable
+		weight 1.0
+	end
+
+	base weapon
+		minDamage 900
+		maxDamage 1250
+        mask warrior
+        mask thief
+        mask adventurer
+        mask wizard
+	end
+	
+	
+	actions
+	    vBePutOn changeSDM dobj 100 1 3 4             # SDM Boost (Thaum, Ele, Necro)
+		vBeTakenOff changeSDM dobj -100 1 3 4	      #
+		vBePutOn setAffect dobj 61 0 0 -1             # Intel Boost (HoI)
+		vBeTakenOff clearAffect dobj 61 0 0           #
+		vBePutOn setAffect dobj 61 0 0 -1             # Intel Boost (HoI)
+		vBeTakenOff clearAffect dobj 61 0 0           #
+        vBePutOn setAffect dobj 61 0 0 -1             # Intel Boost (HoI)
+		vBeTakenOff clearAffect dobj 61 0 0           #
+        vBePutOn setAffect dobj 23 0 0 -1             # IMMOLATION_FIRE
+        vBeTakenOff clearAffect dobj 23 0 0	          #
+        vBePutOn setAffect dobj 45 0 0 -1             # INDESTRUCTION
+        vBeTakenOff clearAffect dobj 45 0 0           #
+        vBePutOn setAffect dobj 1 2 0 -1              # Fire Shield
+		vBeTakenOff clearAffect dobj 1 2 0            #
+	end
+	
+	base described
+		text "An unusable Dagger worn by Castle Mages."
+	end
+end
+###CASTLE MOBS###
+###CASTLE MOBS###
+###CASTLE MOBS###
+###CASTLE MOBS###
+object BaseThief of NPC
+    properties
+    special
+        name "Base Thief"
+        view 100
+        alignment 127
+
+        minLevel 7952
+		maxLevel 11945
+
+        intelligence 34
+        strength 80
+        endurance 3
+        dexterity 26
+        quickness 10
+
+        soundGroup 16
+        damageType 1
+        armorType 1
+
+        girth 90
+        height 85
+
+        affect 17 0 0 -1    # See Invisible
+
+		affect 85 0 0 -1	# immune to death touch
+    end
+
+    base character        
+        skill 0 5        # grandmaster weapons
+        skill 1 5
+        skill 2 5
+        skill 3 5
+        skill 4 5
+        skill 5 5
+        skill 6 5
+        skill 7 5
+        skill 8 5
+        skill 10 5
+        skill 9 5        # grandmaster dodger
+        skill 29 5      # grandmaster critical-strike        
+        skill 30 5      # grandmaster shield
+        skill 11 5      # grandmaster spells
+        skill 12 5
+        skill 13 5
+        skill 14 5
+        skill 15 5
+    end
+
+    actions
+        vBeBorn changeSpellResistance self 80 2      # 80% Myst Resist
+        vBeBorn changeSDM self 200 0 1 3 4           # 200% SDM Boost
+        vBeBorn changeSDM self 25 2                  # 25% Myst Boost
+        vBeBorn changeMeleeArmorPiercing dobj 70     # 70% Armor Pen
+    end
+
+    base described
+        text "A Rogue. Their skills learned in a far away land.\n\n80% Myst Resistance\n\n"
+    end
+end	
+	object RogueThief of BaseThief
+    properties
+    special
+        name "Rogue"
+        view 100
+        intelligence 34
+        strength 85
+        endurance 3
+        dexterity 24
+        quickness 25
+    end
+
+    base container
+        head 0 1 1 1 1 0 7 0 4 3 0 0
+		worn maBanditGreaves
+		worn maBanditBrig
+		worn maBanditGauntlets
+		worn maReinforcedScarf
+		worn maBanditBoots
+		worn bThievesTools
+		worn mwRogueDevastation
+		worn Parma
+		worn BanditMask
+        worn CastleThiefBaldric
+		object RandomMazeTreasure
+		object RandomNoviceGear
+    end
+
+    base npc
+        code castlethief
+    end
+
+    base described
+        text "A Rogue. Their Skills learned in a far away land. -- 80% mysticism resistance.\n\n"
+    end
+end
+object BaseCastle of NPC
+	properties
+	special
+		name "Base Guard"
+		view 100
+        clutStart -1
+        color 7
+        alignment 0
+        armor 20
+        strength 180
+        endurance 4
+        intelligence 60
+        dexterity 21
+        quickness 10
+        minLevel 8614
+		maxLevel 12458
+        minDamage 2800
+        maxDamage 3200
+        soundGroup 18
+        damageType 1
+        armorType 3
+          
+        affect 17 0 0 -1    #See Invis
+        affect 42 0 0 -1	#Invul Shield
+        affect 39 0 0 -1	#Empower
+		affect 43 0 0 -1	#Greater Shield
+		affect 44 0 0 -1	#Regen
+		affect 85 0 0 -1	# immune to death touch
+    end
+	base container
+        head 0 1 4 2 4 2 0 5 4 8 7 3
+    end
+    base character
+        title "The Castle Guard"
+        # grandmaster in all weapon combat
+        skill 0 5
+        skill 1 5
+        skill 2 5
+        skill 3 5
+        skill 4 5
+        skill 5 5
+        skill 6 5
+        skill 7 5
+        skill 8 5
+        skill 9 5
+        skill 10 5
+        skill 9 5       # acrobatics grandmaster
+        skill 29 5      # grandmaster critical-strike  
+        skill 30 5      # grandmaster shield
+    end
+    actions
+        vBeBorn changeSpellResistance self 50 2                 # 50% MR
+        vBeBorn changeMeleeArmorPiercing dobj 70           		# 70% Armor Pen
+    end
+    base described
+        text "You see a Castle Guard. Experts in all forms of combat, they are worthy foes. -- 50% mysticism resistance.\n\n"
+    end
+end
+object CastleGuard of BaseCastle
+    properties
+    special
+        name "Castle Guard"
+        view 100
+        armor 20
+    end
+
+    base container
+        head 0 1 4 2 4 2 0 5 4 8 7 3
+		worn maFinvarrasCollar
+		worn maFinvarrasTreads
+		worn maFinvarrasBands
+		worn maFinvarrasGreaves
+		worn maFinvarrasCuirass
+		worn bGladiatorBelt
+		worn maKhnum
+		worn mwCastleVengeance
+		worn ShieldWall
+        worn GuardRobe
+        worn CastleGuardBaldric
+		object RandomMazeTreasure
+		object RandomNoviceGear
+    end
+
+    base npc
+        code castleguard
+    end
+
+    base described
+        text "You see a Castle Guard. Experts in all forms of combat, they are worthy foes. -- 50% mysticism resistance.\n\n"
+    end
+end
+object BaseWizard of NPC
+	properties
+	special
+		name "Castle Base Wizard"
+		view 100
+		alignment 127
+
+		minLevel 8248
+		maxLevel 11685
+
+		intelligence 150
+		strength 10
+		endurance 2
+		dexterity 21
+		quickness 10
+
+		soundGroup 16
+
+		damageType 1
+		armorType 1
+
+		girth 105
+		height 95		
+		
+		affect 0 3 0 -1		# Weakness To Normal Damage
+		affect 17 0 0 -1	# See Invisible
+		affect 48 0 0 -1	# Magic Resist
+		affect 56 0 0 -1	# Extra Attack
+		affect 57 0 0 -1	# Extra Dodge
+		affect 85 0 0 -1	# Immune To Death Touch
+		affect 86 0 0 -1	# Free Will
+		affect 75 0 0 -1	# Shift
+		# affect 39 0 0 -1	Empower
+		# affect 42 0 0 -1	Invul Shield
+		# affect 43 0 0 -1	Greater Shield
+		# affect 44 0 0 -1	Regen
+	end
+
+	base character
+		skill 11 5	# Grandmaster Sorcerer
+		skill 12 5	# Grandmaster Elementalism
+		skill 13 5	# Grandmaster Mysticism
+		skill 14 5	# Grandmaster Thaumaturgist
+		skill 15 5	# Grandmaster Necromancy
+		skill 28 5	# Grandmaster Meditation
+		skill 29 5	# Grandmaster Critical Striker
+		skill 9 5	# Grandmaster Dodger
+		skill 16 5	# Grandmaster Theurgism
+
+		# Grandmaster Weapons
+		skill 0 5
+		skill 1 5
+		skill 2 5
+		skill 3 5
+		skill 4 5
+		skill 5 5
+		skill 6 5
+		skill 7 5
+		skill 8 5
+		skill 10 5
+	end
+
+	base container  
+		head 0 2 1 2 2 5 12 17 4 3 0 0
+		worn maBishopHat
+		worn maBishopPants
+		worn maBishopShirt
+		worn maEnidGuards
+		worn maEnidsNecklace
+		worn maShoesOfPower
+		worn mwCastleNeedle
+		worn ArcaneShield
+		worn rMighty
+        worn GuardWizRobe
+        worn CastleMageBaldric
+        worn bArcaneBelt
+		object RandomMazeTreasure
+		object RandomNoviceGear
+	end
+
+	actions
+		vBeBorn changeSDM self 500 0 1 2 3 4
+		vBeBorn changeSpellResistance self 50 2
+		vBeBorn setAffect dobj 21 0 0 -1
+	end
+
+	base described
+		text "Game-controlled Wizard.\n\n"
+	end
+end
+object CastleMage of BaseWizard
+	properties
+	special
+		name "Castle Mage"
+		alignment 127
+	end
+
+	actions
+		vBeBorn changeSpellResistance self 100 1	#100% Resist Elem
+		vBeBorn changeSpellResistance self 25 0 4	#25% Resist Sorc, Necro
+		vBeBorn changeGoodMDMMod self 500			#+500% melee vs Good
+		vBeBorn changeEvilMDMMod self 500			#+500% melee vs Evil
+	end
+
+	base described
+		text "Castle Mage\n\nAn ambivalent presence in The Castle. Servant to the Castle Wizard. -- 50% mysticism resistance.\n\n"
+	end
+
+    base container  
+		worn rDespothes
+	end
+
+	base npc
+		code neutralCastleWizard
+	end
+end
+object CastleWizard of BaseWizard
+	properties
+	special
+		name "Castle Wizard"
+		alignment 255
+	end
+
+	actions
+		vBeBorn changeSpellResistance self 25 1 4	#25% Resist Elem, Necro
+		vBeBorn changeEvilMDMMod self 500			#+500% melee vs Evil
+	end
+
+    base container  
+		worn rEnid
+	end
+
+	base described
+		text "Castle Wizard\n\nA wizard that serves the king and will defend this castle until death. -- 50% mysticism resistance.\n\n"
+	end
+
+	base npc
+		code goodCastleWizard
+	end
+end
+object CastleWarlock of BaseWizard
+	properties
+	special
+		name "Castle Warlock"
+		alignment 0
+	end
+
+	actions
+		vBeBorn changeSpellResistance self 100 4	#100% Resist Necro
+		vBeBorn changeSpellResistance self 25 0 1 3	#25% Resist Sorc, Elem, and Thau
+		vBeBorn changeGoodMDMMod self 500			#+500% melee vs Good
+	end
+
+	base described
+		text "Castle Warlock\n\nAn evil Wizard bent on taking the souls of enemies. -- 50% mysticism resistance.\n\n"
+	end
+
+    base container  
+		worn rDuach
+	end
+
+	base npc
+		code evilCastleWizard
+	end
+end
+
+###Roaming CASTLE MOBS###
+###Roaming CASTLE MOBS###
+###Roaming CASTLE MOBS###
+###Roaming CASTLE MOBS###
+object BaseRoamingThief of NPC
+    properties
+    special
+        name "Roaming Thief"
+        view 100
+        alignment 127
+
+        minLevel 7952
+		maxLevel 11945
+
+        intelligence 34
+        strength 80
+        endurance 3
+        dexterity 26
+        quickness 10
+
+        soundGroup 16
+        damageType 1
+        armorType 1
+
+        girth 90
+        height 85
+
+        affect 17 0 0 -1    # See Invisible
+
+		affect 85 0 0 -1	# immune to death touch
+    end
+
+    base character        
+        skill 0 5        # grandmaster weapons
+        skill 1 5
+        skill 2 5
+        skill 3 5
+        skill 4 5
+        skill 5 5
+        skill 6 5
+        skill 7 5
+        skill 8 5
+        skill 10 5
+        skill 9 5        # grandmaster dodger
+        skill 29 5      # grandmaster critical-strike        
+        skill 30 5      # grandmaster shield
+        skill 11 5      # grandmaster spells
+        skill 12 5
+        skill 13 5
+        skill 14 5
+        skill 15 5
+    end
+
+    actions
+        vBeBorn changeSpellResistance self 80 2      # 80% Myst Resist
+        vBeBorn changeSDM self 200 0 1 3 4           # 200% SDM Boost
+        vBeBorn changeSDM self 25 2                  # 25% Myst Boost
+        vBeBorn changeMeleeArmorPiercing dobj 70     # 70% Armor Pen
+    end
+
+    base described
+        text "A Rogue. Their skills learned in a far away land.\n\n80% Myst Resistance\n\n"
+    end
+end	
+object RoamingRogueThief of BaseRoamingThief
+    properties
+    special
+        name "Roaming Rogue"
+        view 100
+        intelligence 34
+        strength 85
+        endurance 3
+        dexterity 24
+        quickness 25
+    end
+
+    base container
+        head 0 1 1 1 1 0 7 0 4 3 0 0
+		worn maBanditGreaves
+		worn maBanditBrig
+		worn maBanditGauntlets
+		worn maReinforcedScarf
+		worn maBanditBoots
+		worn bThievesTools
+		worn mwRogueDevastation
+		worn Parma
+		worn BanditMask
+        worn CastleThiefBaldric
+		object RandomMazeTreasure
+		object RandomNoviceGear
+    end
+
+    base npc
+        code thief
+    end
+
+    base described
+        text "A Roaming Rogue. Their Skills learned in a far away land. -- 80% mysticism resistance.\n\n"
+    end
+end
+object BaseRoamingCastle of NPC
+	properties
+	special
+		name "Roaming Guard"
+		view 100
+        clutStart -1
+        color 7
+        alignment 0
+        armor 20
+        strength 180
+        endurance 4
+        intelligence 60
+        dexterity 21
+        quickness 10
+        minLevel 8614
+		maxLevel 12458
+        minDamage 2800
+        maxDamage 3200
+        soundGroup 18
+        damageType 1
+        armorType 3
+          
+        affect 17 0 0 -1    #See Invis
+        affect 42 0 0 -1	#Invul Shield
+        affect 39 0 0 -1	#Empower
+		affect 43 0 0 -1	#Greater Shield
+		affect 44 0 0 -1	#Regen
+		affect 85 0 0 -1	# immune to death touch
+    end
+	base container
+        head 0 1 4 2 4 2 0 5 4 8 7 3
+    end
+    base character
+        title "The Castle Guard"
+        # grandmaster in all weapon combat
+        skill 0 5
+        skill 1 5
+        skill 2 5
+        skill 3 5
+        skill 4 5
+        skill 5 5
+        skill 6 5
+        skill 7 5
+        skill 8 5
+        skill 9 5
+        skill 10 5
+        skill 9 5       # acrobatics grandmaster
+        skill 29 5      # grandmaster critical-strike  
+        skill 30 5      # grandmaster shield
+    end
+    actions
+        vBeBorn changeSpellResistance self 50 2                 # 50% MR
+        vBeBorn changeMeleeArmorPiercing dobj 70           		# 70% Armor Pen
+    end
+    base described
+        text "You see a Castle Guard. Experts in all forms of combat, they are worthy foes. -- 50% mysticism resistance.\n\n"
+    end
+end
+object CastleRoamingGuard of BaseRoamingCastle
+    properties
+    special
+        name "Roaming Guard"
+        view 100
+        armor 20
+    end
+
+    base container
+        head 0 1 4 2 4 2 0 5 4 8 7 3
+		worn maFinvarrasCollar
+		worn maFinvarrasTreads
+		worn maFinvarrasBands
+		worn maFinvarrasGreaves
+		worn maFinvarrasCuirass
+		worn bGladiatorBelt
+		worn maKhnum
+		worn mwCastleVengeance
+		worn ShieldWall
+        worn GuardRobe
+        worn CastleGuardBaldric
+		object RandomMazeTreasure
+		object RandomNoviceGear
+    end
+
+    base described
+        text "You see a Roaming Castle Guard. Experts in all forms of combat, they are worthy foes. -- 50% mysticism resistance.\n\n"
+    end
+end
+object BaseRoamingWizard of NPC
+	properties
+	special
+		name "Roaming Wizard"
+		view 100
+		alignment 127
+
+		minLevel 8248
+		maxLevel 11685
+
+		intelligence 150
+		strength 10
+		endurance 2
+		dexterity 21
+		quickness 10
+
+		soundGroup 16
+
+		damageType 1
+		armorType 1
+
+		girth 105
+		height 95		
+		
+		affect 0 3 0 -1		# Weakness To Normal Damage
+		affect 17 0 0 -1	# See Invisible
+		affect 48 0 0 -1	# Magic Resist
+		affect 56 0 0 -1	# Extra Attack
+		affect 57 0 0 -1	# Extra Dodge
+		affect 85 0 0 -1	# Immune To Death Touch
+		affect 86 0 0 -1	# Free Will
+		affect 75 0 0 -1	# Shift
+		# affect 39 0 0 -1	Empower
+		# affect 42 0 0 -1	Invul Shield
+		# affect 43 0 0 -1	Greater Shield
+		# affect 44 0 0 -1	Regen
+	end
+
+	base character
+		skill 11 5	# Grandmaster Sorcerer
+		skill 12 5	# Grandmaster Elementalism
+		skill 13 5	# Grandmaster Mysticism
+		skill 14 5	# Grandmaster Thaumaturgist
+		skill 15 5	# Grandmaster Necromancy
+		skill 28 5	# Grandmaster Meditation
+		skill 29 5	# Grandmaster Critical Striker
+		skill 9 5	# Grandmaster Dodger
+		skill 16 5	# Grandmaster Theurgism
+
+		# Grandmaster Weapons
+		skill 0 5
+		skill 1 5
+		skill 2 5
+		skill 3 5
+		skill 4 5
+		skill 5 5
+		skill 6 5
+		skill 7 5
+		skill 8 5
+		skill 10 5
+	end
+
+	base container  
+		head 0 2 1 2 2 5 12 17 4 3 0 0
+		worn maBishopHat
+		worn maBishopPants
+		worn maBishopShirt
+		worn maEnidGuards
+		worn maEnidsNecklace
+		worn maShoesOfPower
+		worn mwCastleNeedle
+		worn ArcaneShield
+		worn rMighty
+        worn GuardWizRobe
+        worn CastleMageBaldric
+        worn bArcaneBelt
+		object RandomMazeTreasure
+		object RandomNoviceGear
+	end
+
+	actions
+		vBeBorn changeSDM self 500 0 1 2 3 4
+		vBeBorn changeSpellResistance self 50 2
+		vBeBorn setAffect dobj 21 0 0 -1
+	end
+
+	base described
+		text "Game-controlled Wizard.\n\n"
+	end
+end
+object CastleRoamingMage of BaseRoamingWizard
+	properties
+	special
+		name "Roaming Mage"
+		alignment 127
+	end
+
+	actions
+		vBeBorn changeSpellResistance self 100 1	#100% Resist Elem
+		vBeBorn changeSpellResistance self 25 0 4	#25% Resist Sorc, Necro
+		vBeBorn changeGoodMDMMod self 500			#+500% melee vs Good
+		vBeBorn changeEvilMDMMod self 500			#+500% melee vs Evil
+	end
+
+	base described
+		text "Castle Mage\n\nAn ambivalent presence in The Castle. Servant to the Castle Wizard. -- 50% mysticism resistance.\n\n"
+	end
+
+    base container  
+		worn rDespothes
+	end
+
+	base npc
+		code neutralWizard
+	end
+end
+object CastleRoamingWizard of BaseRoamingWizard
+	properties
+	special
+		name "Castle Wizard"
+		alignment 255
+	end
+
+	actions
+		vBeBorn changeSpellResistance self 25 1 4	#25% Resist Elem, Necro
+		vBeBorn changeEvilMDMMod self 500			#+500% melee vs Evil
+	end
+
+    base container  
+		worn rEnid
+	end
+
+	base described
+		text "Castle Wizard\n\nA wizard that serves the king and will defend this castle until death. -- 50% mysticism resistance.\n\n"
+	end
+
+	base npc
+		code goodWizard
+	end
+end
+object CastleRoamingWarlock of BaseRoamingWizard
+	properties
+	special
+		name "Castle Warlock"
+		alignment 0
+	end
+
+	actions
+		vBeBorn changeSpellResistance self 100 4	#100% Resist Necro
+		vBeBorn changeSpellResistance self 25 0 1 3	#25% Resist Sorc, Elem, and Thau
+		vBeBorn changeGoodMDMMod self 500			#+500% melee vs Good
+	end
+
+	base described
+		text "Castle Warlock\n\nAn evil Wizard bent on taking the souls of enemies. -- 50% mysticism resistance.\n\n"
+	end
+
+    base container  
+		worn rDuach
+	end
+
+	base npc
+		code evilWizard
+	end
+end
+
+
+
+
+
+
+
+
+
+
+
+
+object castlebossblackhelm of hornedHelm
+	properties
+		special
+		name "Horned Helmet"
+		health 3500
+		color 98
+		armor 800
+	end
+
+	base carryable
+		weight 2.5 
+	end
+
+	base described
+		text "You see a sturdy helmet."
+		idText "You see a sturdy helmet made of mythril.\n\n"
+		shopText "A standard mythril helmet. A favorite choice of many adventurers due its price, durability, and weight."
+	end
+end
+
+object CastleBossSword of LongSword
+	properties
+	special
+		name "Anhiliation"
+        value 0
+		health 10000
+		strength 5		
+		color 132               # Ultra Olive
+		affect 10 0 0 -1        # Life-Steal
+		affect 3 0 0 -1		    # Lightning Damage
+	end
+
+	base carryable
+		weight 5
+	end
+
+	base weapon
+		minDamage 8600
+		maxDamage 15000
+		#------- Unequippable by Players -------
+		mask warrior
+		mask adventurer
+		mask wizard
+		mask thief
+		#--------- Crazy Range on Sword --------
+		range 4
+		#------- Sometimes Cleave Enemies ------
+		spellProcID 109			# Cleave (Physical)
+		forwardProcChance 80	# 80%
+		#---------------------------------------
+	end
+
+	base described
+		text "The power eminating from this weapon is ludicrous.\n\nYou dare not wield this.\n"
+		shopText "Not to be sold in stores."
+	end
+end
+
+object ZeusSword of TwoHandSword
+	properties
+	special
+		name "Anhiliation"
+        value 0
+		health 10000
+		strength 5		
+		color 132               # Ultra Olive
+		affect 10 0 0 -1        # Life-Steal
+		affect 3 0 0 -1		    # Lightning Damage
+	end
+
+	base carryable
+		weight 5
+	end
+
+	base weapon
+		minDamage 9600
+		maxDamage 17000
+		#------- Unequippable by Players -------
+		mask warrior
+		mask adventurer
+		mask wizard
+		mask thief
+		#--------- Crazy Range on Sword --------
+		range 4
+		#------- Sometimes Smite Enemies -------
+		spellProcID 44			# Lightning Bolt
+		forwardProcChance 60	# 60%
+		#---------------------------------------
+	end
+
+	base described
+		text "The power eminating from this weapon is ludicrous.\n\nYou dare not wield this.\n"
+		shopText "Not to be sold in stores."
+	end
+end
+
+
+
+object maDenseShirt of Shirt
+	properties
+		special
+		name "Shirt of Density"
+		color 98
+		health 2000
+		armor 75
+	end
+
+	base carryable
+		weight 38.0
+	end
+
+	base described
+		text "You see a shirt made from obsidianite."
+		idText "You see the Shirt of Density, well known for being nearly indestructable."
+		shopText "This shirt will protect you quite well if you are strong enough to wear it."
+	end
+end
+
+object maDenseSkirt of LeatherLongSkirt
+	properties
+		special
+		name "Skirt of Density"
+		color 98
+		health 2000
+		armor 75
+	end
+
+	base carryable
+		weight 38.0
+	end
+
+	base described
+		text "You see a skirt made from obsidianite."
+		idText "You see the Skirt of Density, well known for being nearly indestructable."
+		shopText "This skirt will protect you quite well if you are strong enough to wear it."
+	end
+end
+
+object maZeusPlate of PlateTunic
+	properties
+		special
+		name "Zeus' Battle Armor"
+		color 98
+		health 2000
+		armor 75
+	end
+
+	base carryable
+		weight 38.0
+	end
+
+	base wearable
+        reverseProcID 47				# Electric Fury
+		reverseProcChance 20			# 20%
+    end
+
+	base described
+		text "You see a chest plate made from obsidianite."
+		idText "You see the Plate of Density, well known for being nearly indestructable."
+		shopText "This platemail will protect you quite well if you are strong enough to wear it."
+	end
+end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+object CastleBoss1 of NPC
+	properties
+	special
+		name "Ares"
+		alignment 127
+		
+		minLevel 12145
+		maxLevel 13624
+
+		intelligence 125
+		strength 455
+		endurance 85		
+		dexterity 100
+		quickness 100
+		  
+		soundGroup 16
+		  
+		damageType 2		#Bludgeon
+		armorType 3			#Plate
+
+		caffect 0			# Cancel affect (0)
+		affect 3 0 0 -1		# Lightning Damage
+		affect 43 0 0 -1	# Invul
+		affect 23 0 0 -1	# Fire Immo
+		affect 24 0 0 -1	# Cold Immo
+		affect 27 0 0 -1	# Lightning Immo
+		affect 65 0 0 -1	# Retention
+		affect 89 0 0 -1	# Mark of Duach
+
+		girth 100
+		height 95	
+	end
+
+	base character
+		skill 11 5	# Grandmaster Sorcerer
+		skill 12 5	# Grandmaster Elementalism
+		skill 13 5	# Grandmaster Mysticism
+		skill 14 5	# Grandmaster Thaumaturgist
+		skill 15 5	# Grandmaster Necromancy
+		skill 28 5	# Grandmaster Meditation
+		skill 29 5	# Grandmaster Critical Striker
+		skill 9 5	# Grandmaster Dodger
+		skill 16 5	# Grandmaster Theurgism
+
+		# Grandmaster Weapons
+		skill 0 5
+		skill 1 5
+		skill 2 5
+		skill 3 5
+		skill 4 5
+		skill 5 5
+		skill 6 5
+		skill 7 5
+		skill 8 5
+		skill 10 5
+	end
+
+	base container
+		head 0 3 4 1 4 0 8 4 4 8 0 0
+		worn BlackPack
+		worn castlebossblackhelm
+		worn maDensePlate
+		worn maDenseBands
+		worn maDenseBoots
+		worn RealBlackBaldric
+		worn maDenseGreaves
+		worn maDenseCowl
+		worn bWarrior
+		worn aCombat
+		worn maDenseShield
+		worn CastleBossSword
+		object wBossTable
+		object GodScrollTable
+	end
+
+	base npc
+		code castleboss
+	end
+
+	actions
+		vBeBorn changeSpellResistance self 80 2				# 80% Myst Resist
+		vBeBorn changeSpellResistance self 40 0 1 3 4		# 40% Magic Resist
+		vBeBorn changeSDM self 1050 0 1 3 4					# Increase Overall Circle SDM-Myst
+		vBeBorn changeSDM self 100 2						# Increase Myst SDM
+	end
+
+	base described
+		text "Ares\nGod of War\n\nA master of combat, certainly a most deadly opponent.\n\n80% Mysticism Resistance\n\n40% Overall Magic Resistance\n\n"
+	end
+end
+
+
+object CastleBoss2 of NPC
+	properties
+	special
+		name "Hecate"
+		alignment 127
+		
+		minLevel 12145
+		maxLevel 13624
+
+		intelligence 185
+		strength 300
+		endurance 85		
+		dexterity 100
+		quickness 100
+		  
+		soundGroup 16
+		  
+		damageType 2		#Bludgeon
+		armorType 3			#Plate
+
+		caffect 0			# Cancel affect (0)
+		affect 3 0 0 -1		# Lightning Damage
+		affect 43 0 0 -1	# Invul
+		affect 23 0 0 -1	# Fire Immo
+		affect 24 0 0 -1	# Cold Immo
+		affect 27 0 0 -1	# Lightning Immo
+		affect 65 0 0 -1	# Retention
+		affect 89 0 0 -1	# Mark of Duach
+
+		girth 100
+		height 95	
+
+	end
+
+	base character
+		sex 1
+		skill 11 5	# Grandmaster Sorcerer
+		skill 12 5	# Grandmaster Elementalism
+		skill 13 5	# Grandmaster Mysticism
+		skill 14 5	# Grandmaster Thaumaturgist
+		skill 15 5	# Grandmaster Necromancy
+		skill 28 5	# Grandmaster Meditation
+		skill 29 5	# Grandmaster Critical Striker
+		skill 9 5	# Grandmaster Dodger
+		skill 16 5	# Grandmaster Theurgism
+
+		# Grandmaster Weapons
+		skill 0 5
+		skill 1 5
+		skill 2 5
+		skill 3 5
+		skill 4 5
+		skill 5 5
+		skill 6 5
+		skill 7 5
+		skill 8 5
+		skill 10 5
+	end
+
+	base container
+		head 1 2 3 4 4 3 4 0 7 5 9 0 2
+		worn BlackPack
+		worn castlebossblackhelm
+		worn maDenseShirt
+		worn maDenseSkirt
+		worn maDenseBands
+		worn maDenseBoots
+		worn RealBlackBaldric
+		worn maDenseGreaves
+		worn maDenseCowl
+		worn bWarrior
+		worn aCombat
+		worn maDenseShield
+		worn CastleBossSword
+		object wBossTable
+		object GodScrollTable
+	end
+
+	base npc
+		code castleboss
+	end
+
+	actions
+		vBeBorn changeSpellResistance self 80 2				# 80% Myst Resist
+		vBeBorn changeSpellResistance self 40 0 1 3 4		# 40% Magic Resist
+		vBeBorn changeSDM self 1050 0 1 3 4					# Increase Overall Circle SDM-Myst
+		vBeBorn changeSDM self 100 2						# Increase Myst SDM
+	end
+
+	base described
+		text "Hecate\nGoddess of Magic and Witchcraft\n\nA master of the mystic arts, certainly a most deadly opponent.\n\n80% Mysticism Resistance\n\n40% Overall Magic Resistance\n\n"
+	end
+end
+
+
+object CastleBoss3 of NPC
+	properties
+	special
+		name "Hermes"
+		alignment 127
+		
+		minLevel 12145
+		maxLevel 13624
+
+		intelligence 135
+		strength 350
+		endurance 85		
+		dexterity 130
+		quickness 100
+		  
+		soundGroup 16
+		  
+		damageType 2		#Bludgeon
+		armorType 3			#Plate
+
+		caffect 0			# Cancel affect (0)
+		affect 3 0 0 -1		# Lightning Damage
+		affect 43 0 0 -1	# Invul
+		affect 23 0 0 -1	# Fire Immo
+		affect 24 0 0 -1	# Cold Immo
+		affect 27 0 0 -1	# Lightning Immo
+		affect 65 0 0 -1	# Retention
+		affect 89 0 0 -1	# Mark of Duach
+
+		girth 100
+		height 95	
+	end
+
+	base character
+		skill 11 5	# Grandmaster Sorcerer
+		skill 12 5	# Grandmaster Elementalism
+		skill 13 5	# Grandmaster Mysticism
+		skill 14 5	# Grandmaster Thaumaturgist
+		skill 15 5	# Grandmaster Necromancy
+		skill 28 5	# Grandmaster Meditation
+		skill 29 5	# Grandmaster Critical Striker
+		skill 9 5	# Grandmaster Dodger
+		skill 16 5	# Grandmaster Theurgism
+
+		# Grandmaster Weapons
+		skill 0 5
+		skill 1 5
+		skill 2 5
+		skill 3 5
+		skill 4 5
+		skill 5 5
+		skill 6 5
+		skill 7 5
+		skill 8 5
+		skill 10 5
+	end
+
+	base container
+		head 0 2 6 4 4 2 4 6 7 2 6 2 2
+		worn BlackPack
+		worn castlebossblackhelm
+		worn maDensePlate
+		worn maDenseBands
+		worn maDenseBoots
+		worn RealBlackBaldric
+		worn maDenseGreaves
+		worn maDenseCowl
+		worn bWarrior
+		worn aCombat
+		worn maDenseShield
+		worn CastleBossSword
+		object wBossTable
+		object GodScrollTable
+	end
+
+	base npc
+		code castleboss
+	end
+
+	actions
+		vBeBorn changeSpellResistance self 80 2				# 80% Myst Resist
+		vBeBorn changeSpellResistance self 40 0 1 3 4		# 40% Magic Resist
+		vBeBorn changeSDM self 1050 0 1 3 4					# Increase Overall Circle SDM-Myst
+		vBeBorn changeSDM self 100 2						# Increase Myst SDM
+	end
+
+	base described
+		text "Hermes\nGod of Merchants and Thieves\n\nA master of subtlety, certainly a most deadly opponent.\n\n80% Mysticism Resistance\n\n40% Overall Magic Resistance\n\n"
+	end
+end
+
+
+object CastleBoss4 of NPC
+	properties
+	special
+		name "Zeus"
+		alignment 127
+		
+		minLevel 12145
+		maxLevel 13624
+
+		intelligence 165
+		strength 450
+		endurance 92		
+		dexterity 100
+		quickness 100
+		  
+		soundGroup 16
+		  
+		damageType 2		#Bludgeon
+		armorType 3			#Plate
+
+		caffect 0			# Cancel affect (0)
+		affect 3 0 0 -1		# Lightning Damage
+		affect 43 0 0 -1	# Invul
+		affect 23 0 0 -1	# Fire Immo
+		affect 24 0 0 -1	# Cold Immo
+		affect 27 0 0 -1	# Lightning Immo
+		affect 65 0 0 -1	# Retention
+		affect 89 0 0 -1	# Mark of Duach
+
+		girth 100
+		height 95	
+	end
+
+	base character
+		skill 11 5	# Grandmaster Sorcerer
+		skill 12 5	# Grandmaster Elementalism
+		skill 13 5	# Grandmaster Mysticism
+		skill 14 5	# Grandmaster Thaumaturgist
+		skill 15 5	# Grandmaster Necromancy
+		skill 28 5	# Grandmaster Meditation
+		skill 29 5	# Grandmaster Critical Striker
+		skill 9 5	# Grandmaster Dodger
+		skill 16 5	# Grandmaster Theurgism
+
+		# Grandmaster Weapons
+		skill 0 5
+		skill 1 5
+		skill 2 5
+		skill 3 5
+		skill 4 5
+		skill 5 5
+		skill 6 5
+		skill 7 5
+		skill 8 5
+		skill 10 5
+	end
+
+	base container
+		head 0 1 9 0 2 2 -1 3 3 0 3 0 2
+		worn BlackPack
+		worn castlebossblackhelm
+		worn maZeusPlate
+		worn maDenseBands
+		worn maDenseBoots
+		worn RealBlackBaldric
+		worn maDenseGreaves
+		worn maDenseCowl
+		worn bWarrior
+		worn aCombat
+		worn ZeusSword
+		object FafnirTable
+		object GodScrollTable
+	end
+
+	base npc
+		code castleboss
+	end
+
+	actions
+		vBeBorn changeSpellResistance self 80 2				# 80% Myst Resist
+		vBeBorn changeSpellResistance self 40 0 1 3 4		# 40% Magic Resist
+		vBeBorn changeSDM self 1150 0 1 3 4					# Increase Overall Circle SDM-Myst
+		vBeBorn changeSDM self 120 2						# Increase Myst SDM
+	end
+
+	base described
+		text "Zeus\nGod of the Sky\nGod of Gods\n\nGod-King Zeus is will be a most challenging opponent.\nGood Luck\n\n80% Mysticism Resistance\n\n40% Overall Magic Resistance\n\n"
+	end
+end
+
+
+
+ 
+
+object RandomRoamingCastleNPC of NPC
+    properties
+        special
+        random 100
+    end
+
+    base treasure
+    	CastleRoamingMage
+    	CastleRoamingWizard
+    	CastleRoamingWarlock
+		CastleRoamingGuard
+		RoamingRogueThief
+    end
+end  
+
+object RandomCastleNPC of NPC
+    properties
+        special
+        random 100
+    end
+
+    base treasure
+    	CastleMage
+    	CastleWizard
+    	CastleWarlock
+		CastleGuard
+		RogueThief
+    end
+end  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+object bTSashOG of Thistlebark
+	properties
+		special
+		name "Ultimate Thistlebark"
+		value 20
+    
+
+		# immune to fire damage
+		affect 1 2 0 -1
+
+		# immune to acid
+		affect 4 2 0 -1
+	end
+
+
+	base carryable
+		weight 0.5
+	end
+
+	base wearable
+		areaWorn 99
+		layer 80
+	end
+
+	actions
+		vBePutOn setAffect dobj 17 0 0 -1		  # See Invis
+		vBeTakenOff clearAffect dobj 17 0 0
+		vBePutOn setAffect dobj 67 0 0 -1   	  # NOURISHED
+		vBeTakenOff clearAffect dobj 67 0 0	
+		vBePutOn setAffect dobj 61 0 0 -1		  # Intel
+		vBeTakenOff clearAffect dobj 61 0 0
+		vBePutOn setAffect dobj 61 0 0 -1		  # Intel
+		vBeTakenOff clearAffect dobj 61 0 0
+		vBePutOn setAffect dobj 63 0 0 -1		  # End
+		vBeTakenOff clearAffect dobj 63 0 0
+		vBePutOn setAffect dobj 63 0 0 -1		  # End
+		vBeTakenOff clearAffect dobj 63 0 0
+		vBePutOn setAffect dobj 39 0 0 -1	  	  # Strength
+		vBeTakenOff clearAffect dobj 39 0 0
+		vBePutOn setAffect dobj 39 0 0 -1	  	  # Strength
+		vBeTakenOff clearAffect dobj 39 0 0
+		vBePutOn setAffect dobj 39 0 0 -1	  	  # Strength
+		vBeTakenOff clearAffect dobj 39 0 0
+		vBePutOn setAffect dobj 39 0 0 -1	  	  # Strength
+		vBeTakenOff clearAffect dobj 39 0 0
+		vBePutOn setAffect dobj 37 0 0 -1		  # Dex
+		vBeTakenOff clearAffect dobj 37 0 0
+		vBePutOn setAffect dobj 37 0 0 -1	  	  # Dex
+		vBeTakenOff clearAffect dobj 37 0 0
+		vBePutOn setAffect dobj 37 0 0 -1		  # Dex
+		vBeTakenOff clearAffect dobj 37 0 0
+		vBePutOn setAffect dobj 37 0 0 -1	  	  # Dex
+		vBeTakenOff clearAffect dobj 37 0 0
+	end
+
+    base described
+		text "The original Thistlebark Baldric.\n\n"
+		idText "Original Thislebark!\n\nThis baldric grants you god-like Strength, Dexterity and Intelligence!\n\nDonning this sash you will be able to see invisible opponents, and never have to eat.\n\\n\nLevel ???\n\n"
+		shopText "Original Thistlebark on steroirds!\n\nThis baldric grants you god-like Strength, Dexterity and Intelligence!\n\nDonning this sash you will be able to see invisible opponents, and never have to eat.\n\n/n\nLevel ???\n\n"
+	end
+end
+#---------------------------------------------------------------------------------
+object rBerZerking of Ring
+	properties
+	special
+		name "Berserking Ring"
+		value 1000000
+		level 50
+		color 43	# Glowie
+        enchantResistance 100
+	end
+
+	base wearable
+        areaWorn 744
+	end
+	
+	actions
+		vBePutOn setAffect dobj 39 0 0 -1				# Str
+		vBeTakenOff clearAffect dobj 39 0 0
+		vBePutOn setAffect dobj 59 0 0 -1				# Dex
+		vBeTakenOff clearAffect dobj 59 0 0
+		vBePutOn changeSpellResistance dobj 85 2		# 85% Myst Resist
+		vBeTakenOff changeSpellResistance dobj -85 2
+        vBePutOn setAffect dobj 33 0 0 -1               #BERSERK
+        vBeTakenOff clearAffect dobj  33 0 0	
+	end
+	
+	base described
+		idText "Are you mad?"
+		shopText "This ring causes berserking and for some reason you can't cast any spells onto it."
+	end
+end
+#--------------------------------------------------------------
+object mwSFFang of mwFafnirFang
+	properties
+	special
+		name "Sharpened Fafnir's Fang"
+		value 100000
+		health 99999
+		level 1
+	end
+
+	
+	base carryable
+		weight 2.5
+	end
+
+	base dye
+	end
+	
+	base weapon
+        skillType 2        # Short Sword
+        minDamage 155
+        maxDamage 285
+        hands 1
+        damageType 2    # 2 Hand Sword
+        range 3       # Same as Club
+    end
+	
+	
+	actions
+		vBePutOn setAffect dobj 56 0 0 -1		# Extra Attack
+		vBeTakenOff clearAffect dobj 56 0 0		#
+		vBePutOn setAffect dobj 59 0 0 -1   	# POS_DEX_MOD
+		vBeTakenOff clearAffect dobj 59 0 0		#
+		vBePutOn setAffect dobj 39 0 0 -1		# Strength Bonus
+		vBeTakenOff clearAffect dobj 39 0 0		#
+        vBePutOn changeSDM dobj 500 1 3 4                           # Add 500% to Tham/Ele/Necro.
+        vBeTakenOff changeSDM dobj -500 1 3 4
+        vBePutOn setAffect dobj 63 0 0 -1                           # Endurance
+        vBeTakenOff clearAffect dobj 63 0 0
+		vBePutOn setAffect dobj 63 0 0 -1                           # Endurance
+        vBeTakenOff clearAffect dobj 63 0 0
+        vBePutOn setAffect dobj 61 0 0 -1                           # Intel
+        vBeTakenOff clearAffect dobj 61 0 0
+        vBePutOn setAffect dobj 61 0 0 -1                           # Intel
+        vBeTakenOff clearAffect dobj 61 0 0                
+		vBePutOn setAffect dobj 56 0 0 -1                  		 	# Attack
+        vBeTakenOff clearAffect dobj 56 0 0
+        vBePutOn setAffect dobj 57 0 0 -1                   		# Dodge
+        vBeTakenOff clearAffect dobj 57 0 0
+		vBePutOn setAffect dobj 59 0 0 -1              	 			# Dex
+        vBeTakenOff clearAffect dobj 59 0 0
+        vBePutOn setAffect dobj 59 0 0 -1               			# Dex
+        vBeTakenOff clearAffect dobj 59 0 0    
+		vBePutOn setAffect dobj 39 0 0 -1   						# Str
+		vBeTakenOff clearAffect dobj 39 0 0		
+		vBePutOn setAffect dobj 39 0 0 -1   						# Str
+		vBeTakenOff clearAffect dobj 39 0 0		
+	end
+
+	
+	base described
+		text "This dagger...this dagger smells like fish.\n"
+		idText "This is the Fafnir Fang, but it looks like somone has sharpened it.\\n The Fang is dripping with some sort of bile, it must be what makes this one so powerful! \\n"
+		shopText "This is not sold anywhere."
+	end
+end

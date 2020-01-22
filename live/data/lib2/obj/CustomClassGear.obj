@@ -1,0 +1,655 @@
+# Custom max level class gear to allow players who have reached the end of the leveling system
+# the ability to collect a entire suit of gear to allow them to be the best they can be
+
+
+#Change to level gear 
+# ----------- Warrior--------------
+
+#-------------Adventurer----------
+
+#-------------Thief--------------
+
+#-------------Wizard Zenith Gear Max 40 Int 243% SDM 18 Dodge-------------
+#-------------------- Hood--------------------
+
+object zenithWizardHat of MageHat
+	properties
+	special
+		name "Zenith Wizard's Hat"
+		clutStart 63
+		color -1
+		armor 25
+		level 1000
+		enchantResistance 20
+	end
+
+	base carryable
+		weight 2.0
+	end
+
+	base wearable
+		# Wizards Only
+		mask warrior
+		mask adventurer
+		mask thief
+	end
+
+	actions
+		# Add 100% to all magic circles except Myst and Sorc while worn. 
+		vBePutOn changeSDM dobj 100 1 3 4
+		vBeTakenOff changeSDM dobj -100 1 3 4
+		# Magic Resist 25% to all except Myst and Sorc
+		vBePutOn changeSpellResistance dobj 25 1 3 4
+		vBeTakenOff changeSpellResistance dobj -25 1 3 4
+		# Free Will
+		vBePutOn setAffect dobj 86 0 0 -1
+		vBeTakenOff clearAffect dobj 86 0 0
+		# Shift
+		vBePutOn setAffect dobj 75 0 0 -1
+		vBeTakenOff clearAffect dobj 75 0 0
+		# Int
+		vBePutOn setAffect dobj 61 0 0 -1
+		vBeTakenOff clearAffect dobj 61 0 0
+	end
+
+	base described
+		text "You see a hat made of some strange material."
+		idText "You see a hat adorned with magical runes and gems."
+		shopText "This extraordinary hat can only be worn by a powerful wizard."
+	end
+end
+
+#------Wrists-----------
+
+object zenithWizardBracers of Mythrilband
+	properties
+	special
+		name "Zenith Wizard's Bracers"
+		health 500
+		armor 100
+		value 8000
+		color -1
+		level 1000
+		enchantResistance 20
+	end
+
+	actions
+	# Dodge
+		vBePutOn setAffect dobj 57 0 0 -1
+		vBeTakenOff clearAffect dobj 57 0 0
+	# Int
+		vBePutOn setAffect dobj 61 0 0 -1
+		vBeTakenOff clearAffect dobj 61 0 0
+	end
+	
+	base carryable
+		weight 2.0
+	end
+	
+	base wearable
+        # Wizards Only
+        mask warrior
+        mask adventurer
+        mask thief
+	end
+	
+	base described
+		text "You see wristbands made of some strange material."
+		idText "You see wristbans adorned with magical runes and gems."
+		shopText "This extraordinary wristband can only be worn by a powerful wizard."
+	end
+end
+
+#----------Cowl-----------
+
+object zenithWizardCowl of maFinvarraCowl
+	properties
+	special
+		name "Zenith Wizard's Cowl"
+		value 10000
+		health 1000
+		armor 75
+		color -1
+		level 1000
+		enchantResistance 20
+		# Remove str from base inherit
+		clutStart 39
+	end
+
+	base carryable
+		weight 2.0
+	end
+	
+	base wearable
+        # Wizards Only
+        mask warrior
+        mask adventurer
+        mask thief
+	end
+
+	actions
+		# Dodge
+		vBePutOn setAffect dobj 57 0 0 -1
+		vBeTakenOff clearAffect dobj 57 0 0
+		# Int
+		vBePutOn setAffect dobj 61 0 0 -1
+		vBeTakenOff clearAffect dobj 61 0 0
+	end
+
+	base described
+		text "You see a cowl made of some strange material."
+		idText "You see a cowl adorned with magical runes and gems."
+		shopText "This extraordinary cowl can only be worn by a powerful wizard."
+	end
+end
+
+#---------------Boots--------------
+
+object zenithWizardBoots of HighBoots
+	properties
+	special
+		name "Zenith Wizard's Boots"
+		value 4500
+		armor 25
+		health 350
+		color -1
+		level 1000
+		enchantResistance 20
+	end
+	
+	base wearable
+        # Wizards Only
+        mask warrior
+        mask adventurer
+        mask thief
+	end
+	
+	actions
+		# Dodge
+		vBePutOn setAffect dobj 57 0 0 -1
+		vBeTakenOff clearAffect dobj 57 0 0
+		# Int
+		vBePutOn setAffect dobj 61 0 0 -1
+		vBeTakenOff clearAffect dobj 61 0 0
+	end
+
+	base carryable
+		weight 4.0
+	end
+	
+	base described
+		text "You see a pair of boots made of some strange material."
+		idText "You see a pair of boots adorned with magical runes and gems."
+		shopText "These extraordinary boots can only be worn by a powerful wizard."
+	end
+end
+
+#----------Pants/Skirts----------
+# Male
+
+object zenithWizardPants of LeatherPants
+	properties
+	special
+		name "Zenith Wizard's Leggings"
+		color -1
+		value 120
+		armor 25
+		health 125
+		strength 1
+		armorType 2
+		armor 40
+		level 1000
+		enchantResistance 20
+	end
+	
+	base wearable
+        # Wizards Only
+        mask warrior
+        mask adventurer
+        mask thief
+	end
+	
+	actions
+		# Dodge
+		vBePutOn setAffect dobj 57 0 0 -1
+		vBeTakenOff clearAffect dobj 57 0 0
+		# Int
+		vBePutOn setAffect dobj 61 0 0 -1
+		vBeTakenOff clearAffect dobj 61 0 0
+	end
+	
+	base carryable
+		weight 4.0
+	end
+
+	base described
+		text "You see a pair of pants made of some strange material."
+		idText "You see a pair of pants adorned with magical runes and gems."
+		shopText "These extraordinary pants can only be worn by a powerful wizard."
+	end
+end
+
+# Female
+
+object zenithWizardLongSkirt of LongSkirt
+	properties
+	special
+		name "Zenith Wizard's Long Skirt"
+		clutStart 73
+		color -1
+		value 15
+		strength 1
+		armorType 2
+		armor 40
+		level 1000
+		enchantResistance 20
+	end
+
+	base wearable
+		# no males
+		mask male
+        # Wizards Only
+        mask warrior
+        mask adventurer
+        mask thief
+	end
+	
+	actions
+		# Dodge
+		vBePutOn setAffect dobj 57 0 0 -1
+		vBeTakenOff clearAffect dobj 57 0 0
+		# Int
+		vBePutOn setAffect dobj 61 0 0 -1
+		vBeTakenOff clearAffect dobj 61 0 0
+	end
+	
+	base carryable
+		weight 0.5
+	end
+
+	base described
+		text "You see a long skirt made of some strange material."
+		idText "You see a long skirt adorned with magical runes and gems."
+		shopText "This extraordinary skirt can only be worn by a powerful wizard."
+	end
+end
+
+object zenithWizardShortSkirt of ShortSkirt
+	properties
+	special
+		name "Zenith Wizard's Short Skirt"
+		clutStart 37
+		color -1
+		value 15
+		strength 1
+		armorType 2
+		armor 40
+		level 1000
+		enchantResistance 20
+	end
+
+	base wearable
+		# no males
+		mask male
+        # Wizards Only
+        mask warrior
+        mask adventurer
+        mask thief
+	end
+	
+	actions
+		# Dodge
+		vBePutOn setAffect dobj 57 0 0 -1
+		vBeTakenOff clearAffect dobj 57 0 0
+		# Int
+		vBePutOn setAffect dobj 61 0 0 -1
+		vBeTakenOff clearAffect dobj 61 0 0
+	end
+	
+	base carryable
+		weight 0.3
+	end
+
+	base described
+		text "You see a short skirt made of some strange metal."
+		idText "You see a short skirt adorned with magical runes and gems."
+		shopText "This extraordinary short skirt can only be worn by a powerful wizard."
+	end
+end
+
+#----------Chest-------------
+
+object zenithWizardTunic of LeatherTunic
+	properties
+	special
+		name "Zenith Wizards Tunic"
+		color -1
+		value 160
+		armor 40
+		health 95
+		strength 1
+		armorType 2
+		level 1000
+		enchantResistance 20
+	end
+	base wearable
+        # Wizards Only
+        mask warrior
+        mask adventurer
+        mask thief
+	end
+	
+	actions
+		# Dodge
+		vBePutOn setAffect dobj 57 0 0 -1
+		vBeTakenOff clearAffect dobj 57 0 0
+		# Int
+		vBePutOn setAffect dobj 61 0 0 -1
+		vBeTakenOff clearAffect dobj 61 0 0
+	end
+	
+	base carryable
+		weight 6.0
+	end
+
+	base described
+		text "You see a tunic made of some strange material."
+		idText "You see a tunic adorned with magical runes and gems."
+		shopText "This extraordinary tunic can only be worn by a powerful wizard."
+	end
+end
+
+#----------Robe-----------
+
+object zenithWizardRobe of Robe
+	properties
+	special
+		name "Zenith Wizard's Robe"
+        value 15000
+        color -1
+        armorFlat    10
+        armorPercent 20
+		strength 1
+		armorType 2
+		level 1000
+		enchantResistance 20
+	end
+	
+	base wearable
+        # only Wizards
+        mask warrior
+        mask adventurer
+        mask thief
+	end
+	
+	actions
+		# Dodge
+		vBePutOn setAffect dobj 57 0 0 -1
+		vBeTakenOff clearAffect dobj 57 0 0
+		# Int
+		vBePutOn setAffect dobj 61 0 0 -1
+		vBeTakenOff clearAffect dobj 61 0 0
+		# Int
+		vBePutOn setAffect dobj 61 0 0 -1
+		vBeTakenOff clearAffect dobj 61 0 0
+	end
+	
+	base described
+		text "You see a robe made of some strange metal."
+		idText "You see a robe adorned with magical runes and gems."
+		shopText "This extraordinary robe can only be worn by a powerful wizard."
+	end
+end
+
+#---------Belt----------
+
+object zenithWizardBelt of Belt
+	properties
+	special
+		name "Zenith Wizard's Belt"
+		value 5500
+		health 150
+		color -1
+		level 1000
+		enchantResistance 20
+	end
+	
+	base wearable
+        # only Wizards
+        mask warrior
+        mask adventurer
+        mask thief
+	end
+	
+	actions
+		# Carry Increase
+		vBePutOn setAffect dobj 72 0 0 -1
+		vBeTakenOff clearAffect dobj 72 0 0
+		# Dodge
+		vBePutOn setAffect dobj 57 0 0 -1
+		vBeTakenOff clearAffect dobj 57 0 0
+		# Int
+		vBePutOn setAffect dobj 61 0 0 -1
+		vBeTakenOff clearAffect dobj 61 0 0
+	end
+
+	base described
+		text "You see a belt made of some strange metal."
+		idText "You see a belt adorned with magical runes and gems."
+		shopText "This extraordinary belt can only be worn by a powerful wizard."
+	end
+end
+
+#----------Shield--------
+
+object zenithWizardRoundShield of RoundShield
+	properties
+	special
+		name "Zenith Wizard's Round Shield"
+		value 15000
+		health 750
+		color -1
+		strength 5
+		level 1000
+		enchantResistance 20
+	end
+	
+	base wearable
+        # only Wizards
+        mask warrior
+        mask adventurer
+        mask thief
+	end
+	
+	actions
+		# Carry Increase
+		vBePutOn setAffect dobj 72 0 0 -1
+		vBeTakenOff clearAffect dobj 72 0 0
+		# Dodge
+		vBePutOn setAffect dobj 57 0 0 -1
+		vBeTakenOff clearAffect dobj 57 0 0
+		# Int
+		vBePutOn setAffect dobj 61 0 0 -1
+		vBeTakenOff clearAffect dobj 61 0 0
+	end
+	
+	base carryable
+		weight 20.0
+	end
+
+	base described
+		text "You see a shield made of some strange metal."
+		idText "You see a shield adorned with magical runes and gems."
+		shopText "This extraordinary shield can only be worn by a powerful wizard."
+	end
+end
+
+#----------Weapon-----------
+
+object  zenithWizardDagger of mwUruzDagger
+	properties
+		special
+		name "Zenith Wizard's Dagger"
+		value 150000
+		health 8000
+		color -1
+		level 1000
+		enchantResistance 20
+		# do posion damage
+		affect 5 0 0 -1
+	end
+
+	actions	
+	#Extra Attack
+		vBePutOn setAffect dobj 56 0 0 -1
+		vBeTakenOff clearAffect dobj 56 0 0
+		# Dodge
+		vBePutOn setAffect dobj 57 0 0 -1
+		vBeTakenOff clearAffect dobj 57 0 0
+		# Int
+		vBePutOn setAffect dobj 61 0 0 -1
+		vBeTakenOff clearAffect dobj 61 0 0
+	end
+
+	base carryable
+		weight 3.0
+	end
+
+	base weapon
+		minDamage 175
+		maxDamage 275
+	end
+	
+	base wearable
+        # only Wizards
+        mask warrior
+        mask adventurer
+        mask thief
+	end
+	
+	base described
+		text "You see a throwing dagger made of some strange metal."
+		idText "You see a throwing dagger adorned with magical runes and gems."
+		shopText "This extraordinary throwing dagger can only be wielded by a powerful wizard."
+	end
+end
+
+#----------BackPack----------------
+
+object zenithWizardPack of BackPack 
+	properties
+	special
+		name "Backpack of Holding"
+		value 2500
+		color -1
+		level 1000
+		enchantResistance 20
+	end
+
+	base container
+		bulkCapacity 30
+		weightCapacity 140
+		bulkReduction 30
+		weightReduction 30
+	end
+	
+	actions	
+		# Dodge
+		vBePutOn setAffect dobj 57 0 0 -1
+		vBeTakenOff clearAffect dobj 57 0 0
+		# Int
+		vBePutOn setAffect dobj 61 0 0 -1
+		vBeTakenOff clearAffect dobj 61 0 0
+	end
+	
+	base wearable
+        # only Wizards
+        mask warrior
+        mask adventurer
+        mask thief
+	end
+	
+	base described
+		text "You see a backpack made of some strange material."
+		idText "You see a backpack adorned with magical runes and gems."
+		shopText "This extraordinary backpack can only be worn by a powerful wizard."
+	end
+end
+
+#------Rings and amulets are designed to be very rare and carry triple boosts------
+
+object zenithWizardAmulet of Amulet
+	properties
+	special
+		name "Zenith Wizard's Amulet"
+		value 3000
+		color -1
+		level 1000
+		enchantResistance 20
+	end
+
+	actions
+	# Triple class stat boost (int)
+		# Int
+		vBePutOn setAffect dobj 61 0 0 -1
+		vBeTakenOff clearAffect dobj 61 0 0
+		# Int
+		vBePutOn setAffect dobj 61 0 0 -1
+		vBeTakenOff clearAffect dobj 61 0 0
+		# Int
+		vBePutOn setAffect dobj 61 0 0 -1
+		vBeTakenOff clearAffect dobj 61 0 0
+	end
+	
+	base wearable
+        # only Wizards
+        mask warrior
+        mask adventurer
+        mask thief
+	end
+
+	base described
+		text "You see a amulet made of some strange metal."
+		idText "You see a amulet adorned with magical runes and gems."
+		shopText "This extraordinary amulet can only be worn by a powerful wizard."
+	end
+end
+
+#---------Ring----------
+
+object zenithWizardRing of Ring
+	properties
+	special
+		name "Zenith Wizard's Ring"
+		value 15000
+		color -1
+		level 1000
+		enchantResistance 20
+	end
+	
+	actions
+	# Triple class stat boost (int)
+		# Int
+		vBePutOn setAffect dobj 61 0 0 -1
+		vBeTakenOff clearAffect dobj 61 0 0
+		# Int
+		vBePutOn setAffect dobj 61 0 0 -1
+		vBeTakenOff clearAffect dobj 61 0 0
+		# Int
+		vBePutOn setAffect dobj 61 0 0 -1
+		vBeTakenOff clearAffect dobj 61 0 0
+	end
+	
+	base wearable
+        # only Wizards
+        mask warrior
+        mask adventurer
+        mask thief
+	end
+	
+	base described
+		text "You see a ring made of some strange metal."
+		idText "You see a ring adorned with magical runes and gems."
+		shopText "This extraordinary ring can only be worn by a powerful wizard."
+	end
+end

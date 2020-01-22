@@ -1,0 +1,742 @@
+room 11332
+   properties
+      picture	3500
+      north 	11323
+      south	11340
+      east	11333 
+      west	11331 
+   end
+atpinfo
+      2745  385 4 -99
+      34363  513 6
+      34363  75 2
+      2745  536 4 -99
+      64  193 96
+      64  316 111
+      34363  615 13
+      1544  120 117
+      63  46 116
+      35485  269 106
+      2717  174 115
+      2717  73 327
+      2717  296 107
+      35485  11 115
+      64  258 307
+      34276  447 112
+      1588  316 129
+      1586  421 114
+      2748  -123 103
+      34353  129 1
+      1585  386 1
+      1586  476 8
+      1586  261 1
+      34353  518 275
+      1586  453 262
+      34354  369 295
+      1586  317 102
+      34354  438 91
+      1508  599 322
+      1545  425 99
+      1595  558 275
+      34363  563 244
+      34363  650 246
+      1595  614 219
+      1595  563 189
+      34363  669 161
+      34363  650 137
+      1595  623 123
+      34363  516 123
+      1596  557 139
+      63  283 91
+      63  106 329
+   end
+end
+room 11331
+   properties
+      picture	3500
+      north 	11322
+      south	11339 
+      east	11332 
+      roomName	"Woodland Grub"
+   end
+   atpinfo
+      2606  161 91 150
+      2718  477 12 -99
+      35481  93 6 -99
+      64  179 117
+      64  505 97
+      2746  432 94
+      35516  285 107
+      2747  568 94
+      2712  223 113
+      2715  120 151
+      2714  46 122
+      35485  549 121
+      2717  477 117
+      2717  -15 118
+      35485  124 115
+      2717  645 114
+      2598  259 182
+      2598  520 177
+      2598  177 268
+      2598  455 282
+      32854  55 174 50
+      85  54 172
+      1545  252 91
+      60  574 103
+      63  175 116
+      63  618 116
+      32831  436 102
+      2747  -23 98
+      1586  38 289
+      34354  225 16
+      34353  526 7
+      34353  304 45
+      1587  65 164
+      34355  594 287
+   end
+   objects
+      object chair11322-0 of Chair
+         properties
+            x	612
+            y	154
+            loop	1
+         end
+      end
+      object chair11322-1 of Chair
+         properties
+            x	98
+            y	245
+            loop	0
+         end
+      end
+      object chair11322-2 of Chair
+         properties
+            x	374
+            y	262
+            loop	0
+         end
+      end
+      object chair11322-3 of Chair
+         properties
+            x	155
+            y	242
+            loop	2
+         end
+      end
+      object chair11322-4 of Chair
+         properties
+            x	537
+            y	263
+            loop	1
+         end
+      end
+      object chair11322-5 of Chair
+         properties
+            x	170
+            y	159
+            loop	0
+         end
+      end
+      object chair11322-6 of Chair
+         properties
+            x	246
+            y	243
+            loop	1
+         end
+      end
+      object chair11322-7 of Chair
+         properties
+            x	195
+            y	241
+            loop	2
+         end
+      end
+      object chair11322-8 of Chair
+         properties
+            x	428
+            y	251
+            loop	2
+         end
+      end
+      object chair11322-9 of Chair
+         properties
+            x	467
+            y	250
+            loop	2
+         end
+      end
+      object chair11322-10 of Chair
+         properties
+            x	229
+            y	148
+            loop	2
+         end
+      end
+      object chair11322-11 of Chair
+         properties
+            x	282
+            y	148
+            loop	2
+         end
+      end
+      object chair11322-12 of Chair
+         properties
+            x	510
+            y	144
+            loop	2
+         end
+      end
+      object chair11322-13 of Chair
+         properties
+            x	550
+            y	145
+            loop	2
+         end
+      end
+      object bartender11322-14 of Bartender
+         properties
+            x	57
+            y	168
+            loop	2
+         end
+         base character
+		sex 0
+            properName	"Daden (NPC)"
+         end
+	base container
+		worn BlueShirt
+		worn BluePants
+		worn LeatherBoots
+		head	0 1 0 0 0 0 0 0 0 0 3 0 1
+	end
+      end
+   end
+end
+room 11339
+   properties
+      picture	3500
+      north	11331 
+      east	11340 
+      flags	2
+      roomName	"Horsham Supplies"
+   end
+   atpinfo
+      2525  90 82
+      2526  197 88
+      2525  486 80
+      2526  325 86
+      2526  450 86
+      2717  442 242
+      2597  385 196 15
+      60  604 236
+      35723  532 237
+      2631  93 92
+      2633  238 92
+      2634  494 93
+      2633  368 92
+      2633  433 93
+      2597  82 196 15
+      2717  192 248
+      2597  183 196 15
+      2953  593 232
+      60  92 247
+      2585  102 183
+      2585  203 183
+      2585  405 183
+      2605  87 97 19
+      2605  209 96 19
+      2605  350 97 19
+      2605  492 96 19
+      2802  457 157 18
+      2792  470 146
+      7909  479 254
+      63  248 244
+      63  76 252
+      63  557 226
+      32831  494 244
+      32831  143 249
+      32831  388 243
+      32831  625 255
+      64  95 250
+      64  395 243
+      64  591 253
+      32832  118 248
+      32832  562 231
+      1587  22 195
+      34353  -96 147
+      34353  -96 112
+      34353  -98 75
+      1587  -19 86
+      1587  40 245
+      1585  126 253
+      1585  120 284
+      34353  522 274
+   end
+   objects
+      object simpleDoor11331-0 of SimpleDoor
+         properties
+            x	303
+            y	247
+            loop	2
+         end
+         base openable
+            isOpen	0
+         end
+      end
+   end
+end
+
+room 11322
+   properties
+      picture	3500
+      east	11323
+      south	11331
+      roomName	"Horsham Armory"
+   end
+   atpinfo
+      2521  577 126
+      2501  39 45
+      2522  547 142
+      2520  183 26
+      2504  288 53 50
+      2521  516 136
+      2712  274 194
+      35480  589 201
+      1521  614 209
+      3  612 201
+      3  89 207
+      3  4 200
+      2557  51 156
+      2547  191 173
+      3  470 209
+      3  631 197
+      2602  80 55
+      2737  383 133
+      35369  471 145
+      2717  292 209
+      2557  352 146
+      2556  208 146
+      2548  50 162
+      2548  351 152
+      35369  515 138
+      2701  205 179 95
+      2710  193 37
+      1595  594 110
+      1595  568 72
+      1595  572 42
+      34363  614 15
+      34363  595 208
+      34289  492 210
+      1544  61 222
+      1520  34 210
+   end
+   objects
+      object door11339-0 of Door
+         properties
+            x	144
+            y	210
+            loop	0
+         end
+         base openable
+            isOpen	0
+         end
+      end
+   end
+end
+room 11323
+   properties
+      picture	3500 
+      south	11332 
+      east	11324 
+      west	11322
+      roomName	"Horsham Magic" 
+   end
+   atpinfo
+      2501  40 31
+      2501  133 46
+      2502  88 53
+      2602  78 55 10
+      2602  170 57
+      2520  276 27
+      35370  327 230 150
+      2510  327 8 -25
+      3  553 190
+      2718  472 186 -20
+      2717  428 205
+      35485  498 207
+      2592  500 144
+      64  97 211
+      2503  411 7
+      35370  474 144 100
+      2513  516 34
+      2712  57 182 -20
+      2593  81 137
+      3  382 186
+      2586  244 167
+      2586  524 162
+      2587  92 157
+      2592  219 149
+      2792  154 107
+      2805  139 107 6
+      1588  156 198
+      34356  594 87
+      1587  24 195
+      34355  90 198
+      35370  -63 183 50
+      2622  45 129
+      2521  -9 124
+      34364  38 304
+      32832  169 215
+      63  160 212
+   end
+   objects
+      object door11332-0 of Door
+         properties
+            x	318
+            y	196
+            loop	0
+         end
+         base openable
+            isOpen	0
+         end
+      end
+   end
+end
+room 22331
+   properties
+      picture	4000
+      roomName	"Horsham Supplies"
+   end
+   atpinfo
+      2025  144 13 25
+      2025  503 11 25
+      2026  257 22 25
+      2026  386 21 25
+      2001  600 15 25
+      2013  44 17 25
+      2597  370 87
+      2597  460 87
+      2597  198 89
+      2109  168 151
+      2088  391 103
+      2088  481 103
+      2117  52 33
+      2160  171 169 50
+      2161  7 43
+      2162  632 41
+      2107  23 151
+      2108  622 146
+      2110  39 66
+      2111  612 69
+      2153  30 106 50
+      34886  169 177 25
+      34892  147 187 100
+      34904  668 163
+      34915  592 73 25
+      34899  64 76 25
+      2088  219 108
+      2136  -23 164
+      34914  617 168 75
+      2148  -20 156 50
+      34907  678 184 50
+      2600  165 261
+      2600  300 261
+      2112  444 145
+   end
+   objects
+      object simpleDoor22331-0 of SimpleDoor
+         properties
+            x	301
+            y	148
+            loop	2
+            linkTo	simpleDoor11331-0
+         end
+      end
+      object chair22331-1 of Chair
+         properties
+            x	26
+            y	238
+            loop	0
+         end
+      end
+      object chair22331-2 of Chair
+         properties
+            x	437
+            y	236
+            loop	1
+         end
+      end
+      object chair22331-3 of Chair
+         properties
+            x	354
+            y	210
+            loop	2
+         end
+      end
+      object chair22331-4 of Chair
+         properties
+            x	296
+            y	212
+            loop	2
+         end
+      end
+      object chair22331-5 of Chair
+         properties
+            x	229
+            y	211
+            loop	2
+         end
+      end
+      object chair22331-6 of Chair
+         properties
+            x	163
+            y	213
+            loop	2
+         end
+      end
+      object chair22331-7 of Chair
+         properties
+            x	99
+            y	213
+            loop	2
+         end
+      end
+      object stool22331-8 of Stool
+         properties
+            x	209
+            y	294
+            loop	0
+         end
+      end
+      object generalshop22331-9 of GeneralShop
+         properties
+            x   57
+            y   168
+            loop        2
+         end
+         base character
+                sex 0
+            properName  "Androo (NPC)"
+         end
+        base container
+                worn AquaShirt
+                worn AquaPants
+                worn GoldBoots
+                head    0 3 4 0 0 0 0 3 5 1 0 4 1
+        end
+      end
+   end
+end
+room 22332
+   properties
+      picture	4000
+      roomName	"Horsham Magic"
+   end
+   atpinfo
+      2001  518 7 35
+      2002  609 34 35
+      2013  424 7 35
+      2014  335 22 25
+      2013  271 18 25
+      2001  179 28 35
+      2013  87 17 25
+      2014  2 41 25
+      2086  28 126
+      2086  388 102
+      2087  609 107
+      2592  41 100
+      2592  401 76
+      2593  550 82
+      2125  43 298 25
+      2109  68 276
+      34893  85 297 25
+      2125  86 291 50
+      34893  -8 291 50
+      2128  105 287 75
+      2125  28 286 75
+      2108  540 130
+      2111  174 150
+      2111  176 90
+      34910  225 128 50
+      2111  174 52 25
+      2109  318 273
+      2109  568 271
+      34918  22 321
+      2133  176 156 25
+      34921  202 166 25
+      34894  613 292 25
+      2133  144 84 25
+      2129  314 275
+      2130  337 273 35
+      2131  267 277 35
+      34911  586 145
+      34921  201 69 50
+      34912  593 141 25
+      2133  42 329
+      2132  66 323
+      2149  9 169
+      2134  151 200 75
+      2133  637 280 75
+      2125  557 288 50
+      34899  530 306 35
+      2128  613 314 75
+   end
+   objects
+      object plankDoor22332-0 of PlankDoor
+         properties
+            x	307
+            y	150
+            loop	0
+            linkTo	door11332-0
+         end
+      end
+      object shop22332-1 of Shop
+         properties
+            x   57
+            y   188
+            loop        2
+         end
+         base character
+                sex 0
+            properName  "Keden (NPC)"
+         end
+        base container
+                worn GreenShirt
+		worn BlueCowl
+                worn BluePants
+                worn GoldBelt
+		worn LeatherBoots
+                head    0 5 2 0 0 0 0 1 9 4 1 2 1
+        end
+        base shop
+
+                buyMarkup  50
+                sellMarkup 100
+
+                inventory
+                        category "Mana Crystals" 50883
+                                mana
+                        end
+
+                        category "Potions" 51583
+                                object eLife
+                                object ePurify
+                                object pHealth
+                                object pCurePoison
+                                object pSeeInvisibility
+                                object pDexterity
+                                object pGreaterHealth
+                                object pStrength
+                                object pAcidShield
+                                object pColdShield
+                                object pLightningShield
+                                object pFireShield
+                                object pPoisonShield
+                                object pInvulnerability
+                                object pShift
+                                object pGreaterInvisibility
+                        end
+                        category "Scrolls" 51033
+                                object sIdentify
+                                object sImmolation
+                                object sMissileResistance
+                                object sResistCold
+                                object sResistFire
+                                object sResistLightning
+                                object sShield
+                                object sGreaterShield
+                                object sMonsterSummoningI
+                                object sMonsterSummoningII
+                        end
+		end
+	end
+      end
+   end
+end
+room 22339
+   properties
+      picture	4000
+      roomName	"Horsham Armory"
+   end
+   atpinfo
+      2101  160 182
+      2557  151 114
+      2241  252 185
+      2556  280 119
+      2001  187 15
+      2557  658 116
+      2557  569 103
+      2599  492 277
+      2002  98 15
+      2013  2 27 25
+      2013  279 13
+      2014  369 18 5
+      2013  462 13 25
+      2001  556 12 25
+      2002  644 39 25
+      2047  264 147
+      2048  97 142
+      2048  515 131
+      2048  604 144
+      2014  360 57 150
+      2013  280 30 50
+      2110  351 65
+      34889  487 274
+      34888  189 187 55
+      34921  5 180
+      2001  186 38 50
+      2002  101 72 75
+   end
+   objects
+      object plankDoor22339-0 of PlankDoor
+         properties
+            x	417
+            y	155
+            loop	0
+            linkTo	door11339-0
+         end
+         base openable
+            isOpen	0
+         end
+      end
+      object shop22339-1 of Shop
+         properties
+            x   341
+            y   301
+            loop        1
+         end
+         base character
+            sex 0
+            properName  "Borehl (NPC)"
+         end
+         base container
+            worn        BrownShirt
+            worn        BrownPants
+            worn        BlueBelt
+            worn        BlueLowBoots
+            head        0 0 1 0 0 0 0 6 4 0 0 1 1
+         end
+        base shop
+                buyMarkup  50
+                sellMarkup 100
+                inventory
+                        category "Weapon Smithing" 51083
+                                object skbWeaponsmithingI
+                                object skbWeaponsmithingII
+                                object skbWeaponsmithingIII
+                                object skbWeaponsmithingIV
+                                object skbWeaponsmithingV
+                        end
+                        category "Armor Smithing" 51083
+                                object skbArmorcraftingI
+                                object skbArmorcraftingII
+                                object skbArmorcraftingIII
+                                object skbArmorcraftingIV
+                                object skbArmorcraftingV
+                        end
+                end
+        end
+      end
+   end
+end

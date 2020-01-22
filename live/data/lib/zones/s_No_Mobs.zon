@@ -1,0 +1,7 @@
+name "UnchartedTerritory"
+title "uncharted territory"
+worldFile "../data/lib/world/NO_MOBS.WLD"
+resetInterval 9000000 
+maximumObjectAge 0 
+allowCombat 0
+midiFile 14

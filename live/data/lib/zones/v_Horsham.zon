@@ -1,0 +1,10 @@
+### Horsham ###
+name "horsham"
+title "Horsham"
+worldFile "../data/lib/world/horsham_bn.wld"
+resetInterval 9000000 
+maximumObjectAge 0 
+allowCombat 0
+homeTown 9
+midiFile 9
+#monster Squirrel 10

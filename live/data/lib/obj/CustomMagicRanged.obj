@@ -1,0 +1,101 @@
+# CustomMagicRanged.obj
+
+object  mwGodDager of mwUruzDagger
+	properties
+		special
+		name "Dagger of the Gods"
+		value 150000
+		health 8000
+		color 86
+		level 1000
+
+		# do posion damage
+		affect 5 0 0 -1
+	end
+
+	actions	#Extra Attack
+		vBePutOn setAffect dobj 56 0 0 -1
+		vBeTakenOff clearAffect dobj 56 0 0
+	end
+
+	base carryable
+		weight 3.0
+	end
+
+	base weapon
+		minDamage 1175
+		maxDamage 2175
+	end
+
+	base described
+		text "You see a throwing dagger."
+		idText "You see a throwing dagger of a long dead God, a dangerous-looking magically poisoned weapon."
+		shopText "This foul throwing dagger belongs to the Past."
+	end
+end
+
+object  mwSword of Weapon
+	properties
+		special
+		name "Dagger of the Gods"
+		view 16100
+		value 150000
+		health 8000
+		color 86
+		level 1000
+
+		# do posion damage
+		affect 5 0 0 -1
+	end
+
+	actions	#Extra Attack
+		vBePutOn setAffect dobj 56 0 0 -1
+		vBeTakenOff clearAffect dobj 56 0 0
+	end
+
+	base carryable
+		weight 3.0
+	end
+
+	base weapon
+		minDamage 1175
+		maxDamage 2175
+	end
+
+	base described
+		text "You see a throwing dagger."
+		idText "You see a throwing dagger of a long dead God, a dangerous-looking magically poisoned weapon."
+		shopText "This foul throwing dagger belongs to the Past."
+	end
+end
+
+object mwExcalibur of TwoHandSword
+    properties
+        special
+        name "The Legendary Excalibur"
+        value 20000
+        health 800
+        color 101
+        level 50
+    end    
+	
+	base carryable
+        weight 30.0
+    end    
+	
+	base weapon
+        minDamage 40
+        maxDamage 70
+    end    
+	
+	actions
+        vBePutOn setAffect dobj 56 0 0 -1
+        vBeTakenOff clearAffect dobj 56 0 0
+    end    
+	
+	base described
+        text "You see a huge two-handed sword made of some strange material."
+        idText "This is legendary Excalibur, a dangerous weapon for a beginner.  Level Required: 50"
+        shopText "Here is the legendary Excalibur, a dangerous weapon for a beginner."
+    end
+end

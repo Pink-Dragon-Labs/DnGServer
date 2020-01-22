@@ -1,0 +1,116 @@
+#
+# Wraiths
+#
+
+object Wraith of NPC
+	properties
+		name "Wraith"
+		view 100
+		clutStart -1
+		color 7
+
+		alignment 0
+		armor 20
+
+		endurance 12
+		intelligence 12
+		dexterity 12
+
+		minLevel 18
+		maxLevel 30
+
+		minDamage 18
+		maxDamage 30
+
+		soundGroup 18
+		treasure 7
+
+		damageType 1
+		armorType 3
+	end
+
+	base container
+		head  0 0 0 0 0 0 0 0 0 0 0 0
+		worn RandomMaleMonsterShirt
+		worn RandomMaleMonsterPants
+		worn RandomBelt
+		worn RandomMonsterBoots
+		worn RandomSteelMonsterWeapon
+		worn RandomCowl
+		worn RandomBand
+		worn RandomShield
+		object RandomMonsterMegaTreasure
+	end
+
+	base character
+		title "the Wraith"
+
+		# master in all weapon combat
+		skill 7 3
+
+		skill 0 3
+		skill 1 3
+		skill 2 3
+		skill 3 3
+		skill 4 3
+		skill 5 3
+		skill 6 3
+		skill 7 3
+		skill 8 3
+		skill 9 3
+		skill 10 3
+
+		# acrobatics expert
+		skill 9 3
+	end
+
+	actions
+		vBeBorn changeSpellResistance self 100 4 2
+	end
+
+	base described
+		text "Wraith -- 100% necromancy resistance, 100% mysticism resistance, 18 - 30 melee damage.\n\n"
+	end
+end
+
+
+
+object Meatbag of NPC
+	properties
+	special
+		name "Meatbag"
+		view 100
+		clutStart -1
+		alignment 127
+		armor 20
+		strength 3
+		endurance 150
+		intelligence 60
+		dexterity 24
+		minLevel 3400
+		maxLevel 5000
+		minDamage 10
+		maxDamage 20
+		soundGroup 18
+		treasure 1
+		damageType 1
+		armorType 3
+	end
+
+	base container
+		head	0 2 3 2 2 5 8 4 3 2 3 2
+		worn	maInvulPlate
+        worn	BlackPants
+        worn	bGlowboot
+        worn	bFinvarra
+	end
+	base character
+		title "Tooch's Brother"
+	end
+	actions
+		vBeBorn changeSpellResistance self 10 0 1 2 3 4
+	end
+	base described
+		text "You see Tooch's Brother, He just likes attacking.\n 10% Magic Resistance\n"
+	end
+end

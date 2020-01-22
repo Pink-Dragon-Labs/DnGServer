@@ -1,0 +1,20 @@
+id 99500
+
+banner "I seek an ancient magical jewel.."
+
+topic "Who are you?"
+        text "I'm a traveller, like you. I have been searching for these magical jewels for longer than most of these towns have been here."
+        text "I do not wish to talk of myself any longer."
+end
+
+topic "Jewel? What kind of jewel?"
+        text "The jewels were said to have been blessed by the gods themselves, some say daemons cursed them."
+        text "They are said to have an ancient power. Nobody alive here is old enough to harness that power so I offer a reward for them."
+        text "The Jewel I seek is an ancient Magical Ruby"
+end
+
+topic "So, I can bring you this jewel for a reward?"
+	quest 99500
+	text "You already have?"
+end
+

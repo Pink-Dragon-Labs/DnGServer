@@ -1,0 +1,3074 @@
+#
+# Magical Weapons
+#
+
+#------------------------------------------------------------
+object mwStinger of ThrowingDagger
+	properties
+		name "The Stinger"
+		value 15000
+		health 800
+		color 83
+
+		# do poison damage
+		caffect 0
+		affect 5 0 0 -1
+	end
+
+	base described
+		text "You see a throwing dagger made of mythril."
+		idText "You see The Stinger, a dangerous-looking magically poisoned throwing dagger"
+		shopText "This hideous throwing dagger will poison your victims."
+	end
+
+	base carryable
+		weight 0.3
+	end
+
+	base weapon
+		minDamage 10
+		maxDamage 30
+	end
+end
+
+#------------------------------------------------------------
+object mwFangblade of Dagger
+	properties
+		name "Fangblade"
+		value 15000
+		health 800
+		color 83
+
+		# do poison damage
+		caffect 0
+		affect 5 0 0 -1
+	end
+
+	base carryable
+		weight 0.5
+	end
+
+	base weapon
+		minDamage 20
+		maxDamage 30
+	end
+
+	base described
+		text "You see a mythril dagger of impressive quality."
+		idText "You see the Fangblade - a poisoned dagger of impressive quality."
+		shopText "This magical dagger will poison your foes."
+	end
+end
+
+#------------------------------------------------------------
+object mwExecutionersAxe of Axe
+	properties
+		name "The Executioner"
+		value 28500
+		health 850
+		color 93
+		strength 5
+		level 200
+	end
+
+	actions
+		vBePutOn setAffect dobj 56 0 0 -1
+		vBeTakenOff clearAffect dobj 56 0 0
+	end
+
+	base carryable
+		weight 100.0
+	end
+
+	base weapon
+		minDamage 75
+		maxDamage 175
+	end
+
+	base described
+		text "You see a battle axe made of unusual alloys."
+		idText "The Axe of the Executioner. While the weight of this axe is formidable, when it's mark is found it is sure to inflict heavy damage on any foe. Runes inscribed on the blade can protect the bearer of this weapon against some spells affecting the mind.  Level Required: 200"
+		shopText "A fine Axe. Useful for hacking up the most fierce opponents."
+	end
+end
+
+#------------------------------------------------------------
+object mwLifeLeech of ShortSword
+	properties
+		name "Life Leech"
+		value 20000
+		health 800
+		color 98
+
+		# do half life-steal damage
+		affect 10 0 0 -1
+	end
+
+	base carryable
+		weight 3.0
+	end
+
+	base weapon
+		minDamage 15
+		maxDamage 30
+	end
+
+	base described
+		text "You see a well crafted obsidianite short sword."
+		idText "You see a hideous magical weapon, aptly named the Life Leech."
+		shopText "This hideous sword will drain your opponents life force and transfer it to you."
+	end
+end
+
+#------------------------------------------------------------
+object mwVulcanEdge of LongSword
+	properties
+		name "Vulcan Edge"
+		value 20000
+		health 800
+		color 58
+
+		# do pure fire damage
+		caffect 0
+		affect 1 0 0 -1
+	end
+
+	base carryable
+		weight 4.0
+	end
+
+	base weapon
+		minDamage 20
+		maxDamage 40
+	end
+
+	base described
+		text "You see a strange red long sword."
+		idText "You see the Vulcan Edge, a most destructive magical weapon."
+		shopText "This is the flaming blade 'Vulcan Edge'."
+	end
+end
+
+#------------------------------------------------------------
+object mwNullsword of BroadSword
+	properties
+		name "Nullsword"
+		value 25000
+		health 800
+		color 98
+
+		# do pure experience damage
+		caffect 0
+		affect 8 0 0 -1
+	end
+
+	base carryable
+		weight 6.0
+	end
+
+	base weapon
+		minDamage 20
+		maxDamage 40
+	end
+
+	base described
+		text "You see a broad sword made of heavy obsidianite alloy."
+		idText "You see the infamous Nullsword. It can negate an opponent's life experience at each strike!"
+		shopText "A broad sword, light and agile. Special properties allow it to negate an opponent's life experience when they are struck."
+	end
+end
+
+#------------------------------------------------------------
+object mwWrath of TwoHandSword
+	properties
+		name "The Wrath"
+		value 35000
+		health 800
+		color 93
+		level 200
+	end
+
+	base carryable
+		weight 30.0
+	end
+
+	base weapon
+		minDamage 60
+		maxDamage 120
+	end
+
+	actions
+		vBePutOn setAffect dobj 56 0 0 -1
+		vBeTakenOff clearAffect dobj 56 0 0
+	end
+
+	base described
+		text "You see a huge two-handed sword made of some strange material."
+		idText "This is the wrath, the most destructive of two-handed swords.  Level Required: 200"
+		shopText "Here is the renowned Wrath, the most dangerous of two-handed swords."
+	end
+end
+
+#------------------------------------------------------------
+object mwDefender of LongSword
+	properties
+		name "The Defender"
+		value 25000
+		health 800
+		color 53
+	end
+
+	base carryable
+		weight 4.0
+	end
+
+	base weapon
+		minDamage 15
+		maxDamage 35
+	end
+
+	actions
+		vBePutOn setAffect dobj 57 0 0 -1
+		vBeTakenOff clearAffect dobj 57 0 0
+	end
+
+	base described
+		text "You see a finely crafted long sword made of some strange material."
+		idText "You see the Defender, a powerful magical sword that will increase your ability to avoid attacks."
+		shopText "Long swords are quite a popular item.  They are not quite as devastating as the battle axe or two-handed sword but having a lighter weapon has it's advantages when you're on the battlefield."
+	end
+end
+
+#------------------------------------------------------------
+object mwUnholyClub of AdmantiumClub
+# Designed for use by EvilMinions, the defenders of the Evil Wizards.
+	properties
+		name "Unholy Club"
+		value 2000
+		enchantResistance 100
+		color 97
+		# affect 10 0 0 -1	Steal Life
+		affect 2 0 0 -1		# Cold Damage
+	end
+
+	base described
+		idText "Bonus: Damage quadrupled when used against good opponents.\nEnchant Resistance: 100 percent.\nLevel Required: 1001\n"
+		shopText "Bonus: Damage quadrupled when used against good opponents.\nEnchant Resistance: 100 percent.\nLevel Required: 1001\n"
+	end
+
+	base weapon
+		minDamage 600
+		maxDamage 800
+		mask warrior
+		mask thief
+		mask adventurer
+		mask wizard
+	end	
+
+	actions 
+		#Extra Attack
+		#vBePutOn setAffect dobj 56 0 0 -1
+		#vBeTakenOff clearAffect dobj 56 0 0
+		vBePutOn changeGoodMDMMod dobj 400
+		vBeTakenOff changeGoodMDMMod dobj -400
+	end
+end
+#------------------------------------------------------------
+object mwMaceOfVirtue of AdmantiumMace
+# Designed for use by Champions, the defenders of the Good Wizards.
+	properties
+		name "Mace of Virtue"
+		value 2000
+		enchantResistance 100
+		color 79
+		# affect 10 0 0 -1	Steal Life
+		affect 4 0 0 -1		# Acid Damage
+	end
+
+	base described
+		idText "Bonus: Damage quadrupled when used against evil opponents.\nEnchant Resistance: 100 percent.\nLevel Required: 1001\n"
+		shopText "Bonus: Damage quadrupled when used against evil opponents.\nEnchant Resistance: 100 percent.\nLevel Required: 1001\n"
+	end
+
+	base weapon
+		minDamage 600
+		maxDamage 800
+		mask warrior
+		mask adventurer
+		mask thief
+		mask wizard
+	end	
+
+	actions 
+		#Extra Attack
+		#vBePutOn setAffect dobj 56 0 0 -1
+		#vBeTakenOff clearAffect dobj 56 0 0
+		vBePutOn changeEvilMDMMod dobj 400
+		vBeTakenOff changeEvilMDMMod dobj -400
+	end
+end
+#------------------------------------------------------------
+object mwVengenceSword of AdmantiumBroadSword
+# Designed for use by Protectors, the defenders of the Neutral Wizards.
+	properties
+		name "Sword of Vengeance"
+		value 2000
+		enchantResistance 100
+		color 100
+		# affect 10 0 0 -1	Steal Life
+		affect 3 0 0 -1		# Lightning Damage
+	end
+
+	base described
+		idText "Bonus: Damage quadrupled when used against either good or evil opponents.\nEnchant Resistance: 100 percent.\nLevel Required: 1001\n"
+		shopText "Bonus: Damage quadrupled when used against either good or evil opponents.\nEnchant Resistance: 100 percent.\nLevel Required: 1001\n"
+	end
+
+	base weapon
+		minDamage 600
+		maxDamage 800
+		mask warrior
+		mask adventurer
+		mask thief
+		mask wizard
+	end	
+
+	actions 
+		#Extra Attack
+		#vBePutOn setAffect dobj 56 0 0 -1
+		#vBeTakenOff clearAffect dobj 56 0 0
+		vBePutOn changeEvilMDMMod dobj 400
+		vBePutOn changeGoodMDMMod dobj 400
+		vBeTakenOff changeGoodMDMMod dobj -400
+		vBeTakenOff changeEvilMDMMod dobj -400
+	end
+end
+#------------------------------------------------------------
+object mwTiwazSword of BroadSword 
+	properties
+		name "Sword of Tiwaz"
+		value 17500
+		enchantResistance 35
+		level 600
+		color 115
+		strength 5
+	end
+	base weapon
+		minDamage 60
+		maxDamage 120
+	end	
+	actions
+		# Extra Attack
+		vBePutOn setAffect dobj 56 0 0 -1
+		vBeTakenOff clearAffect dobj 56 0 0
+	end
+	base described
+		text "You see a glistening sword with a rune carved on its blade."
+		idText "A rune sword of Tiwaz, a mighty weapon forged by Finvarra to ensure victory on the field of battle.\n  Level Required: 600\n\n"
+		shopText "As you can see by the rune etched upon the blade, this is the legendary Sword of Tiwaz, a powerful weapon that invokes the essence of Victory."
+	end
+end
+
+#------------------------------------------------------------
+object mwUruzDagger of ThrowingDagger 
+	properties
+		name "Uruz Dagger"
+		value 12500
+#		enchantResistance 35
+		health 500
+		level 200
+		strength 5
+		color 115
+	end
+	actions
+		# Regeneration (as per Ring of Regeneration)
+		vBePutOn setAffect dobj 44 0 0 315360000 
+		vBeTakenOff clearAffect dobj 44 0 0
+		# Extra Attack
+		vBePutOn setAffect dobj 56 0 0 -1
+		vBeTakenOff clearAffect dobj 56 0 0
+		# Dexterity Bonus
+		vBePutOn setAffect dobj 59 0 0 -1
+		vBeTakenOff clearAffect dobj 59 0 0
+		# Acid Weakness
+		vBePutOn setAffect dobj 4 3 0 -1
+		vBeTakenOff clearAffect dobj 4 3 0
+	end
+	base carryable
+		weight 2.3
+	end
+	base weapon
+		minDamage 55	#35
+		maxDamage 75	#60
+	end	
+	base described
+		text "You see a glistening dagger with a rune carved on its blade." 
+		idText "The rune etched upon the blade reveals this as the renowned Uruz Dagger, a deadly weapon that invokes the powers of Dexterity and Regeneration. Level Required: 200\n\n"
+		shopText "A rune dagger of Uruz, a prized weapon forged by Finvarra to aid in good health on the field of battle.\n"
+	end
+end
+#------------------------------------------------------------
+object mwSpecialNullsword of mwNullsword
+# Designed for use by Servants of the Mists.
+	properties
+		name "Sword of the Mists"
+		color 48 #63
+
+		# do normal damage
+		affect 0 0 0 -1
+		# do experience damage
+		affect 8 0 0 -1
+		# do fire damage
+		affect 1 0 0 -1
+		# Free Will
+		affect 86 0 0 -1
+		# Retention
+		affect 65 0 0 -1
+	end
+
+
+	base carryable
+		weight 590.0
+	end
+
+	base weapon
+		minDamage 800
+		maxDamage 5000
+		mask warrior
+		mask adventurer
+		mask thief
+		mask wizard
+	end
+	base described
+		text "You see a weapon with a foul appearance that matches the stench emanating from its blade."
+		idText "A sword from the Mists, a profane and despicable weapon whose foul appearance matches the stench emanating from its blade."
+		shopText "This weapon does not belong in the mortal world."
+	end
+end
+#------------------------------------------------------------
+object mwBerserkersAxe of Axe
+	properties
+		name "Berserker's Axe"
+		value 28500
+		health 850
+		color 100
+		strength 5
+	end
+
+	actions
+		vBePutOn setAffect dobj 56 0 0 -1
+		vBeTakenOff clearAffect dobj 56 0 0
+		vBePutOn setAffect dobj 86 0 0 -1
+		vBeTakenOff clearAffect dobj 86 0 0
+	end
+
+	base carryable
+		weight 175.0
+	end
+
+	base weapon
+		minDamage 2000
+		maxDamage 4000
+		mask warrior
+		mask adventurer
+		mask thief
+		mask wizard
+	end
+
+	base described
+		text "You see a battle axe made of rare metals known to be found only in the most distant northern mountains."
+		idText "A Berserker's Axe. The dings and dents on its blades mark its frequent use. Level Required: 1001"
+		shopText "A fine Axe. Useful for hacking up the most fierce opponents."
+	end
+end
+
+#------------------------------------------------------------
+object mwMistSpySword of ShortSword
+	properties
+		name "Mists Short Sword"
+		value 20000
+		health 800
+		color 48 #63
+		special
+
+		# do half life-steal damage
+		affect 10 0 0 -1
+	end
+
+	base carryable
+		weight 590.0
+	end
+
+	base weapon
+		minDamage 400
+		maxDamage 2500
+		mask warrior
+		mask adventurer
+		mask thief
+		mask wizard
+	end
+
+	base described
+		text "You see a foul looking weapon whose revulsion is matched only by the stench emanating from its blade."
+		idText "A shortsword from the Mists, a profane and despicable weapon whose foul appearance matches the stench emanating from its blade."
+		shopText "This weapon does not belong in the mortal world."
+	end
+end
+#------------------------------------------------------------
+object mwMistWizDagger of ThrowingDagger
+	properties
+		name "Mist Wizard Dagger"
+		value 15000
+		health 800
+		color 58
+		enchantResistance 100
+		special
+
+		# do poison damage
+		affect 5 0 0 -1
+	end
+
+	actions	#Extra Attack
+		vBePutOn setAffect dobj 56 0 0 -1
+		vBeTakenOff clearAffect dobj 56 0 0
+	end
+
+	base carryable
+		weight 3.0
+	end
+
+	base weapon
+		minDamage 75
+		maxDamage 175
+		mask warrior
+		mask adventurer
+		mask thief
+		mask wizard
+	end
+
+	base described
+		text "You see a throwing dagger."
+		idText "You see a throwing dagger of a Mist Wizard, a dangerous-looking magically poisoned weapon."
+		shopText "This foul throwing dagger belongs to the Mists."
+	end
+end
+
+#------------------------------------------------------------
+object mwBonecrusher of Club
+	properties
+		special
+		name "The Bonecrusher"
+		value 28500
+		level 200	#same as EA
+		color 104
+		health 900	#EA = 850
+		strength 5	#same as EA
+		# do pure stun damage
+		#caffect 0
+		#affect 13 0 0 -1
+	end
+
+	base weapon
+		# EA: 75-170. Increase by 1/4. 
+		minDamage 95
+		maxDamage 215
+	end	
+
+	base carryable
+		# EA: 175. Increase by 1/4. 
+		weight 180	#200.0
+        # Warriors Only
+        #mask wizard
+        #mask adventurer
+        #mask thief
+	end
+
+	components
+		AdmantiumBar #2500
+		AdmantiumBar #2500
+		AdmantiumBar #2500
+		AdmantiumBar #2500
+		AdmantiumBar #2500
+		AdmantiumBar #2500
+		MagicBar	#1000
+		MagicBar	#1000
+		MagicBar	#1000
+		SweatBar	#5000
+		SweatBar	#5000
+		SweatBar	#5000
+		#--------------------
+		#Total 		33000 gold
+	end
+
+	base described
+		idText "The Bonecrusher, a heavy club of devastating power, best used by only the strongest.\n\nLevel Required: 200\n\n"
+		shopText "You see a Bonecrusher Club.\nLevel Required: 200\"
+	end
+end
+
+#------------------------------------------------------------
+object mwFinvarraClaw of AdmantiumClaw
+	properties
+		special
+		name "Finvarra's Fist"
+		value 28500
+		health 260
+		color 115
+		strength 5
+		level 200
+	end
+
+	base dye
+	end
+
+	base weapon
+		minDamage 50	#Half the value of a Wrath
+		maxDamage 75	#Half the value of a Wrath
+		range 2
+		damageType 2 	#Same type as Two-Handed Sword
+	end
+
+	base carryable
+		weight 3.8
+        # Wizards Only
+        #mask warrior
+        #mask adventurer
+        #mask thief
+	end
+
+	actions
+		# Extra Attack
+		vBePutOn setAffect dobj 56 0 0 -1
+		vBeTakenOff clearAffect dobj 56 0 0
+		# Strength Bonus
+		vBePutOn setAffect dobj 39 0 0 -1
+		vBeTakenOff clearAffect dobj 39 0 0
+	end
+
+	components
+		AdmantiumBar #2500
+		MagicBar	#1000
+		MagicBar	#1000
+		MagicBar	#1000
+		MagicBar	#1000
+		MagicBar	#1000
+		MagicBar	#1000
+		MagicBar	#1000
+		MagicBar	#1000
+		SweatBar	#5000
+		SweatBar	#5000
+		#--------------------
+		#Total 		20500 gold
+	end
+
+	base described
+		idText "You see a finely crafted claw. This claw magically reaches out and slices opponents at a distance.\nLevel Required: 200\n"
+		shopText "This is the finest claw you can find."
+	end
+end
+
+
+#------------------------------------------------------------
+object mwFinvarraDefender of BroadSword
+	properties
+		special
+		name "Finvarra's Defender"
+		value 25000
+		health 800
+		color 115
+		level 500
+	end
+
+	base carryable
+		weight 4.0
+	end
+
+	base weapon
+		minDamage 50
+		maxDamage 100
+		range 2
+	end
+
+	actions
+			#57	_AFF_EXTRA_DODGE
+		vBePutOn setAffect dobj 57 0 0 -1
+		vBeTakenOff clearAffect dobj 57 0 0
+			#56	_AFF_EXTRA_ATTACK
+		vBePutOn setAffect dobj 56 0 0 -1
+		vBeTakenOff clearAffect dobj 56 0 0
+	end
+
+	base described
+		text "You see a finely crafted Broad Sword."
+		idText "You see the Finvarra's Defender, a powerful magical sword that will increase your fighting skills. It will bestow an extra dodge and an extra attack. \nLevel Required: 500\n."
+		shopText "Long swords are quite a popular item.  They are not quite as devastating as the battle axe or two-handed sword but having a lighter weapon has it's advantages on the battlefield."
+	end
+end
+
+#------------------------------------------------------------
+object mwThiefBlade of Dagger
+	properties
+		special
+		name "Thief's Blade"
+		value 35000
+		health 800
+		color 89     # should be a shade of amber
+		level 300
+		# do half life-steal damage
+		affect 10 0 0 -1
+	end
+
+	base carryable
+		weight 3.0
+	end
+
+	base weapon
+		minDamage 50
+		maxDamage 100
+		range 1
+	end
+
+	base described
+		text "You see a cleverly crafted dagger that is easily concealed."
+		idText "You see a deadly magical weapon, aptly named the Thief's Blade since they frequently use it. It will steal life from your opponent. \nLevel Required: 300\n "
+		shopText "This dagger will steal your opponents health and transfer it to you."
+	end
+end
+
+#------------------------------------------------------------
+#################################
+#								#
+#								#
+#								#
+#			New Weapons			#
+#								#
+#								#
+#								#
+#################################
+object mwAxeOfDesolation of Axe
+	properties
+	special
+		name "Axe of Desolation"
+		value 12000
+		health 1000
+		strength 5
+		level 650
+		color 115          	#Finvarra
+		affect 0 0 0 -1		# Normal Damage	
+		affect 1 0 0 -1    	# Fire Dmg
+	end
+
+	
+	actions
+		vBePutOn setAffect dobj 39 0 0 -1 		# Strength Bonus
+		vBeTakenOff clearAffect dobj 39 0 0     #
+		vBePutOn setAffect dobj 57 0 0 -1		# Extra Dodge
+		vBeTakenOff clearAffect dobj 57 0 0     #
+		vBePutOn setAffect dobj 59 0 0 -1       # Dexterity
+		vBeTakenOff clearAffect dobj 59 0 0     #
+		vBePutOn setAffect dobj 63 0 0 -1       # Endurance
+		vBeTakenOff clearAffect dobj 63 0 0     #
+		vBePutOn setAffect dobj 67 0 0 -1       # Nourishment
+		vBeTakenOff clearAffect dobj 67 0 0     #
+		vBePutOn setAffect dobj 56 0 0 -1	    # Extra Attack
+		vBeTakenOff clearAffect dobj 56 0 0     #
+	end
+
+	
+	base carryable
+		weight 110.0
+	end
+
+	
+	base weapon
+		minDamage 135
+		maxDamage 250
+	end
+
+	
+	base described
+		text "This Axe seems different from all the others you've encountered..."
+		idText "The Axe of Desolation is an Axe most never live to tell about. \nLooking at it you feel the call of the Void, whispering to you to commit heinous acts.\n \nFrom this Axe you will receive a boost to your Strength, and Dexterity as well as a boost to your Endurance and an extra Dodge.\n \nLevel Required: 650\n"
+		shopText "Th.. The Axe of Desolation...."
+	end
+end
+#------------------------------------------------------------
+object mwSalvation of TwoHandSword
+	properties
+	special
+		name "Salvation"
+		value 100000
+		health 1000
+		level 400
+		strength 5		
+		affect 0 0 0 -1		   # Normal Damage	
+		color 101              # Brighter-White
+		affect 10 0 0 -1       # Life-Steal
+		affect 3 0 0 -1		   # Lightning Damage
+	end
+
+	
+	base carryable
+		weight 50.0
+	end
+
+	base weapon
+		minDamage 65
+		maxDamage 100
+	end
+
+	
+	actions
+		vBePutOn setAffect dobj 33 0 0 -1              # Berserk
+		vBeTakenOff clearAffect dobj 33 0 0            #
+		vBePutOn setAffect dobj 56 0 0 -1			   # Extra Attack
+		vBeTakenOff clearAffect dobj 56 0 0            #
+		vBePutOn setAffect dobj 97 0 0 -1              # White Hair
+		vBeTakenOff clearAffect dobj 97 0 0            #
+		vBePutOn changeEvilMDMMod dobj 25              # 25 Dmg Vs Evil
+		vBeTakenOff changeEvilMDMMod dobj -25          #
+		vBePutOn setAffect dobj 4 3 0 -1               # Acid Weakness (Hidden)
+		vBeTakenOff clearAffect dobj 4 3 0             #
+		vBePutOn setAffect dobj 1 3 0 -1               # Fire Weakness (Hidden)
+		vBeTakenOff clearAffect dobj 1 3  0            #
+		vBePutOn setAffect dobj 2 3 0 -1               # Cold Weakness (Hidden)
+		vBeTakenOff clearAffect dobj 2 3  0            #
+		vBePutOn setAffect dobj 60 0 0 -1              # Clumsiness (-Dexterity) (Hidden)
+		vBeTakenOff clearAffect dobj 60 0 0            #		
+		vBePutOn setAffect dobj 62 0 0 -1              # Stupid (-Intel) (Hidden)
+		vBeTakenOff clearAffect dobj 62 0 0            #				
+	end
+
+	
+	base described
+		text "This sword radiates light unlike any light you've ever seen.."
+		idText "Salvation. \nThis Sword siphons your Opponent's life essence.\n \nWielding this you will go Berserk and attack without hesitation. Dying your hair pure white to match your new soul, it also grants an Extra Attack, and Damage vs Evil opponents.\n This Sword also smites your opponents with Lightning damage. Wielding this sword does come at a heavy cost.  \nLevel Required: 400\n"
+		shopText "The Shopkeeper is not worthy of the blade. They cannot afford it."
+	end
+end
+#------------------------------------------------------------
+object mwAbyss of TwoHandSword
+	properties
+	special
+		name "Abyss"
+		value 100000
+		health 1000
+		level 400
+		strength 5		
+		color 97              # Dark-Black Glow
+		affect 0 0 0 -1		  # Normal Damage	
+		affect 10 0 0 -1      # Life-Steal
+		affect 2 0 0 -1       # Cold Damage		
+	end
+
+	
+	base carryable
+		weight 50.0
+	end
+
+	
+	base weapon
+		minDamage 65
+		maxDamage 100
+	end
+	
+	
+	actions
+		vBePutOn setAffect dobj 33 0 0 -1              # Berserk
+		vBeTakenOff clearAffect dobj 33 0 0            #
+		vBePutOn setAffect dobj 56 0 0 -1			   # Extra Attack
+		vBeTakenOff clearAffect dobj 56 0 0            #
+		vBePutOn setAffect dobj 98 0 0 -1              # Black Hair
+		vBeTakenOff clearAffect dobj 98 0 0            #
+		vBePutOn changeGoodMDMMod dobj 25              # 25 Dmg Vs Good
+		vBeTakenOff changeGoodMDMMod dobj -25          #
+		vBePutOn setAffect dobj 4 3 0 -1               # Acid Weakness (Hidden)
+		vBeTakenOff clearAffect dobj 4 3 0             #
+		vBePutOn setAffect dobj 1 3 0 -1               # Fire Weakness (Hidden)
+		vBeTakenOff clearAffect dobj 1 3  0            #
+		vBePutOn setAffect dobj 2 3 0 -1               # Cold Weakness (Hidden)
+		vBeTakenOff clearAffect dobj 2 3  0            #
+		vBePutOn setAffect dobj 60 0 0 -1              # Clumsiness (-Dexterity) (Hidden)
+		vBeTakenOff clearAffect dobj 60 0 0            #		
+		vBePutOn setAffect dobj 62 0 0 -1              # Stupid (-Intel) (Hidden)
+		vBeTakenOff clearAffect dobj 62 0 0            #		 	
+	end
+
+	
+	base described
+		text "You can feel this sword draining the happiness of you and those around you.."
+		idText "Abyss. \nThis Sword siphons your Opponent's life essence.\n \nWielding this you will go Berserk and attack without hesitation. While staining your hair the color of your soul, it also grants an Extra Attack, and Damage vs Good opponents.\n This Sword also strikes fear into your opponent causing Cold Damage. Wielding this sword does come at a heavy cost. \nLevel Required: 400\n"
+		shopText "The Shopkeeper does not want this item, they refuse to pay for it."
+	end
+end
+#------------------------------------------------------------
+object mwMaceOfCreation of Mace
+	properties
+	special
+		name "Mace of Creation"
+		value 100000
+		enchantResistance 100
+		strength 5		
+		level 600
+		color 97            #Dark Black Glow
+		affect 10 0 0 -1	# Steal Life
+		affect 4 0 0 -1		# Acid Damage
+		affect 5 0 0 -1		# Poison Damage
+		affect 2 0 0 -1		# Cold Damage
+		affect 3 0 0 -1		# Lightning Damage
+		affect 1 0 0 -1     # Fire Damage
+	end
+
+
+	base weapon
+		minDamage 115
+		maxDamage 220
+	end	
+
+	
+	base carryable
+		weight 150.0
+	end
+
+	
+	actions
+		vBePutOn setAffect dobj 56 0 0 -1 		# Extra Attack
+		vBeTakenOff clearAffect dobj 56 0 0     #
+		vBePutOn setAffect dobj 39 0 0 -1 		# Strength Bonus
+		vBeTakenOff clearAffect dobj 39 0 0     #
+		vBePutOn setAffect dobj 4 3 0 -1 		# Acid Weakness (Hidden)
+		vBeTakenOff clearAffect dobj 4 3 0      #
+	end
+
+
+	base described
+		text "This Mace has a glow about it..."
+		idText "The Mace of Creation! \nThis Mace is said to have existed before Creation itself.\n Over the millennia it has gained it's own magical properties. \nThis Mace does Fire, Cold, Lightning and Acid Damage and may also Leech the very Life from your enemies.\n This Mace also grants an Extra Swing, a boost to your Strength but comes with a price..  \nLevel Required: 600\n"
+		shopText "The Mace of Creation! Never did I think I would see this in person!"
+	end	
+end
+#------------------------------------------------------------
+object mwDaggerOfAbsolution of Dagger
+	properties
+	special
+		name "Dagger of Absolution"
+		value 100000
+		health 800
+		level 100
+		strength 5
+		color 41            # BrightWhite
+		affect 0 0 0 -1		# Normal Damage	
+        affect 10 0 0 -1    # Life-Steal
+		affect 5 0 0 -1     # Poison Damage
+		affect 2 0 0 -1     # Cold Damage
+	end
+
+	
+	base carryable
+		weight 35
+	end
+
+	
+	base weapon
+	    damageType 2 	#Same type as Two-Handed Sword
+	    range 2
+		minDamage 40
+		maxDamage 100
+	end
+
+	
+	actions
+		vBePutOn changeMeleeArmorPiercing dobj 25          # Attack target armor rating reduced by 25
+		vBeTakenOff changeMeleeArmorPiercing dobj -25      #
+		vBePutOn setAffect dobj 44 0 0 315360000    	   # Regeneration Bonus
+		vBeTakenOff clearAffect dobj 44 0 0                #
+		vBePutOn setAffect dobj 57 0 0 -1                  # Extra Dodge
+		vBeTakenOff clearAffect dobj 57 0 0                #
+		vBePutOn setAffect dobj 56 0 0 -1				   # Extra Attack
+		vBeTakenOff clearAffect dobj 56 0 0                #
+		vBePutOn setAffect dobj 62 0 0 -1                  # Stupid (-Intel) (Hidden)
+		vBeTakenOff clearAffect dobj 62 0 0                #
+		vBePutOn setAffect dobj 41 0 0 -1                  # Shielding
+		vBeTakenOff clearAffect dobj 41 0 0                #
+		vBePutOn setAffect dobj 60 0 0 -1                  # Clumsiness (-Dexterity) (Hidden)
+		vBeTakenOff clearAffect dobj 60 0 0                #
+	end
+	
+
+	base described
+		text "This Dagger feels heavier than the average dagger.."
+		idText "The Dagger Of Absolution. \nCrafted with a metal unlike any you've ever seen.\n \nThe weight of this dagger is staggering, considering the size.\n When equipping this dagger, you will be blessed with Regeneration, Shielding, as well as an Extra Attack and Dodge. Enemies cower before this dagger, reducing their armor by 25%."
+		shopText "The shopkeeper can barely lift this dagger."
+	end
+end
+#------------------------------------------------------------
+object mwClawOfDestruction of Claw
+	properties
+	special
+		name "Claw of Destruction"
+		value 100000
+		health 500
+		strength 5
+		level 200				
+		color 115           # Finvarra
+		affect 0 0 0 -1		# Normal Damage	
+	end
+
+	
+	base weapon
+		minDamage 95	
+		maxDamage 150	
+		range 2
+		damageType 2 	
+	end
+
+	
+	base carryable
+		weight 50.0
+	end
+
+	
+	actions
+		vBePutOn setAffect dobj 56 0 0 -1 		# Extra Attack
+		vBeTakenOff clearAffect dobj 56 0 0     #
+		vBePutOn setAffect dobj 39 0 0 -1 		# Strength Bonus
+		vBeTakenOff clearAffect dobj 39 0 0     #
+		vBePutOn changeEvilMDMMod dobj 50       # Evil MDM
+		vBeTakenOff changeEvilMDMMod dobj -50	#
+		vBePutOn changeGoodMDMMod dobj 50       # Good MDM
+		vBeTakenOff changeGoodMDMMod dobj -50    #
+	end
+
+	
+	base described
+		text "This claw radiates in your hand. You can feel the power coursing through it."
+		idText "The Claw of Destruction. \nYou can see why it's named that.\n Holding the claw in your hand fills you with a sense of confidence. \nYou can hear the whispers of all the previous owners telling you to be weary.\n \nThis Claw has natural Stun damage and will imbue you with an extra attack, a Strength boost as well as slight damage to the Evil and Good.\n  \nLevel Required: 200\n"
+		shopText "A Claw of Destruction?! Let me see if I can afford that...."
+	end
+end
+#------------------------------------------------------------
+object mwRedemption of Club
+	properties
+	special
+		name "Redemption"
+		value 10000
+		health 900
+		strength 5
+		color 0                # NB
+		caffect 0
+		affect 0 0 0 -1			# Normal Damage	
+		affect 5 0 0 -1        	# Poison Damage
+		level 950
+	end
+	
+	actions
+		vBePutOn setAffect dobj 96 0 0 -1              # Grey Skin
+		vBeTakenOff clearAffect dobj 96 0 0            # 
+		vBePutOn setAffect dobj 62 0 0 -1              # Stupid (-Intel) (Hidden)
+		vBeTakenOff clearAffect dobj 62 0 0            #	
+		vBePutOn setAffect dobj 4 3 0 -1               # Acid Weakness (Hidden)
+		vBeTakenOff clearAffect dobj 4 3 0             #
+		vBePutOn setAffect dobj 1 3 0 -1               # Fire Weakness (Hidden)
+		vBeTakenOff clearAffect dobj 1 3 0             #
+		vBePutOn setAffect dobj 2 3 0 -1               # Cold Weakness (Hidden)
+		vBeTakenOff clearAffect dobj 2 3 0             #
+		vBePutOn setAffect dobj 33 0 0 -1              # Berserk
+		vBeTakenOff clearAffect dobj 33 0 0            #				
+	end
+	
+	base carryable
+		weight 195.0
+	end
+	
+	base weapon
+		minDamage 125
+		maxDamage 245
+		mask thief
+		mask adventurer
+		mask wizard
+	end	
+	
+	base described
+	    text "You can barely lift this."
+		idText "Redemption. \nThis massive club has brought more destruction than any other weapon in existence.\n It has natural Stun Damage and also infects the opponent with Poison. \nThe impurity of this weapon will stain your skin, and also drive you mad.\n \nLevel Required: 950\n Warriors Only!\n"
+		shopText "The Shopkeeper can't hold this and has nowhere to store it. They won't pay you anything for it."
+	end
+end
+#------------------------------------------------------------
+object mwBrokenExcalibur of Mace
+	properties
+	special
+		name "Smelted Excalibur"
+		value 50000
+		health 800
+		enchantResistance 100
+        strength 5
+		color 3                 # Light Rust Brown	
+		affect 0 0 0 -1			# Normal Damage	
+		affect 5 0 0 -1         # Poison 
+        affect 10 0 0 -1		# Steal-Life
+	end
+	
+	
+	base carryable
+		weight 3.0
+	end
+
+	
+	base weapon
+		minDamage 30
+		maxDamage 75
+	end
+	
+	
+	actions
+		vBePutOn setAffect dobj 57 0 0 -1         # Dodge
+		vBeTakenOff clearAffect dobj 57 0 0       #
+		vBePutOn setAffect dobj 41 0 0 -1         # Shielding
+		vBeTakenOff clearAffect dobj 41 0 0       #
+		vBePutOn setAffect dobj 56 0 0 -1         # Extra Attack (Hidden Effect)
+		vBeTakenOff clearAffect dobj 56 0 0       #
+		vBePutOn setAffect dobj 59 0 0 -1         # +Dex
+		vBeTakenOff clearAffect dobj 59 0 0		  #
+	end
+	
+	
+	base described
+		text "This appears to have once been larger.."
+		idText "This was once a mightier weapon, alas it was melted down quite some time ago. \nIn addition to having Natural Poison and Life Steal, it will grant you an Extra Dodge and some Shielding.\n \nThe magic on this mace is so strong adding any more seems impossible.\n"
+		shopText "The shopkeeper laughs at your broken mace. They want nothing to do with it."
+	end
+end
+#------------------------------------------------------------
+object mwRighteous of LongSword
+	properties
+	special
+		name "Righteous"
+		value 50000
+		health 800
+		color 16          # Coral Red Glow
+		affect 0 0 0 -1		# Normal Damage	
+		affect 1 0 0 -1   	# Fire Damage
+	end
+
+	
+	base carryable
+		weight 4.0
+	end
+
+	
+	base weapon
+		minDamage 40
+		maxDamage 80
+	end
+
+	
+	actions
+		vBePutOn setAffect dobj 5 2 0 -1                 # Immune to Poison
+		vBeTakenOff clearAffect dobj 5 2 0               #
+		vBePutOn setAffect dobj 97 0 0 -1                # White Hair
+		vBeTakenOff clearAffect dobj 97 0 0              #
+		vBePutOn setAffect dobj 2 3 0 -1                 # Weakness to Cold (Hidden)
+		vBeTakenOff clearAffect dobj 2 3  0              #
+		vBePutOn changeMeleeArmorPiercing dobj 10        # 10% Armor Pen (Hidden)
+		vBeTakenOff changeMeleeArmorPiercing dobj -10    #
+	end	
+	
+	
+	base described
+		text "This red sword radiates heat"
+		idText "Righteous. \nIt burns its enemies with righteous fire.\n It is hot to the touch, only the strong willed may wield this blade. \nHolding this in your hand bleaches your hair and accelerates your metabolism increasing your poison resistance.\n"
+		shopText "'Righteous' is quite the rare find."
+	end
+end
+#------------------------------------------------------------
+object mwRetribution of LongSword
+	properties
+	special
+		name "Retribution"
+		value 10000
+		health 100000
+		strength 5
+		color 13	            # Royal-Blue
+		affect 0 0 0 -1			# Normal Damage	
+		affect 10 0 0 -1		# Life-Steal
+		affect 2 0 0 -1         # Cold Damage
+		level 950
+	end
+
+	
+	base carryable
+		weight 12.0
+	end
+	
+	base weapon
+		minDamage 110
+		maxDamage 200
+		mask thief
+		mask warrior
+		mask wizard
+	end
+	
+	actions
+		vBePutOn setAffect dobj 59 0 0 -1						# +Attack
+		vBeTakenOff clearAffect dobj 59 0 0						#
+		vBePutOn setAffect dobj 57 0 0 -1						# +Dodge
+		vBeTakenOff clearAffect dobj 57 0 0						#
+		vBePutOn setAffect dobj 61 0 0 -1        			    # Intel Boost (HoI)
+		vBeTakenOff clearAffect dobj 61 0 0        			    #
+		vBePutOn changeMeleeArmorPiercing dobj 20				# 20% Armor Pen
+		vBeTakenOff changeMeleeArmorPiercing dobj -20			#
+		vBePutOn setAffect dobj 59 0 0 -1						# +Dex
+		vBeTakenOff clearAffect dobj 59 0 0						#
+		vBePutOn setAffect dobj 4 3 0 -1              			# Acid Weakness (Hidden)
+		vBeTakenOff clearAffect dobj 4 3 0            			#
+		vBePutOn setAffect dobj 1 3 0 -1            		    # Fire Weakness (Hidden)
+		vBeTakenOff clearAffect dobj 1 3  0         	        #
+		vBePutOn setAffect dobj 2 3 0 -1            			# Cold Weakness (Hidden)
+		vBeTakenOff clearAffect dobj 2 3  0        			    #
+	end
+
+	
+	base described
+		text "This broad sword emits a strange humming."
+		idText "Retribution. \nThis broad sword is the most powerful of it's kind.\n It steals life from your opponent as well as chills them to the bone. \nThis legendary broad sword is enchanted to provide the wielder with an extra Attack and Dodge.\n \nWielding this also hones your intelligence.\n A bonus to Dexterity as well as Armor Penetration are also provided. \nLevel Required: 950\n Adventurers Only!\n"
+		shopText "Wow, I can almost feel the sound this sword is making!"
+	end
+end
+#------------------------------------------------------------
+object mwJustice of ThrowingDagger
+	properties
+	special
+		name "Justice"
+		value 100000
+		health 900
+		color 177				#Shifting All White 
+		strength 5
+		caffect 0
+		affect 0 0 0 -1			# Normal Damage	
+		affect 5 0 0 -1			#Poison Dmg
+		level 950
+	end
+
+	base carryable
+		weight 4.5
+	end
+
+	base weapon
+		minDamage 50
+		maxDamage 95
+		mask warrior
+		mask thief
+		mask adventurer
+	end
+	
+	
+	actions
+	    vBePutOn changeSDM dobj 200 1 3 4             # SDM Boost (Thaum, Elem, Necro)
+		vBeTakenOff changeSDM dobj -200 1 3 4	      #
+		vBePutOn setAffect dobj 61 0 0 -1             # Intel Boost (HoI)
+		vBeTakenOff clearAffect dobj 61 0 0           #
+		vBePutOn setAffect dobj 61 0 0 -1             # Intel Boost (HoI)
+		vBeTakenOff clearAffect dobj 61 0 0           #
+		vBePutOn setAffect dobj 4 3 0 -1              # Weakness to Acid (Hidden)
+		vBeTakenOff clearAffect dobj 4 3 0			  #	
+	end
+	
+	base described
+		text "This dagger glows magnificently."
+		idText "Justice. This dagger strikes fear into anyone not wielding it. Crafted from fine exotic metals, it will inflict poison naturally to your target. Wielding this you will also gain considerable Intelligence, as well as a 200% Boost to your Thaumaturgy, Elementalism and Necromancy Circles. \nLevel Required: 950\n Wizards Only!\n"
+		shopText "Justice? What a find!"
+	end
+end
+#------------------------------------------------------------
+object mwRavager of Dagger
+	properties
+		special
+		name "The Ravager"
+		value 100000
+		health 900
+		strength 5
+		level 950
+		color 0			# Natural Brown
+		affect 0 0 0 -1		# Normal Damage	
+		affect 5 0 0 -1		# Poison Damage
+	end
+
+	base carryable
+		weight 65.0
+	end
+
+	base weapon
+		minDamage 125
+		maxDamage 240
+		range 2
+		damageType 2
+	end
+
+	actions
+		vBePutOn setAffect dobj 62 0 0 -1              # Stupid (-Intel) (Hidden)
+		vBeTakenOff clearAffect dobj 62 0 0            #	
+		vBePutOn setAffect dobj 4 3 0 -1               # Acid Weakness (Hidden)
+		vBeTakenOff clearAffect dobj 4 3 0             #
+		vBePutOn setAffect dobj 33 0 0 -1              # Berserk
+		vBeTakenOff clearAffect dobj 33 0 0            #
+		vBePutOn setAffect dobj 98 0 0 -1	       # Black Hair
+		vBeTakenOff clearAffect dobj 98 0 0	       #
+	end
+	
+	base described
+		text "How is this so heavy.."
+		idText "The Ravager. Exactly what it will do to your opponent. This dagger is shockingly effective for it's size. Wielding The Ravager will stain your hair and send you into a uncontrollable rage. Inflicting natural poison to your enemy, this dagger is sure to clear anything in your path. \nLevel Required: 950\n"
+		shopText "This couldn't be Ravager could it?"
+	end
+end
+#------------------------------------------------------------
+object mwTiwazDagger of ThrowingDagger 
+	properties
+		special
+		name "Makeshift Tiwaz"
+		value 4750
+		health 500
+		level 350
+		strength 5
+		color 171
+	end
+	actions
+		vBePutOn setAffect dobj 98 0 0 -1	       # Black Hair
+		vBeTakenOff clearAffect dobj 98 0 0
+		vBePutOn setAffect dobj 61 0 0 -1          # Intel Boost
+		vBeTakenOff clearAffect dobj 61 0 0
+		vBePutOn setAffect dobj 59 0 0 -1		   # Dex
+		vBeTakenOff clearAffect dobj 59 0 0
+		vBePutOn setAffect dobj 59 0 0 -1		   # Dex
+		vBeTakenOff clearAffect dobj 59 0 0
+	end
+
+	base carryable
+		weight 4.3
+	end
+
+	base weapon
+		minDamage 60
+		maxDamage 80
+	end	
+
+	base described
+		text "It appears to be the tip of a larger blade fashioned with a shoddy handle." 
+		idText "The rune etched upon the blade reveals this used to be a Sword of Tiwaz, but you can see it has clearly been broken.\nFashioned with a makeshift handle, you feel it can still do some considerable damage to your foes.\n\nThis has been enchanted to grant the wielder a slight boost to their Intelligence and a considerable boost to their Dexterity.\n\nLevel Required: 350\n\n"
+		shopText "The rune etched upon the blade reveals this used to be a Sword of Tiwaz, but you can see it has clearly been broken.\nFashioned with a makeshift handle, you feel it can still do some considerable damage to your foes.\n\nThis has been enchanted to grant the wielder a slight boost to their Intelligence and a considerable boost to their Dexterity.\n\nLevel Required: 350\n\n"
+	end
+end
+#------------------------------------------------------------
+object mwElementalBarb of ThrowingDagger
+	properties
+	special
+		name "Elemental Barb"
+		value 100000
+		health 2000
+		color 52	#Blue Glow	
+		strength 5
+		caffect 0
+		affect 0 0 0 -1		# Normal Damage	
+		affect 5 0 0 -1		# Poison Damage
+		affect 2 0 0 -1		# Cold Damage
+		affect 3 0 0 -1		# Lightning Damage
+		affect 1 0 0 -1     # Fire Damage
+		enchantResistance 100
+	end
+
+	base described
+		text "This dagger possesses the power of the elements..\n"
+		idText "The Elemental Barb is a ferocious dagger that is imbued with all of the magic it will ever need.\n This dagger's magic is so powerful you cannot enchant it yourself.\n This dagger does Fire, Cold, Poison and Lightning damage to you enemies naturally, as well as gift you Dexterity.\n"
+		shopText "What power!" 
+	end
+
+	base carryable
+		weight 2
+	end
+	
+	base weapon
+		minDamage 30
+		maxDamage 50
+	end
+
+	actions
+		vBePutOn setAffect dobj 59 0 0 -1				# Dex
+		vBeTakenOff clearAffect dobj 59 0 0
+	end
+end
+#------------------------------------------------------------
+object GodsRage of Maul
+	properties
+		special
+		name "God's Rage"
+		value 100000
+		health 500
+		color 98
+		level 500
+		strength 5
+		affect 0 0 0 -1		# Normal Damage	
+		# do half life-steal damage
+		affect 10 0 0 -1
+
+		# clear fire immunity
+		caffect 1
+	end
+
+	base carryable
+		weight 100.0
+	end
+
+	base weapon
+		minDamage 80
+		maxDamage 160
+	end
+
+	actions
+		#extra attack
+		vBePutOn setAffect dobj 56 0 0 -1
+		vBeTakenOff clearAffect dobj 56 0 0
+	end
+
+	base described
+		text "You see a maul used only by the realest of the real.  It appears to contain some leftover tears."
+		idText "You see God's Rage. It will surely crush the mists.  This maul steals life and grants an extra attack.\nLevel Required: 500\n "
+		shopText "Unleash the rage with this maul."
+	end
+
+end
+#------------------------------------------------------------
+object GodsMercy of ThrowingDagger 
+	properties
+		special
+		name "God's Mercy"
+		value 100000
+		health 1000
+		level 500
+		strength 5
+		color 176
+		# do poison damage
+		caffect 0
+		affect 5 0 0 -1
+		# do half life-steal damage
+		affect 10 0 0 -1
+		affect 0 0 0 -1		# Normal Damage	
+	end
+	actions
+		# Extra Attack
+		vBePutOn setAffect dobj 56 0 0 -1
+		vBeTakenOff clearAffect dobj 56 0 0
+		# damage vs evil 50
+		vBePutOn changeEvilMDMMod dobj 50
+		vBeTakenOff changeEvilMDMMod dobj -50
+	end
+	base carryable
+		weight 2.3
+	end
+	base weapon
+		minDamage 65
+		maxDamage 95
+	end	
+	base described
+		text "This dagger shines with a holy aura.  It has been wiped clean of all salt." 
+		idText "This happy dagger reminds you of your childhood.  It is inherently venomous.  It also gives life-steal, an extra attack and increased damage to evil enemies. Level Required: 500\n\n"
+		shopText "This holy dagger reminds you that we can all be friends.\n"
+	end
+end
+#------------------------------------------------------------
+object mwFury of Club
+	properties
+		special
+		name "Fury"
+		value 100000
+		level 950
+		color 41	# Bright White
+		health 900
+		strength 5	
+		affect 10 0 0 -1    # Life-Steal
+		affect 0 0 0 -1		# Normal Damage	
+	end
+
+	base weapon 
+		minDamage 120
+		maxDamage 235
+	end	
+
+	base carryable 
+		weight 180
+	end
+
+	actions
+		vBePutOn setAffect dobj 39 0 0 -1 		# Strength Bonus
+		vBeTakenOff clearAffect dobj 39 0 0     #
+		vBePutOn setAffect dobj 56 0 0 -1		# Extra Attack
+		vBeTakenOff clearAffect dobj 56 0 0     #
+		vBePutOn setAffect dobj 2 3 0 -1        # Cold Weakness (Hidden)
+		vBeTakenOff clearAffect dobj 2 3  0     #	
+	end
+	
+	base described
+		text "You see a very bright club."
+		idText "Fury\n This club has been the direct result of many wars. Granting the wielder additional Strength as well as an extra Attack, it is sure to reek havoc on your enemy.\n\nLevel Required: 950\n \nLife-Steal.\n"
+		shopText "Whoa! This must be rare!"
+	end
+end
+#------------------------------------------------------------
+object mwEqualizer of TwoHandSword
+	properties
+	special
+		name "Equalizer"
+		value 100000
+		health 2000
+		level 950
+		strength 5		
+		color 115             # Finvarra
+		affect 10 0 0 -1      # Life-Steal	
+		affect 0 0 0 -1		# Normal Damage	
+	end
+
+	
+	base carryable
+		weight 35.0
+	end
+
+	
+	base weapon
+		minDamage 115
+		maxDamage 210
+	end
+	
+	
+	actions
+		vBePutOn setAffect dobj 56 0 0 -1			   # Extra Attack
+		vBeTakenOff clearAffect dobj 56 0 0            #
+		vBePutOn setAffect dobj 1 3 0 -1               # Fire Weakness (Hidden)
+		vBeTakenOff clearAffect dobj 1 3  0            # 
+		vBePutOn setAffect dobj 59 0 0 -1       	   # Dexterity
+		vBeTakenOff clearAffect dobj 59 0 0  		   #		
+	end
+
+	
+	base described
+		text "Something is off about this sword..\n"
+		idText "The Equalizer will assist the wielder in bringing peace to their land. Granting an additional Attack as well as a boost to your Strength and Dexterity, this sword is sure to last long in battle. \n\nLevel Required: 950\n \nLife-Steal.\n"
+		shopText "What on earth is this made of?!"
+	end
+end
+#------------------------------------------------------------
+object mwElvenClub of Club
+	properties
+	special
+		name "Elven Club"
+		value 100000
+		health 2000
+		level 200
+		strength 5		
+		color 30             # Satori
+		affect 4 0 0 -1		# Acid Damage	
+		affect 0 0 0 -1		# Normal Damage	
+	end
+
+	
+	base carryable
+		weight 35.0
+	end
+
+	
+	base weapon
+		minDamage 100
+		maxDamage 220
+		mask giant
+		mask human
+	end
+	
+	
+	actions
+		vBePutOn setAffect dobj 59 0 0 -1       	   # Dexterity
+		vBeTakenOff clearAffect dobj 59 0 0  		   #	
+		vBePutOn setAffect dobj 39 0 0 -1 			   # Strength Bonus
+		vBeTakenOff clearAffect dobj 39 0 0    		   #	
+	end
+
+	
+	base described
+		text "How is this so light..\n"
+		idText "Acid drips from this deadly ancient Club. Granting additional Strength and Dexterity, this club is the perfect weapon for any Elf. \n\nLevel Required: 500\n\n Elves Only.\n\n"
+		shopText "What on earth is this made of?!"
+	end
+end
+#------------------------------------------------------------
+object mwLance of Maul
+	properties
+	special
+		name "Acid Lance"
+		value 100000
+		health 2000
+		level 350
+		strength 5		
+		color 109				# Green Light Flesh
+		affect 4 0 0 -1			# Acid Damage	
+		affect 0 0 0 -1		# Normal Damage	
+	end
+
+	
+	base carryable
+		weight 85.0
+	end
+
+	
+	base weapon
+		minDamage 90
+		maxDamage 185
+		range 4
+	end
+	
+	
+	actions	
+		vBePutOn setAffect dobj 39 0 0 -1				# Strength Bonus
+		vBeTakenOff clearAffect dobj 39 0 0				#	
+		vBePutOn changeSpellResistance dobj 25 2		# 25% Myst Resist
+		vBeTakenOff changeSpellResistance dobj -25 2	#
+	end
+
+	
+	base described
+		text "You second think touching this maul..\n"
+		idText "This Acidic Lance will keep your enemies at bay while you burn them through with acid.\n\nUsing this Lance you will also gain additional Strength.\n\nMysticism Resistance: 25%\n\nLevel Required: 350\n\n"
+		shopText "What on earth is this made of?!"
+	end
+end
+#------------------------------------------------------------
+object mwKnuckles of AdmantiumClaw
+	properties
+		special
+		name "Vibranium Knuckles"
+		value 200000
+		health 1100
+		color 21		# Eggplant
+		strength 5
+		level 500
+		affect 0 0 0 -1		# Normal Damage	
+	end
+
+	base weapon
+		minDamage 105
+		maxDamage 195
+		range 3
+		damageType 0 	#Same type as Thrower
+	end
+
+	base carryable
+		weight 13.0
+	end
+
+	actions
+		vBePutOn setAffect dobj 56 0 0 -1				# Extra Attack
+		vBeTakenOff clearAffect dobj 56 0 0
+		vBePutOn setAffect dobj 39 0 0 -1				# Strength Bonus
+		vBeTakenOff clearAffect dobj 39 0 0
+		vBePutOn setAffect dobj 59 0 0 -1				# Dexterity
+		vBeTakenOff clearAffect dobj 59 0 0
+	end
+
+	base described
+		text "These are already dripping in blood..\n"
+		idText "These vibranium knuckles were crafted on another world.\n\nUsing this mysterious weapon you will gain an extra attack, as well as a boost to your Strength and Dexterity.\n\nLevel Required: 1200\n\n"
+		shopText "These vibranium knuckles were crafted on another world.\n\nUsing this mysterious weapon you will gain an extra attack, as well as a boost to your Strength and Dexterity.\n\nLevel Required: 1200\n\n"
+	end
+end
+#----------------------------------------------
+object mwGuillotine of Axe
+	properties
+		special
+		name "Guillotine"
+		value 200000
+		health 1000
+		color 15			# Fire Brick
+		strength 5
+		level 800
+		affect 1 0 0 -1		# Fire Damage
+		affect 0 0 0 -1		# Normal Damage	
+	end
+
+	actions
+		vBePutOn changeSpellResistance dobj 25 2		# 25% Myst Resist
+		vBeTakenOff changeSpellResistance dobj -25 2	#
+	end
+
+	base carryable
+		weight 100.0
+	end
+
+	base weapon
+		minDamage 165
+		maxDamage 280
+	end
+
+	base described
+		text "This Axe is hot to the touch...\n\n"
+		idText "This Axe was forged from a retired Guillotine. Having taking countless souls to the underworld, it is burning with a fiery rage.\n\nMysticism Resistance: 25%\n\nLevel Required: 800\n\n"
+		shopText "This Axe was forged from a retired Guillotine. Having taking countless souls to the underworld, it is burning with a fiery rage.\n\nMysticism Resistance: 25%\n\nLevel Required: 800\n\n"
+	end
+end
+#----------------------------------------------
+object mwDevastation of ThrowingDagger
+	properties
+	special
+		name "Devastation"
+		value 100000
+		health 2000
+		color 81
+		strength 5
+		level 950
+		affect 0 0 0 -1		# Normal Damage
+		enchantResistance 15
+	end
+
+	base described
+		text "This dagger shimmers in the light as well as the dark.. \n"
+		idText "Devastation. This throwing dagger will destroy your enemies at a distance. Perfect for the would be thief..\n This throwing weapon will provide Considerable Dexterity, as well as an extra throw. \n\n The serrated blade on this dagger will penetrate your enemies thick armor.\n\n 20% Armor Penetration\n 25% MDM Vs Good\Evil\n Level Required 950\n Thief Only!\n"
+		shopText "Wow, this thing is shiny!" 
+	end
+
+	base carryable
+		weight 3.4
+	end
+	
+	base weapon
+		minDamage 85
+		maxDamage 115
+		mask warrior
+		mask adventurer
+		mask wizard
+	end
+
+	actions
+		vBePutOn setAffect dobj 59 0 0 -1				# Dex
+		vBeTakenOff clearAffect dobj 59 0 0
+		vBePutOn setAffect dobj 59 0 0 -1				# Dex
+		vBeTakenOff clearAffect dobj 59 0 0		
+		vBePutOn changeEvilMDMMod dobj 25             # 25 Dmg Vs Evil
+		vBeTakenOff changeEvilMDMMod dobj -25         #
+		vBePutOn changeGoodMDMMod dobj 25             # 25 Dmg Vs Good
+		vBeTakenOff changeGoodMDMMod dobj -25         #
+		vBePutOn changeMeleeArmorPiercing dobj 20			# 20% Armor Pen
+		vBeTakenOff changeMeleeArmorPiercing dobj -20
+		vBePutOn setAffect dobj 56 0 0 -1					# Attack
+		vBeTakenOff clearAffect dobj 56 0 0
+	end
+end
+#------------------------------------------------------------
+object mwMagesBlade of ShortSword
+	properties
+	special
+		name "Mage's Blade"
+		value 100000
+		health 800
+		strength 5
+		affect 0 0 0 -1		# Normal Damage	
+		affect 10 0 0 -1	# Steal-Life Damage	
+		color 15   #Fire Brick
+		level 550
+	end
+
+	actions
+        vBePutOn changeSDM dobj 200 1 3 4             # SDM Boost (Thaum, Elem, Necro)
+		vBeTakenOff changeSDM dobj -200 1 3 4	      #
+		vBePutOn setAffect dobj 61 0 0 -1             # Intel Boost (HoI)
+		vBeTakenOff clearAffect dobj 61 0 0           #
+		vBePutOn setAffect dobj 4 3 0 -1              # Weakness to Acid (Hidden)
+		vBeTakenOff clearAffect dobj 4 3 0
+	end
+	
+	base carryable
+		weight 12.0
+	end
+	
+
+	base weapon
+		minDamage 75
+		maxDamage 125
+		mask warrior
+		mask adventurer
+		mask thief
+		#Wizard Only
+	end
+	
+	base described
+		text "You see a runed Short Sword."
+		idText "You see the fabled Mage's Blade! \nThis blade has the ability to draw out your inner power.\n Be careful! This blade has its drawbacks! \nEquipping this blade will also grant you a bonus to your Thaumaturgy, Elementalism and Necromancy Circles.\n \nLevel Required: 550\n Wizards Only!\n"
+		shopText "You see the fabled Mage's Blade! \nThis blade has the ability to draw out your inner power.\n Be careful! This blade has its drawbacks! \nEquipping this blade will also grant you a bonus to your Thaumaturgy, Elementalism and Necromancy Circles.\n \nLevel Required: 550\n Wizards Only!\n"
+	end
+end
+#------------------------------------------------------------
+object mwVengeance of LongSword
+	properties
+	special
+		name "Vengeance"
+		value 10000
+		health 100000
+		strength 5
+		color 95	            # Light Purple
+		affect 5 0 0 -1			# Poison
+		affect 0 0 0 -1			# Normal Damage	
+		level 1100
+	end
+
+	
+	base carryable
+		weight 95.0
+	end
+	
+	base weapon
+		minDamage 150
+		maxDamage 285
+		mask thief
+		mask adventurer
+		mask wizard
+	end
+	
+	actions
+		vBePutOn setAffect dobj 59 0 0 -1						# +Attack
+		vBeTakenOff clearAffect dobj 59 0 0						#
+		vBePutOn changeMeleeArmorPiercing dobj 15				# 15% Armor Pen
+		vBeTakenOff changeMeleeArmorPiercing dobj -15			#
+		vBePutOn setAffect dobj 39 0 0 -1						# Strength Bonus
+		vBeTakenOff clearAffect dobj 39 0 0						#
+		vBePutOn setAffect dobj 4 3 0 -1              			# Acid Weakness (Hidden)
+		vBeTakenOff clearAffect dobj 4 3 0            			#
+		vBePutOn setAffect dobj 1 3 0 -1            		    # Fire Weakness (Hidden)
+		vBeTakenOff clearAffect dobj 1 3  0         	        #
+		vBePutOn setAffect dobj 2 3 0 -1            			# Cold Weakness (Hidden)
+		vBeTakenOff clearAffect dobj 2 3  0        			    #
+	end
+
+	
+	base described
+		text "What a shimmering blade..\n\n"
+		idText "Vengeance. \nThis long sword was crafted in the void.\n Utilizing the power of the Void, it calls a most debilitating poison. \nThis deadly long sword is enchanted to provide the wielder with an extra Attack.\n A bonus to Strength as well as Armor Penetration are also provided. \nLevel Required: 1100\n Warriors Only!\n"
+		shopText "Vengeance. \nThis long sword was crafted in the void.\n Utilizing the power of the Void, it calls a most debilitating poison. \nThis deadly long sword is enchanted to provide the wielder with an extra Attack.\n A bonus to Strength as well as Armor Penetration are also provided. \nLevel Required: 1100\n Warriors Only!\n"
+	end
+end
+#------------------------------------------------------------
+object mwSapper of ThrowingDagger
+	properties
+	special
+		name "The Sapper"
+		value 100000
+		health 2000
+		color 7     # Dark Olive Green
+		strength 5
+		level 1200
+		affect 0 0 0 -1		# Normal Damage
+        affect 5 0 0 -1		# Poison Damage
+		enchantResistance 25
+	end
+
+	base described
+		text "This dagger appears to sap the very essence from you when touched.. \n"
+		idText "The Sapper.\nThis Dagger was crafted with the most nefarious magics.\nThis throwing weapon will provide Astounding Dexterity, an extra throw, and stains your hair a most sinister Black, also protecting you from Death magic. \n20% Mysticism Resistance\n\nLevel Required 1200\n"
+		shopText "The Sapper.\nThis Dagger was crafted with the most nefarious magics.\nThis throwing weapon will provide Astounding Dexterity, an extra throw, and stains your hair a most sinister Black, also protecting you from Death magic. \n20% Mysticism Resistance\n\nLevel Required 1200\n" 
+	end
+
+	base carryable
+		weight 3.4
+	end
+	
+	base weapon
+		minDamage 135
+		maxDamage 175
+	end
+
+	actions
+		vBePutOn setAffect dobj 59 0 0 -1				    # Dex
+		vBeTakenOff clearAffect dobj 59 0 0
+		vBePutOn setAffect dobj 59 0 0 -1				    # Dex
+		vBeTakenOff clearAffect dobj 59 0 0		
+        vBePutOn setAffect dobj 59 0 0 -1				    # Dex
+		vBeTakenOff clearAffect dobj 59 0 0
+		vBePutOn setAffect dobj 59 0 0 -1				    # Dex
+		vBeTakenOff clearAffect dobj 59 0 0	
+		vBePutOn changeSpellResistance dobj 20 2			# 20% Myst Resist
+		vBeTakenOff changeSpellResistance dobj -20 2
+		vBePutOn setAffect dobj 56 0 0 -1					# Attack
+		vBeTakenOff clearAffect dobj 56 0 0
+        vBePutOn setAffect dobj 98 0 0 -1                   # Black Hair
+        vBeTakenOff clearAffect dobj 98 0 0	
+		vBePutOn setAffect dobj 85 0 0 -1					# DMP
+		vBeTakenOff clearAffect dobj 85 0 0 -1
+	end
+end
+#------------------------------------------------------------
+object mwGnasher of ThrowingDagger
+	properties
+	special
+		name "Gnasher"
+		value 100000
+		health 2500
+		color 113     			# Light Finvarra
+		strength 5
+		level 1500
+		affect 0 0 0 -1			# Normal Damage
+		enchantResistance 15
+	end
+
+		base carryable
+		weight 5.5
+	end
+	
+	base weapon
+		minDamage 185
+		maxDamage 235
+		mask wizard
+	end
+
+	actions
+        vBePutOn setAffect dobj 98 0 0 -1                   # Black Hair
+        vBeTakenOff clearAffect dobj 98 0 0	
+		vBePutOn setAffect dobj 95 0 0 -1					# Yellow Skin
+		vBeTakenOff clearAffect dobj 95 0 0
+	end
+
+	base described
+		text "This dagger looks much heavier than the others, yet it isn't.. \n"
+		idText "The Gnasher.\nThis dagger is the most fearsome when it comes to ranged attacks. No other dagger can match its brutality.\n\nAn ancient Rogue attempted to imbue this dagger with additional magics, but it backfired.. Equipping this dagger will stain your hair Black as well as your skin Yellow.\n\nNo Wizards!\n\nLevel Required: 1500\n\n" 
+		shopText "The Gnasher.\nThis dagger is the most fearsome when it comes to ranged attacks. No other dagger can match its brutality.\n\nAn ancient Rogue attempted to imbue this dagger with additional magics, but it backfired.. Equipping this dagger will stain your hair Black as well as your skin Yellow.\n\nNo Wizards!\n\nLevel Required: 1500\n\n" 
+	end
+end
+#------------------------------------------------------------
+object mwDespothes of ShortSword
+	properties
+	special
+		name "Despothes' Grasp"
+		value 100000
+		health 2000
+		color 175     # Shifting All-White
+		strength 5
+		level 1200
+		affect 0 0 0 -1		# Normal Damage
+		affect 3 0 0 -1		# Lightning Damage
+	end
+
+	base described
+		text "A Short Sword unlike any other..\n\n"
+		idText "Despothes' Grasp\n\nThis Short Sword was enchanted by Despothes himself, making it a most unique weapon. Using this, you will be able to attack your opponent from anywhere on the battlefield.\nAdditionally, it will provide Intelligence, Double Dexterity, 20% Mysticism Resistance and protection from Death Magic, as well as provide Despothes' Blessing.\n\nLevel Required 1200\n\n"
+		shopText "Despothes' Grasp\n\nThis Short Sword was enchanted by Despothes himself, making it a most unique weapon. Using this, you will be able to attack your opponent from anywhere on the battlefield.\nAdditionally, it will provide Intelligence, Double Dexterity, 20% Mysticism Resistance and protection from Death Magic, as well as provide Despothes' Blessing.\n\nLevel Required 1200\n\n"
+	end
+
+	base carryable
+		weight 15
+	end
+	
+	base weapon
+		skillType 0		# Short Sword
+		minDamage 155
+		maxDamage 210
+		hands 1
+		missile 5
+		damageType 2	# 2 Hand Sword
+		range 20		# Same as Thrower
+	end
+
+	actions
+		vBePutOn setAffect dobj 61 0 0 -1            			# Intel Boost
+		vBeTakenOff clearAffect dobj 61 0 0
+		vBePutOn setAffect dobj 59 0 0 -1				    	# Dex
+		vBeTakenOff clearAffect dobj 59 0 0
+		vBePutOn setAffect dobj 59 0 0 -1				    	# Dex
+		vBeTakenOff clearAffect dobj 59 0 0	
+		vBePutOn changeSpellResistance dobj 20 2				# 20% Myst Resist
+		vBeTakenOff changeSpellResistance dobj -20 2
+		vBePutOn setAffect dobj 85 0 0 -1						# DMP
+		vBeTakenOff clearAffect dobj 85 0 0 -1
+		vBePutOn setAffect dobj 92 0 0 -1   					# Despothes Blessing
+		vBeTakenOff clearAffect dobj 92 0 0	
+	end
+end
+#-----------------------------------------------------------------------------------------
+object mwBardiche of Claw
+	properties
+	special
+		name "Finvarra's Grasp"
+		value 100000
+		health 2000
+		level 1100
+		strength 5		
+		color 228				# Shifting Darker Fossil	
+		affect 0 0 0 -1			# Normal Damage	
+		affect 1 0 0 -1			# Fire Damage
+	end
+
+	
+	base carryable
+		weight 90.0
+	end
+
+	
+	base weapon
+		minDamage 165
+		maxDamage 325
+		range 2
+	end
+	
+	
+	actions	
+		vBePutOn setAffect dobj 39 0 0 -1				# Strength Bonus
+		vBeTakenOff clearAffect dobj 39 0 0				#	
+		vBePutOn setAffect dobj 59 0 0 -1				# +Attack
+		vBeTakenOff clearAffect dobj 59 0 0				#
+		vBePutOn setAffect dobj 63 0 0 -1      			# Endurance
+		vBeTakenOff clearAffect dobj 63 0 0     		#
+		vBePutOn changeSpellResistance dobj 15 2		# 15% Myst Resist
+		vBeTakenOff changeSpellResistance dobj -15 2	#
+		vBePutOn setAffect dobj 72 0 0 -1				# Encumbrance Bonus
+		vBeTakenOff clearAffect dobj 72 0 0				#
+	end
+
+	
+	base described
+		text "It is hot to the touch..\n"
+		idText "Finvarra's Grasp.\n\n This mighty weapon will burn your foes to ashes long before they can cut you down.\n\nBrandishing this weapon you will gain additional Strength, an extra Attack, bonus Endurance as well as an Encumbrance boost.\n\nMysticism Resistance: 15%\n\nLevel Required: 1100\n\n"
+		shopText "Finvarra's Grasp.\n\n This mighty weapon burn your foes to ashes long before they can cut you down.\n\nBrandishing this weapon you will gain additional Strength, an extra Attack, bonus Endurance as well as an Encumbrance boost.\n\nMysticism Resistance: 15%\n\nLevel Required: 1100\n\n"
+	end
+end
+#------------------------------------------------
+object mwRod of TwoHandSword
+	properties
+	special
+		name "Lightning Rod"
+		value 100000
+		health 2000
+		level 750
+		strength 5	
+		color 13			# Royal Blue
+		affect 0 0 0 -1		# Normal Damage
+		affect 3 0 0 -1		# Lightning Damage
+	end
+
+	
+	base carryable
+		weight 35.0
+	end
+
+	base dye
+	end
+	
+	base weapon
+		minDamage 155
+		maxDamage 190
+		range 2
+	end
+	
+	
+	actions
+	vBePutOn setAffect dobj 56 0 0 -1   			#EXTRA_ATTACK
+	vBeTakenOff clearAffect dobj 56 0 0			#
+	vBePutOn setAffect dobj 59 0 0 -1   			#POS_DEX_MOD
+	vBeTakenOff clearAffect dobj 59 0 0			#
+	vBePutOn setAffect dobj 39 0 0 -1   			#EMPOWER
+	vBeTakenOff clearAffect dobj 39 0 0			#
+	vBePutOn setAffect dobj 59 0 0 -1   			#POS_DEX_MOD
+	vBeTakenOff clearAffect dobj 59 0 0			#
+	vBePutOn setAffect dobj 39 0 0 -1   			#EMPOWER
+	vBeTakenOff clearAffect dobj 39 0 0			#
+	end
+
+	
+	base described
+		text "You can hear the electricity cackling from this blade..\n\n"
+		idText "An old Lightning Rod that was struck by magical lightning.\nAffixed on a hilt and forged into a blade, it now wreaks devastating havoc.\n\nWielding this blade grants you an Extra Attack, and provide double Strength and Dexterity.\n\nLevel Required: 750\n"
+		shopText "An old Lightning Rod that was struck by magical lightning.\nAffixed on a hilt and forged into a blade, it now wreaks devastating havoc.\n\nWielding this blade grants you an Extra Attack, and provide double Strength and Dexterity.\n\nLevel Required: 750\n"
+	end
+end
+#-------------------------------------------------------------------
+object mwRupture of Claw
+	properties
+	special
+		name "Rupture"
+		value 100000
+		health 900
+		strength 5
+		affect 0 0 0 -1		# Normal Damage	
+		affect 1 0 0 -1			# Fire Damage
+		color 30   #Satori
+		level 550
+	end
+
+	actions
+        vBePutOn setAffect dobj 63 0 0 -1       	# Endurance
+		vBeTakenOff clearAffect dobj 63 0 0     	#
+		vBePutOn setAffect dobj 56 0 0 -1   		#EXTRA_ATTACK
+		vBeTakenOff clearAffect dobj 56 0 0			#
+		vBePutOn setAffect dobj 39 0 0 -1   		#EMPOWER
+		vBeTakenOff clearAffect dobj 39 0 0			#
+	end
+	
+	base carryable
+		weight 6.0
+	end
+	
+
+	base weapon
+		minDamage 110
+		maxDamage 225
+		range 2
+	end
+	
+	base described
+		text "A fist weapon seemingly covered in blood..\n\n"
+		idText "Rupture.\n\nThis fist weapon is said to have killed more men than the gods themselves.\nWearing this claw, you will gain a boost to your Endurance, as well as your Strength, and it will also provide an extra Attack.\n\nLevel Required: 550\n\n"
+		shopText "Rupture.\n\nThis fist weapon is said to have killed more men than the gods themselves.\nWearing this claw, you will gain a boost to your Endurance, as well as your Strength, and it will also provide an extra Attack.\n\nLevel Required: 550\n\n"
+	end
+end
+
+object mwCretin of ShortSword
+	properties
+	special
+		name "Cretin"
+		value 200000
+		health 2200
+		color 16         	# Coral Red Glow
+		strength 5
+		level 1500
+		affect 8 0 0 -1		# EXP Damage
+		affect 1 0 0 -1		# Fire Damage
+	end
+
+	base described
+		text "This short sword has considerable weight for it's size.\n\n"
+		idText "Cretin\n\nCrafted in the heart of the mountain, this dagger will singe anything it touches.\n\nUsing this, you will be able to attack your opponent from anywhere and drain their experience.\n\nUsing this, you will gain a significant boost to your Intelligence, and some Endurance.\n\n15% Armor Penetration\n275% Circle SDM\n\nLevel Required 1500\n\n"
+		shopText "Cretin\n\nCrafted in the heart of the mountain, this dagger will singe anything it touches.\n\nUsing this, you will be able to attack your opponent from anywhere and drain their experience.\n\nUsing this, you will gain a significant boost to your Intelligence, and some Endurance.\n\n15% Armor Penetration\n275% Circle SDM\n\nLevel Required 1500\n\n"
+	end
+
+	base carryable
+		weight 25
+	end
+	
+	base weapon
+		skillType 0		# Short Sword
+		minDamage 185
+		maxDamage 245
+		hands 1
+		missile 5
+		damageType 2	# 2 Hand Sword
+		range 20		# Same as Thrower
+	end
+
+	actions
+		vBePutOn setAffect dobj 61 0 0 -1            			# Intel Boost
+		vBeTakenOff clearAffect dobj 61 0 0
+		vBePutOn setAffect dobj 61 0 0 -1            			# Intel Boost
+		vBeTakenOff clearAffect dobj 61 0 0
+		vBePutOn setAffect dobj 63 0 0 -1       				# Endurance
+		vBeTakenOff clearAffect dobj 63 0 0
+		vBePutOn changeMeleeArmorPiercing dobj 15				# 15% Armor Pen
+		vBeTakenOff changeMeleeArmorPiercing dobj -15
+		vBePutOn changeSDM dobj 275 1 3 4             			# SDM Boost (Thaum, Elem, Necro)
+		vBeTakenOff changeSDM dobj -275 1 3 4
+	end
+end
+#-------------------------------------------
+object mwBagh of AdmantiumClaw
+	properties
+	special
+		name "Bagh Nakh"
+		value 25000
+		health 1000
+        strength 5
+		color 177				# Shifting All White 	
+		affect 0 0 0 -1			# Normal Damage	
+        affect 10 0 0 -1		# Steal-Life
+	end
+	
+	base carryable
+		weight 3.0
+	end
+
+	base weapon
+		minDamage 30
+		maxDamage 75
+		range 2
+	end
+	
+	actions
+		vBePutOn setAffect dobj 57 0 0 -1         # Dodge
+		vBeTakenOff clearAffect dobj 57 0 0
+		vBePutOn setAffect dobj 41 0 0 -1         # Shielding
+		vBeTakenOff clearAffect dobj 41 0 0
+		vBePutOn setAffect dobj 63 0 0 -1         # Endurance
+		vBeTakenOff clearAffect dobj 63 0 0
+	end
+	
+	base described
+		text "An ancient claw type weapon..\n"
+		idText "Used overseas as an assassination tool, this weapon appears most sinister.\nIn addition to having Life Steal, it will grant you an Extra Dodge and some Shielding.\n"
+		shopText "Used overseas as an assassination tool, this weapon appears most sinister.\nIn addition to having Life Steal, it will grant you an Extra Dodge and some Shielding.\n"
+	end
+end
+
+object mwDarts of AdmantiumClaw
+	properties
+	special
+		name "Knuckle Dart"
+		value 100000
+		health 2000
+		color 95	        # Light Purple
+		strength 5
+		level 700
+		affect 0 0 0 -1		# Normal Damage
+		affect 3 0 0 -1		# Lightning Damage
+	end
+
+	base described
+		text "Darts will eject from the chambers in the knuckle grips of this weapon.\n\n++Dex\n++Str\n+++Attack\n"
+		shopText "Darts will eject from the chambers in the knuckle grips of this weapon.\n\n++Dex\n++Str\n+++Attack\n"
+	end
+
+	base carryable
+		weight 5
+	end
+	
+	base weapon
+		minDamage 175
+		maxDamage 235
+		missile 5
+		range 20
+		skillType 7		# Claw
+		hands 1
+		damageType 7	# Claw
+	end
+
+	actions
+		vBePutOn setAffect dobj 59 0 0 -1		# Dex
+		vBeTakenOff clearAffect dobj 59 0 0
+		vBePutOn setAffect dobj 59 0 0 -1		# Dex
+		vBeTakenOff clearAffect dobj 59 0 0	
+		vBePutOn setAffect dobj 39 0 0 -1 		# Strength Bonus
+		vBeTakenOff clearAffect dobj 39 0 0
+		vBePutOn setAffect dobj 39 0 0 -1 		# Strength Bonus
+		vBeTakenOff clearAffect dobj 39 0 0
+		vBePutOn setAffect dobj 56 0 0 -1		# Extra Attack
+		vBeTakenOff clearAffect dobj 56 0 0
+		vBePutOn setAffect dobj 56 0 0 -1		# Extra Attack
+		vBeTakenOff clearAffect dobj 56 0 0
+		vBePutOn setAffect dobj 56 0 0 -1		# Extra Attack
+		vBeTakenOff clearAffect dobj 56 0 0
+	end
+end
+#---------------------------------------------------
+object mwBludgeon of Club
+	properties
+		special
+		name "Bludgeon"
+		value 100000
+		level 500
+		color 115			# Finvarra
+		health 900
+		strength 5
+		affect 0 0 0 -1		# Normal Damage	
+	end
+
+	base weapon 
+		minDamage 95
+		maxDamage 215
+		spellProcID 59			# Stun
+		forwardProcChance 5		# 5%
+	end	
+
+	base carryable 
+		weight 95
+	end
+
+	actions
+		vBePutOn setAffect dobj 39 0 0 -1 		# Strength Bonus
+		vBeTakenOff clearAffect dobj 39 0 0
+		vBePutOn setAffect dobj 39 0 0 -1 		# Strength Bonus
+		vBeTakenOff clearAffect dobj 39 0 0
+		vBePutOn setAffect dobj 76 0 0 -1 		# Extension (To assist warriors stun longer)
+		vBeTakenOff clearAffect dobj 76 0 0
+	end
+	
+	base described
+		text "You see a very unique club."
+		idText "The Bludgeon\nThe density of this club will sometimes daze your opponents in battle. This club will also grant the wielder double Strength.\n\nLevel Required: 500\n"
+		shopText "The Bludgeon\nThe density of this club will sometimes daze your opponents in battle. This club will also grant the wielder double Strength.\n\nLevel Required: 500\n"
+	end
+end
+#------------------------------------------------------------
+object mwSiphon of LongSword
+	properties
+		special
+		name "Siphon"
+		value 100000
+		level 350
+		color 36			# Indigo
+		health 900
+		strength 5
+		affect 0 0 0 -1		# Normal Damage	
+	end
+
+	base weapon 
+		minDamage 90
+		maxDamage 185
+		spellProcID 126				# Mass Drain
+		forwardProcChance 5			# 5%
+	end	
+
+	base carryable 
+		weight 20
+	end
+
+	actions
+		vBePutOn setAffect dobj 39 0 0 -1 		# Strength Bonus
+		vBeTakenOff clearAffect dobj 39 0 0
+		vBePutOn setAffect dobj 59 0 0 -1		# Dex
+		vBeTakenOff clearAffect dobj 59 0 0
+	end
+	
+	base described
+		text "You see an odd colored sword."
+		idText "Siphon\nThis dastardly sword will occasionally drain your opponents of their life force.\n\nLevel Required: 350\n"
+		shopText "Siphon\nThis dastardly sword will occasionally drain your opponents of their life force.\n\nLevel Required: 350\n"
+	end
+end
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+object mwCrusher of Club
+	properties
+		special
+		name "Crusher"
+		value 100000
+		level 2500
+		color 21	# Eggplant
+		health 1000
+		strength 5	
+		affect 13 0 0 -1	# Stun Damage		
+	end
+
+	base weapon 
+		minDamage 265
+		maxDamage 375
+		spellProcID 46			# Crushing Boulder
+		forwardProcChance 65	# 65%
+	end	
+
+	base carryable 
+		weight 95
+	end
+
+	actions
+		vBePutOn setAffect dobj 39 0 0 -1 		# Strength Bonus
+		vBeTakenOff clearAffect dobj 39 0 0
+		vBePutOn setAffect dobj 39 0 0 -1 		# Strength Bonus
+		vBeTakenOff clearAffect dobj 39 0 0
+		vBePutOn setAffect dobj 39 0 0 -1 		# Strength Bonus
+		vBeTakenOff clearAffect dobj 39 0 0
+	end
+	
+	base described
+		text "This club has many dings and dents in it, though it appears very dangerous still..\n\n"
+		idText "The Crusher\n\nThis incredibly heavy club unleashes devastating power on your opponents.\n Wielding this, you will gain Incredible boost to your Strength and it will sometimes proc 'Crushing Boulder'\n"
+		shopText "The Crusher\n\nThis incredibly heavy club unleashes devastating power on your opponents.\n Wielding this, you will gain Incredible boost to your Strength and it will sometimes proc 'Crushing Boulder'\n"
+	end
+end
+#------------------------------------------
+object mwLightning of Mace
+	properties
+		special
+		name "Mjolnir"
+		value 100000
+		level 2500
+		color 101		# Brighter White
+		health 1000
+		strength 5	
+		affect 3 0 0 -1	   # Lightning Damage		
+	end
+
+	base weapon 
+		minDamage 205
+		maxDamage 235
+		spellProcID 44			# Lightning Bolt
+		forwardProcChance 80	# 80%
+	end	
+
+	base carryable 
+		weight 0
+	end
+
+	actions
+		vBePutOn setAffect dobj 56 0 0 -1		# Extra Attack
+		vBeTakenOff clearAffect dobj 56 0 0
+		vBePutOn setAffect dobj 56 0 0 -1		# Extra Attack
+		vBeTakenOff clearAffect dobj 56 0 0
+		vBePutOn setAffect dobj 56 0 0 -1		# Extra Attack
+		vBeTakenOff clearAffect dobj 56 0 0
+	end
+	
+	base described
+		text "This mace left a small crater on the ground where it landed but appears weightless. Strange..\n\n"
+		idText "Mjolnir\n\nWhosoever holds this hammer, if he be worthy, shall possess the power of Thor.\n\nThis hammer will provide 3 additional attacks in combat, and will sometimes proc 'Lightning Bolt'\n\nLevel Required: 2500\n\n"
+		shopText "Mjolnir\n\nWhosoever holds this hammer, if he be worthy, shall possess the power of Thor.\n\nThis hammer will provide 3 additional attacks in combat, and will sometimes proc 'Lightning Bolt'\n\nLevel Required: 2500\n\n"
+	end
+end
+#------------------------------------------
+object mwDeathWish of AdmantiumTwoHandSword
+	properties
+		special
+		name "Death Wish"
+		value 100000
+		level 2500
+		color 185	# Shifting Stark Black
+		health 1000
+		strength 5	
+		affect 10 0 0 -1	# Steal-Life	
+	end
+
+	base weapon 
+		minDamage 165
+		maxDamage 215
+		spellProcID 125			# Death Wish
+		forwardProcChance 20	# 20%
+	end	
+
+	base carryable 
+		weight 25
+	end
+
+	actions
+		vBePutOn setAffect dobj 39 0 0 -1 		# Strength Bonus
+		vBeTakenOff clearAffect dobj 39 0 0
+		vBePutOn setAffect dobj 56 0 0 -1		# Extra Attack
+		vBeTakenOff clearAffect dobj 56 0 0
+		vBePutOn setAffect dobj 39 0 0 -1 		# Strength Bonus
+		vBeTakenOff clearAffect dobj 39 0 0
+		vBePutOn setAffect dobj 59 0 0 -1		# Dex
+		vBeTakenOff clearAffect dobj 59 0 0
+		vBePutOn setAffect dobj 59 0 0 -1		# Dex
+		vBeTakenOff clearAffect dobj 59 0 0
+	end
+	
+	base described
+		text "How could a sword appear so evil?\n"
+		idText "Death Wish\n\nThis deadly sword was enchanted by Warlocks using magic that has been banned for centuries. Providing Significant boosts toy Strength and Dexterity, as well as providing an extra attack, this sword will also sometimes proc 'Death Wish'\n"
+		shopText "Death Wish\n\nThis deadly sword was enchanted by Warlocks using magic that has been banned for centuries. Providing Significant boosts toy Strength and Dexterity, as well as providing an extra attack, this sword will also sometimes proc 'Death Wish'\n"
+	end
+end
+#------------------------------------------
+object mwRepel of LongSword
+	properties
+		special
+		name "Repeller"
+		value 100000
+		level 2500
+		color 232	# Dark Green Glow
+		health 1000
+		strength 5	
+		affect 0 0 0 -1	   # Normal Damage	
+	end
+
+	base weapon 
+		minDamage 165
+		maxDamage 215
+		spellProcID 143			# Repel
+		forwardProcChance 80	# 80%
+		range 5
+	end	
+
+	base carryable 
+		weight 15
+	end
+
+	actions
+		vBePutOn setAffect dobj 39 0 0 -1 		# Strength Bonus
+		vBeTakenOff clearAffect dobj 39 0 0
+		vBePutOn setAffect dobj 56 0 0 -1		# Extra Attack
+		vBeTakenOff clearAffect dobj 56 0 0
+		vBePutOn setAffect dobj 39 0 0 -1 		# Strength Bonus
+		vBeTakenOff clearAffect dobj 39 0 0
+		vBePutOn setAffect dobj 56 0 0 -1		# Extra Attack
+		vBeTakenOff clearAffect dobj 56 0 0
+	end
+	
+	base described
+		text "This vile longsword emits a faint echo of screaming..\n"
+		idText "The Repeller.\n\nThis longsword was enchanted by ancient aegiscians.\nThis longsword will provide Significant boost to your Strength as well as 2 additional attacks in combat.\nThis will sometimes proc 'Repel'\n"
+		shopText "The Repeller.\n\nThis longsword was enchanted by ancient aegiscians.\nThis longsword will provide Significant boost to your Strength as well as 2 additional attacks in combat.\nThis will sometimes proc 'Repel'\n"
+	end
+end
+#------------------------------------------
+object mwLightDart of Dagger
+	properties
+		special
+		name "Light Dart Dagger"
+		value 100000
+		level 1
+		color 41	# Bright White
+		health 1000
+		strength 5	
+		affect 0 0 0 -1	   # Normal Damage		
+	end
+
+	base weapon 
+		minDamage 0
+		maxDamage 0
+		spellProcID 75			# Light Dart
+		forwardProcChance 100	# 100%
+		range 20
+	end	
+
+	base carryable 
+		weight 5
+	end
+
+	actions
+		vBePutOn setAffect dobj 33 0 0 -1              # Berserk
+		vBeTakenOff clearAffect dobj 33 0 0            #
+	end
+	
+	base described
+		text "This dagger glimmers with magical force.\n\n"
+		idText "This dagger will berserk you and force you to cast Light Dart.\n"
+		shopText "This dagger will berserk you and force you to cast Light Dart.\n"
+	end
+end
+#-------------------------------------------
+object mwPuncture of Dagger
+	properties
+	special
+		name "Puncture"
+		value 200000
+		health 2200
+		color 101         	# Brighter White
+		strength 5
+		level 1500
+	end
+
+	base carryable
+		weight 8
+	end
+	
+	base weapon
+		minDamage 200
+		maxDamage 255
+		range 2
+	end
+
+	actions
+		vBePutOn setAffect dobj 59 0 0 -1						# Dex
+		vBeTakenOff clearAffect dobj 59 0 0
+		vBePutOn setAffect dobj 59 0 0 -1						# Dex
+		vBeTakenOff clearAffect dobj 59 0 0
+		vBePutOn setAffect dobj 59 0 0 -1						# Dex
+		vBeTakenOff clearAffect dobj 59 0 0
+		vBePutOn setAffect dobj 63 0 0 -1       				# Endurance
+		vBeTakenOff clearAffect dobj 63 0 0
+	end
+
+	base described
+		text "This dagger is incredibly sharp.. better be careful.\n\n"
+		idText "Puncture.\nThe tip of this dagger was sharpened for 100 years to be used for cutting diamond.\nThis dagger provides significant Dexterity as well as a boost to your Endurance.\n\nLevel Required: 1500\n\n"
+		shopText "Puncture.\nThe tip of this dagger was sharpened for 100 years to be used for cutting diamond.\nThis dagger provides significant Dexterity as well as a boost to your Endurance.\n\nLevel Required: 1500\n\n"
+	end
+end
+#-------------------------------------------
+object mwHate of Dagger
+	properties
+	special
+		name "Hate"
+		value 200000
+		health 2200
+		color 97         	# Dark Black Glow
+		strength 5
+		level 2500
+	end
+
+	base carryable
+		weight 10
+	end
+	
+	base weapon
+		minDamage 265
+		maxDamage 315
+		range 4
+		#------- Invul Player on Attack
+		reverseProcID 101				# Invul
+		reverseProcChance 10			# 10%
+		#------- Poison Bolt on Attack
+		spellProcID 108					# Poison Bolt
+		forwardProcChance 5				# 5%
+	end
+
+	actions
+		vBePutOn setAffect dobj 59 0 0 -1						# Dex
+		vBeTakenOff clearAffect dobj 59 0 0
+		vBePutOn setAffect dobj 59 0 0 -1						# Dex
+		vBeTakenOff clearAffect dobj 59 0 0
+		vBePutOn setAffect dobj 59 0 0 -1						# Dex
+		vBeTakenOff clearAffect dobj 59 0 0
+		vBePutOn setAffect dobj 37 0 0 -1   					# Quicken
+		vBeTakenOff clearAffect dobj 37 0 0	
+		vBePutOn setAffect dobj 21 0 0 -1   					# Improved Invisibility
+		vBeTakenOff clearAffect dobj 21 0 0	
+		vBePutOn setAffect dobj 17 0 0 -1   					# See Invisibility
+		vBeTakenOff clearAffect dobj 17 0 0	
+		vBePutOn setAffect dobj 63 0 0 -1       				# Endurance
+		vBeTakenOff clearAffect dobj 63 0 0
+		vBePutOn setAffect dobj 63 0 0 -1       				# Endurance
+		vBeTakenOff clearAffect dobj 63 0 0
+		vBePutOn setAffect dobj 65 0 0 -1  						# Retention (Anti-Fumble)
+		vBeTakenOff clearAffect dobj 65 0 0	
+	end
+
+	base described
+		text "Simply touching this dagger fills you with hate..\n\n"
+		idText "Hate.\n\nThis is what you feel holding this dagger in your hand. You don't want to let go.\nWielding this dagger, you will slip into the veil, vanishing from sight completely, and making it easier to see others in the veil.\n\nYou will also gain an incredible boost to your Dexterity,and a significant boost to your endurance. The hate this dagger fills you with forces you to grip it very tightly, making it impossible to fumble.\nSometimes, it will proc 'Poison Bolt' on the enemy, and 'Invulnerability' on the wielder.\n\nLevel Required: 2500\n\n"
+		shopText "Hate.\n\nThis is what you feel holding this dagger in your hand. You don't want to let go.\nWielding this dagger, you will slip into the veil, vanishing from sight completely, and making it easier to see others in the veil.\n\nYou will also gain an incredible boost to your Dexterity,and a significant boost to your endurance. The hate this dagger fills you with forces you to grip it very tightly, making it impossible to fumble.\nSometimes, it will proc 'Poison Bolt' on the enemy, and 'Invulnerability' on the wielder.\n\nLevel Required: 2500\n\n"
+	end
+end
+#-------------------------------------------
+object mwWand of ShortSword
+	properties
+	special
+		name "Sharpened Wand"
+		value 200000
+		health 2500
+		color 20        	#  Pale Yellow (YMMB)
+		strength 10
+		level 2500
+	end
+
+	base carryable
+		weight 10
+	end
+
+	base dye
+	end
+	
+	base weapon
+		minDamage 1
+		maxDamage 1
+		#------- Random Spell on Attack ---------
+		spellProcID -1				# Random	-
+		forwardProcChance 100		# 100%		-
+		#----------------------------------------
+		range 30
+	end
+
+	actions
+		vBePutOn changeManaDrain dobj 1200						# 1200 Mana Drain per Tick
+		vBeTakenOff changeManaDrain dobj -1200	
+		vBePutOn setAffect dobj 33 0 0 -1              			# Berserk
+		vBeTakenOff clearAffect dobj 33 0 0
+		vBePutOn setAffect dobj 61 0 0 -1            			# Intel Boost
+		vBeTakenOff clearAffect dobj 61 0 0
+		vBePutOn setAffect dobj 61 0 0 -1            			# Intel Boost
+		vBeTakenOff clearAffect dobj 61 0 0
+		vBePutOn changeSDM dobj -500 1 3 4             			# SDM Drain (Compensate for massive damage per round)
+		vBeTakenOff changeSDM dobj 500 1 3 4
+		vBePutOn setAffect dobj 65 0 0 -1  						# Retention (Anti-Fumble)
+		vBeTakenOff clearAffect dobj 65 0 0	
+	end
+
+	base described
+		text "This wand has a sharpened tip with a hilt fastened on one end..\n\n"
+		idText "This Wand was once used by a powerful Warlock. When the Warlock was banished from the realm, his wand was taken from him and was nearly destroyed before a loyal acolyte saved it from destruction. It has since wreaked havoc and destruction to everything in it's path.\n\nYou feel the power pulse through you when equipped.\nThis wand is impossible to Fumble and fills you with arcane magic, making you cast spells uncontrollably and giving you an incredible Intelligence boost, but draining your spell's SDM 500%\n\nLevel Required: 2500\n"
+		shopText "This Wand was once used by a powerful Warlock. When the Warlock was banished from the realm, his wand was taken from him and was nearly destroyed before a loyal acolyte saved it from destruction. It has since wreaked havoc and destruction to everything in it's path.\n\nYou feel the power pulse through you when equipped.\nThis wand is impossible to Fumble and fills you with arcane magic, making you cast spells uncontrollably and giving you an incredible Intelligence boost, but draining your spell's SDM 500%\n\nLevel Required: 2500\n"
+	end
+end
+#-------------------------------------------
+object mwPowerFist of Claw
+	properties
+	special
+		name "Power Fist"
+		value 100000
+		health 2000
+		level 2500
+		strength 5		
+		color 20        		# Pale Yellow (YMMB)	
+		affect 0 0 0 -1			# Normal Damage	
+	end
+
+	base carryable
+		weight 25.0
+	end
+
+	base dye
+	end
+	
+	base weapon
+		minDamage 285
+		maxDamage 445
+		range 2
+		spellProcID 59				# Stun
+		forwardProcChance 10		# 10%
+	end
+	
+	actions	
+
+		vBePutOn setAffect dobj 59 0 0 -1				# Attack
+		vBeTakenOff clearAffect dobj 59 0 0
+		vBePutOn setAffect dobj 59 0 0 -1				# Attack
+		vBeTakenOff clearAffect dobj 59 0 0
+		vBePutOn setAffect dobj 63 0 0 -1      			# Endurance
+		vBeTakenOff clearAffect dobj 63 0 0
+		vBePutOn setAffect dobj 63 0 0 -1      			# Endurance
+		vBeTakenOff clearAffect dobj 63 0 0
+		vBePutOn setAffect dobj 63 0 0 -1      			# Endurance
+		vBeTakenOff clearAffect dobj 63 0 0
+		vBePutOn setAffect dobj 76 0 0 -1 				# Extension (To assist warriors stun longer)
+		vBeTakenOff clearAffect dobj 76 0 0
+	end
+
+	base described
+		text "What a feat of engineering!\n"
+		idText "The Power Fist!\n\nThis incredible fist weapon was designed by world class engineers to deliver devastating damage.\n\nGripping this fist weapon in your palm, you will gain significant Endurance and 2 additional Attacks in combat.\n\nThis weapon will sometimes daze your opponents.\n\nLevel Required: 2500\n\n"
+		shopText "The Power Fist!\n\nThis incredible fist weapon was designed by world class engineers to deliver devastating damage.\n\nGripping this fist weapon in your palm, you will gain significant Endurance and 2 additional Attacks in combat.\n\nThis weapon will sometimes daze your opponents.\n\nLevel Required: 2500\n\n"
+	end
+end
+
+object mwZeus of TwoHandSword
+	properties
+	special
+		name "Annihilation"
+        value 3000000
+		health 10000
+		strength 5		
+		color 13                # Royal Blue
+		affect 3 0 0 -1		    # Lightning Damage
+		level 5000
+	end
+
+	base carryable
+		weight 0
+	end
+
+	base weapon
+		minDamage 425
+		maxDamage 500
+		#--------- Crazy Range on Sword --------
+		range 4
+		#------- Sometimes Smite Enemies -------
+		spellProcID 44			# Lightning Bolt
+		forwardProcChance 60	# 60%
+		#---------------------------------------
+	end
+
+	actions
+		vBePutOn changeManaDrain dobj 2000						# 2000 Mana Drain per Tick
+		vBeTakenOff changeManaDrain dobj -2000	
+		vBePutOn changeSDM dobj 1000 1            				# 1000% Elem Boost
+		vBeTakenOff changeSDM dobj -1000 1
+		vBePutOn setAffect dobj 65 0 0 -1  						# Retention (Anti-Fumble)
+		vBeTakenOff clearAffect dobj 65 0 0	
+		vBePutOn setAffect dobj 59 0 0 -1						# Attack
+		vBeTakenOff clearAffect dobj 59 0 0
+		vBePutOn setAffect dobj 59 0 0 -1						# Attack
+		vBeTakenOff clearAffect dobj 59 0 0
+		vBePutOn setAffect dobj 63 0 0 -1      					# Endurance
+		vBeTakenOff clearAffect dobj 63 0 0
+	end
+
+	base described
+		text "Annihilation\n\nThe power emanating from this weapon is ludicrous.\n\nWielding this, you will gain 2 additional attacks in combat, as well as a boost to your Endurance.\n\nLevel Required: 5000\n1000% Elemental Bonus\n2000 Mana Tick/round\n"
+		shopText "Annihilation\n\nThe power emanating from this weapon is ludicrous.\n\nWielding this, you will gain 2 additional attacks in combat, as well as a boost to your Endurance.\n\nLevel Required: 5000\n1000% Elemental Bonus\n2000 Mana Tick/round\n"
+	end
+end
+
+#------------------------------------------------------------------------------------------------------------------------
+#	Broad Sword Class
+#------------------------------------------------------------------------------------------------------------------------
+# 	All swords of the Broadsword class should be slightly heavier and more deadly than the Longsword counterpart
+#------------------------------------------------------------------------------------------------------------------------
+object mwVirtue of BroadSword
+	properties
+	special
+		name "Virtue"
+		value 50000
+		health 800
+		color 13	        # Royal-Blue
+		affect 0 0 0 -1		# Normal Damage	
+		affect 2 0 0 -1     # Cold Damage
+	end
+
+	base carryable
+		weight 10
+	end
+	
+	base weapon
+		minDamage 40
+		maxDamage 80
+	end
+
+	actions
+		vBePutOn setAffect dobj 5 2 0 -1                 # Immune to Poison
+		vBeTakenOff clearAffect dobj 5 2 0               #
+		vBePutOn setAffect dobj 98 0 0 -1                # Black Hair
+		vBeTakenOff clearAffect dobj 98 0 0              #
+		vBePutOn setAffect dobj 1 3 0 -1                 # Weakness to Fire (Hidden)
+		vBeTakenOff clearAffect dobj 1 3  0              #
+		vBePutOn changeMeleeArmorPiercing dobj 10        # 10% Armor Pen (Hidden)
+		vBeTakenOff changeMeleeArmorPiercing dobj -10    #
+	end	
+	
+	
+	base described
+		text "This broadsword is cold to the touch.\n"
+		idText "Virtue. \nOnly those with a Righteous path may wield this broadsword.\nIt is cold to the touch, but the hilt is warm.\nHolding this in your hand will darken your hair and accelerate your metabolism increasing your poison resistance.\n"
+		shopText "Virtue. \nOnly those with a Righteous path may wield this broadsword.\nIt is cold to the touch, but the hilt is warm.\nHolding this in your hand will darken your hair and accelerate your metabolism increasing your poison resistance.\n"
+	end
+end
+#------------------------------------------------------------------------------------------------------------------------
+object mwSplinter of BroadSword
+	properties
+		special
+		name "Splinter"
+		value 28500
+		level 200
+		color -1
+		health 750
+		strength 3
+        enchantResistance 20
+	end
+
+	base weapon
+		minDamage 85
+		maxDamage 205
+	end	
+
+	base carryable
+		weight 40
+	end
+
+    actions
+		vBePutOn setAffect dobj 56 0 0 -1       		# Extra Attack
+		vBeTakenOff clearAffect dobj 56 0 0
+		vBePutOn changeMeleeArmorPiercing dobj 15       # 15% Armor Pen
+		vBeTakenOff changeMeleeArmorPiercing dobj -15
+	end
+
+	base described
+		idText "The Splinter, said to be able to pierce any armor.\n\nWielding this, you will gain an additional attack.\n\nLevel Required: 200\n\n"
+		shopText "The Splinter, said to be able to pierce any armor.\n\nWielding this, you will gain an additional attack.\n\nLevel Required: 200\n\n"
+	end
+end
+#------------------------------------------------------------------------------------------------------------------------
+object mwDestitution of BroadSword
+	properties
+	special
+		name "Destitution"
+		value 100000
+		health 1000
+		level 500
+		strength 7		
+        color 97                # Dark Black Glow
+		affect 0 0 0 -1		    # Normal Damage	
+		affect 4 0 0 -1		    # Acid Damage
+	end
+
+	
+	base carryable
+		weight 55.0
+	end
+
+	base weapon
+		minDamage 115
+		maxDamage 235
+	end
+
+	
+	actions
+		vBePutOn setAffect dobj 33 0 0 -1              # Berserk
+		vBeTakenOff clearAffect dobj 33 0 0            #
+		vBePutOn setAffect dobj 4 3 0 -1               # Acid Weakness (Hidden)
+		vBeTakenOff clearAffect dobj 4 3 0             #
+		vBePutOn setAffect dobj 1 3 0 -1               # Fire Weakness (Hidden)
+		vBeTakenOff clearAffect dobj 1 3  0            #
+		vBePutOn setAffect dobj 2 3 0 -1               # Cold Weakness (Hidden)
+		vBeTakenOff clearAffect dobj 2 3  0            #
+		vBePutOn setAffect dobj 60 0 0 -1              # Clumsiness (-Dexterity) (Hidden)
+		vBeTakenOff clearAffect dobj 60 0 0            #		
+		vBePutOn setAffect dobj 62 0 0 -1              # Stupid (-Intel) (Hidden)
+		vBeTakenOff clearAffect dobj 62 0 0            #				
+	end
+
+	
+	base described
+		text "You hear whispers emanating from this blade..\n"
+		idText "Destitution.\nThis broadsword will burn your opponents with sinister Acid.\n\nWielding this, you will hear the cries and screams of all it's past victims and it drives you mad, forcing you to attack anything in sight.\nWielding this sword does come at a heavy cost.\n\nLevel Required: 500\n\n"
+		shopText "Destitution.\nThis broadsword will burn your opponents with sinister Acid.\n\nWielding this, you will hear the cries and screams of all it's past victims and it drives you mad, forcing you to attack anything in sight.\nWielding this sword does come at a heavy cost.\n\nLevel Required: 500\n\n"
+	end
+end
+#------------------------------------------------------------------------------------------------------------------------
+object mwSorrow of BroadSword
+	properties
+		special
+		name "Sorrow"
+		value 200000
+		health 1000
+		strength 5
+		level 800
+        color 7                 # Dark Olive Green
+		affect 1 0 0 -1		    # Fire Damage
+		affect 5 0 0 -1			# Poison
+	end
+
+	actions
+		vBePutOn changeSpellResistance dobj 25 2		    # 25% Myst Resist
+		vBeTakenOff changeSpellResistance dobj -25 2
+        vBePutOn setAffect dobj 56 0 0 -1					# Attack
+		vBeTakenOff clearAffect dobj 56 0 0
+        vBePutOn setAffect dobj 39 0 0 -1				    # Strength Bonus
+		vBeTakenOff clearAffect dobj 39 0 0
+        vBePutOn setAffect dobj 39 0 0 -1				    # Strength Bonus
+		vBeTakenOff clearAffect dobj 39 0 0
+        vBePutOn setAffect dobj 2 3 0 -1                    # Cold Weakness (Hidden)
+		vBeTakenOff clearAffect dobj 2 3  0
+	end
+
+	base carryable
+		weight 60
+	end
+
+	base weapon
+		minDamage 175
+		maxDamage 285
+	end
+
+	base described
+		text "You feel an overwhelming sadness come over you when you lift this broadsword..\n\n"
+		idText "Sorrow.\nWielding this blade, drains you of all warmth and happiness.\n\nSorrow grants an additional attack per round, as well as a considerable Strength boost.\n\nMysticism Resistance: 25%\n\nLevel Required: 800\n\n"
+		shopText "Sorrow.\nWielding this blade, drains you of all warmth and happiness.\n\nSorrow grants an additional attack per round, as well as a considerable Strength boost.\n\nMysticism Resistance: 25%\n\nLevel Required: 800\n\n"
+	end
+end
+#------------------------------------------------------------------------------------------------------------------------
+object mwMighty of BroadSword
+	properties
+	special
+		name "Mighty Broadsword"
+		value 10000
+		health 100000
+		strength 5
+		color 0                 # NB
+		affect 5 0 0 -1			# Poison
+		affect 0 0 0 -1			# Normal Damage	
+		level 1200
+	end
+
+	base carryable
+		weight 95.0
+	end
+	
+	base weapon
+		minDamage 185
+		maxDamage 305
+	end
+	
+	actions
+		vBePutOn changeMeleeArmorPiercing dobj 20				# 20% Armor Pen
+		vBeTakenOff changeMeleeArmorPiercing dobj -20
+		vBePutOn setAffect dobj 4 3 0 -1              			# Acid Weakness (Hidden)
+		vBeTakenOff clearAffect dobj 4 3 0
+		vBePutOn setAffect dobj 1 3 0 -1            		    # Fire Weakness (Hidden)
+		vBeTakenOff clearAffect dobj 1 3  0
+		vBePutOn setAffect dobj 2 3 0 -1            			# Cold Weakness (Hidden)
+		vBeTakenOff clearAffect dobj 2 3  0
+	end
+
+	base described
+		text "This Broadsword was used only by the mightiest warriors.\n\n"
+		idText "The Mighty Broadsword.\nThe weight of this blade alone is enough to cause massive damage.\n\nDue to it's massive weight it cuts through armor like butter.\n\nArmor Penetration: 20%\nLevel Required: 1200\n\n"
+		shopText "The Mighty Broadsword.\nThe weight of this blade alone is enough to cause massive damage.\n\nDue to it's massive weight it cuts through armor like butter.\n\nArmor Penetration: 20%\nLevel Required: 1200\n\n"
+	end
+end
+#------------------------------------------------------------------------------------------------------------------------
+object mwAlpha of BroadSword
+	properties
+		special
+		name "Alpha"
+		value 100000
+		level 2500
+		color 185	# Shifting Stark Black
+		health 1000
+		strength 5	
+		affect 0 0 0 -1	   # Normal Damage		
+	end
+
+	base weapon 
+		minDamage 300
+		maxDamage 475
+		spellProcID 109			# Cleave (Physical)
+		forwardProcChance 100	# 100%
+	end	
+
+	base carryable 
+		weight 12
+	end
+
+	actions
+		vBePutOn setAffect dobj 56 0 0 -1		# Extra Attack
+		vBeTakenOff clearAffect dobj 56 0 0     #
+		vBePutOn setAffect dobj 56 0 0 -1		# Extra Attack
+		vBeTakenOff clearAffect dobj 56 0 0     #
+		vBePutOn setAffect dobj 56 0 0 -1		# Extra Attack
+		vBeTakenOff clearAffect dobj 56 0 0     #
+	end
+	
+	base described
+		text "This broadsword seems dangerous.. more dangerous than normal..\n\n"
+		idText "Alpha\n\nThis deadly broadsword will slice through multiple enemies in front of you.\nCleave damage is calculated by the wielder's Strength and Critical Strike skill.\nAlpha will provide Three additional attacks per round.\n\n"
+		shopText "Alpha\n\nThis deadly broadsword will slice through multiple enemies in front of you.\nCleave damage is calculated by the wielder's Strength and Critical Strike skill.\nAlpha will provide Three additional attacks per round.\n\n"
+	end
+end
+#------------------------------------------------------------------------------------------------------------------------
+object mwArtifact of BroadSword
+	properties
+		special
+		name "The Artifact"
+		value 1000000000
+		level 1
+		color 118
+		health 5000
+		strength 5	
+		affect 0 0 0 -1	   # Normal Damage		
+	end
+
+	base weapon 
+		minDamage 165
+		maxDamage 215
+		spellProcID 109			# Cleave (Physical)
+		forwardProcChance 100	# 100%
+	end	
+
+	base carryable 
+		weight 8.0
+	end
+
+	actions
+		vBePutOn setAffect dobj 56 0 0 -1		# Extra Attack
+		vBeTakenOff clearAffect dobj 56 0 0     #
+		vBePutOn setAffect dobj 56 0 0 -1		# Extra Attack
+		vBeTakenOff clearAffect dobj 56 0 0     #
+		vBePutOn setAffect dobj 39 0 0 -1		# Strength Bonus
+		vBeTakenOff clearAffect dobj 39 0 0		#
+		vBePutOn setAffect dobj 63 0 0 -1      	# Endurance
+		vBeTakenOff clearAffect dobj 63 0 0		#
+		vBePutOn setAffect dobj 65 0 0 -1  		# Retention (Anti-Fumble)
+		vBeTakenOff clearAffect dobj 65 0 0		#
+	end
+	
+	base described
+		text "This.. this cant be.."
+		idText "This Artifact was lost to time a millenia ago. It is said it's power grows over time. Wielding this mighty Artifact, you will gain two additional attacks per combat round as well as a boost to your Strength and Endurance.\nA special magic is imbued with this blade, making it impossible to fumble.\nCleave damage is calculated by the wielder's Strength and Critical Strike skill.\n\nNo level requirement.\n\n"
+		shopText "This Artifact was lost to time a millenia ago. It is said it's power grows over time. Wielding this mighty Artifact, you will gain two additional attacks per combat round as well as a boost to your Strength and Endurance.\nA special magic is imbued with this blade, making it impossible to fumble.\nCleave damage is calculated by the wielder's Strength and Critical Strike skill.\n\nNo level requirement.\n\n"
+	end
+end
+#------------------------------------------------------------------------------------------------------------------------

@@ -1,0 +1,1890 @@
+# ---------------------------------- Haunted House ----------------------------
+room 28000
+   properties
+      picture	3071
+      roomName	"Haunted Hollow"
+   end
+   atpinfo
+      1750  649 140 -50
+      1751  403 58 -50
+      34519  265 72 -50
+      1752  54 80 -50
+      1771  155 325
+      1772  75 336
+      1850  17 320 6
+      1850  654 323 6
+      1752  562 77 -50
+      1771  472 321
+      7900  103 141
+      7900  355 141
+      7900  607 141
+      7903  172 241
+   end
+   objects
+		object Skull-28000-0 of Skull
+        properties
+            x	221
+            y	258
+            loop	0
+         end
+      end
+		object Web3-28000-2 of Web3
+         properties
+            x	211
+            y	147
+            loop	0
+         end
+      end
+		object Web4-28000-3 of Web4
+         properties
+            x	253
+            y	210
+            loop	0
+         end
+      end
+		object Web5-28000-4 of Web5
+         properties
+            x	198
+            y	245
+            loop	0
+         end
+      end
+		object Web6-28000-5 of Web6
+         properties
+            x	141
+            y	245
+            loop	0
+         end
+      end
+		object Web2-28000-6 of Web2
+         properties
+            x	172
+            y	147
+            loop	0
+         end
+      end
+		object Web1-28000-2 of Web1
+         properties
+            x	150
+            y	148
+            loop	0
+         end
+      end
+		object Web7-28000-2 of Web7
+         properties
+            x	102
+            y	203
+            loop	0
+         end
+      end
+      object Shroom2-28000-8 of Shroom2
+         properties
+            x	557
+            y	227
+            loop	0
+         end
+      end
+      object Shroom3-28000-9 of Shroom3
+         properties
+            x	367
+            y	115
+            loop	0
+         end
+      end
+      object Rock2-28000-10 of Rock2
+         properties
+            x	112
+            y	251
+            loop	0
+         end
+      end
+      object Rock3-28000-11 of Rock3
+         properties
+            x	256
+            y	232
+            loop	0
+         end
+      end
+   end
+end
+# ------------------------------ Fortune Teller Screen ------------------------
+room 28001
+   properties
+      picture	3000
+      roomName	"Sayer of Sooth"
+   end
+   atpinfo
+      93  334 103
+      163  571 138
+      157  162 145
+      168  119 142
+      175  308 106
+      168  370 147
+      2714  445 222 30
+      2715  420 215
+      115  424 218
+      202  406 197
+      15  560 260
+      114  575 261
+      20  273 236
+      32788  313 234
+      185  186 264
+      2714  607 199 30
+      2715  600 182
+      2714  555 143 30
+      2714  650 133 30
+      2714  485 164 30
+      2714  636 221 30
+      23  578 190
+      22  326 211
+      21  490 204
+      2713  580 225 50
+      2713  548 213 80
+      2715  608 206
+      115  604 209
+      114  567 218
+      62  399 215
+      62  620 201
+      200  588 246
+      66  606 187
+      45  3 212
+      44  91 180
+      44  396 173
+      45  443 168
+      2712  95 341
+      2955  462 257
+      7900  497 155
+      7900  245 155
+      7900  105 155
+      49  249 169
+      127  14 324
+      127  121 154
+      127  342 185
+      45  62 185
+      45  54 258
+      115  242 169
+      115  340 187
+      115  119 155
+      115  91 187
+      115  56 264
+      115  42 211
+      32791  116 151
+      23  78 128
+      22  21 250
+      22  46 201
+      21  102 176
+      21  35 225
+      21  154 141
+      21  165 113
+      21  67 288
+      127  138 199
+      115  131 203
+      115  258 220
+      102  32 299
+      100  606 327
+   end
+   objects
+      object hut28001-0 of Hut
+         properties
+            x	508
+            y	212
+            loop	0
+         end
+      end
+      object sittingRock28001-1 of SittingRock
+         properties
+            x	224
+            y	250
+            loop	0
+         end
+      end
+      object embers28001-2 of Embers
+         properties
+            x	298
+            y	257
+            loop	0
+         end
+      end
+      object fireA28001-3 of FireA
+         properties
+            x	291
+            y	246
+            loop	0
+         end
+      end
+      object stool28001-4 of Stool
+         properties
+            x	354
+            y	250
+            loop	1
+         end
+      end
+   end
+end
+# -------------------------- Usk Pumpkin Patch Entry: Exterior --------------------
+room 28002
+   properties
+      picture	3500
+      south	7115
+      west	7103 
+      roomName	"Farmer Antern"
+   end
+   atpinfo
+      2501  8 45
+      2801  114 98 29
+      2520  148 27
+      181  183 207
+      2545  558 165
+      32950  221 196
+      2621  727 55
+      2626  -80 50
+      2793  133 78
+      2745  55 -1 -99
+      2717  36 242
+      35485  357 202
+      2717  275 198
+      2717  519 224
+      35485  93 228
+      35485  595 237
+      3  9 244
+      3  136 214
+      182  316 211
+      3  86 226
+      2613  53 56
+      3  408 185
+      3  233 184
+      2954  -22 233
+      35722  320 194
+      2548  558 171
+      16  55 231
+      2547  66 189
+      2548  22 168
+      2545  23 162
+      2544  83 162
+      24  567 217 -46
+      32812  326 197
+      32789  602 151 -81
+      43  620 314
+      24  310 290 -46
+      32794  599 31 -150
+      25  567 233
+      182  408 197
+      2528  300 5
+      2508  489 32
+      35381  592 62
+      2513  638 51
+      2547  605 193
+      2544  619 167
+      2528  351 6
+      2529  319 44
+      32784  591 237
+      2954  676 231
+      7903  321 202
+      32949  460 208
+      2241  483 289
+   end
+   objects
+      object door28002-0 of Door
+         properties
+            x	448
+            y	200
+            loop	1
+			enchantResistance 100
+         end
+         base openable
+            isOpen	0
+        end
+         base lockable
+            isLocked    0
+         end
+         base described
+            text	"Welcome to Farmer Antern's Pumpkin Patch."
+         end
+      end
+      object chair28002-1 of Chair
+         properties
+            x	525
+            y	285
+            loop	1
+         end
+      end
+      object chair28002-2 of Chair
+         properties
+            x	511
+            y	262
+            loop	1
+         end
+      end
+      object chair28002-3 of Chair
+         properties
+            x	481
+            y	263
+            loop	2
+         end
+      end
+   end
+end
+# -------------------------- Usk Pumpkin Patch Entry: Interior --------------------
+room 28003
+   properties
+      picture	4000
+      roomName	"Usk Farmer's Market"
+   end
+   atpinfo
+      2140  -16 317 40
+      34890  321 94 36
+      34891  315 94 4
+      2141  -15 294 47
+      34908  657 287 40
+      2102  161 172
+      2109  315 193
+      2123  321 193 2
+      2109  318 92
+      2001  549 2
+      2002  632 29
+      2101  493 172
+      2013  81 8
+      2014  0 35
+      2025  183 4
+      2025  447 5
+      2026  282 14
+      2026  395 15
+      2106  240 194
+      2241  12 248
+      2241  623 242
+      2107  27 267
+      2108  611 264
+      2163  459 89
+      2163  175 90
+      34910  656 287 10
+      2106  400 194
+      2598  326 314
+      16  228 208
+      32784  425 211
+      3  102 255
+      3  542 255
+      3  240 197
+      3  416 195
+      3  255 194
+      3  395 193
+      3  273 189
+      3  374 190
+      3  83 243
+      3  70 226
+      3  51 219
+      3  34 212
+      3  20 204
+      3  6 195
+      7907  322 198
+      7906  52 532
+      7906  590 527
+      3  102 279
+      3  542 277
+   end
+   objects
+      object plankDoor28003-0 of PlankDoor
+         properties
+            x	42
+            y	181
+            loop	0
+            linkTo	door28002-0
+         end
+         base openable
+            isOpen	0
+         end
+         base described
+            text	"The message written on the door in careful script reads: 'Thank you, please come again.'"
+         end
+      end
+      object plankDoor28003-1 of PlankDoor
+         properties
+            x	598
+            y	180
+            loop	1
+            linkTo	plankDoor28004-0
+         end
+         base openable
+            isOpen	0
+         end
+         base described
+            text	"To the Pumpkin Patch."
+         end
+      end
+      object foodShop28003-2 of FoodShop
+         properties
+            x	317
+            y	184
+            name	"Farmer Antern"
+            loop	2
+         end
+         base character
+            sex	0
+            properName	"Farmer Antern (NPC)"
+         end
+         base container
+            worn	BlackBelt
+            worn	BlackCowl
+            worn	BlackBoots
+            worn	AmberPants
+            worn	OrangeShirt
+            worn	Obsidianiteband
+            head	0 0 4 1 6 0 8 4 2 8 0 0 
+         end
+         base talk
+            talkTreeID	28003
+         end
+      end
+      object chair28003-3 of Chair
+         properties
+            x	221
+            y	302
+            loop	0
+         end
+      end
+      object chair28003-4 of Chair
+         properties
+            x	428
+            y	299
+            loop	1
+         end
+      end
+      object chair28003-5 of Chair
+         properties
+            x	351
+            y	282
+            loop	2
+         end
+      end
+      object chair28003-6 of Chair
+         properties
+            x	299
+            y	284
+            loop	2
+         end
+      end
+   end
+end
+# -------------------------- Usk Pumpkin Patch Center Screen ---------------------
+room 28004
+   properties
+      picture	3500
+      west	28007
+      south	28006 
+      east	28005 
+      roomName	"Usk Pumpkin Farm"
+   end
+   atpinfo
+      2501  359 52
+      2501  207 30
+      2513  458 52
+      2514  481 61
+      2649  444 57
+      2668  203 196 58
+      2729  360 198
+      16  275 214
+      2668  178 79
+      2650  476 216
+      2595  458 154
+      2669  294 104
+      2743  658 57
+      2607  395 399 298
+      2607  277 367 284
+      2515  501 18
+      2609  433 103 38
+      1521  216 200
+      106  609 307
+      3  313 209
+      2653  485 100 49
+      2656  397 101
+      2654  438 60
+      2668  160 197
+      3  335 212
+      2670  341 104
+      49  590 193
+      49  161 72
+      2671  161 121
+      2670  187 196 116
+      32784  412 231
+      2510  238 190 50
+      2676  157 171
+      2663  204 183
+      2661  204 177 31
+      49  12 203
+      49  623 153
+      35722  630 182
+      2954  -20 49
+      35722  594 212
+      45  545 208
+      35485  -26 200
+      3  314 211
+      3  433 218
+      1521  359 211
+      3  376 217
+      2123  512 328 50
+      34909  565 327 40
+      2123  503 308 40
+      2123  506 324 50
+      1521  615 311
+      1521  43 315
+      1521  619 219
+      1521  17 53
+      1521  163 200
+      1521  175 220
+      1521  148 210
+      1521  419 216
+      1521  11 204
+      3  414 308
+      3  425 299
+      3  462 310
+      3  499 307
+      3  552 308
+      3  357 213
+      3  373 214
+      3  394 220
+      3  412 219
+      3  323 211
+   end
+   objects
+      object plankDoor28004-0 of PlankDoor
+         properties
+            x	285
+            y	209
+            loop	1
+         end
+         base openable
+            isOpen	0
+         end
+      end
+      object stand28004-1 of Stand
+         properties
+            x	494
+            y	323
+            loop	0
+         end
+      end
+      object chair28004-2 of Chair
+         properties
+            x	182
+            y	218
+            loop	2
+         end
+      end
+      object chair28004-3 of Chair
+         properties
+            x	499
+            y	303
+            loop	2
+         end
+      end
+      object sign28004-4 of Sign
+         properties
+            x	406
+            y	308
+            loop	0
+         end
+         base described
+            text	"Farmer's special - Fresh vegetables or pick a pumpkin from our patch for only 10 gold!"
+         end
+      end
+   end
+end
+# -------------------------- Usk Pumpkin Patch South Screen ---------------------#
+room 28006
+   properties
+      picture	3000
+      north	28004 
+      roomName	"Pumpkin Patch South"
+   end
+   atpinfo
+      2745  55 -1 -99
+      2717  538 323
+      2954  65 329
+      35722  608 325
+      32789  59 217 5
+      111  224 292
+      111  316 308
+      32879  467 316
+      2717  164 320
+      2958  203 306
+      32789  298 279 5
+      114  481 301
+      115  141 283 5
+      112  258 304
+      230  538 251
+      114  547 285
+      230  300 234
+      184  376 281
+      106  615 313
+      113  446 260
+      115  55 266
+      110  83 221
+      115  516 205
+      185  48 254
+      230  109 180 -30
+      111  425 285
+      230  273 250
+      115  224 287
+      114  389 296
+      230  279 173 -30
+      114  599 271
+      106  23 294
+      230  522 234
+      183  214 254
+      183  133 254
+      115  121 250
+      184  300 260
+      32879  474 255
+      115  144 235
+      183  544 262
+      183  357 259
+      183  446 254
+      183  608 252
+      183  391 230
+      230  310 290 -30
+      230  412 172 -30
+      230  567 171 -30
+      115  220 233
+      115  541 244
+      111  266 233
+      115  322 232
+      2958  181 217
+      2717  612 255
+      2958  132 193
+      35726  510 216
+      35726  308 202
+      2717  316 219
+      115  160 189
+      115  454 275
+      115  393 206
+      2716  38 203
+      35484  468 195
+      111  376 235
+      35484  517 227
+      183  461 226
+      230  172 161 -30
+      2958  283 222
+      2955  610 177
+      35723  61 173
+      2958  327 197
+      35726  422 184
+      111  320 188
+      230  575 181
+      230  219 177
+      230  362 174
+      230  201 152
+      230  449 154
+      230  330 152
+      115  355 173
+      111  303 293
+      62  103 160
+      35726  363 168
+      2958  418 189
+      35723  506 151
+      2955  353 144
+      2955  186 150
+      183  276 276
+      2958  304 177
+      2955  504 138
+      35723  14 139
+      2717  597 147
+      2717  79 128
+      2717  170 125
+      2717  253 131
+      230  160 121
+      230  257 125
+      2717  346 125
+      35485  416 121
+      2717  507 118
+      35485  604 117
+      230  371 118
+      230  479 109
+      230  567 111
+   end
+   objects
+      object sign28006-0 of Sign
+         properties
+            x	298
+            y	307
+            loop	0
+         end
+         base described
+            text	"This is a community garden. Pumpkins are in season!"
+         end
+      end
+      object sign28006-1 of Sign
+         properties
+            x	514
+            y	286
+            loop	0
+         end
+         base described
+            text	"Remember, this is a community garden. Please share the harvest with your fellow citizens."
+         end
+      end
+      object sign28006-2 of Sign
+         properties
+            x	92
+            y	299
+            loop	0
+         end
+         base described
+            text	"Please do not water the growing crops. It's harvest time."
+         end
+      end
+	object pumpkinDropper28006-3 of PumpkinDropper
+   properties
+            x	-200
+            y	-200
+            loop	0
+         end
+	end
+object pumpkinDropper28006-4 of PumpkinDropper
+	   properties
+           x	-200
+            y	-200
+            loop	0
+         end
+	end
+   end
+end
+# -------------------------- Usk Pumpkin Patch East Screen ----------------------
+room 28005
+   properties
+      picture	3000
+      west	28004 
+      roomName	"Pumpkin Patch East"
+   end
+   atpinfo
+      2745  55 -1 -99
+      2717  538 323
+      2954  65 329
+      35722  608 325
+      32789  59 217 5
+      111  224 292
+      111  316 308
+      32879  467 316
+      2717  164 320
+      2958  203 306
+      32789  298 279 5
+      114  481 301
+      115  141 283 5
+      112  258 304
+      230  538 251
+      114  547 285
+      230  300 234
+      184  376 281
+      102  23 279
+      113  446 260
+      115  55 266
+      110  83 221
+      115  516 205
+      185  48 254
+      230  109 180 -30
+      111  425 285
+      230  273 250
+      115  224 287
+      114  389 296
+      230  279 173 -30
+      114  599 271
+      107  557 313
+      230  522 234
+      183  214 254
+      183  133 254
+      115  121 250
+      184  300 260
+      32879  474 255
+      115  144 235
+      183  544 262
+      183  357 259
+      183  446 254
+      183  608 252
+      183  391 230
+      230  310 290 -30
+      230  412 172 -30
+      230  567 171 -30
+      115  220 233
+      115  541 244
+      111  266 233
+      115  322 232
+      2958  181 217
+      2717  612 255
+      2958  132 193
+      35726  510 216
+      35726  308 202
+      2717  316 219
+      115  160 189
+      115  454 275
+      115  393 206
+      2716  38 203
+      35484  468 195
+      111  376 235
+      35484  517 227
+      183  461 226
+      230  172 161 -30
+      2958  283 222
+      2955  610 177
+      35723  61 173
+      2958  327 197
+      35726  422 184
+      111  320 188
+      230  575 181
+      230  219 177
+      230  362 174
+      230  201 152
+      230  449 154
+      230  330 152
+      115  355 173
+      111  303 293
+      62  103 160
+      35726  363 168
+      2958  418 189
+      35723  506 151
+      2955  353 144
+      2955  186 150
+      183  276 276
+      2958  304 177
+      2955  504 138
+      35723  14 139
+      2717  597 147
+      2717  79 128
+      2717  170 125
+      2717  253 131
+      230  160 121
+      230  257 125
+      2717  346 125
+      35485  416 121
+      2717  507 118
+      35485  604 117
+      230  371 118
+      230  479 109
+      230  567 111
+      100  105 110
+      100  311 113
+      100  511 107
+      171  175 72
+      172  182 58
+      171  776 70
+      7900  59 129
+      7900  584 132
+      7900  311 129
+   end
+   objects
+      object sign28005-0 of Sign
+         properties
+            x	304
+            y	306
+            loop	0
+         end
+         base described
+            text	"Please do not water the growing crop. It's harvest time."
+         end
+      end
+      object sign28005-1 of Sign
+         properties
+            x	115
+            y	316
+            loop	0
+         end
+         base described
+            text	"Remember, this is a community garden. Please share the harvest with your fellow citizens."
+         end
+      end
+      object sign28005-2 of Sign
+         properties
+            x	515
+            y	321
+            loop	0
+         end
+         base described
+            text	"This is a community garden. Pumpkins are in season!"
+         end
+      end
+      object sittingRock28005-3 of SittingRock
+         properties
+            x	514
+            y	305
+            loop	1
+         end
+         base described
+            text	"You see a plow stone."
+         end
+      end
+      object sittingStump28005-4 of SittingStump
+         properties
+            x	79
+            y	303
+            loop	0
+         end
+         base described
+            text	"You see a dead Oak tree. This tree was plowed from the fields and is now used as a seat for tired farmers."
+         end
+      end
+	object pumpkinDropper28005-5 of PumpkinDropper
+   properties
+            x	-200
+            y	-200
+            loop	0
+         end
+	end
+	object pumpkinDropper28005-6 of PumpkinDropper
+	   properties
+            x	-200
+            y	-200
+            loop	0
+         end
+	end
+   end
+end
+# -------------------------- Usk Pumpkin Patch West Screen ----------------------#
+room 28007
+   properties
+      picture	3000
+      east	28004
+      roomName	"Pumpkin Patch West"
+   end
+   atpinfo
+      2745  55 -1 -99
+      2717  538 323
+      2954  65 329
+      35722  608 325
+      32789  59 217 5
+      111  224 292
+      111  316 308
+      32879  467 316
+      2717  164 320
+      2958  203 306
+      32789  298 279 5
+      114  481 301
+      115  141 283 5
+      112  258 304
+      230  538 251
+      114  547 285
+      230  300 234
+      184  376 281
+      102  592 315
+      113  446 260
+      115  55 266
+      110  83 221
+      115  516 205
+      185  48 254
+      230  109 180 -30
+      111  425 285
+      230  273 250
+      115  224 287
+      114  389 296
+      230  279 173 -30
+      114  599 271
+      106  16 313
+      230  522 234
+      183  214 254
+      183  133 254
+      115  121 250
+      184  300 260
+      32879  474 255
+      115  144 235
+      183  544 262
+      183  357 259
+      183  446 254
+      183  608 252
+      183  391 230
+      230  310 290 -30
+      230  412 172 -30
+      230  567 171 -30
+      115  220 233
+      115  541 244
+      111  266 233
+      115  322 232
+      2958  181 217
+      2717  612 255
+      2958  132 193
+      35726  510 216
+      35726  308 202
+      2717  316 219
+      115  160 189
+      115  454 275
+      115  393 206
+      2716  38 203
+      35484  468 195
+      111  376 235
+      35484  517 227
+      183  461 226
+      230  172 161 -30
+      2958  283 222
+      2955  610 177
+      35723  61 173
+      2958  327 197
+      35726  422 184
+      111  320 188
+      230  575 181
+      230  219 177
+      230  362 174
+      230  201 152
+      230  449 154
+      230  330 152
+      115  355 173
+      111  303 293
+      62  103 160
+      35726  363 168
+      2958  418 189
+      35723  506 151
+      2955  353 144
+      2955  186 150
+      183  276 276
+      2958  304 177
+      2955  504 138
+      35723  14 139
+      2717  597 147
+      2717  79 128
+      2717  170 125
+      2717  253 131
+      230  160 121
+      230  257 125
+      2717  346 125
+      35485  416 121
+      2717  507 118
+      35485  604 117
+      230  371 118
+      230  479 109
+      230  567 111
+      100  523 103
+      100  86 112
+      100  312 109
+      169  390 82
+      63  348 262
+      170  -56 85
+      7900  100 133
+      7900  517 132
+      7900  353 133
+   end
+   objects
+      object sign28007-0 of Sign
+         properties
+            x	453
+            y	315
+            loop	0
+         end
+         base described
+            text	"Remember, this is a community garden. Please share the harvest with your fellow citizens."
+         end
+      end
+      object sign28007-1 of Sign
+         properties
+            x	523
+            y	180
+            loop	0
+         end
+         base described
+            text	"Please do not water the current crops. It's harvest time."
+         end
+      end
+      object sign28007-2 of Sign
+         properties
+            x	93
+            y	310
+            loop	0
+         end
+         base described
+            text	"This is a community garden. Pumpkins are in season!"
+         end
+      end
+      object pumpkinDropper28007-3 of PumpkinDropper
+         properties
+            x	-200
+            y	-200
+            loop	0
+         end
+      end
+      object pumpkinDropper28007-4 of PumpkinDropper
+	   properties
+            x	-200
+            y	-200
+            loop	0
+         end
+      end
+   end
+end
+
+# ---------------------------------------------------------------------------------------------------------------------------------------------------
+# ---------------------------------------------- Murias Pumpkin Plot Entry: Exterior ----------------------------------------------------------------
+room 5220
+   properties
+      picture	3500
+      west	5213
+   end
+   atpinfo
+      2525  228 24
+      2526  297 30
+      2525  376 24
+      2501  474 30
+      2501  607 52
+      2502  534 54
+      2543  354 147
+      2543  249 148
+      2542  628 179
+      2608  536 89 30
+      23  310 290 -100
+      2611  381 60
+      2611  226 66
+      2611  324 62
+      2715  29 116 -20
+      2714  60 120
+      2714  123 40 -50
+      2955  139 178
+      2956  149 186
+      2956  182 132 -50
+      111  365 181
+      112  262 183
+      113  306 184
+      2716  608 207
+      2716  431 183
+      20  496 191
+      23  106 18 -100
+      22  82 14 -100
+      21  61 142
+      21  61 89
+      2608  655 112 30
+      23  112 6 -80
+      2955  154 10 -80
+      21  49 35
+      2956  21 175
+      1  313 223
+      64  318 185
+      64  618 223
+      64  145 170
+      64  213 186
+      64  9 143
+   end
+   objects
+      object plankDoor5220-0 of PlankDoor
+         properties
+            x	514
+            y	202
+            loop	1
+            enchantResistance 100
+         end
+         base openable
+            isOpen	0
+        end
+         base lockable
+            isLocked    0
+         end
+         base described
+            text	"Welcome to Farmer Jack's Pumpkin Plot."
+         end
+      end
+      object chair5220-1 of Chair
+         properties
+            x	199
+            y	194
+            loop	2
+         end
+      end
+      object chair5220-2 of Chair
+         properties
+            x	572
+            y	273
+            loop	1
+         end
+      end
+      object chair5220-3 of Chair
+         properties
+            x	598
+            y	297
+            loop	1
+         end
+      end
+   end
+end
+# -------------------------- Murias Pumpkin Plot Entry: Interior --------------------
+room 28013
+   properties
+      picture	4000
+      roomName	"Murias Farmer's Market"
+   end
+   atpinfo
+      3  20 204
+      34890  367 174 36
+      3  70 226
+      3  34 212
+      3  51 219
+      2102  565 226
+      2109  365 172
+      2123  371 176 2
+      7906  590 527
+      2001  548 11
+      2002  629 37
+      7906  52 532
+      2013  81 8
+      2014  -4 32
+      2025  183 4
+      2025  447 5
+      2026  282 14
+      2026  395 15
+      2106  642 246
+      2241  472 171
+      2241  135 168
+      3  542 277
+      3  102 279
+      2163  292 82
+      2163  444 84
+      7907  322 198
+      3  6 195
+      2598  142 313
+      16  228 208
+      32784  425 211
+      3  102 255
+      3  542 255
+      3  240 197
+      3  416 195
+      3  255 194
+      3  395 193
+      3  273 189
+      3  374 190
+      3  83 243
+   end
+   objects
+      object plankDoor28013-0 of PlankDoor
+         properties
+            x	50
+            y	181
+            loop	0
+            linkTo	plankDoor5220-0
+         end
+         base openable
+            isOpen	0
+         end
+         base described
+            text	"The message written on the door in careful script reads: 'Thank you, please come again.'"
+         end
+      end
+      object plankDoor28013-1 of PlankDoor
+         properties
+            x	219
+            y	170
+            loop	2
+            linkTo	plankDoor28014-0
+         end
+         base openable
+            isOpen	0
+         end
+         base described
+            text	"To the Pumpkin Plot."
+         end
+      end
+      object foodShop28013-2 of FoodShop
+         properties
+            x	592
+            y	222
+            name	"Farmer Jack"
+            loop	1
+         end
+         base character
+            sex	0
+            properName	"Farmer Jack (NPC)"
+         end
+         base container
+            worn	BlackBelt
+            worn	BlackCowl
+            worn	BlackBoots
+            worn	AmberPants
+            worn	OrangeShirt
+            worn	Obsidianiteband
+            head	0 0 4 1 6 0 8 4 2 8 0 0
+         end
+         base talk
+            talkTreeID	28013
+         end
+      end
+      object chair28013-3 of Chair
+         properties
+            x	30
+            y	300
+            loop	0
+         end
+      end
+      object chair28013-4 of Chair
+         properties
+            x	252
+            y	306
+            loop	1
+         end
+      end
+      object chair28013-5 of Chair
+         properties
+            x	165
+            y	286
+            loop	2
+         end
+      end
+      object chair28013-6 of Chair
+         properties
+            x	113
+            y	284
+            loop	2
+         end
+      end
+   end
+end
+# -------------------------- Murias Pumpkin Plot Center Screen ---------------------
+room 28014
+   properties
+      picture	3500
+      west	28017
+      south	28016
+      east	28015
+      roomName	"Murias Pumpkin Farm"
+   end
+   atpinfo
+      3  499 307
+      49  505 151
+      32784  412 231
+      49  561 121
+      3  433 218
+      3  357 213
+      3  376 217
+      16  275 214
+      49  617 142
+      3  552 308
+      3  373 214
+      35722  602 164
+      2743  553 92
+      3  394 220
+      3  412 219
+      3  314 211
+      3  425 299
+      3  414 308
+      3  462 310
+      3  313 209
+      35485  430 182
+      45  451 175
+      2954  485 173
+      3  323 211
+      3  335 212
+      35722  546 125
+      49  573 174
+      2525  48 51
+      2513  153 45
+      2513  366 11
+      2514  216 46
+      2541  321 147
+      2514  311 30
+      2541  144 177
+      2543  36 173
+      2611  40 91
+      35376  108 79
+      35376  214 59
+      35376  323 40
+      2954  472 2 -130
+      35722  441 1 -100
+      111  361 176
+      35484  167 196
+      35484  361 163
+      35484  6 214
+      35484  71 207
+   end
+   objects
+      object plankDoor28014-0 of PlankDoor
+         properties
+            x	266
+            y	192
+            loop	0
+         end
+         base openable
+            isOpen	0
+         end
+      end
+      object chair28014-2 of Chair
+         properties
+            x	501
+            y	188
+            loop	2
+         end
+      end
+      object chair28014-3 of Chair
+         properties
+            x	557
+            y	188
+            loop	2
+         end
+      end
+   end
+end
+# -------------------------- Murias Pumpkin Plot South Screen ---------------------#
+room 28016
+   properties
+      picture	3000
+      north	28014
+      roomName	"Pumpkin Plot South"
+   end
+   atpinfo
+      2745  55 -1 -99
+      2717  538 323
+      2954  65 329
+      35722  608 325
+      32789  59 217 5
+      111  224 292
+      111  316 308
+      32879  467 316
+      2717  164 320
+      2958  203 306
+      32789  298 279 5
+      114  481 301
+      115  141 283 5
+      112  258 304
+      230  538 251
+      114  547 285
+      230  300 234
+      184  376 281
+      102  15 309
+      113  446 260
+      115  55 266
+      110  83 221
+      115  516 205
+      185  48 254
+      230  109 180 -30
+      111  425 285
+      230  273 250
+      115  224 287
+      114  389 296
+      230  279 173 -30
+      114  599 271
+      230  567 111
+      230  522 234
+      183  214 254
+      183  133 254
+      115  121 250
+      184  300 260
+      32879  474 255
+      115  144 235
+      183  544 262
+      183  357 259
+      183  446 254
+      183  608 252
+      183  391 230
+      230  310 290 -30
+      230  412 172 -30
+      230  567 171 -30
+      115  220 233
+      115  541 244
+      111  266 233
+      115  322 232
+      2958  181 217
+      2717  612 255
+      2958  132 193
+      35726  510 216
+      35726  308 202
+      2717  316 219
+      115  160 189
+      115  454 275
+      115  393 206
+      2716  38 203
+      35484  468 195
+      111  376 235
+      35484  517 227
+      183  461 226
+      230  172 161 -30
+      2958  283 222
+      2955  610 177
+      35723  61 173
+      2958  327 197
+      35726  422 184
+      111  320 188
+      230  575 181
+      230  219 177
+      230  362 174
+      230  201 152
+      230  449 154
+      230  330 152
+      115  355 173
+      111  303 293
+      62  103 160
+      35726  363 168
+      2958  418 189
+      35723  506 151
+      2955  353 144
+      2955  186 150
+      183  276 276
+      2958  304 177
+      2955  504 138
+      35723  14 139
+      2717  597 147
+      2717  79 128
+      2717  170 125
+      2717  240 130
+      230  160 121
+      230  257 125
+      2717  366 125
+      35485  416 121
+      2717  507 118
+      35485  604 117
+      230  371 118
+      230  479 109
+      102  640 306
+      165  512 108
+      168  99 108 -30
+      232  306 100
+      35485  244 123
+      7900  293 67
+   end
+   objects
+      object sign28016-1 of Sign
+         properties
+            x	514
+            y	286
+            loop	0
+         end
+         base described
+            text	"Remember, this is a community garden. Please share the harvest with your fellow citizens."
+         end
+      end
+      object sign28016-2 of Sign
+         properties
+            x	92
+            y	299
+            loop	0
+         end
+         base described
+            text	"Please do not water the growing crops. It's harvest time."
+         end
+      end
+      object pumpkinDropper28016-3 of PumpkinDropper
+         properties
+            x	0
+            y	0
+            loop	0
+         end
+      end
+      object pumpkinDropper28016-4 of PumpkinDropper
+         properties
+            x	0
+            y	0
+            loop	0
+         end
+      end
+   end
+end
+# -------------------------- Murias Pumpkin Plot East Screen ----------------------
+room 28015
+   properties
+      picture	3000
+      west	28014
+      roomName	"Pumpkin Plot East"
+   end
+   atpinfo
+      2745  55 -1 -99
+      2717  538 323
+      2954  65 329
+      35722  608 325
+      32789  59 217 5
+      111  224 292
+      111  316 308
+      32879  467 316
+      2717  164 320
+      2958  203 306
+      32789  298 279 5
+      114  481 301
+      115  141 283 5
+      112  258 304
+      230  538 251
+      114  547 285
+      230  288 233
+      184  376 281
+      7900  311 129
+      113  446 260
+      115  55 266
+      110  83 221
+      115  516 205
+      185  48 254
+      230  109 180 -30
+      111  425 285
+      230  273 250
+      115  224 287
+      114  389 296
+      230  279 173 -30
+      114  599 271
+      107  588 304
+      230  522 234
+      183  214 254
+      183  133 254
+      115  121 250
+      184  300 260
+      32879  474 255
+      115  144 235
+      183  544 262
+      183  357 259
+      183  446 254
+      183  608 252
+      183  391 230
+      230  310 290 -30
+      230  412 172 -30
+      230  567 171 -30
+      115  220 233
+      115  541 244
+      111  266 233
+      115  322 232
+      2958  181 217
+      2717  612 255
+      2958  132 193
+      35726  510 216
+      35726  308 202
+      2717  316 219
+      115  160 189
+      115  454 275
+      115  393 206
+      2716  38 203
+      35484  450 199
+      111  335 242
+      35484  517 227
+      183  461 226
+      230  172 161 -30
+      2958  283 222
+      2955  610 177
+      35723  61 173
+      2958  327 197
+      35726  448 182
+      111  320 188
+      230  575 181
+      230  219 177
+      230  362 174
+      230  201 152
+      230  449 154
+      230  330 152
+      115  355 173
+      111  303 293
+      62  103 160
+      35726  363 168
+      2958  418 189
+      35723  506 151
+      2955  353 144
+      2955  186 150
+      183  276 276
+      2958  304 177
+      2955  504 138
+      35723  14 139
+      2717  597 147
+      2717  79 128
+      2717  170 125
+      2717  259 133
+      230  160 121
+      230  257 125
+      2717  346 125
+      35485  416 121
+      2717  507 118
+      35485  604 117
+      230  371 118
+      230  479 109
+      230  567 111
+      100  130 113
+      100  308 106
+      100  541 99
+      171  175 72
+      172  182 58
+      171  776 70
+      7900  59 129
+      7900  584 132
+      107  -33 311
+      107  21 292
+   end
+   objects
+      object sign28015-1 of Sign
+         properties
+            x	2
+            y	337
+            loop	0
+         end
+         base described
+            text	"Remember, this is a community garden. Please share the harvest with your fellow citizens."
+         end
+      end
+      object sign28015-2 of Sign
+         properties
+            x	517
+            y	330
+            loop	0
+         end
+         base described
+            text	"This is a community garden. Pumpkins are in season!"
+         end
+      end
+      object sittingRock28015-3 of SittingRock
+         properties
+            x	54
+            y	297
+            loop	0
+         end
+         base described
+            text	"You see a plow stone."
+         end
+      end
+      object pumpkinDropper28015-5 of PumpkinDropper
+         properties
+            x	0
+            y	0
+            loop	0
+         end
+      end
+      object pumpkinDropper28015-6 of PumpkinDropper
+         properties
+            x	0
+            y	0
+            loop	0
+         end
+      end
+   end
+end
+# -------------------------- Murias Pumpkin Plot West Screen ----------------------#
+room 28017
+   properties
+      picture	3000
+      east	28014
+      roomName	"Pumpkin Plot East"
+   end
+   atpinfo
+      2745  55 -1 -99
+      2717  538 323
+      2954  65 329
+      35722  608 325
+      32789  59 217 5
+      111  224 292
+      111  316 308
+      32879  467 316
+      2717  164 320
+      2958  203 306
+      32789  298 279 5
+      114  481 301
+      115  141 283 5
+      112  258 304
+      230  538 251
+      114  547 285
+      230  288 233
+      184  376 281
+      102  21 297
+      113  446 260
+      115  55 266
+      110  83 221
+      115  516 205
+      185  48 254
+      230  109 180 -30
+      111  425 285
+      230  273 250
+      115  224 287
+      114  389 296
+      230  279 173 -30
+      114  599 271
+      7900  59 129
+      230  522 234
+      183  214 254
+      183  133 254
+      115  121 250
+      184  300 260
+      32879  474 255
+      115  144 235
+      183  544 262
+      183  357 259
+      183  446 254
+      183  608 252
+      183  391 230
+      230  310 290 -30
+      230  412 172 -30
+      230  567 171 -30
+      115  220 233
+      115  541 244
+      111  266 233
+      115  322 232
+      2958  181 217
+      2717  612 255
+      2958  132 193
+      35726  510 216
+      35726  308 202
+      2717  316 219
+      115  160 189
+      115  454 275
+      115  393 206
+      2716  38 203
+      35484  450 199
+      111  335 242
+      35484  517 227
+      183  461 226
+      230  172 161 -30
+      2958  283 222
+      2955  610 177
+      35723  61 173
+      2958  327 197
+      35726  448 182
+      111  320 188
+      230  575 181
+      230  219 177
+      230  362 174
+      230  201 152
+      230  449 154
+      230  330 152
+      115  355 173
+      111  303 293
+      62  103 160
+      35726  363 168
+      2958  418 189
+      35723  506 151
+      2955  353 144
+      2955  186 150
+      183  276 276
+      2958  304 177
+      2955  504 138
+      35723  14 139
+      2717  597 147
+      2717  79 128
+      2717  170 125
+      2717  259 133
+      230  160 121
+      230  257 125
+      2717  346 125
+      35485  416 121
+      2717  507 118
+      35485  604 117
+      230  371 118
+      230  479 109
+      230  567 111
+      100  126 117
+      100  413 101
+      100  593 103
+      7900  311 129
+      7900  584 132
+      100  240 94
+   end
+   objects
+      object pumpkinDropper28017-3 of PumpkinDropper
+         properties
+            x	0
+            y	0
+            loop	0
+         end
+      end
+      object pumpkinDropper28017-4 of PumpkinDropper
+         properties
+            x	0
+            y	0
+            loop	0
+         end
+      end
+      object sign28017-0 of Sign
+         properties
+            x	2
+            y	337
+            loop	0
+         end
+      end
+      object sign28017-1 of Sign
+         properties
+            x	603
+            y	298
+            loop	0
+         end
+      end
+      object sittingStump28017-3 of SittingStump
+         properties
+            x	586
+            y	297
+            loop	0
+         end
+      end
+   end
+end

@@ -1,0 +1,65 @@
+name "fafnirswamp"
+title "Fafnir's Swamp"
+worldFile "../data/lib/world/SWAMP1.WLD"
+worldFile "../data/lib/world/SWAMP2.WLD"
+worldFile "../data/lib/world/SWAMP3.WLD"
+
+resetInterval 9000000
+maximumObjectAge 0
+allowCombat 3
+midiFile 17
+
+
+groupChance 100
+
+monster Nobleman 25
+
+monster Borei 15
+monster Nightmare 15
+monster Shiryo 15
+monster Phantom 15
+
+monster AncientWizard 10
+monster AncientPaladin 10
+monster SavageOgre 10
+monster SavageOgreKnight 10
+
+monster CastleRoamingGuard 25
+
+monster Crusader 25
+monster Gladiator 25
+
+monster GiantEvilHellSoul 1
+monster AncientSoul 5
+monster EarthSoul 5
+monster FierySoul 5
+monster DemonicSoul 5
+monster GhostSoul 5
+monster RoyalSoul 5
+monster InsaneSoul 5
+monster CorruptSoul 5
+monster CorruptEarthSoul 5
+monster HateSoul 5
+monster EternalFlameSoul 5
+monster PurgedSoul 5
+monster InfantSoul 5
+monster HardenedSoul 5
+
+monster Basilisk 5
+monster ColdBasilisk 5
+monster AcidBasilisk 5
+monster PoisonBasilisk 5
+monster ElectricBasilisk 5
+
+
+monsterGroup 3 1 Basilisk 1 AcidBasilisk 1 InsaneSoul 1 AncientSoul 1 PurgedSoul 1 InfantSoul
+monsterGroup 8 1 Phantom 1 Borei 1 Shiryo 1 Nightmare
+monsterGroup 5 1 Nobleman 1 SavageOgre 1 SavageOgreKnight 1 Phantom
+monsterGroup 5 1 Nobleman 1 AncientPaladin 1 AncientWizard 1 Crusader
+monsterGroup 1 1 SoldierBoss 1 Nobleman 1 Phantom 1 Gladiator 1 Gladiator 1 Gladiator 1 Crusader 1 Nightmare
+monsterGroup 5 1 Gladiator 1 Gladiator 1 Crusader 1 Crusader
+monsterGroup 5 1 Gladiator 1 Gladiator  1 Gladiator  1 Gladiator  1 Gladiator 
+monsterGroup 10 1 AncientSoul 1 EarthSoul 1 FierySoul 1 DemonicSoul 1 GhostSoul 1 RoyalSoul 1 InsaneSoul 1 CorruptEarthSoul 1 HateSoul 1 HardenedSoul
+monsterGroup 10 2 Basilisk 2 ColdBasilisk 2 AcidBasilisk 2 PoisonBasilisk 2 ElectricBasilisk
+monsterGroup 10 1 GooM 1 GooJ 1 GooP 1 GooH 1 GooM 1 GooJ 1 GooP 1 GooH 1 GooM 1 GooJ
+monsterGroup 10 1 GooM 1 GooJ 1 GooP 1 GooH 1 GooM 1 GooJ 1 GooP 1 GooH 1 GooM 1 GooJ

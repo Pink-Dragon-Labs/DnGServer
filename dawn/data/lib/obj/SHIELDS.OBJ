@@ -1,0 +1,1119 @@
+#
+# Shield Classes
+#
+
+object Shield of Clothing
+	properties
+		name "Shield"
+		basicName "Shield"
+		view 16500
+		value 15
+		clutStart 48
+		color 63
+		health 60
+	end
+
+	base carryable
+		weight 5.0
+	end
+
+	base described
+		text "You see a basic shield."
+		shopText "Ahhh!  This is the finest shield in all the Realm!"
+	end
+
+	base wearable
+		areaWorn 17
+		layer 5
+	end
+end
+
+object WoodShield of Shield
+	properties
+		name "Wooden Shield"
+		view 16500
+		value 15
+		color 73
+		health 80
+		level 1
+
+		# weak to fire
+		affect 1 3 0 -1
+
+		# immune to rust
+		affect 11 2 0 -1
+	end
+
+	base carryable
+		weight 7.0
+	end
+
+	base described
+		text "You see a small wooden shield."
+		shopText "Watch out for splinters."
+	end
+end
+
+object RoundShield of Shield
+	properties
+		name "Bronze Shield"
+		view 16500
+		value 200
+		health 140
+		level 2
+
+		# clear rust immunity
+		caffect 11
+
+		# add fire immunity
+		affect 1 2 0 -1
+	end
+
+	base carryable
+		weight 10.0
+	end
+
+	base described
+		text "You see a round shield."
+		shopText "This is a simple round bronze shield, slightly more durable than a wooden one."
+	end
+end
+
+object LargeShield of Shield
+	properties
+		name "Large Shield"
+		view 16800
+		value 550
+		color 99
+		health 240
+		level 2
+
+		# clear rust immunity
+		caffect 11
+
+		# add fire immunity
+		affect 1 2 0 -1
+	end
+
+	base carryable
+		weight 15.0
+	end
+
+	base described
+		text "You see a large steel shield."
+		shopText "This fine shield will last through many combats."
+	end
+end
+
+object KnightsShield of Shield
+	properties
+		name "Knight's Shield"
+		view 16800
+		value 2750
+		health 400
+		level 200
+	end
+
+	base carryable
+		weight 22.0
+	end
+
+	base described
+		text "You see a golden Knight's Shield."
+		shopText "This fine shield is not only decorative, but quite sturdy too."
+	end
+end
+
+object WoodRoundShield of RoundShield
+	properties
+		name "Wooden Round Shield"
+		view 16500
+		value 15
+		color 105
+		health 80
+		strength 1
+
+		# clear fire immunity
+		caffect 1
+
+		# add fire weakness
+		affect 1 3 0 -1
+
+		# add rust immunity
+		affect 11 2 0 -1
+	end
+
+	base carryable
+		weight 7.0
+	end
+
+	components
+		WoodBlock
+		WoodBlock
+	end
+
+	base described
+		text "You see a small wooden round shield."
+		shopText "Watch out for splinters."
+	end
+end
+
+object IronRoundShield of RoundShield
+	properties
+		name "Iron Round Shield"
+		value 90
+		health 140
+		color 104
+		strength 2
+
+		# add rust weakness
+		affect 11 3 0 -1
+	end
+
+	base carryable
+		weight 11.0
+	end
+
+	components
+		IronBar
+		IronBar
+		IronBar
+	end
+
+	base described
+		text "You see a plain iron round shield."
+		shopText "Here is a simple and inexpensive iron shield."
+	end
+end
+
+object SteelRoundShield of RoundShield
+	properties
+		name "Steel Round Shield"
+		value 300
+		health 200
+		color 99
+		strength 2
+	end
+
+	base carryable
+		weight 8.5
+	end
+
+	components
+		SteelBar
+		SteelBar
+	end
+
+	base described
+		text "You see a steel round shield."
+		shopText "Here is a sturdy shield made of steel."
+	end
+end
+
+object TemperedSteelRoundShield of RoundShield
+	properties
+		name "Tempered Steel Round Shield"
+		value 750
+		health 300
+		color 100
+		strength 3
+	end
+
+	base carryable
+		weight 10.0
+	end
+
+	components
+		TemperedSteelBar
+		TemperedSteelBar
+	end
+
+	base described
+		text "You see a tempered-steel round shield."
+		shopText "This shield has been made of the finest tempered-steel."
+	end
+end
+
+object MythrilRoundShield of RoundShield
+	properties
+		name "Mythril Round Shield"
+		value 3000
+		health 350
+		color 83
+		strength 3
+	end
+
+	base carryable
+		weight 7.5
+	end
+
+	components
+		MythrilBar
+		MythrilBar
+	end
+
+	base described
+		text "You see a fine round shield made of mythril."
+		shopText "Here is a beautiful and light round shield made from mythril."
+	end
+end
+
+object ObsidianiteRoundShield of RoundShield
+	properties
+		name "Obsidianite Round Shield"
+		value 7000
+		health 550
+		color 98
+		strength 4
+	end
+
+	base carryable
+		weight 15.0
+	end
+
+	components
+		ObsidianiteBar
+		ObsidianiteBar
+		ObsidianiteBar
+	end
+
+	base described
+		text "You see an obsidianite round shield."
+		shopText "Here is a beautiful shield constructed of obsidianite."
+	end
+end
+
+object AdmantiumRoundShield of RoundShield
+	properties
+		name "Admantium Round Shield"
+		value 15000
+		health 750
+		color 54
+		strength 5
+	end
+
+	base carryable
+		weight 20.0
+	end
+
+	components
+		AdmantiumBar
+		AdmantiumBar
+		AdmantiumBar
+		AdmantiumBar
+	end
+
+	base described
+		text "You see an admantium round shield."
+		shopText "This round shield is practically indestructable."
+	end
+end
+
+object WoodLargeShield of LargeShield
+	properties
+		name "Wooden Tower Shield"
+		value  20
+		health 120
+		color 105
+		strength 1
+
+		# clear fire immunity
+		caffect 1
+
+		# add fire weakness
+		affect 1 3 0 -1
+
+		# add rust immunity
+		affect 11 2 0 -1
+	end
+
+	base carryable
+		weight 10.0
+	end
+
+	components
+		WoodBlock
+		WoodBlock
+	end
+
+	base described
+		text "You see a tower shield constructed of wood."
+		shopText "This tower shield is very light and sturdy, constructed of fine woods."
+	end
+end
+
+object IronLargeShield of LargeShield
+	properties
+		name "Iron Tower Shield"
+		value 130
+		health 180
+		color 104
+		strength 2
+
+		# add rust weakness
+		affect 11 3 0 -1
+	end
+
+	base carryable
+		weight 16.5
+	end
+
+	components
+		IronBar
+		IronBar
+		IronBar
+		IronBar
+	end
+
+	base described
+		text "You see an iron tower shield."
+		shopText "Here is an inexpensive tower shield constructed from iron."
+	end
+end
+
+object SteelLargeShield of LargeShield
+	properties
+		name "Steel Tower Shield"
+		value 450
+		health 260
+		color 99
+		strength 2
+	end
+
+	base carryable
+		weight 13.0
+	end
+
+	components
+		SteelBar
+		SteelBar
+		SteelBar
+	end
+
+	base described
+		text "You see a steel tower shield."
+		shopText "Here is a sturdy tower shield made of steel."
+	end
+end
+
+object TemperedSteelLargeShield of LargeShield
+	properties
+		name "Tempered Steel Tower Shield"
+		value 1100
+		health 400
+		color 100
+		strength 3
+	end
+
+	base carryable
+		weight 14.0
+	end
+
+	components
+		TemperedSteelBar
+		TemperedSteelBar
+		TemperedSteelBar
+	end
+
+	base described
+		text "You see a tempered-steel tower shield."
+		shopText "This tower shield has been made of the finest tempered-steel."
+	end
+end
+
+object MythrilLargeShield of LargeShield
+	properties
+		name "Mythril Tower Shield"
+		value 4000
+		health 500
+		color 83
+		strength 3
+	end
+
+	base carryable
+		weight 11.0
+	end
+
+	components
+		MythrilBar
+		MythrilBar
+		MythrilBar
+	end
+
+	base described
+		text "You see a fine tower shield made of mythril."
+		shopText "This tower shield is extremely light because it has been made of mythril."
+	end
+end
+
+object ObsidianiteLargeShield of LargeShield
+	properties
+		name "Obsidianite Tower Shield"
+		value 9000
+		health 700
+		color 98
+		strength 4
+	end
+
+	base carryable
+		weight 19.0
+	end
+
+	components
+		ObsidianiteBar
+		ObsidianiteBar
+		ObsidianiteBar
+		ObsidianiteBar
+	end
+
+	base described
+		text "You see an obsidianite tower shield."
+		shopText "This huge shield is constructed of obsidianite."
+	end
+end
+
+object AdmantiumLargeShield of LargeShield
+	properties
+		name "Admantium Tower Shield"
+		value 19500
+		health 1000
+		color 54
+		strength 5
+	end
+
+	base carryable
+		weight 27.0
+	end
+
+	components
+		AdmantiumBar
+		AdmantiumBar
+		AdmantiumBar
+		AdmantiumBar
+		AdmantiumBar
+		AdmantiumBar
+	end
+
+	base described
+		text "You see an admantium tower shield."
+		shopText "This huge shield weighs a ton but will stop any weapon made."
+	end
+end
+
+object NewbieSmallShield of SteelRoundShield
+	properties
+		name "Small Training Shield"
+		view 16500
+		value 8
+		color 74
+	end
+
+	base described
+		text "You see a small training shield."
+		shopText "We can't sell these, so if you ever see this message, it's a bug!"
+	end
+end
+
+object NewbieShield of NewbieSmallShield
+end
+
+object NewbieLargeShield of SteelLargeShield
+	properties
+		name "Large Training Shield"
+		view 16500
+		value 14
+		color 74
+	end
+
+	base described
+		text "You see a large training shield."
+		shopText "We can't sell these, so if you ever see this message, it's a bug!"
+	end
+end
+
+#------------------------------------------------------------
+object maDenseShield of ObsidianiteLargeShield
+	properties
+		name "Shield of Density"
+		color 98
+		value 35000
+		health 2000
+		armor 75
+		special
+	end
+
+	base carryable
+		weight 38.0
+	end
+
+	base described
+		text "You see a large shield made from obsidianite."
+		idText "You see the Shield of Density, well known for being nearly indestructable."
+		shopText "This shield will protect you quite well if you are strong enough to wield it."
+	end
+end
+#---------------------------#
+#							#
+#							#
+#		New Shields			#
+#							#
+#							#
+#							#
+#---------------------------#
+object ArenaShield of LargeShield
+	properties
+	special
+		name "Arena Shield"
+		value 18000
+		health 800
+		color 20			# Pale Yellow (YMMB)
+		armor 65
+		level 750
+	end
+
+	base carryable
+		weight 35.0
+	end
+
+	base wearable 
+        mask thief
+        mask wizard
+		mask adventurer
+	end	
+	
+	actions
+		vBePutOn setAffect dobj 39 0 0 -1		  # Str
+		vBeTakenOff clearAffect dobj 39 0 0
+		vBePutOn setAffect dobj 59 0 0 -1		  # Dex
+		vBeTakenOff clearAffect dobj 59 0 0		
+		vBePutOn setAffect dobj 57 0 0 -1         # Dodge
+		vBeTakenOff clearAffect dobj 57 0 0       
+		vBePutOn setAffect dobj 41 0 0 -1         # Shielding
+		vBeTakenOff clearAffect dobj 41 0 0       		
+	end
+	
+	base described
+		text "You see a sturdy shield used in Arena combat."
+		idText "This shield belonged to a Gladiator long since dead. You can see the numerous battles thing shield has faced. Wielding this mighty shield you will gain an extra Dodge, as well as a boost to your Strenth and Dexterity. This shield emits a strange magical shield, protecting you. \nWarriors Only!\n \nLevel Required: 750\n"
+		shopText "These types of shields are long since forgotten, what a catch!"
+	end
+end
+#------------------------------------------------------------
+object ArcaneShield of RoundShield
+	properties
+	special
+		name "Arcane Shield"
+		value 18000
+		health 800
+		color 117			# Shifting All White
+		armor 25
+		level 750
+	end
+
+	base carryable
+		weight 3.5
+	end
+
+	base wearable 
+        mask warrior
+        mask thief
+		mask adventurer
+	end	
+	
+	actions
+		vBePutOn setAffect dobj 61 0 0 -1             # Intel Boost
+		vBeTakenOff clearAffect dobj 61 0 0           
+		vBePutOn setAffect dobj 61 0 0 -1             # Intel Boost
+		vBeTakenOff clearAffect dobj 61 0 0           
+		vBePutOn setAffect dobj 59 0 0 -1		 	  # Dex
+		vBeTakenOff clearAffect dobj 59 0 0		
+		vBePutOn setAffect dobj 57 0 0 -1        	  # Dodge
+		vBeTakenOff clearAffect dobj 57 0 0       
+		vBePutOn setAffect dobj 41 0 0 -1       	  # Shielding
+		vBeTakenOff clearAffect dobj 41 0 0
+	end
+	
+	base described
+		text "A rune encrusted shield."
+		idText "A shield once belonged to a mighty conjurer. This shield has been gifted with Arcance properties granting the wielder considerable Intelligence, slight Dexterity and an extra Dodge. The magic on this shield is so powerful it provides additional magical shielding. \nWizards Only!\n \nLevel Required: 750\n"
+		shopText "Now, I don't see many of these sort."
+	end
+end
+#------------------------------------------------------------
+object ThiefBuckler of RoundShield
+	properties
+	special
+		name "Thief's Buckler"
+		value 18000
+		health 800
+		color 163			# Darkest Silk
+		armor 30
+		level 750
+	end
+
+	base carryable
+		weight 10.0
+	end
+
+	base wearable 
+                mask warrior
+                mask wizard
+		mask adventurer
+	end	
+	
+	actions
+		vBePutOn setAffect dobj 59 0 0 -1		  # Dex
+		vBeTakenOff clearAffect dobj 59 0 0	
+		vBePutOn setAffect dobj 59 0 0 -1		  # Dex
+		vBeTakenOff clearAffect dobj 59 0 0		
+		vBePutOn setAffect dobj 57 0 0 -1         # Dodge
+		vBeTakenOff clearAffect dobj 57 0 0       
+		vBePutOn setAffect dobj 41 0 0 -1         # Shielding
+		vBeTakenOff clearAffect dobj 41 0 0       		
+	end
+	
+	base described
+		text "A small shield that could easily be concealed.."
+		idText "These types of bucklers are very easy to stow away, but durable enough to withstand blows from the heaviest weapons. Using this buckler, you will gain Considerable Dexterity, and an Extra Dodge. This shield emits a strange magical shield, protecting you.\nThieves Only!\n \nLevel Required: 750\n"
+		shopText "What a small shield."
+	end
+end
+#------------------------------------------------------------
+object MabonsShield of Shield
+	properties
+		special
+		name "Mabon's Shield"
+		view 16800
+		value 2750
+		health 400
+		level 500
+
+		# clear rust immunity
+		caffect 11
+
+		# add fire immunity
+		affect 1 2 0 -1
+	end
+
+	actions
+		#strength
+		vBePutOn setAffect dobj 39 0 0 -1
+		vBeTakenOff clearAffect dobj 39 0 0
+		#intelligence
+		vBePutOn setAffect dobj 61 0 0 -1
+		vBeTakenOff clearAffect dobj 61 0 0
+		#dodge
+		vBePutOn setAffect dobj 57 0 0 -1
+		vBeTakenOff clearAffect dobj 57 0 0
+	end
+
+	base carryable
+		weight 12.0
+	end
+
+	base wearable
+                # adv/thief
+		mask warrior
+                mask wizard
+	end
+
+	base described
+		text "This mysterious shield will bring balance to the force.\nIt adds intelligence, strength and dodge.\nLevel Required: 500.\n"
+		shopText "This fine shield was forged by Mabon and Finvarra to enhance their armies with magic."
+	end
+end
+#------------------------------------------------------------
+object ShieldWall of LargeShield
+	properties
+	special
+		name "Shield Wall"
+		value 180000
+		health 1200
+		color 171			# Black-Brown
+		armor 100
+		level 1100
+	end
+
+	base carryable
+		weight 15.0
+	end
+	
+	actions
+		vBePutOn setAffect dobj 39 0 0 -1		  # Str
+		vBeTakenOff clearAffect dobj 39 0 0
+		vBePutOn setAffect dobj 39 0 0 -1		  # Str
+		vBeTakenOff clearAffect dobj 39 0 0
+		vBePutOn setAffect dobj 59 0 0 -1		  # Dex
+		vBeTakenOff clearAffect dobj 59 0 0		
+		vBePutOn setAffect dobj 59 0 0 -1		  # Dex
+		vBeTakenOff clearAffect dobj 59 0 0		
+		vBePutOn setAffect dobj 59 0 0 -1		  # +Attack
+		vBeTakenOff clearAffect dobj 59 0 0
+	end
+	
+	base described
+		text "A rather large shield."
+		idText "A Shield Wall used by the ancient phalanx.\n\nLarge enough to cover your entire body, it provides maximum protection.\n\nDue to it's light alloy, it will grant you Double Strength, Double Dexterity, and an Extra Attack.\n\nLevel Required: 1100\n"
+		shopText "A Shield Wall used by the ancient phalanx.\n\nLarge enough to cover your entire body, it provides maximum protection.\n\nDue to it's light alloy, it will grant you Double Strength, Double Dexterity, and an Extra Attack.\n\nLevel Required: 1100\n"
+	end
+end
+#------------------------------------------------------------
+object Barricade of LargeShield
+	properties
+	special
+		name "Barricade"
+		value 180000
+		health 1200
+		color 137			# Prussian Blue
+		armor 100
+		level 1100
+	end
+
+	base carryable
+		weight 15.0
+	end
+	
+	actions
+		vBePutOn setAffect dobj 63 0 0 -1      			# Endurance
+		vBeTakenOff clearAffect dobj 63 0 0 
+		vBePutOn setAffect dobj 63 0 0 -1      			# Endurance
+		vBeTakenOff clearAffect dobj 63 0 0 
+		vBePutOn setAffect dobj 59 0 0 -1		 		# Dex
+		vBeTakenOff clearAffect dobj 59 0 0		
+		vBePutOn setAffect dobj 59 0 0 -1		  		# Dex
+		vBeTakenOff clearAffect dobj 59 0 0		
+		vBePutOn setAffect dobj 57 0 0 -1				# Dodge
+		vBeTakenOff clearAffect dobj 57 0 0
+
+	end
+	
+	base described
+		text "A rather large shield."
+		idText "A mighty Barricade.\n\nThis shield is the perfect device to aid you in protecting your party.\n\nCast with magical alloys, it will grant you Double Endurance, Double Dexterity and an extra Dodge.\n\nLevel Required: 1100\n"
+		shopText "A mighty Barricade.\n\nThis shield is the perfect device to aid you in protecting your party.\n\nCast with magical alloys, it will grant you Double Endurance, Double Dexterity and an extra Dodge.\n\nLevel Required: 1100\n"
+	end
+end
+#-----------------------------------------------------
+object Parma of Shield
+	properties
+	special
+		name "Parma"
+		value 180000
+		health 1200
+		color 173			# Gray Little Black
+		armor 100
+		level 1100
+	end
+
+	base carryable
+		weight 8.0
+	end
+	
+	actions
+		vBePutOn setAffect dobj 59 0 0 -1		 		# Dex
+		vBeTakenOff clearAffect dobj 59 0 0		
+		vBePutOn setAffect dobj 59 0 0 -1		 		# Dex
+		vBeTakenOff clearAffect dobj 59 0 0		
+		vBePutOn setAffect dobj 59 0 0 -1		  		# Dex
+		vBeTakenOff clearAffect dobj 59 0 0		
+		vBePutOn setAffect dobj 59 0 0 -1		  		# Dex
+		vBeTakenOff clearAffect dobj 59 0 0		
+		vBePutOn setAffect dobj 57 0 0 -1				# Dodge
+		vBeTakenOff clearAffect dobj 57 0 0
+
+	end
+	
+	base described
+		text "A small shield used by soldiers from a far away land."
+		idText "A small but durable Parma.\n\nThe lightweight alloy paired with the strong magics cast on this parma, it will keep you light on your feet.\n\nThis Parma provides Quadrouple Dexterity and an extra Dodge.\n\nLevel Required: 1100\n"
+		shopText "A small but durable Parma.\n\nThe lightweight alloy paired with the strong magics cast on this parma, it will keep you light on your feet.\n\nThis Parma provides Quadrouple Dexterity and an extra Dodge.\n\nLevel Required: 1100\n"
+	end
+end
+#------------------------------------------------------
+object Targe of RoundShield
+	properties
+	special
+		name "Rounded Targe"
+		value 18000
+		health 800
+		color -1
+		armor 25
+		level 200
+	end
+
+	base carryable
+		weight 3.5
+	end
+	
+	actions
+		vBePutOn setAffect dobj 59 0 0 -1		 	  	# Dex
+		vBeTakenOff clearAffect dobj 59 0 0		
+		vBePutOn setAffect dobj 56 0 0 -1   			# Attack
+		vBeTakenOff clearAffect dobj 56 0 0
+		vBePutOn setAffect dobj 63 0 0 -1      			# Endurance
+		vBeTakenOff clearAffect dobj 63 0 0 
+		vBePutOn setAffect dobj 39 0 0 -1		  		# Str
+		vBeTakenOff clearAffect dobj 39 0 0
+	end
+	
+	base described
+		text "A sturdy targe."
+		idText "An exceptionally sturdy Targe crafted from unknown metals. This Targe will provide boosts to your Strength, Dexterity, Endurance and will provide an Extra Attack.\n\nLevel Required: 200\n\n"
+		shopText "An exceptionally sturdy Targe crafted from unknown metals. This Targe will provide boosts to your Strength, Dexterity, Endurance and will provide an Extra Attack.\n\nLevel Required: 200\n\n"
+	end
+end
+#--------------------------------------------------------
+object HeaterShield of LargeShield
+	properties
+	special
+		name "Heater Shield"
+		value 18000
+		health 800
+		color -1
+		armor 10
+	end
+
+	base carryable
+		weight 5
+	end
+	
+	actions
+		vBePutOn setAffect dobj 63 0 0 -1      			# Endurance
+		vBeTakenOff clearAffect dobj 63 0 0 
+	end
+	
+	base described
+		text "A large heater shield."
+		idText "A Heater shield of considerable size. Wielding this, you will gain a boost to your Endurance.\n"
+		shopText "A Heater shield of considerable size. Wielding this, you will gain a boost to your Endurance.\n"
+	end
+end
+#------------------------------------------------------------
+object HoldingShield of LargeShield
+	properties
+	special
+		name "Petrifying Shield"
+		value 18000
+		health 800
+		color 89
+		armor 10
+	end
+
+	base carryable
+		weight 5
+	end
+
+	base wearable
+        spellProcID 51			# Hold Monster
+		forwardProcChance 10	# 10%
+    end
+	
+	base described
+		text "A large magical shield."
+		idText "A mystical shield imbued with the power the stop monsters in their tracks.\nThis shield will sometimes proc 'Hold Monster'\n"
+		shopText "A mystical shield imbued with the power the stop monsters in their tracks.\nThis shield will sometimes proc 'Hold Monster'\n""
+	end
+end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#---------------------------------------------------------------
+object BrutalShield of LargeShield
+	properties
+	special
+		name "Brutal Shield"
+		value 18000
+		health 800
+		color 158			# Lighter Silk
+		armor 65
+		level 2500
+	end
+
+	base carryable
+		weight 15.0
+	end
+
+	base wearable 
+        mask thief
+        mask wizard
+		mask adventurer
+	end	
+	
+	actions
+		vBePutOn setAffect dobj 39 0 0 -1		  # Str
+		vBeTakenOff clearAffect dobj 39 0 0
+		vBePutOn setAffect dobj 39 0 0 -1		  # Str
+		vBeTakenOff clearAffect dobj 39 0 0
+		vBePutOn setAffect dobj 39 0 0 -1		  # Str
+		vBeTakenOff clearAffect dobj 39 0 0
+		vBePutOn setAffect dobj 63 0 0 -1		  # End
+		vBeTakenOff clearAffect dobj 63 0 0
+		vBePutOn setAffect dobj 63 0 0 -1		  # End
+		vBeTakenOff clearAffect dobj 63 0 0
+		vBePutOn setAffect dobj 56 0 0 -1		  # Attack
+		vBeTakenOff clearAffect dobj 56 0 0	      	
+	end
+	
+	base described
+		text "This shield is incredibly sturdy. You wonder if it's made of material of this realm."
+		idText "This incredibly sturdy shield will provide the wearer Incredible Strength, Considerable Endurance, and an Extra Attack, \nWarriors Only!\n \nLevel Required: 2500\n"
+		shopText "This incredibly sturdy shield will provide the wearer Incredible Strength, Considerable Endurance, and an Extra Attack, \nWarriors Only!\n \nLevel Required: 2500\n"
+	end
+end
+#------------------------------------------------------------
+object ConjuredShield of RoundShield
+	properties
+	special
+		name "Conjured Shield"
+		value 18000
+		health 800
+		color 158			# Lighter Silk
+		armor 25
+		level 750
+	end
+
+	base carryable
+		weight 0
+	end
+
+	base wearable 
+        mask warrior
+        mask thief
+		mask adventurer
+	end	
+	
+	actions
+		vBePutOn setAffect dobj 61 0 0 -1             # Intel Boost
+		vBeTakenOff clearAffect dobj 61 0 0           
+		vBePutOn setAffect dobj 61 0 0 -1             # Intel Boost
+		vBeTakenOff clearAffect dobj 61 0 0           
+		vBePutOn setAffect dobj 59 0 0 -1		 	  # Dex
+		vBeTakenOff clearAffect dobj 59 0 0		
+		vBePutOn setAffect dobj 57 0 0 -1        	  # Dodge
+		vBeTakenOff clearAffect dobj 57 0 0       
+		vBePutOn setAffect dobj 61 0 0 -1             # Intel Boost
+		vBeTakenOff clearAffect dobj 61 0 0           
+		vBePutOn setAffect dobj 61 0 0 -1             # Intel Boost
+		vBeTakenOff clearAffect dobj 61 0 0           
+		vBePutOn setAffect dobj 59 0 0 -1		 	  # Dex
+		vBeTakenOff clearAffect dobj 59 0 0		
+		vBePutOn setAffect dobj 57 0 0 -1        	  # Dodge
+		vBeTakenOff clearAffect dobj 57 0 0  
+		vBePutOn changeSDM dobj 275 1 3 4			  # Add 275% to Tham/Ele/Necro. 		
+		vBeTakenOff changeSDM dobj -275 1 3 4
+	end
+	
+	base described
+		text "This shield gives off magical vibrations."
+		idText "A shield conjured to this realm by a powerful warlock. The power magics used to conjure it also provide the wearer Incredible Intelligence, Considerable Dexterity, as well as 2 spare Dodges. \n\n275% Circle SDM\n\n \nWizards Only!\n \nLevel Required: 2500\n"
+		shopText "A shield conjured to this realm by a powerful warlock. The power magics used to conjure it also provide the wearer Incredible Intelligence, Considerable Dexterity, as well as 2 spare Dodges. \n\n275% Circle SDM\n\n \nWizards Only!\n \nLevel Required: 2500\n"
+	end
+end
+#------------------------------------------------------------
+object AssassinTarge of RoundShield
+	properties
+	special
+		name "Assassin Targe"
+		value 18000
+		health 800
+		color 158			# Lighter Silk
+		armor 30
+		level 2500
+	end
+
+	base carryable
+		weight 7.0
+	end
+
+	base wearable 
+                mask warrior
+                mask wizard
+				mask adventurer
+	end	
+	
+	actions
+		vBePutOn setAffect dobj 59 0 0 -1		  # Dex
+		vBeTakenOff clearAffect dobj 59 0 0	
+		vBePutOn setAffect dobj 59 0 0 -1		  # Dex
+		vBeTakenOff clearAffect dobj 59 0 0		
+		vBePutOn setAffect dobj 57 0 0 -1         # Dodge
+		vBeTakenOff clearAffect dobj 57 0 0       
+		vBePutOn setAffect dobj 59 0 0 -1		  # Dex
+		vBeTakenOff clearAffect dobj 59 0 0	
+		vBePutOn setAffect dobj 59 0 0 -1		  # Dex
+		vBeTakenOff clearAffect dobj 59 0 0		
+		vBePutOn setAffect dobj 57 0 0 -1         # Dodge
+		vBeTakenOff clearAffect dobj 57 0 0       
+		vBePutOn setAffect dobj 41 0 0 -1         # Shielding
+		vBeTakenOff clearAffect dobj 41 0 0       		
+	end
+	
+	base described
+		text "You wonder why this shield feels so incredibly light yet looks so sturdy.\n"
+		idText "This type of shield is the favorite of any would be assassin. Using this targe, you will gain Incredible Dexterity, and 2 spare Dodges.\nThieves Only!\n \nLevel Required: 2500\n"
+		shopText "This type of shield is the favorite of any would be assassin. Using this targe, you will gain Incredible Dexterity, and 2 spare Dodges.\nThieves Only!\n \nLevel Required: 2500\n"
+	end
+end
+#------------------------------------------------------------
+object AdvTarge of Shield
+	properties
+		special
+		name "Adventurer Targe"
+		color 158			# Lighter Silk
+		value 2750
+		health 400
+		level 2500
+	end
+
+	actions
+		#strength
+		vBePutOn setAffect dobj 39 0 0 -1
+		vBeTakenOff clearAffect dobj 39 0 0
+		#intelligence
+		vBePutOn setAffect dobj 61 0 0 -1
+		vBeTakenOff clearAffect dobj 61 0 0
+		#dodge
+		vBePutOn setAffect dobj 57 0 0 -1
+		vBeTakenOff clearAffect dobj 57 0 0
+		#strength
+		vBePutOn setAffect dobj 39 0 0 -1
+		vBeTakenOff clearAffect dobj 39 0 0
+		#intelligence
+		vBePutOn setAffect dobj 61 0 0 -1
+		vBeTakenOff clearAffect dobj 61 0 0
+		#dodge
+		vBePutOn setAffect dobj 57 0 0 -1
+		vBeTakenOff clearAffect dobj 57 0 0
+		# Add 200% to Tham/Ele/Necro. 
+		vBePutOn changeSDM dobj 200 1 3 4				
+		vBeTakenOff changeSDM dobj -200 1 3 4
+	end
+
+	base carryable
+		weight 8.0
+	end
+
+	base wearable
+		# Adv Only
+		mask thief
+		mask warrior
+        mask wizard
+	end
+
+	base described
+		text "This targe is rigid along all sides. Looks dangerous."
+		idText "This Targe designed for any would be Adventurer provides Considerable Strength, and Intelligence, as well as 2 spare Dodges.\n\n200% Circle SDM\n\nLevel Required: 2500\n"
+		shopText "This Targe designed for any would be Adventurer provides Considerable Strength, and Intelligence, as well as 2 spare Dodges.\n\n200% Circle SDM\n\nLevel Required: 2500\n"
+	end
+end

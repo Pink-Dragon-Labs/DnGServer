@@ -1,0 +1,546 @@
+object SentinelBaldric of Baldric
+# object GodBaldric of Baldric
+#
+# Light Blue
+#
+		properties
+		name "Sentinel's Baldric"
+		color 54
+		armorFlat 10
+		value 0
+
+		#Staff affect
+		#affect 99 0 5 -1
+	end
+
+	base described
+		text "This azure beauty is the famous Sentinel's Baldric. If you are reading this then you must be a Sentinel, in which case we all owe you hearty well-done and a sincere thank-you!"
+		shopText "This isn't sold anywhere so if you're reading this, it's a bug."
+	end
+
+	base shop
+		buyMarkup  25
+		sellMarkup 200
+
+		inventory
+			mana
+			category "Food & Drink" 52133
+				object RatlingMeat
+				object Bread
+				object Veggies
+				object Cheese
+				object WaterBottle
+				object AleJug
+				object WineFlask
+				object Ambrosia
+				object AncientWine
+			end
+		end
+	end
+
+end
+
+#------------------------------------------------------------
+object ImplementorBaldric of SentinelBaldric
+	properties
+		name "Implementor's Baldric"
+		color 98
+		armorFlat 200
+		armorPercent 190
+
+		#Staff affect
+		affect 99 0 5 -1
+	end
+
+	base described
+		text "This black beauty is the famous Implementor's Baldric. If you are not an Implementor for The Realm you shouldn't even be reading this."
+	end
+end
+
+#------------------------------------------------------------
+object CRBaldric of SentinelBaldric
+	properties
+		special
+		name "Community Relations' Baldric"
+		color 11
+
+		#Staff affect
+		affect 99 0 5 -1
+	end
+
+	base described
+		text "This is the famous Community Relations' Baldric. If you are reading this then you must be a Community Relations staff member, in which case we all owe you hearty well-done and a sincere thank-you!"
+	end
+end
+
+#------------------------------------------------------------
+object EventsBaldric of Baldric
+	properties
+		name "Event Host's Baldric"
+		color 88
+
+		#Staff affect
+		affect 99 0 5 -1
+	end
+
+	base described
+		text "This amber beauty is the famous Event Host's Baldric. If you are reading this then you must be an Event Host, in which case we all owe you hearty well-done and a sincere thank-you!"
+	end
+end
+
+#------------------------------------------------------------
+object MentorBaldric of Baldric
+	properties
+		name "Mentor's Baldric"
+		color 49
+
+		#Staff affect
+		affect 99 0 5 -1
+	end
+
+	base described
+		text "This lime--ahem--beauty is the famous Mentor's Baldric. If you are reading this then you must be a Mentor, in which case we all owe you hearty well-done and a sincere thank-you!"
+	end
+end
+
+#------------------------------------------------------------
+object GameOfficial of MythrilHelmet
+
+	properties
+		name "Game Officials"
+		level 2000
+		
+		#Staff affect
+		#affect 99 0 5 -1
+	end
+
+	base carryable
+		weight 0.5 
+	end
+
+	base described
+		text "You see a Game Official's Helm. Give this to the nearest Moderator as quickly as possible, for the penalties are most harsh if it is found in your possession... and we will know."
+		shopText "This isn't sold anywhere so if you're reading this, it's a bug."
+	end
+
+
+	actions
+		# See Invisibility
+		vBePutOn setAffect dobj 17 0 0 -1
+		vBeTakenOff clearAffect dobj 17 0 0
+
+		# Nourishment
+		vBePutOn setAffect dobj 67 0 0 -1
+		vBeTakenOff clearAffect dobj 67 0 0
+	end
+end
+
+#------------------------------------------------------------
+
+object SentinelHelm of GameOfficial
+#     object ModHelm of GameOfficial
+
+	properties
+		view 31500
+		name "Sentinel's Helmet"
+		
+		#Staff affect
+		#affect 99 0 5 -1
+		caffect 0
+	end
+
+	base shop
+		buyMarkup  25
+		sellMarkup 200
+
+		inventory
+			mana
+			category "Food & Drink" 52133
+				category "Potions" 51583
+					object pHealth
+					object pCurePoison
+					object pSeeInvisibility
+					object pGreaterHealth
+					object pInvulnerability
+					object pShift
+					object pGreaterInvisibility
+				end
+				object RatlingMeat
+				object Bread
+				object Veggies
+				object Cheese
+				object WaterBottle
+				object AleJug
+				object WineFlask
+				object Ambrosia
+			end
+		end
+	end
+
+	base described
+		text "You see a Sentinel's Helm. Return this to the nearest Sentinel as quickly as possible, for the penalties are most harsh if it is found in your possession... and we will know."
+	end
+
+	actions
+		# Add 200% to all magic circles except Myst while worn
+		#vBePutOn changeSDM dobj 200 0 1 3 4
+		#vBeTakenOff changeSDM dobj -200 0 1 3 4
+	end
+end
+
+#------------------------------------------------------------
+object MentorHelmet of MythrilHelmet
+
+	properties
+		view 31550
+		name "Guide's Helmet"
+		health 750
+		color -1
+		strength 5
+		armor 85
+
+		#Staff affect
+		#affect 99 0 5 -1
+	end
+
+	base described
+		text "You see a Mentor's Helm. Return this to the nearest Mentor as quickly as possible, for the penalties are most harsh if it is found in your possession... and we will know."
+	end
+
+	base carryable
+		# same weight as Mythril
+		weight 2.5 
+	end
+
+	base shop
+		buyMarkup  25
+		sellMarkup 200
+
+		inventory
+			mana
+			category "Food & Drink" 52133
+				category "Potions" 51583
+					object pHealth
+					object pCurePoison
+					object pSeeInvisibility
+					object pGreaterHealth
+					object pInvulnerability
+					object pShift
+					object pGreaterInvisibility
+				end
+				object RatlingMeat
+				object Bread
+				object Veggies
+				object Cheese
+				object WaterBottle
+				object AleJug
+				object WineFlask
+				object Ambrosia
+			end
+		end
+	end
+
+	actions
+		# See Invisibility
+		vBePutOn setAffect dobj 17 0 0 -1
+		vBeTakenOff clearAffect dobj 17 0 0
+
+		# Nourishment
+		vBePutOn setAffect dobj 67 0 0 -1
+		vBeTakenOff clearAffect dobj 67 0 0
+	end
+end
+
+#------------------------------------------------------------
+object BishopHat of GameOfficial
+
+	properties
+		view 31600
+		name "Bishop's Hat"
+
+		#Staff affect
+		#affect 99 0 5 -1
+	end
+
+	base shop
+		buyMarkup  25
+		sellMarkup 200
+
+		inventory
+			mana
+			category "Food & Drink" 52133
+				category "Potions" 51583
+					object pHealth
+					object pCurePoison
+					object pSeeInvisibility
+					object pGreaterHealth
+					object pInvulnerability
+					object pShift
+					object pGreaterInvisibility
+					object AncientWine
+				end
+				object RatlingMeat
+				object Bread
+				object Veggies
+				object Cheese
+				object WaterBottle
+				object AleJug
+				object WineFlask
+				object Ambrosia
+			end
+			category "Scrolls" 52134
+				object sAchren
+				object sDuach
+				object sEnid
+				object sDespothes
+			end
+		end
+	end
+
+	base described
+		text "This hat belongs exclusively to Enid's Bishops. Return this to the nearest Moderator as quickly as possible, for the penalties are most harsh if it is found in your possession... and we will know."
+	end
+	
+	actions
+		# Add 400% to all magic circles except Myst while worn
+		#vBePutOn changeSDM dobj 400 0 1 3 4
+		#vBeTakenOff changeSDM dobj -400 0 1 3 4
+	end
+end
+
+#------------------------------------------------------------
+object DuachsAura of GameOfficial
+
+	properties
+		view 31650
+		name "Duach's Aura"
+
+		#Staff affect
+		#affect 99 0 5 -1
+	end
+
+	base described
+		text "This aura belongs exclusively to Duach's Messengers. Return this to the nearest Moderator as quickly as possible, for the penalties are most harsh if it is found in your possession... and we will know."
+	end
+	
+	actions
+		# Add 400% to all magic circles except Myst while worn
+		#vBePutOn changeSDM dobj 400 0 1 3 4
+		#vBeTakenOff changeSDM dobj -400 0 1 3 4
+	end
+end
+
+#------------------------------------------------------------
+object DespothesCrown of GameOfficial
+
+	properties
+		view 31700
+		name "Despothes' Crown"
+
+		#Staff affect
+		#affect 99 0 5 -1
+	end
+
+	base described
+		text "This crown belongs exclusively to Despothes' Prophets. Return this to the nearest Moderator as quickly as possible, for the penalties are most harsh if it is found in your possession... and we will know."
+	end
+
+	actions
+		# Add 400% to all magic circles except Myst while worn
+		#vBePutOn changeSDM dobj 400 0 1 3 4
+		#vBeTakenOff changeSDM dobj -400 0 1 3 4
+	end
+end
+
+#------------------------------------------------------------
+object RareCrown of GameOfficial
+
+	properties
+		# Rare Crown
+		view 31400
+		name "Implementor's Crown"
+
+		#Staff affect
+		#affect 99 0 5 -1
+	end
+
+	base shop
+		buyMarkup  25
+		sellMarkup 200
+
+		inventory
+			mana
+			category "Food & Drink" 52133
+				category "Potions" 51583
+					object pHealth
+					object pCurePoison
+					object pSeeInvisibility
+					object pGreaterHealth
+					object pInvulnerability
+					object pShift
+					object pGreaterInvisibility
+					object AncientWine
+				end
+				object RatlingMeat
+				object Bread
+				object Veggies
+				object Cheese
+				object WaterBottle
+				object AleJug
+				object WineFlask
+				object Ambrosia
+			end
+			category "Scrolls" 52134
+				object sAchren
+				object sDuach
+				object sEnid
+				object sDespothes
+			end
+		end
+	end
+
+	base described
+		text "You see the Implementor's Crown. Return this to the nearest Moderator as quickly as possible, for the penalties are most harsh if it is found in your possession... and we will know."
+	end
+
+	actions
+		# Add 400% to all magic circles except Myst while worn
+		#vBePutOn changeSDM dobj 400 0 1 3 4
+		#vBeTakenOff changeSDM dobj -400 0 1 3 4
+	end
+end
+
+object 3000Baldric of SentinelBaldric
+	properties
+		special
+		name "Tahali"
+		color 198		# Shifting Dark Bronze Glow
+	end
+
+	base dye
+	end
+
+	actions
+		vBePutOn setAffect dobj 98 0 0 -1   		# HAIRCOLOR_BLACK
+		vBeTakenOff clearAffect dobj 98 0 0
+		vBePutOn setAffect dobj 33 0 0 -1   		# BERSERK
+		vBeTakenOff clearAffect dobj 33 0 0	
+	end
+
+
+	base described
+		text "Tahali\n\nThis sash from across the sea was worn by royalty and used as sign of extreme wealth.\n\nWearing this sash, you will become enraged and the sash will also stain your hair as black as the sands from where it originates.\n"
+		shopText "Tahali\n\nThis sash from across the sea was worn by royalty and used as sign of extreme wealth.\n\nWearing this sash, you will become enraged and the sash will also stain your hair as black as the sands from where it originates.\n"
+	end
+end
+
+object 4000Baldric of SentinelBaldric
+	properties
+		special
+		name "Magic Ward"
+		color 210		# Shifting Lightest Vanilla
+	end
+
+	base dye
+	end
+
+	actions
+		vBePutOn changeSpellResistance dobj 110 2		# 110% Myst Resist
+		vBeTakenOff changeSpellResistance dobj -110 2
+	end
+
+
+	base described
+		text "The Magic Ward\n\nThis sash was enchanted by the first magician. Terrified his discovery could be used against him, he ensured he would never be controlled by another soul.\n\n110% Mysticism Resistance\n\n"
+		shopText "The Magic Ward\n\nThis sash was enchanted by the first magician. Terrified his discovery could be used against him, he ensured he would never be controlled by another soul.\n\n110% Mysticism Resistance\n\n"
+	end
+end
+
+object 5000Baldric of SentinelBaldric
+	properties
+		special
+		name "Catalyst"
+		color 220		# Shifting Green Glow
+	end
+
+	base dye
+	end
+
+	actions
+		vBePutOn changeSDM dobj 20 0				# Add 20% to Sorcery
+        vBeTakenOff changeSDM dobj -20 0
+		vBePutOn setAffect dobj 61 0 0 -1		  	# Intel
+		vBeTakenOff clearAffect dobj 61 0 0
+		vBePutOn setAffect dobj 61 0 0 -1		  	# Intel
+		vBeTakenOff clearAffect dobj 61 0 0
+	end
+
+
+	base described
+		text "The Catalyst\n\nThis will increase your enchanting capabilities.\n\n"
+		shopText "The Catalyst\n\nThis will increase your enchanting capabilities.\n\n"
+	end
+end
+
+object 7500Baldric of SentinelBaldric
+	properties
+		special
+		name "Prime"
+		color 21		# Eggplant
+	end
+
+	base dye
+	end
+
+	actions
+		vBePutOn setAffect dobj 61 0 0 -1		  	# Intel
+		vBeTakenOff clearAffect dobj 61 0 0
+		vBePutOn setAffect dobj 61 0 0 -1		  	# Intel
+		vBeTakenOff clearAffect dobj 61 0 0
+		vBePutOn setAffect dobj 61 0 0 -1		  	# Intel
+		vBeTakenOff clearAffect dobj 61 0 0
+		vBePutOn setAffect dobj 61 0 0 -1		  	# Intel
+		vBeTakenOff clearAffect dobj 61 0 0
+		vBePutOn setAffect dobj 37 0 0 -1		  	# Quicken
+		vBeTakenOff clearAffect dobj 37 0 0
+		vBePutOn setAffect dobj 37 0 0 -1		  	# Quicken
+		vBeTakenOff clearAffect dobj 37 0 0
+		vBePutOn setAffect dobj 37 0 0 -1		  	# Quicken
+		vBeTakenOff clearAffect dobj 37 0 0
+		vBePutOn setAffect dobj 37 0 0 -1		  	# Quicken
+		vBeTakenOff clearAffect dobj 37 0 0
+		vBePutOn setAffect dobj 37 0 0 -1		  	# Quicken
+		vBeTakenOff clearAffect dobj 37 0 0
+		vBePutOn setAffect dobj 59 0 0 -1			# Dex
+		vBeTakenOff clearAffect dobj 59 0 0
+		vBePutOn setAffect dobj 59 0 0 -1			# Dex
+		vBeTakenOff clearAffect dobj 59 0 0		
+		vBePutOn setAffect dobj 59 0 0 -1			# Dex
+		vBeTakenOff clearAffect dobj 59 0 0
+		vBePutOn setAffect dobj 59 0 0 -1			# Dex
+		vBeTakenOff clearAffect dobj 59 0 0		
+		vBePutOn setAffect dobj 39 0 0 -1			# Strength Bonus
+		vBeTakenOff clearAffect dobj 39 0 0
+		vBePutOn setAffect dobj 39 0 0 -1			# Strength Bonus
+		vBeTakenOff clearAffect dobj 39 0 0
+		vBePutOn setAffect dobj 39 0 0 -1			# Strength Bonus
+		vBeTakenOff clearAffect dobj 39 0 0
+		vBePutOn setAffect dobj 39 0 0 -1			# Strength Bonus
+		vBeTakenOff clearAffect dobj 39 0 0
+		vBePutOn setAffect dobj 63 0 0 -1      		# Endurance
+		vBeTakenOff clearAffect dobj 63 0 0
+		vBePutOn setAffect dobj 63 0 0 -1      		# Endurance
+		vBeTakenOff clearAffect dobj 63 0 0
+		vBePutOn setAffect dobj 63 0 0 -1      		# Endurance
+		vBeTakenOff clearAffect dobj 63 0 0
+		vBePutOn setAffect dobj 63 0 0 -1      		# Endurance
+		vBeTakenOff clearAffect dobj 63 0 0
+	end
+
+
+	base described
+		text "Prime\n\nLevel Required: 7500\n\n"
+		idText "Prime\n\n++++Intel\n++++Strength\n++++Dexterity\n++++Endurance\n+++++Quicken\n\nLevel Required: 7500\n\n"
+		shopText "Prime\n\n++++Intel\n++++Strength\n++++Dexterity\n++++Endurance\n+++++Quicken\n\nLevel Required: 7500\n\n"
+	end
+end

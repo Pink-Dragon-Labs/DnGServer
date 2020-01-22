@@ -1,0 +1,34 @@
+name "TheVoid"
+title "The Void"
+worldFile "../data/lib/world/VOID.WLD"
+resetInterval 9000000 
+maximumObjectAge 0 
+allowCombat 3
+midiFile 17
+
+
+ambushInterval 70
+ambush 10 Gladiator 
+ambush 10 Ratling
+ambush 10 Protector
+ambush 10 Protector Champion
+ambush 10 SpittingCobra
+ambush 10 Wraith
+ambush 10 UglyOgre
+ambush 10 ImpGuard
+ambush 10 Medusa Medusa Medusa Medusa
+ambush 10 Fuloran
+ambush 10 Tulor
+ambush 10 LostSoldier
+ambush 10 HellHound
+ambush 10 Warlock Warlock Warlock
+ambush 10 Warlock Champion Protector
+ambush 10 MistMage Champion Champion Champion
+ambush 10 Gladiator Gladiator
+ambush 10 Gladiator Gladiator LostSoldier
+ambush 10 Ratling Ratling Ratling Ratling Ratling
+ambush 10 Gladiator Ratling Protector SpittingCobra Wraith UglyOgre ImpGuard
+ambush 10 Fuloran Fuloran Fuloran Fuloran Fuloran Fuloran 
+ambush 10 Berserker 
+ambush 10 Protector Champion EvilMinion
+ambush 10 EvilMinion EvilMinion EvilMinion EvilMinion EvilMinion EvilMinion LostSoldier

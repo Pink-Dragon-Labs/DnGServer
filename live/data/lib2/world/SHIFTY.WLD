@@ -1,0 +1,393 @@
+room 80502
+   properties
+      picture	4000
+      roomName	"Gambler's Den"
+   end
+   atpinfo
+      2028  453 0 80
+      2028  183 21 80
+      2127  287 128 150
+      2029  286 62 80
+      2005  564 23 90
+      2112  185 453 10
+      2017  79 26 80
+      2018  0 48 50
+      2029  361 62 80
+      2006  629 48 50
+      2029  465 62 80
+   end
+   objects
+      object plankDoor6500-0 of PlankDoor
+         properties
+            x	538
+            y	134
+            loop	1
+		link	trapDoor95010-17
+         end
+         base openable
+            isOpen	0
+         end
+      end
+      object lockedChestJeweled6500-1 of LockedChestJeweled
+         properties
+            x	148
+            y	175
+            loop	0
+			enchantResistance 100
+         end
+			base lockable
+				isLocked	1
+				unlockValue	500
+			end
+      end
+	  object GamblerChests-1 of GamblerChests
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	lockedChestJeweled6500-1
+			end
+			base described
+			end
+		end
+      object lockedChestJeweled6500-2 of LockedChestJeweled
+         properties
+            x	227
+            y	175
+            loop	0
+			enchantResistance 100
+         end
+		 	base lockable
+				isLocked	1
+				unlockValue	500
+			end
+      end
+	  object GamblerChests-2 of GamblerChests
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	lockedChestJeweled6500-2
+			end
+			base described
+			end
+		end
+      object lockedChestJeweled6500-3 of LockedChestJeweled
+         properties
+            x	306
+            y	175
+            loop	0
+			enchantResistance 100
+         end
+		 	base lockable
+				isLocked	1
+				unlockValue	500
+			end
+      end
+	  object GamblerChests-3 of GamblerChests
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	lockedChestJeweled6500-3
+			end
+			base described
+			end
+		end
+      object lockedChestJeweled6500-4 of LockedChestJeweled
+         properties
+            x	384
+            y	175
+            loop	0
+			enchantResistance 100
+         end
+		 	base lockable
+				isLocked	1
+				unlockValue	500
+			end
+      end
+	  object GamblerChests-4 of GamblerChests
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	lockedChestJeweled6500-4
+			end
+			base described
+			end
+		end
+      object lockedChestJeweled6500-5 of LockedChestJeweled
+         properties
+            x	463
+            y	175
+            loop	0
+			enchantResistance 100
+         end
+		 	base lockable
+				isLocked	1
+				unlockValue	500
+			end
+      end
+	  object GamblerChests-5 of GamblerChests
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	lockedChestJeweled6500-5
+			end
+			base described
+			end
+		end
+      object lockedChestJeweled6500-6 of LockedChestJeweled
+         properties
+            x	148
+            y	235
+            loop	0
+			enchantResistance 100
+         end
+		 	base lockable
+				isLocked	1
+				unlockValue	500
+			end
+      end
+	  object GamblerChests-6 of GamblerChests
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	lockedChestJeweled6500-6
+			end
+			base described
+			end
+		end
+      object lockedChestJeweled6500-7 of LockedChestJeweled
+         properties
+            x	227
+            y	235
+            loop	0
+			enchantResistance 100
+         end
+		 	base lockable
+				isLocked	1
+				unlockValue	500
+			end
+      end
+	  object GamblerChests-7 of GamblerChests
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	lockedChestJeweled6500-7
+			end
+			base described
+			end
+		end
+      object lockedChestJeweled6500-8 of LockedChestJeweled
+         properties
+            x	306
+            y	235
+            loop	0
+			enchantResistance 100
+         end
+		 	base lockable
+				isLocked	1
+				unlockValue	500
+			end
+      end
+	  object GamblerChests-8 of GamblerChests
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	lockedChestJeweled6500-8
+			end
+			base described
+			end
+		end
+      object lockedChestJeweled6500-9 of LockedChestJeweled
+         properties
+            x	227
+            y	295
+            loop	0
+			enchantResistance 100
+         end
+		 	base lockable
+				isLocked	1
+				unlockValue	500
+			end
+      end
+	  object GamblerChests-9 of GamblerChests
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	lockedChestJeweled6500-9
+			end
+			base described
+			end
+		end
+      object lockedChestJeweled6500-10 of LockedChestJeweled
+         properties
+            x	384
+            y	295
+            loop	0
+			enchantResistance 100
+         end
+		 	base lockable
+				isLocked	1
+				unlockValue	500
+			end
+      end
+	  object GamblerChests-10 of GamblerChests
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	lockedChestJeweled6500-10
+			end
+			base described
+			end
+		end
+      object lockedChestJeweled6500-11 of LockedChestJeweled
+         properties
+            x	148
+            y	295
+            loop	0
+			enchantResistance 100
+         end
+		 	base lockable
+				isLocked	1
+				unlockValue	500
+			end
+      end
+	  object GamblerChests-11 of GamblerChests
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	lockedChestJeweled6500-11
+			end
+			base described
+			end
+		end
+      object lockedChestJeweled6500-12 of LockedChestJeweled
+         properties
+            x	306
+            y	295
+            loop	0
+			enchantResistance 100
+         end
+		 	base lockable
+				isLocked	1
+				unlockValue	500
+			end
+      end
+	  object GamblerChests-12 of GamblerChests
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	lockedChestJeweled6500-12
+			end
+			base described
+			end
+		end
+      object lockedChestJeweled6500-13 of LockedChestJeweled
+         properties
+            x	463
+            y	295
+            loop	0
+			enchantResistance 100
+         end
+		 	base lockable
+				isLocked	1
+				unlockValue	500
+			end
+      end
+	  object GamblerChests-13 of GamblerChests
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	lockedChestJeweled6500-13
+			end
+			base described
+			end
+		end
+      object lockedChestJeweled6500-14 of LockedChestJeweled
+         properties
+            x	463
+            y	235
+            loop	0
+			enchantResistance 100
+         end
+		 	base lockable
+				isLocked	1
+				unlockValue	500
+			end
+      end
+	  object GamblerChests-14 of GamblerChests
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	lockedChestJeweled6500-14
+			end
+			base described
+			end
+		end
+      object lockedChestJeweled6500-15 of LockedChestJeweled
+         properties
+            x	384
+            y	235
+            loop	0
+			enchantResistance 100
+         end
+			base lockable
+				isLocked	1
+				unlockValue	500
+			end
+      end
+	  object GamblerChests-15 of GamblerChests
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	lockedChestJeweled6500-15
+			end
+			base described
+			end
+		end
+   end
+end
+

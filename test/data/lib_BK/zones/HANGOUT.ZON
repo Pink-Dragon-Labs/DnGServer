@@ -1,0 +1,7 @@
+name "Oasis"
+title "Oasis"
+worldFile "../data/lib/world/HANGOUT.WLD"
+resetInterval 9000000 
+maximumObjectAge 0 
+allowCombat 3
+midiFile 17

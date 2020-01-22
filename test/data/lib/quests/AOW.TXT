@@ -1,0 +1,111 @@
+quest 88881
+	name "Item Upgrade: Amulet of Sneaking: Level Two"
+	type fedex
+
+	proposal "You've come a long way to see me. I can reforge your amulet to become much stronger.. but be weary, it will lose any enchantments you had."
+
+	accepted "Excellent. I will get to work right away, hand me the amulet once you are ready."
+
+	declined "Hey, no skin off my back. Come back whenever you're ready."
+
+	reminder "hand me the amulet whenever you're ready."
+
+	completed "That was faster than I expected, here is your new amulet!"
+
+	getItem aSneak
+	reward aHitting
+end 
+
+quest 88882
+	name "Item Upgrade: Amulet of War: Level Two"
+	type fedex
+
+	proposal "You've come a long way to see me. I can reforge your amulet to become much stronger.. but be weary, it will lose any enchantments you had."
+
+	accepted "Excellent. I will get to work right away, hand me the amulet once you are ready."
+
+	declined "Hey, no skin off my back. Come back whenever you're ready."
+
+	reminder "hand me the amulet whenever you're ready."
+
+	completed "That was faster than I expected, here is your new amulet!"
+
+	getItem aWar
+	reward aHitting
+end 
+
+quest 88883
+	name "Item Upgrade: Amulet of Adventure: Level Two"
+	type fedex
+
+	proposal "You've come a long way to see me. I can reforge your amulet to become much stronger.. but be weary, it will lose any enchantments you had."
+
+	accepted "Excellent. I will get to work right away, hand me the amulet once you are ready."
+
+	declined "Hey, no skin off my back. Come back whenever you're ready."
+
+	reminder "hand me the amulet whenever you're ready."
+
+	completed "That was faster than I expected, here is your new amulet!"
+
+	getItem aAdventure
+	reward aHitting
+end 
+#
+#
+#
+#
+#
+quest 88884
+	name "Item Upgrade: Amulet of Concentration: Level Three"
+	type fedex
+
+	proposal "You've come a long way to see me. I can reforge your amulet to become much stronger.. but be weary, it will lose any enchantments you had."
+
+	accepted "Excellent. I will get to work right away, hand me the amulet once you are ready."
+
+	declined "Hey, no skin off my back. Come back whenever you're ready."
+
+	reminder "hand me the amulet whenever you're ready."
+
+	completed "That was faster than I expected, here is your new amulet!"
+
+	getItem aHitting
+	reward aHitting2
+end 
+
+quest 88885
+	name "Item Upgrade: Amulet of Concentration: Level Four"
+	type fedex
+
+	proposal "You've come a long way to see me. I can reforge your amulet to become much stronger.. but be weary, it will lose any enchantments you had."
+
+	accepted "Excellent. I will get to work right away, hand me the amulet once you are ready."
+
+	declined "Hey, no skin off my back. Come back whenever you're ready."
+
+	reminder "hand me the amulet whenever you're ready."
+
+	completed "That was faster than I expected, here is your new amulet!"
+
+	getItem aHitting2
+	reward aHitting3
+end 
+
+quest 88886
+	name "Item Upgrade: Amulet of Concentration: Level Five"
+	type fedex
+
+	proposal "You've come a long way to see me. I can reforge your amulet to become much stronger.. but be weary, it will lose any enchantments you had."
+
+	accepted "Excellent. I will get to work right away, hand me the amulet once you are ready."
+
+	declined "Hey, no skin off my back. Come back whenever you're ready."
+
+	reminder "hand me the amulet whenever you're ready."
+
+	completed "That was faster than I expected, here is your new amulet!"
+
+	getItem aHitting3
+	reward aHitting4
+end 

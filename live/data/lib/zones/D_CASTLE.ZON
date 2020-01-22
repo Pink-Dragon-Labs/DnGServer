@@ -1,0 +1,29 @@
+name "D_CASTLE"
+title "The Castle"
+worldFile "../data/lib/world/D_CASTLE.WLD"
+allowCombat 3
+midiFile 29
+isDungeon 1
+entrance plankDoor24749-3
+
+groupChance 100
+monsterGroup 5 1 CastleRoamingMage 1 CastleRoamingGuard 1 CastleRoamingGuard 1 CastleRoamingGuard 
+monsterGroup 5 1 CastleRoamingMage 1 CastleRoamingGuard 1 CastleRoamingGuard
+monsterGroup 5 1 CastleRoamingMage 1 CastleRoamingWarlock 1 CastleRoamingWizard
+monsterGroup 5 2 CastleRoamingGuard 1 CastleRoamingWarlock 1 CastleRoamingWizard
+monsterGroup 5 1 CastleRoamingGuard 1 CastleRoamingGuard 1 CastleRoamingGuard 1 CastleRoamingGuard 1 CastleRoamingGuard
+monsterGroup 5 2 RoamingRogueThief 3 CastleRoamingGuard
+monsterGroup 5 1 CastleRoamingMage 1 CastleRoamingWizard 1 CastleRoamingWarlock 1 CastleRoamingGuard 1 CastleRoamingGuard  
+monsterGroup 5 1 RoamingRogueThief 1 RoamingRogueThief 1 RoamingRogueThief
+monsterGroup 5 1 CastleRoamingWarlock 1 CastleRoamingGuard 1 CastleRoamingGuard
+monsterGroup 5 1 CastleRoamingWizard 1 CastleRoamingGuard 1 CastleRoamingGuard
+monsterGroup 5 1 CastleRoamingMage 1 RoamingRogueThief 1 CastleRoamingGuard
+
+
+ 
+ambushInterval 40
+ambush 10 CastleRoamingMage CastleRoamingGuard CastleRoamingGuard 
+ambush 10 RoamingRogueThief CastleRoamingGuard CastleRoamingGuard 
+ambush 10 CastleWizard CastleRoamingGuard CastleRoamingGuard
+ambush 10 CastleRoamingMage CastleRoamingGuard CastleRoamingGuard CastleRoamingGuard 
+ambush 10 RoamingRogueThief CastleRoamingGuard CastleRoamingGuard CastleRoamingGuard 

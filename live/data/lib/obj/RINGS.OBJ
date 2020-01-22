@@ -1,0 +1,1856 @@
+#
+# Rings
+#
+
+object Ring
+	properties
+		name "Ring"
+		basicName "Ring"
+		value 50
+		view 51850
+		color -1
+		health 600
+#		clutStart 20
+		clutStart 112
+
+		# immune to fire damage
+		affect 1 2 0 -1
+
+		# immune to cold damage
+		affect 2 2 0 -1
+
+		# immune to lightning
+		affect 3 2 0 -1
+
+		# immune to acid
+		affect 4 2 0 -1
+	end
+
+	base described
+		text "You see a ring of some sort."
+		idText "It seems to be a plain copper ring."
+		shopText "It's just a plain copper ring.  Nice looking though, if I may say myself."
+	end
+
+	base carryable
+		weight 0.2
+	end
+
+	base wearable
+		areaWorn 700
+	end
+end
+
+object rCopper of Ring
+	properties
+		name "Ring of Copper"
+	end
+end
+
+object rEngagement of Ring
+	properties
+		name "Engagement Ring"
+		value 500
+		view 51900
+	end
+
+	base described
+		idText "You see a fine golden engagement ring with a tiny diamond."
+		shopText "This is one of the finer engagement rings available."
+	end
+end
+
+object rWedding of Ring
+	properties
+		name "Wedding Ring"
+		value 1500
+	end
+
+	base described
+		idText "You see a fine golden wedding ring."
+		shopText "This is a fine wedding ring, suitable for those on a budget."
+	end
+end
+
+object rWedding2 of Ring
+	properties
+		name "Expensive Wedding Ring"
+		value 15000
+		view 51900
+	end
+
+	base described
+		idText "You see an intricately worked wedding ring with a sparkling diamond."
+		shopText "This extraordinary wedding ring took our finest artisans more than three months to craft."
+	end
+end
+
+object rWedding3 of Ring
+	properties
+		name "Royal Wedding Ring"
+		value 30000
+		view 51950
+	end
+
+	base described
+		idText "You see the finest wedding ring that money can buy."
+		shopText "This masterpiece has a 5 carat diamond and has been crafted with the finest of metals."
+	end
+end
+
+object rClumsiness of Ring
+	properties
+		name "Ring of Clumsiness"
+		value 100
+
+		# cursed
+		affect 46 0 0 -1
+	end
+
+	actions
+		vBePutOn setAffect dobj 60 0 0 -1
+		vBeTakenOff clearAffect dobj 60 0 0
+	end
+
+	base described
+		idText "You see a ring of Clumsiness.  You will lose dexterity if you wear it."
+		shopText "This cursed ring will make you clumsy."
+	end
+end
+
+object rDexterity of Ring
+	properties
+		name "Ring of Dexterity"
+		value 2500
+	end
+
+	actions
+		vBePutOn setAffect dobj 59 0 0 -1
+		vBeTakenOff clearAffect dobj 59 0 0
+	end
+
+	base described
+		idText "You see a Ring of Dexterity.  You will gain dexterity while wearing this."
+		shopText "This wonderful ring infuses the wearer with speed."
+	end
+end
+
+object rEndurance of Ring
+	properties
+		name "Ring of Endurance"
+		value 2500
+	end
+
+	actions
+		vBePutOn setAffect dobj 63 0 0 -1
+		vBeTakenOff clearAffect dobj 63 0 0
+	end
+
+	base described
+		idText "You see a Ring of Endurance.  You will gain endurance while wearing this."
+		shopText "This ring will give you endurance for those long journeys."
+	end
+end
+
+object rEternalNourishment of Ring
+	properties
+		name "Ring of Eternal Nourishment"
+		value 2000
+	end
+
+	actions
+		vBePutOn setAffect dobj 67 0 0 -1
+		vBeTakenOff clearAffect dobj 67 0 0
+	end
+
+	base described
+		idText "You see a Ring of Eternal Nourishment.  You will not have to eat or drink as long as you wear this ring."
+		shopText "This is a fine magical Ring of Eternal Nourishment.  It will provide your body with sustenance as long as you wear it."
+	end
+end
+
+object rGender of Ring
+	properties
+		name "Ring of Gender"
+		value 500
+
+		# cursed
+		affect 46 0 0 -1
+	end
+
+	actions
+		vBePutOn setAffect dobj 68 0 0 -1
+		vBeTakenOff clearAffect dobj 68 0 0
+	end
+
+	base described
+		idText "You see a Ring of Gender.  You will become the opposite sex when you wear it."
+		shopText "This fine ring will allow you to become the opposite sex if you are in to that sort of stuff."
+	end
+end
+
+object rIntelligence of Ring
+	properties
+		name "Ring of Intelligence"
+		value 3500
+	end
+
+	actions
+		vBePutOn setAffect dobj 61 0 0 -1
+		vBeTakenOff clearAffect dobj 61 0 0
+	end
+
+	base described
+		idText "You see a Ring of Intelligence.  Wearing it will make you somewhat smarter."
+		shopText "This wonderful ring of intelligence is a must for spellcasters!"
+	end
+end
+
+object rNakedness of Ring
+	properties
+		name "Ring of Nakedness"
+		value 100
+
+		# cursed
+		affect 46 0 0 -1
+	end
+
+	actions
+		vBePutOn setAffect dobj 69 0 0 -1
+		vBeTakenOff clearAffect dobj 69 0 0
+	end
+
+	base described
+		idText "You see a ring of Nakedness."
+		shopText "Wear this fine ring only while at home, please."
+	end
+end
+
+object rRegeneration of Ring
+	properties
+		name "Ring of Regeneration"
+		value 3000
+	end
+
+	actions
+		vBePutOn setAffect dobj 44 0 0 315360000 
+		vBeTakenOff clearAffect dobj 44 0 0
+	end
+
+	base described
+		idText "You see a Ring of Regeneration.  Wearing this ring will cause you to heal much more rapidly."
+		shopText "Here is a Ring of Regeneration.  This ring will allow you to heal much quicker than normal."
+	end
+end
+
+object rStrength of Ring
+	properties
+		name "Ring of Strength"
+		value 2500
+	end
+
+	actions
+		vBePutOn setAffect dobj 39 0 0 -1
+		vBeTakenOff clearAffect dobj 39 0 0
+	end
+
+	base described
+		idText "You see a Ring of Strength.  This ring will increase your strength attribute when worn."
+		shopText "This wonderful Ring of Strength will make you much stronger."
+	end
+end
+
+object rStupidity of Ring
+	properties
+		name "Ring of Stupidity"
+		value 100
+
+		# cursed
+		affect 46 0 0 -1
+	end
+
+	actions
+		vBePutOn setAffect dobj 62 0 0 -1
+		vBeTakenOff clearAffect dobj 62 0 0
+	end
+
+	base described
+		idText "You see a Ring of Stupidity.  This ring will lower the intelligence of the wearer."
+		shopText "This ring will make you stupid if you aren't already."
+	end
+end
+
+object rUgly of Ring
+	properties
+		name "Ring of Ugliness"
+		value 100
+
+		# cursed
+		affect 46 0 0 -1
+	end
+
+	actions
+		vBePutOn setAffect dobj 70 0 0 -1
+		vBeTakenOff clearAffect dobj 70 0 0
+	end
+
+	base described
+		idText "You see a Ring of Ugliness.  This ring will give the wearer a hideous aspect."
+		shopText "This strange artifact will give you a most hideous aspect."
+	end
+end
+
+object rWeakness of Ring
+	properties
+		name "Ring of Weakness"
+		value 100
+
+		# cursed
+		affect 46 0 0 -1
+	end
+
+	actions
+		vBePutOn setAffect dobj 40 0 0 -1
+		vBeTakenOff clearAffect dobj 40 0 0
+	end
+
+	base described
+		idText "You see a Ring of Weakness."
+		shopText "This ring will weaken you if you put it on."
+	end
+end
+#---------------------------#
+#							#
+#							#
+#		New Rings			#
+#							#
+#							#
+#							#
+#---------------------------#
+object rConjuration of Ring
+	properties
+	special
+		name "Ring of Conjuration"
+		value 6000
+		level 550
+	end
+
+	base wearable
+                # only Wiz
+                mask warrior
+                mask adventurer
+                mask thief
+	end
+	
+	actions
+		vBePutOn setAffect dobj 61 0 0 -1				#Int
+		vBeTakenOff clearAffect dobj 61 0 0
+		vBePutOn setAffect dobj 63 0 0 -1				#End
+		vBeTakenOff clearAffect dobj 63 0 0
+		vBePutOn setAffect dobj 59 0 0 -1				#Dex
+		vBeTakenOff clearAffect dobj 59 0 0
+	end
+
+	base described
+		idText "You see a Ring of Conjuration.  Wearing this will make you smarter, faster, as well as increase your health. \nLevel Required: 550.\n"
+		shopText "This wonderful ring of conjuration is a must for spellcasters!"
+	end
+end
+#------------------------------------------------------------
+object rGlory of Ring
+	properties
+	special
+		name "Ring of Glory"
+		value 6000
+		level 550
+	end
+
+	base wearable
+                # only Adv
+                mask wizard
+                mask warrior
+                mask thief
+	end
+	
+	actions
+		vBePutOn setAffect dobj 39 0 0 -1				#Str
+		vBeTakenOff clearAffect dobj 39 0 0
+		vBePutOn setAffect dobj 59 0 0 -1				#Dex
+		vBeTakenOff clearAffect dobj 59 0 0
+		vBePutOn setAffect dobj 63 0 0 -1				#End
+		vBeTakenOff clearAffect dobj 63 0 0
+	end
+	
+	base described
+		idText "You see a Ring of Glory.  Wearing this will make you stronger, faster, and will increase your health. \nLevel Required: 550.\n"
+		shopText "This wonderful ring of glory is a must for any adventurer!"
+	end
+end
+#------------------------------------------------------------
+object rQuickness of Ring
+	properties
+	special
+		name "Ring of Quickness"
+		value 6000
+		level 550
+	end
+
+	base wearable
+                # only Thief
+                mask warrior
+                mask adventurer
+                mask wizard
+	end
+	
+	actions
+		vBePutOn setAffect dobj 59 0 0 -1				#Dex
+		vBeTakenOff clearAffect dobj 59 0 0
+		vBePutOn setAffect dobj 59 0 0 -1				#Dex
+		vBeTakenOff clearAffect dobj 59 0 0
+		vBePutOn setAffect dobj 63 0 0 -1				#End
+		vBeTakenOff clearAffect dobj 63 0 0
+	end
+	
+	base described
+		idText "You see a Ring of Quickness.  Wearing this will make you considerably faster, and will increase your health. \nLevel Required: 550.\n"
+		shopText "This wonderful ring of quickness is a must for any thief!"
+	end
+end
+#------------------------------------------------------------
+object rSmashing of Ring
+	properties
+	special
+		name "Ring of Smashing"
+		value 6000
+		level 550
+	end
+
+	base wearable
+                # only Warriors
+                mask wizard
+                mask adventurer
+                mask thief
+	end
+	
+	actions
+		vBePutOn setAffect dobj 39 0 0 -1				#Str
+		vBeTakenOff clearAffect dobj 39 0 0
+		vBePutOn setAffect dobj 39 0 0 -1				#Str
+		vBeTakenOff clearAffect dobj 39 0 0
+		vBePutOn setAffect dobj 63 0 0 -1				#End
+		vBeTakenOff clearAffect dobj 63 0 0
+	end
+	
+	base described
+		idText "You see a Ring of Smashing.  Wearing this will make you considerably stronger and will increase your health. \nLevel Required: 550.\n"
+		shopText "This wonderful ring of smashing is a must for any warrior!"
+	end
+end
+#------------------------------------------------------------
+object rDestruction of Ring
+	properties
+		special
+		name "Ring of Destruction"
+		value 2500
+	end
+
+	actions
+		#endurance
+		vBePutOn setAffect dobj 63 0 0 -1
+		vBeTakenOff clearAffect dobj 63 0 0
+		#str
+		vBePutOn setAffect dobj 39 0 0 -1
+		vBeTakenOff clearAffect dobj 39 0 0
+	end
+
+	base described
+		idText "You see a Ring of Destruction.  You will gain strength and endurance while wearing this."
+		shopText "This ring will give you strength and endurance for those long journeys."
+	end
+end
+#------------------------------------------------------------
+#------------------------------------------------------------
+#------------------------------------------------------------
+#---------------Testing Mark/Curse Rings---------------------
+#------------------------------------------------------------
+#------------------------------------------------------------
+#------------------------------------------------------------
+object rEnid of Ring
+	properties
+		special
+		name "Mark of Enid"
+		value 10000000
+		view 51950
+		color 43
+		enchantResistance 100
+	end
+
+	base wearable
+        areaWorn 195
+	end
+
+	actions
+		vBePutOn setAffect dobj 88 0 0 -1   	#MARK_ENID
+		vBeTakenOff clearAffect dobj 88 0 0	
+	end
+
+	base described
+		idText "A ring once belonged to Enid herself. Wearing this you will be blessed with immunity to death magic."
+		shopText "A Ring once belonged to Enid herself. This will grant her blessing while equipped."
+	end
+end
+#------------------------------------------------------------
+object rDuach of Ring
+	properties
+		special
+		name "Mark of Duach"
+		value 10000000
+		view 51950
+		color 43
+		enchantResistance 100
+	end
+
+	base wearable
+        areaWorn 195
+	end
+
+	actions
+		vBePutOn setAffect dobj 89 0 0 -1   #MARK_DUACH
+		vBeTakenOff clearAffect dobj 89 0 0	
+	end
+
+	base described
+		idText "A Ring once belonged to Duach himself. This will grant 90% poison resistance."
+		shopText "A Ring once belonged to Duach himself. This will grant his blessing while equipped."
+	end
+end
+#------------------------------------------------------------
+object rDespothes of Ring
+	properties
+		special
+		name "Mark of Despothes"
+		value 10000000
+		view 51950
+		color 43
+		enchantResistance 100
+	end
+
+	base wearable
+        areaWorn 195
+	end
+
+	actions
+		vBePutOn setAffect dobj 92 0 0 -1   #MARK_DESPOTHES
+		vBeTakenOff clearAffect dobj 92 0 0	
+	end
+
+	base described
+		idText "A Ring once belonged to Despothes himself. Wearing this you will be blessed with lightning immolation and a weakness to cold damage."
+		shopText "A Ring once belonged to Despothes himself. This will grant his blessing while equipped."
+	end
+end
+#------------------------------------------------------------
+object rCEnid of Ring
+	properties
+		special
+		name "Enid's Curse"
+		value 10000000
+		view 51950
+		color 43
+		enchantResistance 100
+	end
+
+	base wearable
+        areaWorn 195
+	end
+
+	actions
+		vBePutOn setAffect dobj 90 0 0 -1   #CURSE_ENID
+		vBeTakenOff clearAffect dobj 90 0 0		
+	end
+
+	base described
+		idText "A Ring once belonged to Enid herself. Wearing this you will be cursed with healing magic immunity!"
+		shopText "A Ring once belonged to Enid herself. This will grant her curse while equipped."
+	end
+end
+#------------------------------------------------------------
+object rCDuach of Ring
+	properties
+		special
+		name "Duach's Curse"
+		value 10000000
+		view 51950
+		color 43
+		enchantResistance 100
+	end
+
+	base wearable
+        areaWorn 195
+	end
+
+	actions
+		vBePutOn setAffect dobj 91 0 0 -1   #CURSE_DUACH
+		vBeTakenOff clearAffect dobj 91 0 0		
+	end
+
+	base described
+		idText "A Ring once belonged to Duach himself. This will grant immunity to resistance spells and constant damage weakness."
+		shopText "A Ring once belonged to Duach himself. This will grant his curse while equipped."
+	end
+end
+#------------------------------------------------------------
+object rCDespothes of Ring
+	properties
+		special
+		name "Curse of Despothes"
+		value 10000000
+		view 51950
+		color 43
+		enchantResistance 100
+	end
+
+	base wearable
+        areaWorn 195
+	end
+
+	actions
+		vBePutOn setAffect dobj 93 0 0 -1   #CURSE_DESPOTHES
+		vBeTakenOff clearAffect dobj 93 0 0	
+	end
+
+	base described
+		idText "A Ring once belonged to Despothes himself. Wearing this you will be cursed with a weakness to lightning"
+		shopText "A Ring once belonged to Despothes himself. This will grant his curse while equipped."
+	end
+end
+#------------------------------------------------------------
+object rMysticalMStr of Ring
+	properties
+	special
+		name "Mystical Ring of Strength (M)"
+		value 1000000
+		level 1200
+	end
+
+	base wearable
+        layer 50
+		areaWorn 2
+		mask female
+	end
+	
+	actions
+		vBePutOn setAffect dobj 39 0 0 -1
+		vBeTakenOff clearAffect dobj 39 0 0
+		vBePutOn setAffect dobj 39 0 0 -1
+		vBeTakenOff clearAffect dobj 39 0 0
+		vBePutOn setAffect dobj 39 0 0 -1
+		vBeTakenOff clearAffect dobj 39 0 0
+	end
+	
+	base described
+		idText "This Ring takes the place of your Robe slot.\n\nWearing this, you will gain a significant boost to your Strength.\n\nLevel Required: 1200\n"
+		shopText "This Ring takes the place of your Robe slot.\n\nWearing this, you will gain a significant boost to your Strength.\n\nLevel Required: 1200\n"
+	end
+end
+#------------------------------------------------------------
+object rMysticalMDex of Ring
+	properties
+	special
+		name "Mystical Ring of Dexterity (M)"
+		value 1000000
+		level 1200
+	end
+
+	base wearable
+        layer 50
+		areaWorn 2
+		mask female
+	end
+	
+	actions
+		vBePutOn setAffect dobj 59 0 0 -1
+		vBeTakenOff clearAffect dobj 59 0 0
+		vBePutOn setAffect dobj 59 0 0 -1
+		vBeTakenOff clearAffect dobj 59 0 0
+		vBePutOn setAffect dobj 59 0 0 -1
+		vBeTakenOff clearAffect dobj 59 0 0
+	end
+	
+	base described
+		idText "This Ring takes the place of your Robe slot.\n\nWearing this, you will gain a significant boost to your Dexterity.\n\nLevel Required: 1200\n"
+		shopText "This Ring takes the place of your Robe slot.\n\nWearing this, you will gain a significant boost to your Dexterity.\n\nLevel Required: 1200\n"
+	end
+end
+#------------------------------------------------------------
+object rMysticalMInt of Ring
+	properties
+	special
+		name "Mystical Ring of Intelligence (M)"
+		value 1000000
+		level 1200
+	end
+
+	base wearable
+        layer 50
+		areaWorn 2
+		mask female
+	end
+	
+	actions
+		vBePutOn setAffect dobj 61 0 0 -1
+		vBeTakenOff clearAffect dobj 61 0 0
+		vBePutOn setAffect dobj 61 0 0 -1
+		vBeTakenOff clearAffect dobj 61 0 0
+		vBePutOn setAffect dobj 61 0 0 -1
+		vBeTakenOff clearAffect dobj 61 0 0
+	end
+	
+	base described
+		idText "This Ring takes the place of your Robe slot.\n\nWearing this, you will gain a significant boost to your Intelligence.\n\nLevel Required: 1200\n"
+		shopText "This Ring takes the place of your Robe slot.\n\nWearing this, you will gain a significant boost to your Intelligence.\n\nLevel Required: 1200\n"
+	end
+end
+#------------------------------------------------------------
+object rMysticalMEnd of Ring
+	properties
+	special
+		name "Mystical Ring of Endurance (M)"
+		value 1000000
+		level 1200
+	end
+
+	base wearable
+        layer 50
+		areaWorn 2
+		mask female
+	end
+	
+	actions
+		vBePutOn setAffect dobj 63 0 0 -1
+		vBeTakenOff clearAffect dobj 63 0 0
+		vBePutOn setAffect dobj 63 0 0 -1
+		vBeTakenOff clearAffect dobj 63 0 0
+		vBePutOn setAffect dobj 63 0 0 -1
+		vBeTakenOff clearAffect dobj 63 0 0
+	end
+	
+	base described
+		idText "This Ring takes the place of your Robe slot.\n\nWearing this, you will gain a significant boost to your Endruance.\n\nLevel Required: 1200\n"
+		shopText "This Ring takes the place of your Robe slot.\n\nWearing this, you will gain a significant boost to your Endruance.\n\nLevel Required: 1200\n"
+	end
+end
+#------------------------------------------------------------
+object rMysticalFStr of Ring
+	properties
+	special
+		name "Mystical Ring of Strength (F)"
+		value 1000000
+		level 1200
+	end
+
+	base wearable
+        areaWorn 9
+		layer 3
+		mask male
+	end
+	
+	actions
+		vBePutOn setAffect dobj 39 0 0 -1
+		vBeTakenOff clearAffect dobj 39 0 0
+		vBePutOn setAffect dobj 39 0 0 -1
+		vBeTakenOff clearAffect dobj 39 0 0
+		vBePutOn setAffect dobj 39 0 0 -1
+		vBeTakenOff clearAffect dobj 39 0 0
+	end
+	
+	base described
+		idText "This Ring takes the place of your Skirt slot.\n\nWearing this, you will gain a significant boost to your Strength.\n\nLevel Required: 1200\n"
+		shopText "This Ring takes the place of your Skirt slot.\n\nWearing this, you will gain a significant boost to your Strength.\n\nLevel Required: 1200\n"
+	end
+end
+#------------------------------------------------------------
+object rMysticalFDex of Ring
+	properties
+	special
+		name "Mystical Ring of Dexterity (F)"
+		value 1000000
+		level 1200
+	end
+
+	base wearable
+        areaWorn 9
+		layer 3
+		mask male
+	end
+	
+	actions
+		vBePutOn setAffect dobj 59 0 0 -1
+		vBeTakenOff clearAffect dobj 59 0 0
+		vBePutOn setAffect dobj 59 0 0 -1
+		vBeTakenOff clearAffect dobj 59 0 0
+		vBePutOn setAffect dobj 59 0 0 -1
+		vBeTakenOff clearAffect dobj 59 0 0
+	end
+	
+	base described
+		idText "This Ring takes the place of your Skirt slot.\n\nWearing this, you will gain a significant boost to your Dexterity.\n\nLevel Required: 1200\n"
+		shopText "This Ring takes the place of your Skirt slot.\n\nWearing this, you will gain a significant boost to your Dexterity.\n\nLevel Required: 1200\n"
+	end
+end
+#------------------------------------------------------------
+object rMysticalFInt of Ring
+	properties
+	special
+		name "Mystical Ring of Intelligence (F)"
+		value 1000000
+		level 1200
+	end
+
+	base wearable
+        areaWorn 9
+		layer 3
+		mask male
+	end
+	
+	actions
+		vBePutOn setAffect dobj 61 0 0 -1
+		vBeTakenOff clearAffect dobj 61 0 0
+		vBePutOn setAffect dobj 61 0 0 -1
+		vBeTakenOff clearAffect dobj 61 0 0
+		vBePutOn setAffect dobj 61 0 0 -1
+		vBeTakenOff clearAffect dobj 61 0 0
+	end
+	
+	base described
+		idText "This Ring takes the place of your Skirt slot.\n\nWearing this, you will gain a significant boost to your Intelligence.\n\nLevel Required: 1200\n"
+		shopText "This Ring takes the place of your Skirt slot.\n\nWearing this, you will gain a significant boost to your Intelligence.\n\nLevel Required: 1200\n"
+	end
+end
+#------------------------------------------------------------
+object rMysticalFEnd of Ring
+	properties
+	special
+		name "Mystical Ring of Endurance (F)"
+		value 1000000
+		level 1200
+	end
+
+	base wearable
+        areaWorn 9
+		layer 3
+		mask male
+	end
+	
+	actions
+		vBePutOn setAffect dobj 63 0 0 -1
+		vBeTakenOff clearAffect dobj 63 0 0
+		vBePutOn setAffect dobj 63 0 0 -1
+		vBeTakenOff clearAffect dobj 63 0 0
+		vBePutOn setAffect dobj 63 0 0 -1
+		vBeTakenOff clearAffect dobj 63 0 0
+	end
+	
+	base described
+		idText "This Ring takes the place of your Skirt slot.\n\nWearing this, you will gain a significant boost to your Endruance.\n\nLevel Required: 1200\n"
+		shopText "This Ring takes the place of your Skirt slot.\n\nWearing this, you will gain a significant boost to your Endruance.\n\nLevel Required: 1200\n"
+	end
+end
+#------------------------------------------------------------
+object rMighty of Ring
+	properties
+	special
+		name "Mighty Ring"
+		value 1000000
+		level 1000
+		color 43	# Glowie
+	end
+
+	base wearable
+        areaWorn 202
+	end
+	
+	actions
+		vBePutOn setAffect dobj 39 0 0 -1				# Str
+		vBeTakenOff clearAffect dobj 39 0 0
+		vBePutOn setAffect dobj 59 0 0 -1				# Dex
+		vBeTakenOff clearAffect dobj 59 0 0
+		vBePutOn changeSpellResistance dobj 20 2		# 20% Myst Resist
+		vBeTakenOff changeSpellResistance dobj -20 2
+	end
+	
+	base described
+		idText "A Mighty Ring forged in the heart of a star long since dead.\n\nWearing this provides you with Strength, Dexterity and 20% Mysticism Resistance.\n\nCan be worn alongside 2 other rings.\n\nLevel Required: 1000\n"
+		shopText "A Mighty Ring forged in the heart of a star long since dead.\n\nWearing this provides you with Strength, Dexterity and 20% Mysticism Resistance.\n\nCan be worn alongside 2 other rings.\n\nLevel Required: 1000\n"
+	end
+end
+#------------------------------------------------------------
+object rGreenskin of Ring
+	properties
+		special
+		name "Ring of Green Skin"
+		value 5000000
+		health 150
+		color 43
+		enchantResistance 100
+	end
+
+	actions
+		#  Green Skin
+		vBePutOn setAffect dobj 94 0 0 -1
+		vBeTakenOff clearAffect dobj 94 0 0
+	end
+
+	base wearable
+        areaWorn 209
+	end
+
+	base described
+		idText "Ring for green skin."
+	end
+end
+
+object rYellowskin of Ring
+	properties
+		special
+		name "Ring of Yellow Skin"
+		value 5000000
+		health 150
+		color 43
+		enchantResistance 100
+	end
+
+	actions
+		#  Yellow Skin
+		vBePutOn setAffect dobj 95 0 0 -1
+		vBeTakenOff clearAffect dobj 95 0 0
+	end
+
+	base wearable
+        areaWorn 209
+	end
+
+	base described
+		idText "Ring for yellow skin."
+	end
+end
+
+object rGreyskin of Ring
+	properties
+		special
+		name "Ring of Grey Skin"
+		value 5000000
+		health 150
+		color 43
+		enchantResistance 100
+	end
+
+	actions
+		#  Grey Skin
+		vBePutOn setAffect dobj 96 0 0 -1
+		vBeTakenOff clearAffect dobj 96 0 0
+	end
+
+	base wearable
+        areaWorn 209
+	end
+
+	base described
+		idText "Ring for grey skin."
+	end
+end
+
+object rShifting of Ring
+	properties
+		special
+		name "Ring of Shifting"
+		value 5000000
+		color 32
+		enchantResistance 100
+	end
+
+	actions
+		vBePutOn setAffect dobj 75 0 0 -1			# Shifting
+		vBeTakenOff clearAffect dobj 75 0 0
+	end
+
+	base wearable
+        areaWorn 674
+	end
+
+	base described
+		text "This ring jumps around in your palm.\n"
+		idText "This mystical ring is hard to hold on to. It vibrates and seems to want to jump out of your hand.\nWhen you equip this ring, you will gain the ability to shift in combat. This will persist as long as the ring is worn.\n\nEnchant Resist: 100%\n"
+	end
+end
+
+object rInvisibility of Ring
+	properties
+		special
+		name "Ring of Invisibility"
+		value 5000000
+		color 237	# Invisible Black Outlined
+		enchantResistance 100
+	end
+
+	actions
+		vBePutOn setAffect dobj 21 0 0 -1			# Improved Invisibility
+		vBeTakenOff clearAffect dobj 21 0 0
+	end
+
+	base wearable
+        areaWorn 675
+	end
+
+	base described
+		text "This ring jumps around in your palm.\n"
+		idText "You have to squint to get a good look at it. It seems to be ethereal, you can sort of see through it.\nWhen you equip this ring, you will become invisible. This will persist as long as the ring is worn.\n\nEnchant Resist: 100%\n"
+	end
+end
+
+object rBerserk of Ring
+	properties
+		special
+		name "Ring of Berserking"
+		value 100000
+		enchantResistance 100
+		color 232	# Dark Green Glow
+	end
+
+	base wearable
+        areaWorn 512
+	end
+	
+	actions
+		vBePutOn setAffect dobj 33 0 0 -1   # BERSERK
+        vBeTakenOff clearAffect dobj 33 0 0	
+	end
+
+	base described
+		text "You can hear faint whispers.. surely they arent coming from the ring.\n\n"
+		idText "A Ring of Berserking.\n\nWearing this ring, you will hear the souls the ring has captured through it's millenia of slaughter.\nThese voices drive you mad.\n\nYou will attack uncontrollably while wearing this ring.\nYou have been warned.\n\n"
+		shopText "A Ring of Berserking.\n\nWearing this ring, you will hear the souls the ring has captured through it's millenia of slaughter.\nThese voices drive you mad.\n\nYou will attack uncontrollably while wearing this ring.\nYou have been warned.\n\n"
+	end
+end
+#------------------------------------------
+#
+#
+#			Ring Helmets	
+#	To give players option to 'hide'
+#			helmet from view
+#
+#
+#
+#------------------------------------------
+object rHopliteM of Ring
+    properties
+		special
+        name "Hoplite Helmet"
+        health 1500
+        value 10000
+        strength 5
+        armor 150
+        color 171 		# Black-Brown
+		level 2500
+    end
+ 
+    base carryable
+        weight 10.0
+    end
+
+	base wearable
+        reverseProcID 101				# Invulnerability
+		reverseProcChance 20			# 20%
+		areaWorn 0
+    end
+
+    actions
+        vBePutOn changeSpellResistance dobj 40 1 2 4				# Myst/Ele/Necro Resist 40%
+		vBeTakenOff changeSpellResistance dobj -40 1 2 4
+		vBePutOn setAffect dobj 56 0 0 -1                   		# Extra Attack
+        vBeTakenOff clearAffect dobj 56 0 0
+		vBePutOn setAffect dobj 56 0 0 -1                   		# Extra Attack
+        vBeTakenOff clearAffect dobj 56 0 0
+		vBePutOn setAffect dobj 56 0 0 -1                   		# Extra Attack
+        vBeTakenOff clearAffect dobj 56 0 0
+		vBePutOn setAffect dobj 56 0 0 -1                   		# Extra Attack
+        vBeTakenOff clearAffect dobj 56 0 0
+		vBePutOn setAffect dobj 39 0 0 -1							# Strength	
+		vBeTakenOff clearAffect dobj 39 0 0
+		vBePutOn setAffect dobj 39 0 0 -1							# Strength
+		vBeTakenOff clearAffect dobj 39 0 0
+		vBePutOn setAffect dobj 39 0 0 -1							# Strength
+		vBeTakenOff clearAffect dobj 39 0 0
+		vBePutOn setAffect dobj 39 0 0 -1							# Strength
+		vBeTakenOff clearAffect dobj 39 0 0
+		vBePutOn setAffect dobj 63 0 0 -1							# End
+		vBeTakenOff clearAffect dobj 63 0 0
+		vBePutOn setAffect dobj 63 0 0 -1							# End
+		vBeTakenOff clearAffect dobj 63 0 0
+		vBePutOn setAffect dobj 63 0 0 -1							# End
+		vBeTakenOff clearAffect dobj 63 0 0
+		vBePutOn setAffect dobj 63 0 0 -1							# End
+		vBeTakenOff clearAffect dobj 63 0 0
+    end
+   
+    base described
+        text "A glorious shimmering helmet."
+        idText "A helmet worn by the elite hoplite soldier.\n\nThis helmet will provide an incredible amount of Attacks per round, as well asunprecedented Strength and Endurance.\n\nMysticism Resist: 40 percent.\n\nElemental Resist: 40 percent.\n\nNecromancy Resist: 40 percent.\n\n"
+        shopText "A helmet worn by the elite hoplite soldier.\n\nThis helmet will provide an incredible amount of Attacks per round, as well as unprecedented Strength and Endurance.\n\nMysticism Resist: 40 percent.\n\nElemental Resist: 40 percent.\n\nNecromancy Resist: 40 percent.\n\n"
+    end
+end
+#------------------------------------------
+object rHopliteF of Ring
+	properties
+		special
+        name "Hoplite Helmet"
+        health 1500
+        value 10000
+        strength 5
+        armor 150
+        color 171 		# Black-Brown
+		level 2500
+    end
+ 
+    base carryable
+        weight 10.0
+    end
+
+	base wearable
+        reverseProcID 101				# Invulnerability
+		reverseProcChance 20			# 20%
+		areaWorn 0
+    end
+
+    actions
+        vBePutOn changeSpellResistance dobj 40 1 2 4				# Myst/Ele/Necro Resist 40%
+		vBeTakenOff changeSpellResistance dobj -40 1 2 4
+		vBePutOn setAffect dobj 56 0 0 -1                   		# Extra Attack
+        vBeTakenOff clearAffect dobj 56 0 0
+		vBePutOn setAffect dobj 56 0 0 -1                   		# Extra Attack
+        vBeTakenOff clearAffect dobj 56 0 0
+		vBePutOn setAffect dobj 56 0 0 -1                   		# Extra Attack
+        vBeTakenOff clearAffect dobj 56 0 0
+		vBePutOn setAffect dobj 56 0 0 -1                   		# Extra Attack
+        vBeTakenOff clearAffect dobj 56 0 0
+		vBePutOn setAffect dobj 39 0 0 -1							# Strength	
+		vBeTakenOff clearAffect dobj 39 0 0
+		vBePutOn setAffect dobj 39 0 0 -1							# Strength
+		vBeTakenOff clearAffect dobj 39 0 0
+		vBePutOn setAffect dobj 39 0 0 -1							# Strength
+		vBeTakenOff clearAffect dobj 39 0 0
+		vBePutOn setAffect dobj 39 0 0 -1							# Strength
+		vBeTakenOff clearAffect dobj 39 0 0
+		vBePutOn setAffect dobj 63 0 0 -1							# End
+		vBeTakenOff clearAffect dobj 63 0 0
+		vBePutOn setAffect dobj 63 0 0 -1							# End
+		vBeTakenOff clearAffect dobj 63 0 0
+		vBePutOn setAffect dobj 63 0 0 -1							# End
+		vBeTakenOff clearAffect dobj 63 0 0
+		vBePutOn setAffect dobj 63 0 0 -1							# End
+		vBeTakenOff clearAffect dobj 63 0 0
+    end
+   
+    base described
+        text "A glorious shimmering helmet."
+        idText "A helmet worn by the elite hoplite soldier.\n\nThis helmet will provide an incredible amount of Attacks per round, as well asunprecedented Strength and Endurance.\n\nMysticism Resist: 40 percent.\n\nElemental Resist: 40 percent.\n\nNecromancy Resist: 40 percent.\n\nThis helmet will sometimes grant you Invulnerability when struck.\n"
+        shopText "A helmet worn by the elite hoplite soldier.\n\nThis helmet will provide an incredible amount of Attacks per round, as well as unprecedented Strength and Endurance.\n\nMysticism Resist: 40 percent.\n\nElemental Resist: 40 percent.\n\nNecromancy Resist: 40 percent.\n\nThis helmet will sometimes grant you Invulnerability when struck.\n"
+    end
+end
+#--------------------------------
+object rWarlocksHat of Ring
+	properties
+		special
+		name "Warlock's Hat"
+		color 171 #Black-Brown
+		armor 40
+		level 500
+		enchantResistance 40
+	end
+
+	base carryable
+		weight 4
+	end
+
+	base wearable
+		areaWorn 0
+	end
+
+	actions
+		# Add 500% to all magic circles except Myst and Sorc while worn. 
+		vBePutOn changeSDM dobj 425 1 3 4
+		vBeTakenOff changeSDM dobj -425 1 3 4
+		# Pos Int Mod
+		vBePutOn setAffect dobj 61 0 0 -1
+		vBeTakenOff clearAffect dobj 61 0 0
+		# Pos Int Mod
+		vBePutOn setAffect dobj 61 0 0 -1
+		vBeTakenOff clearAffect dobj 61 0 0
+		# Weakness
+		vBePutOn setAffect dobj 40 0 0 -1
+		vBeTakenOff clearAffect dobj 40 0 0
+		# Free Will (clear from Mage Hat)
+		vBePutOn clearAffect dobj 86 0 0 
+		vBeTakenOff clearAffect dobj 86 0 0
+	end
+
+	base described
+		text "You see a warlock's hat embroidered with sinsiter runes of another world."
+		idText "You see the Dark Warlock's Hat.\n\nWearing this hat will improve the power of your spells substantially, as well as your Intelligence, but at a price. 15% Chance to resist Necromancy, Elementalism and Thaumaturgy, as well as increase those circles by 500%.\n\nYou must be a level 500, or higher, to wear this hat.\n\nEnchant Resistance: 40 percent.\n\n"
+		shopText "You see the Dark Warlock's Hat.\n\nWearing this hat will improve the power of your spells substantially, as well as your Intelligence, but at a price. 15% Chance to resist Necromancy, Elementalism and Thaumaturgy, as well as increase those circles by 500%.\n\nYou must be a level 500, or higher, to wear this hat.\n\nEnchant Resistance: 40 percent.\n\n"
+	end
+end
+#--------------------------------
+object rBanditMask of Ring
+    properties
+		special
+        view 30950
+        name "Bandit Mask"
+        armorFlat 30
+        color 105                #Tan-Flesh
+        value 10000
+        level 950      
+    end
+ 
+    base wearable
+        areaWorn 0
+        # thief only
+        mask warrior
+        mask wizard
+        mask adventurer
+    end
+   
+    base carryable
+        weight 8.5
+    end
+ 
+    actions
+        vBePutOn setAffect dobj 56 0 0 -1               # Attack
+        vBeTakenOff clearAffect dobj 56 0 0
+        vBePutOn setAffect dobj 57 0 0 -1               # Dodge
+        vBeTakenOff clearAffect dobj 57 0 0
+        vBePutOn setAffect dobj 57 0 0 -1               # Dodge
+        vBeTakenOff clearAffect dobj 57 0 0
+        vBePutOn setAffect dobj 59 0 0 -1               # Dex
+        vBeTakenOff clearAffect dobj 59 0 0
+        vBePutOn setAffect dobj 59 0 0 -1               # Dex
+        vBeTakenOff clearAffect dobj 59 0 0    
+        vBePutOn setAffect dobj 59 0 0 -1               # Dex
+        vBeTakenOff clearAffect dobj 59 0 0
+        vBePutOn changeMeleeArmorPiercing dobj 30       # Armor Pen 30%
+        vBeTakenOff changeMeleeArmorPiercing dobj -30
+        vBePutOn setAffect dobj 4 3 0 -1                # Acid Weakness (Hidden)
+        vBeTakenOff clearAffect dobj 4 3 0
+        vBePutOn setAffect dobj 1 3 0 -1                # Fire Weakness (Hidden)
+        vBeTakenOff clearAffect dobj 1 3 0
+        vBePutOn setAffect dobj 2 3 0 -1                # Cold Weakness (Hidden)
+        vBeTakenOff clearAffect dobj 2 3 0     
+    end
+ 
+    base described
+        text "A crumpled up mask."
+        idText "You see a Bandit's Mask. \nThis type of mask is used by Bandits to assist in robbing the poor and weak.\n \nDonning this mask will grant you an extra Attack and 2 extra dodges.\n The concealment of this mask is unlike any other, and with your increased anonymity you are now much quicker on your feet. \nArmor Penetration: 30%\n You must be level 950 to wear this mask.\n\n"
+        shopText "A bandit eh? No funny business.."
+    end
+end
+#--------------------------------
+object rSorcererHelm of Ring
+    properties
+		special
+        name "Sorcerer's Hood"
+        value 12000
+        armor 35
+        level 950
+        enchantResistance 30
+        color 229                           # Shifting Darker Fossil (Changing Fin)
+    end
+ 
+    base carryable
+        weight 5.0
+    end
+ 
+    base wearable
+        # Wizards Only
+        mask warrior
+        mask adventurer
+        mask thief
+		areaWorn 0
+    end
+ 
+    actions
+        vBePutOn changeSDM dobj 100 1 3 4                           # Add 100% to Tham/Ele/Necro.
+        vBeTakenOff changeSDM dobj -100 1 3 4
+        vBePutOn setAffect dobj 63 0 0 -1                           # Endurance
+        vBeTakenOff clearAffect dobj 63 0 0
+        vBePutOn setAffect dobj 61 0 0 -1                           # Intel
+        vBeTakenOff clearAffect dobj 61 0 0
+        vBePutOn setAffect dobj 61 0 0 -1                           # Intel
+        vBeTakenOff clearAffect dobj 61 0 0                
+        vBePutOn setAffect dobj 40 0 0 -1                           # Weakness (Hidden)
+        vBeTakenOff clearAffect dobj 40 0 0
+        vBePutOn setAffect dobj 4 3 0 -1                            # Acid Weakness (Hidden)
+        vBeTakenOff clearAffect dobj 4 3  0
+        vBePutOn setAffect dobj 1 3 0 -1                            # Fire Weakness (Hidden)
+        vBeTakenOff clearAffect dobj 1 3  0
+    end
+ 
+    base described
+        text "The color of this hood quite isn't what it seems.."
+        idText "The Sorcerer's Hood! This very hood once belonged to an exceedingly powerful Sorcerer. While wearing this hood, you will recieve a 100% increase to Thaumaturgy, Elementalism and Necromancy as well as considerable Intelligence. This hood also grants the wearer additional health.\nSomething with this much power comes with a price.\n \nLevel Required: 950\n \nEnchant Resistance: 30 percent.\n\n"
+        shopText "The Sorcerer's Hood!?"
+    end
+end
+#--------------------------------
+object rGladiatorHelm of Ring
+    properties
+        name "Gladiator's Helmet"
+		special
+        health 800
+        value 10000
+        level 950
+        strength 5
+        armor 120
+        color 20                # Pale Yellow (YMMB)
+    end
+ 
+    base carryable
+        weight 15.0
+    end
+ 
+    base wearable
+        # warrior only
+        mask thief
+        mask wizard
+        mask adventurer
+		areaWorn 0
+    end
+   
+    actions
+        vBePutOn setAffect dobj 67 0 0 -1                   # Nourishment
+        vBeTakenOff clearAffect dobj 67 0 0
+        vBePutOn setAffect dobj 63 0 0 -1                   # Endurance
+        vBeTakenOff clearAffect dobj 63 0 0                
+        vBePutOn changeMeleeArmorPiercing dobj 30           # 30% Armor Pen
+        vBeTakenOff changeMeleeArmorPiercing dobj -30
+        vBePutOn setAffect dobj 56 0 0 -1                   # Attack
+        vBeTakenOff clearAffect dobj 56 0 0
+        vBePutOn setAffect dobj 57 0 0 -1                   # Dodge
+        vBeTakenOff clearAffect dobj 57 0 0
+        vBePutOn setAffect dobj 62 0 0 -1                   # Stupid
+        vBeTakenOff clearAffect dobj 62 0 0
+        vBePutOn setAffect dobj 62 0 0 -1                   # Stupid (Hidden)
+        vBeTakenOff clearAffect dobj 62 0 0
+        vBePutOn setAffect dobj 4 3 0 -1                    # Acid Weakness (Hidden)
+        vBeTakenOff clearAffect dobj 4 3 0
+        vBePutOn setAffect dobj 1 3 0 -1                    # Fire Weakness (Hidden)
+        vBeTakenOff clearAffect dobj 1 3 0
+        vBePutOn setAffect dobj 2 3 0 -1                    # Cold Weakness (Hidden)
+        vBeTakenOff clearAffect dobj 2 3 0     
+    end
+   
+    base described
+        text "A glorious shimmering helmet."
+        idText "A shining helmet once worn by a Gladiator. \nThis helmet was worn in countless battles.\n Wearing this magnificent helmet, you will gain an extra Attack and Dodge, as well as a boost to your Health and Nourishment. \nThis helmet feeds off of you, draining your intelligence and giving you some weaknesses... \nArmor Penetration: 30%\n  \nLevel Required: 950\n\n"
+        shopText "I've only heard stories about Gladiators! You sure this doesn't belong in a museum?"
+    end
+end
+#----------------------------------
+object rAdvHelmet of Ring
+    properties
+		special
+        name "Adventurer's Mantle"
+        health 800
+        strength 5
+        level 950
+        armorFlat 100
+        color 229               # Shifting Darker Fossil (Changing Fin)
+    end
+ 
+    base carryable
+        weight 10
+    end
+ 
+    base wearable
+        # adv only
+        mask warrior
+        mask wizard
+        mask thief
+		areaWorn 0
+    end
+   
+    actions
+        vBePutOn setAffect dobj 56 0 0 -1                   # Extra Attack
+        vBeTakenOff clearAffect dobj 56 0 0
+        vBePutOn setAffect dobj 56 0 0 -1                   # Extra Attack
+        vBeTakenOff clearAffect dobj 56 0 0
+        vBePutOn setAffect dobj 61 0 0 -1                   # Intel
+        vBeTakenOff clearAffect dobj 61 0 0
+        vBePutOn setAffect dobj 61 0 0 -1                   # Intel
+        vBeTakenOff clearAffect dobj 61 0 0
+        vBePutOn setAffect dobj 57 0 0 -1                   # Dodge
+        vBeTakenOff clearAffect dobj 57 0 0
+        vBePutOn setAffect dobj 63 0 0 -1                   # Endurance Bonus
+        vBeTakenOff clearAffect dobj 63 0 0
+        vBePutOn changeMeleeArmorPiercing dobj 30           # 30% Armor Pen
+        vBeTakenOff changeMeleeArmorPiercing dobj -30
+        vBePutOn setAffect dobj 4 3 0 -1                    # Acid Weakness (Hidden)
+        vBeTakenOff clearAffect dobj 4 3 0
+        vBePutOn setAffect dobj 1 3 0 -1                    # Fire Weakness (Hidden)
+        vBeTakenOff clearAffect dobj 1 3 0
+        vBePutOn setAffect dobj 2 3 0 -1                    # Cold Weakness (Hidden)
+        vBeTakenOff clearAffect dobj 2 3 0 
+    end
+ 
+    base described
+        text "Quite the brilliant helmet.."
+        idText "This helmet once belonged to a renowned Adventurer. You can see the years of wear on it. \nThis helmet is perfect for the would-be adventurer. Wearing this famous helmet you will gain 2 Attacks, an extra Dodge, considerable Intelligence, a boost to your Strength and Dexterity as well as Endurance. \nArmor Penetration: 30%\n \nLevel Required: 950\n\n"
+        shopText "Is this what I think it is?!"
+    end
+end
+#----------------------------------
+object rConquestHelmet of Ring
+	properties
+		special
+		name "Helm of Conquest"
+		health 1200
+		color 171 #Black-Brown
+		level 500
+		strength 5
+		armor 100
+		enchantResistance 40
+	end
+
+	base carryable
+		weight 6
+	end
+
+	base wearable
+		areaWorn 0
+	end
+
+	actions
+		vBePutOn setAffect dobj 56 0 0 -1               	# Attack
+        vBeTakenOff clearAffect dobj 56 0 0
+		vBePutOn setAffect dobj 56 0 0 -1               	# Attack
+        vBeTakenOff clearAffect dobj 56 0 0
+		vBePutOn changeMeleeArmorPiercing dobj 15       	# 15% Armor Pen
+        vBeTakenOff changeMeleeArmorPiercing dobj -15
+		vBePutOn setAffect dobj 63 0 0 -1                   # Endurance
+        vBeTakenOff clearAffect dobj 63 0 0
+		vBePutOn setAffect dobj 59 0 0 -1              		# Dex
+        vBeTakenOff clearAffect dobj 59 0 0    
+		vBePutOn setAffect dobj 39 0 0 -1   				# Str 
+		vBeTakenOff clearAffect dobj 39 0 0
+	end
+
+	base described
+		text "A vile looking helm, which has been reinforced."
+		idText "A Helm of Conquest\n\nWorn by the invaders which originally settled Kurz, unearthed by a most sinister Warlock.\n\nEquipping this murderous helmet, you will gain 2 addition attacks, as well a boost to your Endurance, Strength and Dexterity.\n\nEnchant Resistance: 40 percent.\n\nArmor Penetration: 15%\n\nLevel Required: 500\n"
+		shopText "A Helm of Conquest\n\nWorn by the invaders which originally settled Kurz, unearthed by a most sinister Warlock.\n\nEquipping this murderous helmet, you will gain 2 addition attacks, as well a boost to your Endurance, Strength and Dexterity.\n\nEnchant Resistance: 40 percent.\n\nArmor Penetration: 15%\n\nLevel Required: 500\n"
+	end
+end
+#------------------------------------------
+object rDespairHelm of Ring
+	properties
+		special
+		name "Helmet of Despair"
+		health 1100
+		color 171 #Black-Brown
+		strength 5
+		armorFlat 115
+		level 500
+	end
+
+	base carryable
+		weight 6
+	end
+
+	base wearable
+		areaWorn 0
+	end
+
+	actions
+		vBePutOn setAffect dobj 63 0 0 -1					# End
+		vBeTakenOff clearAffect dobj 63 0 0
+		vBePutOn setAffect dobj 63 0 0 -1					# End
+		vBeTakenOff clearAffect dobj 63 0 0
+		vBePutOn setAffect dobj 57 0 0 -1					# Dodge
+		vBeTakenOff clearAffect dobj 57 0 0
+		vBePutOn setAffect dobj 57 0 0 -1					# Dodge
+		vBeTakenOff clearAffect dobj 57 0 0
+		vBePutOn setAffect dobj 59 0 0 -1              		# Dex
+        vBeTakenOff clearAffect dobj 59 0 0    
+		vBePutOn setAffect dobj 39 0 0 -1   				# Str 
+		vBeTakenOff clearAffect dobj 39 0 0
+	end
+
+	base described
+		text "You see a sturdy and reinforced looking helmet."
+		idText "A Helmet of Despair.\n\nThis extraordinary helmet bestows the ability to dodgle multiple attacks in combat.\nWearing this, you will also gain a considerable boost to your Endurance, as well as a slight boost to your Strength and Dexterity.\n\nYou must be level 500 or higher to wear this helm.\n\n"
+		shopText "A Helmet of Despair.\n\nThis extraordinary helmet bestows the ability to dodgle multiple attacks in combat.\nWearing this, you will also gain a considerable boost to your Endurance, as well as a slight boost to your Strength and Dexterity.\n\nYou must be level 500 or higher to wear this helm.\n\n"
+	end
+end
+#------------------------------------------
+object rKhanHelmet of Ring
+	properties
+		special
+		name "Helm of the Khan"
+		color 98
+		health 750
+		strength 5
+		level 700
+		armorFlat 95
+	end
+
+	base carryable
+		weight 3
+	end
+
+	base wearable
+		areaWorn 0
+	end
+
+	components
+		MythrilBar	#1000
+		MythrilBar	#1000
+		MythrilBar	#1000
+		MythrilBar	#1000
+		MagicBar	#1000
+		MagicBar	#1000
+		MagicBar	#1000
+		MagicBar	#1000
+		MagicBar	#1000
+		MagicBar	#1000
+		MagicBar	#1000
+		MagicBar	#1000
+		SweatBar	#5000
+		SweatBar	#5000
+		SweatBar	#5000
+		SweatBar	#5000
+		SweatBar	#5000
+		SweatBar	#5000
+		SweatBar	#5000
+		SweatBar	#5000
+		#--------------------
+		#Total 		52000 gold
+	end
+
+	actions
+		# Extra Attack (as per Amulet of Combat in AMULETS.OBJ)
+		vBePutOn setAffect dobj 56 0 0 -1
+		vBeTakenOff clearAffect dobj 56 0 0
+		# Endurance Bonus (as per Ring of End in RINGS.OBJ)
+		vBePutOn setAffect dobj 63 0 0 -1
+		vBeTakenOff clearAffect dobj 63 0 0
+		# Free Will (as per Amulet of Free Will in AMULETS.OBJ)
+		vBePutOn setAffect dobj 86 0 0 -1
+		vBeTakenOff clearAffect dobj 86 0 0
+		# 60% Myst Resistance (as per Amulet of Free Will in AMULETS.OBJ)
+		vBePutOn changeSpellResistance dobj 60 2 
+		vBeTakenOff changeSpellResistance dobj -60 2 
+		# Stun Immun (as per Amulet of Concentration in AMULETS.OBJ)
+		#vBePutOn setAffect dobj 34 2 0 -1
+		#vBeTakenOff clearAffect dobj 34 2 0
+		# Fumble and Naked Immun (as per Amulet of Retention in AMULETS.OBJ)
+		#vBePutOn setAffect dobj 65 0 0 -1
+		#vBeTakenOff clearAffect dobj 65 0 0
+		# -1 Intelligence 
+		vBePutOn setAffect dobj 62 0 0 -1
+		vBeTakenOff clearAffect dobj 62 0 0
+		# Weakness to Fire
+		vBePutOn setAffect dobj 1 3 0 -1
+		vBeTakenOff clearAffect dobj 1 3  0
+	end
+
+	base described
+		text "You see a vile looking helm."
+		idText "A Helm of the Khan! This, the most powerful of magical helms, increases endurance, provides the ability to attack more often, and ensures the wearer of free will. Be aware that such power does not come without a price.\n This helm requires a wearer of level 700 or higher.\n\n"
+		shopText "A Helm of the Khan! A dangerous item."
+	end
+end
+#------------------------------------- Wizard Hat Magical -------------------------------------
+object rMageHat of Ring
+	properties
+		special
+		name "Mage's Hat"
+		color -1
+		armor 15
+		level 425
+		enchantResistance 20
+	end
+
+	base carryable
+		weight 1
+	end
+
+	base wearable
+				areaWorn 0
+                # Wizards Only
+                mask warrior
+                mask adventurer
+                mask thief
+	end
+
+	components
+		# alchemy
+		MagicBar	#1000
+		MagicBar	#1000
+		MagicBar	#1000
+		MagicBar	#1000
+		MagicBar	#1000
+		MagicBar	#1000
+		MagicBar	#1000
+		MagicBar	#1000
+		MagicBar	#1000
+		MagicBar	#1000
+		SweatBar 	#5000
+		SweatBar 	#5000
+		SweatBar 	#5000
+		SweatBar 	#5000
+		SweatBar 	#5000
+		DaemonTooth	#2000
+		DaemonTooth	#2000
+		KilrogEyeball	#1000
+		KilrogEyeball	#1000
+		ObsidianDust 	# 750
+		Silverthorn	# 225
+		Silverthorn	# 225
+		Silverthorn	# 225
+		Silverthorn	# 225
+		AmberRod	# 200
+		AmberRod	# 200
+		#--------------------
+		#Total 		43050 gold
+	end
+
+	actions
+		# Add 75% to all magic circles except Myst and Sorc while worn. 
+		vBePutOn changeSDM dobj 75 1 3 4
+		vBeTakenOff changeSDM dobj -75 1 3 4
+	end
+
+	base described
+		text "You see a wizard's hat with embroidered runes."
+		idText "You see the fabled Mage's Hat. Wearing this hat will improve the power of your spells. You must be a level 425 Wizard, or higher, to wear this hat.\nEnchant Resistance: 20 percent.\n\n"
+		shopText "A Mage's Hat. If I had one of these I could retire."
+	end
+end
+
+
+
+#---------------------------#
+#							#
+#							#
+#		New 2500 Rings		#
+#							#
+#							#
+#							#
+#---------------------------#
+object rSpellpower of Ring
+	properties
+	special
+		name "Ring of Spellpower"
+		value 6000
+		level 1550
+	end
+
+	base wearable
+                # only Wiz
+                mask warrior
+                mask adventurer
+                mask thief
+	end
+	
+	actions
+		vBePutOn setAffect dobj 61 0 0 -1				# Int
+		vBeTakenOff clearAffect dobj 61 0 0
+		vBePutOn setAffect dobj 61 0 0 -1				# Int
+		vBeTakenOff clearAffect dobj 61 0 0
+		vBePutOn setAffect dobj 61 0 0 -1				# Int
+		vBeTakenOff clearAffect dobj 61 0 0
+		vBePutOn setAffect dobj 63 0 0 -1				# End
+		vBeTakenOff clearAffect dobj 63 0 0
+		vBePutOn setAffect dobj 63 0 0 -1				# End
+		vBeTakenOff clearAffect dobj 63 0 0
+		vBePutOn setAffect dobj 59 0 0 -1				# Dex
+		vBeTakenOff clearAffect dobj 59 0 0
+		vBePutOn changeSDM dobj 150 1 3 4				# Add 150% to Tham/Ele/Necro. 
+		vBeTakenOff changeSDM dobj -150 1 3 4
+	end
+
+	base described
+		idText "You see a Ring of Spellpower.  Wearing this will make you significantly smarter,  much faster, as well as greatly increase your health. \n\n150% Circle SDM\nLevel Required: 1550.\n"
+		shopText "You see a Ring of Spellpower.  Wearing this will make you significantly smarter,  much faster, as well as greatly increase your health. \n\n150% Circle SDM\nLevel Required: 1550.\n"
+	end
+end
+#------------------------------------------------------------
+object rSpelunking of Ring
+	properties
+	special
+		name "Ring of Spelunking"
+		value 6000
+		level 1550
+	end
+
+	base wearable
+                # only Adv
+                mask wizard
+                mask warrior
+                mask thief
+	end
+	
+	actions
+		vBePutOn setAffect dobj 39 0 0 -1				#Str
+		vBeTakenOff clearAffect dobj 39 0 0
+		vBePutOn setAffect dobj 39 0 0 -1				#Str
+		vBeTakenOff clearAffect dobj 39 0 0
+		vBePutOn setAffect dobj 59 0 0 -1				#Dex
+		vBeTakenOff clearAffect dobj 59 0 0
+		vBePutOn setAffect dobj 59 0 0 -1				#Dex
+		vBeTakenOff clearAffect dobj 59 0 0
+		vBePutOn setAffect dobj 63 0 0 -1				#End
+		vBeTakenOff clearAffect dobj 63 0 0
+		vBePutOn setAffect dobj 63 0 0 -1				#End
+		vBeTakenOff clearAffect dobj 63 0 0
+		vBePutOn setAffect dobj 56 0 0 -1				#Attack
+		vBeTakenOff clearAffect dobj 56 0 0	
+		vBePutOn changeSDM dobj 75 1 3 4				# Add 75% to Tham/Ele/Necro. 
+		vBeTakenOff changeSDM dobj -75 1 3 4
+	end
+	
+	base described
+		idText "You see a Ring of Spelunking.  Wearing this will make you significantly stronger, much faster, and will greatly increase your health as well as provide an additional attack in combat. \n\n75% Circle SDM\nLevel Required: 1550.\n"
+		shopText "You see a Ring of Spelunking.  Wearing this will make you significantly stronger, much faster, and will greatly increase your health as well as provide an additional attack in combat. \n\n75% Circle SDM\nLevel Required: 1550.\n"
+	end
+end
+#------------------------------------------------------------
+object rBlurredSpeed of Ring
+	properties
+	special
+		name "Ring of Blurred Speed"
+		value 6000
+		level 1550
+	end
+
+	base wearable
+                # only Thief
+                mask warrior
+                mask adventurer
+                mask wizard
+	end
+	
+	actions
+		vBePutOn setAffect dobj 59 0 0 -1				#Dex
+		vBeTakenOff clearAffect dobj 59 0 0
+		vBePutOn setAffect dobj 59 0 0 -1				#Dex
+		vBeTakenOff clearAffect dobj 59 0 0
+		vBePutOn setAffect dobj 59 0 0 -1				#Dex
+		vBeTakenOff clearAffect dobj 59 0 0
+		vBePutOn setAffect dobj 59 0 0 -1				#Dex
+		vBeTakenOff clearAffect dobj 59 0 0
+		vBePutOn setAffect dobj 63 0 0 -1				#End
+		vBeTakenOff clearAffect dobj 63 0 0
+		vBePutOn setAffect dobj 63 0 0 -1				#End
+		vBeTakenOff clearAffect dobj 63 0 0
+		vBePutOn setAffect dobj 57 0 0 -1				#Dodge
+		vBeTakenOff clearAffect dobj 57 0 0
+		vBePutOn setAffect dobj 56 0 0 -1				#Attack
+		vBeTakenOff clearAffect dobj 56 0 0	
+	end
+	
+	base described
+		idText "You see a Ring of Blurred Speed.  Wearing this will make you incredibly faster, and will increase your health significantly, as well as provide an extra attack and dodge. \nLevel Required: 1550.\n"
+		shopText "You see a Ring of Blurred Speed.  Wearing this will make you incredibly faster, and will increase your health significantly, as well as provide an extra attack and dodge. \nLevel Required: 1550.\n"
+	end
+end
+#------------------------------------------------------------
+object rBrutality of Ring
+	properties
+	special
+		name "Ring of Brutality"
+		value 6000
+		level 550
+	end
+
+	base wearable
+                # only Warriors
+                mask wizard
+                mask adventurer
+                mask thief
+	end
+	
+	actions
+		vBePutOn setAffect dobj 39 0 0 -1				#Str
+		vBeTakenOff clearAffect dobj 39 0 0
+		vBePutOn setAffect dobj 39 0 0 -1				#Str
+		vBeTakenOff clearAffect dobj 39 0 0
+		vBePutOn setAffect dobj 39 0 0 -1				#Str
+		vBeTakenOff clearAffect dobj 39 0 0
+		vBePutOn setAffect dobj 39 0 0 -1				#Str
+		vBeTakenOff clearAffect dobj 39 0 0
+		vBePutOn setAffect dobj 63 0 0 -1				#End
+		vBeTakenOff clearAffect dobj 63 0 0
+		vBePutOn setAffect dobj 63 0 0 -1				#End
+		vBeTakenOff clearAffect dobj 63 0 0
+		vBePutOn changeMeleeArmorPiercing dobj 10        # 10% Armor Pen
+		vBeTakenOff changeMeleeArmorPiercing dobj -10
+		vBePutOn setAffect dobj 56 0 0 -1				#Attack
+		vBeTakenOff clearAffect dobj 56 0 0	
+	end
+	
+	base described
+		idText "You see a Ring of Brutality.  Wearing this will make you incredibly stronger and will increase your health significantly, as well as provide an extra attack in combat. \n\n10% Armor Piercing\nLevel Required: 1550.\n"
+		shopText "You see a Ring of Brutality.  Wearing this will make you incredibly stronger and will increase your health significantly, as well as provide an extra attack in combat. \n\n10% Armor Piercing\nLevel Required: 1550.\n"
+	end
+end
+
+
+
+
+object MagicWardRingI of Ring
+	properties
+		special
+		name "Magic Resist +15%"
+		value 6000000
+		enchantResistance 100
+		level 7500
+	end
+
+	base described
+		idText "Bonus: Magic immunity +15 percent.\nMagic Resistance: 100 percent.\nLevel Required: 7500\n"
+		shopText "Bonus: Magic immunity +15 percent.\nMagic Resistance: 100 percent.\nLevel Required: 7500\n"
+	end
+
+	base wearable
+        areaWorn 562
+	end
+
+	actions 
+		vBePutOn changeSpellResistance dobj 15 0 1 2 3 4
+		vBeTakenOff changeSpellResistance dobj -15 0 1 2 3 4
+	end
+end
+object MagicWardRingII of Ring
+	properties
+		special
+		name "Magic Resist +25%"
+		value 6000000
+		enchantResistance 100
+		level 7500
+	end
+
+	base described
+		idText "Bonus: Magic immunity +25 percent.\nMagic Resistance: 100 percent.\nLevel Required: 7500\n"
+		shopText "Bonus: Magic immunity +25 percent.\nMagic Resistance: 100 percent.\nLevel Required: 7500\n"
+	end
+
+	base wearable
+        areaWorn 561
+	end
+
+	actions 
+		vBePutOn changeSpellResistance dobj 25 0 1 2 3 4
+		vBeTakenOff changeSpellResistance dobj -25 0 1 2 3 4
+	end
+end
+

@@ -1,0 +1,24 @@
+name "AchrenOld"
+title "Old Achren"
+worldFile "../data/lib/world/ACHREN_OLD2.WLD"
+resetInterval 9000000 
+maximumObjectAge 0 
+allowCombat 3
+midiFile 31
+groupChance 20
+monster AncientLightWiz 15
+monster AncientPriestess 15
+monster AncientSeraph 15
+monster AncientPaladin 15
+
+ambushInterval 40
+ambush 10 AncientLightWiz
+ambush 10 AncientPriestess
+ambush 10 AncientSeraph
+ambush 10 AncientLightWiz AncientPriestess
+ambush 10 AncientSeraph AncientPriestess
+ambush 10 AncientLightWiz AncientSeraph
+ambush 10 AncientPaladin
+ambush 10 AncientPaladin AncientPriestess
+ambush 10 AncientLightWiz AncientPaladin
+ambush 10 AncientPaladin AncientSeraph

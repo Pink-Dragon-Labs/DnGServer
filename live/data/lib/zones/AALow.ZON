@@ -1,0 +1,66 @@
+name "AALow"
+title "Ambush Arena: Low"
+worldFile "../data/lib/world/aalow.wld"
+resetInterval 9000000 
+maximumObjectAge 0 
+allowCombat 3
+midiFile 17
+
+
+ambushInterval 70
+ambush 10 Ratling
+ambush 10 WoodRatling
+ambush 10 WoodRatling WoodRatling
+ambush 10 DesertRatling
+ambush 10 DesertRatling DesertRatling
+ambush 10 WoodRatling DesertRatling
+ambush 10 WoodRatling Faery
+ambush 10 DesertRatling Faery
+ambush 10 Ratling Ratling
+ambush 10 Ratling Ratling Ratling Faery
+ambush 10 Pixie WoodRatling Ratling DesertRatling Bat Zombie FlyingRat
+ambush 10 Zombie
+ambush 10 Zombie Zombie
+ambush 10 Zombie Zombie Zombie Zombie Lich
+ambush 10 Wraith
+ambush 10 Wraith Wraith
+ambush 10 Wraith Wraith WoodRatling
+ambush 10 Medusa
+ambush 10 Medusa Medusa
+ambush 10 Wolf
+ambush 10 Wolf Wolf
+ambush 10 Wolf Wolf Wolf
+ambush 10 Skeleton
+ambush 10 Skeleton Skeleton Skeleton
+ambush 10 Faery
+ambush 10 Faery Faery
+ambush 10 FlyingRat
+ambush 10 FlyingRat FlyingRat
+ambush 10 FlyingRat WoodRatling
+ambush 10 StormBat
+ambush 10 Seraph
+ambush 10 Fenris
+ambush 10 Guardian
+ambush 10 RabidWolf
+ambush 10 WaspWorker
+ambush 10 Warrior
+ambush 10 Lich
+ambush 10 ImpGuard
+ambush 10 ImpWarrior
+ambush 10 DarkFaery
+ambush 10 DarkFaery DarkFaery 
+ambush 10 Banshee
+ambush 10 Banshee DarkFaery
+ambush 10 Shade
+ambush 10 Shade Ratling
+ambush 10 Shade Shade FlyingRat
+ambush 10 BountyHunterB
+ambush 10 BountyHunterB Shade Shade Shade
+ambush 10 HowlingTerror 
+ambush 10 HowlingTerror HowlingTerror
+ambush 10 ThiefA
+ambush 10 Meatbag
+
+
+
+

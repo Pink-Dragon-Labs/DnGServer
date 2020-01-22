@@ -1,0 +1,769 @@
+room 24082
+   properties
+      picture	4000
+      east	24083 
+   end
+   atpinfo
+      2340  39 95
+      2380  -5 167
+      2340  147 95
+      2340  468 95
+      2340  364 95
+      2340  256 95
+      2380  -5 312
+      2382  79 495
+      2382  556 495
+      2382  239 495
+      2382  397 495
+      35106  618 109
+      35106  712 123
+      2361  147 96 30
+      2359  147 96 20
+      2361  306 96 30
+      2361  445 96 30
+      2359  306 96 20
+      2359  445 96 20
+      7900  229 106
+      7900  404 106
+      14  661 133
+      7906  -24 315
+      7902  114 330
+      7902  565 330
+      7902  310 330
+   end
+   objects
+      object PlankDoor24082-0 of PlankDoor
+         properties
+            x	56
+            y	96
+            loop	2
+            linkTo PlankDoor24080-0
+         end
+      end
+   end
+end
+room 24083
+   properties
+      picture	4000
+      east	24084 
+      west	24082 
+   end
+   atpinfo
+      2382  51 495
+      2382  596 495
+      2382  231 495
+      2382  412 495
+      2338  -1 123
+      2343  684 97 65
+      2343  244 97 65
+      2338  91 109
+      2340  228 96
+      2340  337 96
+      2340  444 96
+      2340  551 96
+      2340  659 96
+      2343  574 97 65
+      2343  464 97 65
+      2343  354 97 65
+      32782  -14 143
+      32782  109 123
+      7900  312 104
+      7900  552 104
+      7902  120 330
+      7902  525 330
+      7902  314 330
+   end
+   objects
+      object chair24083-0 of Chair
+         properties
+            x	58
+            y	160
+            loop	0
+         end
+      end
+      object chair24083-1 of Chair
+         properties
+            x	110
+            y	149
+            loop	0
+         end
+      end
+      object chair24083-2 of Chair
+         properties
+            x	162
+            y	140
+            loop	0
+         end
+      end
+      object chair24083-3 of Chair
+         properties
+            x	225
+            y	131
+            loop	2
+         end
+      end
+      object chair24083-4 of Chair
+         properties
+            x	286
+            y	147
+            loop	2
+         end
+      end
+      object chair24083-5 of Chair
+         properties
+            x	345
+            y	134
+            loop	2
+         end
+      end
+      object chair24083-6 of Chair
+         properties
+            x	398
+            y	146
+            loop	2
+         end
+      end
+      object chair24083-7 of Chair
+         properties
+            x	456
+            y	133
+            loop	2
+         end
+      end
+      object chair24083-8 of Chair
+         properties
+            x	513
+            y	138
+            loop	2
+         end
+      end
+      object chair24083-9 of Chair
+         properties
+            x	577
+            y	133
+            loop	2
+         end
+      end
+      object torch24083-10 of Torch
+         properties
+            x	24
+            y	135
+            loop	0
+         end
+      end
+   end
+end
+room 24085
+   properties
+      picture	4000
+      east	24086 
+      west	24084 
+   end
+   atpinfo
+      2382  438 495
+      2382  619 495
+      2382  73 495
+      2382  255 495
+      2340  45 96
+      2340  373 96
+      2340  264 96
+      2340  155 96
+      2340  482 96
+      2340  592 96
+      7900  115 107
+      7900  368 107
+      7900  622 107
+      7902  59 330
+      7902  562 330
+      7902  305 330
+   end
+   objects
+      object torch24085-0 of Torch
+         properties
+            x	26
+            y	121
+            loop	0
+         end
+      end
+      object torch24085-1 of Torch
+         properties
+            x	626
+            y	121
+            loop	0
+         end
+      end
+      object torch24085-2 of Torch
+         properties
+            x	313
+            y	121
+            loop	0
+         end
+      end
+   end
+end
+room 24086
+   properties
+      picture	4000
+      east	24087 
+      west	24085 
+   end
+   atpinfo
+      2382  80 495
+      2382  260 495
+      2382  441 495
+      2382  618 495
+      2340  47 96
+      2340  156 96
+      2340  265 96
+      2340  374 96
+      2340  483 96
+      2340  593 96
+      7900  111 106
+      7900  282 106
+      7900  504 106
+      7902  91 330
+      7902  309 330
+      7902  531 330
+   end
+   objects
+      object torch24086-0 of Torch
+         properties
+            x	27
+            y	109
+            loop	0
+         end
+      end
+      object torch24086-1 of Torch
+         properties
+            x	596
+            y	109
+            loop	0
+         end
+      end
+      object torch24086-2 of Torch
+         properties
+            x	424
+            y	109
+            loop	0
+         end
+      end
+      object torch24086-3 of Torch
+         properties
+            x	185
+            y	109
+            loop	0
+         end
+      end
+   end
+end
+room 24087
+   properties
+      picture	4000
+      north	24088 
+      west	24086 
+   end
+   atpinfo
+      2382  86 495
+      2382  577 495
+      2382  253 495
+      2382  415 495
+      2340  44 96
+      2340  588 96
+      2380  648 338
+      2380  648 156
+      2600  305 211
+      35078  117 97
+      2310  531 97
+      35083  120 84
+      2315  529 84
+      7900  8 114
+      7900  633 114
+      7908  624 311
+      7902  69 330
+      7902  510 330
+      7902  310 330
+   end
+   objects
+      object chair24087-0 of Chair
+         properties
+            x	177
+            y	198
+            loop	0
+         end
+      end
+      object chair24087-1 of Chair
+         properties
+            x	432
+            y	197
+            loop	1
+         end
+      end
+      object chair24087-2 of Chair
+         properties
+            x	267
+            y	182
+            loop	2
+         end
+      end
+      object chair24087-3 of Chair
+         properties
+            x	335
+            y	181
+            loop	2
+         end
+      end
+      object torch24087-4 of Torch
+         properties
+            x	27
+            y	109
+            loop	0
+         end
+      end
+      object torch24087-5 of Torch
+         properties
+            x	600
+            y	109
+            loop	0
+         end
+      end
+   end
+end
+room 24088
+   properties
+      picture	4000
+      north	24089 
+      south	24087 
+   end
+   atpinfo
+      2380  637 383
+      2380  637 195
+      2340  44 500 57
+      2340  -36 303
+      2340  -36 159
+      2340  44 96
+      2310  93 499
+      2310  91 95
+      2340  556 500 57
+      35078  515 499
+      2117  -25 97 70
+      2599  144 253
+      2599  519 141
+      7900  -24 103
+      7900  -24 601
+      7900  619 599
+      7906  -13 333
+      7906  651 287
+   end
+   objects
+      object chair24088-0 of Chair
+         properties
+            x	471
+            y	131
+            loop	0
+         end
+      end
+      object chair24088-1 of Chair
+         properties
+            x	95
+            y	238
+            loop	0
+         end
+      end
+      object chair24088-2 of Chair
+         properties
+            x	190
+            y	235
+            loop	1
+         end
+      end
+      object chair24088-3 of Chair
+         properties
+            x	556
+            y	132
+            loop	1
+         end
+      end
+   end
+end
+room 24089
+   properties
+      picture	4000
+      south	24088 
+      west	24090 
+   end
+   atpinfo
+      2380  637 367
+      2380  637 184
+      2382  420 95
+      2382  56 95
+      2382  238 95
+      2382  596 95
+      2221  548 96
+      2598  296 272
+      2241  18 100
+      2241  592 207
+      2241  591 173
+      2109  115 104
+      2109  418 104
+      2109  267 104
+      2111  550 96 65
+      2241  590 246
+      2241  590 283
+      2241  592 320
+      2340  44 446
+      7900  100 113
+      7900  352 112
+      7906  641 322
+      2122  118 105 65
+      2123  120 105 35
+      34892  421 105 35
+      2127  112 105 4
+      2128  384 105 65
+      2118  422 105 3
+      34896  455 105 65
+      2124  267 105 35
+      34895  302 273 65
+      34890  263 105 65
+      34891  268 105 3
+      7900  -30 596
+   end
+end
+room 24090
+   properties
+      picture	4000
+      east	24089 
+      west	24091 
+   end
+   atpinfo
+      2382  617 95
+      2382  436 95
+      2382  86 95
+      2382  263 95
+      2340  39 460
+      2340  582 460
+      2340  473 460
+      2340  147 460
+      2340  365 460
+      2340  256 460
+      2360  55 97 60
+      2358  55 97 40
+      2360  254 97 60
+      2360  434 97 60
+      2360  604 97 60
+      2358  434 97 40
+      2358  604 97 40
+      2358  254 97 40
+      2359  55 97 30
+      2359  254 97 30
+      2359  434 97 30
+      2359  604 97 30
+      7900  90 108
+      7900  577 108
+      7900  310 108
+      7902  105 330
+      7902  526 330
+      7902  310 330
+   end
+end
+room 24091
+   properties
+      picture	4000
+      east	24090 
+      west	24092 
+   end
+   atpinfo
+      2382  602 95
+      2382  422 95
+      2382  60 95
+      2382  239 95
+      2340  38 460
+      2340  147 460
+      2340  254 460
+      2340  363 460
+      2340  468 460
+      2340  577 460
+      2109  75 97
+      2109  236 97
+      2109  396 97
+      2109  556 97
+      2109  82 217
+      2109  328 217
+      2109  549 217
+      2119  326 219 65
+      2120  331 218
+      2121  328 218 35
+      2118  403 98 3
+      2135  406 98 35
+      2129  400 98 62
+      34889  73 98 65
+      34887  72 98 35
+      34888  74 98 2
+      34897  549 218 60
+      34903  547 218 32
+      34886  547 219 3
+      7900  105 105
+      7900  356 104
+      7900  566 104
+      7902  86 330
+      7902  566 330
+      7902  310 330
+   end
+end
+room 24093
+   properties
+      picture	4000
+      east	24092 
+      west	24094 
+   end
+   atpinfo
+      2382  562 95
+      2382  380 95
+      2382  198 95
+      2382  45 95
+      2340  46 460
+      2340  155 460
+      2340  263 460
+      2340  368 460
+      2340  477 460
+      2340  578 460
+      2359  56 97 30
+      2358  56 97 40
+      2360  56 97 60
+      2360  209 97 60
+      2360  380 97 60
+      2360  562 97 60
+      2358  209 97 40
+      2358  380 97 40
+      2358  562 97 40
+      2359  209 97 30
+      2359  380 97 30
+      2359  562 97 30
+      7902  65 330
+      7900  102 106
+      7900  589 106
+      7902  533 330
+      7900  310 106
+      7902  310 330
+   end
+end
+room 24094
+   properties
+      picture	4000
+      east	24093 
+   end
+   atpinfo
+      2382  89 95
+      2382  253 95
+      2382  436 95
+      2382  619 95
+      2380  4 314
+      2380  4 144
+      2340  81 460
+      2340  397 460
+      2340  184 460
+      2340  292 460
+      2340  505 460
+      2340  604 460
+      2103  239 125
+      2241  372 106
+      7900  253 103
+      7900  520 103
+      7906  4 305
+      7902  117 330
+      7902  553 330
+      7902  310 330
+   end
+   objects
+      object PlankDoor24094-0 of PlankDoor
+         properties
+            x	83
+            y	96
+            loop	2
+         end
+      end
+      object Sign204094-0 of Sign
+          properties
+            x   126
+            y   102
+          end  
+          base described
+            text "Under Construction!\n\nThis way is caved in with rocks\n\n"
+          end
+        end  
+   end
+end
+room 24092
+   properties
+      picture	4000
+      south	24095 
+      east	24091 
+      west	24093 
+   end
+   atpinfo
+      2382  251 95
+      2382  571 95
+      2382  404 95
+      2382  92 95
+      2340  43 460
+      2340  606 460
+      2340  496 460
+      2340  144 460
+      2310  216 517
+      35078  433 517
+      2310  216 513 200
+      35078  433 513 200
+      35078  433 492 300
+      2310  216 492 300
+      7900  86 107
+      7900  312 107
+      7900  517 107
+      7902  97 330
+      7902  544 330
+   end
+end
+room 24084
+   properties
+      picture	4000
+      north	24095 
+      east	24085 
+      west	24083 
+   end
+   atpinfo
+      2382  89 495
+      2382  634 495
+      2382  273 495
+      2382  453 495
+      2340  45 107
+      2340  582 107
+      2338  103 107
+      35106  536 107
+      35078  195 93
+      2310  438 94
+      14  555 127
+      32782  78 127
+      7900  -57 118
+      7900  677 118
+      7902  121 326
+      7902  327 326
+      7902  575 326
+   end
+end
+room 24095
+   properties
+      picture	4000
+      north	24092 
+      south	24084 
+      east	24096 
+   end
+   atpinfo
+      2340  654 107
+      2340  607 459
+      35106  608 107
+      2340  454 96
+      2340  229 96
+      2338  89 107
+      35108  39 107
+      35108  -32 257
+      35108  -33 400
+      2340  63 459
+      2340  173 459
+      2310  278 95
+      35078  415 95
+      2340  501 459
+      2310  212 516
+      35078  471 516
+      2106  227 97
+      2106  443 97
+      2106  54 108
+      2106  634 108
+      2164  149 108 65
+      7900  155 116
+      7900  529 116
+      7902  94 327
+      7902  579 328
+      7906  -2 318
+   end
+end
+room 24096
+   properties
+      picture	4000
+      west	24095 
+   end
+   atpinfo
+      2340  144 95
+      2338  2 107
+      35108  260 95
+      35108  472 95
+      2340  356 95
+      2340  570 95
+      2340  679 157
+      2340  679 316
+      2340  571 456
+      2340  462 456
+      2340  354 456
+      2340  246 456
+      2340  133 456
+      2340  25 456
+      2112  171 96 65
+      2112  310 96 65
+      2112  450 96 65
+      2112  577 96 65
+      2109  496 208
+      2109  326 209
+      2109  160 209
+      2120  162 210
+      2120  325 210
+      2120  494 210
+      2118  159 210 33
+      34886  326 210 33
+      34886  497 210 33
+      2130  311 97 85
+      34898  173 97 85
+      34898  450 97 85
+      2130  572 97 85
+      32782  -9 137
+      7900  511 102
+      7900  254 102
+      7908  632 337
+      7902  126 321
+      7902  507 321
+      7902  314 321
+   end
+   objects
+      object bed24096-0 of Bed
+         properties
+            x	200
+            y	103
+            loop	2
+         end
+      end
+      object bed24096-1 of Bed
+         properties
+            x	346
+            y	103
+            loop	2
+         end
+      end
+      object bed24096-2 of Bed
+         properties
+            x	491
+            y	103
+            loop	2
+         end
+      end
+      object altar24096-3 of Altar
+         properties
+            x	592
+            y	292
+            loop	0
+         end
+      end
+      object stool24096-4 of Stool
+         properties
+            x	91
+            y	119
+            loop	0
+         end
+      end
+   end
+end

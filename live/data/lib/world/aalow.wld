@@ -1,0 +1,171 @@
+room 97999
+   properties
+      picture	3500
+	  east 98000 3 207
+      roomName	"Ambush Arena: Low"
+   end
+   atpinfo
+      93  333 82
+      2942  647 90
+      35721  89 248
+      2943  532 106
+      35709  96 106
+      112  46 317
+      113  79 315
+      35484  100 271
+      64  57 256 10
+      63  89 256 10
+      64  86 254 10
+      2935  38 58
+      35711  469 115
+      2747  595 118
+      2749  -20 120
+      35711  286 101
+      35517  596 118
+      2241  282 127
+      32792  133 206
+      200  37 321
+      7903  87 119
+      7903  193 119
+      35723  551 123
+      32999  635 193
+   end
+   objects
+      object fireA23001-0 of FireA
+         properties
+            x	505
+            y	299
+            loop	0
+         end
+      end
+      object bones23001-1 of Bones
+         properties
+            x	98
+            y	281
+            loop	0
+         end
+      end
+      object chair23001-2 of Chair
+         properties
+            x	458
+            y	293
+            loop	0
+         end
+      end
+      object chair23001-3 of Chair
+         properties
+            x	553
+            y	293
+            loop	1
+         end
+      end
+      object chair23001-4 of Chair
+         properties
+            x	505
+            y	274
+            loop	2
+         end
+      end
+      object fountain23001-5 of Fountain
+         properties
+            x	599
+            y	314
+            loop	0
+         end
+      end
+      object greenCrystalA32464-6 of GreenCrystalA
+         properties
+            x	600
+            y	119
+            loop	0
+         end
+      end
+      object enidStatue32464-7 of EnidStatue
+         properties
+            x	30
+            y	260
+            loop	0
+         end
+      end
+      object greenCrystalB32464-8 of GreenCrystalB
+         properties
+            x	29
+            y	269
+            loop	0
+         end
+	   end
+   end
+end
+room 98005
+   properties
+      picture	3000
+   end
+   atpinfo
+      240  110 297
+      240  282 298
+      240  484 302
+      240  540 301
+      240  74 268
+      240  17 234
+      240  618 265
+      240  571 236
+      240  415 259
+      243  499 225
+      246  85 209
+      240  239 261
+      240  204 231
+      240  385 231
+      240  624 194
+      240  338 198
+      244  55 43 10
+      240  109 196
+      1303  172 117
+      240  83 172
+      240  217 174
+      170  32 107
+      171  246 107
+      240  342 158
+      240  554 159
+      240  62 133
+      240  178 127
+      240  11 131
+      240  324 130
+      240  492 122
+      240  609 125
+      240  474 200
+      242  454 28
+      240  380 284
+      7902  138 136
+      7902  423 136
+      7902  686 136
+      172  316 104
+      1303  587 106
+   end
+   objects
+      object chair25100-1 of Chair
+         properties
+            x	47
+            y	289
+            loop	0
+         end
+      end
+      object chair25100-2 of Chair
+         properties
+            x	595
+            y	293
+            loop	1
+         end
+      end
+      object lever25100-3 of Lever
+         properties
+            x	320
+            y	322
+            loop	0
+         end
+		 actions 
+		 vBeActivated teleport dobj 98000
+         vBeDeactivated teleport dobj 98000
+		  end
+	  end
+   end
+end

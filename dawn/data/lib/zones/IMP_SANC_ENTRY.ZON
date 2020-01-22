@@ -1,0 +1,13 @@
+name "ImpSanctuaryEntrance"
+title "Sanctuary Forest"
+worldFile "../data/lib/world/IMP_SANC_ENTRY.WLD"
+resetInterval 9000000 
+maximumObjectAge 0 
+allowCombat 11
+midiFile 9
+
+
+groupChance 80
+monster DragonC 1
+monster ElderSwampImp 15
+monster AncientSoul 15

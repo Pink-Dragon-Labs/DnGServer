@@ -1,0 +1,754 @@
+object NGWeps of MoneyBag
+	properties
+	special
+		random 81
+	end
+
+	base treasure
+		MoneyBag 10000 30000
+		MoneyBag 10000 30000
+		MoneyBag 10000 30000
+		MoneyBag 10000 30000
+		MoneyBag 10000 30000
+		MoneyBag 10000 30000
+		MoneyBag 10000 30000
+		MoneyBag 10000 30000
+		MoneyBag 10000 30000
+		MoneyBag 10000 30000
+		MoneyBag 10000 30000
+		MoneyBag 10000 30000
+		MoneyBag 10000 30000
+		MoneyBag 10000 30000
+		MoneyBag 10000 30000
+		MoneyBag 10000 30000
+		MoneyBag 10000 30000
+		MoneyBag 10000 30000
+		MoneyBag 10000 30000
+		RandomRareMegaTreasure
+		RandomMegaTreasure
+		RandomRareGlowDye
+		mwDeath
+		mwNeedle
+		mwFatSword
+		mwAgony
+		mwFalchion
+		mwFang
+		mwMurmur
+		FinvarraHighBoots
+		FinvarraLowBoots
+		FinvarraPack
+		bFinvarra
+		maFinvarraBracers
+		maFinvarraCowl
+		FinvarraBaldric
+		mwUruzDagger
+		spbEarthSpike
+		spbDancingFlame
+		spbFreezingWind
+		spbHurricane
+		spbCrawlingCharge
+		MysticismWardRingI
+		MysticismWardRingII
+		rIntelligence
+		rEndurance
+		aCombat
+		bGlowboot
+		bLavaboot
+		bCarrying
+		aOffense
+		rDestruction
+		mwAxeOfDesolation
+        mwSalvation
+        mwAbyss
+        mwMaceOfCreation
+		mwMagesBlade
+		mwRetribution
+		mwLance
+		mwDevastation
+        mwDaggerOfAbsolution
+        mwClawOfDestruction
+        mwJustice
+		mwExecutionersAxe
+		aChoking
+		aClumsiness
+		aColdProtection
+		aCombat
+		aDexterity
+		aDodging
+		aEndurance
+		aFireProtection
+		aGrounding
+		aIntelligence
+		aRetention
+		aStrength
+		aStupidity
+		aWeakness
+		aFreeWill
+		aChoking
+		aDeathProtection
+	end
+end
+
+object GodHelmTable of MoneyBag
+	properties
+	special
+		random 100
+	end
+
+	base treasure
+		MoneyBag 10000 30000
+		MoneyBag 10000 30000
+		MoneyBag 10000 30000
+		MoneyBag 10000 30000
+		MoneyBag 10000 30000
+		MoneyBag 10000 30000
+		MoneyBag 10000 30000
+		MoneyBag 10000 30000
+		MoneyBag 10000 30000
+		MoneyBag 10000 30000
+		MoneyBag 10000 30000
+		MoneyBag 10000 30000
+		MoneyBag 10000 30000
+		MoneyBag 10000 30000
+		MoneyBag 10000 30000
+		MoneyBag 10000 30000
+		MoneyBag 10000 30000
+		MoneyBag 10000 30000
+		MoneyBag 10000 30000
+		MoneyBag 10000 30000
+		MoneyBag 10000 30000
+		MoneyBag 10000 30000
+		MoneyBag 10000 30000
+		MoneyBag 10000 30000
+		MoneyBag 10000 30000
+		MoneyBag 10000 30000
+		MoneyBag 10000 30000
+		MoneyBag 10000 30000
+		MoneyBag 10000 30000
+		MoneyBag 10000 30000
+		MoneyBag 10000 30000
+		MoneyBag 10000 30000
+		MoneyBag 10000 30000
+		MoneyBag 10000 30000
+		MoneyBag 10000 30000
+		MoneyBag 10000 30000
+		MoneyBag 10000 30000
+		MoneyBag 10000 30000
+		MoneyBag 10000 30000
+		MoneyBag 10000 30000
+		MoneyBag 10000 30000
+		MoneyBag 10000 30000
+		MoneyBag 10000 30000
+		RandomRareMegaTreasure
+		RandomMegaTreasure
+		RandomRareGlowDye
+		FinvarraHighBoots
+		FinvarraLowBoots
+		FinvarraPack
+		bFinvarra
+		maFinvarraBracers
+		maFinvarraCowl
+		FinvarraBaldric
+		mwUruzDagger
+		spbEarthSpike
+		spbDancingFlame
+		spbFreezingWind
+		spbHurricane
+		MysticismWardRingI
+		MysticismWardRingII
+		rIntelligence
+		rEndurance
+		aCombat
+		bCarrying
+		aOffense
+		bGlowboot
+		bLavaboot
+		rDestruction
+		mwAxeOfDesolation
+        mwSalvation
+        mwAbyss
+        mwMaceOfCreation
+		mwMagesBlade
+		mwRetribution
+		mwLance
+		mwDevastation
+        mwDaggerOfAbsolution
+        mwClawOfDestruction
+        mwJustice
+		maBishopHat
+		maSentinel
+		maMentor
+		maRareCrown
+		aChoking
+		aClumsiness
+		aColdProtection
+		aCombat
+		aDexterity
+		aDodging
+		aEndurance
+		aFireProtection
+		aGrounding
+		aIntelligence
+		aRetention
+		aStrength
+		aStupidity
+		aWeakness
+		aFreeWill
+		aChoking
+		aDeathProtection
+	end
+end
+
+object NGGodHelmTable of MoneyBag
+	properties
+	special
+		random 100
+	end
+
+	base treasure
+		MoneyBag 10000 30000
+		MoneyBag 10000 30000
+		MoneyBag 10000 30000
+		MoneyBag 10000 30000
+		MoneyBag 10000 30000
+		MoneyBag 10000 30000
+		MoneyBag 10000 30000
+		MoneyBag 10000 30000
+		MoneyBag 10000 30000
+		GodHelmTable
+		NGWeps
+	end
+end
+#---------------------------------------------------------
+object Lizard of NPC
+	properties
+		name "Lizard"
+		view 42500
+		alignment 128
+
+		level 1
+
+		dexterity 20
+		endurance 8
+		intelligence 2
+
+		minDamage 1
+		maxDamage 6
+
+		## do normal damage by default
+		affect 0 0 0 -1
+
+		soundGroup 10
+		quickness 10
+
+		damageType 0
+		armorType 1
+		  
+	end
+
+	base container
+		object RandomMonsterRing
+	end
+
+	base character
+		## unarmed combat familiar
+		skill 7 1
+
+		## familiar at acrobatics
+		skill 9 1
+	end
+
+	base described
+	  text "You see a lizard... staple of the diets of many in The Realm."
+	end
+end
+#---------------------------------------------------------
+object Bunny of NPC
+	properties
+		name "Bunny"
+		view 42550
+		alignment 128
+
+		level 1
+
+		dexterity 20
+		endurance 8
+		intelligence 2
+
+		minDamage 1
+		maxDamage 6
+
+		## do normal damage by default
+		affect 0 0 0 -1
+
+		soundGroup 10
+		quickness 10
+
+		damageType 0
+		armorType 1
+	end
+
+	base container
+		object RandomMonsterRing
+	end
+
+	base character
+		## unarmed combat familiar
+		skill 7 1
+
+		## familiar at acrobatics
+		skill 9 1
+	end
+
+	base described
+	  text "You see a bunny... staple of the diets of many in The Realm."
+	end
+end
+#################################
+#								#
+#								#
+#		Lost Monsters			#
+#								#
+#								#
+#								#
+#################################
+#---------------------------------------------------------
+object Basilisk of Lizard
+	properties
+	special
+		name "Basilisk"
+
+		strength 75
+		endurance 35
+		intelligence 100
+		dexterity 25
+
+		minLevel 1900
+		maxLevel 2500
+
+		minDamage 1800
+		maxDamage 2200
+
+		soundGroup 18
+
+		damageType 1
+		armorType 3
+
+		# Fire Damage and Immolation
+		affect 1 0 0 -1
+		affect 23 0 0 -1
+	end
+
+	base container
+		object RandomNewGear
+		object RandomNoviceGear
+		object RandomRareGlowDye
+		object NGGodHelmTable
+		object AncientWineTable
+		worn RedPack
+	end
+
+	actions
+		vBeBorn changeSpellResistance self 60 2		#60% Resist Myst
+		vBeBorn changeSDM self 200 0 1 3 4				# Increase Overall Circle SDM
+	end
+
+	base character
+		# grandmaster in all weapon combat
+		skill 0 5
+		skill 1 5
+		skill 2 5
+		skill 3 5
+		skill 4 5
+		skill 5 5
+		skill 6 5
+		skill 7 5
+		skill 8 5
+		skill 9 5
+		skill 10 5
+		# acrobatics grandmaster
+		skill 9 5
+		# grandmaster elementalism
+		skill 12 5
+		# grandmaster mysticism
+		skill 13 5
+		# grandmaster thaumaturgy
+		skill 14 5
+	end
+
+	base npc
+		code imp
+	end
+
+	base described
+	  text "This Basilisk does not seem friendly...\n\nThis reptile has some devious tricks, watch out."
+	end
+end
+#---------------------------------------------------------
+object AcidBasilisk of Lizard
+	properties
+	special
+		name "Basilisk"
+
+		strength 75
+		endurance 35
+		intelligence 100
+		dexterity 25
+
+		minLevel 1900
+		maxLevel 2500
+
+		minDamage 1800
+		maxDamage 2200
+
+		soundGroup 18
+
+		damageType 1
+		armorType 3
+
+		# Acid Damage and Immolation
+		affect 4 0 0 -1
+		affect 25 0 0 -1
+	end
+
+	base container
+		object RandomNewGear
+		object RandomNoviceGear
+		object RandomRareGlowDye
+		object NGGodHelmTable
+		object AncientWineTable
+		worn BlackPack
+	end
+
+	actions
+		vBeBorn changeSpellResistance self 60 2		#60% Resist Myst
+		vBeBorn changeSDM self 200 0 1 3 4				# Increase Overall Circle SDM
+	end
+
+	base character
+		# grandmaster in all weapon combat
+		skill 0 5
+		skill 1 5
+		skill 2 5
+		skill 3 5
+		skill 4 5
+		skill 5 5
+		skill 6 5
+		skill 7 5
+		skill 8 5
+		skill 9 5
+		skill 10 5
+		# acrobatics grandmaster
+		skill 9 5
+		# grandmaster elementalism
+		skill 12 5
+		# grandmaster mysticism
+		skill 13 5
+		# grandmaster thaumaturgy
+		skill 14 5
+	end
+
+	base npc
+		code imp
+	end
+
+	base described
+	  text "This Basilisk does not seem friendly...\n\nThis reptile has some devious tricks, watch out."
+	end
+end
+#---------------------------------------------------------
+object ColdBasilisk of Lizard
+	properties
+	special
+		name "Basilisk"
+
+		strength 75
+		endurance 35
+		intelligence 100
+		dexterity 25
+
+		minLevel 1900
+		maxLevel 2500
+
+		minDamage 1800
+		maxDamage 2200
+
+		soundGroup 18
+
+		damageType 1
+		armorType 3
+
+		# Cold Damage and Immolation
+		affect 2 0 0 -1
+		affect 24 0 0 -1
+	end
+
+	base container
+		object RandomNewGear
+		object RandomNoviceGear
+		object RandomRareGlowDye
+		object NGGodHelmTable
+		object AncientWineTable
+		worn BluePack
+	end
+
+	actions
+		vBeBorn changeSpellResistance self 60 2		#60% Resist Myst
+		vBeBorn changeSDM self 200 0 1 3 4				# Increase Overall Circle SDM
+	end
+
+	base character
+		# grandmaster in all weapon combat
+		skill 0 5
+		skill 1 5
+		skill 2 5
+		skill 3 5
+		skill 4 5
+		skill 5 5
+		skill 6 5
+		skill 7 5
+		skill 8 5
+		skill 9 5
+		skill 10 5
+		# acrobatics grandmaster
+		skill 9 5
+		# grandmaster elementalism
+		skill 12 5
+		# grandmaster mysticism
+		skill 13 5
+		# grandmaster thaumaturgy
+		skill 14 5
+	end
+
+	base npc
+		code imp
+	end
+
+	base described
+	  text "This Basilisk does not seem friendly...\n\nThis reptile has some devious tricks, watch out."
+	end
+end
+#---------------------------------------------------------
+object ElectricBasilisk of Lizard
+	properties
+	special
+		name "Basilisk"
+
+		strength 75
+		endurance 35
+		intelligence 100
+		dexterity 25
+
+		minLevel 1900
+		maxLevel 2500
+
+		minDamage 1800
+		maxDamage 2200
+
+		soundGroup 18
+
+		damageType 1
+		armorType 3
+
+		# Electric Damage and Immolation
+		affect 3 0 0 -1
+		affect 27 0 0 -1
+	end
+
+	base container
+		object RandomNewGear
+		object RandomNoviceGear
+		object RandomRareGlowDye
+		object NGGodHelmTable
+		object AncientWineTable
+		worn YellowPack
+	end
+
+	actions
+		vBeBorn changeSpellResistance self 60 2		#60% Resist Myst
+		vBeBorn changeSDM self 200 0 1 3 4				# Increase Overall Circle SDM
+	end
+
+	base character
+		# grandmaster in all weapon combat
+		skill 0 5
+		skill 1 5
+		skill 2 5
+		skill 3 5
+		skill 4 5
+		skill 5 5
+		skill 6 5
+		skill 7 5
+		skill 8 5
+		skill 9 5
+		skill 10 5
+		# acrobatics grandmaster
+		skill 9 5
+		# grandmaster elementalism
+		skill 12 5
+		# grandmaster mysticism
+		skill 13 5
+		# grandmaster thaumaturgy
+		skill 14 5
+	end
+
+	base npc
+		code imp
+	end
+
+	base described
+	  text "This Basilisk does not seem friendly...\n\nThis reptile has some devious tricks, watch out."
+	end
+end
+#---------------------------------------------------------
+object PoisonBasilisk of Lizard
+	properties
+	special
+		name "Basilisk"
+
+		strength 75
+		endurance 35
+		intelligence 100
+		dexterity 25
+
+		minLevel 1900
+		maxLevel 2500
+
+		minDamage 1800
+		maxDamage 2200
+
+		soundGroup 18
+
+		damageType 1
+		armorType 3
+
+		# Poison Damage and Immolation
+		affect 5 0 0 -1
+		affect 26 0 0 -1
+	end
+
+	base container
+		object RandomNewGear
+		object RandomNoviceGear
+		object RandomRareGlowDye
+		object NGGodHelmTable
+		object AncientWineTable
+		worn GreenPack
+	end
+
+	actions
+		vBeBorn changeSpellResistance self 60 2		#60% Resist Myst
+		vBeBorn changeSDM self 200 0 1 3 4				# Increase Overall Circle SDM
+	end
+
+	base character
+		# grandmaster in all weapon combat
+		skill 0 5
+		skill 1 5
+		skill 2 5
+		skill 3 5
+		skill 4 5
+		skill 5 5
+		skill 6 5
+		skill 7 5
+		skill 8 5
+		skill 9 5
+		skill 10 5
+		# acrobatics grandmaster
+		skill 9 5
+		# grandmaster elementalism
+		skill 12 5
+		# grandmaster mysticism
+		skill 13 5
+		# grandmaster thaumaturgy
+		skill 14 5
+	end
+
+	base npc
+		code imp
+	end
+
+	base described
+	  text "This Basilisk does not seem friendly...\n\nThis reptile has some devious tricks, watch out."
+	end
+end
+#---------------------------------------------------------
+object Gladiator of NPC
+	properties
+	special
+		name "Gladiator"
+		view 100
+		clutStart -1
+		color 7
+		alignment 0
+		armor 20
+		strength 70
+		endurance 50
+		intelligence 60
+		dexterity 24
+		minLevel 1400
+		maxLevel 2000
+		minDamage 2800
+		maxDamage 3200
+		soundGroup 18
+		damageType 1
+		armorType 3
+		  
+		affect 17 0 0 -1 #See Invis
+	end
+
+	base container
+		head 0 0 0 0 0 0 0 0 0 0 0 0
+		worn maDenseGreaves
+		worn maFinvarraBracers
+		worn maFinvarraCowl
+		worn bFinvarra
+		worn maInvulPlate
+		worn bGlowboot
+		worn FinvarraPack
+		worn mwMistSpySword
+		worn aCombat
+		worn ObsidianiteLargeShield
+		worn RoyalBaldric
+		worn rEndurance
+		worn KhanHelmet
+		object RandomNewGear
+		object RandomRareGlowDye
+		object RandomRareHelmet
+		object NGGodHelmTable
+		object AncientWineTable
+	end
+	base character
+		title "A mighty Gladiator"
+		# grandmaster in all weapon combat
+		skill 0 5
+		skill 1 5
+		skill 2 5
+		skill 3 5
+		skill 4 5
+		skill 5 5
+		skill 6 5
+		skill 7 5
+		skill 8 5
+		skill 9 5
+		skill 10 5
+		# acrobatics grandmaster
+		skill 9 5
+	end
+	actions
+		vBeBorn changeSpellResistance self 100 4 2
+	end
+	base described
+		text "You see a mighty Gladiator. Experts in all forms of combat, they are worthy foes. -- 100% necromancy resistance, 100% mysticism resistance.\n\n"
+	end
+end
+#---------------------------------------------------------
+#---------------------------------------------------------
+#---------------------------------------------------------
+#---------------------------------------------------------
+#---------------------------------------------------------
+#---------------------------------------------------------
+#---------------------------------------------------------
+#---------------------------------------------------------
+#---------------------------------------------------------
+#---------------------------------------------------------

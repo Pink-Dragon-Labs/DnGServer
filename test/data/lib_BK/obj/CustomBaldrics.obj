@@ -1,0 +1,473 @@
+#------------------------------------------------------------
+# Class Bladric all stats
+object bCustomBaldricThief255 of BlueBaldric
+	properties
+		special
+		name "Thieves Baldric of Quickness"
+		color 255
+	end
+	actions
+	    # Ressurect at 50%
+		vBePutOn setAffect dobj 54 0 0 -1
+		vBeTakenOff clearAffect dobj 54 0 0
+		
+		# Quicken
+		vBePutOn setAffect dobj 37 0 0 -1
+		vBeTakenOff clearAffect dobj 37 0 0
+		
+	    # Positive Dex Mod
+		vBePutOn setAffect dobj 59 0 0 -1
+		vBeTakenOff clearAffect dobj 59 0 0
+	end
+	base described
+		text "This baldric was left soaking in a vat of chemicals, as a result the material is stronger, but it won't match anything you own.\n\n"
+		shopText "A Thieves Baldric of Quickness. This baldric has a strange smell and is a little sticky.\n\n"
+	end
+end
+
+object bCustomBaldricWiz255 of BlueBaldric
+	properties
+		special
+		name "Wizards Baldric of Resistance"
+		color 255
+	end
+	actions
+	    # Ressurect at 50%
+		vBePutOn setAffect dobj 54 0 0 -1
+		vBeTakenOff clearAffect dobj 54 0 0
+		
+		# Magic Resistance
+		vBePutOn setAffect dobj 48 0 0 -1
+		vBeTakenOff clearAffect dobj 48 0 0
+		
+		# Positive Int Mod
+		vBePutOn setAffect dobj 61 0 0 -1
+		vBeTakenOff clearAffect dobj 61 0 0
+	end
+	base described
+		text "This baldric was left soaking in a vat of chemicals, as a result the material is stronger, but it won't match anything you own.\n\n"
+		shopText "A Wizards Baldric of Resistance. This baldric has a strange smell and is a little sticky.\n\n"
+	end
+end
+
+object bCustomBaldricWar255 of BlueBaldric
+	properties
+		special
+		name "Warriors Baldric of Protection"
+		color 255
+	end
+	actions
+	    # Ressurect at 50%
+		vBePutOn setAffect dobj 54 0 0 -1
+		vBeTakenOff clearAffect dobj 54 0 0
+		
+		# Anti Magic
+		vBePutOn setAffect dobj 81 0 0 -1
+		vBeTakenOff clearAffect dobj 81 0 0
+		
+		# Positive End Mod
+		vBePutOn setAffect dobj 63 0 0 -1
+		vBeTakenOff clearAffect dobj 63 0 0
+	end
+	base described
+		text "This baldric was left soaking in a vat of chemicals, as a result the material is stronger, but it won't match anything you own.\n\n"
+		shopText "A Warriors Baldric of Protection. This baldric has a strange smell and is a little sticky.\n\n"
+	end
+end
+#------------------------------------------------------------
+object bCustomBaldricThief235 of BlueBaldric
+	properties
+		special
+		name "Thieves Baldric of Quickness"
+		color 235
+	end
+	actions
+	    # Ressurect at 50%
+		vBePutOn setAffect dobj 54 0 0 -1
+		vBeTakenOff clearAffect dobj 54 0 0
+		
+		# Quicken
+		vBePutOn setAffect dobj 37 0 0 -1
+		vBeTakenOff clearAffect dobj 37 0 0
+		
+	    # Positive Dex Mod
+		vBePutOn setAffect dobj 59 0 0 -1
+		vBeTakenOff clearAffect dobj 59 0 0
+	end
+	base described
+		text "This baldric was left soaking in a vat of chemicals, as a result the material is stronger, but it won't match anything you own.\n\n"
+		shopText "A Thieves Baldric of Quickness. This baldric has a strange smell and is a little sticky.\n\n"
+	end
+end
+
+object bCustomBaldricWiz235 of BlueBaldric
+	properties
+		special
+		name "Wizards Baldric of Resistance"
+		color 235
+	end
+	actions
+	    # Ressurect at 50%
+		vBePutOn setAffect dobj 54 0 0 -1
+		vBeTakenOff clearAffect dobj 54 0 0
+		
+		# Magic Resistance
+		vBePutOn setAffect dobj 48 0 0 -1
+		vBeTakenOff clearAffect dobj 48 0 0
+		
+		# Positive Int Mod
+		vBePutOn setAffect dobj 61 0 0 -1
+		vBeTakenOff clearAffect dobj 61 0 0
+	end
+	base described
+		text "This baldric was left soaking in a vat of chemicals, as a result the material is stronger, but it won't match anything you own.\n\n"
+		shopText "A Wizards Baldric of Resistance. This baldric has a strange smell and is a little sticky.\n\n"
+	end
+end
+
+object bCustomBaldricWar235 of BlueBaldric
+	properties
+		special
+		name "Warriors Baldric of Protection"
+		color 235
+	end
+	actions
+	    # Ressurect at 50%
+		vBePutOn setAffect dobj 54 0 0 -1
+		vBeTakenOff clearAffect dobj 54 0 0
+		
+		# Anti Magic
+		vBePutOn setAffect dobj 81 0 0 -1
+		vBeTakenOff clearAffect dobj 81 0 0
+		
+		# Positive End Mod
+		vBePutOn setAffect dobj 63 0 0 -1
+		vBeTakenOff clearAffect dobj 63 0 0
+	end
+	base described
+		text "This baldric was left soaking in a vat of chemicals, as a result the material is stronger, but it won't match anything you own.\n\n"
+		shopText "A Warriors Baldric of Protection. This baldric has a strange smell and is a little sticky.\n\n"
+	end
+end
+#------------------------------------------------------------
+object bCustomBaldricThief229 of BlueBaldric
+	properties
+		special
+		name "Thieves Baldric of Quickness"
+		color 229
+	end
+	actions
+	    # Ressurect at 50%
+		vBePutOn setAffect dobj 54 0 0 -1
+		vBeTakenOff clearAffect dobj 54 0 0
+		
+		# Quicken
+		vBePutOn setAffect dobj 37 0 0 -1
+		vBeTakenOff clearAffect dobj 37 0 0
+		
+	    # Positive Dex Mod
+		vBePutOn setAffect dobj 59 0 0 -1
+		vBeTakenOff clearAffect dobj 59 0 0
+	end
+	base described
+		text "This baldric was left soaking in a vat of chemicals, as a result the material is stronger, but it won't match anything you own.\n\n"
+		shopText "A Thieves Baldric of Quickness. This baldric has a strange smell and is a little sticky.\n\n"
+	end
+end
+
+object bCustomBaldricWiz229 of BlueBaldric
+	properties
+		special
+		name "Wizards Baldric of Resistance"
+		color 229
+	end
+	actions
+	    # Ressurect at 50%
+		vBePutOn setAffect dobj 54 0 0 -1
+		vBeTakenOff clearAffect dobj 54 0 0
+		
+		# Magic Resistance
+		vBePutOn setAffect dobj 48 0 0 -1
+		vBeTakenOff clearAffect dobj 48 0 0
+		
+		# Positive Int Mod
+		vBePutOn setAffect dobj 61 0 0 -1
+		vBeTakenOff clearAffect dobj 61 0 0
+	end
+	base described
+		text "This baldric was left soaking in a vat of chemicals, as a result the material is stronger, but it won't match anything you own.\n\n"
+		shopText "A Wizards Baldric of Resistance. This baldric has a strange smell and is a little sticky.\n\n"
+	end
+end
+
+object bCustomBaldricWar229 of BlueBaldric
+	properties
+		special
+		name "Warriors Baldric of Protection"
+		color 229
+	end
+	actions
+	    # Ressurect at 50%
+		vBePutOn setAffect dobj 54 0 0 -1
+		vBeTakenOff clearAffect dobj 54 0 0
+		
+		# Anti Magic
+		vBePutOn setAffect dobj 81 0 0 -1
+		vBeTakenOff clearAffect dobj 81 0 0
+		
+		# Positive End Mod
+		vBePutOn setAffect dobj 63 0 0 -1
+		vBeTakenOff clearAffect dobj 63 0 0
+	end
+	base described
+		text "This baldric was left soaking in a vat of chemicals, as a result the material is stronger, but it won't match anything you own.\n\n"
+		shopText "A Warriors Baldric of Protection. This baldric has a strange smell and is a little sticky.\n\n"
+	end
+end
+#------------------------------------------------------------
+object bCustomBaldricThief152 of BlueBaldric
+	properties
+		special
+		name "Thieves Baldric of Quickness"
+		color 152
+	end
+	actions
+	    # Ressurect at 50%
+		vBePutOn setAffect dobj 54 0 0 -1
+		vBeTakenOff clearAffect dobj 54 0 0
+		
+		# Quicken
+		vBePutOn setAffect dobj 37 0 0 -1
+		vBeTakenOff clearAffect dobj 37 0 0
+		
+	    # Positive Dex Mod
+		vBePutOn setAffect dobj 59 0 0 -1
+		vBeTakenOff clearAffect dobj 59 0 0
+	end
+	base described
+		text "This baldric was left soaking in a vat of chemicals, as a result the material is stronger, but it won't match anything you own.\n\n"
+		shopText "A Thieves Baldric of Quickness. This baldric has a strange smell and is a little sticky.\n\n"
+	end
+end
+
+object bCustomBaldricWiz152 of BlueBaldric
+	properties
+		special
+		name "Wizards Baldric of Resistance"
+		color 152
+	end
+	actions
+	    # Ressurect at 50%
+		vBePutOn setAffect dobj 54 0 0 -1
+		vBeTakenOff clearAffect dobj 54 0 0
+		
+		# Magic Resistance
+		vBePutOn setAffect dobj 48 0 0 -1
+		vBeTakenOff clearAffect dobj 48 0 0
+		
+		# Positive Int Mod
+		vBePutOn setAffect dobj 61 0 0 -1
+		vBeTakenOff clearAffect dobj 61 0 0
+	end
+	base described
+		text "This baldric was left soaking in a vat of chemicals, as a result the material is stronger, but it won't match anything you own.\n\n"
+		shopText "A Wizards Baldric of Resistance. This baldric has a strange smell and is a little sticky.\n\n"
+	end
+end
+
+object bCustomBaldricWar152 of BlueBaldric
+	properties
+		special
+		name "Warriors Baldric of Protection"
+		color 152
+	end
+	actions
+	    # Ressurect at 50%
+		vBePutOn setAffect dobj 54 0 0 -1
+		vBeTakenOff clearAffect dobj 54 0 0
+		
+		# Anti Magic
+		vBePutOn setAffect dobj 81 0 0 -1
+		vBeTakenOff clearAffect dobj 81 0 0
+		
+		# Positive End Mod
+		vBePutOn setAffect dobj 63 0 0 -1
+		vBeTakenOff clearAffect dobj 63 0 0
+	end
+	base described
+		text "This baldric was left soaking in a vat of chemicals, as a result the material is stronger, but it won't match anything you own.\n\n"
+		shopText "A Warriors Baldric of Protection. This baldric has a strange smell and is a little sticky.\n\n"
+	end
+end
+#------------------------------------------------------------
+object bCustomBaldricThief139 of BlueBaldric
+	properties
+		special
+		name "Thieves Baldric of Quickness"
+		color 139
+	end
+	actions
+	    # Ressurect at 50%
+		vBePutOn setAffect dobj 54 0 0 -1
+		vBeTakenOff clearAffect dobj 54 0 0
+		
+		# Quicken
+		vBePutOn setAffect dobj 37 0 0 -1
+		vBeTakenOff clearAffect dobj 37 0 0
+		
+	    # Positive Dex Mod
+		vBePutOn setAffect dobj 59 0 0 -1
+		vBeTakenOff clearAffect dobj 59 0 0
+	end
+	base described
+		text "This baldric was left soaking in a vat of chemicals, as a result the material is stronger, but it won't match anything you own.\n\n"
+		shopText "A Thieves Baldric of Quickness. This baldric has a strange smell and is a little sticky.\n\n"
+	end
+end
+
+object bCustomBaldricWiz139 of BlueBaldric
+	properties
+		special
+		name "Wizards Baldric of Resistance"
+		color 139
+	end
+	actions
+	    # Ressurect at 50%
+		vBePutOn setAffect dobj 54 0 0 -1
+		vBeTakenOff clearAffect dobj 54 0 0
+		
+		# Magic Resistance
+		vBePutOn setAffect dobj 48 0 0 -1
+		vBeTakenOff clearAffect dobj 48 0 0
+		
+		# Positive Int Mod
+		vBePutOn setAffect dobj 61 0 0 -1
+		vBeTakenOff clearAffect dobj 61 0 0
+	end
+	base described
+		text "This baldric was left soaking in a vat of chemicals, as a result the material is stronger, but it won't match anything you own.\n\n"
+		shopText "A Wizards Baldric of Resistance. This baldric has a strange smell and is a little sticky.\n\n"
+	end
+end
+
+object bCustomBaldricWar139 of BlueBaldric
+	properties
+		special
+		name "Warriors Baldric of Protection"
+		color 139
+	end
+	actions
+	    # Ressurect at 50%
+		vBePutOn setAffect dobj 54 0 0 -1
+		vBeTakenOff clearAffect dobj 54 0 0
+		
+		# Anti Magic
+		vBePutOn setAffect dobj 81 0 0 -1
+		vBeTakenOff clearAffect dobj 81 0 0
+		
+		# Positive End Mod
+		vBePutOn setAffect dobj 63 0 0 -1
+		vBeTakenOff clearAffect dobj 63 0 0
+	end
+	base described
+		text "This baldric was left soaking in a vat of chemicals, as a result the material is stronger, but it won't match anything you own.\n\n"
+		shopText "A Warriors Baldric of Protection. This baldric has a strange smell and is a little sticky.\n\n"
+	end
+end
+#------------------------------------------------------------
+object bCustomBaldricThief91 of BlueBaldric
+	properties
+		special
+		name "Thieves Baldric of Quickness"
+		color 91
+	end
+	actions
+	    # Ressurect at 50%
+		vBePutOn setAffect dobj 54 0 0 -1
+		vBeTakenOff clearAffect dobj 54 0 0
+		
+		# Quicken
+		vBePutOn setAffect dobj 37 0 0 -1
+		vBeTakenOff clearAffect dobj 37 0 0
+		
+	    # Positive Dex Mod
+		vBePutOn setAffect dobj 59 0 0 -1
+		vBeTakenOff clearAffect dobj 59 0 0
+	end
+	base described
+		text "This baldric was left soaking in a vat of chemicals, as a result the material is stronger, but it won't match anything you own.\n\n"
+		shopText "A Thieves Baldric of Quickness. This baldric has a strange smell and is a little sticky.\n\n"
+	end
+end
+
+object bCustomBaldricWiz91 of BlueBaldric
+	properties
+		special
+		name "Wizards Baldric of Resistance"
+		color 91
+	end
+	actions
+	    # Ressurect at 50%
+		vBePutOn setAffect dobj 54 0 0 -1
+		vBeTakenOff clearAffect dobj 54 0 0
+		
+		# Magic Resistance
+		vBePutOn setAffect dobj 48 0 0 -1
+		vBeTakenOff clearAffect dobj 48 0 0
+		
+		# Positive Int Mod
+		vBePutOn setAffect dobj 61 0 0 -1
+		vBeTakenOff clearAffect dobj 61 0 0
+	end
+	base described
+		text "This baldric was left soaking in a vat of chemicals, as a result the material is stronger, but it won't match anything you own.\n\n"
+		shopText "A Wizards Baldric of Resistance. This baldric has a strange smell and is a little sticky.\n\n"
+	end
+end
+
+object bCustomBaldricWar91 of BlueBaldric
+	properties
+		special
+		name "Warriors Baldric of Protection"
+		color 91
+	end
+	actions
+	    # Ressurect at 50%
+		vBePutOn setAffect dobj 54 0 0 -1
+		vBeTakenOff clearAffect dobj 54 0 0
+		
+		# Anti Magic
+		vBePutOn setAffect dobj 81 0 0 -1
+		vBeTakenOff clearAffect dobj 81 0 0
+		
+		# Positive End Mod
+		vBePutOn setAffect dobj 63 0 0 -1
+		vBeTakenOff clearAffect dobj 63 0 0
+	end
+	base described
+		text "This baldric was left soaking in a vat of chemicals, as a result the material is stronger, but it won't match anything you own.\n\n"
+		shopText "A Warriors Baldric of Protection. This baldric has a strange smell and is a little sticky.\n\n"
+	end
+end
+#------------------------------------------------------------
+object bCustomBaldricSanity of BlueBaldric
+	properties
+		special
+		name "Baldric of Sanity"
+		color 124
+	end
+	actions
+	    # Ressurect at 50%
+		vBePutOn setAffect dobj 54 0 0 -1
+		vBeTakenOff clearAffect dobj 54 0 0
+		
+		# Myst Resist 100% 
+		vBePutOn changeSpellResistance dobj 100 2
+		vBeTakenOff changeSpellResistance dobj -100 2
+	end
+	base described
+		text "This baldric was left soaking in a vat of chemicals, as a result the material is stronger, but it won't match anything you own.\n\n"
+		shopText "A Baldric of Sanity. This baldric has a strange smell and is a little sticky.\n\n"
+	end
+end
+#------------------------------------------------------------

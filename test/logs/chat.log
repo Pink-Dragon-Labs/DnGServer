@@ -1,0 +1,2608 @@
+Sun Apr 22 16:36:02 2018: zach:Zach:R 5414:  oh shit
+Sun Apr 22 16:36:05 2018: zach:Zach:R 5414:  did you copy the DB?
+Sun Apr 22 16:36:20 2018: jordan:Donald:R 5414:  yeah
+Sun Apr 22 16:36:24 2018: zach:Zach:R 5414:  Cool
+Sun Apr 22 16:36:28 2018: zach:Zach:R 5414:  kk sec
+Sun Apr 22 16:36:28 2018: jordan:Donald:R 5414:  just not sure if its set right
+Sun Apr 22 16:36:59 2018: zach:Zach:R 5414:  oh 
+Sun Apr 22 16:37:06 2018: zach:Zach:R 5414:  it isnt up to date with current ST test
+Sun Apr 22 16:37:09 2018: zach:Zach:R 5414:  nvm 
+Sun Apr 22 16:37:11 2018: jordan:Donald:R 5414:  logging us on to main?
+Sun Apr 22 16:39:06 2018: zach:Zach:R 5414:  Is it?
+Sun Apr 22 16:39:16 2018: jordan:Donald:R 5414:  lol
+Sun Apr 22 16:39:20 2018: jordan:Donald:R 5414:  its weird
+Sun Apr 22 16:39:31 2018: jordan:Donald:R 5414:  its not but its showing it is
+Sun Apr 22 16:40:03 2018: jordan:Donald:R 5414:  let me kill test and fix that and update test
+Sun Apr 22 16:40:12 2018: jordan:Donald:R 5414:  when was last u messed with test?
+Sun Apr 22 16:40:19 2018: jordan:Donald:R 5414:  i downlkoaded today
+Sun Apr 22 16:40:22 2018: zach:Zach:R 5414:  like 2 nights ago
+Sun Apr 22 16:40:25 2018: jordan:Donald:R 5414:  kk
+Sun Apr 22 16:40:31 2018: zach:Zach:R 5414:  or last night
+Sun Apr 22 16:40:32 2018: zach:Zach:R 5414:  idr
+Sun Apr 22 16:40:34 2018: jordan:Donald:R 5414:  yeah let me push it
+Sun Apr 22 16:58:49 2018: zach:Zach:G004: yep
+Sun Apr 22 16:58:58 2018: zach:Zach:G004: oh
+Sun Apr 22 16:59:02 2018: zach:Zach:G004: you changed the hills too
+Sun Apr 22 16:59:12 2018: zach:Zach:G004: oooooo
+Sun Apr 22 16:59:13 2018: zach:Zach:G004: I see
+Sun Apr 22 16:59:20 2018: jordan:What:G004: pull me
+Sun Apr 22 16:59:27 2018: jordan:What:G004: nice
+Sun Apr 22 16:59:30 2018: zach:Zach:G004: This area looked really bad before your hill changes
+Sun Apr 22 16:59:37 2018: zach:Zach:G004: Grass had a hard cut off line
+Sun Apr 22 16:59:56 2018: jordan:What:G004: need to change the grassy mountians
+Sun Apr 22 17:00:05 2018: zach:Zach:G004: hmm
+Sun Apr 22 17:00:08 2018: zach:Zach:G004: am I getting behind this stuff
+Sun Apr 22 17:00:26 2018: jordan:What:G004: not on my screen
+Sun Apr 22 17:00:29 2018: zach:Zach:G004: lol is this normal
+Sun Apr 22 17:00:30 2018: jordan:What:G004: oh
+Sun Apr 22 17:00:53 2018: zach:Zach:G004: that imp
+Sun Apr 22 17:00:55 2018: zach:Zach:G004: lol
+Sun Apr 22 17:01:15 2018: jordan:What:G004: haha 
+Sun Apr 22 17:01:25 2018: jordan:What:G004: they must have made it like thaat
+Sun Apr 22 17:01:39 2018: jordan:What:G004: looks like things are lifted
+Sun Apr 22 17:01:42 2018: zach:Zach:G004: this area looks good
+Sun Apr 22 17:02:12 2018: zach:Zach:G004: lol weird
+Sun Apr 22 17:02:29 2018: jordan:What:G004: but looks like its coming together
+Sun Apr 22 17:02:48 2018: zach:Zach:G004: oh yeah
+Sun Apr 22 17:03:29 2018: zach:Zach:G004: oh yeah check this out
+Sun Apr 22 17:03:53 2018: zach:Zach:G004: go 1u
+Sun Apr 22 17:04:05 2018: jordan:What:G004: so i guess what i will do is....... kill that server. make db backup... move it here. then fire both games up... but that one will patch then push them to the new one
+Sun Apr 22 17:04:15 2018: zach:Zach:G004: cool
+Sun Apr 22 17:04:20 2018: zach:Zach:G004: sounds like a plan
+Sun Apr 22 17:04:31 2018: zach:Zach:G004: I modeled this somewhat after the very bottom part of your dungeon
+Sun Apr 22 17:04:39 2018: jordan:What:G004: u got wire shark?
+Sun Apr 22 17:04:45 2018: zach:Zach:G004: idk what that is
+Sun Apr 22 17:05:03 2018: jordan:What:G004: just sniffs  ips
+Sun Apr 22 17:05:42 2018: jordan:What:G004: door need turned :p
+Sun Apr 22 17:05:51 2018: zach:Zach:G004: Yeah this isnt finished rofl
+Sun Apr 22 17:05:56 2018: zach:Zach:G004: I did add doors though
+Sun Apr 22 17:06:00 2018: zach:Zach:G004: to the areas that needed them,
+Sun Apr 22 17:06:45 2018: jordan:What:G004: come to me lol
+Sun Apr 22 17:06:58 2018: jordan:What:G004: :)
+Sun Apr 22 17:07:06 2018: zach:Zach:G004: lol yeah I barely worked on the cave
+Sun Apr 22 17:07:22 2018: jordan:What:G004: yep :)   
+Sun Apr 22 17:07:42 2018: jordan:What:G004: well let me give our HUGE crowd the news that server is going down for a few
+Sun Apr 22 17:07:45 2018: jordan:What:G004: LOL
+Sun Apr 22 17:07:54 2018: zach:Zach:G004: lmao
+Sun Apr 22 17:07:55 2018: zach:Zach:G004: kk
+Sun Apr 22 17:09:09 2018: jordan:What:G004: anything you want to add to reboot? 
+Sun Apr 22 17:09:16 2018: jordan:What:G004: on just wait till nice one
+Sun Apr 22 17:09:24 2018: jordan:What:G004: next
+Sun Apr 22 17:09:24 2018: zach:Zach:G004: Nothing rdy yet
+Sun Apr 22 17:09:27 2018: jordan:What:G004: kk
+Mon Apr 23 19:34:26 2018: zach2:Pudding:G004: Remember where Northern Steppes and Crystal Mountains were?
+Mon Apr 23 19:34:48 2018: stone:StoneMcCloud:G004: yup
+Mon Apr 23 19:35:03 2018: zach2:Pudding:G004: North West from here
+Mon Apr 23 19:35:07 2018: zach2:Pudding:G004: Check em out
+Mon Apr 23 19:35:14 2018: stone:StoneMcCloud:G004: already been ther
+Mon Apr 23 19:35:40 2018: stone:StoneMcCloud:G004: what do you want to know about it?
+Mon Apr 23 19:36:05 2018: stone:StoneMcCloud:G004: my 2k aegw soloed everything 
+Mon Apr 23 19:36:12 2018: stone:StoneMcCloud:G004: and yes they hit hard
+Mon Apr 23 19:36:33 2018: stone:StoneMcCloud:G004: a few took em down to about 30-40k from 64k
+Mon Apr 23 19:36:46 2018: 9e097a24:William:G004: hell souls magic takes half my hp a casty
+Mon Apr 23 19:36:50 2018: stone:StoneMcCloud:G004: but most where not to bad.. speaking of the imps
+Mon Apr 23 19:37:15 2018: zach2:Pudding:G004: gotcha
+Mon Apr 23 19:38:31 2018: zach2:Pudding:G004: Need more mobs out there though eh
+Mon Apr 23 19:38:33 2018: zach2:Pudding:G004: and groups
+Mon Apr 23 19:39:04 2018: stone:StoneMcCloud:G004: 49k health left from 64k on a purged hellsoul fight while a 34 round stun
+Mon Apr 23 19:39:17 2018: 9e097a24:William:G004: mr on new helms work?
+Mon Apr 23 19:39:32 2018: zach2:Pudding:G004: It may not work on the khnum here on test
+Mon Apr 23 19:39:35 2018: zach2:Pudding:G004: „
+Mon Apr 23 19:40:09 2018: stone:StoneMcCloud:G004: i got hit the first cast with the khnum
+Mon Apr 23 19:40:55 2018: 9e097a24:William:G004: imps are soloable with 2k thief easy enough
+Mon Apr 23 19:41:12 2018: stone:StoneMcCloud:G004: same with 2k aegw
+Mon Apr 23 19:41:23 2018: stone:StoneMcCloud:G004: including the area boss
+Mon Apr 23 19:42:32 2018: stone:StoneMcCloud:G004: Ancient Hell Soul says 'Kektos kohn xektah gulak!', pointing at KillerMcCloud.KillerMcCloud loses 10752HP! KillerMcCloud is hurt!
+Mon Apr 23 19:43:33 2018: zach2:Pudding:G004: How hard do they hit
+Mon Apr 23 19:43:35 2018: zach2:Pudding:G004: Souls and imps
+Mon Apr 23 19:44:15 2018: 9e097a24:William:G004: magic is from imps ranges 3k-10k per
+Mon Apr 23 19:44:37 2018: stone:StoneMcCloud:G004: hell soul magic is 10k
+Mon Apr 23 19:44:39 2018: zach2:Pudding:G004: What about melee
+Mon Apr 23 19:45:35 2018: 9e097a24:William:G004: imps heal huh?
+Mon Apr 23 19:46:06 2018: 9e097a24:William:G004: with a thief, they cast or i shift if they hit me
+Mon Apr 23 19:46:40 2018: 9e097a24:William:G004: trying a glad imp
+Mon Apr 23 19:48:09 2018: 9e097a24:William:G004: he casted all but 1 rd
+Mon Apr 23 19:50:01 2018: stone:StoneMcCloud:G004: in a fight with a fiery hell soul.. i only lost 8k health total without invul
+Mon Apr 23 19:50:46 2018: stone:StoneMcCloud:G004: and i gotta bounce 
+Mon Apr 23 19:50:50 2018: zach2:Pudding:G004: Š
+Mon Apr 23 19:51:35 2018: 9e097a24:William:G004: imp hit me for -260
+Mon Apr 23 19:51:45 2018: zach2:Pudding:G004: lmfao
+Mon Apr 23 19:51:53 2018: 9e097a24:William:G004: but heals like woah
+Mon Apr 23 19:52:47 2018: 9e097a24:William:G004: 20k to 86k  with 1 heal
+Mon Apr 23 19:53:35 2018: zach2:Pudding:G004: noted..
+Mon Apr 23 19:54:13 2018: 9e097a24:William:G004: just prolongs his death‚
+Mon Apr 23 19:55:45 2018: zach2:Pudding:G004: Will did you run through my new DP?
+Mon Apr 23 19:56:15 2018: 9e097a24:William:G004: got through about 7 fights, need a full team, have to lvl upa few
+Mon Apr 23 19:56:22 2018: zach2:Pudding:G004: gotcha, cool cool
+Mon Apr 23 19:56:38 2018: 9e097a24:William:G004: but looks great
+Mon Apr 23 19:56:49 2018: 9e097a24:William:G004: mabs change every instance?
+Mon Apr 23 19:56:50 2018: zach2:Pudding:G004: You notice drags are randomized every time?
+Mon Apr 23 19:56:52 2018: 9e097a24:William:G004: mobs
+Mon Apr 23 19:56:53 2018: zach2:Pudding:G004: yup haha
+Mon Apr 23 19:57:14 2018: 9e097a24:William:G004: tried a few times, the hp was higher 2nd time'
+Mon Apr 23 19:57:37 2018: 9e097a24:William:G004: great idea
+Mon Apr 23 19:57:42 2018: zach2:Pudding:G004: ty sir 
+Mon Apr 23 19:57:56 2018: 9e097a24:William:G004: cant just run through blindly
+Mon Apr 23 19:58:27 2018: zach2:Pudding:G004: Have another dung coming after
+Mon Apr 23 19:58:49 2018: 9e097a24:William:G004: dp still active?
+Mon Apr 23 19:58:57 2018: zach2:Pudding:G004: yeah
+Mon Apr 23 19:59:05 2018: zach2:Pudding:G004: I moved it though
+Mon Apr 23 19:59:42 2018: 9e097a24:William:G004: will lvl 2 more guys tonight, try tomorrow again
+Mon Apr 23 20:00:38 2018: zach2:Pudding:G004: Think im gonna push it to main today
+Mon Apr 23 20:01:02 2018: 9e097a24:William:G004: then i will try on main tomorrow‚
+Mon Apr 23 20:01:52 2018: b10f0a:Konvict:G004: this war damage is nice, im not this geared on main though so i dunno 
+Mon Apr 23 20:02:12 2018: zach2:Pudding:G004: Yeah trying to get melee on par with casters
+Mon Apr 23 20:02:24 2018: 9e097a24:William:G004: thiefs are for sure
+Mon Apr 23 20:02:59 2018: 9e097a24:William:G004: and my asgw with harbenger gets great damage, as long as they dont shift
+Mon Apr 23 20:03:41 2018: 9e097a24:William:G004: damage is high, just have to rememer no casting‚
+Mon Apr 23 20:04:36 2018: 9e097a24:William:G004: will be nicve to run a mix, instead of just wiz's/thiefs
+Mon Apr 23 20:05:01 2018: b10f0a:Konvict:G004: harbinger says 325 to 405 damage on here, was weapons boosted or characters 
+Mon Apr 23 20:05:04 2018: 9e097a24:William:G004: just hitters bring handles so much faster
+Mon Apr 23 20:05:09 2018: zach2:Pudding:G004: weapons
+Mon Apr 23 20:06:19 2018: 9e097a24:William:G004: also need a way to get coppers on main
+Mon Apr 23 20:14:23 2018: 883713:Ant:G004: was only harbinger buffed? axe of deso is same as main
+Mon Apr 23 20:16:40 2018: zach2:Pudding:G004: mostlt just near end game weapons
+Mon Apr 23 20:16:43 2018: zach2:Pudding:G004: mostly*
+Mon Apr 23 20:16:46 2018: zach2:Pudding:G004: what lvl is deso
+Mon Apr 23 20:16:50 2018: zach2:Pudding:G004: 650?
+Mon Apr 23 20:16:52 2018: 883713:Ant:G004: 650
+Mon Apr 23 20:17:21 2018: zach2:Pudding:G004: im concerned about making all weapons more powerful
+Mon Apr 23 20:17:47 2018: zach2:Pudding:G004: i modofied the calcs before to just so more dmg overall and it was wild with shit like BC etc
+Mon Apr 23 20:17:52 2018: zach2:Pudding:G004: modified*
+Mon Apr 23 20:18:12 2018: 883713:Ant:G004: ya
+Mon Apr 23 20:18:37 2018: zach2:Pudding:G004: so i mainly buffed weps 900 and up
+Mon Apr 23 20:18:41 2018: zach2:Pudding:G004: iirc
+Mon Apr 23 20:18:56 2018: zach2:Pudding:G004: so you get a nice boost ro dmg near 1k and over
+Mon Apr 23 20:18:59 2018: zach2:Pudding:G004: to*
+Mon Apr 23 20:19:39 2018: 883713:Ant:G004: what weapon would a asgw use after axe of deso before 1500
+Mon Apr 23 20:20:35 2018: zach2:Pudding:G004: ummm
+Mon Apr 23 20:20:51 2018: zach2:Pudding:G004: not sure tbh
+Mon Apr 23 20:21:00 2018: zach2:Pudding:G004: im sure theres something
+Mon Apr 23 20:21:04 2018: zach2:Pudding:G004: just cant remember 
+Mon Apr 23 20:21:18 2018: zach2:Pudding:G004: ill look in a min when im not on teamviewer
+Mon Apr 23 20:21:39 2018: zach2:Pudding:G004: if there isnt something 
+Mon Apr 23 20:21:44 2018: zach2:Pudding:G004: ill make one
+Mon Apr 23 20:23:59 2018: zach2:Pudding:G004: guillotine is 800
+Mon Apr 23 20:24:10 2018: zach2:Pudding:G004: I could probably do with buffing it as well
+Mon Apr 23 20:24:20 2018: 883713:Ant:G004: guillotine damage is lower than deso
+Mon Apr 23 20:24:27 2018: zach2:Pudding:G004: yeah
+Mon Apr 23 20:24:31 2018: zach2:Pudding:G004: wont be anymore
+Mon Apr 23 20:25:33 2018: 883713:Ant:G004: that a LW drop, never seen it on live
+Mon Apr 23 20:25:35 2018: 883713:Ant:G004: ?
+Mon Apr 23 20:26:23 2018: zach2:Pudding:G004: drops in anvil i believe
+Mon Apr 23 20:28:05 2018: zach2:Pudding:G004: you see DPv3?
+Mon Apr 23 20:31:45 2018: 883713:Ant:G004: dont know where it is
+Mon Apr 23 20:32:50 2018: zach2:Pudding:G004: randomizes dragon every run
+Mon Apr 23 20:38:41 2018: 883713:Ant:G004: just solod 4 dragons , never droped below 40k hp, leech on harbinger is legit
+Mon Apr 23 20:40:42 2018: zach2:Pudding:G004: jeez
+Mon Apr 23 20:40:44 2018: zach2:Pudding:G004: rofl
+Tue Apr 16 07:07:14 2019: zach2:Pudding:R 5029:  19792213
+Tue Apr 16 07:09:08 2019: zach2:Penis:R 5029:  askjbdasd
+Tue Apr 16 07:09:42 2019: zach2:Penis:R 3012:  1397913
+Tue Apr 16 07:09:54 2019: mrryy9:Thief:G004: 10000000
+Tue Apr 16 07:21:39 2019: zach2:Pudding:R 4374:  19792213
+Tue Apr 23 23:57:50 2019: zach2:Paladin:R 5029:  oh
+Wed Apr 24 00:21:21 2019: shroomy1:Pringles:R 88507012:  tree
+Fri Apr 26 02:04:05 2019: zach:Brutis:R 5029:   100000000
+Fri Apr 26 02:08:06 2019: killer:KillerMcCloud:G004: Congratulations! You have just advanced to level 2002!
+Sat Apr 27 23:20:00 2019: gtew5pv3:Soulja:G004: this dude just 1 cast rust destroyed my chest
+Mon Apr 29 09:57:17 2019: 7bc5207f:5:G004: €
+Mon Apr 29 09:57:59 2019: zach2:Paladin:G004: €
+Mon Apr 29 09:58:05 2019: 163dd357:Stv:G004: that's better
+Mon Apr 29 09:58:05 2019: zach2:Paladin:G004: it worked
+Mon Apr 29 09:58:06 2019: 163dd357:Stv:G004: a wiz
+Mon Apr 29 09:58:53 2019: 163dd357:Stv:G004: woofda
+Mon Apr 29 09:58:55 2019: 163dd357:Stv:G004: I'm level one
+Mon Apr 29 09:59:01 2019: 163dd357:Stv:G004: because I don't know how /exp works
+Mon Apr 29 09:59:01 2019: 163dd357:Stv:G004: rofl
+Mon Apr 29 09:59:02 2019: 163dd357:Stv:G004: ƒ
+Mon Apr 29 09:59:06 2019: zach2:Paladin:G004:  /exp name #
+Mon Apr 29 09:59:11 2019: zach2:Paladin:G004: 10k per level
+Mon Apr 29 09:59:12 2019: 163dd357:Stv:G004: Yeah I did too much I think
+Mon Apr 29 09:59:15 2019: zach2:Paladin:G004: yup
+Mon Apr 29 09:59:22 2019: 163dd357:Stv:G004: broken toon?
+Mon Apr 29 09:59:42 2019: zach2:Paladin:G004: relog
+Mon Apr 29 10:00:20 2019: zach2:Paladin:G004: done?
+Mon Apr 29 10:01:29 2019: 163dd357:Stv:G004: bring me home
+Mon Apr 29 10:01:33 2019: 163dd357:Stv:G004: to the castle I mean
+Mon Apr 29 10:01:51 2019: zach2:Paladin:G004: dp /heal
+Mon Apr 29 10:01:53 2019: zach2:Paladin:G004: do*
+Mon Apr 29 10:02:09 2019: 163dd357:Stv:G004: So
+Mon Apr 29 10:02:13 2019: 163dd357:Stv:G004: am I seeing this right? †
+Mon Apr 29 10:02:37 2019: zach2:Paladin:G004: wat
+Mon Apr 29 10:02:48 2019: 163dd357:Stv:G004: 0 mobs
+Mon Apr 29 10:02:53 2019: zach2:Paladin:G004: yeah
+Mon Apr 29 10:02:56 2019: zach2:Paladin:G004: thats right
+Mon Apr 29 10:03:02 2019: 163dd357:Stv:G004: okay jms
+Mon Apr 29 10:03:05 2019: 163dd357:Stv:G004: what's the plan?
+Mon Apr 29 10:03:13 2019: zach2:Paladin:G004: Need to add mobs in here
+Mon Apr 29 10:03:17 2019: zach2:Paladin:G004: obviously
+Mon Apr 29 10:03:29 2019: zach2:Paladin:G004: Just need to figure out what
+Mon Apr 29 10:03:34 2019: 163dd357:Stv:G004: Oh
+Mon Apr 29 10:03:35 2019: 163dd357:Stv:G004: oh
+Mon Apr 29 10:03:35 2019: 163dd357:Stv:G004: oh
+Mon Apr 29 10:03:35 2019: zach2:Paladin:G004: and where to put chests
+Mon Apr 29 10:03:50 2019: 163dd357:Stv:G004: Are you turning it instanced?
+Mon Apr 29 10:04:05 2019: zach2:Paladin:G004: I can have all rooms locked down so you cant progress until NPC death
+Mon Apr 29 10:04:08 2019: zach2:Paladin:G004: yes this is instanced rn
+Mon Apr 29 10:04:14 2019: 163dd357:Stv:G004: nice 
+Mon Apr 29 10:04:14 2019: 163dd357:Stv:G004: score
+Mon Apr 29 10:04:23 2019: 163dd357:Stv:G004: that makes everything a little better lol
+Mon Apr 29 10:04:29 2019: 163dd357:Stv:G004: sorry I'm a little out of the loop
+Mon Apr 29 10:04:32 2019: 163dd357:Stv:G004: caught up on server chat tho
+Mon Apr 29 10:04:38 2019: zach2:Paladin:G004: np i proted you into my instance lol
+Mon Apr 29 10:04:44 2019: zach2:Paladin:G004: ported too
+Mon Apr 29 10:05:04 2019: 163dd357:Stv:G004: Can you do ambushes in instances?
+Mon Apr 29 10:05:10 2019: zach2:Paladin:G004: Maybe?
+Mon Apr 29 10:05:26 2019: 163dd357:Stv:G004: Would be nice to have an ever-looming maybe threat
+Mon Apr 29 10:05:31 2019: 163dd357:Stv:G004: on top of a mob route
+Mon Apr 29 10:05:37 2019: 163dd357:Stv:G004: y'know?
+Mon Apr 29 10:05:37 2019: zach2:Paladin:G004: Door is dungeon entrance now
+Mon Apr 29 10:05:40 2019: zach2:Paladin:G004: ye
+Mon Apr 29 10:05:51 2019: zach2:Paladin:G004: I have another dung
+Mon Apr 29 10:05:54 2019: zach2:Paladin:G004: I wanna imp
+Mon Apr 29 10:05:59 2019: zach2:Paladin:G004: afaik its empty also
+Mon Apr 29 10:06:03 2019: zach2:Paladin:G004: sec
+Mon Apr 29 10:06:29 2019: zach2:Paladin:G004: brb
+Mon Apr 29 10:07:51 2019: 163dd357:Stv:G004: also
+Mon Apr 29 10:08:00 2019: 163dd357:Stv:G004: I think I should pay up for the exp boost
+Mon Apr 29 10:08:27 2019: 163dd357:Stv:G004: so I'll def. save up something like 40m and toss it to you before buying any other boost an shit
+Mon Apr 29 10:08:38 2019: 163dd357:Stv:G004: even though
+Mon Apr 29 10:08:46 2019: 163dd357:Stv:G004: I owe more because boost breaking an shit
+Mon Apr 29 10:08:53 2019: 163dd357:Stv:G004: but whatevs, I'll do something ;p
+Mon Apr 29 10:09:59 2019: zach2:Paladin:G004: lmao word
+Mon Apr 29 10:10:00 2019: zach2:Paladin:G004: reboot!
+Mon Apr 29 10:11:25 2019: 163dd357:Stv:G004: ah yes
+Mon Apr 29 10:11:28 2019: 163dd357:Stv:G004: found this earlier
+Mon Apr 29 10:11:31 2019: 163dd357:Stv:G004: looking for the other new one
+Mon Apr 29 10:11:31 2019: 163dd357:Stv:G004: †
+Mon Apr 29 10:11:53 2019: zach2:Paladin:G004: Name isnt final
+Mon Apr 29 10:12:49 2019: 163dd357:Stv:G004: big potential
+Mon Apr 29 10:12:55 2019: 163dd357:Stv:G004: One quick question
+Mon Apr 29 10:13:07 2019: 163dd357:Stv:G004: are you thinking make castle as hard as the mobs are leveled
+Mon Apr 29 10:13:15 2019: zach2:Paladin:G004: Idk yet
+Mon Apr 29 10:13:15 2019: 163dd357:Stv:G004: and then using this to fill the gap that castle was?
+Mon Apr 29 10:13:32 2019: zach2:Paladin:G004: I just think overworld farming is dull 
+Mon Apr 29 10:13:46 2019: 163dd357:Stv:G004: I hear you there
+Mon Apr 29 10:13:47 2019: zach2:Paladin:G004: Id like to restrict all magical items to dungeon drops
+Mon Apr 29 10:13:57 2019: zach2:Paladin:G004: Which wouldnt be hard
+Mon Apr 29 10:14:01 2019: 163dd357:Stv:G004: Hmm
+Mon Apr 29 10:14:05 2019: 163dd357:Stv:G004: I like that
+Mon Apr 29 10:14:14 2019: 163dd357:Stv:G004: as long as it's coupled with some special exceptions
+Mon Apr 29 10:14:20 2019: 163dd357:Stv:G004: Dyes pls 
+Mon Apr 29 10:14:24 2019: zach2:Paladin:G004: yeah
+Mon Apr 29 10:14:35 2019: 163dd357:Stv:G004: as well as maybe one "special" treasure table for most if not all outside mobs
+Mon Apr 29 10:14:36 2019: zach2:Paladin:G004: Im thinking class gear, magical weapons 
+Mon Apr 29 10:14:43 2019: 163dd357:Stv:G004: that has the basic basic
+Mon Apr 29 10:14:53 2019: 163dd357:Stv:G004: yeah for sure
+Mon Apr 29 10:14:58 2019: 163dd357:Stv:G004: I love the idea
+Mon Apr 29 10:15:02 2019: 163dd357:Stv:G004: Put everything underground
+Mon Apr 29 10:15:27 2019: 163dd357:Stv:G004: I'll be able to put in work tonight too if you need anything ‚
+Mon Apr 29 10:16:02 2019: 163dd357:Stv:G004: and idk why this didn't hit me before
+Mon Apr 29 10:16:16 2019: 163dd357:Stv:G004: but how about a damage nerf on AC, with the big nerf being the -stuf?
+Mon Apr 29 10:16:18 2019: 163dd357:Stv:G004: -stun?
+Mon Apr 29 10:16:31 2019: 163dd357:Stv:G004: take away the Myst and it just becomes a decent damage
+Mon Apr 29 10:16:52 2019: 163dd357:Stv:G004: I was hoping you could go over the poison system with me and maybe we could tweak it a bit
+Mon Apr 29 10:16:59 2019: 163dd357:Stv:G004: so that you need more build up to get big boy numbers
+Mon Apr 29 10:17:33 2019: zach2:Paladin:G004: I already nerfed Acid Cloud
+Mon Apr 29 10:17:34 2019: 163dd357:Stv:G004: A little more uhh.. realistic isn't the word I'm looking for but like more expected? I want poison to be viable, just not so easy peasy.
+Mon Apr 29 10:17:37 2019: zach2:Paladin:G004: damage calculations
+Mon Apr 29 10:17:44 2019: zach2:Paladin:G004: Need to test that here actually
+Mon Apr 29 10:17:48 2019: zach2:Paladin:G004: need to upload binarty
+Mon Apr 29 10:17:51 2019: zach2:Paladin:G004: binary*
+Mon Apr 29 10:18:06 2019: zach2:Paladin:G004: I like the idea of removing stun
+Mon Apr 29 10:18:26 2019: 163dd357:Stv:G004: What is the damage calc for AC anywho?
+Mon Apr 29 10:18:30 2019: 163dd357:Stv:G004: Shit's gnarly.
+Mon Apr 29 10:18:59 2019: zach2:Paladin:G004: discord
+Mon Apr 29 10:19:08 2019: zach2:Paladin:G004: green // on the ends is what it is rn on live
+Mon Apr 29 10:19:46 2019: 163dd357:Stv:G004: Might even need to make that a 9 & 2 tbh †
+Mon Apr 29 10:19:51 2019: zach2:Paladin:G004: how about this 
+Mon Apr 29 10:19:55 2019: zach2:Paladin:G004: instead of removing stun
+Mon Apr 29 10:20:05 2019: zach2:Paladin:G004: so you know how you get MI for 2x the amount stunned
+Mon Apr 29 10:20:12 2019: zach2:Paladin:G004: What if I make it 4x for AC?
+Mon Apr 29 10:20:14 2019: zach2:Paladin:G004: er 3
+Mon Apr 29 10:20:31 2019: 163dd357:Stv:G004: hmm
+Mon Apr 29 10:20:34 2019: zach2:Paladin:G004: So if you get a 5 round stun, he gets 15rnds MI
+Mon Apr 29 10:20:51 2019: 163dd357:Stv:G004: I feel like that really only counts as a negative if the MI meant AC wouldn't work repeatedly
+Mon Apr 29 10:20:58 2019: zach2:Paladin:G004: tru
+Mon Apr 29 10:20:59 2019: zach2:Paladin:G004: tru
+Mon Apr 29 10:21:02 2019: 163dd357:Stv:G004: but it damages every round no matter what the MI is
+Mon Apr 29 10:21:13 2019: 163dd357:Stv:G004: If it were a Myst damage spell like Mind Blast
+Mon Apr 29 10:21:19 2019: 163dd357:Stv:G004: would that negate the effectiveness?
+Mon Apr 29 10:21:31 2019: 163dd357:Stv:G004: because if you could only cast it 1x every 10 rounds or not cast if other myst
+Mon Apr 29 10:21:34 2019: 163dd357:Stv:G004: that's 
+Mon Apr 29 10:21:38 2019: 163dd357:Stv:G004: that's like the perfect nerf
+Mon Apr 29 10:21:43 2019: 163dd357:Stv:G004: a little bit of damage nerf, still
+Mon Apr 29 10:21:45 2019: 163dd357:Stv:G004: but with that
+Mon Apr 29 10:21:48 2019: 163dd357:Stv:G004: damn son
+Mon Apr 29 10:21:53 2019: 163dd357:Stv:G004: it's almost too perfect
+Mon Apr 29 10:21:55 2019: 163dd357:Stv:G004: how'd I think of that
+Mon Apr 29 10:22:49 2019: 163dd357:Stv:G004: Let the mother fucker nuke † remember DV? ŠŠ If you can somehow limit it's casting rate that's the way to do it.
+Mon Apr 29 10:24:01 2019: 163dd357:Stv:G004: could close up the aoe a bit too
+Mon Apr 29 10:24:09 2019: 163dd357:Stv:G004: gah
+Mon Apr 29 10:24:12 2019: 163dd357:Stv:G004: I missed this
+Mon Apr 29 10:24:13 2019: 163dd357:Stv:G004: †
+Mon Apr 29 10:26:00 2019: zach2:Paladin:G004: Reduced range to 3 squares
+Mon Apr 29 10:26:05 2019: zach2:Paladin:G004: removed stun 
+Mon Apr 29 10:26:10 2019: zach2:Paladin:G004: testing build
+Mon Apr 29 10:28:22 2019: 163dd357:Stv:G004: Also hey
+Mon Apr 29 10:28:36 2019: 163dd357:Stv:G004: how would you feel about adding int or end to the 1,500 2,000 sashes?
+Mon Apr 29 10:28:44 2019: zach2:Paladin:G004: makes sense
+Mon Apr 29 10:28:46 2019: 163dd357:Stv:G004: It would help me not feel so special
+Mon Apr 29 10:28:51 2019: 163dd357:Stv:G004: and also help everyone else
+Mon Apr 29 10:29:09 2019: 163dd357:Stv:G004: Maybe not int
+Mon Apr 29 10:29:14 2019: 163dd357:Stv:G004: but end helps a lot
+Mon Apr 29 10:29:28 2019: 163dd357:Stv:G004: there's a couple int baldies already so I could see them not having that
+Mon Apr 29 10:29:43 2019: 163dd357:Stv:G004: but then again, the 2k one should probably do 1/1/1/1 + see invis 
+Mon Apr 29 10:29:43 2019: 163dd357:Stv:G004: idk
+Mon Apr 29 10:29:51 2019: 163dd357:Stv:G004: depends on further rewards I guess.
+Mon Apr 29 10:29:55 2019: 163dd357:Stv:G004: I want moar chests! …
+Mon Apr 29 10:30:05 2019: zach2:Paladin:G004: Chests inc
+Mon Apr 29 10:30:15 2019: 163dd357:Stv:G004: rofl
+Mon Apr 29 10:30:19 2019: 163dd357:Stv:G004: I jsut gotta farm some guys to 500
+Mon Apr 29 10:30:24 2019: 163dd357:Stv:G004: I should do that tonight with the zerk
+Mon Apr 29 10:30:28 2019: 163dd357:Stv:G004: but I'll probs forget
+Mon Apr 29 10:31:14 2019: 163dd357:Stv:G004: Hey
+Mon Apr 29 10:31:16 2019: 163dd357:Stv:G004: you can give exp
+Mon Apr 29 10:31:18 2019: 163dd357:Stv:G004: can you take it away?
+Mon Apr 29 10:31:24 2019: zach2:Paladin:G004: yeah just do -
+Mon Apr 29 10:31:30 2019: 163dd357:Stv:G004: Cool beans
+Mon Apr 29 10:31:39 2019: 163dd357:Stv:G004: you could do exp for stuff
+Mon Apr 29 10:31:46 2019: 163dd357:Stv:G004: like, make exp boost cost exp
+Mon Apr 29 10:31:48 2019: 163dd357:Stv:G004: or something
+Mon Apr 29 10:31:54 2019: 163dd357:Stv:G004: maybe the copper vanity items
+Mon Apr 29 10:31:59 2019: zach2:Paladin:G004: Make a lever at el tp
+Mon Apr 29 10:32:03 2019: killer:KillerMcCloud:G004: so
+Mon Apr 29 10:32:09 2019: zach2:Paladin:G004: well no that couldnt work
+Mon Apr 29 10:32:09 2019: zach2:Paladin:G004: nvm
+Mon Apr 29 10:32:18 2019: 163dd357:Stv:G004: yeah it would need the human part
+Mon Apr 29 10:32:21 2019: 163dd357:Stv:G004: on your end at first for sure
+Mon Apr 29 10:32:36 2019: zach2:Paladin:G004: Baldric color for 3000
+Mon Apr 29 10:32:43 2019: killer:KillerMcCloud:G004: same location?
+Mon Apr 29 10:32:54 2019: 163dd357:Stv:G004: Acid blue
+Mon Apr 29 10:32:54 2019: zach2:Paladin:G004: yea
+Mon Apr 29 10:32:58 2019: 163dd357:Stv:G004: like hot hot cyan
+Mon Apr 29 10:33:00 2019: 163dd357:Stv:G004: wait
+Mon Apr 29 10:33:14 2019: 163dd357:Stv:T Paladin: fuck voked ƒ
+
+Mon Apr 29 10:33:14 2019: zach2:Paladin:G004: NB? lol
+Mon Apr 29 10:33:33 2019: 163dd357:Stv:G004: I like that
+Mon Apr 29 10:33:38 2019: zach2:Paladin:G004: there is an NB one I think though
+Mon Apr 29 10:33:39 2019: zach2:Paladin:G004: isnt there
+Mon Apr 29 10:33:42 2019: 163dd357:Stv:G004: Oh yeah
+Mon Apr 29 10:33:43 2019: 163dd357:Stv:G004: there is
+Mon Apr 29 10:33:45 2019: 163dd357:Stv:G004: the dungeoneering one
+Mon Apr 29 10:33:47 2019: killer:KillerMcCloud:G004: and it says I am back to lvl 2004
+Mon Apr 29 10:33:48 2019: 163dd357:Stv:G004: or whatever the fuck it's called
+Mon Apr 29 10:33:48 2019: zach2:Paladin:G004: yeah
+Mon Apr 29 10:33:57 2019: 163dd357:Stv:G004: can you two tone it
+Mon Apr 29 10:34:00 2019: 163dd357:Stv:G004: like the new t-sashes?
+Mon Apr 29 10:34:07 2019: zach2:Paladin:G004: no
+Mon Apr 29 10:34:13 2019: 163dd357:Stv:G004: hmmmm
+Mon Apr 29 10:34:32 2019: 163dd357:Stv:G004: Let's move away from baldrics once
+Mon Apr 29 10:34:38 2019: 163dd357:Stv:G004: let those nasty fuckers stop at 2k
+Mon Apr 29 10:34:41 2019: 163dd357:Stv:G004: let's think of something better
+Mon Apr 29 10:35:04 2019: 163dd357:Stv:G004: If the rewards are gonna be every 1k levels after until 5k, then 2.5k each
+Mon Apr 29 10:35:09 2019: 163dd357:Stv:G004: they should be hecka useful
+Mon Apr 29 10:35:17 2019: 163dd357:Stv:G004: but not power increases, per se
+Mon Apr 29 10:35:23 2019: 163dd357:Stv:G004: feel it?
+Mon Apr 29 10:35:53 2019: zach2:Paladin:G004: baldric shop?
+Mon Apr 29 10:36:20 2019: zach2:Paladin:G004: baldric with built in shop
+Mon Apr 29 10:36:27 2019: 163dd357:Stv:G004: Oh
+Mon Apr 29 10:36:30 2019: 163dd357:Stv:G004: you're a genius
+Mon Apr 29 10:36:41 2019: 163dd357:Stv:G004: that's great
+Mon Apr 29 10:36:53 2019: 163dd357:Stv:G004: Oddly enough I haven't found a shop helmet
+Mon Apr 29 10:36:57 2019: 163dd357:Stv:G004: just the CMH
+Mon Apr 29 10:37:25 2019: 163dd357:Stv:G004: is that it?
+Mon Apr 29 10:37:27 2019: 163dd357:Stv:G004: please say
+Mon Apr 29 10:37:28 2019: 163dd357:Stv:G004: that's it
+Mon Apr 29 10:37:31 2019: 163dd357:Stv:G004: because I love that model
+Mon Apr 29 10:37:43 2019: killer:KillerMcCloud:G004: ok so how much do we wanna pusk this place as being hard
+Mon Apr 29 10:37:47 2019: killer:KillerMcCloud:G004: push
+Mon Apr 29 10:37:56 2019: zach2:Paladin:G004: can you pick that up
+Mon Apr 29 10:37:57 2019: zach2:Paladin:G004: stv
+Mon Apr 29 10:38:07 2019: zach2:Paladin:G004: can yuo shop from it
+Mon Apr 29 10:38:20 2019: 163dd357:Stv:G004: I can
+Mon Apr 29 10:38:29 2019: 163dd357:Stv:G004: Sorry you do not have anything I want.
+Mon Apr 29 10:38:33 2019: 163dd357:Stv:G004: cheeky cunt has lip
+Mon Apr 29 10:38:35 2019: 163dd357:Stv:G004: about me selling tho
+Mon Apr 29 10:39:04 2019: 163dd357:Stv:G004: Picky ass baldric …
+Mon Apr 29 10:39:06 2019: 163dd357:Stv:G004: I got the goods …
+Mon Apr 29 10:39:07 2019: 163dd357:Stv:G004: 
+Mon Apr 29 10:39:37 2019: zach2:Paladin:G004: What would go in
+Mon Apr 29 10:39:41 2019: zach2:Paladin:G004: a level 3000 shop baldric
+Mon Apr 29 10:39:50 2019: zach2:Paladin:G004: to buy
+Mon Apr 29 10:41:53 2019: zach2:Paladin:G004: what shit is handy
+Mon Apr 29 10:41:56 2019: zach2:Paladin:G004: besides mana
+Mon Apr 29 10:42:36 2019: killer:KillerMcCloud:G004: at this point nothing much really mana and the ability to sell on demand
+Mon Apr 29 10:42:48 2019: killer:KillerMcCloud:G004: and repair on demand
+Mon Apr 29 10:44:03 2019: 163dd357:Stv:G004: Can it be a unique shop?
+Mon Apr 29 10:44:07 2019: 163dd357:Stv:G004: like price-wise?
+Mon Apr 29 10:44:15 2019: zach2:Paladin:G004: yea
+Mon Apr 29 10:44:45 2019: 163dd357:Stv:G004: You could do discount dyes † Maybe that should be higher though.
+Mon Apr 29 10:45:01 2019: 163dd357:Stv:G004: oooh oooh
+Mon Apr 29 10:45:08 2019: 163dd357:Stv:G004: Any plans to add magical amulets for past 1k?
+Mon Apr 29 10:45:16 2019: 163dd357:Stv:G004: Esp. since the AoConc does all 3 circles
+Mon Apr 29 10:45:28 2019: zach2:Paladin:G004: I was thinking
+Mon Apr 29 10:45:31 2019: 163dd357:Stv:G004: we should have amulets that go to 1k% and -resist or something
+Mon Apr 29 10:45:36 2019: zach2:Paladin:G004: what if theres a quest to upgrade it
+Mon Apr 29 10:45:38 2019: 163dd357:Stv:G004: single circle, ofc
+Mon Apr 29 10:45:40 2019: 163dd357:Stv:G004: Oh snap
+Mon Apr 29 10:45:43 2019: 163dd357:Stv:G004: now you're thinkin'
+Mon Apr 29 10:45:46 2019: 163dd357:Stv:G004: whatchu got
+Mon Apr 29 10:45:47 2019: killer:KillerMcCloud:G004: great idea 
+Mon Apr 29 10:45:53 2019: zach2:Paladin:G004: turn in AoConc for an AoConc 2x
+Mon Apr 29 10:45:53 2019: 163dd357:Stv:G004: What would be the upgrade, I mean
+Mon Apr 29 10:46:00 2019: killer:KillerMcCloud:G004: we need to imp things like that to make it interesting
+Mon Apr 29 10:46:01 2019: zach2:Paladin:G004: just double the % on it
+Mon Apr 29 10:46:09 2019: killer:KillerMcCloud:G004: upgradable equipment
+Mon Apr 29 10:46:10 2019: 163dd357:Stv:G004: Gear ascension
+Mon Apr 29 10:46:14 2019: 163dd357:Stv:G004: this is big
+Mon Apr 29 10:46:16 2019: 163dd357:Stv:G004: and perfect
+Mon Apr 29 10:46:20 2019: 163dd357:Stv:G004: for the 10k level adddition
+Mon Apr 29 10:46:40 2019: zach2:Paladin:G004: I think also quests are limited to once per toon 
+Mon Apr 29 10:46:48 2019: zach2:Paladin:G004: there are exceptions I dont understand
+Mon Apr 29 10:46:58 2019: zach2:Paladin:G004: the magical runy/emerald are repeatable
+Mon Apr 29 10:47:04 2019: zach2:Paladin:G004: I couldnt repeat others though
+Mon Apr 29 10:48:00 2019: zach2:Paladin:G004: Its easy as hell though
+Mon Apr 29 10:48:07 2019: killer:KillerMcCloud:G004: a quest to gain perminate access to a certain area where you can upgrade items?
+Mon Apr 29 10:48:10 2019: zach2:Paladin:G004: Its literally, take this item, give this ite,
+Mon Apr 29 10:48:27 2019: zach2:Paladin:G004: So I can do it for anything really, just a lot of coding
+Mon Apr 29 10:48:37 2019: zach2:Paladin:G004: cant do that stone no way really
+Mon Apr 29 10:48:52 2019: 163dd357:Stv:G004: Can you level req an orb of teleport?
+Mon Apr 29 10:49:00 2019: 163dd357:Stv:G004: so like, only 5k+ can get there
+Mon Apr 29 10:49:01 2019: zach2:Paladin:G004: Well I could make a new area and make it a reward for hitting 5000 or something 
+Mon Apr 29 10:49:03 2019: 163dd357:Stv:G004: then make it uncastable
+Mon Apr 29 10:49:06 2019: 163dd357:Stv:G004: so people can't gather there
+Mon Apr 29 10:49:13 2019: zach2:Paladin:G004: Instead of a chest you get an orb with 1000 charges
+Mon Apr 29 10:49:19 2019: 163dd357:Stv:G004: yeye
+Mon Apr 29 10:49:30 2019: killer:KillerMcCloud:G004: yeah exactly
+Mon Apr 29 10:49:36 2019: zach2:Paladin:G004: make it 1 screen with a gatekeeper so no gathering
+Mon Apr 29 10:49:55 2019: 163dd357:Stv:G004: we're cookin' boys
+Mon Apr 29 10:49:56 2019: killer:KillerMcCloud:G004: yup and a vender or item upgrades
+Mon Apr 29 10:50:02 2019: killer:KillerMcCloud:G004: for*
+Mon Apr 29 10:50:20 2019: 163dd357:Stv:G004: he could sell the items required for the quest
+Mon Apr 29 10:50:22 2019: 163dd357:Stv:G004: hecka expensive
+Mon Apr 29 10:50:24 2019: killer:KillerMcCloud:G004: take the Castle and make it the begaining of a raid
+Mon Apr 29 10:52:17 2019: zach2:Paladin:G004: I could also put the questgiver at the end of a dungeon/raid
+Mon Apr 29 10:52:45 2019: killer:KillerMcCloud:G004: ŠŠ
+Mon Apr 29 10:52:51 2019: killer:KillerMcCloud:G004: make people earn it
+Mon Apr 29 10:53:24 2019: killer:KillerMcCloud:G004: i like that idea honestly, make it a no gather zone at the end as well
+Mon Apr 29 10:53:26 2019: killer:KillerMcCloud:G004: if you can
+Mon Apr 29 10:55:06 2019: killer:KillerMcCloud:G004: Stv, do you like the idea of lvl progression in an instance?
+Mon Apr 29 10:55:26 2019: killer:KillerMcCloud:G004: as in complete this lvl earn a key to get to the next 
+Mon Apr 29 10:55:39 2019: 163dd357:Stv:G004: I do!
+Mon Apr 29 10:55:54 2019: 163dd357:Stv:G004: It sounds hard to do in the capacity of this game
+Mon Apr 29 10:55:58 2019: 163dd357:Stv:G004: but I love the idea
+Mon Apr 29 10:56:48 2019: killer:KillerMcCloud:G004: currently the castle is set up with 3 floors with more to be added later each floor was to have a locked door leading to the next floor 
+Mon Apr 29 10:57:09 2019: killer:KillerMcCloud:G004: inorder to get that key you would have to defete the final boss of the floor
+Mon Apr 29 10:57:25 2019: killer:KillerMcCloud:G004: and so on until the final boss
+Mon Apr 29 10:57:55 2019: killer:KillerMcCloud:G004: and each floor would progressivly get harder and harder or atleast attempt to be harder and harder
+Mon Apr 29 10:59:35 2019: zach2:Paladin:G004: brb
+Mon Apr 29 11:05:19 2019: zach2:Paladin:G004: AC is nerfed
+Mon Apr 29 11:05:21 2019: zach2:Paladin:G004: needs testing
+Mon Apr 29 11:05:28 2019: zach2:Paladin:G004: Damage reduced and stun removed
+Mon Apr 29 11:05:37 2019: zach2:Paladin:G004: im passing out I gotta go t bed
+Mon Apr 29 11:05:59 2019: zach2:Paladin:G004: Also made a new baldric template for level 3000 reward
+Mon Apr 29 11:07:21 2019: zach2:Paladin:G004: Night ˆ
+Mon Apr 29 18:16:41 2019: stone:ConorMcCloud:G004: ConorMcCloud mumbles 'Setos eian murax!' under his breath.
+Mon Apr 29 20:30:40 2019: zach2:Paladin:G004: Cold Snap, Lightning Bolt, Light Dart, Wrath of the Gods, Duach's Vengeance, Killstar/MultiBlade, Electric Fury, Sandstorm, Gust of Wind, Stoning, Flame/Ice/Psychic Orb all buffed. Acid Cloud Nerfed.
+Mon Apr 29 20:30:52 2019: stone:ConorMcCloud:G004: lightening bold did Protector is zapped 9048HP! Protector is hurt badly!
+Mon Apr 29 20:31:08 2019: stone:ConorMcCloud:G004: flame orb did Protector is burned for 13593HP! Protector dies.
+Mon Apr 29 20:31:49 2019: stone:ConorMcCloud:G004: ice orb Protector is chilled for 27325HP! Protector dies.
+Mon Apr 29 20:32:29 2019: stone:ConorMcCloud:G004: kill star Protector loses 1850HP!
+Mon Apr 29 20:32:50 2019: stone:ConorMcCloud:G004: cold snap Protector is chilled for 11077HP! Protector dies.
+Mon Apr 29 20:33:40 2019: stone:ConorMcCloud:G004: Sandstorm Protector loses 23698HP! Protector dies.
+Mon Apr 29 20:34:32 2019: stone:ConorMcCloud:G004: GoW Protector loses 18536HP! Protector dies.
+Mon Apr 29 20:35:28 2019: zach2:Paladin:G004: acid cloud?
+Mon Apr 29 20:35:49 2019: stone:ConorMcCloud:G004: haven't tried it as of yet
+Mon Apr 29 20:37:08 2019: stone:ConorMcCloud:G004: Phy orb ConorMcCloud says 'Projen mentali!', pointing at Flame Daemon.   Target resists!
+Mon Apr 29 20:37:26 2019: zach2:Paladin:G004: yeah daemons have some MR
+Mon Apr 29 20:37:27 2019: zach2:Paladin:G004: lol
+Mon Apr 29 20:38:03 2019: stone:ConorMcCloud:G004: Light Dart Protector loses 28789HP! Protector dies.
+Mon Apr 29 20:38:49 2019: stone:ConorMcCloud:G004: Acid Cloud Protector gains 23662 poison (23662 total). Protector is about to die! Protector is stunned for 6 rounds.
+Mon Apr 29 20:39:50 2019: stone:ConorMcCloud:G004: Stoning Protector loses 20986HP! Protector dies.
+Mon Apr 29 20:40:47 2019: stone:ConorMcCloud:G004: Duach wreaks his vengeance on Protector!!  Protector is burned for 20612HP! Protector dies.
+Mon Apr 29 20:42:35 2019: stone:ConorMcCloud:G004: wog adveraged 30k against baby dragons. i got the 10 bd jump fight
+Mon Apr 29 20:50:53 2019: stone:ConorMcCloud:G004: multi lade is only doing about 3.5k 
+Mon Apr 29 20:53:36 2019: shroomy1:Pringles:G004: well put a dick in my ass
+Mon Apr 29 20:54:31 2019: shroomy1:Pringles:G004: oh so the nerf for AC is in?
+Mon Apr 29 20:54:34 2019: stone:ConorMcCloud:G004: Lava Serpent gains 1179 poison (1179 total). Lava Serpent is stunned for 2 rounds. Fire Wasp is stunned for 3 rounds.  Bounty Hunter gains 2970 poison (2970 total). Bounty Hunter is about to die! Bounty Hunter is stunned for 2 rounds.  Bounty Hunter gains 
+Mon Apr 29 20:54:36 2019: zach2:Paladin:G004: yea
+Mon Apr 29 20:54:41 2019: stone:ConorMcCloud:G004: AC
+Mon Apr 29 20:54:43 2019: shroomy1:Pringles:G004: ok, this isn't all that bad
+Mon Apr 29 20:54:50 2019: shroomy1:Pringles:G004: its still useful
+Mon Apr 29 20:56:06 2019: shroomy1:Pringles:G004: castle straight up empty
+Mon Apr 29 20:56:07 2019: shroomy1:Pringles:G004: LOL
+Mon Apr 29 20:56:11 2019: zach2:Paladin:G004: gonna reboot rq
+Mon Apr 29 20:56:18 2019: zach2:Paladin:G004: yeah im changing it to be isntanced
+Mon Apr 29 20:56:31 2019: zach2:Paladin:G004: instanced, too
+Mon Apr 29 20:56:34 2019: shroomy1:Pringles:G004: so a cave, ah
+Mon Apr 29 20:57:24 2019: shroomy1:Pringles:G004: nfo> You are number 1 in line to enter the Dungeon.
+Mon Apr 29 20:57:43 2019: shroomy1:Pringles:G004: still empty, but im liking that this will be instanced XD
+Mon Apr 29 20:58:03 2019: shroomy1:Pringles:G004: throw all the DP bosses at the last room for me, please and thanks
+Mon Apr 29 20:58:18 2019: shroomy1:Pringles:G004: LOL
+Mon Apr 29 20:59:40 2019: shroomy1:Pringles:G004: 575 cold snap
+Mon Apr 29 20:59:47 2019: shroomy1:Pringles:G004: 484
+Mon Apr 29 20:59:56 2019: zach2:Paladin:G004: wtf
+Mon Apr 29 21:00:07 2019: shroomy1:Pringles:G004: Bounty Hunter is chilled for 564HP! Bounty Hunter dies.
+Mon Apr 29 21:00:26 2019: shroomy1:Pringles:G004: im not using an ammy of concentration
+Mon Apr 29 21:00:39 2019: shroomy1:Pringles:G004: this is flat 0% bonus
+Mon Apr 29 21:00:49 2019: shroomy1:Pringles:G004: @ 183%
+Mon Apr 29 21:00:49 2019: zach2:Paladin:G004: o
+Mon Apr 29 21:01:10 2019: shroomy1:Pringles:G004: 1354 light dart
+Mon Apr 29 21:01:50 2019: shroomy1:Pringles:G004: holy fuck that range
+Mon Apr 29 21:01:57 2019: shroomy1:Pringles:G004: Bounty Hunter is burned for 737HP! Bounty Hunter is hurt badly!
+Mon Apr 29 21:02:02 2019: shroomy1:Pringles:G004: Bounty Hunter is burned for 1726HP! Bounty Hunter dies.
+Mon Apr 29 21:02:04 2019: shroomy1:Pringles:G004: flame orb lol
+Mon Apr 29 21:02:25 2019: shroomy1:Pringles:G004: lol 490 with EF
+Mon Apr 29 21:03:15 2019: shroomy1:Pringles:G004: oh i need DV lol
+Mon Apr 29 21:03:45 2019: zach2:Paladin:G004: rebooting again
+Mon Apr 29 21:03:45 2019: zach2:Paladin:G004: sorry
+Mon Apr 29 21:07:16 2019: zach2:Paladin:G004: rebooting again
+Mon Apr 29 21:08:44 2019: zach2:Paladin:G004: You see an Upgraded Amulet of Concentration.  This powerful amulet provides a 1000% SDM Boost to Thaumaturgy, Elementalism and Necromany. You will also gain a significant boost to Intelligence.
+Mon Apr 29 21:08:49 2019: zach2:Paladin:G004: Level Required: 2500
+Mon Apr 29 21:08:52 2019: zach2:Paladin:G004: Mysticism Resistance: 60%
+Mon Apr 29 21:08:58 2019: shroomy1:Pringles:G004: Oh
+Mon Apr 29 21:09:01 2019: shroomy1:Pringles:G004: holy
+Mon Apr 29 21:09:02 2019: shroomy1:Pringles:G004: shit
+Mon Apr 29 21:09:10 2019: shroomy1:Pringles:G004: wheres that gonna drop
+Mon Apr 29 21:09:11 2019: zach2:Paladin:G004: Come el 1l
+Mon Apr 29 21:09:28 2019: zach2:Paladin:G004: inside
+Mon Apr 29 21:09:37 2019: zach2:Paladin:G004: talk to crow
+Mon Apr 29 21:11:15 2019: shroomy1:Pringles:G004: yup this can go live
+Mon Apr 29 21:11:20 2019: shroomy1:Pringles:G004: LOL
+Mon Apr 29 21:11:20 2019: zach2:Paladin:G004: lol
+Mon Apr 29 21:11:39 2019: zach2:Paladin:G004: That isnt final, mainly wanted to test the idea of item upgrades via quests
+Mon Apr 29 21:11:43 2019: shroomy1:Pringles:G004: think im the only person high enough for it atm 
+Mon Apr 29 21:12:03 2019: zach2:Paladin:G004: Questgiver will likely be either at the end of a dungeon, or roaming perhaps
+Mon Apr 29 21:12:09 2019: zach2:Paladin:G004: So it isnt easy to just upgrade yuor shit
+Mon Apr 29 21:12:20 2019: zach2:Paladin:G004: your* 
+Mon Apr 29 21:12:35 2019: shroomy1:Pringles:G004: oh fuck
+Mon Apr 29 21:12:40 2019: shroomy1:Pringles:G004: acid cloud got a huge nerf LOL
+Mon Apr 29 21:12:50 2019: shroomy1:Pringles:G004: 3k damage, applied 47 poison lol
+Mon Apr 29 21:12:59 2019: zach2:Paladin:G004: lmao wat 
+Mon Apr 29 21:13:03 2019: zach2:Paladin:G004: that doesnt make sense
+Mon Apr 29 21:13:21 2019: shroomy1:Pringles:G004: poison applied is random af
+Mon Apr 29 21:13:45 2019: shroomy1:Pringles:G004: 3.2k hit and applied 6.4k poison that time
+Mon Apr 29 21:14:31 2019: shroomy1:Pringles:G004: my AC on fresh start sometimes deal 3 damage and applies 1 poison
+Mon Apr 29 21:14:33 2019: shroomy1:Pringles:G004: XD
+Mon Apr 29 21:14:52 2019: shroomy1:Pringles:G004: i dont fight shit that can be stunned too lol
+Mon Apr 29 21:15:04 2019: zach2:Paladin:G004: Cold Snap, Lightning Bolt, Light Dart, Wrath of the Gods, Duach's Vengeance, Killstar/MultiBlade, Electric Fury, Sandstorm, Gust of Wind, Stoning, Flame/Ice/Psychic Orb all buffed.
+Mon Apr 29 21:15:56 2019: shroomy1:Pringles:G004: also
+Mon Apr 29 21:16:05 2019: zach2:Paladin:G004: Side note forgot completely about sandstorm
+Mon Apr 29 21:16:08 2019: shroomy1:Pringles:G004: acid cloud's damage decreases drastically when more than 1 target is hit
+Mon Apr 29 21:16:09 2019: zach2:Paladin:G004: thats fine only right
+Mon Apr 29 21:16:20 2019: zach2:Paladin:G004: Yeah thats by design
+Mon Apr 29 21:16:25 2019: zach2:Paladin:G004: find*
+Mon Apr 29 21:16:31 2019: shroomy1:Pringles:G004: sand, yeah
+Mon Apr 29 21:16:40 2019: zach2:Paladin:G004: Does it even drop?
+Mon Apr 29 21:16:47 2019: shroomy1:Pringles:G004: uhhhh
+Mon Apr 29 21:16:49 2019: zach2:Paladin:G004: never heard anyone mention it
+Mon Apr 29 21:16:55 2019: shroomy1:Pringles:G004: i have it on fresh, i think
+Mon Apr 29 21:17:00 2019: shroomy1:Pringles:G004: idk where i got it llol
+Mon Apr 29 21:17:00 2019: zach2:Paladin:G004: kk
+Mon Apr 29 21:17:05 2019: zach2:Paladin:G004: long as you got it
+Mon Apr 29 21:17:21 2019: zach2:Paladin:G004: Issue with this item  upgrade quest
+Mon Apr 29 21:17:35 2019: zach2:Paladin:G004: is I have to make a talk tree / quest for every single item
+Mon Apr 29 21:17:42 2019: zach2:Paladin:G004: So it will be extremely limited as to what you can upgrade
+Mon Apr 29 21:17:51 2019: zach2:Paladin:G004: Might just keep it to the amulets?
+Mon Apr 29 21:18:05 2019: zach2:Paladin:G004: also have to make said upgraded item
+Mon Apr 29 21:18:22 2019: zach2:Paladin:G004: Not to mention NPCs to assign them to
+Mon Apr 29 21:18:38 2019: zach2:Paladin:G004: Wiz ammy is a no brainer on continued upgrades 
+Mon Apr 29 21:18:47 2019: zach2:Paladin:G004: Can go from that second one to one that is 1500% SDM
+Mon Apr 29 21:18:51 2019: zach2:Paladin:G004: etc etc
+Mon Apr 29 21:19:04 2019: zach2:Paladin:G004: but what for warrior/thief/adv?
+Mon Apr 29 21:19:11 2019: shroomy1:Pringles:G004: uh
+Mon Apr 29 21:19:15 2019: zach2:Paladin:G004: WArrior just gets more swings? More Armor pen?
+Mon Apr 29 21:19:24 2019: shroomy1:Pringles:G004: armor pen
+Mon Apr 29 21:19:39 2019: zach2:Paladin:G004: what do adv get? 
+Mon Apr 29 21:19:43 2019: zach2:Paladin:G004: thieves get more and more dodges?
+Mon Apr 29 21:19:50 2019: shroomy1:Pringles:G004: small sdm boost and swing
+Mon Apr 29 21:20:17 2019: zach2:Paladin:G004: What about for thief perma-invis ammy at stage 2
+Mon Apr 29 21:20:25 2019: shroomy1:Pringles:G004: oh
+Mon Apr 29 21:20:54 2019: shroomy1:Pringles:G004: still want an invuln casting wep lol
+Mon Apr 29 21:21:14 2019: zach2:Paladin:G004: I want a weapon that can cast at all
+Mon Apr 29 21:21:14 2019: shroomy1:Pringles:G004: cast on strike, yo
+Mon Apr 29 21:21:14 2019: zach2:Paladin:G004: rofl
+Mon Apr 29 21:21:28 2019: zach2:Paladin:G004: Ive been trying to figure that out specifically for over a year
+Mon Apr 29 21:21:30 2019: zach2:Paladin:G004: idfk
+Mon Apr 29 21:21:33 2019: shroomy1:Pringles:G004: uh
+Mon Apr 29 21:21:47 2019: shroomy1:Pringles:G004: on strike > roll dice > if over X > cast spell on target
+Mon Apr 29 21:21:55 2019: shroomy1:Pringles:G004: codeeee
+Mon Apr 29 21:22:11 2019: zach2:Paladin:G004: I wish this code was that simple
+Mon Apr 29 21:22:12 2019: zach2:Paladin:G004: lmao
+Mon Apr 29 21:22:20 2019: shroomy1:Pringles:G004: it probably is
+Mon Apr 29 21:22:23 2019: zach2:Paladin:G004: it isnt
+Mon Apr 29 21:22:25 2019: shroomy1:Pringles:G004: but its like ancient
+Mon Apr 29 21:22:27 2019: zach2:Paladin:G004: everything is fractured 
+Mon Apr 29 21:22:36 2019: zach2:Paladin:G004: combat shit is in a million different places
+Mon Apr 29 21:22:40 2019: shroomy1:Pringles:G004: sooo its like needing to do shit in egyptian
+Mon Apr 29 21:23:04 2019: zach2:Paladin:G004: Can you relog and see if this quest is repeatable
+Mon Apr 29 21:23:17 2019: shroomy1:Pringles:G004: Duach wreaks his vengeance on Warrior!!  Warrior is burned for 16375HP! Warrior dies.
+Mon Apr 29 21:23:25 2019: shroomy1:Pringles:G004: Duach wreaks his vengeance on Troll Warrior!!  Troll Warrior is burned for 19999HP! Troll Warrior dies.
+Mon Apr 29 21:23:35 2019: shroomy1:Pringles:G004: like, why not 20k
+Mon Apr 29 21:23:38 2019: zach2:Paladin:G004: lmfao
+Mon Apr 29 21:23:39 2019: zach2:Paladin:G004: wow
+Mon Apr 29 21:23:51 2019: zach2:Paladin:G004: So killstar and multiblade
+Mon Apr 29 21:23:59 2019: zach2:Paladin:G004: should be calc'd by elem skill now
+Mon Apr 29 21:24:11 2019: shroomy1:Pringles:G004: Troll King loses 1516HP! Troll King dies.
+Mon Apr 29 21:24:12 2019: shroomy1:Pringles:G004: KS
+Mon Apr 29 21:24:20 2019: shroomy1:Pringles:G004: thats with ammy 
+Mon Apr 29 21:24:22 2019: zach2:Paladin:G004: these spells are retarded
+Mon Apr 29 21:24:24 2019: zach2:Paladin:G004: god damn dude
+Mon Apr 29 21:24:34 2019: zach2:Paladin:G004: i fucking hate killstar and multiblade
+Mon Apr 29 21:24:44 2019: shroomy1:Pringles:G004: Warrior loses 2153HP! Troll Warrior dies.
+Mon Apr 29 21:24:45 2019: shroomy1:Pringles:G004: MB
+Mon Apr 29 21:25:11 2019: shroomy1:Pringles:G004: Ogre Chief is zapped 6331HP! Ogre Chief dies.  Seraph is zapped 3109HP! Seraph dies.
+Mon Apr 29 21:25:12 2019: shroomy1:Pringles:G004: EF
+Mon Apr 29 21:25:32 2019: shroomy1:Pringles:G004: 4.5k and 3.3k for EQ
+Mon Apr 29 21:26:26 2019: shroomy1:Pringles:G004: 1142 psychic orb
+Mon Apr 29 21:26:41 2019: shroomy1:Pringles:G004: ....these damages are so fucking low compared to the health of shit wiz's are expected to kill LOL
+Mon Apr 29 21:26:54 2019: zach2:Paladin:G004: psychic orb and KS/MB are hard to increase
+Mon Apr 29 21:26:59 2019: zach2:Paladin:G004: because nohing boosts sorc or mystr
+Mon Apr 29 21:27:01 2019: zach2:Paladin:G004: -r
+Mon Apr 29 21:27:07 2019: shroomy1:Pringles:G004: 782 psychic orb that time
+Mon Apr 29 21:27:19 2019: zach2:Paladin:G004: If I increase them too much, they are GODLY for new wizards
+Mon Apr 29 21:27:35 2019: shroomy1:Pringles:G004: and Light dart with a magical ammy isnt? :P
+Mon Apr 29 21:27:39 2019: shroomy1:Pringles:G004: or
+Mon Apr 29 21:27:47 2019: shroomy1:Pringles:G004: add in a boost to the spell damage at X level
+Mon Apr 29 21:27:50 2019: zach2:Paladin:G004: magical ammy isnt available at level 1
+Mon Apr 29 21:27:56 2019: shroomy1:Pringles:G004: oh nvm
+Mon Apr 29 21:27:57 2019: shroomy1:Pringles:G004: der
+Mon Apr 29 21:27:57 2019: zach2:Paladin:G004: killstar is
+Mon Apr 29 21:28:10 2019: shroomy1:Pringles:G004: ammy's = spell increase
+Mon Apr 29 21:28:19 2019: zach2:Paladin:G004: yeah doesnt work on sorc xD
+Mon Apr 29 21:28:26 2019: shroomy1:Pringles:G004: cant u add Myst/Sorc to the SDM buff
+Mon Apr 29 21:28:31 2019: zach2:Paladin:G004: no
+Mon Apr 29 21:28:31 2019: shroomy1:Pringles:G004: but only have it work for combat
+Mon Apr 29 21:28:36 2019: zach2:Paladin:G004: nope ;/
+Mon Apr 29 21:28:39 2019: zach2:Paladin:G004: just overall
+Mon Apr 29 21:28:50 2019: shroomy1:Pringles:G004: i mean, you could... but ancient alien technology
+Mon Apr 29 21:28:52 2019: zach2:Paladin:G004: So unless yall want me to completely break chanting and myst 
+Mon Apr 29 21:29:00 2019: shroomy1:Pringles:G004: chanting is already broken lol
+Mon Apr 29 21:29:04 2019: shroomy1:Pringles:G004: i can 6x, i choose not to :P
+Mon Apr 29 21:29:16 2019: zach2:Paladin:G004: I gave sorc a 10% boost once to test
+Mon Apr 29 21:29:22 2019: zach2:Paladin:G004: was able to 10x at 189 
+Mon Apr 29 21:29:25 2019: zach2:Paladin:G004: sooo
+Mon Apr 29 21:29:28 2019: shroomy1:Pringles:G004: omfg lol
+Mon Apr 29 21:29:33 2019: zach2:Paladin:G004: yeah
+Mon Apr 29 21:29:36 2019: zach2:Paladin:G004: sorc cant be touched
+Mon Apr 29 21:29:53 2019: shroomy1:Pringles:G004: so those 3 spells are just shit
+Mon Apr 29 21:29:54 2019: shroomy1:Pringles:G004: got it
+Mon Apr 29 21:30:13 2019: zach2:Paladin:G004: eh
+Mon Apr 29 21:30:19 2019: zach2:Paladin:G004: they kinda always been shit anyway
+Mon Apr 29 21:30:20 2019: shroomy1:Pringles:G004: whoa
+Mon Apr 29 21:30:24 2019: shroomy1:Pringles:G004: can i get a cloud of fog on fresh start
+Mon Apr 29 21:30:25 2019: shroomy1:Pringles:G004: LOL
+Mon Apr 29 21:30:29 2019: zach2:Paladin:G004: lmfao
+Mon Apr 29 21:30:30 2019: zach2:Paladin:G004: no
+Mon Apr 29 21:30:42 2019: zach2:Paladin:G004: i forgot what did I make it do
+Mon Apr 29 21:30:44 2019: zach2:Paladin:G004: summon shit
+Mon Apr 29 21:30:57 2019: shroomy1:Pringles:G004: Despothes aids Pringles, inflicting massive damage!! Warrior is zapped 13734HP! Warrior dies.
+Mon Apr 29 21:30:58 2019: shroomy1:Pringles:G004: this is fine
+Mon Apr 29 21:31:53 2019: shroomy1:Pringles:G004: wait
+Mon Apr 29 21:32:01 2019: shroomy1:Pringles:G004: i thought crawling charge was a self targeted spell
+Mon Apr 29 21:32:59 2019: shroomy1:Pringles:G004: so far, everything else is def improved
+Mon Apr 29 21:33:13 2019: shroomy1:Pringles:G004: EF still sucks donkey nuts
+Mon Apr 29 21:33:22 2019: shroomy1:Pringles:G004: but EQ and EF are about the same
+Mon Apr 29 21:33:45 2019: shroomy1:Pringles:G004: Cleric loses 4631HP! Cleric dies.  Pringles gains 2315HP.
+Mon Apr 29 21:33:50 2019: shroomy1:Pringles:G004: Mass drain 
+Mon Apr 29 21:33:51 2019: shroomy1:Pringles:G004: lol
+Mon Apr 29 21:34:32 2019: shroomy1:Pringles:G004: Poison bolt, 3k dmg annnnnd
+Mon Apr 29 21:34:33 2019: shroomy1:Pringles:G004: Cyclops gains 160 poison (160 total). Cyclops dies.
+Mon Apr 29 21:35:04 2019: shroomy1:Pringles:G004: or it does 6k annnnnd
+Mon Apr 29 21:35:05 2019: shroomy1:Pringles:G004: Troll Warrior gains 10802 poison (10802 total). Troll Warrior dies.
+Mon Apr 29 21:35:12 2019: shroomy1:Pringles:G004: talk about variance lol
+Mon Apr 29 21:35:52 2019: shroomy1:Pringles:G004: but yeah, its looking better than it did, im okay with these changes, u are only going to make DP take 3 minutes longer
+Mon Apr 29 21:36:25 2019: zach2:Paladin:G004: CC is cast at your own feet
+Mon Apr 29 21:36:37 2019: shroomy1:Pringles:G004: so i can place that thing anywhere?
+Mon Apr 29 21:36:39 2019: zach2:Paladin:G004: I buffed EQ and EF more
+Mon Apr 29 21:36:43 2019: zach2:Paladin:G004: no just at your feet
+Mon Apr 29 21:37:03 2019: shroomy1:Pringles:G004: right, im saying if i just click anywherre, it just casts around me lol
+Mon Apr 29 21:37:12 2019: zach2:Paladin:G004: oh it does?
+Mon Apr 29 21:37:13 2019: zach2:Paladin:G004: cool
+Mon Apr 29 21:37:21 2019: shroomy1:Pringles:G004: i was asking... time to go test on a rat
+Mon Apr 29 21:37:35 2019: zach2:Paladin:G004: oh rofl
+Mon Apr 29 21:37:45 2019: zach2:Paladin:G004: no I think it only works if cast at your feet
+Mon Apr 29 21:37:48 2019: shroomy1:Pringles:G004: yep
+Mon Apr 29 21:37:53 2019: shroomy1:Pringles:G004: i cast it targetting other side
+Mon Apr 29 21:37:57 2019: shroomy1:Pringles:G004: it killed the BH hitting me
+Mon Apr 29 21:38:07 2019: shroomy1:Pringles:G004: lazy cast ftw
+Mon Apr 29 21:38:32 2019: shroomy1:Pringles:G004: oh man, im going to use the fuck out of that lol
+Mon Apr 29 21:39:44 2019: zach2:Paladin:G004: lol
+Mon Apr 29 21:39:59 2019: shroomy1:Pringles:G004: know how many times my wiz has been trapped with a dragon on top of it? 
+Mon Apr 29 21:40:05 2019: shroomy1:Pringles:G004: psh...ez now
+Mon Apr 29 21:40:09 2019: shroomy1:Pringles:G004: just self-nuke and win
+Mon Apr 29 21:41:15 2019: shroomy1:Pringles:G004: welp, u go break more shit
+Mon Apr 29 21:41:18 2019: shroomy1:Pringles:G004: ima go run DP more lol
+Mon Apr 29 21:41:32 2019: shroomy1:Pringles:G004: 2k xp per fight at 3k lol
+Mon Apr 29 21:41:56 2019: shroomy1:Pringles:G004: had a trap take 20k xp from me earlier
+Mon Apr 29 21:42:56 2019: zach2:Paladin:G004: Œ
+Tue Apr 30 06:55:48 2019: stone:ConorMcCloud:G004: Hell Snake is burned for 71423HP! Hell Snake dies.
+Tue Apr 30 06:57:07 2019: stone:ConorMcCloud:G004: Hell Snake is chilled for 167746HP! Hell Snake dies.
+Thu May  2 04:56:13 2019: zach2:Weaponsz:R 88507012:  moon
+Thu May  2 05:03:54 2019: stone:ConorMcCloud:G004: boo
+Thu May  2 05:07:53 2019: zach2:Weaponsz:G004: heyo
+Thu May  2 05:08:00 2019: zach2:Weaponsz:G004: guess what I got working..
+Thu May  2 05:08:03 2019: stone:ConorMcCloud:G004: sup
+Thu May  2 05:08:11 2019: zach2:Weaponsz:G004: show you after reboot
+Thu May  2 05:08:13 2019: zach2:Weaponsz:G004: brb
+Thu May  2 05:08:14 2019: stone:ConorMcCloud:G004: obviously not sleep lol
+Thu May  2 05:10:48 2019: zach2:Weaponsz:G004: Pick one up and go hit something
+Thu May  2 05:15:25 2019: stone:ConorMcCloud:G004: is the zerk on the light dagger intentional?
+Thu May  2 05:15:42 2019: zach2:Weaponsz:G004: yes
+Thu May  2 05:16:25 2019: stone:ConorMcCloud:G004: Wood Ratling dodges ConorMcCloud's attack.  The spell is countered and fails!
+Thu May  2 05:17:06 2019: zach2:Weaponsz:G004: spell blast?
+Thu May  2 05:17:14 2019: stone:ConorMcCloud:G004: yup
+Thu May  2 05:17:19 2019: zach2:Weaponsz:G004: interesting
+Thu May  2 05:17:32 2019: zach2:Weaponsz:G004: crawling mace hurts you
+Thu May  2 05:17:59 2019: stone:ConorMcCloud:G004: not yet lol
+Thu May  2 05:20:49 2019: zach2:Weaponsz:G004: What would be some good spells for magic proc
+Thu May  2 05:21:09 2019: stone:ConorMcCloud:G004: ConorMcCloud hits Flying Rat for 775HP! Flying Rat dies.  ConorMcCloud gains 775HP.
+Thu May  2 05:21:48 2019: stone:ConorMcCloud:G004: ConorMcCloud hits Wood Ratling for 599HP! Wood Ratling dies.  ConorMcCloud gains 599HP.
+Thu May  2 05:22:01 2019: zach2:Weaponsz:G004: thats not telling me anything
+Thu May  2 05:22:22 2019: stone:ConorMcCloud:G004: top is the mace bottom is the club
+Thu May  2 05:23:03 2019: zach2:Weaponsz:G004: im not sure what youre tryin to tell me rofl
+Thu May  2 05:23:16 2019: zach2:Weaponsz:G004: im not interested in damage #s or anything
+Thu May  2 05:23:23 2019: zach2:Weaponsz:G004: just wanted to see if procs were working
+Thu May  2 05:23:45 2019: zach2:Weaponsz:G004: Did you even notice them with speed files on lol
+Thu May  2 05:23:58 2019: stone:ConorMcCloud:G004: ConorMcCloud hits Kilrog for 393HP!  Kilrog loses 393HP!  ConorMcCloud gains 393HP.   Target resists!
+Thu May  2 05:25:05 2019: stone:ConorMcCloud:G004: what is the proc for the club?
+Thu May  2 05:25:11 2019: zach2:Weaponsz:G004: crushing boulder
+Thu May  2 05:25:29 2019: stone:ConorMcCloud:G004: it is procing
+Thu May  2 05:25:35 2019: zach2:Weaponsz:G004: yeah every swing
+Thu May  2 05:25:35 2019: zach2:Weaponsz:G004: lmao
+Thu May  2 05:27:05 2019: stone:ConorMcCloud:G004: and the proc for the mace is fire damage to your self
+Thu May  2 05:27:15 2019: zach2:Weaponsz:G004: nope its crawling charge 
+Thu May  2 05:27:38 2019: stone:ConorMcCloud:G004: Hell Snake hits armor with their critical strike!  Hell Snake hits ConorMcCloud for 15HP! 66 absorbed (56SP)  ConorMcCloud is burned for 8HP!  ConorMcCloud gains 2 poison (37 total).  Hell Snake is burned for 49HP!
+Thu May  2 05:27:46 2019: zach2:Weaponsz:G004: animations play without speedfiles 
+Thu May  2 05:29:03 2019: stone:ConorMcCloud:G004: ConorMcCloud lands a critical strike!  ConorMcCloud hits Kilrog for 2250HP! Kilrog is hurt!  Kilrog loses 2250HP! Kilrog is about to die!  ConorMcCloud gains 2250HP.
+Thu May  2 05:29:09 2019: stone:ConorMcCloud:G004: that is the light dagger
+Thu May  2 05:29:20 2019: zach2:Weaponsz:G004: again, I dont need damage #s or anything
+Thu May  2 05:29:20 2019: zach2:Weaponsz:G004: lol
+Thu May  2 05:29:33 2019: stone:ConorMcCloud:G004: yeah it is showing that it is procing 
+Thu May  2 05:29:57 2019: stone:ConorMcCloud:G004: but good spells i would say depending how what you wanna do. 
+Thu May  2 05:30:23 2019: stone:ConorMcCloud:G004: invulnerability is one
+Thu May  2 05:30:30 2019: zach2:Weaponsz:G004: invul would apply to the target
+Thu May  2 05:32:20 2019: stone:ConorMcCloud:G004: eq electric fury lightening bolt flame  orb ice orb a god spell 
+Thu May  2 05:32:37 2019: stone:ConorMcCloud:G004: curses
+Thu May  2 05:34:12 2019: zach2:Weaponsz:G004: yeah 
+Thu May  2 05:36:19 2019: stone:ConorMcCloud:G004: aight ive been moving all day and am at the new place tonight. and i have to get up really early tomorrow to get the kids off o school an hour earlier
+Thu May  2 05:36:44 2019: stone:ConorMcCloud:G004: so.. ill cach you later its pass out time lol
+Thu May  2 05:37:21 2019: zach2:Weaponsz:G004: nigght homie 
+Thu May  2 05:37:26 2019: stone:ConorMcCloud:G004: night
+Thu May  2 05:37:31 2019: zach2:Weaponsz:G004: ˆ
+Thu May  2 20:32:03 2019: zach2:Paladin:G004: the mace may hurt you as well
+Thu May  2 20:32:07 2019: zach2:Paladin:G004: working on that
+Thu May  2 20:32:15 2019: zach2:Paladin:G004: will proc crawling charge on hit
+Thu May  2 20:32:23 2019: zach2:Paladin:G004: working on making it like 10% chance to proc
+Thu May  2 20:32:27 2019: zach2:Paladin:G004: or may make it based on something
+Thu May  2 20:32:29 2019: 7bc5207f:5:G004: 5 is zapped 11216HP! 5 dies.
+Thu May  2 20:32:31 2019: 7bc5207f:5:G004: †
+Thu May  2 20:32:33 2019: zach2:Paladin:G004: iirc right now its every swing
+Thu May  2 20:32:37 2019: zach2:Paladin:G004: lmao
+Thu May  2 20:32:56 2019: 7bc5207f:5:G004: Fckin' dusted myself
+Thu May  2 20:33:05 2019: 7bc5207f:5:G004: Thgought hey, how bad could it be
+Thu May  2 20:33:16 2019: 7bc5207f:5:G004: Learned hey, it could be suicide! ‚
+Thu May  2 20:33:54 2019: 7bc5207f:5:G004: the dart dagger is gnarly lol
+Thu May  2 20:34:36 2019: zach2:Paladin:G004: Might end up making it so it can pull from a list of spells
+Thu May  2 20:34:46 2019: zach2:Paladin:G004: So you could theoretically have magic zerk
+Thu May  2 20:35:16 2019: zach2:Paladin:G004: I made an AMA sword as well
+Thu May  2 20:35:20 2019: zach2:Paladin:G004: and a Spell Blast sword
+Thu May  2 20:35:27 2019: zach2:Paladin:G004: but spell blast doesnt seem to work right
+Thu May  2 20:45:26 2019: zach2:Paladin:G004: Dick-Driven
+Thu May  2 20:45:27 2019: zach2:Paladin:G004: lmfao irl
+Thu May  2 20:45:35 2019: zach2:Paladin:G004: but yeah were flushing out the kinks
+Thu May  2 20:47:10 2019: 7bc5207f:5:G004: rofl
+Thu May  2 20:47:15 2019: 7bc5207f:5:G004: I forgot why I did that
+Thu May  2 20:47:19 2019: 7bc5207f:5:G004: but it was for a good reason.
+Thu May  2 20:48:02 2019: zach2:Paladin:G004: can basically do any spell on proc
+Thu May  2 20:49:03 2019: 7bc5207f:5:G004: Fuck yeah
+Thu May  2 20:49:36 2019: 7bc5207f:5:G004: can't wait til you figure out the myst † it'd be crazy having a chance to stun on hit or whatever. esp. if it doesn't interact with MI in the normal sense
+Thu May  2 20:50:21 2019: zach2:Paladin:G004: Yeah, my dads first idea was a club that had a chance to stun
+Thu May  2 20:50:24 2019: zach2:Paladin:G004: lol
+Thu May  2 20:50:34 2019: 7bc5207f:5:G004: Fuck yeah, such a good idea
+Thu May  2 20:50:37 2019: 7bc5207f:5:G004: just tricky as shity
+Thu May  2 20:50:50 2019: 7bc5207f:5:G004: 'cause it'd have to be modified crazy to be viable
+Thu May  2 20:50:52 2019: 7bc5207f:5:G004: but still
+Thu May  2 20:50:55 2019: 7bc5207f:5:G004: the dream is real ‚
+Thu May  2 20:51:02 2019: zach2:Paladin:G004: it is!
+Thu May  2 20:51:09 2019: zach2:Paladin:G004: were doing armor procs now
+Thu May  2 20:51:10 2019: zach2:Paladin:G004: like
+Thu May  2 20:51:26 2019: zach2:Paladin:G004: in combat you get hit in pieces
+Thu May  2 20:51:30 2019: zach2:Paladin:G004: chest/legs/shield etc
+Thu May  2 20:51:48 2019: zach2:Paladin:G004: say we give a chest a proc
+Thu May  2 20:51:55 2019: zach2:Paladin:G004: you get hit in the chest, it can cast invul on you
+Thu May  2 20:51:58 2019: zach2:Paladin:G004: or repel
+Thu May  2 20:53:04 2019: 7bc5207f:5:G004: rofl repel
+Thu May  2 20:53:07 2019: 7bc5207f:5:G004: would be hilarious
+Thu May  2 20:53:12 2019: 7bc5207f:5:G004: especially on a mob
+Thu May  2 20:53:27 2019: 7bc5207f:5:G004: Hit me!
+Thu May  2 20:53:39 2019: 7bc5207f:5:G004: gets ported to other side of screen
+Thu May  2 20:54:48 2019: zach2:Paladin:G004: lolol
+Thu May  2 20:55:22 2019: zach2:Paladin:G004: right now the spells on proc are weak af
+Thu May  2 20:55:25 2019: zach2:Paladin:G004: working on that too
+Thu May  2 20:55:29 2019: zach2:Paladin:G004: and posession
+Thu May  2 20:55:40 2019: zach2:Paladin:G004: If we do a summon on proc it is controlled by your target
+Thu May  2 20:55:59 2019: 7bc5207f:5:G004: What about a summon that's cursed
+Thu May  2 20:56:01 2019: 7bc5207f:5:G004: w/ zerk
+Thu May  2 20:56:15 2019: zach2:Paladin:G004: then it could attack anyone rofl
+Thu May  2 20:56:24 2019: 7bc5207f:5:G004: Yeah that's the drawback
+Thu May  2 20:56:27 2019: 7bc5207f:5:G004: the weight
+Thu May  2 20:56:29 2019: 7bc5207f:5:G004: the sacrifice
+Thu May  2 20:56:33 2019: 7bc5207f:5:G004: maybe maybe maybe
+Thu May  2 20:58:13 2019: 7bc5207f:5:G004: Or if you can find ways to make the myst proc have a chance to backfire
+Thu May  2 20:58:30 2019: 7bc5207f:5:G004: 'cause it'll be hard to weigh the negatives with simple curses like weakened to fire and such.
+Thu May  2 21:00:09 2019: zach2:Paladin:G004: yeah
+Thu May  2 21:00:39 2019: 7bc5207f:5:G004: bleh
+Thu May  2 21:00:42 2019: 7bc5207f:5:G004: why is it already 4
+Thu May  2 21:00:44 2019: 7bc5207f:5:G004: fuck time
+Thu May  2 21:00:45 2019: 7bc5207f:5:G004: rofl
+Thu May  2 21:00:50 2019: zach2:Paladin:G004: times the wurt
+Thu May  2 21:00:53 2019: zach2:Paladin:G004: wurst
+Thu May  2 21:00:53 2019: zach2:Paladin:G004: too
+Thu May  2 21:00:58 2019: 7bc5207f:5:G004: foshodoe
+Thu May  2 21:12:54 2019: 7bc5207f:5:G004: Holy shit lol
+Thu May  2 21:13:06 2019: zach2:Weaponsz:G004: wat
+Thu May  2 21:13:21 2019: zach2:Weaponsz:G004: oh the chest
+Thu May  2 21:13:22 2019: zach2:Weaponsz:G004: lol
+Thu May  2 21:13:45 2019: zach2:Weaponsz:G004: Changed proc chance
+Thu May  2 21:13:47 2019: zach2:Weaponsz:G004: to 10% basically
+Thu May  2 21:18:27 2019: 7bc5207f:5:G004: Rofl
+Thu May  2 21:18:36 2019: 7bc5207f:5:G004: I've left my guy in fight for like 10 minutes now
+Thu May  2 21:18:51 2019: 7bc5207f:5:G004: Is EB healing the whole fight? ‚
+Thu May  2 21:18:55 2019: 7bc5207f:5:G004: couldn't tell
+Thu May  2 21:19:01 2019: 7bc5207f:5:G004: just got a call that the hoods went off at work
+Thu May  2 21:19:05 2019: 7bc5207f:5:G004: so now the place is fucking flooding
+Thu May  2 21:19:15 2019: zach2:Weaponsz:G004: :O 
+Thu May  2 21:19:20 2019: zach2:Weaponsz:G004: no bueno!
+Thu May  2 21:19:25 2019: 7bc5207f:5:G004: Right lol
+Thu May  2 21:19:32 2019: 7bc5207f:5:G004: Fucked up thing is I got the call from the new guy
+Thu May  2 21:20:24 2019: 7bc5207f:5:G004: I fucking hate so much how any work related shit is something I have to find out upon arrival rofl
+Thu May  2 21:20:33 2019: zach2:Weaponsz:G004: yeah no doubt
+Thu May  2 21:23:31 2019: 7bc5207f:5:G004: This is gonna be fun rofl
+Thu May  2 21:23:34 2019: 7bc5207f:5:G004: EIther no work at all
+Thu May  2 21:23:41 2019: 7bc5207f:5:G004: or extra extra work cleaning up bullshit
+Thu May  2 21:23:48 2019: zach2:Weaponsz:G004: I hope its not the latter
+Thu May  2 21:24:12 2019: 7bc5207f:5:G004: Same! We'll see when we get there though. I'll never forget the mess after the place burned down a few years back lol
+Thu May  2 21:24:23 2019: 7bc5207f:5:G004: They kept a few of us on payroll to help with that shit
+Thu May  2 21:24:26 2019: 7bc5207f:5:G004: Good lord
+Thu May  2 21:24:45 2019: 7bc5207f:5:G004: I'm sure I'll have some pictures for discord †
+Thu May  2 21:25:00 2019: zach2:Weaponsz:G004: good lord well good luck hopefully they tell you to just fuck off and not come in rofl
+Thu May  2 21:25:20 2019: 7bc5207f:5:G004: That's what I'm hoping for rofl they haven't even gotten a hold of the owner yet
+Thu May  2 21:25:48 2019: 7bc5207f:5:G004: This chest piece
+Thu May  2 21:25:50 2019: 7bc5207f:5:G004: is god though
+Thu May  2 21:25:52 2019: 7bc5207f:5:G004: for real rofl
+Thu May  2 21:25:54 2019: zach2:Weaponsz:G004: i have bubble guts and I hate everything 
+Thu May  2 21:26:03 2019: 7bc5207f:5:G004: every time this champ gets me half way I get a lucky EB
+Thu May  2 21:26:09 2019: zach2:Weaponsz:G004: lmao thats awesome
+Thu May  2 21:26:23 2019: zach2:Weaponsz:G004: I an add offensive procs to armor now as well
+Thu May  2 21:26:26 2019: zach2:Weaponsz:G004: So i Cn add like
+Thu May  2 21:26:30 2019: zach2:Weaponsz:G004: lightning bolt to some bracers
+Thu May  2 21:26:33 2019: 7bc5207f:5:G004: oooooo shit
+Thu May  2 21:26:40 2019: 7bc5207f:5:G004: That might call for buffs to the graps
+Thu May  2 21:26:43 2019: 7bc5207f:5:G004: grasps* too
+Thu May  2 21:26:48 2019: zach2:Weaponsz:G004: Im gonna get a function going
+Thu May  2 21:26:51 2019: 7bc5207f:5:G004: or new cast-on spells :O
+Thu May  2 21:27:00 2019: zach2:Weaponsz:G004: to where I can call the proc to pull from a defined list of spells
+Thu May  2 21:27:06 2019: 7bc5207f:5:G004: Oh fuck yeah
+Thu May  2 21:27:12 2019: 7bc5207f:5:G004: That'll help for grading
+Thu May  2 21:27:13 2019: zach2:Weaponsz:G004: So I can add a list of spells + zerk to like mages robe
+Thu May  2 21:27:16 2019: zach2:Weaponsz:G004: boom magic zerk
+Thu May  2 21:27:20 2019: 7bc5207f:5:G004: so like the end end can have a big pool of spells
+Thu May  2 21:27:25 2019: 7bc5207f:5:G004: the lower level ones only do one or two
+Thu May  2 21:27:38 2019: 7bc5207f:5:G004: fuck yeah
+Thu May  2 21:27:46 2019: 7bc5207f:5:G004: I remember this being a huge want back then
+Thu May  2 21:27:52 2019: 7bc5207f:5:G004: like "what if" and all that
+Thu May  2 21:27:56 2019: zach2:Weaponsz:G004: yup me too 
+Thu May  2 21:27:59 2019: 7bc5207f:5:G004: crazy seeing it in action
+Thu May  2 21:28:08 2019: zach2:Weaponsz:G004: I know right
+Thu May  2 21:28:16 2019: 7bc5207f:5:G004: Gonna make it that much better for the raid boss
+Thu May  2 21:28:17 2019: 7bc5207f:5:G004: omg
+Thu May  2 21:28:34 2019: 7bc5207f:5:G004: oh hey
+Thu May  2 21:28:41 2019: 7bc5207f:5:G004: That means he can insta gib now
+Thu May  2 21:28:48 2019: 7bc5207f:5:G004: with a chance and everything
+Thu May  2 21:28:51 2019: 7bc5207f:5:G004: well, not exactly, yet
+Thu May  2 21:28:57 2019: 7bc5207f:5:G004: but it's possible, or so it seems!
+Thu May  2 21:28:59 2019: zach2:Weaponsz:G004: oh surely
+Thu May  2 21:29:06 2019: zach2:Weaponsz:G004: I can make a custom spell for him specifically
+Thu May  2 21:29:28 2019: 7bc5207f:5:G004: Fuck me time flew
+Thu May  2 21:29:33 2019: 7bc5207f:5:G004: get in my discord box pls ƒ
+Thu May  2 21:29:35 2019: 7bc5207f:5:G004: I gotta get dressed
+Thu May  2 21:29:38 2019: zach2:Weaponsz:G004: ˆ
+Thu May  2 22:01:50 2019: zach2:Weaponsz:G004: few things on the floor as a proof of concept
+Thu May  2 22:03:11 2019: shroomy1:Pringles:G004: screw it
+Thu May  2 22:03:13 2019: shroomy1:Pringles:G004: onward to dp
+Thu May  2 22:03:55 2019: shroomy1:Pringles:G004: rofl
+Thu May  2 22:04:48 2019: zach2:Weaponsz:G004: xD
+Thu May  2 22:16:47 2019: zach2:Weaponsz:G004: can add any spells to proc
+Thu May  2 22:16:58 2019: zach2:Weaponsz:G004: We have spell proc and reverse proc
+Thu May  2 22:17:07 2019: zach2:Weaponsz:G004: spell proc when you are attacked
+Thu May  2 22:17:26 2019: zach2:Weaponsz:G004: can add offensive proc to armor as well
+Thu May  2 22:17:33 2019: zach2:Weaponsz:G004: like some lightning bolt bracers
+Sun May  5 05:45:13 2019: killer:KillerMcCloud:R 79595000:  erwwqer
+Sun May  5 21:19:34 2019: zach2:Weaponsz:G004: I would wear the finvarra gear 
+Sun May  5 21:19:38 2019: zach2:Weaponsz:G004: its better than the war gear
+Mon May  6 06:54:47 2019: zach2:Weaponsz:R 5029:  …
+Mon May  6 06:54:55 2019: zach2:Weaponsz:R 5029:  :O
+Mon May  6 06:56:20 2019: 7bc5207f:5:R 5029:  5 hits Desert Ratling for 2392HP! Desert Ratling dies.  5 gains 2392HP.
+Mon May  6 06:56:27 2019: zach2:Weaponsz:R 5029:  rood
+Mon May  6 06:56:36 2019: zach2:Weaponsz:R 5029:  go fight a fuckin knight or something
+Mon May  6 06:56:37 2019: zach2:Weaponsz:R 5029:  poor fuckin rat
+Mon May  6 06:56:38 2019: zach2:Weaponsz:R 5029:  ƒ
+Mon May  6 06:56:44 2019: 7bc5207f:5:R 5029:  rofl
+Mon May  6 06:58:09 2019: 7bc5207f:5:G004: Duach wreaks his vengeance on Protector!!  Protector is burned for 53HP!
+Tue May  7 06:01:26 2019: zach2:Weaponsz:R 30037047:  teamviewer ftw
+Thu May  9 08:03:14 2019: zach2:Asdasdd:G004:  /shutdown a
+Fri May 10 04:28:54 2019: zach:Brutis:R 5029:  d
+Sun May 12 08:47:07 2019: zach2:Craig:R 5029:  wtf
+Sun May 12 08:47:17 2019: zach2:Craig:R 5029:  whats wtih your hair
+Sun May 12 08:47:18 2019: stv3:Stvfff:R 5029:  don't speak
+Sun May 12 08:47:22 2019: stv3:Stvfff:R 5029:  no noises
+Sun May 12 08:47:38 2019: stv3:Stvfff:R 5029:  this hair
+Sun May 12 08:47:40 2019: stv3:Stvfff:R 5029:  is going places
+Sun May 12 08:47:49 2019: zach2:Craig:R 5029:  is it glowie or am i tripping
+Sun May 12 08:47:55 2019: stv3:Stvfff:R 5029:  both
+Sun May 12 08:47:59 2019: zach2:Craig:R 5029:  o cool
+Sun May 12 08:47:59 2019: stv3:Stvfff:R 5029:  it's a little to the right
+Sun May 12 08:48:02 2019: stv3:Stvfff:R 5029:  just like my dick
+Sun May 12 08:48:35 2019: zach2:Craig:R 5029:  interesting
+Sun May 12 08:48:35 2019: zach2:Craig:R 5029:  interesting
+Sun May 12 08:48:40 2019: zach2:Craig:R 5029:  o
+Sun May 12 08:48:48 2019: zach2:Craig:R 5029:  it was a bamboozle
+Sun May 12 08:48:51 2019: zach2:Craig:R 5029:  angery
+Sun May 12 08:48:58 2019: stv3:Stvfff:R 5029:  wait
+Sun May 12 08:49:09 2019: stv3:Stvfff:R 5029:  if you have a mental illness
+Sun May 12 08:49:11 2019: stv3:Stvfff:R 5029:  turn the fuck up
+Sun May 12 08:49:14 2019: zach2:Craig:R 5029:  lmfao 
+Sun May 12 08:49:24 2019: zach2:Craig:R 5029:  so
+Sun May 12 08:49:28 2019: zach2:Craig:R 5029:  look at yourself
+Sun May 12 08:49:32 2019: zach2:Craig:R 5029:  and look in skill
+Sun May 12 08:49:33 2019: stv3:Stvfff:R 5029:  idid
+Sun May 12 08:50:29 2019: stv3:Stvfff:R 5029:  oh no
+Sun May 12 08:50:32 2019: stv3:Stvfff:G004: what have you done
+Sun May 12 08:50:36 2019: zach2:Craig:G004: lol
+Sun May 12 08:50:38 2019: stv3:Stvfff:R 5029:  why
+Sun May 12 08:50:41 2019: stv3:Stvfff:R 5029:  would
+Sun May 12 08:50:41 2019: stv3:Stvfff:R 5029:  you
+Sun May 12 08:50:42 2019: stv3:Stvfff:R 5029:  ever
+Sun May 12 08:51:23 2019: stv3:Stvfff:R 5029:  That action is not allowed, the 'Large Storage Box' may only be dropped in your own home.
+Sun May 12 08:51:31 2019: zach2:Craig:R 5029:  So
+Sun May 12 08:51:39 2019: zach2:Craig:R 5029:  SoT was already a broadsword
+Sun May 12 08:51:47 2019: zach2:Craig:R 5029:  so I made a duplicate longsword version
+Sun May 12 08:51:59 2019: zach2:Craig:R 5029:  BS is raw Str based, LS is STR+DEX still 
+Sun May 12 08:52:35 2019: zach2:Craig:R 5029:  I think in this build LS ended up still being stronger for an all str toon so I buffed dmg calcs for BS but havent put the binary here ye
+Sun May 12 08:52:38 2019: zach2:Craig:R 5029:  yet*
+Sun May 12 08:52:50 2019: zach2:Craig:R 5029:  but
+Sun May 12 08:53:13 2019: zach2:Craig:R 5029:  Broadsword is planned to be raw str based, for warriors but will be heavier than longswords
+Sun May 12 08:54:01 2019: zach2:Craig:R 5029:  I dropped skillbooks for broadsword over yonder
+Sun May 12 08:54:47 2019: zach2:Craig:R 5029:  you dont have to do any testing or anything 
+Sun May 12 08:54:57 2019: zach2:Craig:R 5029:  i already did 
+Sun May 12 08:55:04 2019: stv3:Stvfff:R 5029:  dual wield when
+Sun May 12 08:55:11 2019: zach2:Craig:R 5029:  lmao omg
+Sun May 12 08:55:12 2019: zach2:Craig:R 5029:  wow
+Sun May 12 08:55:17 2019: zach2:Craig:R 5029:  why have I never thought of that 
+Sun May 12 08:55:20 2019: zach2:Craig:R 5029:  holy shit
+Sun May 12 08:55:33 2019: zach2:Craig:R 5029:  that cant be hard
+Sun May 12 08:55:37 2019: stv3:Stvfff:R 5029:  Like maybe a sword and dagger combo
+Sun May 12 08:55:45 2019: stv3:Stvfff:R 5029:  or some shit
+Sun May 12 08:55:47 2019: stv3:Stvfff:R 5029:  sounds fun
+Sun May 12 08:55:56 2019: stv3:Stvfff:R 5029:  double throwers
+Sun May 12 08:55:57 2019: stv3:Stvfff:R 5029:  rofl
+Sun May 12 08:55:58 2019: stv3:Stvfff:R 5029:  rofl
+Sun May 12 08:55:58 2019: stv3:Stvfff:R 5029:  rofl
+Sun May 12 08:55:59 2019: stv3:Stvfff:R 5029:  rofl
+Sun May 12 08:56:00 2019: zach2:Craig:R 5029:  lmfaooooo omg
+Sun May 12 08:56:10 2019: stv3:Stvfff:R 5029:  aaaaratatatatatatatatatatatata
+Sun May 12 08:56:16 2019: stv3:Stvfff:R 5029:  raatatatatatatata
+Sun May 12 08:56:16 2019: zach2:Craig:R 5029:  2x length of every fight 
+Sun May 12 08:56:48 2019: stv3:Stvfff:R 5029:  I want to see something like the get over here by Skorpion
+Sun May 12 08:56:56 2019: stv3:Stvfff:R 5029:  either that or an anti-shift
+Sun May 12 08:57:07 2019: stv3:Stvfff:R 5029:  in the sense that a melee can shift to a far away target to hit
+Sun May 12 08:57:24 2019: zach2:Craig:R 5029:   warp blade
+Sun May 12 08:58:01 2019: stv3:Stvfff:R 5029:  You could even re-do short sword to be the new thing if you needed to
+Sun May 12 08:58:28 2019: stv3:Stvfff:R 5029:  if you can't add more I mean
+Sun May 12 09:00:28 2019: zach2:Craig:R 5029:  tru
+Sun May 12 09:00:28 2019: zach2:Craig:R 5029:  tru
+Sun May 12 09:03:06 2019: stv3:Stvfff:R 5029:  fuck me
+Sun May 12 09:03:07 2019: stv3:Stvfff:R 5029:  rofl
+Sun May 12 09:03:11 2019: stv3:Stvfff:R 5029:  just found both immos …
+Sun May 12 09:03:15 2019: stv3:Stvfff:R 5029:  where's my damn eb
+Sun May 12 09:03:17 2019: stv3:Stvfff:R 5029:  and fin grasp
+Sun May 12 09:03:19 2019: zach2:Craig:R 5029:  lmao
+Sun May 12 09:03:20 2019: stv3:Stvfff:R 5029:  salty ass xerxes
+Sun May 12 09:06:00 2019: zach2:Craig:R 5029:  lmfao idiot
+Sun May 12 09:06:15 2019: stv3:Stvfff:R 5029:  this is my house now
+Mon May 13 20:09:13 2019: killer:KillerMcCloud:G004: done
+Mon May 13 20:10:00 2019: zach2:Farts:R 79535000:  Description 
+Mon May 13 20:10:02 2019: zach2:Farts:R 79535000:  isnt updated
+Mon May 13 20:10:05 2019: zach2:Farts:R 79535000:  but
+Mon May 13 20:10:07 2019: zach2:Farts:R 79535000:  what it does is
+Mon May 13 20:10:28 2019: zach2:Farts:R 79535000:  performs a cleave on attack calculated by your strength/crit skill
+Mon May 13 20:10:39 2019: zach2:Farts:R 79535000:  and it does physical damage
+Mon May 13 20:10:48 2019: zach2:Farts:R 79535000:  so its essentially a cleave ability
+Mon May 13 20:10:50 2019: killer:KillerMcCloud:R 79535000:  nice
+Mon May 13 20:10:54 2019: zach2:Farts:R 79535000:  that will scale well for hitters
+Mon May 13 20:11:09 2019: zach2:Farts:R 79535000:  test it out, its pretty awesome
+Mon May 13 20:13:33 2019: zach2:Farts:R 79536000:  Looking at my combat logs, just realized it hits the player too 
+Mon May 13 20:13:40 2019: zach2:Farts:R 79536000:  hmmm thats no bueno 
+Mon May 13 20:13:44 2019: killer:KillerMcCloud:R 79536000:  i am not gm 2 hander on this toon i am master but still did 9k
+Mon May 13 20:14:03 2019: killer:KillerMcCloud:R 79536000:  yeah i was wondering why i took that much damage lol
+Mon May 13 20:14:22 2019: zach2:Farts:R 79536000:  Hit multiple people though right?
+Mon May 13 20:14:35 2019: zach2:Farts:R 79536000:  the sword itself does 1-1 damage
+Mon May 13 20:14:49 2019: zach2:Farts:G004: the big numbers ytoure getting are from my new physical spell sdm
+Mon May 13 20:15:32 2019: zach2:Farts:G004: the sword itself does 1-1 damage
+Mon May 13 20:15:37 2019: killer:KillerMcCloud:G004: yeah 1 hit 3 snkaes then 1 hit the bounty hunters
+Mon May 13 20:15:37 2019: zach2:Farts:G004: well, at base
+Mon May 13 20:15:57 2019: zach2:Farts:G004: recoding it now to only hit NPCs
+Mon May 13 20:16:20 2019: killer:KillerMcCloud:G004: yeha i took about 30k damage 
+Mon May 13 20:16:57 2019: killer:KillerMcCloud:G004: best test would see how they do in slimes‡
+Mon May 13 20:17:04 2019: killer:KillerMcCloud:G004: on*
+Mon May 13 20:17:37 2019: zach2:Farts:G004: yeah I didnt put the LW update here
+Mon May 13 20:17:38 2019: zach2:Farts:G004: lmao
+Mon May 13 20:17:40 2019: zach2:Farts:G004: first place I went tbh
+Mon May 13 20:17:51 2019: killer:KillerMcCloud:G004: its all good
+Mon May 13 20:18:23 2019: killer:KillerMcCloud:G004: as long as you get the coding down right then the rest is adjusted easy
+Mon May 13 20:18:37 2019: zach2:Farts:G004: kk have a new build, gonna reboot in a couple mins
+Mon May 13 20:18:40 2019: zach2:Farts:G004: should only damage NPC now
+Mon May 13 20:18:41 2019: killer:KillerMcCloud:G004: kk
+Mon May 13 20:20:51 2019: killer:KillerMcCloud:G004: g2g
+Mon May 13 20:20:57 2019: zach2:Farts:G004: workin?
+Mon May 13 20:20:58 2019: killer:KillerMcCloud:G004: only hit npcs
+Mon May 13 20:21:01 2019: zach2:Farts:G004: sweet
+Mon May 13 20:21:21 2019: zach2:Farts:G004: brb
+Mon May 13 20:21:37 2019: zach2:Farts:G004: awesome
+Mon May 13 20:21:42 2019: zach2:Farts:G004: so glad it works
+Mon May 13 20:21:52 2019: zach2:Farts:G004: what are you fighting
+Mon May 13 20:22:02 2019: killer:KillerMcCloud:G004: going to the castle rq
+Mon May 13 20:22:10 2019: zach2:Farts:G004: its an empty dungeon here
+Mon May 13 20:22:19 2019: zach2:Farts:G004: Œ
+Mon May 13 20:24:36 2019: killer:KillerMcCloud:G004: dp it is then
+Mon May 13 20:25:10 2019: killer:KillerMcCloud:G004: i already see an issue
+Mon May 13 20:25:34 2019: zach2:Farts:G004: hm
+Mon May 13 20:25:44 2019: killer:KillerMcCloud:G004: i just pre rounded 4 dragons
+Mon May 13 20:25:59 2019: zach2:Farts:G004: Yeah I can fine tune the calculations 
+Mon May 13 20:26:04 2019: zach2:Farts:G004: make it less impactful 
+Mon May 13 20:26:10 2019: zach2:Farts:G004: easier to test though this way
+Mon May 13 20:26:45 2019: killer:KillerMcCloud:G004: 6 dragons prerounded
+Mon May 13 20:28:17 2019: zach2:Farts:G004: this is beautiful
+Mon May 13 20:28:20 2019: zach2:Farts:G004: o man im so happy
+Mon May 13 20:29:02 2019: killer:KillerMcCloud:G004: i am just walking right through this place lol
+Mon May 13 20:29:43 2019: zach2:Farts:G004: lmao
+Mon May 13 20:31:32 2019: d9c50b:ChrisTest:G004: kk
+Mon May 13 20:31:48 2019: killer:KillerMcCloud:G004: another issue
+Mon May 13 20:32:10 2019: zach2:Farts:G004: Chris youre gonna crash
+Mon May 13 20:32:14 2019: zach2:Farts:G004: just FYI
+Mon May 13 20:32:37 2019: killer:KillerMcCloud:G004: i am in lost woods and only hitting for the 1-1 rate
+Mon May 13 20:32:42 2019: zach2:Farts:G004: he logged before I could crash him lol 
+Mon May 13 20:32:57 2019: zach2:Farts:G004: Yeah I may need to switch the spell to be in the sorcery circle
+Mon May 13 20:33:07 2019: zach2:Farts:G004: so nothing really resists it
+Mon May 13 20:33:18 2019: zach2:Farts:G004: Christ
+Mon May 13 20:33:23 2019: zach2:Farts:G004: Chris*
+Mon May 13 20:33:25 2019: d9c50b:ChrisTest:G004: *
+Mon May 13 20:33:30 2019: d9c50b:ChrisTest:G004: Youy had it right the first time
+Mon May 13 20:33:31 2019: zach2:Farts:G004: oh you already leveled cool
+Mon May 13 20:33:33 2019: d9c50b:ChrisTest:G004: Yes, my child.
+Mon May 13 20:33:38 2019: zach2:Farts:G004: lmfao
+Mon May 13 20:34:07 2019: zach2:Farts:G004: I made a cleave ability that is calc'd by your Str/Crit
+Mon May 13 20:34:14 2019: zach2:Farts:G004: sam as how spells are int/med
+Mon May 13 20:34:16 2019: zach2:Farts:G004: same*
+Mon May 13 20:34:20 2019: d9c50b:ChrisTest:G004: Oooh
+Mon May 13 20:34:38 2019: zach2:Farts:G004: I can assign proc chance for cleave now to weapons
+Mon May 13 20:34:57 2019: zach2:Farts:G004: That one has 100% chance as signed, but still sometimes gets in a swing or two where it doesnt proc
+Mon May 13 20:35:10 2019: zach2:Farts:G004: The sword atm does 1-1 base dmg just to see difference in sword swing/cleave
+Mon May 13 20:35:19 2019: d9c50b:ChrisTest:R 5029:  Fuck I need to hit 5k
+Mon May 13 20:35:20 2019: d9c50b:ChrisTest:R 5029:  Lmao
+Mon May 13 20:35:20 2019: zach2:Farts:G004: also desc isnt updated
+Mon May 13 20:35:23 2019: d9c50b:ChrisTest:R 5029:  I need this chanting baldy
+Mon May 13 20:35:26 2019: zach2:Farts:R 5029:  lol
+Mon May 13 20:35:29 2019: zach2:Farts:R 5029:  oh
+Mon May 13 20:35:30 2019: zach2:Farts:R 5029:  on test
+Mon May 13 20:35:35 2019: zach2:Farts:R 5029:  all chants work until 11x
+Mon May 13 20:35:37 2019: d9c50b:ChrisTest:R 5029:  Oh that's right
+Mon May 13 20:35:38 2019: d9c50b:ChrisTest:R 5029:  Duh
+Mon May 13 20:35:47 2019: zach2:Farts:R 5029:  Yeah I did all of my testing for the baldy here
+Mon May 13 20:35:49 2019: zach2:Farts:R 5029:  released it
+Mon May 13 20:35:51 2019: zach2:Farts:R 5029:  then was like
+Mon May 13 20:35:53 2019: zach2:Farts:R 5029:  .....wait
+Mon May 13 20:36:08 2019: zach2:Farts:R 5029:  I think Stv got to like 7x
+Mon May 13 20:36:15 2019: zach2:Farts:R 5029:  He got a soft fail and stopped tho
+Mon May 13 20:37:00 2019: zach2:Farts:R 5029:  lmao go level off screen
+Mon May 13 20:37:02 2019: zach2:Farts:R 5029:  crashed all of us
+Mon May 13 20:37:07 2019: killer:KillerMcCloud:R 5029:  ‡
+Mon May 13 20:37:09 2019: zach2:Farts:R 5029:  for future reference
+Mon May 13 20:37:10 2019: zach2:Farts:R 5029:  rofl
+Mon May 13 20:37:23 2019: zach2:Farts:R 5029:  Me and stone been testing it for a few mins
+Mon May 13 20:37:27 2019: zach2:Farts:R 5029:  already rewrote it once 
+Mon May 13 20:37:40 2019: zach2:Farts:R 5029:  would hit player before, now only NPCs
+Mon May 13 20:38:31 2019: killer:KillerMcCloud:R 5029:  also it didnt proc at all out in LW 
+Mon May 13 20:38:43 2019: zach2:Farts:R 5029:  I think cause its technically a necro spell
+Mon May 13 20:38:45 2019: killer:KillerMcCloud:R 5029:  well atleast on the fight i got into
+Mon May 13 20:38:55 2019: zach2:Farts:R 5029:  what did you fight
+Mon May 13 20:39:06 2019: killer:KillerMcCloud:R 5029:  one of the rog things
+Mon May 13 20:39:18 2019: zach2:Farts:R 5029:  yeah they are 100% necro resist
+Mon May 13 20:39:29 2019: killer:KillerMcCloud:R 5029:  also a daemon and undead
+Mon May 13 20:39:38 2019: zach2:Farts:R 5029:  also 100% necro resist
+Mon May 13 20:39:52 2019: zach2:Farts:R 5029:  Thats why Im gonna try to switch it to sorc
+Mon May 13 20:39:59 2019: zach2:Farts:R 5029:  it wont be a castable spell
+Mon May 13 20:40:01 2019: killer:KillerMcCloud:R 5029:  yeah would be a good idea 
+Mon May 13 20:40:28 2019: zach2:Farts:R 5029:  I may add a mana drain to it
+Mon May 13 20:40:30 2019: zach2:Farts:R 5029:  like the MM
+Mon May 13 20:40:34 2019: zach2:Farts:R 5029:  well
+Mon May 13 20:40:37 2019: zach2:Farts:R 5029:  depends
+Mon May 13 20:40:45 2019: zach2:Farts:R 5029:  if I make just one weapon cleave or multiple
+Mon May 13 20:40:52 2019: zach2:Farts:R 5029:  I think its just going to be one, at least for now
+Mon May 13 20:40:55 2019: zach2:Farts:R 5029:  and high level
+Mon May 13 20:41:01 2019: zach2:Farts:R 5029:  like 2500
+Mon May 13 20:41:19 2019: zach2:Farts:R 5029:  or higher tbh 
+Mon May 13 20:41:19 2019: killer:KillerMcCloud:R 5029:  i was thinking maybe like a lvl achievement thing
+Mon May 13 20:41:20 2019: zach2:Farts:R 5029:  ifk
+Mon May 13 20:41:28 2019: zach2:Farts:R 5029:  idk* 
+Mon May 13 20:41:30 2019: zach2:Farts:R 5029:  thats a good idea
+Mon May 13 20:41:43 2019: zach2:Farts:R 5029:  but, if its a weapon what happens if you pop it lol
+Mon May 13 20:41:49 2019: killer:KillerMcCloud:R 5029:  that cleave can do some real damage esp for a tank toon
+Mon May 13 20:42:12 2019: zach2:Farts:R 5029:  level another 2500 levels for another?
+Mon May 13 20:42:14 2019: zach2:Farts:R 5029:  lol
+Mon May 13 20:42:17 2019: killer:KillerMcCloud:R 5029:  lol
+Mon May 13 20:42:24 2019: killer:KillerMcCloud:R 5029:  yeah i understand that 
+Mon May 13 20:42:35 2019: zach2:Farts:R 5029:  maybe an orb
+Mon May 13 20:42:39 2019: zach2:Farts:R 5029:  with like
+Mon May 13 20:42:39 2019: d9c50b:ChrisTest:G004: Lmfao
+Mon May 13 20:42:40 2019: zach2:Farts:R 5029:  100 uses
+Mon May 13 20:42:46 2019: killer:KillerMcCloud:R 5029:  but at the same time what pro chance are you going to give it and also what damage as well
+Mon May 13 20:42:46 2019: d9c50b:ChrisTest:G004: Just 1 rounded the 12 BD ambush in ADD
+Mon May 13 20:42:56 2019: zach2:Farts:G004: lmao
+Mon May 13 20:43:01 2019: killer:KillerMcCloud:R 5029:  proc*
+Mon May 13 20:43:02 2019: zach2:Farts:G004: yeah the damage #s will drop a bit
+Mon May 13 20:43:12 2019: d9c50b:ChrisTest:G004: *Working as intended*
+Mon May 13 20:43:12 2019: d9c50b:ChrisTest:G004: Lol
+Mon May 13 20:43:17 2019: killer:KillerMcCloud:G004: i prerounded DP
+Mon May 13 20:43:49 2019: d9c50b:ChrisTest:G004: Atleast you're doing something to make hitters more of a meatshield
+Mon May 13 20:43:57 2019: d9c50b:ChrisTest:G004: Do think you'll need more than 1
+Mon May 13 20:43:58 2019: killer:KillerMcCloud:G004: yeha i agree
+Mon May 13 20:44:05 2019: d9c50b:ChrisTest:G004: A 1h and a 2h
+Mon May 13 20:44:20 2019: zach2:Farts:G004: can you guys group up and go fight something
+Mon May 13 20:44:28 2019: zach2:Farts:G004: see if you proc eachother
+Mon May 13 20:44:30 2019: killer:KillerMcCloud:G004: 1 hander 2 sq and the 2 hander 3 sq
+Mon May 13 20:44:33 2019: zach2:Farts:G004: shouldnt, but I wanna be certain
+Mon May 13 20:44:46 2019: d9c50b:ChrisTest:R 5029:  Join
+Mon May 13 20:44:53 2019: zach2:Farts:G004: Good point chris
+Mon May 13 20:44:58 2019: zach2:Farts:G004: I was talking to stone
+Mon May 13 20:45:03 2019: zach2:Farts:G004: What about a level reward
+Mon May 13 20:45:11 2019: zach2:Farts:G004: but its an orb that applies the proc 
+Mon May 13 20:45:20 2019: d9c50b:ChrisTest:G004: Does it make it permanent?
+Mon May 13 20:45:29 2019: zach2:Farts:G004: no it will last until relog
+Mon May 13 20:45:33 2019: d9c50b:ChrisTest:G004: Ah
+Mon May 13 20:45:36 2019: zach2:Farts:G004: but orb can have like 1000 charges
+Mon May 13 20:45:40 2019: zach2:Farts:G004: and be recharged
+Mon May 13 20:45:51 2019: d9c50b:ChrisTest:G004: Note to Stone
+Mon May 13 20:45:56 2019: d9c50b:ChrisTest:G004: Don't wear a ring of zerk
+Mon May 13 20:45:58 2019: d9c50b:ChrisTest:G004: In a grp
+Mon May 13 20:46:01 2019: zach2:Farts:G004: lmfao
+Mon May 13 20:46:44 2019: d9c50b:ChrisTest:G004: Attack blue
+Mon May 13 20:47:22 2019: killer:KillerMcCloud:G004: 5 sec timer
+Mon May 13 20:47:40 2019: d9c50b:ChrisTest:G004: Fix the timer?
+Mon May 13 20:47:41 2019: killer:KillerMcCloud:G004: all good now
+Mon May 13 20:48:18 2019: d9c50b:ChrisTest:G004: idt it's proccing on each other
+Mon May 13 20:49:10 2019: d9c50b:ChrisTest:G004: Nah it isn't hitting stone
+Mon May 13 20:49:15 2019: zach2:Farts:G004: dope
+Mon May 13 20:49:16 2019: d9c50b:ChrisTest:G004: And vice versa
+Mon May 13 20:49:22 2019: zach2:Farts:G004: now just need to tweak calculation
+Mon May 13 20:52:22 2019: zach2:Farts:G004: Yall test the new sharpened wand?
+Mon May 13 20:52:30 2019: d9c50b:ChrisTest:G004: Man why couldn't this be live
+Mon May 13 20:52:31 2019: d9c50b:ChrisTest:G004: I need EBƒ
+Mon May 13 20:53:11 2019: zach2:Farts:R 5029:  lol ouch
+Mon May 13 20:53:21 2019: zach2:Farts:R 5029:  21k poison tick
+Mon May 13 20:53:22 2019: zach2:Farts:R 5029:  nbd
+Mon May 13 20:53:24 2019: d9c50b:ChrisTest:R 5029:  Lol
+Mon May 13 20:54:23 2019: d9c50b:ChrisTest:R 5029:  What lvl would you make the orb reward
+Mon May 13 20:54:25 2019: d9c50b:ChrisTest:R 5029:  If you did?
+Mon May 13 20:54:30 2019: zach2:Farts:R 5029:  man idk
+Mon May 13 20:54:40 2019: zach2:Farts:R 5029:  thinking of maybe just restricting it to a weapon that drops
+Mon May 13 20:54:46 2019: zach2:Farts:R 5029:  just one cleaver
+Mon May 13 20:55:01 2019: zach2:Farts:R 5029:  orb sounds op
+Mon May 13 20:55:04 2019: zach2:Farts:R 5029:  doesnt it
+Mon May 13 20:55:05 2019: d9c50b:ChrisTest:R 5029:  Should fuck with people and make it a 1h
+Mon May 13 20:55:06 2019: d9c50b:ChrisTest:R 5029:  Lol
+Mon May 13 20:55:12 2019: d9c50b:ChrisTest:R 5029:  Like a butcher's cleaver
+Mon May 13 20:55:27 2019: zach2:Farts:R 5029:  right
+Mon May 13 20:56:34 2019: killer:KillerMcCloud:G004: afk
+Mon May 13 20:57:48 2019: zach2:Farts:R 5029:  yeah think im just gonna make the one cleaver
+Mon May 13 20:57:56 2019: d9c50b:ChrisTest:R 5029:  That works
+Mon May 13 20:58:12 2019: zach2:Farts:R 5029:  is 'Cleaver' too on the nose
+Mon May 13 20:58:33 2019: zach2:Farts:R 5029:  Also, should be an Axe right?
+Mon May 13 20:58:48 2019: zach2:Farts:R 5029:  def should be an Axe
+Mon May 13 20:59:52 2019: zach2:Farts:R 5029:  HoD style'd
+Mon May 13 20:59:53 2019: d9c50b:ChrisTest:R 5029:  Probably
+Mon May 13 21:00:59 2019: zach2:Farts:R 5029:  Level 2500 
+Mon May 13 21:01:11 2019: zach2:Farts:R 5029:  375-495 on actual swing
+Mon May 13 21:01:13 2019: zach2:Farts:R 5029:  15 stone
+Mon May 13 21:01:18 2019: zach2:Farts:R 5029:  +3 Attack
+Mon May 13 21:02:14 2019: d9c50b:ChrisTest:R 5029:  Sounds beautiful
+Mon May 13 21:02:35 2019: zach2:Farts:R 5029:  Need to tweak calcs for cleave though
+Mon May 13 21:02:40 2019: d9c50b:ChrisTest:R 5029:  Yeah
+Mon May 13 21:02:52 2019: zach2:Farts:R 5029:  Switched it to sorc, and lowered the numbers on the calc
+Mon May 13 21:03:06 2019: d9c50b:ChrisTest:R 5029:  Oh so it doesn't get resisted
+Mon May 13 21:03:06 2019: d9c50b:ChrisTest:R 5029:  Nice
+Mon May 13 21:03:12 2019: zach2:Farts:R 5029:  yep
+Mon May 13 21:03:13 2019: zach2:Farts:R 5029:  hopefully
+Mon May 13 21:03:24 2019: zach2:Farts:R 5029:  I think there are a few things with *some* sorc resist
+Mon May 13 21:03:27 2019: zach2:Farts:R 5029:  because they have flat magic resist
+Mon May 13 21:03:37 2019: zach2:Farts:R 5029:  like I tihnk fufu has flat magic resist
+Mon May 13 21:03:45 2019: d9c50b:ChrisTest:R 5029:  Gotcha
+Mon May 13 21:05:55 2019: zach2:Farts:R 5029:  kk gonna reboot, weapon finalized, calcs reduced, switched to sorc
+Mon May 13 21:06:08 2019: zach2:Farts:R 5029:  brb
+Mon May 13 21:23:47 2019: killer:KillerMcCloud:G004: still damn near prerounding in dp
+Mon May 13 21:26:51 2019: killer:KillerMcCloud:G004: def has a range to the proc witch i like
+Mon May 13 21:29:19 2019: killer:KillerMcCloud:G004: ok have to go build the new toy.. aka bbq
+Mon May 13 21:29:57 2019: zach2:Farts:G004: FUn 
+Mon May 13 21:30:17 2019: killer:KillerMcCloud:G004: we shall see lol
+Mon May 13 21:33:22 2019: zach2:Farts:G004: Think I fixed the resists too 
+Mon May 13 21:33:29 2019: zach2:Farts:G004: Killed a rog with the cleaver 
+Mon May 13 21:39:07 2019: rog:Delbert:R 88507012:  glove
+Mon May 13 22:56:28 2019: zach2:Farts:G004: You should prolly get around 50 str as well
+Mon May 13 22:56:35 2019: zach2:Farts:G004: 48-50
+Mon May 13 22:56:39 2019: zach2:Farts:G004: if youre asgw
+Mon May 13 23:00:43 2019: d9c50b:ChrisTest:R 5029:  46 str
+Mon May 13 23:00:44 2019: d9c50b:ChrisTest:R 5029:  Lol
+Mon May 13 23:00:50 2019: d9c50b:ChrisTest:R 5029:  And I'm 4str/4end
+Mon May 13 23:00:55 2019: zach2:Farts:R 5029:  re-equip everything
+Mon May 13 23:01:01 2019: d9c50b:ChrisTest:R 5029:  I relogged
+Mon May 13 23:01:04 2019: zach2:Farts:R 5029:  oh word
+Mon May 13 23:01:06 2019: zach2:Farts:R 5029:  kk
+Mon May 13 23:01:19 2019: zach2:Farts:R 5029:  That is a good chunk of str
+Mon May 13 23:01:20 2019: zach2:Farts:R 5029:  haha
+Mon May 13 23:02:10 2019: d9c50b:ChrisTest:R 5029:  This ring work?
+Mon May 13 23:02:14 2019: zach2:Farts:R 5029:  yep
+Mon May 13 23:02:15 2019: d9c50b:ChrisTest:R 5029:  Desc says appears to be a plain copper ring
+Mon May 13 23:02:22 2019: zach2:Farts:R 5029:  oh
+Mon May 13 23:02:23 2019: zach2:Farts:R 5029:  dang
+Mon May 13 23:02:26 2019: zach2:Farts:R 5029:  it does tho
+Mon May 13 23:02:36 2019: zach2:Farts:G004: oh
+Mon May 13 23:02:44 2019: zach2:Farts:G004: its cause I dont typically flush things out on test
+Mon May 13 23:02:57 2019: d9c50b:ChrisTest:G004: What do you mean?
+Mon May 13 23:03:03 2019: zach2:Farts:G004: A lot of the time I only write descriptions etc for items on main
+Mon May 13 23:03:09 2019: d9c50b:ChrisTest:G004: Ah
+Mon May 13 23:03:10 2019: zach2:Farts:G004: here they dont ever get 'finished'
+Mon May 13 23:03:16 2019: zach2:Farts:G004: Not everything but some stuff
+Mon May 13 23:03:18 2019: d9c50b:ChrisTest:G004: 5-67k
+Mon May 13 23:03:23 2019: d9c50b:ChrisTest:G004: 5-7k*
+Mon May 13 23:03:27 2019: zach2:Farts:G004: I was like O.o
+Mon May 13 23:03:31 2019: zach2:Farts:G004: What did I do wrong
+Mon May 13 23:03:32 2019: zach2:Farts:G004: lmfao
+Mon May 13 23:03:39 2019: d9c50b:ChrisTest:G004: Lmao
+Mon May 13 23:03:53 2019: zach2:Farts:G004: That seems pretty decent to me
+Mon May 13 23:03:59 2019: zach2:Farts:G004: Well
+Mon May 13 23:04:02 2019: zach2:Farts:G004: Compare
+Mon May 13 23:04:06 2019: zach2:Farts:G004: Howm uch dmg you do with Agony
+Mon May 13 23:04:14 2019: zach2:Farts:G004: I think thats that 2nd highest dps right now
+Mon May 13 23:04:17 2019: d9c50b:ChrisTest:G004: Wanna bring me one?
+Mon May 13 23:04:19 2019: zach2:Farts:G004: ye
+Mon May 13 23:04:22 2019: zach2:Farts:G004: ill chant
+Mon May 13 23:04:22 2019: zach2:Farts:G004: sec
+Mon May 13 23:04:29 2019: d9c50b:ChrisTest:G004: I can chant rofl
+Mon May 13 23:04:30 2019: d9c50b:ChrisTest:G004: Take you 20 mins
+Mon May 13 23:04:32 2019: zach2:Farts:G004: kk
+Mon May 13 23:04:33 2019: zach2:Farts:G004: lmao
+Mon May 13 23:04:36 2019: zach2:Farts:G004: fair
+Mon May 13 23:04:54 2019: zach2:Farts:G004: I keep typing
+Mon May 13 23:04:56 2019: zach2:Farts:G004: ChrstTest
+Mon May 13 23:04:59 2019: zach2:Farts:G004: Christ*
+Mon May 13 23:05:01 2019: zach2:Farts:G004: idk why 
+Mon May 13 23:05:27 2019: zach2:Farts:G004: Have you tested the magic zerk yet? 
+Mon May 13 23:05:37 2019: zach2:Farts:G004: Thats real fun too
+Mon May 13 23:05:44 2019: d9c50b:ChrisTest:G004: Not yet
+Mon May 13 23:06:08 2019: zach2:Farts:G004: Proly wont be great for war, procs will calc on SDM 
+Mon May 13 23:06:30 2019: d9c50b:ChrisTest:G004: About same single target dmg
+Mon May 13 23:06:41 2019: zach2:Farts:G004: Dont really know of any other physical based spell I could use for warrior procs
+Mon May 13 23:06:44 2019: zach2:Farts:G004: Excellent~
+Mon May 13 23:06:46 2019: zach2:Farts:G004: ! *
+Mon May 13 23:07:04 2019: zach2:Farts:G004: Bludgeon Stuns on swing
+Mon May 13 23:07:05 2019: zach2:Farts:G004: Cleaver cleaves
+Mon May 13 23:07:11 2019: zach2:Farts:G004: lol what else even is there
+Mon May 13 23:07:59 2019: zach2:Farts:G004: Thinking of other melee based combat actions, there is shit like Ripsote etc but that would be more combat action than spell proc
+Mon May 13 23:08:45 2019: d9c50b:ChrisTest:G004: Riposte wpould be cool
+Mon May 13 23:09:01 2019: zach2:Farts:G004: Yeah, would require insane amount of coding though
+Mon May 13 23:09:16 2019: zach2:Farts:G004: To add as a combat action 
+Mon May 13 23:09:20 2019: zach2:Farts:G004: like charge, guard etc
+Mon May 13 23:09:34 2019: d9c50b:ChrisTest:G004: Yeah
+Mon May 13 23:10:00 2019: zach2:Farts:G004: So single target is roughly the same as aoe on cleave?
+Mon May 13 23:10:05 2019: d9c50b:ChrisTest:G004: Yeah
+Mon May 13 23:10:10 2019: zach2:Farts:G004: Cool then I think the calcs are done
+Mon May 13 23:10:21 2019: zach2:Farts:G004: basically ready to go live now
+Mon May 13 23:10:48 2019: d9c50b:ChrisTest:G004: Just need to know where it drops‡
+Mon May 13 23:10:55 2019: zach2:Farts:G004: Thats the hard part
+Mon May 13 23:11:08 2019: zach2:Farts:G004: for 2500 I dont have anywhere thats really pheasible as a drop
+Mon May 13 23:11:20 2019: d9c50b:ChrisTest:G004: The only thing I can think of is Faf
+Mon May 13 23:11:25 2019: d9c50b:ChrisTest:G004: Since he's a bitch to get to
+Mon May 13 23:11:29 2019: zach2:Farts:G004: Sewer/Xerxes I guess would be the latest end game stuff, save castle but thats so laughibly farmable
+Mon May 13 23:11:40 2019: zach2:Farts:G004: Fafnir is a good idea
+Mon May 13 23:11:53 2019: d9c50b:ChrisTest:G004: I know when I do DP
+Mon May 13 23:11:56 2019: d9c50b:ChrisTest:G004: I just farm Lib
+Mon May 13 23:12:00 2019: d9c50b:ChrisTest:G004: Cause I can't do Hatch
+Mon May 13 23:12:33 2019: d9c50b:ChrisTest:G004: May have been able to
+Mon May 13 23:12:36 2019: d9c50b:ChrisTest:G004: Before the spell tuning
+Mon May 13 23:13:33 2019: zach2:Farts:G004: Im going to eventually address that as well
+Mon May 13 23:13:46 2019: zach2:Farts:G004: Then again, it could be used as soft level gating dungeons 
+Mon May 13 23:14:03 2019: zach2:Farts:G004: Wanna do DP? Be able to survive a 40k EQ or w/e
+Mon May 13 23:14:14 2019: d9c50b:ChrisTest:G004: Wiz is 2900 and adv is 1900
+Mon May 13 23:14:49 2019: zach2:Farts:G004: Oo maybe not
+Mon May 13 23:14:55 2019: zach2:Farts:G004: lol
+Mon May 13 23:15:02 2019: zach2:Farts:G004: I mean
+Mon May 13 23:15:14 2019: zach2:Farts:G004: has anyone even tried AMA. Spell Blast etc
+Mon May 13 23:15:18 2019: zach2:Farts:G004: , * 
+Mon May 13 23:15:21 2019: d9c50b:ChrisTest:G004: Well
+Mon May 13 23:15:23 2019: d9c50b:ChrisTest:G004: That would work
+Mon May 13 23:15:30 2019: d9c50b:ChrisTest:G004: Except hitters aren't the greatest atm
+Mon May 13 23:16:21 2019: zach2:Farts:G004: Hoping to bridge that gap with this cleave and the upcoming broadsword
+Mon May 13 23:16:28 2019: d9c50b:ChrisTest:G004: Lol handles
+Mon May 13 23:16:34 2019: zach2:Farts:G004: Hoping to bridge that gap with this cleave and the upcoming broadsword
+Mon May 13 23:16:54 2019: d9c50b:ChrisTest:G004: Broadsword an actual new skill?
+Mon May 13 23:16:58 2019: zach2:Farts:G004: yeah
+Mon May 13 23:17:02 2019: d9c50b:ChrisTest:G004: Nice
+Mon May 13 23:17:05 2019: zach2:Farts:G004: If I send you an updated sciw
+Mon May 13 23:17:09 2019: zach2:Farts:G004: its working here atm
+Mon May 13 23:17:19 2019: zach2:Farts:G004: need new sciw and skin file
+Mon May 13 23:17:26 2019: zach2:Farts:G004: Gonna eventually work them into an update
+Mon May 13 23:17:31 2019: zach2:Farts:G004: to DL to client
+Mon May 13 23:18:24 2019: zach2:Farts:G004: but yeah, Broadsword will be a raw str calculated 1 hander
+Mon May 13 23:18:32 2019: zach2:Farts:G004: Since Wars dont have any anymore
+Mon May 13 23:18:35 2019: d9c50b:ChrisTest:G004: Instead of str/dex?
+Mon May 13 23:18:37 2019: zach2:Farts:G004: mhm
+Mon May 13 23:19:12 2019: zach2:Farts:G004: 100% working too 
+Mon May 13 23:19:14 2019: zach2:Farts:G004: Already
+Mon May 13 23:19:19 2019: zach2:Farts:G004: Just need to build patch
+Mon May 13 23:19:34 2019: d9c50b:ChrisTest:G004: Nice
+Mon May 13 23:19:36 2019: zach2:Farts:G004: I will then be converting some Longswords to broadswords
+Mon May 13 23:19:46 2019: zach2:Farts:G004: and making more broadswords, if need be
+Mon May 13 23:19:56 2019: zach2:Farts:G004: Some actually existed already
+Mon May 13 23:20:00 2019: d9c50b:ChrisTest:G004: Yeah
+Mon May 13 23:20:05 2019: d9c50b:ChrisTest:G004: Fin Defender
+Mon May 13 23:20:05 2019: d9c50b:ChrisTest:G004: SoT
+Mon May 13 23:20:06 2019: d9c50b:ChrisTest:G004: Etc
+Mon May 13 23:20:07 2019: zach2:Farts:G004: Broadsword existed already as a class but was just a branch of LS
+Mon May 13 23:20:09 2019: zach2:Farts:G004: yeah 
+Mon May 13 23:20:14 2019: zach2:Farts:G004: So those auto converted
+Mon May 13 23:21:10 2019: zach2:Farts:G004: BS already has unique damage calcs, and working skillbooks, skill display
+Mon May 13 23:21:10 2019: d9c50b:ChrisTest:G004: Well this cleave thing is dope
+Mon May 13 23:21:19 2019: d9c50b:ChrisTest:G004: Brb to test zerk wand
+Mon May 13 23:21:23 2019: zach2:Farts:G004: Š
+Mon May 13 23:21:33 2019: d9c50b:Grief:G004: Shit
+Mon May 13 23:21:34 2019: d9c50b:Grief:G004:  /learn me
+Mon May 13 23:21:58 2019: d9c50b:Grief:G004: ty
+Mon May 13 23:23:34 2019: d9c50b:Grief:G004: Oh this is dope
+Mon May 13 23:24:06 2019: d9c50b:Grief:G004: And this is from WB?
+Mon May 13 23:24:27 2019: zach2:Farts:G004: Idr lol
+Mon May 13 23:24:31 2019: zach2:Farts:G004: I tihnk so?
+Mon May 13 23:24:32 2019: zach2:Farts:G004: though
+Mon May 13 23:24:43 2019: zach2:Farts:G004: now that you pointed out the Fafnir thing..
+Mon May 13 23:29:24 2019: zach2:Farts:G004: Im moving all the 2500 weapons to faf
+Mon May 13 23:29:43 2019: zach2:Farts:G004: Repeller, Cleaver, Wand, Death Wish
+Mon May 13 23:32:13 2019: d9c50b:Grief:G004: ƒ
+Mon May 13 23:32:42 2019: zach2:Farts:G004: You notice the wand reduces your SDM by 500%?
+Mon May 13 23:34:04 2019: d9c50b:Grief:G004: I didn't
+Mon May 13 23:34:16 2019: zach2:Farts:G004: At like 1800% SDM the spells it casted were just dump OP 
+Mon May 13 23:34:24 2019: d9c50b:Grief:G004: Oh
+Mon May 13 23:34:26 2019: d9c50b:Grief:G004: Circle
+Mon May 13 23:34:32 2019: zach2:Farts:G004: yeah, sorry lol
+Mon May 13 23:34:33 2019: d9c50b:Grief:G004: Not sdm
+Mon May 13 23:34:34 2019: d9c50b:Grief:G004: Lol
+Mon May 13 23:34:54 2019: zach2:Farts:G004: lol important distinction 
+Mon May 13 23:35:00 2019: d9c50b:Grief:G004: Just a little
+Mon May 13 23:35:05 2019: d9c50b:Grief:G004: Fuck I should've saved gold
+Mon May 13 23:35:08 2019: d9c50b:Grief:G004: ƒ
+Mon May 13 23:35:23 2019: zach2:Farts:G004: lmao Œ 
+Mon May 13 23:35:44 2019: d9c50b:Grief:G004: 2x loot WB spawn? *wink wink*
+Thu May 16 04:47:17 2019: yid7uixp:HarkelHarpell:G004: Mabon fills the battle with fear!
+Thu May 16 04:47:19 2019: yid7uixp:HarkelHarpell:G004: Wasp left
+Thu May 16 04:47:21 2019: yid7uixp:HarkelHarpell:G004: Immediately
+Thu May 16 04:47:45 2019: zach2:Farts:G004: Yup
+Thu May 16 04:47:48 2019: zach2:Farts:G004: That worked
+Thu May 16 04:47:49 2019: zach2:Farts:G004: but
+Thu May 16 04:47:56 2019: zach2:Farts:G004: 100% forces enemy to exit combat
+Thu May 16 04:48:04 2019: zach2:Farts:G004: I can prolly add a andomizer in there
+Thu May 16 04:48:08 2019: zach2:Farts:G004: randomizer
+Thu May 16 04:48:20 2019: zach2:Farts:G004: tested in DP just now
+Thu May 16 04:48:33 2019: yid7uixp:HarkelHarpell:G004: Nice
+Thu May 16 04:49:44 2019: yid7uixp:HarkelHarpell:G004: Also I just started a fresh dp
+Thu May 16 04:49:50 2019: yid7uixp:HarkelHarpell:G004: So gonna be like a 1/2 hr before you can boot
+Thu May 16 04:49:50 2019: yid7uixp:HarkelHarpell:G004: Lol
+Thu May 16 04:50:00 2019: zach2:Farts:G004: on main?
+Thu May 16 04:50:02 2019: zach2:Farts:G004: thats fine 
+Thu May 16 04:50:44 2019: yid7uixp:HarkelHarpell:G004: Lowering the intel on the bog
+Thu May 16 04:50:46 2019: yid7uixp:HarkelHarpell:G004: Helped a ton
+Thu May 16 04:54:00 2019: zach2:Farts:G004: awesome
+Thu May 16 06:43:49 2019: 7bc5207f:Mhm:G004: help
+Thu May 16 06:46:08 2019: zach2:Farts:G004: lol
+Thu May 16 06:46:39 2019: 163dd357:NotStv:G004: gimme 1k levels ;p
+Thu May 16 06:47:27 2019: 163dd357:NotStv:G004: again ƒ
+Thu May 16 06:47:51 2019: zach2:Farts:G004: brb
+Thu May 16 06:47:58 2019: 163dd357:NotStv:G004: oh that was only 100
+Thu May 16 06:51:33 2019: 163dd357:NotStv:R 5029:  that was only 100
+Thu May 16 06:51:36 2019: 163dd357:NotStv:R 5029:  need 1000
+Thu May 16 06:52:35 2019: zach2:Farts:R 5029:  oh
+Thu May 16 06:52:36 2019: zach2:Farts:R 5029:  rofl
+Thu May 16 06:54:28 2019: 163dd357:NotStv:G004: very excite
+Thu May 16 06:55:10 2019: 163dd357:NotStv:G004: can you set my attributes
+Thu May 16 06:55:13 2019: 163dd357:NotStv:G004: or change them I mean?
+Thu May 16 06:55:21 2019: zach2:Farts:G004: yes
+Thu May 16 06:58:18 2019: 163dd357:NotStv:G004: I think I made it better
+Thu May 16 06:58:28 2019: 7bc5207f:Betteridea:R 5029:  I think it's better
+Thu May 16 06:58:34 2019: 7bc5207f:Betteridea:R 5029:  can you level me to 3600
+Thu May 16 06:58:36 2019: 7bc5207f:Betteridea:R 5029:  or some shit ;p
+Thu May 16 07:25:07 2019: 163dd357:NotStv:R 5029:  hmm
+Thu May 16 07:25:11 2019: 163dd357:NotStv:R 5029:  what's the dagger calc like?
+Thu May 16 07:26:23 2019: zach2:Farts:R 5029:  sec
+Thu May 16 07:30:10 2019: zach2:Farts:R 5029:  uhh
+Thu May 16 07:30:11 2019: zach2:Farts:R 5029:  vm broke
+Thu May 16 07:30:14 2019: zach2:Farts:R 5029:  rofl
+Thu May 16 07:30:25 2019: zach2:Farts:R 5029:  its raw dex calc'd
+Thu May 16 07:35:57 2019: 163dd357:NotStv:R 5029:  too tough lol
+Thu May 16 07:35:59 2019: 163dd357:NotStv:R 5029:  so torn
+Thu May 16 07:36:10 2019: 163dd357:NotStv:R 5029:  nothing really competes with endurance
+Thu May 16 07:38:35 2019: zach2:Farts:R 5029:  hmm
+Thu May 16 07:38:54 2019: 163dd357:NotStv:R 5029:  I've got a few lists in front of me lol
+Thu May 16 07:39:21 2019: 163dd357:NotStv:R 5029:  I do think I'll make Thief into a warrior instead of going elf thief though
+Thu May 16 07:39:35 2019: 163dd357:NotStv:R 5029:  the damage is super nice
+Thu May 16 07:39:44 2019: 163dd357:NotStv:R 5029:  but the health hit along with barely matching claw weapons
+Thu May 16 07:39:46 2019: 163dd357:NotStv:R 5029:  is meh ƒ
+Thu May 16 07:39:58 2019: zach2:Farts:R 5029:  What about elf war?
+Thu May 16 07:40:20 2019: 163dd357:NotStv:R 5029:  I have a 1k elf war on live
+Thu May 16 07:40:22 2019: 163dd357:NotStv:R 5029:  and they're super nice
+Thu May 16 07:40:28 2019: zach2:Farts:R 5029:  word
+Thu May 16 07:40:28 2019: 163dd357:NotStv:R 5029:  but more of a 5th or 6th slot toon
+Thu May 16 07:40:57 2019: zach2:Farts:R 5029:  Giant wiz is a good one, since procs scale to SDM now
+Thu May 16 07:41:43 2019: 163dd357:NotStv:R 5029:  Yeah I've got some testing to do for that as well
+Thu May 16 07:41:52 2019: zach2:Farts:R 5029:  you use MFF?
+Thu May 16 07:42:03 2019: 163dd357:NotStv:R 5029:  I'm wanting to figure out where we can add quickness so that other classes can do melee as well
+Thu May 16 07:42:25 2019: 163dd357:NotStv:R 5029:  MFF feels good, I love the backfire
+Thu May 16 07:42:32 2019: 163dd357:NotStv:R 5029:  and tbh the whole group isn't necessarily bad at all
+Thu May 16 07:42:37 2019: 163dd357:NotStv:R 5029:  considering how much we've changed the meta already
+Thu May 16 07:42:51 2019: 163dd357:NotStv:R 5029:  MFF doesn't have to do anything it did, for instance
+Thu May 16 07:43:16 2019: 163dd357:NotStv:R 5029:  all in all, gravy
+Thu May 16 07:43:26 2019: 163dd357:NotStv:R 5029:  the percentage
+Thu May 16 07:43:29 2019: 163dd357:NotStv:R 5029:  that it works
+Thu May 16 07:43:33 2019: 163dd357:NotStv:R 5029:  is something to think about
+Thu May 16 07:43:38 2019: 163dd357:NotStv:R 5029:  but that's my only concern thus far
+Thu May 16 07:46:34 2019: zach2:Farts:R 5029:  what do you mean
+Thu May 16 07:46:53 2019: 163dd357:NotStv:R 5029:  by the first or second part
+Thu May 16 07:47:13 2019: zach2:Farts:R 5029:  the percentage part 
+Thu May 16 07:47:18 2019: 163dd357:NotStv:R 5029:  oh
+Thu May 16 07:47:19 2019: 163dd357:NotStv:R 5029:  like
+Thu May 16 07:47:23 2019: 163dd357:NotStv:R 5029:  how often you want it to succeed
+Thu May 16 07:47:27 2019: 163dd357:NotStv:R 5029:  that's the tough part
+Thu May 16 07:47:29 2019: 163dd357:NotStv:R 5029:  is what I'm saying
+Thu May 16 07:47:39 2019: 163dd357:NotStv:R 5029:  like
+Thu May 16 07:47:47 2019: 163dd357:NotStv:R 5029:  Is it even useful, next to plugging, etc
+Thu May 16 07:47:56 2019: 163dd357:NotStv:R 5029:  a few questions come up the more you think about it
+Thu May 16 07:50:56 2019: zach2:Farts:R 5029:  tru
+Thu May 16 07:50:56 2019: zach2:Farts:R 5029:  tru
+Thu May 16 07:55:37 2019: zach2:Farts:R 5029:  gasp
+Thu May 16 07:55:38 2019: zach2:Farts:R 5029:  shiester
+Thu May 16 07:55:56 2019: zach2:Farts:R 5029:  ima dip my balls in some thousands islands dressing
+Thu May 16 07:55:59 2019: zach2:Farts:R 5029:  cause i got depression
+Thu May 16 07:56:05 2019: 163dd357:NotStv:R 5029:  ROFL
+Thu May 16 07:58:12 2019: 163dd357:NotStv:R 5029:  fack
+Thu May 16 07:58:15 2019: 163dd357:NotStv:R 5029:  I have the files now
+Thu May 16 07:58:17 2019: 163dd357:NotStv:R 5029:  so this is the last one
+Thu May 16 07:58:21 2019: 163dd357:NotStv:R 5029:  but axes are dex+str right?
+Thu May 16 07:59:42 2019: zach2:Farts:R 5029:  raw str
+Thu May 16 08:00:40 2019: 163dd357:NotStv:R 5029:  can you remove levels from a toon?
+Thu May 16 08:00:44 2019: zach2:Farts:R 5029:  yeah
+Thu May 16 08:00:54 2019: zach2:Farts:R 5029:  just add negative xp lol
+Thu May 16 08:01:07 2019: 163dd357:NotStv:R 5029:  so theoretically you could minus say 2k from Thief and give them to my new guy for price? ;p
+Thu May 16 08:01:44 2019: zach2:Farts:R 5029:  I mean sure
+Thu May 16 08:01:52 2019: zach2:Farts:R 5029:  if you dont want to delete him 
+Thu May 16 08:02:14 2019: 163dd357:NotStv:R 5029:  Ehh I don't want to complicate shit
+Thu May 16 08:02:19 2019: 163dd357:NotStv:R 5029:  I'll just delete him and take the levels
+Thu May 16 08:02:26 2019: zach2:Farts:R 5029:  nah its fine
+Thu May 16 08:02:32 2019: zach2:Farts:R 5029:  matter of fact
+Thu May 16 08:02:35 2019: zach2:Farts:R 5029:  go to bazaar
+Thu May 16 08:02:37 2019: zach2:Farts:R 5029:  buy tome of rebirth
+Thu May 16 08:02:40 2019: zach2:Farts:R 5029:  do it yourself
+Thu May 16 08:05:26 2019: 163dd357:NotStv:R 5029:  hm
+Thu May 16 08:05:29 2019: 163dd357:NotStv:R 5029:  is it not in live?
+Thu May 16 08:05:33 2019: 163dd357:NotStv:R 5029:  or is it the tome of understanding
+Fri May 17 02:55:48 2019: d9c50b:ChrisTest:G004: Where it at?
+Fri May 17 02:56:17 2019: zane:Moderator:G004: Left of DP
+Fri May 17 02:56:38 2019: zane:Moderator:G004: lol wtf
+Fri May 17 02:56:43 2019: zane:Moderator:G004: why did you enter my cave
+Fri May 17 03:00:16 2019: d9c50b:ChrisTest:G004: idk
+Fri May 17 03:00:55 2019: d9c50b:ChrisTest:G004: These niggas hurt
+Fri May 17 03:01:17 2019: d9c50b:ChrisTest:G004: Little more health than I anticipated‡
+Fri May 17 03:01:28 2019: d9c50b:ChrisTest:G004: Wanted something for like the 2-5k doable range haha
+Fri May 17 03:03:12 2019: zane:Moderator:G004: haha
+Fri May 17 03:03:15 2019: zane:Moderator:G004: I can tune
+Sun May 19 07:59:17 2019: zach2:Farts:R 5029:  maHopliteF
+Tue May 21 08:22:23 2019: zach2:Farts:G004: df
+Tue May 21 08:23:29 2019: zach2:Farts:G004: omfg
+Tue May 21 08:23:33 2019: zach2:Farts:G004: color explosion
+Tue May 21 08:23:42 2019: zach2:Farts:G004: using mace of creation
+Tue May 21 08:23:51 2019: stv3:Stvfff:R 5029:  rofl
+Tue May 21 08:23:59 2019: stv3:Stvfff:G004: how
+Tue May 21 08:24:13 2019: zach2:Farts:G004: lol
+Tue May 21 08:24:15 2019: zach2:Farts:G004: you like?
+Tue May 21 08:24:26 2019: zach2:Farts:G004: Got tired of the old Imp chat color
+Tue May 21 08:24:47 2019: stv3:Stvfff:G004: can you see my room tab too?
+Tue May 21 08:24:53 2019: stv3:Stvfff:G004: why is that coming into room chat lol
+Tue May 21 08:25:06 2019: zach2:Farts:G004: roflmao
+Tue May 21 08:25:08 2019: zach2:Farts:G004: is is?
+Tue May 21 08:25:09 2019: zach2:Farts:G004: no I cant
+Tue May 21 08:25:14 2019: zach2:Farts:G004: is is
+Tue May 21 08:25:15 2019: zach2:Farts:G004: lmfao
+Tue May 21 08:25:17 2019: zach2:Farts:G004: is it*
+Tue May 21 08:26:28 2019: zach2:Farts:G004: I made the channel non-system as well so it will show when people come online/go offline i believe
+Tue May 21 08:28:17 2019: zach2:Farts:G004: See combat yet?
+Tue May 21 08:33:35 2019: zach2:Farts:G004: 123
+Tue May 21 08:34:14 2019: zach2:Farts:G004: sd
+Tue May 21 08:34:15 2019: zach2:Farts:G004: sd
+Tue May 21 08:34:15 2019: zach2:Farts:G004: dfs
+Tue May 21 08:34:16 2019: zach2:Farts:G004: df
+Tue May 21 08:34:16 2019: zach2:Farts:G004: sdf
+Tue May 21 08:34:16 2019: zach2:Farts:G004: sd
+Tue May 21 08:34:16 2019: zach2:Farts:G004: fs
+Tue May 21 08:34:16 2019: zach2:Farts:G004: df
+Tue May 21 08:34:16 2019: zach2:Farts:G004: sdf
+Tue May 21 08:34:23 2019: stv3:Stvfff:G004: awwwwshit
+Tue May 21 08:36:19 2019: zach2:Farts:G004: Will say when anyone comes online 
+Tue May 21 08:36:24 2019: zach2:Farts:G004: to realm 
+Tue May 21 08:36:28 2019: zach2:Farts:G004: and goes offline
+Tue May 21 08:36:42 2019: zach2:Farts:G004: I think for a smaller playerbase that can be nice
+Tue May 21 08:36:47 2019: stv3:Stvfff:G004: Fuck yeah
+Tue May 21 08:36:54 2019: zach2:Farts:G004: Obviously would be annoying AF with like 200+ people 
+Tue May 21 08:37:14 2019: stv3:Stvfff:G004: yeah but with 200 we'd have specific channels
+Tue May 21 08:37:19 2019: stv3:Stvfff:G004: so fuck 'em if they ain't like it ;p
+Tue May 21 08:37:19 2019: zach2:Farts:G004: tru
+Tue May 21 08:37:19 2019: zach2:Farts:G004: tru
+Tue May 21 08:38:07 2019: zach2:Farts:G004: lol I gotta be honest I love the color garble
+Tue May 21 08:38:31 2019: stv3:Stvfff:G004: Yeah I was gonna say it's not as bad in game
+Tue May 21 08:38:40 2019: stv3:Stvfff:G004: I think my graphics settings auto adjust discord
+Tue May 21 08:38:45 2019: stv3:Stvfff:G004: fucking nvidia panel
+Tue May 21 08:38:54 2019: zach2:Farts:G004: oh yeah
+Tue May 21 08:38:58 2019: zach2:Farts:G004: try chanting
+Tue May 21 08:39:55 2019: hate:Hate:R 5029:  ROFL
+Tue May 21 08:40:47 2019: zach2:Farts:G004: gonna change more now
+Tue May 21 08:40:48 2019: zach2:Farts:G004: for chanting
+Tue May 21 08:40:53 2019: zach2:Farts:G004: now that I see all it says
+Tue May 21 08:41:23 2019: 163dd357:Stv:G004: hell yeah. gonna be so much easier to find shit in chat lol
+Tue May 21 08:41:27 2019: 163dd357:Stv:G004: fuck white/blue/grey
+Tue May 21 08:42:08 2019: zach2:Farts:G004: Is my purple too dark
+Tue May 21 08:42:19 2019: 163dd357:Stv:G004: for some people it will be
+Tue May 21 08:42:31 2019: 163dd357:Stv:G004: purple and blue on black is a shit show for those with eye strain
+Tue May 21 08:44:44 2019: 163dd357:Stv:G004: rofl
+Tue May 21 08:44:54 2019: 163dd357:Stv:G004: just got that resin taste hit off this bowl
+Tue May 21 08:44:59 2019: 163dd357:Stv:G004: haven't smoked flower in a bit
+Tue May 21 08:45:00 2019: zach2:Farts:G004: ughhh
+Tue May 21 08:45:09 2019: 163dd357:Stv:G004: I'm like yup, that's why I don't do this any more. ;p
+Tue May 21 08:45:58 2019: zach2:Farts:G004: brb
+Tue May 21 08:47:48 2019: hate:Hate:G004: as
+Tue May 21 08:47:50 2019: zach2:Farts:G004: as
+Tue May 21 08:48:46 2019: 163dd357:Stv:G004: the amount of times
+Tue May 21 08:48:49 2019: 163dd357:Stv:G004: that I just failed
+Tue May 21 08:48:50 2019: 163dd357:Stv:G004: to log on
+Tue May 21 08:48:53 2019: 163dd357:Stv:G004: is astounding
+Tue May 21 08:49:03 2019: 163dd357:Stv:G004: like
+Tue May 21 08:49:14 2019: 163dd357:Stv:G004: went to live, wrong account, you name it
+Tue May 21 08:49:17 2019: 163dd357:Stv:G004: I just fucked it up
+Tue May 21 08:49:20 2019: 163dd357:Stv:G004: One hit deep
+Tue May 21 08:49:23 2019: 163dd357:Stv:G004: and I turn into a clown
+Tue May 21 08:49:24 2019: 163dd357:Stv:G004: ƒ
+Tue May 21 08:50:33 2019: 163dd357:Stv:R 5029:  go on then
+Tue May 21 08:50:45 2019: 163dd357:Stv:R 5029:  don't make me laugh
+Tue May 21 08:50:49 2019: 163dd357:Stv:R 5029:  I'm trying to be quiet rofl
+Tue May 21 08:50:58 2019: hate:Hate:R 5029:  lmfao
+Tue May 21 08:50:58 2019: 163dd357:Stv:R 5029:  I can't even type fast …
+Tue May 21 08:51:09 2019: zach2:Farts:G004: lmfao
+Tue May 21 08:51:29 2019: 163dd357:Stv:R 5029:  god damn
+Tue May 21 08:51:32 2019: hate:Hate:R 5029:  look at top right
+Tue May 21 08:51:34 2019: hate:Hate:R 5029:  above room namne
+Tue May 21 08:51:35 2019: 163dd357:Stv:R 5029:  Stv really is a cute little fucker
+Tue May 21 08:51:48 2019: 163dd357:Stv:R 5029:  uh
+Tue May 21 08:52:02 2019: 163dd357:Stv:R 5029:  my babeh so strawng
+Tue May 21 08:52:06 2019: 163dd357:Stv:R 5029:  herkales
+Tue May 21 08:52:08 2019: 163dd357:Stv:R 5029:  herkales
+Tue May 21 08:52:33 2019: hate:Hate:R 5029:  i like dese changes
+Tue May 21 08:52:57 2019: 163dd357:Stv:R 5029:  you and me both man. I'm still so happy just to be back in this swing lol
+Tue May 21 08:53:11 2019: 163dd357:Stv:R 5029:  people picking it back up too
+Tue May 21 08:53:27 2019: 163dd357:Stv:R 5029:  got just as many here as we did for the last few months, if not more
+Tue May 21 08:53:28 2019: hate:Hate:R 5029:  shutting this down
+Tue May 21 08:53:32 2019: hate:Hate:R 5029:  yea right
+Tue May 21 08:53:51 2019: 163dd357:Stv:R 5029:  like down for a bit?
+Tue May 21 08:53:54 2019: 163dd357:Stv:R 5029:  aka switch chat?
+Tue May 21 08:53:57 2019: hate:Hate:R 5029:  aye
+Tue May 21 08:54:01 2019: 163dd357:Stv:R 5029:  word
+Tue May 21 10:30:01 2019: zach2:Farts:G004: dfg
+Wed May 22 07:04:01 2019: herc:Hercules:G004: as
+Wed May 22 07:04:02 2019: herc:Hercules:G004: AS
+Wed May 22 07:04:02 2019: herc:Hercules:G004: as
+Wed May 22 07:04:02 2019: herc:Hercules:G004: A
+Wed May 22 07:04:03 2019: herc:Hercules:G004: S
+Wed May 22 07:04:03 2019: herc:Hercules:G004: a
+Wed May 22 07:04:03 2019: herc:Hercules:G004: s
+Wed May 22 07:04:03 2019: herc:Hercules:G004: A
+Wed May 22 07:04:03 2019: herc:Hercules:G004: S
+Wed May 22 07:04:03 2019: herc:Hercules:G004: a
+Wed May 22 07:04:03 2019: herc:Hercules:G004: s
+Wed May 22 07:04:04 2019: herc:Hercules:G004: A
+Wed May 22 07:04:04 2019: herc:Hercules:G004: S
+Wed May 22 07:04:04 2019: herc:Hercules:G004: a
+Wed May 22 07:04:04 2019: herc:Hercules:G004: s
+Wed May 22 07:04:29 2019: zach2:Farts:G004: asda
+Wed May 22 07:04:29 2019: zach2:Farts:G004: sd
+Wed May 22 07:04:29 2019: zach2:Farts:G004: asd
+Wed May 22 07:04:29 2019: zach2:Farts:G004: as
+Wed May 22 07:04:29 2019: zach2:Farts:G004: d
+Wed May 22 07:04:33 2019: hate:Hate:G004: dfgdfg
+Wed May 22 07:04:34 2019: hate:Hate:G004: fdg
+Wed May 22 07:04:34 2019: hate:Hate:G004: dfg
+Wed May 22 07:04:34 2019: hate:Hate:G004: dfg
+Wed May 22 07:04:38 2019: zach2:Farts:G004: as
+Wed May 22 07:04:38 2019: zach2:Farts:G004: as
+Wed May 22 07:04:38 2019: zach2:Farts:G004: as
+Wed May 22 07:04:38 2019: zach2:Farts:G004: as
+Wed May 22 07:04:40 2019: zach2:Farts:G004: as
+Wed May 22 07:04:40 2019: hate:Hate:G004: dfg
+Wed May 22 07:04:41 2019: zach2:Farts:G004: as
+Wed May 22 07:04:42 2019: hate:Hate:G004: dfg
+Wed May 22 07:04:43 2019: zach2:Farts:G004: as
+Wed May 22 07:04:44 2019: hate:Hate:G004: dfg
+Wed May 22 07:04:45 2019: zach2:Farts:G004: as
+Wed May 22 07:04:46 2019: hate:Hate:G004: dfg
+Wed May 22 07:12:24 2019: herc:Hercules:G004: as
+Wed May 22 07:12:26 2019: herc:Hercules:G004: welp
+Wed May 22 07:12:29 2019: herc:Hercules:G004: this
+Wed May 22 07:12:29 2019: herc:Hercules:G004: is
+Wed May 22 07:12:30 2019: herc:Hercules:G004: odd
+Wed May 22 07:27:10 2019: hate:Hate:G004: sdf
+Wed May 22 07:27:10 2019: hate:Hate:G004: sdf
+Wed May 22 07:27:10 2019: hate:Hate:G004: sd
+Wed May 22 07:27:11 2019: hate:Hate:G004: fsd
+Wed May 22 07:27:11 2019: hate:Hate:G004: fsd
+Wed May 22 07:27:12 2019: hate:Hate:G004: fsdf
+Wed May 22 07:45:41 2019: zach2:Farts:G004: eertert
+Wed May 22 07:45:41 2019: zach2:Farts:G004: ert
+Wed May 22 07:45:41 2019: zach2:Farts:G004: er
+Wed May 22 07:45:41 2019: zach2:Farts:G004: te
+Wed May 22 07:45:41 2019: zach2:Farts:G004: rt
+Thu May 23 00:36:04 2019: zach2:Farts:G004: Gonna reboot
+Thu May 23 00:39:02 2019: zach2:Farts:R 5029:  Was just about to reboot this
+Thu May 23 00:39:05 2019: zach2:Farts:R 5029:  testing shit
+Thu May 23 00:39:18 2019: 5xbj1m4z:Pyrestar:R 5029:  k
+Thu May 23 00:42:35 2019: kentest:KenTester:R 5406:  tracking
+Thu May 23 08:55:12 2019: killer:KillerMcCloud:R 98000:  need me a power fist
+Thu May 23 08:55:43 2019: zach:Brutis:R 98000:  oh it may not be on test
+Thu May 23 08:55:53 2019: killer:KillerMcCloud:R 98000:  nope
+Thu May 23 08:58:15 2019: killer:KillerMcCloud:R 98002:  damn these rats hit hard
+Thu May 23 09:17:14 2019: 163dd357:NotStv:G004: Okay that's a little weird
+Thu May 23 09:17:16 2019: 163dd357:NotStv:G004: but I dig it
+Thu May 23 09:17:16 2019: 163dd357:NotStv:G004: ;p
+Thu May 23 09:17:26 2019: zach:Brutis:G004: lol im guessing it worked
+Thu May 23 09:17:32 2019: 163dd357:NotStv:G004: Mostly
+Thu May 23 09:17:38 2019: 163dd357:NotStv:G004: Some inventory items got miffed
+Thu May 23 09:17:45 2019: 163dd357:NotStv:G004: but that's to be expected ;p
+Thu May 23 09:18:31 2019: 163dd357:NotStv:G004: NotStv is zapped 71290HP! NotStv dies.
+Thu May 23 09:18:33 2019: 163dd357:NotStv:G004: rofl
+Thu May 23 09:18:41 2019: 163dd357:NotStv:G004: bahahahahaha
+Thu May 23 09:18:47 2019: 163dd357:NotStv:G004: Rat named macie
+Thu May 23 09:18:50 2019: 163dd357:NotStv:G004: ohman
+Thu May 23 09:18:55 2019: 163dd357:NotStv:G004: I work with a Macie …
+Thu May 23 09:18:58 2019: zach:Brutis:G004: lmfao 
+Thu May 23 09:19:00 2019: 163dd357:NotStv:G004: and she looks kinda like a mouse
+Thu May 23 09:19:02 2019: 163dd357:NotStv:G004: why you gotta ruin this for me
+Thu May 23 09:19:03 2019: 163dd357:NotStv:G004: rofl
+Thu May 23 09:19:37 2019: zach:Brutis:R 98002:  LOL
+Thu May 23 09:19:40 2019: 163dd357:NotStv:R 98002:  rofl
+Thu May 23 09:19:41 2019: 163dd357:NotStv:R 98002:  wtf 
+Thu May 23 09:19:44 2019: 163dd357:NotStv:R 98002:  is happening
+Thu May 23 09:19:51 2019: 163dd357:NotStv:R 98002:  bahahahahaah omg
+Thu May 23 09:20:03 2019: zach:Brutis:R 98002:  fuck i was hoping they would zap us
+Thu May 23 09:21:07 2019: 163dd357:NotStv:R 98002:  rofl
+Thu May 23 09:21:10 2019: 163dd357:NotStv:R 98002:  jesus christ
+Thu May 23 09:21:19 2019: 163dd357:NotStv:R 98002:  I don't like this
+Thu May 23 09:21:26 2019: zach:Brutis:R 98002:  lmfao
+Thu May 23 09:21:32 2019: 163dd357:NotStv:R 98002:  AHHHH
+Thu May 23 09:21:35 2019: zach:Brutis:R 98002:  LMFAOOOOOOOOOOOOOOOOOOOOO
+Thu May 23 09:21:50 2019: 163dd357:NotStv:R 98002:  fucking four pages
+Thu May 23 09:21:51 2019: 163dd357:NotStv:R 98002:  of theft
+Thu May 23 09:21:53 2019: 163dd357:NotStv:R 98002:  what kind of shit
+Thu May 23 09:21:54 2019: 163dd357:NotStv:R 98002:  ass
+Thu May 23 09:21:55 2019: 163dd357:NotStv:R 98002:  stuff
+Thu May 23 09:21:55 2019: 163dd357:NotStv:R 98002:  is
+Thu May 23 09:21:56 2019: 163dd357:NotStv:R 98002:  this
+Thu May 23 09:22:08 2019: zach:Brutis:R 98002:  holy
+Thu May 23 09:22:09 2019: zach:Brutis:R 98002:  shit
+Thu May 23 09:22:14 2019: zach:Brutis:R 98002:  i fucking cackled
+Thu May 23 09:22:29 2019: 163dd357:NotStv:R 98002:  I about inhaled a mouthful of cheezits
+Thu May 23 09:22:39 2019: 163dd357:NotStv:R 98002:  oi
+Thu May 23 09:22:41 2019: 163dd357:NotStv:R 98002:  he laf
+Thu May 23 09:22:41 2019: zach:Brutis:R 98002:  FUCKING LIGHTNING BOLT ME
+Thu May 23 09:22:41 2019: 163dd357:NotStv:R 98002:  at
+Thu May 23 09:22:42 2019: 163dd357:NotStv:R 98002:  me?
+Thu May 23 09:22:44 2019: 163dd357:NotStv:R 98002:  …
+Thu May 23 09:23:02 2019: 163dd357:NotStv:R 98002:  ayyyy
+Thu May 23 09:23:04 2019: zach:Brutis:R 98002:  YES
+Thu May 23 09:23:22 2019: zach:Brutis:R 98002:  o man im so happy
+Thu May 23 09:23:23 2019: 163dd357:NotStv:R 98002:  that is kinda hilarious
+Thu May 23 09:23:31 2019: 163dd357:NotStv:R 98002:  NO
+Thu May 23 09:23:32 2019: 163dd357:NotStv:R 98002:  NONONO
+Thu May 23 09:23:33 2019: zach:Brutis:R 98002:  ROFLMAO
+Thu May 23 09:23:37 2019: 163dd357:NotStv:R 98002:  STOP IT
+Thu May 23 09:23:40 2019: 163dd357:NotStv:R 98002:  FUCK
+Thu May 23 09:23:57 2019: zach:Brutis:R 98002:  LMAO
+Thu May 23 09:23:58 2019: 163dd357:NotStv:R 98002:  lolol
+Thu May 23 09:24:07 2019: zach:Brutis:R 98002:  ok leave the room rq
+Thu May 23 09:24:08 2019: 163dd357:NotStv:R 98002:  absolute brutality
+Thu May 23 09:24:48 2019: 163dd357:NotStv:R 98002:  what the poop
+Thu May 23 09:25:13 2019: zach:Brutis:R 98002:  The rats are supposed to cast too
+Thu May 23 09:25:18 2019: zach:Brutis:R 98002:  hmm they arent
+Thu May 23 09:25:28 2019: zach:Brutis:R 98002:  neither is this grouped volkor
+Thu May 23 09:25:48 2019: 163dd357:NotStv:R 98002:  that madafakn HoKnoodle
+Thu May 23 09:26:01 2019: 163dd357:NotStv:R 98002:  I need to pull one of those
+Thu May 23 09:26:07 2019: 163dd357:NotStv:R 91000:  or the new one
+Thu May 23 09:26:18 2019: zach:Brutis:R 91000:  new one waht
+Thu May 23 09:26:25 2019: 163dd357:NotStv:R 91000:  isn't there a new magic helm?
+Thu May 23 09:26:45 2019: zach:Brutis:R 91000:  Its not on test
+Thu May 23 09:26:49 2019: zach:Brutis:R 91000:  i made it for main
+Thu May 23 09:27:10 2019: 163dd357:NotStv:R 91000:  yeye
+Thu May 23 09:27:31 2019: 163dd357:NotStv:R 91000:  I meant I need 'em on live
+Thu May 23 09:27:37 2019: zach:Brutis:R 91000:  Ooo
+Thu May 23 09:27:39 2019: 163dd357:NotStv:R 91000:  seeing the thing
+Thu May 23 09:27:40 2019: zach:Brutis:R 91000:  ye crown of pwoer
+Thu May 23 09:27:42 2019: 163dd357:NotStv:R 91000:  made me thing of it
+Thu May 23 09:28:05 2019: zach:Brutis:R 91000:  PWOER.
+Thu May 23 09:28:05 2019: zach:Brutis:R 91000:  PWOER.
+Thu May 23 09:28:05 2019: zach:Brutis:R 91000:  PWOER.
+Thu May 23 09:28:23 2019: 163dd357:NotStv:G004: Stacy
+Thu May 23 09:28:24 2019: 163dd357:NotStv:G004: und
+Thu May 23 09:28:26 2019: 163dd357:NotStv:G004: Macy
+Thu May 23 09:28:31 2019: 163dd357:NotStv:G004: bitches b trippin'
+Thu May 23 09:28:43 2019: 163dd357:NotStv:R 91000:  Stop hitting yourself, Stacy.
+Thu May 23 09:28:45 2019: 163dd357:NotStv:R 91000:  Stupid cunt.
+Thu May 23 09:29:08 2019: 163dd357:NotStv:R 91000:  what have I done
+Thu May 23 09:29:31 2019: 163dd357:NotStv:R 91000:  at least they don't pick pockets
+Thu May 23 09:29:35 2019: zach:Brutis:R 91000:  lmao
+Thu May 23 09:29:37 2019: zach:Brutis:R 91000:  yeah
+Thu May 23 09:30:08 2019: zach:Brutis:R 91000:  man
+Thu May 23 09:30:11 2019: zach:Brutis:R 91000:  im getting good at this
+Thu May 23 09:30:13 2019: zach:Brutis:R 91000:  rofl
+Thu May 23 09:30:35 2019: zach:Brutis:R 91000:  excellent.
+Thu May 23 09:30:36 2019: zach:Brutis:R 91000:  excellent.
+Thu May 23 09:30:53 2019: zach:Brutis:R 91000:  everything seems to be working as intended
+Thu May 23 09:31:07 2019: zach:Brutis:R 91000:  Thinking I should nerf volkors casts a bit
+Thu May 23 09:31:19 2019: 163dd357:NotStv:R 91000:  yeah it's pretty powerful ;p
+Thu May 23 09:32:50 2019: 163dd357:NotStv:R 91000:  hit me
+Thu May 23 09:32:51 2019: 163dd357:NotStv:R 91000:  bitch
+Thu May 23 09:32:53 2019: 163dd357:NotStv:R 91000:  you won't
+Thu May 23 09:32:53 2019: 163dd357:NotStv:R 91000:  …
+Thu May 23 09:32:55 2019: 163dd357:NotStv:R 91000:  stupid macy
+Thu May 23 09:32:56 2019: 163dd357:NotStv:R 91000:  stacy
+Thu May 23 09:32:58 2019: 163dd357:NotStv:R 91000:  bitch ass
+Thu May 23 09:33:33 2019: zach:Brutis:R 91000:  under his breath
+Thu May 23 09:33:36 2019: zach:Brutis:R 91000:  hmm
+Thu May 23 09:33:45 2019: zach:Brutis:R 91000:  did that macy
+Thu May 23 09:33:48 2019: zach:Brutis:R 91000:  just cast on itself
+Thu May 23 09:34:01 2019: 163dd357:NotStv:R 91000:  Honestly
+Thu May 23 09:34:04 2019: 163dd357:NotStv:R 91000:  I wouldn't be able to tell
+Fri May 24 02:16:53 2019: zach:Brutis:R 5029:  uh oh
+Fri May 24 02:16:54 2019: zach:Brutis:R 5029:  fgh
+Fri May 24 02:16:54 2019: zach:Brutis:R 5029:  fg
+Fri May 24 02:16:54 2019: zach:Brutis:R 5029:  h
+Fri May 24 02:16:54 2019: zach:Brutis:R 5029:  fgh
+Fri May 24 02:16:54 2019: zach:Brutis:R 5029:  fg
+Fri May 24 02:16:55 2019: zach:Brutis:R 5029:  h
+Fri May 24 02:17:01 2019: zach:Brutis:G004: lmfao
+Fri May 24 02:17:05 2019: zach:Brutis:G004: oh no
+Fri May 24 02:24:03 2019: zach:Brutis:G004: wer
+Fri May 24 05:29:08 2019: zach:Brutis:R 5029:  aw yis
+Fri May 24 05:29:37 2019: 163dd357:Stv:R 5029:  Where's that 3rd t-sash at?
+Fri May 24 05:29:41 2019: 163dd357:Stv:R 5029:  I think I remember it
+Fri May 24 05:29:44 2019: 163dd357:Stv:R 5029:  but wanna see anyways
+Fri May 24 05:30:07 2019: zach:Brutis:R 5029:  floor
+Fri May 24 05:30:44 2019: zach:Brutis:R 5029:  Stone figured that out if you put helm below baldric it doesnt change it
+Fri May 24 05:30:57 2019: 163dd357:Stv:R 5029:  kinda dig it tbh ;p
+Fri May 24 05:31:01 2019: 163dd357:Stv:R 5029:  I don't think that color
+Fri May 24 05:31:04 2019: 163dd357:Stv:R 5029:  is avaliable any where else
+Fri May 24 05:31:06 2019: zach:Brutis:R 5029:  It will be 1 of 1 
+Fri May 24 05:31:43 2019: 163dd357:Stv:R 5029:  Fuck yeah. I thought I'd have to work to decide between the 5 blue ones I got
+Fri May 24 05:31:54 2019: 163dd357:Stv:R 5029:  this one way too hot to not pick
+Fri May 24 05:32:24 2019: 163dd357:Stv:R 5029:  This would be my choice if you want to reserve the t- for a new drop
+Fri May 24 05:32:29 2019: 163dd357:Stv:R 5029:  it's Royal Blue *
+Fri May 24 05:32:36 2019: zach:Brutis:R 5029:  nah tsash is yours
+Fri May 24 05:32:41 2019: zach:Brutis:R 5029:  if you want it
+Fri May 24 05:32:47 2019: 163dd357:Stv:R 5029:  Tits. Thxu <
+Fri May 24 05:32:50 2019: 163dd357:Stv:R 5029:  Fucking number line
+Fri May 24 05:32:51 2019: 163dd357:Stv:R 5029:  …
+Fri May 24 05:32:55 2019: 163dd357:Stv:R 5029:  I'm glad my 6 still works rofl
+Fri May 24 05:33:02 2019: 163dd357:Stv:R 5029:  otherwise I'd fuck my password up
+Fri May 24 05:33:04 2019: 163dd357:Stv:R 5029:  every time.
+Fri May 24 05:33:21 2019: 163dd357:Stv:R 5029:  and lord knows the angry face is my most often used emote
+Fri May 24 05:33:22 2019: 163dd357:Stv:R 5029:  …
+Fri May 24 05:34:36 2019: zach:Brutis:R 5029:  kk its done
+Fri May 24 05:34:40 2019: zach:Brutis:R 5029:  main just needs rebooted
+Tue May 28 01:17:59 2019: hate:Hate:G004: ok
+Tue May 28 01:18:03 2019: hate:Hate:G004: Master vendor is 1d el
+Tue May 28 01:18:08 2019: hate:Hate:G004: He may be missing some newer stuff
+Tue May 28 01:23:16 2019: omnicide2:Numtwo:G004: Anything to avoid? Like to not crash stuff
+Tue May 28 01:23:34 2019: hate:Hate:G004: newp
+Tue May 28 01:24:26 2019: omnicide2:Numtwo:G004: lol
+Tue May 28 01:25:22 2019: omnicide3:Numthree:G004: looking at a helm of Khnum or w/e will crash you. Check
+Tue May 28 01:29:37 2019: zach2:Farts:G004: oh
+Tue May 28 01:29:38 2019: zach2:Farts:G004: lmfao
+Tue May 28 01:29:41 2019: zach2:Farts:G004: ok I forgot
+Tue May 28 01:29:45 2019: zach2:Farts:G004: that is the one thing
+Tue May 28 01:29:47 2019: zach2:Farts:G004: only in the shop though
+Tue May 28 01:29:54 2019: zach2:Farts:G004: you can look at it in your inv
+Tue May 28 01:30:04 2019: omnicide2:Numtwo:G004: lol weird
+Tue May 28 01:32:19 2019: omnicide2:Numtwo:G004: Guess Illl go ahead and get the max level crashes out of the way
+Thu Jun  6 05:49:37 2019: t7rnsei0:PyreHold:R 5029:  What baldric you wearin
+Thu Jun  6 05:56:22 2019: t7rnsei0:PyreHold:G004: stone what baldric is that
+Thu Jun  6 15:41:00 2019: stone:ConorMcCloud:G004: yo
+Thu Jun  6 21:44:31 2019: zach2:Farts:R 5029:  .
+Thu Jun  6 22:43:25 2019: stone:ConorMcCloud:G004: soo
+Thu Jun  6 23:28:57 2019: stone:ConorMcCloud:R 5029:  MR rings cannot be chanted
+Thu Jun  6 23:29:11 2019: gtew5pv3:Aluvian:R 5029:  yea wasn't sure about zerking
+Thu Jun  6 23:29:13 2019: gtew5pv3:Aluvian:R 5029:  or enid 
+Thu Jun  6 23:29:22 2019: stone:ConorMcCloud:R 5029:  nope 
+Thu Jun  6 23:29:27 2019: stone:ConorMcCloud:R 5029:  i know it sux lol
+Thu Jun  6 23:29:32 2019: gtew5pv3:Aluvian:R 5029:  doesnt say on ring tho
+Thu Jun  6 23:29:34 2019: gtew5pv3:Aluvian:R 5029:  worth a shot haha
+Thu Jun  6 23:29:49 2019: stone:ConorMcCloud:R 5029:  yeah i know i keep trying every time as well lol
+Thu Jun  6 23:30:02 2019: gtew5pv3:Aluvian:R 5029:  i only found 1 zerking on main
+Thu Jun  6 23:30:05 2019: gtew5pv3:Aluvian:R 5029:  so i didnt even try to chant it
+Thu Jun  6 23:31:36 2019: bb8e9f3e:Jingu:R 5029:  damn
+Thu Jun  6 23:31:42 2019: bb8e9f3e:Jingu:R 5029:  now i need to find an omega
+Thu Jun  6 23:31:44 2019: bb8e9f3e:Jingu:R 5029:  and lvl my adv
+Thu Jun  6 23:31:45 2019: bb8e9f3e:Jingu:R 5029:  haha
+Thu Jun  6 23:32:01 2019: stone:ConorMcCloud:R 5029:  i have 2.. 
+Thu Jun  6 23:32:28 2019: bb8e9f3e:Jingu:R 5029:  i wasnt sure how the 14/14 elf adv would hit
+Thu Jun  6 23:32:30 2019: bb8e9f3e:Jingu:R 5029:  but its not bad
+Thu Jun  6 23:32:49 2019: stone:ConorMcCloud:R 5029:  cod is 14/16/9/9
+Thu Jun  6 23:33:07 2019: bb8e9f3e:Jingu:R 5029:  i was gonna do 16/16/9/7 war
+Thu Jun  6 23:33:14 2019: bb8e9f3e:Jingu:R 5029:  but figured I could use an adv too
+Thu Jun  6 23:33:18 2019: bb8e9f3e:Jingu:R 5029:  14/14/14/6
+Thu Jun  6 23:33:21 2019: bb8e9f3e:Jingu:R 5029:  for shits n gigs
+Thu Jun  6 23:34:00 2019: bb8e9f3e:Jingu:R 5029:  rebirth him to 20/18/14/6
+Thu Jun  6 23:34:05 2019: stone:ConorMcCloud:R 5029:  its like wtf you need hps for when everything is dead
+Thu Jun  6 23:34:12 2019: bb8e9f3e:Jingu:R 5029:  yea
+Thu Jun  6 23:34:19 2019: bb8e9f3e:Jingu:R 5029:  although what do i need intel for
+Thu Jun  6 23:34:22 2019: bb8e9f3e:Jingu:R 5029:  tbh
+Thu Jun  6 23:34:48 2019: stone:ConorMcCloud:R 5029:  nothing when zerking
+Thu Jun  6 23:34:51 2019: bb8e9f3e:Jingu:R 5029:  i already leveled the adv to 770 though prolly won't start over
+Thu Jun  6 23:34:53 2019: bb8e9f3e:Jingu:R 5029:  haha
+Thu Jun  6 23:35:13 2019: stone:ConorMcCloud:R 5029:  i rebirthed stone
+Thu Jun  6 23:35:20 2019: bb8e9f3e:Jingu:R 5029:  im bout to rebirth giant
+Thu Jun  6 23:35:30 2019: stone:ConorMcCloud:R 5029:  asgw?
+Thu Jun  6 23:35:32 2019: bb8e9f3e:Jingu:R 5029:  yea
+Thu Jun  6 23:35:38 2019: bb8e9f3e:Jingu:R 5029:  just have not seen zach
+Thu Jun  6 23:35:40 2019: bb8e9f3e:Jingu:R 5029:  until today
+Thu Jun  6 23:35:42 2019: bb8e9f3e:Jingu:R 5029:  and he left lol
+Thu Jun  6 23:35:52 2019: stone:ConorMcCloud:R 5029:  10k?
+Thu Jun  6 23:35:54 2019: bb8e9f3e:Jingu:R 5029:  yeo
+Thu Jun  6 23:36:01 2019: stone:ConorMcCloud:R 5029:  that is what i did
+Thu Jun  6 23:36:07 2019: bb8e9f3e:Jingu:R 5029:  all str?
+Thu Jun  6 23:36:11 2019: bb8e9f3e:Jingu:R 5029:  on rebirth
+Thu Jun  6 23:36:13 2019: stone:ConorMcCloud:R 5029:  you have everything already set for him to progress?
+Thu Jun  6 23:36:25 2019: stone:ConorMcCloud:R 5029:  yeah all str on rebirth
+Thu Jun  6 23:36:34 2019: bb8e9f3e:Jingu:R 5029:  ive got newb shit sittin around
+Thu Jun  6 23:36:36 2019: bb8e9f3e:Jingu:R 5029:  if thats what u mean
+Thu Jun  6 23:36:56 2019: stone:ConorMcCloud:R 5029:  well chanted armor and shit and chanted class armor and shit
+Thu Jun  6 23:37:00 2019: bb8e9f3e:Jingu:R 5029:  yea
+Thu Jun  6 23:37:04 2019: bb8e9f3e:Jingu:R 5029:  i have his full 550 set
+Thu Jun  6 23:37:07 2019: bb8e9f3e:Jingu:R 5029:  and weapons
+Thu Jun  6 23:37:10 2019: bb8e9f3e:Jingu:R 5029:  from 1-2500
+Thu Jun  6 23:37:26 2019: stone:ConorMcCloud:R 5029:  do you have the full progression of ammies?
+Thu Jun  6 23:37:40 2019: bb8e9f3e:Jingu:R 5029:  nah but I have tons of em floatin around
+Thu Jun  6 23:38:01 2019: stone:ConorMcCloud:R 5029:  i would set that up to make it faster as well
+Thu Jun  6 23:38:30 2019: bb8e9f3e:Jingu:R 5029:  was thinkin bout just using wiz to lvl him honestly
+Thu Jun  6 23:38:35 2019: stone:ConorMcCloud:R 5029:  i didi 1-2500 in a couple hours
+Thu Jun  6 23:38:41 2019: bb8e9f3e:Jingu:R 5029:  damn
+Thu Jun  6 23:38:43 2019: bb8e9f3e:Jingu:R 5029:  killing what
+Thu Jun  6 23:38:45 2019: bb8e9f3e:Jingu:R 5029:  lmfao
+Thu Jun  6 23:39:00 2019: stone:ConorMcCloud:R 5029:  well.. i did xp boost
+Thu Jun  6 23:39:22 2019: bb8e9f3e:Jingu:R 5029:  he still do that for gold
+Thu Jun  6 23:39:35 2019: stone:ConorMcCloud:R 5029:  but the standard 
+Thu Jun  6 23:39:43 2019: stone:ConorMcCloud:R 5029:  yeah he does 
+Thu Jun  6 23:39:46 2019: bb8e9f3e:Jingu:R 5029:  i think i got 60m left
+Thu Jun  6 23:39:47 2019: stone:ConorMcCloud:R 5029:  1mil an x
+Thu Jun  6 23:40:11 2019: stone:ConorMcCloud:R 5029:  300 mil for 10x
+Thu Jun  6 23:40:16 2019: stone:ConorMcCloud:R 5029:  100x*
+Thu Jun  6 23:40:52 2019: bb8e9f3e:Jingu:R 5029:  i stopped looting for gold
+Thu Jun  6 23:40:54 2019: bb8e9f3e:Jingu:R 5029:  awhile ago
+Thu Jun  6 23:40:57 2019: bb8e9f3e:Jingu:R 5029:  didnt see a need for it
+Thu Jun  6 23:42:23 2019: stone:ConorMcCloud:R 5029:  only need for it is for boost and man really
+Thu Jun  6 23:42:28 2019: stone:ConorMcCloud:R 5029:  mana
+Thu Jun  6 23:42:43 2019: bb8e9f3e:Jingu:R 5029:  not even using alot of mana
+Thu Jun  6 23:42:46 2019: bb8e9f3e:Jingu:R 5029:  zerking everything
+Thu Jun  6 23:42:46 2019: bb8e9f3e:Jingu:R 5029:  haha
+Thu Jun  6 23:43:30 2019: stone:ConorMcCloud:R 5029:  trying to make the castle zerk proof lol
+Thu Jun  6 23:43:45 2019: bb8e9f3e:Jingu:R 5029:  oh is he
+Thu Jun  6 23:43:48 2019: bb8e9f3e:Jingu:R 5029:  i mean thats good
+Thu Jun  6 23:43:50 2019: stone:ConorMcCloud:R 5029:  i am
+Thu Jun  6 23:44:02 2019: stone:ConorMcCloud:R 5029:  well i want it that way anyhow
+Thu Jun  6 23:44:38 2019: stone:ConorMcCloud:R 5029:  but i also cannot make it a true dungeon sooo we shall see 
+Sat Jun  8 02:44:58 2019: zach2:Farts:R 5014:  Olde Leinster
+Sat Jun  8 02:47:45 2019: zach2:Farts:R 5014:  Old Leinster
+Sat Jun  8 02:47:55 2019: zach2:Farts:R 5014:  Olde Leinster
+Sat Jun  8 02:48:08 2019: zach2:Farts:R 5014:  Olde Leinster
+Sat Jun  8 02:48:20 2019: zach2:Farts:R 5014:  Olde Leinster
+Sat Jun  8 02:48:21 2019: zach2:Farts:R 5014:  Olde Leinster
+Sat Jun  8 02:48:21 2019: zach2:Farts:R 5014:  Olde Leinster
+Sat Jun  8 02:48:21 2019: zach2:Farts:R 5014:  Olde Leinster
+Sat Jun  8 02:48:21 2019: zach2:Farts:R 5014:  Olde Leinster
+Sat Jun  8 02:48:23 2019: zach2:Farts:R 5014:  Olde LeinsterOlde Leinster
+Sat Jun  8 02:48:23 2019: zach2:Farts:R 5014:  Olde Leinster
+Sat Jun  8 02:50:18 2019: zach2:Farts:R 5014:  Olde Leinster
+Sat Jun  8 02:50:58 2019: zach2:Farts:R 5014:  oldeleinster
+Sat Jun  8 02:54:25 2019: zach2:Farts:R 5014:  oldeleinster
+Sat Jun  8 02:56:36 2019: zach2:Farts:R 5014:  oldeleinster
+Sat Jun  8 02:56:39 2019: zach2:Farts:R 5014:  oldeleinster
+Sat Jun  8 03:06:27 2019: zach2:Farts:R 5014:  oldeleinster
+Sat Jun  8 03:23:36 2019: zach2:Farts:R 5014:  oldeleinster
+Sat Jun  8 03:34:07 2019: zach2:Farts:G004: oldeleinster
+Sat Jun  8 03:34:10 2019: zach2:Farts:R 5014:  oldeleinster
+Tue Jun 11 22:18:14 2019: k2e2292n:Imbecile:R 5014:  mirror dimension
+Tue Jun 11 22:19:04 2019: k2e2292n:Imbecile:R 5014:  inside
+Tue Jun 11 22:20:19 2019: k2e2292n:Imbecile:R 5014:  the mirror dimension
+Tue Jun 11 22:20:24 2019: k2e2292n:Imbecile:R 5014:  mirror
+Tue Jun 11 22:20:27 2019: k2e2292n:Imbecile:R 5014:  dimension
+Tue Jun 11 23:29:22 2019: da0e4c02:TestWiz:R 150000000:  3/15/25/5
+Wed Jun 12 03:17:09 2019: da0e4c02:TestWiz:R 5014:  retsniel
+Wed Jun 12 22:05:51 2019: zach3:Fart:G004: Gonna do a quick reboot
+Wed Jun 12 22:05:54 2019: zach3:Fart:G004: Testing something rq
+Wed Jun 12 22:10:36 2019: ant2:Dontestme:R 5029:  pocket shop †
+Wed Jun 12 22:54:13 2019: zach3:Fart:R 5029:  Dont forget
+Wed Jun 12 22:54:19 2019: zach3:Fart:R 5029:  Mystical ring of end
+Wed Jun 12 22:54:20 2019: zach3:Fart:R 5029:  mighty ring
+Wed Jun 12 22:54:22 2019: zach3:Fart:R 5029:  totem of power
+Wed Jun 12 22:55:14 2019: ant2:Troven2:R 5029:  i got em †
+Wed Jun 12 22:55:19 2019: zach3:Fart:R 5029:  kk cool
+Wed Jun 12 23:02:34 2019: ant2:Troven2:R 5014:  retsniel
+Wed Jun 12 23:57:45 2019: zach3:Fart:R 5029:  type
+Wed Jun 12 23:57:49 2019: zach3:Fart:R 5029:   /conjure AnewShop
+Wed Jun 12 23:58:04 2019: zach3:Fart:R 5029:  Š
+Thu Jun 13 00:08:43 2019: ant2:Troven2:R 5014:  retsniel
+Thu Jun 13 00:23:11 2019: zach3:Fart:G004: rebooting
+Thu Jun 13 03:01:42 2019: ant1:Tested:G004: let me put on some gear † not gonna chant it tho
+Thu Jun 13 03:02:10 2019: zach3:Fart:G004: May have to kill some nobleman 
+Thu Jun 13 03:02:17 2019: zach3:Fart:G004: you can give yourself like 1000 str though
+Thu Jun 13 03:02:17 2019: ant1:Tested:G004: gotcha
+Thu Jun 13 03:02:23 2019: ant1:Tested:G004: true
+Thu Jun 13 03:07:42 2019: ant1:Tested:G004: where is it at
+Thu Jun 13 03:09:06 2019: zach3:Fart:G004: sorry
+Thu Jun 13 03:09:07 2019: zach3:Fart:G004: its here
+Thu Jun 13 03:09:10 2019: ant1:Tested:G004: lol †
+Thu Jun 13 03:09:14 2019: zach3:Fart:G004: nice lol
+Thu Jun 13 03:09:28 2019: ant1:Tested:G004: any which way i should go first?
+Thu Jun 13 03:09:53 2019: zach3:Fart:G004: Sec
+Thu Jun 13 03:09:55 2019: zach3:Fart:G004: let me send you
+Thu Jun 13 03:09:58 2019: zach3:Fart:G004: im making a map
+Thu Jun 13 03:10:04 2019: ant1:Tested:G004: ok i need to relog brb
+Thu Jun 13 03:10:22 2019: ant1:Tested:G004: ok back
+Thu Jun 13 03:12:07 2019: zach3:Fart:G004: sec
+Thu Jun 13 03:12:09 2019: zach3:Fart:G004: almost done with map
+Thu Jun 13 03:13:30 2019: zach3:Fart:G004: https://i.imgur.com/KF6JqrN.png
+Thu Jun 13 03:14:04 2019: ant1:Tested:G004: nice
+Thu Jun 13 03:14:11 2019: zach3:Fart:G004: So the red dots are buttons, blue dots are keys, gold stars are chests and the red lines are locked by the buttons
+Thu Jun 13 03:14:21 2019: zach3:Fart:G004: I could do a better one, color coded for which button does which door
+Thu Jun 13 03:14:37 2019: ant1:Tested:G004: lmao well whatever works easiest i suppose
+Thu Jun 13 03:14:45 2019: ant1:Tested:G004: im multitasking leveling my wiz too †
+Thu Jun 13 03:18:25 2019: zach3:Fart:G004: https://i.imgur.com/xZZM5BL.png
+Thu Jun 13 03:18:28 2019: zach3:Fart:G004: updated
+Thu Jun 13 03:18:49 2019: ant1:Tested:G004: ok cool
+Thu Jun 13 03:19:12 2019: ant1:Tested:G004: so should i hit all the buttons first and then try the doors
+Thu Jun 13 03:20:43 2019: ant1:Tested:G004: are your room numbers correct?
+Thu Jun 13 03:20:49 2019: zach3:Fart:G004: yes
+Thu Jun 13 03:21:25 2019: ant1:Tested:G004: so the door is which one the yellow one?
+Thu Jun 13 03:22:48 2019: ant1:Tested:G004: entrance* my bad
+Thu Jun 13 03:22:57 2019: zach3:Fart:G004: Sorry the entrance is room 10000
+Thu Jun 13 03:23:00 2019: zach3:Fart:G004: bottom middlw
+Thu Jun 13 03:23:03 2019: zach3:Fart:G004: middle
+Thu Jun 13 03:23:12 2019: ant1:Tested:G004: ok gotcha
+Thu Jun 13 03:23:16 2019: ant1:Tested:G004: makes sense now lol
+Thu Jun 13 03:34:38 2019: ant1:Tested:G004: ok every room works and doesnt have any rubber walls or hard stops
+Thu Jun 13 03:34:40 2019: ant1:Tested:G004: chests worked too
+Thu Jun 13 03:34:58 2019: ant1:Tested:G004: wasnt forced to kill entering or leaving any room. sure you know but just fyi
+Thu Jun 13 03:35:57 2019: ant1:Tested:G004: buttons and doors worked too
+Thu Jun 13 03:37:35 2019: zach3:Fart:G004: awesome
+Thu Jun 13 03:38:16 2019: ant1:Tested:G004: also sharpened wand is fuckin sick lol
+Thu Jun 13 03:38:47 2019: ant1:Tested:G004: tho the -500 sdm seems odd †
+Thu Jun 13 03:40:15 2019: zach3:Fart:G004: Otherwise wizards do like 200k+ dmg per round
+Thu Jun 13 03:40:31 2019: ant1:Tested:G004: oh for real!?
+Thu Jun 13 03:40:38 2019: ant1:Tested:G004: damn i did like 10 with spells 
+Thu Jun 13 03:40:42 2019: ant1:Tested:G004: and i have 298329382 intel lol
+Thu Jun 13 03:40:53 2019: ant1:Tested:G004: 239 intel
+Thu Jun 13 03:41:03 2019: ant1:Tested:G004: maybe bugged cause the intel is so high tho
+Thu Jun 13 03:41:24 2019: zach3:Fart:G004: Nah doesnt bug uintil you get to like 1billion+
+Thu Jun 13 03:41:33 2019: ant1:Tested:G004: hmm so thats weird then
+Thu Jun 13 03:41:35 2019: ant1:Tested:G004: why do wizzies do more?
+Thu Jun 13 03:41:48 2019: zach3:Fart:G004: Their amulet and gear give a shitload of circle sdm
+Thu Jun 13 03:41:56 2019: ant1:Tested:G004: ahh ok gotcha 
+Thu Jun 13 03:42:02 2019: zach3:Fart:G004: 3000%+ 
+Thu Jun 13 03:42:08 2019: zach3:Fart:G004: fully geared
+Thu Jun 13 03:42:15 2019: ant1:Tested:G004: nice!
+Thu Jun 13 03:42:21 2019: ant1:Tested:G004: well mines 6045% smd lmao.
+Thu Jun 13 03:42:23 2019: ant1:Tested:G004: but not circle
+Thu Jun 13 03:42:35 2019: ant1:Tested:G004: but yeah the dungeon works fine €
+Thu Jun 13 03:43:09 2019: ant1:Tested:G004: going to MASSIVE with required fights but long as those chests arent empty it should be fine lmao
+Thu Jun 13 03:43:21 2019: zach3:Fart:G004: https://i.imgur.com/44d7WPk.png
+Thu Jun 13 03:43:30 2019: ant1:Tested:G004: i had a dye, cleaver and sharpened wand and an empty chest in mine
+Thu Jun 13 03:43:47 2019: ant1:Tested:G004: whats that map for
+Thu Jun 13 03:44:02 2019: zach3:Fart:G004: here, just a revised version
+Thu Jun 13 03:44:03 2019: zach3:Fart:G004: cleaner
+Thu Jun 13 03:44:07 2019: ant1:Tested:G004: ahh ok
+Thu Jun 13 03:44:40 2019: ant1:Tested:G004: i need to make a sheet for all the gear and dungeons
+Thu Jun 13 03:44:43 2019: ant1:Tested:G004: new ones*
+Thu Jun 13 03:45:11 2019: ant1:Tested:G004: cause some arent on your announcements/gear/weps tabs in discord. others are changed etc.
+Thu Jun 13 03:45:17 2019: zach3:Fart:G004: yeah 
+Thu Jun 13 03:45:32 2019: ant1:Tested:G004: also what is despothes blessing i cant find shit online lol
+Thu Jun 13 03:46:00 2019: ant1:Tested:G004: brb bio
+Thu Jun 13 03:46:56 2019: zach3:Fart:G004: Gives lightning immunity and immo
+Thu Jun 13 03:47:16 2019: ant1:Tested:G004: is the immo like godly or what lol
+Thu Jun 13 03:47:23 2019: zach3:Fart:G004: nah
+Thu Jun 13 03:47:47 2019: ant1:Tested:G004: boo 
+Thu Jun 13 03:47:47 2019: ant1:Tested:G004: well
+Thu Jun 13 03:47:49 2019: ant1:Tested:G004: whats next †
+Thu Jun 13 03:49:15 2019: zach3:Fart:G004: Gotta add monsters
+Thu Jun 13 04:03:10 2019: ant1:Tested:G004: of course!
+Thu Jun 13 04:03:22 2019: ant1:Tested:G004: is sanct the offical name?
+Thu Jun 13 04:03:27 2019: zach3:Fart:G004: no
+Thu Jun 13 04:06:45 2019: ant1:Tested:G004: gotcha 
+Thu Jun 13 04:07:21 2019: zach3:Fart:G004: This will be replacing castle though
+Thu Jun 13 04:08:14 2019: ant1:Tested:G004: castle? idk what that even is lol
+Thu Jun 13 04:08:38 2019: zach3:Fart:G004: failed dungeon attempt
+Thu Jun 13 04:08:46 2019: ant1:Tested:G004: its not in the game rn right?
+Thu Jun 13 04:09:02 2019: zach3:Fart:G004: its on live
+Thu Jun 13 04:09:10 2019: ant1:Tested:G004: oh it is? 14n of cf?
+Thu Jun 13 04:09:15 2019: zach3:Fart:G004: yeah 
+Thu Jun 13 04:09:34 2019: ant1:Tested:G004: i thought that was dp with garrison to the left and i forget to the right
+Thu Jun 13 04:09:43 2019: zach3:Fart:G004: yeah and castle was north of DP 
+Thu Jun 13 04:09:49 2019: ant1:Tested:G004: ahh gotcha
+Thu Jun 13 04:09:52 2019: ant1:Tested:G004: might need to check it out lol
+Thu Jun 13 04:10:44 2019: ant1:Tested:G004: is this going to be a mix of all the dungeons mobs?
+Thu Jun 13 04:32:18 2019: ant1:Tested:G004:  ima switch toons on test brb
+Thu Jun 20 05:41:33 2019: ant3:Testi:R 5029:  ‚
+Thu Jun 20 05:41:35 2019: zach3:Fart:R 5029:  Okay new weapon is this model
+Thu Jun 20 05:41:48 2019: zach3:Fart:R 5029:  Need to decide on a color
+Thu Jun 20 05:42:14 2019: zach3:Fart:R 5029:  gonna be a wizziwe weapon 
+Thu Jun 20 05:42:16 2019: zach3:Fart:R 5029:  wizzie* 
+Thu Jun 20 05:42:19 2019: ant3:Testi:R 5029:  well shit im a war
+Thu Jun 20 05:42:23 2019: ant3:Testi:R 5029:  should i make a wiz lol
+Thu Jun 20 05:42:35 2019: zach3:Fart:R 5029:  if you want, right now were deciding colors lol
+Thu Jun 20 05:42:53 2019: ant3:Testi:R 5029:  hmm i wanna see it in battle
+Thu Jun 20 05:43:03 2019: ant3:Testi:R 5029:  the one on the left, looks like the normal modle
+Thu Jun 20 05:43:05 2019: ant3:Testi:R 5029:  model
+Thu Jun 20 05:43:42 2019: ant3:Testi:R 5029:  so id choose the right one currently
+Thu Jun 20 05:46:47 2019: ant3:Testi:R 5029:  wanna sword fight? †‡
+Thu Jun 20 05:46:56 2019: zach3:Fart:R 5029:  Hmm doesnt seem the color matters too much 
+Thu Jun 20 05:47:02 2019: zach3:Fart:R 5029:  just dyes the core which is abrely visible
+Thu Jun 20 05:47:04 2019: ant3:Testi:R 5029:  oh yeah?
+Thu Jun 20 05:47:11 2019: zach3:Fart:R 5029:  seems armor changes the outside of the blade
+Thu Jun 20 05:47:54 2019: ant3:Testi:R 5029:  interesting!
+Thu Jun 20 05:49:40 2019: zach3:Fart:R 5029:  Hah think I found a way to make it unique still
+Thu Jun 20 05:50:03 2019: zach3:Fart:R 5029:  Completely invisible core
+Thu Jun 20 05:50:12 2019: ant3:Testi:R 5029:  ohhh wow!
+Thu Jun 20 05:50:21 2019: ant3:Testi:R 5029:  looks sweet
+Thu Jun 20 05:50:37 2019: ant3:Testi:R 5029:  cheese slicer †
+Thu Jun 20 05:51:01 2019: zach3:Fart:R 5029:  hahaha
+Thu Jun 20 05:51:37 2019: ant3:Testi:R 5029:  all the wizzies will be cutting the cheese †
+Thu Jun 20 05:52:11 2019: zach3:Fart:R 5029:  What's a good name for a wizard's sword
+Thu Jun 20 05:52:25 2019: ant3:Testi:R 5029:  depends on its unique properties, if any
+Thu Jun 20 05:52:37 2019: zach3:Fart:R 5029:  20% Chance to proc a random spell
+Thu Jun 20 05:52:46 2019: zach3:Fart:R 5029:  +4 intel +Str +Dex
+Thu Jun 20 05:52:48 2019: zach3:Fart:R 5029:  2500 mana/round
+Thu Jun 20 05:52:49 2019: ant3:Testi:R 5029:  oh jeez totally random?!
+Thu Jun 20 05:52:53 2019: ant3:Testi:R 5029:  LOLLLLLL
+Thu Jun 20 05:53:00 2019: zach3:Fart:R 5029:  Within a certain list of spells
+Thu Jun 20 05:53:01 2019: zach3:Fart:R 5029:  but yeah
+Thu Jun 20 05:53:08 2019: ant3:Testi:R 5029:  as if sdm % didnt already drain mana enough †
+Thu Jun 20 05:53:10 2019: ant3:Testi:R 5029:  but hmm
+Thu Jun 20 05:53:31 2019: t7rnsei0:PyreHold:R 5029:  lmao like the current mana usage is a big deal
+Thu Jun 20 05:53:36 2019: t7rnsei0:PyreHold:R 5029:  so easy to make money
+Thu Jun 20 05:53:36 2019: ant3:Testi:R 5029:  long swords are str + dex mdm formula right?
+Thu Jun 20 05:53:41 2019: zach3:Fart:R 5029:  Want to also do the description?
+Thu Jun 20 05:53:49 2019: zach3:Fart:R 5029:  Its going to be short sword calculated 
+Thu Jun 20 05:53:49 2019: ant3:Testi:R 5029:  err two hander swords i mean
+Thu Jun 20 05:53:52 2019: zach3:Fart:R 5029:  if all goes according to plan
+Thu Jun 20 05:53:54 2019: ant3:Testi:R 5029:  AHH sweet!
+Thu Jun 20 05:53:56 2019: zach3:Fart:R 5029:  so it will scale on intel
+Thu Jun 20 05:54:04 2019: zach3:Fart:R 5029:  hey pyre Š
+Thu Jun 20 05:54:07 2019: ant3:Testi:R 5029:  omg im probably the worst. whats the time line for this 
+Thu Jun 20 05:54:18 2019: t7rnsei0:PyreHold:R 5029:  Right now
+Thu Jun 20 05:54:22 2019: t7rnsei0:PyreHold:R 5029:  †
+Thu Jun 20 05:54:24 2019: zach3:Fart:R 5029:  lmao basically 
+Thu Jun 20 05:54:37 2019: zach3:Fart:R 5029:  Ok Ill add it rq without a new desc sec
+Thu Jun 20 05:54:40 2019: ant3:Testi:R 5029:  LOL its 1am and im half dead and rest goofy af †
+Thu Jun 20 05:55:33 2019: zach3:Fart:R 5029:  Pyre
+Thu Jun 20 05:55:39 2019: zach3:Fart:R 5029:  what would you name a wizard's sword
+Thu Jun 20 05:56:24 2019: ant3:Testi:R 5029:  is there a character limit?
+Thu Jun 20 05:56:27 2019: t7rnsei0:PyreHold:R 5029:  How about Pocket Poker..
+Thu Jun 20 05:56:34 2019: zach3:Fart:R 5029:  I don't think so 
+Thu Jun 20 05:56:37 2019: zach3:Fart:R 5029:  not really but
+Thu Jun 20 05:56:39 2019: ant3:Testi:R 5029:  its too big for that pyre †
+Thu Jun 20 05:56:45 2019: zach3:Fart:R 5029:  The health bar on top right will only fit so much
+Thu Jun 20 05:57:48 2019: t7rnsei0:PyreHold:R 5029:  Mages Edge
+Thu Jun 20 05:58:28 2019: ant3:Testi:R 5029:  Grand Magisters Infinite Wisdom
+Thu Jun 20 05:59:36 2019: t7rnsei0:PyreHold:R 5029:  Mabon's Hedge Trimmer
+Thu Jun 20 06:00:04 2019: ant3:Testi:R 5029:  lol dirty boy ‡
+Thu Jun 20 06:01:01 2019: t7rnsei0:PyreHold:R 5029:  "Once used by Mabon to clear some heavy brush from aroud his tiny sapling"
+Thu Jun 20 06:01:12 2019: ant3:Testi:R 5029:  lmao jesus
+Thu Jun 20 06:02:42 2019: ant3:Testi:R 5029:  Elemental Scimitar?
+Thu Jun 20 06:03:12 2019: t7rnsei0:PyreHold:R 5029:  "It's rumored that he nicked the sapling, imbuing the edge with Mabon's magical essence"
+Thu Jun 20 06:04:01 2019: ant3:Testi:R 5029:  We needs new gods
+Thu Jun 20 06:04:23 2019: t7rnsei0:PyreHold:R 5029:  Doesnt need to be god weapons
+Thu Jun 20 06:04:55 2019: t7rnsei0:PyreHold:R 5029:  Could be Merlin's Hedge Trimmer or basically any mythology you want
+Thu Jun 20 06:05:18 2019: t7rnsei0:PyreHold:R 5029:  not like we're maintaining the story line anymore or anything like that.
+Thu Jun 20 06:05:24 2019: t7rnsei0:PyreHold:R 5029:  So it should be fun.
+Thu Jun 20 06:05:40 2019: ant3:Testi:R 5029:  oh i know it was just a thought
+Thu Jun 20 06:06:00 2019: t7rnsei0:PyreHold:R 5029:  Technically we got 4 new gods in Sanct.
+Thu Jun 20 06:09:12 2019: zach3:Fart:R 5029:  brb
+Thu Jun 20 06:10:10 2019: ant3:Testi:R 5029:  DAMNNN that damage...me likey! now we need level 5000 end weps and dex weps †
+Thu Jun 20 06:11:18 2019: zach3:Fart:G004: Sweet
+Thu Jun 20 06:11:24 2019: zach3:Fart:G004: so with 1 strength and 1 dex
+Thu Jun 20 06:11:27 2019: zach3:Fart:G004: and 100 intel
+Thu Jun 20 06:11:32 2019: zach3:Fart:G004: im hitting 5k hits with the sword
+Thu Jun 20 06:11:35 2019: ant3:Testi:R 5029:  does it currently work?
+Thu Jun 20 06:11:36 2019: zach3:Fart:G004: so it is scaling off of intel
+Thu Jun 20 06:13:49 2019: zach3:Fart:G004: Need to test with a kitted aiew now 
+Thu Jun 20 06:14:34 2019: ant3:Testi:G004: true
+Thu Jun 20 06:16:12 2019: ant3:Testi:G004: think i ahve one one sec
+Thu Jun 20 06:17:41 2019: ant1:Wizzz:G004: 6 attacks a round lol
+Thu Jun 20 06:17:56 2019: zach3:Fart:G004: lmao
+Thu Jun 20 06:18:12 2019: ant1:Wizzz:G004: gear isnt chanted but wouldnt change much
+Thu Jun 20 06:18:21 2019: ant1:Wizzz:G004: 25% encum
+Thu Jun 20 06:19:54 2019: zach3:Fart:G004: gnna reboot rq 
+Thu Jun 20 06:20:01 2019: ant1:Wizzz:G004: kk
+Thu Jun 20 06:21:07 2019: zach3:Fart:G004: hahaha
+Thu Jun 20 06:21:12 2019: zach3:Fart:G004: had a random idea
+Thu Jun 20 06:21:13 2019: zach3:Fart:G004: and it works
+Thu Jun 20 06:21:16 2019: ant1:Wizzz:G004: whats that
+Thu Jun 20 06:21:20 2019: zach3:Fart:G004: interesting
+Thu Jun 20 06:21:27 2019: zach3:Fart:G004: made an 'escape potion'
+Thu Jun 20 06:21:32 2019: ant1:Wizzz:G004: like flee?
+Thu Jun 20 06:21:34 2019: zach3:Fart:G004: teleports you tot he room you are in
+Thu Jun 20 06:21:38 2019: zach3:Fart:G004: to the* 
+Thu Jun 20 06:21:42 2019: zach3:Fart:G004: so its guaranteed flee
+Thu Jun 20 06:21:44 2019: ant1:Wizzz:G004: lmao awesome!
+Thu Jun 20 06:21:46 2019: zach3:Fart:G004: no matter what
+Thu Jun 20 06:22:08 2019: ant1:Wizzz:G004: USE items are awesome! wish there were more or the ones we have at least viable
+Thu Jun 20 06:22:25 2019: ant1:Wizzz:G004: can you use if zerked?
+Thu Jun 20 06:22:30 2019: zach3:Fart:G004: no
+Thu Jun 20 06:22:32 2019: zach3:Fart:G004: wait
+Thu Jun 20 06:22:34 2019: zach3:Fart:G004: LMAO
+Thu Jun 20 06:22:35 2019: ant1:Wizzz:G004: whered you go!?!
+Thu Jun 20 06:22:37 2019: ant1:Wizzz:G004: MABON TOOK YOU!
+Thu Jun 20 06:22:38 2019: zach3:Fart:G004: LMFAO
+Thu Jun 20 06:22:48 2019: zach3:Fart:G004: so I left the dungeon
+Thu Jun 20 06:22:51 2019: zach3:Fart:G004: roffffffl
+Thu Jun 20 06:22:53 2019: ant1:Wizzz:G004: uh oh lmao
+Thu Jun 20 06:23:15 2019: zach3:Fart:G004: works fine outside dungeons
+Thu Jun 20 06:23:40 2019: zach3:Fart:G004: o well
+Thu Jun 20 06:23:41 2019: zach3:Fart:G004: lol
+Thu Jun 20 06:24:30 2019: ant1:Wizzz:G004: damn between thors armor and the wep spells are sweet †
+Thu Jun 20 06:25:41 2019: ant1:Wizzz:G004: that one ice spell. does 200 dmg tho it stinks
+Thu Jun 20 06:30:06 2019: ant1:Wizzz:G004: avg 3k hits with wiz
+Thu Jun 20 06:30:18 2019: ant1:Wizzz:G004: not chanted tho
+Thu Jun 20 06:32:49 2019: ant1:Wizzz:G004: stunned myself lmao
+Thu Jun 20 06:32:55 2019: zach3:Fart:G004: Ooo
+Thu Jun 20 06:33:57 2019: ant1:Wizzz:G004: 4.5k-5k hits chanted
+Thu Jun 20 06:34:26 2019: ant1:Wizzz:G004: depends on their armor i suppose
+Thu Jun 20 06:34:30 2019: zach3:Fart:G004: mhm
+Thu Jun 20 06:34:55 2019: ant1:Wizzz:G004: on the garrison good boys anyway
+Thu Jun 20 06:35:45 2019: ant1:Wizzz:G004: does it work on counter attacks?
+Thu Jun 20 06:35:55 2019: zach3:Fart:G004: no
+Thu Jun 20 06:36:00 2019: ant1:Wizzz:G004: ahh ok
+Thu Jun 20 06:38:25 2019: ant1:Wizzz:G004: its pretty fun!
+Thu Jun 20 06:38:36 2019: ant1:Wizzz:G004: getting about 1 proc a turn
+Thu Jun 20 06:40:07 2019: ant1:Wizzz:G004: ok i ahve to head to bed. send me a list of anything you want tested specifically if you dont want to imp it immediatly and ill test tomorrow after work €
+Thu Jun 20 06:40:19 2019: zach3:Fart:G004: Roger that †Š 
+Thu Jun 20 06:40:22 2019: zach3:Fart:G004: have a good one
+Thu Jun 20 06:40:32 2019: ant1:Wizzz:G004: you too!
+Thu Jun 20 21:42:13 2019: ant2:Wizardd:G004: cheat iem lol
+Thu Jun 20 21:42:14 2019: ant2:Wizardd:G004: item*
+Thu Jun 20 21:42:31 2019: ant2:Wizardd:G004: where can  i find one of those on live ††
+Thu Jun 20 21:43:06 2019: zach3:Fart:G004: nowhere
+Thu Jun 20 21:43:08 2019: zach3:Fart:G004: rofl
+Thu Jun 20 21:43:12 2019: ant2:Wizardd:G004: i know i was keeeding †
+Thu Jun 20 21:43:15 2019: ant2:Wizardd:G004: that helm sounds sexyyyy
+Thu Jun 20 21:43:28 2019: ant2:Wizardd:G004: WHOA they both do!
+Thu Jun 20 21:47:32 2019: zach3:Fart:R 5029:  That has more in than the mystical rings
+Thu Jun 20 21:47:35 2019: zach3:Fart:R 5029:  int*
+Thu Jun 20 21:51:28 2019: ant2:Wizardd:R 5029:  47 max intel sound right?
+Thu Jun 20 21:51:34 2019: zach3:Fart:R 5029:  ionno
+Thu Jun 20 21:51:35 2019: zach3:Fart:R 5029:  rofl
+Thu Jun 20 21:51:42 2019: ant2:Wizardd:R 5029:  ahh i think im wearing the bis wiz gear
+Thu Jun 20 21:51:50 2019: ant2:Wizardd:R 5029:  pre-rebirth
+Thu Jun 20 21:51:56 2019: zach3:Fart:R 5029:  you can 'rebirth' yourself
+Thu Jun 20 21:52:02 2019: zach3:Fart:R 5029:  you ever edit attrs on NG?
+Thu Jun 20 21:52:12 2019: ant2:Wizardd:R 5029:  yeah i know how but i wanted to test base first €
+Thu Jun 20 21:52:16 2019: zach3:Fart:R 5029:  kk €
+Thu Jun 20 21:53:02 2019: zach3:Fart:R 5029:  Did you know about my barrens server
+Thu Jun 20 21:53:07 2019: ant2:Wizardd:R 5029:  is there a test mob by chance? high hp low dmg?
+Thu Jun 20 21:53:10 2019: ant2:Wizardd:R 5029:  no sir
+Thu Jun 20 21:53:13 2019: zach3:Fart:R 5029:  yeah Meatbag
+Thu Jun 20 21:53:27 2019: ant2:Wizardd:R 5029:  can i conjure/fight it here?
+Thu Jun 20 21:53:35 2019: zach3:Fart:R 5029:  sec
+Thu Jun 20 21:54:23 2019: zach3:Fart:R 995014:  can conjure mobs to fight 1d or 1l 
+Thu Jun 20 21:54:34 2019: zach3:Fart:R 995029:  oh
+Thu Jun 20 21:54:39 2019: zach3:Fart:R 995029:  theres still other mobs here
+Thu Jun 20 21:54:40 2019: zach3:Fart:R 995029:  rofl
+Thu Jun 20 21:54:43 2019: zach3:Fart:R 995029:  I can fix that 
+Thu Jun 20 21:54:45 2019: ant2:Wizardd:R 995029:  you didnt update this server lol damn jumped †
+Thu Jun 20 21:55:05 2019: zach3:Fart:R 995014:  sec
+Thu Jun 20 21:55:07 2019: ant2:Wizardd:R 995014:  kk
+Thu Jun 20 21:55:08 2019: zach3:Fart:R 995014:  fixin
+Thu Jun 20 21:57:04 2019: zach3:Fart:R 995014:  kk so this is how I do reboots on test
+Thu Jun 20 21:57:21 2019: zach3:Fart:R 995014:  I log out to server select then reboot so I can just log back in without opening new client
+Thu Jun 20 21:57:32 2019: ant2:Wizardd:R 995014:  ah ok i need to relog?
+Thu Jun 20 21:57:34 2019: zach3:Fart:R 995014:  so log out rq and wait 5 seconds, log back in 
+Thu Jun 20 21:59:32 2019: ant2:Wizardd:R 995029:  so the slower casting low dmg spells suck imo
+Thu Jun 20 21:59:42 2019: ant2:Wizardd:R 995029:  crushing boulder and that ice one that sounds like glass breaking
+Thu Jun 20 22:00:01 2019: ant2:Wizardd:R 995029:  not sure what otheres there are
+Thu Jun 20 22:00:13 2019: ant2:Wizardd:R 995029:  but the rest seem cool
+Thu Jun 20 22:00:25 2019: zach3:Fart:R 995029:  Thats the spell zerk list
+Thu Jun 20 22:00:27 2019: zach3:Fart:R 995029:  Sent in discord
+Thu Jun 20 22:00:42 2019: ant2:Wizardd:R 995029:  which one is it, the ice one
+Thu Jun 20 22:00:53 2019: zach3:Fart:R 995029:  ice storm i assume
+Thu Jun 20 22:00:54 2019: zach3:Fart:R 995029:  go cast it
+Thu Jun 20 22:01:01 2019: ant2:Wizardd:R 995029:  oh yeah true 
+Thu Jun 20 22:01:07 2019: ant2:Wizardd:R 995029:  that thing is a joke
+Thu Jun 20 22:01:10 2019: ant2:Wizardd:R 995029:  it does like 200 dmg
+Thu Jun 20 22:03:35 2019: ant2:Wizardd:G004: 190-220 for ice storm 9.6k for crushing boulder pyschic orb does 2.2k 
+Thu Jun 20 22:03:44 2019: ant2:Wizardd:G004: whats burning mistcloud ? and whats it under
+Thu Jun 20 22:04:21 2019: zach3:Fart:G004: Its an avalon spell 
+Thu Jun 20 22:04:33 2019: zach3:Fart:G004: cow spell from drear valley
+Thu Jun 20 22:04:36 2019: zach3:Fart:G004: you cant learn it
+Thu Jun 20 22:04:50 2019: ant2:Wizardd:G004: ahh ok 
+Thu Jun 20 22:05:02 2019: ant2:Wizardd:G004: every other spell proc on the wep seem fine
+Thu Jun 20 22:05:49 2019: ant2:Wizardd:G004: melee dmg against meatbag is 2k avg a hit
+Thu Jun 20 22:07:04 2019: ant2:Wizardd:R 995029:  cant tell EQ dmg cause of psn lol
+Thu Jun 20 22:07:28 2019: ant2:Wizardd:R 995029:  pretty sure its good tho
+Thu Jun 20 22:07:49 2019: ant2:Wizardd:R 995029:  285 sdm with all bis gear 47 intel
+Thu Jun 20 22:08:01 2019: zach3:Fart:R 995029:  youre missing something
+Thu Jun 20 22:08:06 2019: zach3:Fart:R 995029:  max sdm is over 300
+Thu Jun 20 22:08:13 2019: zach3:Fart:R 995029:  without these new items
+Thu Jun 20 22:08:28 2019: ant2:Wizardd:R 995029:  any other god items?
+Thu Jun 20 22:09:21 2019: ant2:Wizardd:R 995029:  291% 48 intel with the boots
+Thu Jun 20 22:09:30 2019: ant2:Wizardd:R 995029:  also using the sword though
+Thu Jun 20 22:09:32 2019: zach3:Fart:R 995029:  swap amulets
+Thu Jun 20 22:09:58 2019: ant2:Wizardd:R 995029:  im using amy of ascension tho?
+Thu Jun 20 22:10:05 2019: zach3:Fart:R 995029:  oh you are ok nvm
+Thu Jun 20 22:10:08 2019: zach3:Fart:R 995029:  ;p
+Thu Jun 20 22:10:35 2019: ant2:Wizardd:R 995029:  297% 49 intel with conjured shield and sharpened wand
+Thu Jun 20 22:10:47 2019: zach3:Fart:R 995029:  I think this baldy has more int
+Thu Jun 20 22:11:33 2019: ant2:Wizardd:R 995029:  303% 50 intel
+Thu Jun 20 22:11:47 2019: ant2:Wizardd:R 995029:  which is stronger circle % or sdm?
+Thu Jun 20 22:11:55 2019: zach3:Fart:R 995029:  circle %
+Thu Jun 20 22:12:09 2019: ant2:Wizardd:R 995029:  ya thats why i used mabon shoes and despothes baldy
+Thu Jun 20 22:12:17 2019: zach3:Fart:R 995029:  ah true
+Thu Jun 20 22:12:24 2019: zach3:Fart:R 995029:  yeah its better to max circle %
+Thu Jun 20 22:12:31 2019: zach3:Fart:R 995029:  rather than Int or SDM
+Thu Jun 20 22:12:58 2019: ant2:Wizardd:R 995029:  how much end does the drake mask give
+Thu Jun 20 22:13:06 2019: zach3:Fart:R 995029:  +6 iirc
+Thu Jun 20 22:13:23 2019: ant2:Wizardd:R 995029:  yeah 6
+Thu Jun 20 22:16:30 2019: ant2:Wizardd:R 995029:  5 rounds with no proc lmao my luckj
+Thu Jun 20 22:16:58 2019: ant2:Wizardd:R 995029:  so the sword is more geared for hitters that arent all intel elf wizzies right
+Thu Jun 20 22:17:04 2019: zach3:Fart:R 995029:  Yeah 
+Thu Jun 20 22:17:26 2019: ant2:Wizardd:R 995029:  i figured, more up front non resistant damage vs sharpened wand or casting spells
+Thu Jun 20 22:17:41 2019: ant2:Wizardd:R 995029:  i like the diversity 
+Thu Jun 20 22:18:38 2019: ant2:Wizardd:R 995029:  let me test the drake mask
+Thu Jun 20 22:18:43 2019: ant2:Wizardd:R 995029:  the proc 
+Thu Jun 20 22:19:13 2019: ant2:Wizardd:R 995029:  oh wait idk if he can hit me lol
+Thu Jun 20 22:19:21 2019: zach3:Fart:R 995029:  yeah I dont think he can 
+Thu Jun 20 22:24:20 2019: ant2:Wizardd:G004: spells on macy, they do considerably less, why is that just curious
+Thu Jun 20 22:24:47 2019: zach3:Fart:G004: umm idr
+Thu Jun 20 22:25:03 2019: ant2:Wizardd:G004: like if i cast on meatbag some do 100k these do 30k with the strongest ones
+Thu Jun 20 22:25:14 2019: ant2:Wizardd:G004: more in the 1-5k rage though
+Thu Jun 20 22:25:23 2019: ant2:Wizardd:G004: range*
+Thu Jun 20 22:26:26 2019: ant2:Wizardd:G004: hmm only seems to be from the sword proc. my spells casts are a big stronger. 50k range
+Thu Jun 20 22:28:42 2019: ant2:Wizardd:G004: even the proc from thors armor is WAY lower
+Thu Jun 20 22:33:04 2019: ant2:Wizardd:G004: the 40% proc chance on drake helm. is that accurate
+Thu Jun 20 22:33:12 2019: ant2:Wizardd:G004: i healed only a couple times in that fight
+Thu Jun 20 22:46:28 2019: ant2:Wizardd:R 995029:  ok yeah only had the helm proc one heal that whole fight
+Thu Jun 20 22:47:19 2019: ant2:Wizardd:R 995029:  ima go test it somewhere else brb
+Thu Jun 20 22:53:57 2019: ant2:Wizardd:R 995029:  ya so thors armor procs like 4times more often than drake mask does
+Thu Jun 20 22:54:01 2019: ant2:Wizardd:R 995029:  and its half the % chance
+Thu Jun 20 23:00:03 2019: zach3:Fart:G004: Armor procs only proc when struck in that piece
+Thu Jun 20 23:00:05 2019: zach3:Fart:G004: during combat
+Thu Jun 20 23:00:10 2019: zach3:Fart:G004: so 40% of the time when hit in the had
+Thu Jun 20 23:00:12 2019: zach3:Fart:G004: head
+Thu Jun 20 23:06:47 2019: ant2:Wizardd:R 995029:  ok ima run and test it rq
+Thu Jun 20 23:10:16 2019: ant2:Wizardd:G004: how often does your helm get hit?
+Thu Jun 20 23:10:21 2019: ant2:Wizardd:G004: how often does your helm get hit?
+Thu Jun 20 23:12:42 2019: zach3:Fart:G004: its random
+Thu Jun 20 23:13:08 2019: zach3:Fart:G004: its random
+Thu Jun 20 23:13:09 2019: ant2:Wizardd:G004: shit handled. what did you say
+Thu Jun 20 23:13:15 2019: ant2:Wizardd:G004: ahh interesting
+Thu Jun 20 23:13:38 2019: ant2:Wizardd:G004: i took off thors armor and just let 7 noblemen hit me. takes quite a bit of hits
+Thu Jun 20 23:13:41 2019: ant2:Wizardd:G004: to proc
+Thu Jun 20 23:15:19 2019: zach3:Fart:G004: maybe ill make it Gheal then ;p
+Thu Jun 20 23:16:00 2019: ant2:Wizardd:G004: twice in 80 hits
+Thu Jun 20 23:16:15 2019: zach3:Fart:G004: ROFL
+Thu Jun 20 23:16:47 2019: ant2:Wizardd:G004: lol kinda nuts †
+Thu Jun 20 23:17:10 2019: zach3:Fart:G004: I put up all 4 servers
+Thu Jun 20 23:17:18 2019: zach3:Fart:G004: ST, ST 2,0, barrens, test
+Thu Jun 20 23:18:48 2019: ant2:Wizardd:G004: whats barrens 
+Thu Jun 20 23:18:51 2019: ant2:Wizardd:G004: and 2.0
+Thu Jun 20 23:18:57 2019: zach3:Fart:G004: 2.0 is what we all been playing
+Thu Jun 20 23:19:00 2019: ant2:Wizardd:G004: ohhhh
+Thu Jun 20 23:19:06 2019: zach3:Fart:G004: barrens is a custom built pvp server I made a while ago
+Thu Jun 20 23:19:11 2019: zach3:Fart:G004: with a ton of custom rules
+Thu Jun 20 23:19:17 2019: ant2:Wizardd:G004: and ST is the old one?
+Thu Jun 20 23:19:23 2019: zach3:Fart:G004: Yeah original ST
+Thu Jun 20 23:19:31 2019: ant2:Wizardd:G004: think thats the one i played on
+Thu Jun 20 23:22:18 2019: ant2:Wizardd:G004: this helm will be fun when theres a lot of mobs hitting you
+Thu Jun 20 23:23:12 2019: ant2:Wizardd:G004: vs raid bosses and bosses the proc will be pretty much super rare. but the +6 end is cool!
+Thu Jun 20 23:24:06 2019: zach3:Fart:G004: hmm
+Thu Jun 20 23:24:09 2019: zach3:Fart:G004: need to reboot everything
+Thu Jun 20 23:24:10 2019: ant2:Wizardd:G004: lol i think im the only one active on †
+Thu Jun 20 23:24:15 2019: zach3:Fart:G004: barrens is bugged
+Thu Jun 20 23:24:18 2019: zach3:Fart:G004: not writing to database
+Thu Jun 20 23:24:24 2019: ant2:Wizardd:G004: do /about the players on and see where they are
+Thu Jun 20 23:24:26 2019: ant2:Wizardd:G004: i think its /about
+Thu Jun 20 23:26:18 2019: ant2:Wizardd:G004: yeah its /about but doesnt work here
+Fri Jun 21 04:49:39 2019: zach:Brutis:R 5029:  Gonna reboot rq
+Fri Jun 21 04:49:58 2019: ant1:Tested:R 5029:  i forgot to add something
+Fri Jun 21 04:50:07 2019: zach:Brutis:R 5029:  kk send me the fix
+Fri Jun 21 04:50:09 2019: ant1:Tested:R 5029:  the proc spell
+Fri Jun 21 04:50:17 2019: ant1:Tested:R 5029:  but it doesnt matter just a descriptor
+Fri Jun 21 04:50:27 2019: ant1:Tested:R 5029:  gohead reboot if you need
+Fri Jun 21 04:50:31 2019: zach:Brutis:R 5029:  oh
+Fri Jun 21 04:50:42 2019: zach:Brutis:R 5029:  So
+Fri Jun 21 04:50:47 2019: zach:Brutis:R 5029:  When I constructed the proc system
+Fri Jun 21 04:50:56 2019: zach:Brutis:R 5029:  I didnt make ALL spells eligible for proc
+Fri Jun 21 04:51:01 2019: ant1:Tested:R 5029:  lmfao i figured
+Fri Jun 21 04:51:02 2019: zach:Brutis:R 5029:  HoD is one of the ones I didnt make possible
+Fri Jun 21 04:51:08 2019: ant1:Tested:R 5029:  but it would be funny
+Fri Jun 21 04:51:12 2019: zach:Brutis:R 5029:  I agree
+Fri Jun 21 04:51:17 2019: ant1:Tested:R 5029:  with the description:P
+Fri Jun 21 04:51:18 2019: zach:Brutis:R 5029:  5% at killshot
+Fri Jun 21 04:51:37 2019: zach:Brutis:R 5029:  Want to add another spell?
+Fri Jun 21 04:51:44 2019: zach:Brutis:R 5029:  Perhaps claeve
+Fri Jun 21 04:51:47 2019: zach:Brutis:R 5029:  cleave
+Fri Jun 21 04:51:49 2019: ant1:Tested:R 5029:  since the spell is literally a head rolling across the screen right? lmao
+Fri Jun 21 04:51:56 2019: zach:Brutis:R 5029:  lmao yeah
+Fri Jun 21 04:52:01 2019: ant1:Tested:R 5029:  :P see cleaver haha
+Fri Jun 21 04:52:05 2019: ant1:Tested:R 5029:  clever**
+Fri Jun 21 04:52:29 2019: ant1:Tested:R 5029:  lmao
+Fri Jun 21 04:52:30 2019: ant1:Tested:R 5029:  so slowww
+Fri Jun 21 04:52:50 2019: ant1:Tested:R 5029:  well
+Fri Jun 21 04:52:54 2019: ant1:Tested:R 5029:  since hod doesnt work as a proc
+Fri Jun 21 04:52:58 2019: ant1:Tested:R 5029:  im not sure
+Fri Jun 21 04:53:13 2019: ant1:Tested:R 5029:  i kinda want to test the 6 range and how that affects the game play
+Fri Jun 21 04:53:37 2019: zach:Brutis:R 5029:  am I good to reboot 
+Fri Jun 21 04:53:44 2019: ant1:Tested:R 5029:  yeah ill just leave it as is for now
+Fri Jun 21 05:00:06 2019: ant1:Tested:R 5029:  hmm 
+Fri Jun 21 05:00:15 2019: ant1:Tested:R 5029:  ahh shit isnt chanted lol
+Fri Jun 21 05:00:18 2019: ant1:Tested:R 5029:  lemme do that
+Fri Jun 21 05:04:20 2019: zach:Brutis:R 5029:  you can also change your class
+Fri Jun 21 05:04:23 2019: zach:Brutis:R 5029:  if you want
+Fri Jun 21 05:04:25 2019: zach:Brutis:R 5029:  without remaking
+Fri Jun 21 05:04:32 2019: zach:Brutis:R 5029:   /class ToonName MaleWizard
+Fri Jun 21 05:04:35 2019: zach:Brutis:R 5029:  MaleWarrior
+Fri Jun 21 05:04:36 2019: zach:Brutis:R 5029:  etc
+Fri Jun 21 05:05:33 2019: zach:Brutis:R 5029:  You can also turn into any NPC
+Fri Jun 21 05:05:41 2019: zach:Brutis:R 5029:   /class ToonName Fuloran 
+Fri Jun 21 05:05:45 2019: zach:Brutis:R 5029:   /class ToonName Pixie
+Fri Jun 21 05:05:52 2019: zach:Brutis:R 5029:   /class ToonName Skeleton
+Fri Jun 21 05:05:56 2019: zach:Brutis:R 5029:  etc etc
+Fri Jun 21 05:06:03 2019: ant1:Tested:R 5029:  for some reason i have 30 base str 
+Fri Jun 21 05:06:07 2019: ant1:Tested:R 5029:  even though i set it to 24
+Fri Jun 21 05:06:13 2019: ant1:Tested:R 5029:  whats your int can you dispell me?
+Fri Jun 21 05:06:21 2019: zach:Brutis:R 5029:  do /attrs tested
+Fri Jun 21 05:06:25 2019: ant1:Tested:R 5029:  i did
+Fri Jun 21 05:06:27 2019: zach:Brutis:R 5029:  your base str is 24
+Fri Jun 21 05:06:36 2019: ant1:Tested:R 5029:  but im fully naked lol
+Fri Jun 21 05:06:46 2019: zach:Brutis:R 5029:  relog
+Fri Jun 21 05:07:09 2019: ant1:Tested:R 5029:  ah ok fixed
+Fri Jun 21 05:07:22 2019: zach:Brutis:R 5029:  need to relog for stats to change
+Fri Jun 21 05:07:25 2019: zach:Brutis:R 5029:  when modded
+Fri Jun 21 05:08:48 2019: zach:Brutis:R 5029:  got mighty ring and totem?
+Fri Jun 21 05:09:03 2019: zach:Brutis:R 5029:  Godlike stat gear is sold inside
+Fri Jun 21 05:09:38 2019: ant1:Tested:R 5029:  im missing 2 str somehow
+Fri Jun 21 05:09:45 2019: ant1:Tested:R 5029:  compared to my live asgw fully geared
+Fri Jun 21 05:10:16 2019: zach:Brutis:R 5029:  new war rings?
+Fri Jun 21 05:10:22 2019: zach:Brutis:R 5029:  new belt?
+Fri Jun 21 05:10:58 2019: ant1:Tested:R 5029:  it was the belt
+Fri Jun 21 05:11:06 2019: ant1:Tested:R 5029:  but odly enough i get 30 attacks a round wtf
+Fri Jun 21 05:11:14 2019: zach:Brutis:R 5029:  ROfl what
+Fri Jun 21 05:11:16 2019: zach:Brutis:R 5029:  wow
+Fri Jun 21 05:11:17 2019: zach:Brutis:R 5029:  wtf
+Fri Jun 21 05:11:21 2019: ant1:Tested:R 5029:  idk how
+Fri Jun 21 05:11:24 2019: zach:Brutis:R 5029:  cheat ring? rofl
+Fri Jun 21 05:11:30 2019: ant1:Tested:R 5029:  nope made this guy before you made that
+Fri Jun 21 05:11:45 2019: zach:Brutis:R 5029:  relog
+Fri Jun 21 05:12:05 2019: ant1:Tested:R 5029:  ok there we go
+Fri Jun 21 05:12:14 2019: zach:Brutis:R 5029:  graphical bug
+Fri Jun 21 05:12:30 2019: ant1:Tested:R 5029:  nope its the weapon
+Fri Jun 21 05:12:36 2019: ant1:Tested:R 5029:  must have not gotten the takeoff line
+Fri Jun 21 05:12:57 2019: ant1:Tested:R 5029:  hmm its in there though?
+Fri Jun 21 05:14:45 2019: ant1:Tested:R 5029:  ima just test it like this lol
+Fri Jun 21 05:14:48 2019: ant1:Tested:R 5029:  but relog so it resets
+Fri Jun 21 05:15:01 2019: zach:Brutis:R 5029:  you
+Fri Jun 21 05:15:04 2019: zach:Brutis:R 5029:  need to relog with it off
+Fri Jun 21 05:15:09 2019: ant1:Tested:R 5029:  why?
+Fri Jun 21 05:15:13 2019: ant1:Tested:R 5029:  its correct now and its on lol
+Fri Jun 21 05:15:19 2019: zach:Brutis:R 5029:  ah ok nvm
+Fri Jun 21 05:15:30 2019: ant1:Tested:R 5029:  brb
+Fri Jun 21 05:15:58 2019: zach:Brutis:R 5029:  weapon will be fixed after eboot
+Fri Jun 21 05:16:02 2019: zach:Brutis:R 5029:  reboot
+Fri Jun 21 05:16:09 2019: ant1:Tested:R 5029:  is it meatbag?
+Fri Jun 21 05:16:20 2019: zach:Brutis:R 5029:  case sensitive
+Fri Jun 21 05:16:23 2019: ant1:Tested:R 5029:  oh ok
+Fri Jun 21 05:16:25 2019: zach:Brutis:R 5029:  everything is
+Fri Jun 21 05:16:34 2019: zach:Brutis:R 5029:  You can actually have 2 items
+Fri Jun 21 05:16:35 2019: zach:Brutis:R 5029:  one named
+Fri Jun 21 05:16:36 2019: ant1:Tested:R 5029:  hes beefy this time lol
+Fri Jun 21 05:16:38 2019: zach:Brutis:R 5029:  mwLance
+Fri Jun 21 05:16:40 2019: zach:Brutis:R 5029:  and another
+Fri Jun 21 05:16:41 2019: zach:Brutis:R 5029:  mwlance
+Fri Jun 21 05:16:46 2019: zach:Brutis:R 5029:  they would be 2 different items
+Fri Jun 21 05:17:01 2019: ant1:Tested:R 5029:  oh shit cant fight here gonna go one 1
+Fri Jun 21 05:17:45 2019: ant1:Tested:G004: are you sure HoD doesnt work lmao
+Fri Jun 21 05:18:07 2019: ant1:Tested:G004: cause he resisted something and im zerked lmao
+Fri Jun 21 05:18:27 2019: zach:Brutis:G004: hmm
+Fri Jun 21 05:18:36 2019: zach:Brutis:G004: It would say on the item
+Fri Jun 21 05:18:42 2019: zach:Brutis:G004: that it had a 5% chance to proc
+Fri Jun 21 05:18:44 2019: zach:Brutis:G004: it doesnt 
+Fri Jun 21 05:18:58 2019: ant1:Tested:G004: it just says a spell but it would say specifically what spell?
+Fri Jun 21 05:19:00 2019: zach:Brutis:G004: oh
+Fri Jun 21 05:19:02 2019: zach:Brutis:G004: it does
+Fri Jun 21 05:19:04 2019: zach:Brutis:G004: im retarded
+Fri Jun 21 05:19:05 2019: zach:Brutis:G004: nvm
+Fri Jun 21 05:19:10 2019: zach:Brutis:G004: it should work then
+Fri Jun 21 05:19:48 2019: ant1:Tested:G004: this thing is nuts lol
+Fri Jun 21 05:20:06 2019: ant1:Tested:G004: not sure how or why but i hit 10k each hit
+Fri Jun 21 05:20:34 2019: zach:Brutis:G004: wow lol
+Fri Jun 21 05:20:41 2019: zach:Brutis:G004: making shit is fun ‡ 
+Fri Jun 21 05:20:48 2019: ant1:Tested:G004: its dmg isnt that much different than cleaver! lol
+Fri Jun 21 05:21:05 2019: ant1:Tested:G004: i think its the 25% armor pen
+Fri Jun 21 05:21:31 2019: zach:Brutis:G004: Stacked with the armor pen on your amulet
+Fri Jun 21 05:21:33 2019: zach:Brutis:G004: yeah
+Fri Jun 21 05:21:38 2019: ant1:Tested:G004: yeah cause i do about 8k on live
+Fri Jun 21 05:21:52 2019: ant1:Tested:G004: 20k crits are funny tho :P
+Fri Jun 21 05:22:11 2019: ant1:Tested:G004: hes also def'd dont know if that matters
+Fri Jun 21 05:22:26 2019: zach:Brutis:G004: Def reduces AR as well
+Fri Jun 21 05:22:32 2019: ant1:Tested:G004: but it can only go so low right
+Fri Jun 21 05:22:37 2019: ant1:Tested:G004: ontop of armor pierce from items
+Fri Jun 21 05:22:38 2019: zach:Brutis:G004: So you may be at 100% armor pen
+Fri Jun 21 05:22:41 2019: zach:Brutis:G004: yeah
+Fri Jun 21 05:22:46 2019: ant1:Tested:G004: def is like 66% right?
+Fri Jun 21 05:22:51 2019: zach:Brutis:G004: Idr
+Fri Jun 21 05:22:54 2019: zach:Brutis:G004: 
+Fri Jun 21 05:23:36 2019: ant1:Tested:G004: iam try without def
+Fri Jun 21 05:23:54 2019: ant1:Tested:G004: huge difference
+Fri Jun 21 05:23:57 2019: ant1:Tested:G004: 5k hits 10k crits lol
+Fri Jun 21 05:24:08 2019: ant1:Tested:G004: might die :(
+Fri Jun 21 05:24:21 2019: ant1:Tested:G004: i want that 5% to proc again lmfao
+Fri Jun 21 05:26:10 2019: ant1:Tested:G004: ya def drops their armor by 33% so they only have 66% armor. if my math is correct 
+Fri Jun 21 05:26:45 2019: zach:Brutis:G004: so 66% base armor to penetrate after def
+Fri Jun 21 05:26:50 2019: zach:Brutis:G004: then your items
+Fri Jun 21 05:27:13 2019: ant1:Tested:G004: 25% wep and whatever last level of war ammy is
+Fri Jun 21 05:27:21 2019: zach:Brutis:G004: rofl
+Fri Jun 21 05:27:23 2019: zach:Brutis:G004: I handled
+Fri Jun 21 05:27:25 2019: zach:Brutis:G004: standing there
+Fri Jun 21 05:27:33 2019: ant1:Tested:G004: lol so many summons
+Fri Jun 21 05:27:56 2019: ant1:Tested:G004: you made me handle lmao
+Fri Jun 21 05:28:15 2019: ant1:Tested:G004: i ahve 45% armor pen 
+Fri Jun 21 05:29:07 2019: zach:Brutis:G004: So he only has 21% of his armor
+Fri Jun 21 05:29:13 2019: zach:Brutis:G004: When you attack
+Fri Jun 21 05:29:17 2019: ant1:Tested:G004: thats awesome haha
+Fri Jun 21 05:29:31 2019: ant1:Tested:G004: now to see if the HoD actually procs.
+Fri Jun 21 05:29:37 2019: ant1:Tested:G004: it did on meatbag but he resisted lmfao
+Fri Jun 21 05:29:45 2019: ant1:Tested:G004: since its a myst spell 
+Fri Jun 21 05:29:47 2019: ant1:Tested:G004: iirc
+Fri Jun 21 05:29:50 2019: zach:Brutis:G004: its elem
+Fri Jun 21 05:29:53 2019: ant1:Tested:G004: ohhh
+Fri Jun 21 05:30:22 2019: ant1:Tested:G004: volkor have elem resists?
+Fri Jun 21 05:30:31 2019: zach:Brutis:G004: I think he has overall magic resist
+Fri Jun 21 05:30:38 2019: ant1:Tested:G004: do a look at 
+Fri Jun 21 05:30:54 2019: zach:Brutis:G004: *)% MR
+Fri Jun 21 05:30:56 2019: zach:Brutis:G004: 80
+Fri Jun 21 05:31:00 2019: ant1:Tested:G004: oh jeez
+Fri Jun 21 05:31:04 2019: ant1:Tested:G004: well even if it procs hes resisting lol
+Fri Jun 21 05:31:22 2019: zach:Brutis:G004: May be because you arent allowed to cast HoD
+Fri Jun 21 05:31:25 2019: zach:Brutis:G004: idk thop
+Fri Jun 21 05:31:27 2019: zach:Brutis:G004: tho*
+Fri Jun 21 05:31:37 2019: ant1:Tested:G004: well something casted and resisted on meatbag. ima test on him again lol
+Fri Jun 21 05:31:53 2019: ant1:Tested:G004: meatbag doesnt cast right?
+Fri Jun 21 05:32:10 2019: zach:Brutis:G004: nope
+Fri Jun 21 05:32:25 2019: zach:Brutis:G004: fight xerxes
+Fri Jun 21 05:33:18 2019: zach:Brutis:G004: brb
+Fri Jun 21 05:33:23 2019: ant1:Tested:G004: i used a cleave scroll
+Fri Jun 21 05:33:26 2019: ant1:Tested:G004: how do i tell if its wroking lol
+Fri Jun 21 05:34:31 2019: ant1:Tested:G004: jesus are mauls damage just op or what? i hit noblemen for 25k normal hits. 50k crits. is it the damage type vs their armor type?
+Fri Jun 21 05:40:54 2019: ant1:Tested:G004: handled again lol
+Fri Jun 21 05:41:23 2019: zach:Brutis:G004: Umm idk
+Fri Jun 21 05:42:10 2019: ant1:Tested:G004: is life steal a % of your attack or health?
+Fri Jun 21 05:42:20 2019: zach:Brutis:G004: attack
+Fri Jun 21 05:42:43 2019: ant1:Tested:G004: ah ok 
+Fri Jun 21 05:43:50 2019: ant1:Tested:G004: yeah cant get the proc to hit
+Fri Jun 21 05:43:52 2019: ant1:Tested:G004: might not work
+Fri Jun 21 05:44:30 2019: ant1:Tested:G004: killed 3 volkor and several noblemen and the other bosses
+Fri Jun 21 05:44:38 2019: zach:Brutis:G004: proc scrolls dont stack
+Fri Jun 21 05:44:43 2019: zach:Brutis:G004: if you used cleave
+Fri Jun 21 05:44:47 2019: zach:Brutis:G004: it doesnt HoD anymore
+Fri Jun 21 05:44:48 2019: ant1:Tested:G004: ontop of what?
+Fri Jun 21 05:44:59 2019: zach:Brutis:G004: other procs
+Fri Jun 21 05:45:03 2019: ant1:Tested:G004: ahhh
+Fri Jun 21 05:45:15 2019: zach:Brutis:G004: You overwrote HOD with cleave
+Fri Jun 21 05:45:16 2019: zach:Brutis:G004: until relog
+Fri Jun 21 05:45:32 2019: ant1:Tested:G004: well it should be hod, ive handled twice since then lol
+Fri Jun 21 05:45:43 2019: zach:Brutis:G004: ah kk
+Fri Jun 21 05:45:52 2019: ant1:Tested:G004: ima unequipt and re and try again
+Fri Jun 21 05:45:56 2019: zach:Brutis:G004: You can tell
+Fri Jun 21 05:46:00 2019: zach:Brutis:G004: by the pproc % in desc
+Fri Jun 21 05:46:05 2019: zach:Brutis:G004: if its more than 5 its on cleave
+Fri Jun 21 05:46:06 2019: ant1:Tested:G004: oh its 5%
+Fri Jun 21 05:46:13 2019: zach:Brutis:G004: then its hod
+Fri Jun 21 05:46:21 2019: ant1:Tested:G004: just wanna know if it works lmfao
+Fri Jun 21 05:46:35 2019: zach:Brutis:G004: Give yourself 100 end
+Fri Jun 21 05:46:40 2019: zach:Brutis:G004: and go run through swamp
+Fri Jun 21 05:46:42 2019: zach:Brutis:G004: big groups
+Fri Jun 21 05:46:55 2019: ant1:Tested:G004: but counter attacks dont proc
+Fri Jun 21 05:46:59 2019: ant1:Tested:G004: and most of those are counters
+Fri Jun 21 05:47:03 2019: zach:Brutis:G004: true
+Fri Jun 21 05:47:20 2019: ant1:Tested:G004: only issue with cleaver in lost woods lmao. after first round you're pretty much not cleaving
+Fri Jun 21 05:47:27 2019: ant1:Tested:G004: zerk first round*^
+Fri Jun 21 05:47:34 2019: zach:Brutis:G004: lmao gotcha
+Fri Jun 21 05:48:18 2019: ant1:Tested:G004: hmm
+Fri Jun 21 05:48:27 2019: ant1:Tested:G004: i guess to see if HOD works you could up the chance to test it lol idk
+Fri Jun 21 05:48:49 2019: ant1:Tested:G004: i wanna try a god boss in sanct. do you know their room numbers by chance?
+Fri Jun 21 05:49:02 2019: zach:Brutis:G004: CastleBoss1
+Fri Jun 21 05:49:03 2019: zach:Brutis:G004: CastleBoss2
+Fri Jun 21 05:49:04 2019: zach:Brutis:G004: CastleBoss3
+Fri Jun 21 05:49:05 2019: zach:Brutis:G004: CastleBoss4
+Fri Jun 21 05:49:18 2019: ant1:Tested:G004: oh that works too!
+Fri Jun 21 05:49:47 2019: zach:Brutis:G004: also their room #s are on the map
+Fri Jun 21 05:50:15 2019: ant1:Tested:G004: oh true!
+Fri Jun 21 05:50:24 2019: ant1:Tested:G004: lol duh its 1am. brains going downhill lol
+Fri Jun 21 05:50:49 2019: ant1:Tested:G004: not being countered is amazing. the 6 range is nice on single mobs
+Fri Jun 21 05:52:03 2019: ant1:Tested:G004: wtf i think its procing but hes resisting
+Fri Jun 21 05:52:05 2019: ant1:Tested:G004: did it like 4 times
+Fri Jun 21 05:52:18 2019: zach:Brutis:G004: may be cause youre not an imp tbh 
+Fri Jun 21 05:52:26 2019: zach:Brutis:G004: idk
+Fri Jun 21 05:52:30 2019: ant1:Tested:G004: maybe
+Fri Jun 21 05:52:32 2019: ant1:Tested:G004: but they have MR too
+Fri Jun 21 05:52:44 2019: ant1:Tested:G004: yeah true hod is imp only right
+Fri Jun 21 05:52:57 2019: ant1:Tested:G004: you try it out :P
+Fri Jun 21 05:53:22 2019: ant1:Tested:G004: can you change the handle color?
+Fri Jun 21 06:00:35 2019: ant1:Tested:G004: bastard stole my wep i set down for you lmfao
+Fri Jun 21 06:01:22 2019: zach:Brutis:G004: nope
+Fri Jun 21 06:01:26 2019: zach:Brutis:G004: not eaasily at least
+Fri Jun 21 06:02:57 2019: ant1:Tested:G004: ah didnt think so
+Fri Jun 21 06:11:21 2019: ant1:Tested:G004: alrighti m headed to bed man ill talk to ya tomorrow
+Fri Jun 21 06:11:32 2019: ant1:Tested:G004: night!
+Fri Jun 21 06:17:05 2019: zach:Brutis:G004: Night dude!
+Fri Jun 21 06:17:06 2019: zach:Brutis:G004: Sorry
+Fri Jun 21 06:17:09 2019: zach:Brutis:G004: ƒ
+Sat Jun 22 02:07:06 2019: ant1:Tested:R 5029:  yoooo
+Sat Jun 22 02:07:12 2019: ant1:Tested:R 5029:  holmes? †
+Sat Jun 22 02:07:19 2019: bl9fblnt:Smiley:R 5029:  yeaŠ
+Sat Jun 22 02:07:24 2019: ant1:Tested:R 5029:  sup troven here †
+Sat Jun 22 02:07:31 2019: ant1:Tested:R 5029:  did you see the maul i made haha
+Sat Jun 22 02:07:46 2019: bl9fblnt:Smiley:R 5029:  yea i just looked at it
+Sat Jun 22 02:07:52 2019: bl9fblnt:Smiley:R 5029:  does it clreave
+Sat Jun 22 02:08:14 2019: ant1:Tested:R 5029:  zach was showing me how to make items and stuff its pretty sweet. it was mostly a joke item though †
+Sat Jun 22 02:08:35 2019: ant1:Tested:R 5029:  it has a 5% chance to cas HoD on hit. but we dont think it works lmao cause its an imp only spell
+Sat Jun 22 02:08:43 2019: ant1:Tested:R 5029:  BUT it hits like a truck try it out. and no it doesnt cleave
+Sat Jun 22 02:15:24 2019: ant1:Tested:G004: did you try it out †
+Sat Jun 22 02:19:33 2019: bl9fblnt:Smiley:G004: No i went afk to get some food ha ha
+Sat Jun 22 02:19:47 2019: bl9fblnt:Smiley:G004: whats the level command
+Sat Jun 22 02:19:50 2019: ant1:Tested:G004: haha if you want to try it i can summon you a monster to fight †
+Sat Jun 22 02:20:08 2019: ant1:Tested:G004: ./exp name amount
+Sat Jun 22 02:21:21 2019: ant1:Tested:G004: you can chant gear too if you need
+Sat Jun 22 02:21:31 2019: ant1:Tested:G004: might want to get better gear if you fight anything too difficult lol
+Sat Jun 22 02:22:08 2019: bl9fblnt:Smiley:G004: Yeah this guy is still in the 550 class gear 
+Sat Jun 22 02:22:13 2019: bl9fblnt:Smiley:G004: he needs a upgrade
+Sat Jun 22 02:22:38 2019: bl9fblnt:Smiley:G004: does hit hard tho
+Sat Jun 22 02:23:00 2019: ant1:Tested:G004: mhmm
+Sat Jun 22 02:23:11 2019: ant1:Tested:G004: noblemen die in like 2-3 hits lmao
+Sat Jun 22 02:23:20 2019: ant1:Tested:G004: if you chant it
+Sat Jun 22 02:23:44 2019: bl9fblnt:Smiley:G004: i beleive it 
+Sat Jun 22 02:23:53 2019: ant1:Tested:G004: idk how lol but it does
+Sat Jun 22 02:24:01 2019: ant1:Tested:G004: i think its the mauls base type damage
+Sat Jun 22 02:24:42 2019: ant1:Tested:G004: does anyone play female warriors on live? i get so many female hoplites ƒ
+Sat Jun 22 02:25:17 2019: k2e2292n:Discipline:G004: you can just turn them in for the hidden version
+Sat Jun 22 02:25:22 2019: k2e2292n:Discipline:G004: anyone can wear the ring
+Sat Jun 22 02:25:38 2019: ant1:Tested:G004: that would be legit

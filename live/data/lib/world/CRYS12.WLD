@@ -1,0 +1,1238 @@
+room 10337
+   properties
+      picture	3000
+      north	10328 
+      south	10348 
+      east	10338 
+      west	10336 
+   end
+   atpinfo
+      204  619 190
+      184  93 151
+      1304  570 104
+      169  359 109
+      32972  386 191
+      1306  76 113
+      93  334 84 -20
+      201  65 189
+      222  580 189
+      112  505 184
+      204  9 172
+      174  194 138
+      174  -23 125
+      183  387 191
+      174  408 128
+      200  487 182
+      32972  499 180
+      2956  445 240
+      222  7 173
+      204  603 190
+      34072  361 97
+      184  12 151
+      2956  608 192
+      183  75 148
+      183  30 148
+      183  54 151
+      34072  130 107
+      171  202 115
+      171  453 116
+      112  479 184
+      202  99 185
+      203  124 181
+      35724  101 192
+      204  395 190
+      32972  459 237
+      32972  589 189
+      32972  215 276
+      204  412 334
+   end
+   objects
+      object greenCrystalA10337-0 of GreenCrystalA
+         properties
+            x	118
+            y	177
+            loop	0
+         end
+      end
+      object greenCrystalC10337-1 of GreenCrystalC
+         properties
+            x	461
+            y	236
+            loop	0
+         end
+      end
+      object greenCrystalD10337-2 of GreenCrystalD
+         properties
+            x	470
+            y	182
+            loop	0
+         end
+      end
+      object greenCrystalG10337-3 of GreenCrystalG
+         properties
+            x	626
+            y	188
+            loop	0
+         end
+      end
+      object greenCrystalD10337-4 of GreenCrystalD
+         properties
+            x	486
+            y	182
+            loop	0
+         end
+      end
+      object greenCrystalC10337-6 of GreenCrystalC
+         properties
+            x	585
+            y	191
+            loop	0
+         end
+      end
+      object greenCrystalC10337-7 of GreenCrystalC
+         properties
+            x	609
+            y	186
+            loop	0
+         end
+      end
+      object greenCrystalC10337-8 of GreenCrystalC
+         properties
+            x	54
+            y	189
+            loop	0
+         end
+      end
+      object greenCrystalG10337-9 of GreenCrystalG
+         properties
+            x	494
+            y	183
+            loop	0
+         end
+      end
+      object greenCrystalG10337-10 of GreenCrystalG
+         properties
+            x	519
+            y	182
+            loop	0
+         end
+      end
+   end
+end
+room 10338
+   properties
+      picture	3000
+      north	10329 
+      south	10349 
+      east	10339 
+      west	10337 
+   end
+   atpinfo
+      1306  105 102
+      184  100 200
+      174  374 123
+      34073  505 115
+      171  301 108
+      1305  347 106
+      93  334 84 -20
+      201  609 340
+      222  195 182
+      32990  152 184
+      32968  620 195
+      174  -29 119
+      174  241 136
+      183  591 203
+      174  135 118
+      32968  632 202
+      183  620 204
+      2956  547 324
+      32972  212 176
+      222  18 314
+      1303  25 109
+      202  190 180
+      32970  60 348
+      1304  466 105
+      32969  88 200
+      32971  151 180
+   end
+   objects
+      object greenCrystalA10338-0 of GreenCrystalA
+         properties
+            x	170
+            y	179
+            loop	0
+         end
+      end
+      object greenCrystalC10338-1 of GreenCrystalC
+         properties
+            x	592
+            y	200
+            loop	0
+         end
+      end
+      object greenCrystalD10338-3 of GreenCrystalD
+         properties
+            x	166
+            y	181
+            loop	0
+         end
+      end
+      object greenCrystalG10338-5 of GreenCrystalG
+         properties
+            x	613
+            y	202
+            loop	0
+         end
+      end
+      object greenCrystalD10338-7 of GreenCrystalD
+         properties
+            x	158
+            y	181
+            loop	0
+         end
+      end
+      object greenCrystalF10338-9 of GreenCrystalF
+         properties
+            x	122
+            y	182
+            loop	0
+         end
+      end
+      object greenCrystalG10338-10 of GreenCrystalG
+         properties
+            x	595
+            y	203
+            loop	0
+         end
+      end
+      object greenCrystalG10338-11 of GreenCrystalG
+         properties
+            x	203
+            y	181
+            loop	0
+         end
+      end
+      object greenCrystalG10338-12 of GreenCrystalG
+         properties
+            x	178
+            y	181
+            loop	0
+         end
+      end
+   end
+end
+room 10339
+   properties
+      picture	3000
+      north	10330 
+      south	10350 
+      east	10340 
+      west	10338 
+   end
+   atpinfo
+      203  595 212
+      174  374 123
+      34073  505 115
+      1305  347 106
+      93  334 84 -20
+      201  555 216
+      222  42 293
+      222  606 218
+      202  628 183
+      174  -29 119
+      174  241 136
+      204  257 222
+      174  135 118
+      200  280 220
+      1304  466 105
+      200  -9 288
+      32990  557 221
+      32990  630 188
+      1303  25 109
+      223  262 229
+      171  301 108
+      32968  298 227
+      32968  280 222
+      1306  105 102
+      2956  324 232
+      32969  159 336
+   end
+   objects
+      object greenCrystalA10339-0 of GreenCrystalA
+         properties
+            x	293
+            y	219
+            loop	0
+         end
+      end
+      object greenCrystalC10339-1 of GreenCrystalC
+         properties
+            x	315
+            y	231
+            loop	0
+         end
+      end
+      object greenCrystalD10339-2 of GreenCrystalD
+         properties
+            x	267
+            y	228
+            loop	0
+         end
+      end
+      object greenCrystalG10339-3 of GreenCrystalG
+         properties
+            x	576
+            y	216
+            loop	0
+         end
+      end
+      object greenCrystalD10339-4 of GreenCrystalD
+         properties
+            x	537
+            y	217
+            loop	0
+         end
+      end
+      object greenCrystalF10339-5 of GreenCrystalF
+         properties
+            x	232
+            y	225
+            loop	0
+         end
+      end
+      object greenCrystalD10339-6 of GreenCrystalD
+         properties
+            x	553
+            y	218
+            loop	0
+         end
+      end
+      object greenCrystalG10339-7 of GreenCrystalG
+         properties
+            x	601
+            y	217
+            loop	0
+         end
+      end
+      object greenCrystalC10339-8 of GreenCrystalC
+         properties
+            x	24
+            y	286
+            loop	0
+         end
+      end
+   end
+end
+room 10340
+   properties
+      picture	3000
+      north	10331 
+      south	10351 
+      east	10341 
+      west	10339 
+   end
+   atpinfo
+      32972  228 154
+      174  374 123
+      34073  505 115
+      1305  347 106
+      93  334 84 -20
+      32969  530 154
+      184  421 200
+      222  222 161
+      184  471 202
+      174  -29 119
+      174  241 136
+      32904  514 155
+      174  135 118
+      32968  209 156
+      32972  618 327
+      32880  459 207
+      32990  183 161
+      112  444 204
+      1303  25 109
+      223  49 204
+      32971  393 200
+      171  301 108
+      183  -4 201
+      184  640 319
+      32970  26 203
+      202  462 206
+      1306  105 102
+      1304  466 105
+   end
+   objects
+      object greenCrystalA10340-0 of GreenCrystalA
+         properties
+            x	455
+            y	200
+            loop	0
+         end
+      end
+      object greenCrystalC10340-1 of GreenCrystalC
+         properties
+            x	229
+            y	153
+            loop	0
+         end
+      end
+      object greenCrystalD10340-2 of GreenCrystalD
+         properties
+            x	588
+            y	333
+            loop	0
+         end
+      end
+      object greenCrystalG10340-3 of GreenCrystalG
+         properties
+            x	500
+            y	154
+            loop	0
+         end
+      end
+      object greenCrystalD10340-4 of GreenCrystalD
+         properties
+            x	620
+            y	332
+            loop	0
+         end
+      end
+      object greenCrystalF10340-5 of GreenCrystalF
+         properties
+            x	491
+            y	153
+            loop	0
+         end
+      end
+      object greenCrystalC10340-6 of GreenCrystalC
+         properties
+            x	189
+            y	156
+            loop	0
+         end
+      end
+      object greenCrystalG10340-7 of GreenCrystalG
+         properties
+            x	598
+            y	331
+            loop	0
+         end
+      end
+   end
+end
+room 10341
+   properties
+      picture	3000
+      north	10332 
+      south	10352 
+      east	10342 
+      west	10340 
+   end
+   atpinfo
+      184  76 196
+      174  374 123
+      34073  505 115
+      1305  347 106
+      93  334 84 -20
+      201  376 328
+      222  72 305
+      222  103 295
+      184  517 190
+      174  -29 119
+      174  241 136
+      183  512 185
+      174  135 118
+      32968  271 193
+      183  458 195
+      222  19 312
+      222  58 316
+      222  54 277
+      1303  25 109
+      223  26 256
+      183  11 195
+      32969  213 150
+      131  31 301
+      184  523 194
+      184  39 193
+      184  12 151
+      1306  105 102
+      1304  466 105
+      171  301 108
+      202  20 194
+      32971  475 167 -30
+      204  68 303 -20
+      32968  288 191
+      35724  254 201
+      2956  309 200
+      203  506 166 -30
+      32951  462 191
+      183  481 185
+   end
+   objects
+      object greenCrystalA10341-0 of GreenCrystalA
+         properties
+            x	29
+            y	188
+            loop	0
+         end
+      end
+      object greenCrystalC10341-1 of GreenCrystalC
+         properties
+            x	292
+            y	199
+            loop	0
+         end
+      end
+      object greenCrystalD10341-2 of GreenCrystalD
+         properties
+            x	4
+            y	309
+            loop	0
+         end
+      end
+      object greenCrystalG10341-3 of GreenCrystalG
+         properties
+            x	63
+            y	309
+            loop	0
+         end
+      end
+      object greenCrystalD10341-4 of GreenCrystalD
+         properties
+            x	54
+            y	313
+            loop	0
+         end
+      end
+      object greenCrystalC10341-6 of GreenCrystalC
+         properties
+            x	313
+            y	195
+            loop	0
+         end
+      end
+      object greenCrystalA10341-7 of GreenCrystalA
+         properties
+            x	262
+            y	192
+            loop	0
+         end
+      end
+   end
+end
+room 10342
+   properties
+      picture	3000
+      north	10333 
+      south	10353 
+      east	10343 
+      west	10341 
+   end
+   atpinfo
+      32904  473 327
+      174  374 123
+      34073  505 115
+      1305  347 106
+      93  334 84 -20
+      201  617 211
+      135  623 199
+      181  553 186
+      184  569 323
+      174  -29 119
+      174  241 136
+      32903  596 188
+      174  135 118
+      200  8 186
+      32903  546 197
+      222  15 318
+      200  -2 192
+      32902  387 324
+      1303  25 109
+      223  544 202
+      183  619 184
+      32971  461 190
+      204  555 196
+      2956  53 186
+      112  457 192
+      184  12 151
+      1306  105 102
+      1304  466 105
+      171  301 108
+      112  15 194
+   end
+   objects
+      object greenCrystalA10342-0 of GreenCrystalA
+         properties
+            x	30
+            y	179
+            loop	0
+         end
+      end
+      object greenCrystalC10342-1 of GreenCrystalC
+         properties
+            x	554
+            y	192
+            loop	0
+         end
+      end
+      object greenCrystalD10342-2 of GreenCrystalD
+         properties
+            x	3
+            y	187
+            loop	0
+         end
+      end
+   end
+end
+room 10344
+   properties
+      picture	3000
+      south	10357 
+      east	10345 
+   end
+   atpinfo
+      32990  342 223
+      32970  389 210
+      32990  312 213
+      202  6 166
+      200  270 171
+      223  268 177
+      93  334 82 -20
+      32969  13 204
+      222  31 231
+      222  17 168
+      202  7 307
+      174  157 119
+      174  382 116
+      204  2 170
+      203  16 226
+      200  4 335
+      32970  374 217
+      222  242 173
+      32990  299 178
+      222  438 214
+      202  360 216
+      222  404 221
+      170  428 92
+      32938  472 83
+      170  -24 82
+      169  362 104
+      169  114 110
+      171  355 108
+      173  148 121
+   end
+   objects
+      object greenCrystalA10344-0 of GreenCrystalA
+         properties
+            x	20
+            y	296
+            loop	0
+         end
+      end
+      object greenCrystalC10344-1 of GreenCrystalC
+         properties
+            x	53
+            y	334
+            loop	0
+         end
+      end
+      object greenCrystalD10344-3 of GreenCrystalD
+         properties
+            x	330
+            y	217
+            loop	0
+         end
+      end
+      object greenCrystalG10344-5 of GreenCrystalG
+         properties
+            x	389
+            y	219
+            loop	0
+         end
+      end
+      object greenCrystalD10344-7 of GreenCrystalD
+         properties
+            x	354
+            y	219
+            loop	0
+         end
+      end
+      object greenCrystalF10344-9 of GreenCrystalF
+         properties
+            x	335
+            y	216
+            loop	0
+         end
+      end
+      object greenCrystalC10344-10 of GreenCrystalC
+         properties
+            x	21
+            y	163
+            loop	0
+         end
+      end
+      object greenCrystalA10344-11 of GreenCrystalA
+         properties
+            x	33
+            y	221
+            loop	0
+         end
+      end
+      object greenCrystalC10344-12 of GreenCrystalC
+         properties
+            x	267
+            y	176
+            loop	0
+         end
+      end
+      object greenCrystalA10344-13 of GreenCrystalA
+         properties
+            x	362
+            y	213
+            loop	0
+         end
+      end
+      object greenCrystalC10344-14 of GreenCrystalC
+         properties
+            x	423
+            y	209
+            loop	0
+         end
+      end
+      object greenCrystalG10344-15 of GreenCrystalG
+         properties
+            x	371
+            y	219
+            loop	0
+         end
+      end
+   end
+end
+room 10345
+   properties
+      picture	3000
+      south	10358 
+      east	10346 
+      west	10344 
+   end
+   atpinfo
+      32952  45 192
+      184  52 195
+      32951  626 236
+      32972  629 233 -5
+      204  4 329 -5
+      32951  556 236
+      93  334 82 -20
+      201  4 194
+      222  33 330
+      222  416 189
+      204  572 232 -5
+      174  157 119
+      174  382 116
+      183  572 232
+      32880  34 196
+      200  443 183
+      183  619 234
+      2956  397 186
+      35724  457 186
+      32968  387 184
+      203  419 184
+      184  15 201
+      170  428 92
+      32938  472 83
+      170  -24 82
+      169  362 104
+      169  114 110
+      171  355 108
+      173  148 121
+      202  36 192
+      32972  55 330 -5
+      204  23 324 -5
+      32970  597 234
+   end
+   objects
+      object greenCrystalA10345-0 of GreenCrystalA
+         properties
+            x	30
+            y	187
+            loop	0
+         end
+      end
+      object greenCrystalC10345-1 of GreenCrystalC
+         properties
+            x	358
+            y	182
+            loop	0
+         end
+      end
+      object greenCrystalD10345-2 of GreenCrystalD
+         properties
+            x	551
+            y	227
+            loop	0
+         end
+      end
+      object greenCrystalG10345-3 of GreenCrystalG
+         properties
+            x	619
+            y	235
+            loop	0
+         end
+      end
+      object greenCrystalD10345-4 of GreenCrystalD
+         properties
+            x	565
+            y	234
+            loop	0
+         end
+      end
+      object greenCrystalF10345-5 of GreenCrystalF
+         properties
+            x	588
+            y	234
+            loop	0
+         end
+      end
+      object greenCrystalC10345-6 of GreenCrystalC
+         properties
+            x	463
+            y	184
+            loop	0
+         end
+      end
+      object greenCrystalA10345-7 of GreenCrystalA
+         properties
+            x	412
+            y	178
+            loop	0
+         end
+      end
+   end
+end
+room 10346
+   properties
+      picture	3000
+      north	10335 
+      south	10359 
+      east	10347 
+      west	10345 
+   end
+   atpinfo
+      184  77 196
+      184  117 192
+      1304  570 104
+      169  359 109
+      184  251 313
+      1306  76 113
+      93  334 84 -20
+      201  378 171
+      222  430 172
+      32990  348 175
+      184  396 176
+      174  194 138
+      174  -23 125
+      32972  139 323
+      174  408 128
+      200  83 183
+      201  42 325
+      32990  325 169
+      222  385 173
+      222  154 325
+      34072  361 97
+      200  59 186
+      223  232 330
+      200  76 189
+      200  74 182
+      32969  443 168
+      34072  130 107
+      171  202 115
+      171  453 116
+      201  41 200
+      202  194 323 -8
+      203  398 164
+      204  244 324
+      32971  369 164
+      32971  348 163 -3
+      203  419 163
+   end
+   objects
+      object greenCrystalA10346-0 of GreenCrystalA
+         properties
+            x	349
+            y	162
+            loop	0
+         end
+      end
+      object greenCrystalC10346-1 of GreenCrystalC
+         properties
+            x	352
+            y	174
+            loop	0
+         end
+      end
+      object greenCrystalD10346-3 of GreenCrystalD
+         properties
+            x	14
+            y	192
+            loop	0
+         end
+      end
+      object greenCrystalG10346-5 of GreenCrystalG
+         properties
+            x	110
+            y	186
+            loop	0
+         end
+      end
+      object greenCrystalD10346-7 of GreenCrystalD
+         properties
+            x	83
+            y	189
+            loop	0
+         end
+      end
+      object greenCrystalF10346-9 of GreenCrystalF
+         properties
+            x	208
+            y	325
+            loop	0
+         end
+      end
+      object greenCrystalA10346-10 of GreenCrystalA
+         properties
+            x	387
+            y	153
+            loop	0
+         end
+      end
+      object greenCrystalA10346-11 of GreenCrystalA
+         properties
+            x	424
+            y	160
+            loop	0
+         end
+      end
+      object greenCrystalC10346-12 of GreenCrystalC
+         properties
+            x	419
+            y	171
+            loop	0
+         end
+      end
+      object greenCrystalG10346-13 of GreenCrystalG
+         properties
+            x	64
+            y	192
+            loop	0
+         end
+      end
+      object greenCrystalC10346-14 of GreenCrystalC
+         properties
+            x	130
+            y	319
+            loop	0
+         end
+      end
+      object greenCrystalA10346-15 of GreenCrystalA
+         properties
+            x	227
+            y	314
+            loop	0
+         end
+      end
+   end
+end
+room 10347
+   properties
+      picture	3000
+      north	10336 
+      south	10360 
+      east	10348 
+      west	10346 
+   end
+   atpinfo
+      184  129 187
+      174  374 123
+      34073  505 115
+      1305  347 106
+      93  334 84 -20
+      201  242 334
+      201  527 251 -20
+      32972  512 253 -20
+      184  98 181
+      174  -29 119
+      174  241 136
+      183  526 270
+      174  135 118
+      200  444 327
+      183  586 272
+      1304  466 105
+      203  107 184
+      1306  105 102
+      1303  25 109
+      184  85 185
+      171  301 108
+      32968  338 330
+      204  560 252 -20
+      184  559 259
+   end
+   objects
+      object greenCrystalA10347-0 of GreenCrystalA
+         properties
+            x	406
+            y	335
+            loop	0
+         end
+      end
+      object greenCrystalC10347-1 of GreenCrystalC
+         properties
+            x	274
+            y	341
+            loop	0
+         end
+      end
+      object greenCrystalD10347-2 of GreenCrystalD
+         properties
+            x	83
+            y	185
+            loop	0
+         end
+      end
+      object greenCrystalG10347-3 of GreenCrystalG
+         properties
+            x	91
+            y	185
+            loop	0
+         end
+      end
+      object greenCrystalD10347-4 of GreenCrystalD
+         properties
+            x	121
+            y	186
+            loop	0
+         end
+      end
+      object greenCrystalF10347-5 of GreenCrystalF
+         properties
+            x	188
+            y	327
+            loop	0
+         end
+      end
+      object greenCrystalG10347-6 of GreenCrystalG
+         properties
+            x	129
+            y	186
+            loop	0
+         end
+      end
+   end
+end
+room 10348
+   properties
+      picture	3000
+      north	10337 
+      south	10361 
+      east	10349 
+      west	10347 
+   end
+   atpinfo
+      32970  329 220
+      174  374 123
+      34073  505 115
+      1305  347 106
+      93  334 84 -20
+      202  250 183
+      222  307 226
+      222  193 211
+      171  301 108
+      174  -29 119
+      174  241 136
+      1304  466 105
+      174  135 118
+      1306  105 102
+      202  173 209
+      222  250 186
+      222  149 210
+      222  346 224
+      1303  25 109
+      223  223 186
+   end
+   objects
+      object greenCrystalA10348-0 of GreenCrystalA
+         properties
+            x	176
+            y	207
+            loop	0
+         end
+      end
+      object greenCrystalC10348-1 of GreenCrystalC
+         properties
+            x	304
+            y	223
+            loop	0
+         end
+      end
+      object greenCrystalG10348-3 of GreenCrystalG
+         properties
+            x	336
+            y	221
+            loop	0
+         end
+      end
+   end
+end
+room 10349
+   properties
+      picture	3000
+      north	10338 
+      south	10362 
+      east	10350 
+      west	10348 
+   end
+   atpinfo
+      184  100 200
+      174  374 123
+      34073  505 115
+      1305  347 106
+      93  334 84 -20
+      201  91 199
+      171  301 108
+      32990  261 230
+      184  338 229
+      174  -29 119
+      174  241 136
+      32969  135 198
+      174  135 118
+      200  295 227
+      202  315 225
+      1304  466 105
+      222  371 229
+      1306  105 102
+      1303  25 109
+      112  148 198
+      203  358 223
+      32972  113 198
+   end
+   objects
+      object greenCrystalA10349-0 of GreenCrystalA
+         properties
+            x	368
+            y	220
+            loop	0
+         end
+      end
+      object greenCrystalC10349-1 of GreenCrystalC
+         properties
+            x	158
+            y	194
+            loop	0
+         end
+      end
+      object greenCrystalD10349-2 of GreenCrystalD
+         properties
+            x	62
+            y	198
+            loop	0
+         end
+      end
+      object greenCrystalG10349-3 of GreenCrystalG
+         properties
+            x	152
+            y	195
+            loop	0
+         end
+      end
+      object greenCrystalA10349-6 of GreenCrystalA
+         properties
+            x	289
+            y	222
+            loop	0
+         end
+      end
+      object greenCrystalA10349-7 of GreenCrystalA
+         properties
+            x	107
+            y	197
+            loop	0
+         end
+      end
+   end
+end
+room 10343
+   properties
+      picture	3000
+      north	10334 
+      south	10354 
+      east	10538 
+      west	10342 
+   end
+   atpinfo
+      32972  83 148 -5
+      174  374 123
+      34073  505 115
+      1305  347 106
+      93  334 84 -20
+      201  547 261
+      222  72 305
+      222  103 295
+      32972  50 148 -5
+      174  -29 119
+      174  241 136
+      183  526 270
+      174  135 118
+      200  25 302
+      183  586 273
+      222  19 312
+      222  58 316
+      222  54 277
+      1303  25 109
+      223  26 256
+      183  75 148
+      183  30 148
+      183  54 151
+      184  559 259
+      184  93 151
+      184  12 151
+      1306  105 102
+      1304  466 105
+      171  301 108
+      112  424 320
+      32971  587 253
+      204  19 147 -5
+      135  500 265
+      32903  602 258
+      131  628 259
+      204  65 146 -5
+   end
+   objects
+      object greenCrystalC10343-0 of GreenCrystalC
+         properties
+            x	627
+            y	257
+            loop	0
+         end
+      end
+      object greenCrystalD10343-1 of GreenCrystalD
+         properties
+            x	39
+            y	300
+            loop	0
+         end
+      end
+      object greenCrystalG10343-2 of GreenCrystalG
+         properties
+            x	570
+            y	260
+            loop	0
+         end
+      end
+      object greenCrystalD10343-3 of GreenCrystalD
+         properties
+            x	534
+            y	270
+            loop	0
+         end
+      end
+   end
+end

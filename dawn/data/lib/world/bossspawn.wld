@@ -1,0 +1,226 @@
+room 110004
+	properties
+		roomName	"Spawn Room 9"
+		picture 3001
+		east 12136	#Forest of Death
+		south 21575 #Ascetos Desert
+		north 110003
+		west 110005
+	end
+	objects
+		object sign110004-0 of Sign
+			properties
+				loop 0
+				x 606
+				y 204
+			end
+			base described
+				text "Forest of Death"
+			end
+		end
+		object sign110004-1 of Sign
+			properties
+				loop 0
+				x 295
+				y 308
+			end
+			base described
+				text "Ascetos Desert"
+			end
+		end
+	end
+end
+room 110005
+	properties
+		roomName	"Spawn Room 8"
+		picture 3001
+		south 2231	#Emerald Forest
+		north 110008
+		east 110004
+		west 110006
+	end
+	objects
+		object sign110005-0 of Sign
+			properties
+				loop 0
+				x 310
+				y 309
+			end
+			base described
+				text "Emerald Forest"
+			end
+		end
+	end
+end
+room 110006
+	properties
+		roomName	"Spawn Room 7"
+		picture 3001
+		south 25125	#Drear Valley
+		west 3253	#Devon Forest
+		north 110007
+		east 110005
+	end
+	objects
+		object sign110006-0 of Sign
+			properties
+				loop 0
+				x 41
+				y 210
+			end
+			base described
+				text "Devon Forest"
+			end
+		end
+		object sign110006-1 of Sign
+			properties
+				loop 0
+				x 308
+				y 311
+			end
+			base described
+				text "Drear Valley"
+			end
+		end
+	end
+end
+room 110007
+	properties
+		roomName	"Spawn Room 4"
+		picture 3001
+		west 16616	#The Downs
+		north 110000
+		east 110008
+		south 110006
+	end
+	objects
+		object sign110007-0 of Sign
+			properties
+				loop 0
+				x 26
+				y 230
+			end
+			base described
+				text "The Downs"
+			end
+		end
+	end
+end
+room 110000
+	properties
+		roomName	"Spawn Room 1"
+		picture 3001
+		north 9320 #Bloodwood
+		west 16133	#Wexfordshire Valley
+		east 110001
+		south 110007
+	end
+	objects
+		object sign110000-0 of Sign
+			properties
+				loop 0
+				x 316
+				y 151
+			end
+			base described
+				text "Bloodwood"
+			end
+		end
+		object sign110000-1 of Sign
+			properties
+				loop 0
+				x 30
+				y 236
+			end
+			base described
+				text "Wexfordshire Valley"
+			end
+		end
+	end
+end
+room 110001
+	properties
+		roomName	"Spawn Room 2"
+		picture 3001
+		north 4698	#Wild beyond
+		east 110002
+		south 110008
+		west 110000
+	end
+	objects
+		object sign110001-0 of Sign
+			properties
+				loop 0
+				x 310
+				y 159
+			end
+			base described
+				text "Wild beyond"
+			end
+		end
+	end
+end
+room 110002
+	properties
+		roomName	"Spawn Room 3"
+		picture 3001
+		north 12361 #Winter Wold
+		east 1354	#Wandering Woods
+		south 110003
+		west 110001
+	end
+	objects
+		object sign110002-0 of Sign
+			properties
+				loop 0
+				x 293
+				y 141
+			end
+			base described
+				text "Winter Wold"
+			end
+		end
+		object sign110002-1 of Sign
+			properties
+				loop 0
+				x 594
+				y 234
+			end
+			base described
+				text "Wandering Woods"
+			end
+		end
+	end
+end
+room 110003
+	properties
+		roomName	"Spawn Room 6"
+		picture 3001
+		east 4322	#Zender's Woods
+		north 110002
+		south 110004
+		west 110008
+	end
+	objects
+		object sign110003-0 of Sign
+			properties
+				loop 0
+				x 596
+				y 230
+			end
+			base described
+				text "Zender's Woods"
+			end
+		end
+	end
+end
+room 110008
+	properties
+		roomName	"Spawn Room 5"
+		picture 3001
+		east 110003
+		north 110001
+		south 110005
+		west 110007
+	end
+end

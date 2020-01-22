@@ -1,0 +1,2033 @@
+room 14008
+	properties
+		picture 3071
+		north 14004
+		west 14002
+	end
+	atpinfo
+		171 268 323 
+	end
+	objects
+		object column14008-0 of Column
+			properties
+				x 35
+				y 183
+				loop 0
+				 
+			end
+		end
+		object lavaE14008-0 of LavaE
+			properties
+				x 51
+				y 190
+				loop 0
+				 
+			end
+			base described
+				text "Liquid, hot, mag-ma!"
+			end
+		end
+		object cellFloorF14008-0 of CellFloorF
+			properties
+				x 306
+				y 193
+				loop 0
+				 
+			end
+			base described
+				text "You see red hot tiles. No walking barefoot here."
+			end
+		end
+		object cellFloorF14008-1 of CellFloorF
+			properties
+				x 398
+				y 194
+				loop 0
+				 
+			end
+			base described
+				text "You see red hot tiles. No walking barefoot here."
+			end
+		end
+		object character14008-0 of Gargoyle
+			properties
+				loop 0
+				x 74
+				y 200
+				 
+			end
+		end
+		object character14008-1 of nLGM
+			properties
+				loop 2
+				x 577
+				y 205
+				 
+			end
+		end
+		object shroom614008-0 of Shroom6
+			properties
+				x 506
+				y 224
+				loop 0
+				 
+			end
+		end
+		object fatColumn14008-0 of FatColumn
+			properties
+				x 352
+				y 242
+				loop 0
+				 
+			end
+		end
+		object character14008-2 of nLGM
+			properties
+				loop 2
+				x 267
+				y 257
+				 
+			end
+		end
+		object character14008-3 of BanditThief
+			properties
+				loop 2
+				x 449
+				y 264
+				 
+			end
+		end
+		object character14008-4 of Gladiator
+			properties
+				loop 2
+				x 330
+				y 266
+				 
+			end
+		end
+		object character14008-5 of EvilMinion
+			properties
+				loop 2
+				x 389
+				y 268
+				 
+			end
+		end
+		object lavaA14008-0 of LavaA
+			properties
+				x 105
+				y 305
+				loop 0
+				 
+			end
+			base described
+				text "Red means hot. You no touch!"
+			end
+		end
+		object lavaA14008-1 of LavaA
+			properties
+				x 317
+				y 308
+				loop 0
+				 
+			end
+			base described
+				text "Red means hot. You no touch!"
+			end
+		end
+		object lavaA14008-2 of LavaA
+			properties
+				x 539
+				y 310
+				loop 0
+				 
+			end
+			base described
+				text "Red means hot. You no touch!"
+			end
+		end
+		object rock114008-0 of Rock1
+			properties
+				x 340
+				y 316
+				loop 0
+				 
+			end
+		end
+		object rock314008-0 of Rock3
+			properties
+				x 14
+				y 321
+				loop 0
+				 
+			end
+		end
+		object stalagmite314008-0 of Stalagmite3
+			properties
+				x 494
+				y 325
+				loop 0
+				 
+			end
+		end
+		object rock114008-1 of Rock1
+			properties
+				x 208
+				y 328
+				loop 0
+				 
+			end
+		end
+		object stalagmite114008-0 of Stalagmite1
+			properties
+				x 629
+				y 329
+				loop 0
+				 
+			end
+		end
+	end
+end
+room 14002
+	properties
+		picture 3071
+		north 14000
+		east 14008
+		west 14007
+	end
+	atpinfo
+		171 290 326 
+	end
+	objects
+		object stalagmite314002-0 of Stalagmite3
+			properties
+				x 337
+				y 124
+				loop 0
+				 
+			end
+		end
+		object skull14002-0 of Skull
+			properties
+				x 471
+				y 142
+				loop 0
+				 
+			end
+		end
+		object smokeB14002-0 of SmokeB
+			properties
+				x 471
+				y 145
+				loop 0
+				 
+			end
+		end
+		object skull14002-1 of Skull
+			properties
+				x 499
+				y 146
+				loop 0
+				 
+			end
+		end
+		object skull14002-2 of Skull
+			properties
+				x 445
+				y 146
+				loop 0
+				 
+			end
+		end
+		object altar14002-0 of Altar
+			properties
+				x 471
+				y 163
+				loop 0
+				 
+			end
+		end
+		object skull14002-3 of Skull
+			properties
+				x 506
+				y 163
+				loop 0
+				 
+			end
+		end
+		object skull14002-4 of Skull
+			properties
+				x 439
+				y 164
+				loop 0
+				 
+			end
+		end
+		object skull14002-5 of Skull
+			properties
+				x 451
+				y 181
+				loop 0
+				 
+			end
+		end
+		object skull14002-6 of Skull
+			properties
+				x 497
+				y 181
+				loop 0
+				 
+			end
+		end
+		object skull14002-7 of Skull
+			properties
+				x 476
+				y 183
+				loop 0
+				 
+			end
+		end
+		object fatColumn14002-0 of FatColumn
+			properties
+				x 154
+				y 243
+				loop 0
+				 
+			end
+		end
+		object bones14002-0 of Bones
+			properties
+				x 151
+				y 251
+				loop 0
+				 
+			end
+		end
+		object rock114002-0 of Rock1
+			properties
+				x 21
+				y 305
+				loop 0
+				 
+			end
+		end
+		object lavaA14002-0 of LavaA
+			properties
+				x 585
+				y 313
+				loop 0
+				 
+			end
+			base described
+				text "Red means hot. You no touch!"
+			end
+		end
+		object stalagmite214002-0 of Stalagmite2
+			properties
+				x 227
+				y 315
+				loop 0
+				 
+			end
+		end
+		object rock214002-0 of Rock2
+			properties
+				x 365
+				y 316
+				loop 0
+				 
+			end
+		end
+		object lavaB14002-0 of LavaB
+			properties
+				x 292
+				y 316
+				loop 0
+				 
+			end
+			base described
+				text "Red means hot. You no touch!"
+			end
+		end
+		object lavaA14002-1 of LavaA
+			properties
+				x 76
+				y 319
+				loop 0
+				 
+			end
+			base described
+				text "Red means hot. You no touch!"
+			end
+		end
+		object rock314002-0 of Rock3
+			properties
+				x 469
+				y 320
+				loop 0
+				 
+			end
+		end
+		object rock314002-1 of Rock3
+			properties
+				x 628
+				y 325
+				loop 0
+				 
+			end
+		end
+		object stalagmite214002-1 of Stalagmite2
+			properties
+				x 227
+				y 326
+				loop 0
+				 
+			end
+		end
+		object stalagmite114002-0 of Stalagmite1
+			properties
+				x 566
+				y 328
+				loop 0
+				 
+			end
+		end
+		object stalagmite314002-1 of Stalagmite3
+			properties
+				x 167
+				y 330
+				loop 0
+				 
+			end
+		end
+		object stalagmite414002-0 of Stalagmite4
+			properties
+				x 9
+				y 330
+				loop 0
+				 
+			end
+		end
+		object character14002-0 of nLGM
+			properties
+				loop 2
+				x 76
+				y 265
+				 
+			end
+		end
+		object character14002-1 of Champion
+			properties
+				loop 2
+				x 197
+				y 266
+				 
+			end
+		end
+		object character14002-2 of Protector
+			properties
+				loop 0
+				x 389
+				y 178
+				 
+			end
+		end
+		object character14002-3 of BanditMystic
+			properties
+				loop 1
+				x 552
+				y 178
+				 
+			end
+		end
+		object character14002-4 of SavageOgreWizard
+			properties
+				loop 6
+				x 250
+				y 183
+				 
+			end
+		end
+		object character14002-5 of Crusader
+			properties
+				loop 2
+				x 432
+				y 235
+				 
+			end
+		end
+		object character14002-6 of EvilMinion
+			properties
+				loop 2
+				x 500
+				y 237
+				 
+			end
+		end
+	end
+end
+room 14007
+	properties
+		picture 3071
+		flags 2
+		north 14003
+		east 14002
+	end
+	atpinfo
+		171 300 327 
+	end
+	objects
+		object smoke114007-0 of Smoke1
+			properties
+				x 206
+				y 111
+				loop 0
+				 
+			end
+		end
+		object stalagmite214007-0 of Stalagmite2
+			properties
+				x 142
+				y 119
+				loop 0
+				 
+			end
+		end
+		object shroom314007-0 of Shroom3
+			properties
+				x 117
+				y 120
+				loop 0
+				 
+			end
+		end
+		object shroom314007-1 of Shroom3
+			properties
+				x 127
+				y 123
+				loop 0
+				 
+			end
+		end
+		object smokeB14007-0 of SmokeB
+			properties
+				x 531
+				y 124
+				loop 0
+				 
+			end
+		end
+		object rock114007-0 of Rock1
+			properties
+				x 195
+				y 129
+				loop 0
+				 
+			end
+		end
+		object rock314007-0 of Rock3
+			properties
+				x 528
+				y 140
+				loop 0
+				 
+			end
+		end
+		object column14007-0 of Column
+			properties
+				x 9
+				y 188
+				loop 0
+				 
+			end
+		end
+		object stalagmite114007-0 of Stalagmite1
+			properties
+				x 260
+				y 232
+				loop 0
+				 
+			end
+		end
+		object stalagmite214007-1 of Stalagmite2
+			properties
+				x 289
+				y 233
+				loop 0
+				 
+			end
+		end
+		object shroom114007-0 of Shroom1
+			properties
+				x 273
+				y 235
+				loop 0
+				 
+			end
+		end
+		object column14007-1 of Column
+			properties
+				x 385
+				y 241
+				loop 0
+				 
+			end
+		end
+		object column14007-2 of Column
+			properties
+				x 333
+				y 251
+				loop 0
+				 
+			end
+		end
+		object bones14007-0 of Bones
+			properties
+				x 334
+				y 262
+				loop 0
+				 
+			end
+		end
+		object stalagmite114007-1 of Stalagmite1
+			properties
+				x 3
+				y 277
+				loop 0
+				 
+			end
+		end
+		object lavaD14007-0 of LavaD
+			properties
+				x 35
+				y 311
+				loop 0
+				 
+			end
+			base described
+				text "Red means hot. You no touch!"
+			end
+		end
+		object lavaA14007-0 of LavaA
+			properties
+				x 231
+				y 311
+				loop 0
+				 
+			end
+			base described
+				text "Red means hot. You no touch!"
+			end
+		end
+		object lavaA14007-1 of LavaA
+			properties
+				x 443
+				y 315
+				loop 0
+				 
+			end
+			base described
+				text "Red means hot. You no touch!"
+			end
+		end
+		object lavaA14007-2 of LavaA
+			properties
+				x 543
+				y 317
+				loop 0
+				 
+			end
+			base described
+				text "Red means hot. You no touch!"
+			end
+		end
+		object rock314007-1 of Rock3
+			properties
+				x 21
+				y 319
+				loop 0
+				 
+			end
+		end
+		object rock314007-2 of Rock3
+			properties
+				x 220
+				y 322
+				loop 0
+				 
+			end
+		end
+		object stalagmite214007-2 of Stalagmite2
+			properties
+				x 224
+				y 322
+				loop 0
+				 
+			end
+		end
+		object yellowShroomA14007-0 of YellowShroomA
+			properties
+				x 5
+				y 323
+				loop 0
+				 
+			end
+			base described
+				text "You see a yellow mushroom. Maybe it has a fungus."
+			end
+		end
+		object stalagmite214007-3 of Stalagmite2
+			properties
+				x 369
+				y 330
+				loop 0
+				 
+			end
+		end
+		object character14007-0 of Crusader
+			properties
+				loop 2
+				x 78
+				y 171
+				 
+			end
+		end
+		object character14007-1 of BanditThief
+			properties
+				loop 2
+				x 163
+				y 178
+				 
+			end
+		end
+		object character14007-2 of BanditMystic
+			properties
+				loop 2
+				x 252
+				y 261
+				 
+			end
+		end
+		object character14007-3 of nLGM
+			properties
+				loop 2
+				x 408
+				y 259
+				 
+			end
+		end
+		object character14007-4 of EvilMinion
+			properties
+				loop 2
+				x 466
+				y 201
+				 
+			end
+		end
+		object character14007-5 of Gargoyle
+			properties
+				loop 2
+				x 548
+				y 205
+				 
+			end
+		end
+	end
+end
+room 14003
+	properties
+		picture 3071
+		flags 2
+		north 14006
+		east 14000
+		south 14007
+	end
+	objects
+		object cellFloorF14003-0 of CellFloorF
+			properties
+				x 117
+				y 61
+				loop 0
+				 
+			end
+			base described
+				text "You see red hot tiles. No walking barefoot here."
+			end
+		end
+		object cellFloorF14003-1 of CellFloorF
+			properties
+				x 55
+				y 101
+				loop 0
+				 
+			end
+			base described
+				text "You see red hot tiles. No walking barefoot here."
+			end
+		end
+		object fatColumn14003-0 of FatColumn
+			properties
+				x 78
+				y 115
+				loop 0
+				 
+			end
+		end
+		object cellFloorG14003-0 of CellFloorG
+			properties
+				x 461
+				y 117
+				loop 0
+				 
+			end
+			base described
+				text "You see red hot tiles. No walking barefoot here."
+			end
+		end
+		object stalagmite414003-0 of Stalagmite4
+			properties
+				x 321
+				y 129
+				loop 0
+				 
+			end
+		end
+		object column14003-0 of Column
+			properties
+				x 33
+				y 134
+				loop 0
+				 
+			end
+		end
+		object shroom314003-0 of Shroom3
+			properties
+				x 308
+				y 137
+				loop 0
+				 
+			end
+		end
+		object smoke214003-0 of Smoke2
+			properties
+				x 195
+				y 145
+				loop 0
+				 
+			end
+		end
+		object fire114003-0 of Fire1
+			properties
+				x 193
+				y 155
+				loop 0
+				 
+			end
+		end
+		object lavaF14003-0 of LavaF
+			properties
+				x 466
+				y 155
+				loop 0
+				 
+			end
+			base described
+				text "This is not a kiddie pool!"
+			end
+		end
+		object Gladiator14003-0 of Gladiator
+			properties
+				loop 0
+				x 92
+				y 164
+				 
+			end
+		end
+		object stalagmite114003-0 of Stalagmite1
+			properties
+				x 24
+				y 171
+				loop 0
+				 
+			end
+		end
+		object cellFloorF14003-2 of CellFloorF
+			properties
+				x 25
+				y 178
+				loop 0
+				 
+			end
+			base described
+				text "You see red hot tiles. No walking barefoot here."
+			end
+		end
+		object EvilMinion14003-1 of EvilMinion
+			properties
+				loop 2
+				x 517
+				y 185
+				 
+			end
+		end
+		object Champion14003-2 of Champion
+			properties
+				loop 2
+				x 447
+				y 186
+				 
+			end
+		end
+		object column14003-1 of Column
+			properties
+				x 385
+				y 221
+				loop 0
+				 
+			end
+		end
+		object rock314003-0 of Rock3
+			properties
+				x 555
+				y 226
+				loop 0
+				 
+			end
+		end
+		object skull14003-0 of Skull
+			properties
+				x 535
+				y 231
+				loop 0
+				 
+			end
+		end
+		object Protector14003-3 of Protector
+			properties
+				loop 0
+				x 45
+				y 238
+				 
+			end
+		end
+		object cellFloorF14003-3 of CellFloorF
+			properties
+				x 442
+				y 248
+				loop 0
+				 
+			end
+			base described
+				text "You see red hot tiles. No walking barefoot here."
+			end
+		end
+		object SavageOgre14003-4 of SavageOgre
+			properties
+				loop 2
+				x 256
+				y 258
+				 
+			end
+		end
+		object EvilMinion14003-5 of EvilMinion
+			properties
+				loop 2
+				x 324
+				y 260
+				 
+			end
+		end
+		object stalagmite214003-0 of Stalagmite2
+			properties
+				x 515
+				y 263
+				loop 0
+				 
+			end
+		end
+		object stalagmite114003-1 of Stalagmite1
+			properties
+				x 366
+				y 264
+				loop 0
+				 
+			end
+		end
+		object stalagmite114003-2 of Stalagmite1
+			properties
+				x 366
+				y 273
+				loop 0
+				 
+			end
+		end
+		object stalagmite314003-0 of Stalagmite3
+			properties
+				x 218
+				y 276
+				loop 0
+				 
+			end
+		end
+		object shroom614003-0 of Shroom6
+			properties
+				x 184
+				y 278
+				loop 0
+				 
+			end
+			base described
+				text "You see a yellow mushroom. Maybe it has a fungus."
+			end
+		end
+		object rock314003-1 of Rock3
+			properties
+				x 303
+				y 302
+				loop 0
+				 
+			end
+		end
+		object stalagmite114003-3 of Stalagmite1
+			properties
+				x 629
+				y 332
+				loop 0
+				 
+			end
+		end
+	end
+end
+room 14006
+	properties
+		picture 3071
+		flags 2
+		east 14001
+		south 14003
+	end
+	objects
+		object column14006-0 of Column
+			properties
+				x 144
+				y 112
+				loop 0
+				 
+			end
+		end
+		object fatColumn14006-0 of FatColumn
+			properties
+				x 240
+				y 121
+				loop 0
+				 
+			end
+		end
+		object fatColumn14006-1 of FatColumn
+			properties
+				x 486
+				y 122
+				loop 0
+				 
+			end
+		end
+		object shroom114006-0 of Shroom1
+			properties
+				x 155
+				y 122
+				loop 0
+				 
+			end
+		end
+		object column14006-1 of Column
+			properties
+				x 395
+				y 124
+				loop 0
+				 
+			end
+		end
+		object column14006-2 of Column
+			properties
+				x 332
+				y 126
+				loop 0
+				 
+			end
+		end
+		object fatColumn14006-2 of FatColumn
+			properties
+				x 608
+				y 139
+				loop 0
+				 
+			end
+		end
+		object fatColumn14006-3 of FatColumn
+			properties
+				x 61
+				y 141
+				loop 0
+				 
+			end
+		end
+		object lavaG14006-0 of LavaG
+			properties
+				x 568
+				y 146
+				loop 0
+				 
+			end
+			base described
+				text "Don't be concerned, stuff leaks around these parts all the time."
+			end
+		end
+		object rock314006-0 of Rock3
+			properties
+				x 230
+				y 172
+				loop 0
+				 
+			end
+		end
+		object column14006-3 of Column
+			properties
+				x 45
+				y 178
+				loop 0
+				 
+			end
+		end
+		object fire214006-0 of Fire2
+			properties
+				x 392
+				y 208
+				loop 0
+				 
+			end
+		end
+		object fire214006-1 of Fire2
+			properties
+				x 420
+				y 209
+				loop 0
+				 
+			end
+		end
+		object column14006-4 of Column
+			properties
+				x 16
+				y 217
+				loop 0
+				 
+			end
+		end
+		object lavaE14006-0 of LavaE
+			properties
+				x 81
+				y 247
+				loop 0
+				 
+			end
+			base described
+				text "Liquid, hot, mag-ma!"
+			end
+		end
+		object column14006-5 of Column
+			properties
+				x 385
+				y 256
+				loop 0
+				 
+			end
+		end
+		object rock314006-1 of Rock3
+			properties
+				x 298
+				y 277
+				loop 0
+				 
+			end
+		end
+		object stalagmite214006-0 of Stalagmite2
+			properties
+				x 222
+				y 279
+				loop 0
+				 
+			end
+		end
+		object shroom314006-0 of Shroom3
+			properties
+				x 197
+				y 280
+				loop 0
+				 
+			end
+		end
+		object stalagmite114006-0 of Stalagmite1
+			properties
+				x 366
+				y 297
+				loop 0
+				 
+			end
+		end
+		object stalagmite314006-0 of Stalagmite3
+			properties
+				x 594
+				y 325
+				loop 0
+				 
+			end
+		end
+		object character14006-0 of Protector
+			properties
+				loop 0
+				x 107
+				y 178
+				 
+			end
+		end
+		object character14006-1 of Gladiator
+			properties
+				loop 2
+				x 36
+				y 250
+				 
+			end
+		end
+		object character14006-2 of Gladiator
+			properties
+				loop 2
+				x 216
+				y 261
+				 
+			end
+		end
+		object character14006-3 of EvilMinion
+			properties
+				loop 2
+				x 304
+				y 262
+				 
+			end
+		end
+		object character14006-4 of BanditThief
+			properties
+				loop 1
+				x 465
+				y 247
+				 
+			end
+		end
+		object character14006-5 of BanditMystic
+			properties
+				loop 2
+				x 259
+				y 182
+				 
+			end
+		end
+	end
+end
+room 14001
+	properties
+		picture 3071
+		flags 2
+		east 14005
+		south 14000
+		west 14006
+	end
+	objects
+		object fatColumn14001-0 of FatColumn
+			properties
+				x 448
+				y 97
+				loop 0
+				 
+			end
+		end
+		object fatColumn14001-1 of FatColumn
+			properties
+				x 589
+				y 100
+				loop 0
+				 
+			end
+		end
+		object fatColumn14001-2 of FatColumn
+			properties
+				x 124
+				y 106
+				loop 0
+				 
+			end
+		end
+		object fatColumn14001-3 of FatColumn
+			properties
+				x 298
+				y 107
+				loop 0
+				 
+			end
+		end
+		object column14001-0 of Column
+			properties
+				x 496
+				y 110
+				loop 0
+				 
+			end
+		end
+		object column14001-1 of Column
+			properties
+				x 399
+				y 110
+				loop 0
+				 
+			end
+		end
+		object column14001-2 of Column
+			properties
+				x 211
+				y 115
+				loop 0
+				 
+			end
+		end
+		object column14001-3 of Column
+			properties
+				x 33
+				y 116
+				loop 0
+				 
+			end
+		end
+		object stalagmite214001-0 of Stalagmite2
+			properties
+				x 354
+				y 173
+				loop 0
+				 
+			end
+		end
+		object chair14001-0 of Chair
+			properties
+				x 80
+				y 173
+				loop 0
+				 
+			end
+		end
+		object lavaF14001-0 of LavaF
+			properties
+				x 143
+				y 196
+				loop 0
+				 
+			end
+			base described
+				text "This is not a kiddie pool!"
+			end
+		end
+		object stalagmite314001-0 of Stalagmite3
+			properties
+				x 534
+				y 198
+				loop 0
+				 
+			end
+		end
+		object fatColumn14001-4 of FatColumn
+			properties
+				x 515
+				y 243
+				loop 0
+				 
+			end
+		end
+		object stalagmite214001-1 of Stalagmite2
+			properties
+				x 142
+				y 270
+				loop 0
+				 
+			end
+		end
+		object yellowShroomC14001-0 of YellowShroomC
+			properties
+				x 97
+				y 273
+				loop 0
+				 
+			end
+			base described
+				text "You see a yellow mushroom. Maybe it has a fungus."
+			end
+		end
+		object stalagmite314001-1 of Stalagmite3
+			properties
+				x 375
+				y 309
+				loop 0
+				 
+			end
+		end
+		object yellowShroomC14001-1 of YellowShroomC
+			properties
+				x 337
+				y 312
+				loop 0
+				 
+			end
+			base described
+				text "You see a yellow mushroom. Maybe it has a fungus."
+			end
+		end
+		object rock114001-0 of Rock1
+			properties
+				x 42
+				y 321
+				loop 0
+				 
+			end
+		end
+		object stalagmite414001-0 of Stalagmite4
+			properties
+				x 421
+				y 323
+				loop 0
+				 
+			end
+		end
+		object character14001-0 of Crusader
+			properties
+				loop 0
+				x 101
+				y 174
+				 
+			end
+		end
+		object chair14001-1 of Chair
+			properties
+				x 206
+				y 177
+				loop 1
+				 
+			end
+		end
+		object character14001-1 of Gladiator
+			properties
+				loop 1
+				x 189
+				y 176
+				 
+			end
+		end
+		object character14001-2 of Gladiator
+			properties
+				loop 2
+				x 448
+				y 247
+				 
+			end
+		end
+		object character14001-3 of SavageOgreKnight
+			properties
+				loop 2
+				x 504
+				y 256
+				 
+			end
+		end
+		object character14001-4 of Protector
+			properties
+				loop 2
+				x 562
+				y 254
+				 
+			end
+		end
+		object character14001-5 of EvilMinion
+			properties
+				loop 2
+				x 62
+				y 306
+				 
+			end
+		end
+	end
+end
+room 14005
+	properties
+		picture 3071
+		south 14004
+		west 14001
+	end
+	atpinfo
+		20 218 195 
+		32788 243 195 
+	end
+	objects
+		object fatColumn14005-0 of FatColumn
+			properties
+				x 454
+				y 86
+				loop 0
+				 
+			end
+		end
+		object column14005-0 of Column
+			properties
+				x 554
+				y 89
+				loop 0
+				 
+			end
+		end
+		object column14005-1 of Column
+			properties
+				x 168
+				y 90
+				loop 0
+				 
+			end
+		end
+		object column14005-2 of Column
+			properties
+				x 247
+				y 92
+				loop 0
+				 
+			end
+		end
+		object fatColumn14005-1 of FatColumn
+			properties
+				x 66
+				y 95
+				loop 0
+				 
+			end
+		end
+		object fatColumn14005-2 of FatColumn
+			properties
+				x 349
+				y 106
+				loop 0
+				 
+			end
+		end
+		object stoneBench14005-0 of StoneBench
+			properties
+				x 136
+				y 131
+				loop 0
+				 
+			end
+		end
+		object column14005-3 of Column
+			properties
+				x 594
+				y 132
+				loop 0
+				 
+			end
+		end
+		object fire214005-0 of Fire2
+			properties
+				x 118
+				y 134
+				loop 0
+				 
+			end
+		end
+		object fire214005-1 of Fire2
+			properties
+				x 153
+				y 135
+				loop 0
+				 
+			end
+		end
+		object stoneBench14005-1 of StoneBench
+			properties
+				x 468
+				y 145
+				loop 0
+				 
+			end
+		end
+		object fire214005-2 of Fire2
+			properties
+				x 449
+				y 151
+				loop 0
+				 
+			end
+		end
+		object fire214005-3 of Fire2
+			properties
+				x 485
+				y 151
+				loop 0
+				 
+			end
+		end
+		object character14005-0 of Protector
+			properties
+				loop 2
+				x 84
+				y 158
+				 
+			end
+		end
+		object character14005-1 of Champion
+			properties
+				loop 2
+				x 526
+				y 166
+				 
+			end
+		end
+		object column14005-4 of Column
+			properties
+				x 630
+				y 190
+				loop 0
+				 
+			end
+		end
+		object column14005-5 of Column
+			properties
+				x 236
+				y 225
+				loop 0
+				 
+			end
+		end
+		object character14005-2 of Protector
+			properties
+				loop 1
+				x 309
+				y 236
+				 
+			end
+		end
+		object character14005-3 of Crusader
+			properties
+				loop 0
+				x 164
+				y 237
+				 
+			end
+		end
+		object column14005-6 of Column
+			properties
+				x 658
+				y 244
+				loop 0
+				 
+			end
+		end
+		object character14005-4 of Gladiator
+			properties
+				loop 2
+				x 469
+				y 269
+				 
+			end
+		end
+		object shroom114005-0 of Shroom1
+			properties
+				x 416
+				y 276
+				loop 0
+				 
+			end
+		end
+		object stalagmite214005-0 of Stalagmite2
+			properties
+				x 444
+				y 278
+				loop 0
+				 
+			end
+		end
+		object character14005-5 of SavageOgre
+			properties
+				loop 2
+				x 567
+				y 292
+				 
+			end
+		end
+	end
+end
+room 14004
+	properties
+		picture 3071
+		north 14005
+		south 14008
+		west 14000
+	end
+	atpinfo
+		172 66 318 
+	end
+	objects
+		object web414004-0 of Web4
+			properties
+				x 83
+				y 72
+				loop 0
+				 
+			end
+		end
+		object stalagmite114004-0 of Stalagmite1
+			properties
+				x 366
+				y 144
+				loop 0
+				 
+			end
+		end
+		object column14004-0 of Column
+			properties
+				x 466
+				y 145
+				loop 0
+				 
+			end
+		end
+		object smoke114004-0 of Smoke1
+			properties
+				x 332
+				y 148
+				loop 0
+				 
+			end
+		end
+		object rock314004-0 of Rock3
+			properties
+				x 331
+				y 164
+				loop 0
+				 
+			end
+		end
+		object cellFloorF14004-0 of CellFloorF
+			properties
+				x 521
+				y 170
+				loop 0
+				 
+			end
+			base described
+				text "You see red hot tiles. No walking barefoot here."
+			end
+		end
+		object character14004-0 of Champion
+			properties
+				loop 1
+				x 460
+				y 174
+				 
+			end
+		end
+		object fatColumn14004-0 of FatColumn
+			properties
+				x 546
+				y 190
+				loop 0
+				 
+			end
+		end
+		object cellFloorF14004-1 of CellFloorF
+			properties
+				x 198
+				y 201
+				loop 0
+				 
+			end
+			base described
+				text "You see red hot tiles. No walking barefoot here."
+			end
+		end
+		object character14004-1 of Protector
+			properties
+				loop 0
+				x 218
+				y 202
+				 
+			end
+		end
+		object lavaE14004-0 of LavaE
+			properties
+				x 533
+				y 220
+				loop 0
+				 
+			end
+			base described
+				text "Liquid, hot, mag-ma!"
+			end
+		end
+		object column14004-1 of Column
+			properties
+				x 619
+				y 240
+				loop 0
+				 
+			end
+		end
+		object fatColumn14004-1 of FatColumn
+			properties
+				x 150
+				y 240
+				loop 0
+				 
+			end
+		end
+		object character14004-2 of EvilMinion
+			properties
+				loop 0
+				x 52
+				y 241
+				 
+			end
+		end
+		object shroom214004-0 of Shroom2
+			properties
+				x 134
+				y 245
+				loop 0
+				 
+			end
+		end
+		object character14004-3 of Crusader
+			properties
+				loop 1
+				x 571
+				y 251
+				 
+			end
+		end
+		object character14004-4 of SavageOgreWizard
+			properties
+				loop 2
+				x 301
+				y 269
+				 
+			end
+		end
+		object character14004-5 of EvilMinion
+			properties
+				loop 2
+				x 381
+				y 272
+				 
+			end
+		end
+		object rock314004-1 of Rock3
+			properties
+				x 364
+				y 323
+				loop 0
+				 
+			end
+		end
+	end
+end
+room 14000
+	properties
+		picture 3071
+		flags 2
+		north 14001
+		east 14004
+		south 14002
+		west 14003
+	end
+	atpinfo
+		172 426 229 
+		172 201 230 
+	end
+	objects
+		object smoke214000-0 of Smoke2
+			properties
+				x 92
+				y 212
+				loop 0
+				 
+			end
+		end
+		object smoke214000-1 of Smoke2
+			properties
+				x 521
+				y 212
+				loop 0
+				 
+			end
+		end
+		object EvilMinion14000-0 of EvilMinion
+			properties
+				loop 1
+				x 471
+				y 213
+				 
+			end
+		end
+		object character14000-1 of EvilMinion
+			properties
+				loop 0
+				x 147
+				y 215
+				 
+			end
+		end
+		object stalagmite414000-0 of Stalagmite4
+			properties
+				x 518
+				y 225
+				loop 0
+				 
+			end
+		end
+		object lavaD14000-0 of LavaD
+			properties
+				x 399
+				y 229
+				loop 0
+				 
+			end
+			base described
+				text "Red means hot. You no touch!"
+			end
+		end
+		object stalagmite414000-1 of Stalagmite4
+			properties
+				x 89
+				y 229
+				loop 0
+				 
+			end
+		end
+		object sign14000-0 of Sign
+			properties
+				x 141
+				y 230
+				loop 0
+				 
+			end
+			base described
+				text "Welcome to Mine All Mines."
+			end
+		end
+		object lavaD14000-1 of LavaD
+			properties
+				x 241
+				y 231
+				loop 0
+				 
+			end
+			base described
+				text "Red means hot. You no touch!"
+			end
+		end
+		object stalagmite214000-0 of Stalagmite2
+			properties
+				x 448
+				y 240
+				loop 0
+				 
+			end
+		end
+		object stalagmite214000-1 of Stalagmite2
+			properties
+				x 193
+				y 240
+				loop 0
+				 
+			end
+		end
+		object fatColumn14000-0 of FatColumn
+			properties
+				x 319
+				y 241
+				loop 0
+				 
+			end
+		end
+		object skull14000-0 of Skull
+			properties
+				x 399
+				y 242
+				loop 0
+				 
+			end
+		end
+		object dungeonBackArch14000-0 of DungeonBackArch
+			properties
+				x 317
+				y 242
+				loop 0
+				linkTo movingRock12120-0
+				 
+			end
+		end
+		object skull14000-1 of Skull
+			properties
+				x 243
+				y 243
+				loop 0
+				 
+			end
+		end
+		object character14000-2 of SavageOgre
+			properties
+				loop 0
+				x 93
+				y 251
+				 
+			end
+		end
+		object character14000-3 of Protector
+			properties
+				loop 1
+				x 516
+				y 256
+				 
+			end
+		end
+		object character14000-4 of Champion
+			properties
+				loop 1
+				x 559
+				y 278
+				 
+			end
+		end
+		object character14000-5 of Gargoyle
+			properties
+				loop 0
+				x 46
+				y 285
+				 
+			end
+		end
+		object character14000-6 of EvilMinion
+			properties
+				loop 2
+				x 401
+				y 292
+				 
+			end
+		end
+		object character14000-7 of Gladiator
+			properties
+				loop 2
+				x 198
+				y 292
+				 
+			end
+		end
+	end
+end

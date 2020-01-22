@@ -1,0 +1,9 @@
+name "LeinsterSewer"
+title "Leinster Sewer"
+worldFile "../data/lib/world/LEINSTERSEWER.WLD"
+allowCombat 3
+maximumObjectAge 0
+resetInterval 9000000
+midiFile 29
+isDungeon 1
+entrance movingRock5087-6

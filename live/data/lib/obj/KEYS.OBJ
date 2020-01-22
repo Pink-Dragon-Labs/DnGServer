@@ -1,0 +1,581 @@
+#
+# KEYS for the Realm
+#
+object IronKey of Key
+	properties 	
+		name "Iron Key"
+		view 54450
+		value	50
+	end
+
+	base key
+		lockValue   2
+		unlockValue 2
+	end
+
+	base described
+		text "You see an iron key."
+		shopText "This is a fine key, why don't you purchase it today?"
+	end
+		
+end
+
+object SteelKey of Key
+	properties 	
+		name "Steel Key"
+		view 54450
+		value	120
+	end
+
+	base key
+		lockValue   12
+		unlockValue 12
+	end
+
+	base described
+		text "You see a steel key."
+		shopText "This key is made of the best steel and is certain to open many a lock!"
+	end
+		
+end
+
+object BronzeKey of Key
+	properties 	
+		name "Bronze Key"
+		view 54450
+		value	340
+	end
+
+	base key
+		lockValue   22
+		unlockValue 22
+	end
+
+	base described
+		text "You see a bronze key."
+		shopText "Look at the bronze in this key, where else can you find this here?"
+	end
+		
+end
+
+object BrassKey of Key
+	properties 	
+		name "Brass Key"
+		view 54450
+		value	550
+	end
+
+	base key
+		lockValue   32
+		unlockValue 32
+	end
+
+	base described
+		text "You see a brass key."
+		shopText "See the shimmer of the brass. This key will open important locks!"
+	end
+		
+end
+
+object JeweledKey of Key
+	properties 	
+		name "Jeweled Key"
+		view 54450
+		value	850
+	end
+
+	base key
+		lockValue   50
+		unlockValue 50
+	end
+
+	base described
+		text "You see a jeweled key."
+	end
+		
+end
+
+object RustySkeletonKey of Key
+	properties 	
+		name "Rusty Skeleton Key"
+		view 54450
+		value	950
+	end
+
+	base key
+		skeletonLock   32
+		skeletonUnlock 32
+	end
+
+	base described
+		text "You see a rusty, old skeleton key. Wonder if it still works?"
+	end
+end
+
+object SilverSkeletonKey of Key
+	properties 	
+		name "Silver Skeleton Key"
+		view 54450
+		value	1500
+	end
+
+	base key
+		skeletonLock   49
+		skeletonUnlock 49
+	end
+
+	base described
+		text "You see a silver skeleton key."
+	end
+end
+
+object GoldSkeletonKey of Key
+	properties 	
+		name "Gold Skeleton Key"
+		view 54450
+		value	2500
+	end
+
+	base key
+		skeletonLock 255
+		skeletonUnlock 255
+	end
+
+	base described
+		text "You see a gold skeleton key. This could open up anything!"
+	end
+end
+
+object Lockpick of Key
+	properties 	
+                name "Lockpicks"
+                view 52550
+		value	175
+	end
+
+	base described
+                text "You see a set of lockpicks."
+                shopText "An essential component of every thief's ensemble."
+	end
+end
+
+object GambleKey of Key
+	properties 	
+	special
+		toss
+		drop
+		name "Gambler's Key"
+		view 54450
+		value	3000000
+	end
+
+	base key
+		lockValue   500
+		unlockValue 500
+	end
+
+	base described
+		text "You see a key used in the gambler's den.\n\n"
+		shopText "You see a key used in the gambler's den.\n\n"
+	end
+		
+end
+
+object GambleKeyDrop of Key
+	properties 	
+	special
+		toss
+		drop
+		name "Gambler's Key"
+		value	40000
+	end
+
+	base key
+		lockValue   500
+		unlockValue 500
+	end
+
+	base described
+		text "You see a key used in the gambler's den.\n\n"
+		shopText "You see a key used in the gambler's den.\n\n"
+	end
+		
+end
+
+object DragonKey of Key
+	properties 	
+	special
+		toss
+		drop
+		name "Fafnir's Key"
+		view 54450
+		value	5000000
+	end
+
+	base key
+		lockValue   889988
+		unlockValue 889988
+	end
+
+	base described
+		text "A winged Key.\n\n"
+		shopText "A winged Key.\n\n"
+	end
+		
+end
+#
+#
+#
+# Garrison Keys
+#
+#
+#
+object GarrisonKey of Key
+	properties 	
+	special
+		toss
+		drop
+		name "Sturdy Key"
+		view 54450
+		value	5000000
+	end
+
+	base key
+		lockValue   8888
+		unlockValue 8888
+	end
+
+	base described
+		text "A heavy sturdy key found in The Garrison.\n\n"
+		shopText "A heavy sturdy key found in The Garrison.\n\n"
+	end
+		
+end
+
+object GarrisonKey2 of Key
+	properties 	
+	special
+		toss
+		drop
+		name "Sturdy Key"
+		view 54450
+		value	5000000
+	end
+
+	base key
+		lockValue   9999
+		unlockValue 9999
+	end
+
+	base described
+		text "A heavy sturdy key found in The Garrison.\n\n"
+		shopText "A heavy sturdy key found in The Garrison.\n\n"
+	end
+		
+end
+
+object GarrisonKey3 of Key
+	properties 	
+	special
+		toss
+		drop
+		name "Sturdy Key"
+		view 54450
+		value	5000000
+	end
+
+	base key
+		lockValue   7777
+		unlockValue 7777
+	end
+
+	base described
+		text "A heavy sturdy key found in The Garrison.\n\n"
+		shopText "A heavy sturdy key found in The Garrison.\n\n"
+	end
+		
+end
+#
+#
+#
+# Castle Keys
+#
+#
+#
+object Castlekey of Key
+	properties
+		special
+		toss
+		drop
+		name "The Castle Key"
+		value 250
+	end
+
+	base key
+		lockValue 600
+		unlockValue 600
+	end
+
+	base described
+		text "You see a key that opens the first chest in The Castle."
+		shopText "NOT TO BE SOLD\n\n"
+	end
+end
+
+object Castle2key of Key
+	properties
+		special
+		toss
+		drop
+		name "The Castle Key"
+		value 250
+	end
+
+	base key
+		lockValue 620
+		unlockValue 620
+	end
+
+	base described
+		text "You see a key that opens a door in The Castle."
+		shopText "NOT TO BE SOLD\n\n"
+	end
+end
+
+object Castle3key of Key
+	properties
+		special
+		toss
+		drop
+		name "The Castle Key"
+		value 250
+	end
+
+	base key
+		lockValue 640
+		unlockValue 640
+	end
+
+	base described
+		text "You see a key that opens a door in The Castle."
+		shopText "NOT TO BE SOLD\n\n"
+	end
+end
+
+object Castle4key of Key
+	properties
+		special
+		toss
+		drop
+		name "The Castle Key"
+		value 250
+	end
+
+	base key
+		lockValue 660
+		unlockValue 660
+	end
+
+	base described
+		text "You see a key that opens a door in The Castle."
+		shopText "NOT TO BE SOLD\n\n"
+	end
+end
+
+object Castle5key of Key
+	properties
+		special
+		toss
+		drop
+		name "The Castle Key"
+		value 250
+	end
+
+	base key
+		lockValue 680
+		unlockValue 680
+	end
+
+	base described
+		text "You see a key that opens a door in The Castle."
+		shopText "NOT TO BE SOLD\n\n"
+	end
+end
+
+object CastleChestKey1 of Key
+	properties
+		special
+		toss
+		drop
+		name "The Castle Key"
+		value 250
+	end
+
+	base key
+		lockValue 720
+		unlockValue 720
+	end
+
+	base described
+		text "You see a key that opens a chest in The Castle."
+		shopText "NOT TO BE SOLD\n\n"
+	end
+end
+object CastleChestKey2 of Key
+	properties
+		special
+		toss
+		drop
+		name "The Castle Key"
+		value 250
+	end
+
+	base key
+		lockValue 740
+		unlockValue 740
+	end
+
+	base described
+		text "You see a key that opens a chest in The Castle."
+		shopText "NOT TO BE SOLD\n\n"
+	end
+end
+object CastleChestKey3 of Key
+	properties
+		special
+		toss
+		drop
+		name "The Castle Key"
+		value 250
+	end
+
+	base key
+		lockValue 760
+		unlockValue 760
+	end
+
+	base described
+		text "You see a key that opens a chest in The Castle."
+		shopText "NOT TO BE SOLD\n\n"
+	end
+end
+object CastleChestKey4 of Key
+	properties
+		special
+		toss
+		drop
+		name "The Castle Key"
+		value 250
+	end
+
+	base key
+		lockValue 780
+		unlockValue 780
+	end
+
+	base described
+		text "You see a key that opens a chest in The Castle."
+		shopText "NOT TO BE SOLD\n\n"
+	end
+end
+#
+#
+#
+# Sanctuary Keys
+#
+#
+#
+object SancChestKey1 of Key
+	properties
+		special 
+		toss
+		drop 
+		name "Sanctuary Chest Key 1"
+		worthless
+	end
+
+	base key
+		lockValue 4557
+		unlockValue 4557
+	end
+
+	base described
+		text "A key to a chest in the Sanctuary Treasure Room.\n\n"
+	end
+end
+
+object SancChestKey2 of Key
+	properties
+		special 
+		toss
+		drop 
+		name "Sanctuary Chest Key 2"
+		worthless
+	end
+
+	base key
+		lockValue 4556
+		unlockValue 4556
+	end
+
+	base described
+		text "A key to a chest in the Sanctuary Treasure Room.\n\n"
+	end
+end
+
+object SancChestKey3 of Key
+	properties
+		special 
+		toss
+		drop 
+		name "Sanctuary Chest Key 3"
+		worthless
+	end
+
+	base key
+		lockValue 4554
+		unlockValue 4554
+	end
+
+	base described
+		text "A key to a chest in the Sanctuary Treasure Room.\n\n"
+	end
+end
+
+object SancChestKey4 of Key
+	properties
+		special 
+		toss
+		drop 
+		name "Sanctuary Chest Key 4"
+		worthless
+	end
+
+	base key
+		lockValue 4555
+		unlockValue 4555
+	end
+
+	base described
+		text "A key to a chest in the Sanctuary Treasure Room.\n\n"
+	end
+end
+
+object SancDoorKey of Key
+	properties
+		special 
+		toss
+		drop 
+		name "Store Room Key"
+		worthless
+	end
+
+	base key
+		lockValue 5775
+		unlockValue 5775
+	end
+
+	base described
+		text "A key to access the Sanctuary Store Room\n"
+	end
+end

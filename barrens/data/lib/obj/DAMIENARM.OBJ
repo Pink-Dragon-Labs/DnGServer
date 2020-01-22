@@ -1,0 +1,151 @@
+# magical boots
+
+
+#------------------------------------------------------------------
+object dDamienShrit of PlateTunic
+	properties
+		name "Damien's Shirt"
+		value 35000
+		health 2000
+		armor 200
+		color 183
+		special		
+	end
+
+	base carryable
+		weight 38.0
+	end
+
+	base described
+		text "You see a shrit made just for Damien."
+		idText "This is made from the strongest items in Realm."
+		shopText "This shirt will protect him from damage."
+	end
+end
+#------------------------------------------------------------------
+object dDamienPants of PlatePants
+	properties
+		name "Damien's Pants"
+		value 25000
+		health 1500
+		armor 200
+		color 183
+		special
+	end
+
+	base carryable
+		weight 35.0
+	end
+
+	base described
+		text "You see a pair of pants made just for Damien."
+		idText "These are made from the strongest items in Realm."
+		shopText "These pants will protect him from damage."
+	end
+end
+
+
+#------------------------------------------------------------
+object dDamienBoots of HighBoots
+	properties
+		name "Damien's Boots"
+		value 7500
+		armor 200
+		health 400
+		color 183
+		special
+	end
+
+	base carryable
+		weight 2.5
+	end
+
+	actions
+		# Pos Dex (as per Boots of Nimbility)
+		vBePutOn setAffect dobj 59 0 0 -1
+		vBeTakenOff clearAffect dobj 59 0 0
+		# Fire Protection (as per maDragonPlate in MAGARMOR.OBJ)
+		vBePutOn setAffect dobj 1 2 0 -1
+		vBeTakenOff clearAffect dobj 1 2 0
+		# Cold Protection (as per maInsulPlate in MAGARMOR.OBJ)
+		vBePutOn setAffect dobj 2 2 0 -1
+		vBeTakenOff clearAffect dobj 2 2 0
+	end
+
+	base described
+		idText "You see a pair of Damien's Boots."
+		shopText "These are the wonderous, majestic Damien's Boots."
+	end
+end
+
+
+#------------------------------------------------------------
+object dDamienBracers of Mythrilband
+	properties
+		name "Damien's Bracers"
+		health 500
+		armor 100
+		color 183
+		special
+	end
+
+	actions
+		vBePutOn setAffect dobj 57 0 0 -1		# Extra Dodge
+		vBeTakenOff clearAffect dobj 57 0 0
+		vBePutOn setAffect dobj 85 0 0 -1		# Death Magic Protection
+		vBeTakenOff clearAffect dobj 85 0 0
+	end
+
+	components
+		AdmantiumBar	#2500
+		AdmantiumBar	#2500
+		AdmantiumBar	#2500
+		AdmantiumBar	#2500
+		MagicBar	#1000
+		MagicBar	#1000
+		MagicBar	#1000
+		MagicBar	#1000
+		SweatBar	#5000
+		SweatBar	#5000
+		SweatBar	#5000
+		SweatBar	#5000
+		SweatBar	#5000
+		SweatBar	#5000
+		SweatBar	#5000
+		SweatBar	#5000
+		SweatBar	#5000
+	end
+
+	base described
+		text "You see a pair of wristbands crafted from an exotic metal."
+		idText "These are the fabled Damien's Bracers which provide their wearer with protection from death magics and the ability to avoid blows."
+		shopText "Damien's Bracers! Everyone wants them but few can afford them."
+	end
+end
+#------------------------------------------------------------
+object dDamienCowl of ChainCowl
+	properties
+		name "Damien's Cowl"
+		value 10000
+		health 1000
+		armor 75
+		color 183	
+		special
+	end
+
+	base carryable
+		weight 4.0
+	end
+
+	actions
+		# Pos Str (as per aStrength in AMULETS.OBJ)
+		vBePutOn setAffect dobj 39 0 0 -1
+		vBeTakenOff clearAffect dobj 39 0 0
+	end
+
+	base described
+		text "You see a cowl made of an exotic metal."
+		idText "You see a Damien's Cowl, nearly indestructable and wielding God powers."
+		shopText "This heavy magical cowl is practically indestructable and grants special powers to its wearer."
+	end
+end

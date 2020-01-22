@@ -1,0 +1,2925 @@
+object bdNaturalBrown of Baldric
+	properties
+		special
+		value 5000000
+		name "Natural Brown Baldric"
+		color 0
+	end
+
+	base described
+		text "You see a Natural Brown colored baldric."
+	end
+end
+
+object bdRustBrown of Baldric
+	properties
+		special
+		value 5000000
+		name "Rust Brown Baldric"
+		color 1
+	end
+
+	base described
+		text "You see a Rust Brown colored baldric."
+	end
+end
+
+object bdMediumRustBrown of Baldric
+	properties
+		special
+		value 5000000
+		name "Medium Rust Brown Baldric"
+		color 2
+	end
+
+	base described
+		text "You see a Medium Rust Brown colored baldric."
+	end
+end
+
+object bdLightRustBrown of Baldric
+	properties
+		special
+		value 5000000
+		name "Light Rust Brown Baldric"
+		color 3
+	end
+
+	base described
+		text "You see a Light Rust Brown colored baldric."
+	end
+end
+
+object bdPaleRustBrown of Baldric
+	properties
+		special
+		value 5000000
+		name "Pale Rust Brown Baldric"
+		color 4
+	end
+
+	base described
+		text "You see a Pale Rust Brown colored baldric."
+	end
+end
+
+object bdSepia of Baldric
+	properties
+		special
+		value 5000000
+		name "Sepia Baldric"
+		color 5
+	end
+
+	base described
+		text "You see a Sepia colored baldric."
+	end
+end
+
+object bdOliveBrown of Baldric
+	properties
+		special
+		value 5000000
+		name "Olive Brown Baldric"
+		color 6
+	end
+
+	base described
+		text "You see a Olive Brown colored baldric."
+	end
+end
+
+object bdDarkOliveGreen of Baldric
+	properties
+		special
+		value 5000000
+		name "Dark Olive Green Baldric"
+		color 7
+	end
+
+	base described
+		text "You see a Dark Olive Green colored baldric."
+	end
+end
+
+object bdSienna of Baldric
+	properties
+		special
+		value 5000000
+		name "Sienna Baldric"
+		color 8
+	end
+
+	base described
+		text "You see a Sienna colored baldric."
+	end
+end
+
+object bdCerulean of Baldric
+	properties
+		special
+		value 5000000
+		name "Cerulean Baldric"
+		color 9
+	end
+
+	base described
+		text "You see a Cerulean colored baldric."
+	end
+end
+
+object bdDodgerBlue of Baldric
+	properties
+		special
+		value 5000000
+		name "Dodger Blue Baldric"
+		color 10
+	end
+
+	base described
+		text "You see a Dodger Blue colored baldric."
+	end
+end
+
+object bdDeepSkyBlue of Baldric
+	properties
+		special
+		value 5000000
+		name "Deep Sky Blue Baldric"
+		color 11
+	end
+
+	base described
+		text "You see a Deep Sky Blue colored baldric."
+	end
+end
+
+object bdTurquoise of Baldric
+	properties
+		special
+		value 5000000
+		name "Turquoise Baldric"
+		color 12
+	end
+
+	base described
+		text "You see a Turquoise colored baldric."
+	end
+end
+
+object bdRoyalBlue of Baldric
+	properties
+		special
+		value 5000000
+		name "Royal Blue Baldric"
+		color 13
+	end
+
+	base described
+		text "You see a Royal Blue colored baldric."
+	end
+end
+
+object bdCeladon of Baldric
+	properties
+		special
+		value 5000000
+		name "Celadon Baldric"
+		color 14
+	end
+
+	base described
+		text "You see a Celadon colored baldric."
+	end
+end
+
+object bdFireBrick of Baldric
+	properties
+		special
+		value 5000000
+		name "Fire Brick Baldric"
+		color 15
+	end
+
+	base described
+		text "You see a Fire Brick colored baldric."
+	end
+end
+
+object bdCoralRedGlow of Baldric
+	properties
+		special
+		value 5000000
+		name "Coral Red Glow Baldric"
+		color 16
+	end
+
+	base described
+		text "You see a Coral Red Glow colored baldric."
+	end
+end
+
+object bdBabyPink of Baldric
+	properties
+		special
+		value 5000000
+		name "Baby Pink Baldric"
+		color 17
+	end
+
+	base described
+		text "You see a Baby Pink colored baldric."
+	end
+end
+
+object bdGinger of Baldric
+	properties
+		special
+		value 5000000
+		name "Ginger Baldric"
+		color 18
+	end
+
+	base described
+		text "You see a Ginger colored baldric."
+	end
+end
+
+object bdLightAmber of Baldric
+	properties
+		special
+		value 5000000
+		name "Light Amber Baldric"
+		color 19
+	end
+
+	base described
+		text "You see a Light Amber colored baldric."
+	end
+end
+
+object bdPaleYellow of Baldric
+	properties
+		special
+		value 5000000
+		name "Pale Yellow Baldric"
+		color 20
+	end
+
+	base described
+		text "You see a Pale Yellow colored baldric."
+	end
+end
+
+object bdEggPlant of Baldric
+	properties
+		special
+		value 5000000
+		name "Egg Plant Baldric"
+		color 21
+	end
+
+	base described
+		text "You see a Egg Plant colored baldric."
+	end
+end
+
+object bdMagentaGlow of Baldric
+	properties
+		special
+		value 5000000
+		name "Magenta Glow Baldric"
+		color 22
+	end
+
+	base described
+		text "You see a Magenta Glow colored baldric."
+	end
+end
+
+object bdLightMagenta of Baldric
+	properties
+		special
+		value 5000000
+		name "Light Magenta Baldric"
+		color 23
+	end
+
+	base described
+		text "You see a Light Magenta colored baldric."
+	end
+end
+
+object bdBrownMagentaGlow of Baldric
+	properties
+		special
+		value 5000000
+		name "Brown Magenta Glow Baldric"
+		color 24
+	end
+
+	base described
+		text "You see a Brown Magenta Glow colored baldric."
+	end
+end
+
+object bdBrownPinkGlow of Baldric
+	properties
+		special
+		value 5000000
+		name "Brown Pink Glow Baldric"
+		color 25
+	end
+
+	base described
+		text "You see a Brown Pink Glow colored baldric."
+	end
+end
+
+object bdSandyBrown of Baldric
+	properties
+		special
+		value 5000000
+		name "Sandy Brown Baldric"
+		color 26
+	end
+
+	base described
+		text "You see a Sandy Brown colored baldric."
+	end
+end
+
+object bdMediumCyan of Baldric
+	properties
+		special
+		value 5000000
+		name "Medium Cyan Baldric"
+		color 27
+	end
+
+	base described
+		text "You see a Medium Cyan colored baldric."
+	end
+end
+
+object bdCadetBlue of Baldric
+	properties
+		special
+		value 5000000
+		name "Cadet Blue Baldric"
+		color 28
+	end
+
+	base described
+		text "You see a Cadet Blue colored baldric."
+	end
+end
+
+object bdLightCyan of Baldric
+	properties
+		special
+		value 5000000
+		name "Light Cyan Baldric"
+		color 29
+	end
+
+	base described
+		text "You see a Light Cyan colored baldric."
+	end
+end
+
+object bdSatori of Baldric
+	properties
+		special
+		value 5000000
+		name "Satori Baldric"
+		color 30
+	end
+
+	base described
+		text "You see a Satori colored baldric. COSMETIC!"
+	end
+end
+
+object bdSeaGreenGlow of Baldric
+	properties
+		special
+		value 5000000
+		name "Sea Green Glow Baldric"
+		color 31
+	end
+
+	base described
+		text "You see a Sea Green Glow colored baldric."
+	end
+end
+
+object bdLightGreen of Baldric
+	properties
+		special
+		value 5000000
+		name "Light Green Baldric"
+		color 32
+	end
+
+	base described
+		text "You see a Light Green colored baldric."
+	end
+end
+
+object bdDarkScarlet of Baldric
+	properties
+		special
+		value 5000000
+		name "Dark Scarlet Baldric"
+		color 33
+	end
+
+	base described
+		text "You see a Dark Scarlet colored baldric."
+	end
+end
+
+object bdOrangeGlow of Baldric
+	properties
+		special
+		value 5000000
+		name "Orange Glow Baldric"
+		color 34
+	end
+
+	base described
+		text "You see a Orange Glow colored baldric."
+	end
+end
+
+object bdIndigo of Baldric
+	properties
+		special
+		value 5000000
+		name "Indigo Baldric"
+		color 36
+	end
+
+	base described
+		text "You see a Indigo colored baldric."
+	end
+end
+
+object bdPlumGlow of Baldric
+	properties
+		special
+		value 5000000
+		name "Plum Glow Baldric"
+		color 37
+	end
+
+	base described
+		text "You see a Plum Glow colored baldric."
+	end
+end
+
+object bdLightPurpleLines of Baldric
+	properties
+		special
+		value 5000000
+		name "Light Purple Lines Baldric"
+		color 38
+	end
+
+	base described
+		text "You see a Light Purple Lines colored baldric."
+	end
+end
+
+object bdBlueBlack of Baldric
+	properties
+		special
+		value 5000000
+		name "Blue Black Baldric"
+		color 39
+	end
+
+	base described
+		text "You see a Blue Black colored baldric."
+	end
+end
+
+object bdBlackGlow of Baldric
+	properties
+		special
+		value 5000000
+		name "Black Glow Baldric"
+		color 40
+	end
+
+	base described
+		text "You see a Black Glow colored baldric."
+	end
+end
+
+object bdBrightWhite of Baldric
+	properties
+		special
+		value 5000000
+		name "Bright White Baldric"
+		color 41
+	end
+
+	base described
+		text "You see a Bright White colored baldric."
+	end
+end
+
+object bdChocolate of Baldric
+	properties
+		special
+		value 5000000
+		name "Chocolate Baldric"
+		color 42
+	end
+
+	base described
+		text "You see a Chocolate colored baldric."
+	end
+end
+
+object bdBrownGlow of Baldric
+	properties
+		special
+		value 5000000
+		name "Brown Glow Baldric"
+		color 43
+	end
+
+	base described
+		text "You see a Brown Glow colored baldric."
+	end
+end
+
+object bdCreamBrown of Baldric
+	properties
+		special
+		value 5000000
+		name "Cream Brown Baldric"
+		color 44
+	end
+
+	base described
+		text "You see a Cream Brown colored baldric."
+	end
+end
+
+object bdLightCreamBrown of Baldric
+	properties
+		special
+		value 5000000
+		name "Light Cream Brown Baldric"
+		color 45
+	end
+
+	base described
+		text "You see a Light Cream Brown colored baldric."
+	end
+end
+
+object bdDarkOliveGlow of Baldric
+	properties
+		special
+		value 5000000
+		name "Dark Olive Glow Baldric"
+		color 46
+	end
+
+	base described
+		text "You see a Dark Olive Glow colored baldric."
+	end
+end
+
+object bdOliveGlow of Baldric
+	properties
+		special
+		value 5000000
+		name "Olive Glow Baldric"
+		color 47
+	end
+
+	base described
+		text "You see a Olive Glow colored baldric."
+	end
+end
+
+object bdLightYellowLines of Baldric
+	properties
+		special
+		value 5000000
+		name "Light Yellow Lines Baldric"
+		color 50
+	end
+
+	base described
+		text "You see a Light Yellow Lines colored baldric."
+	end
+end
+
+object bdDarkBlue of Baldric
+	properties
+		special
+		value 5000000
+		name "Dark Blue Baldric"
+		color 51
+	end
+
+	base described
+		text "You see a Dark Blue colored baldric."
+	end
+end
+
+object bdBlueGlow of Baldric
+	properties
+		special
+		value 5000000
+		name "Blue Glow Baldric"
+		color 52
+	end
+
+	base described
+		text "You see a Blue Glow colored baldric."
+	end
+end
+
+object bdMaroon of Baldric
+	properties
+		special
+		value 5000000
+		name "Maroon Baldric"
+		color 56
+	end
+
+	base described
+		text "You see a Maroon colored baldric."
+	end
+end
+
+object bdMaroonGlow of Baldric
+	properties
+		special
+		value 5000000
+		name "Maroon Glow Baldric"
+		color 57
+	end
+
+	base described
+		text "You see a Maroon Glow colored baldric."
+	end
+end
+
+object bdLightPink of Baldric
+	properties
+		special
+		value 5000000
+		name "Light Pink Baldric"
+		color 60
+	end
+
+	base described
+		text "You see a Light Pink colored baldric."
+	end
+end
+
+object bdTawny of Baldric
+	properties
+		special
+		value 5000000
+		name "Tawny Baldric"
+		color 61
+	end
+
+	base described
+		text "You see a Tawny colored baldric."
+	end
+end
+
+object bdYellowOrangeGlow of Baldric
+	properties
+		special
+		value 5000000
+		name "Yellow Orange Glow Baldric"
+		color 62
+	end
+
+	base described
+		text "You see a Yellow Orange Glow colored baldric."
+	end
+end
+
+object bdEggplantYellow of Baldric
+	properties
+		special
+		value 5000000
+		name "Eggplant Yellow Baldric"
+		color 66
+	end
+
+	base described
+		text "You see a Eggplant Yellow colored baldric."
+	end
+end
+
+object bdPurpleGlow of Baldric
+	properties
+		special
+		value 5000000
+		name "Purple Glow Baldric"
+		color 67
+	end
+
+	base described
+		text "You see a Purple Glow colored baldric."
+	end
+end
+
+object bdLighterMagenta of Baldric
+	properties
+		special
+		value 5000000
+		name "Lighter Magenta Baldric"
+		color 70
+	end
+
+	base described
+		text "You see a Lighter Magenta colored baldric."
+	end
+end
+
+object bdDarkChocolate of Baldric
+	properties
+		special
+		value 5000000
+		name "Dark Chocolate Baldric"
+		color 71
+	end
+
+	base described
+		text "You see a Dark Chocolate colored baldric."
+	end
+end
+
+object bdDarkBrownMagentaGlow of Baldric
+	properties
+		special
+		value 5000000
+		name "Dark Brown Magenta Glow Baldric"
+		color 72
+	end
+
+	base described
+		text "You see a Dark Brown Magenta Glow colored baldric."
+	end
+end
+
+object bdCyprus of Baldric
+	properties
+		special
+		value 5000000
+		name "Cyprus Baldric"
+		color 76
+	end
+
+	base described
+		text "You see a Cyprus colored baldric."
+	end
+end
+
+object bdDeepSeaGlow of Baldric
+	properties
+		special
+		value 5000000
+		name "Deep Sea Glow Baldric"
+		color 80
+	end
+
+	base described
+		text "You see a Deep Sea Glow colored baldric."
+	end
+end
+
+object bdForestGreen of Baldric
+	properties
+		special
+		value 5000000
+		name "Forest Green Baldric"
+		color 81
+	end
+
+	base described
+		text "You see a Forest Green colored baldric."
+	end
+end
+
+object bdForestGreenGlow of Baldric
+	properties
+		special
+		value 5000000
+		name "Forest Green Glow Baldric"
+		color 82
+	end
+
+	base described
+		text "You see a Forest Green Glow colored baldric."
+	end
+end
+
+object bdPaleGreen of Baldric
+	properties
+		special
+		value 5000000
+		name "Pale Green Baldric"
+		color 85
+	end
+
+	base described
+		text "You see a Pale Green colored baldric."
+	end
+end
+
+object bdDarkBurntOrange of Baldric
+	properties
+		special
+		value 5000000
+		name "Dark Burnt Orange Baldric"
+		color 86
+	end
+
+	base described
+		text "You see a Dark Burnt Orange colored baldric."
+	end
+end
+
+object bdDarkOrangeGlow of Baldric
+	properties
+		special
+		value 5000000
+		name "Dark Orange Glow Baldric"
+		color 87
+	end
+
+	base described
+		text "You see a Dark Orange Glow colored baldric."
+	end
+end
+
+object bdDarkPurpleOrange of Baldric
+	properties
+		special
+		value 5000000
+		name "Dark Purple Orange Baldric"
+		color 91
+	end
+
+	base described
+		text "You see a Dark Purple Orange colored baldric."
+	end
+end
+
+object bdDarkPurpleGlow of Baldric
+	properties
+		special
+		value 5000000
+		name "Dark Purple Glow Baldric"
+		color 92
+	end
+
+	base described
+		text "You see a Dark Purple Glow colored baldric."
+	end
+end
+
+object bdLightPurple of Baldric
+	properties
+		special
+		value 5000000
+		name "Light Purple Baldric"
+		color 95
+	end
+
+	base described
+		text "You see a Light Purple colored baldric."
+	end
+end
+
+object bdDarkPuple of Baldric
+	properties
+		special
+		value 5000000
+		name "Dark Puple Baldric"
+		color 96
+	end
+
+	base described
+		text "You see a Dark Puple colored baldric."
+	end
+end
+
+object bdDarkBlackGlow of Baldric
+	properties
+		special
+		value 5000000
+		name "Dark Black Glow Baldric"
+		color 97
+	end
+
+	base described
+		text "You see a Dark Black Glow colored baldric."
+	end
+end
+
+object bdBrighterWhite of Baldric
+	properties
+		special
+		value 5000000
+		name "Brighter White Baldric"
+		color 101
+	end
+
+	base described
+		text "You see a Brighter White colored baldric."
+	end
+end
+
+object bdSaddleBrown of Baldric
+	properties
+		special
+		value 5000000
+		name "Saddle Brown Baldric"
+		color 102
+	end
+
+	base described
+		text "You see a Saddle Brown colored baldric."
+	end
+end
+
+object bdDarkBrownGlow of Baldric
+	properties
+		special
+		value 5000000
+		name "Dark Brown Glow Baldric"
+		color 103
+	end
+
+	base described
+		text "You see a Dark Brown Glow colored baldric."
+	end
+end
+
+object bdDarkFlesh of Baldric
+	properties
+		special
+		value 5000000
+		name "Dark Flesh Baldric"
+		color 104
+	end
+
+	base described
+		text "You see a Dark Flesh colored baldric."
+	end
+end
+
+object bdTanFlesh of Baldric
+	properties
+		special
+		value 5000000
+		name "Tan Flesh Baldric"
+		color 105
+	end
+
+	base described
+		text "You see a Tan Flesh colored baldric."
+	end
+end
+
+object bdLightFleshGreen of Baldric
+	properties
+		special
+		value 5000000
+		name "Light Flesh Green Baldric"
+		color 108
+	end
+
+	base described
+		text "You see a Light Flesh Green colored baldric."
+	end
+end
+
+object bdGreenLightFlesh of Baldric
+	properties
+		special
+		value 5000000
+		name "Green Light Flesh Baldric"
+		color 109
+	end
+
+	base described
+		text "You see a Green Light Flesh colored baldric."
+	end
+end
+
+object bdGrayGreen of Baldric
+	properties
+		special
+		value 5000000
+		name "Gray Green Baldric"
+		color 110
+	end
+
+	base described
+		text "You see a Gray Green colored baldric."
+	end
+end
+
+object bdGrayLittleGreen of Baldric
+	properties
+		special
+		value 5000000
+		name "Gray Little Green Baldric"
+		color 111
+	end
+
+	base described
+		text "You see a Gray Little Green colored baldric."
+	end
+end
+
+object bdLightestFinvarra of Baldric
+	properties
+		special
+		value 5000000
+		name "Lightest Finvarra Baldric"
+		color 112
+	end
+
+	base described
+		text "You see a Lightest Finvarra colored baldric."
+	end
+end
+
+object bdLightFinvarra of Baldric
+	properties
+		special
+		value 5000000
+		name "Light Finvarra Baldric"
+		color 113
+	end
+	
+	base described
+		text "You see a Light Finvarra colored baldric."
+	end
+end
+
+object bdLighterFinvarra of Baldric
+	properties
+		special
+		value 5000000
+		name "Lighter Finvarra Baldric"
+		color 114
+	end
+
+	base described
+		text "You see a Lighter Finvarra colored baldric."
+	end
+end
+
+object bdFinvarra of Baldric
+	properties
+		special
+		value 5000000
+		name "Finvarra Baldric"
+		color 115
+	end
+
+	base described
+		text "You see a Finvarra colored baldric. COSMETIC!"
+	end
+end
+
+object bdBlackLatex of Baldric
+	properties
+		special
+		value 5000000
+		name "Black Latex Baldric"
+		color 116
+	end
+
+	base described
+		text "You see a Black Latex colored baldric."
+	end
+end
+
+object bdGrayBlack of Baldric
+	properties
+		special
+		value 5000000
+		name "Gray Black Baldric"
+		color 117
+	end
+
+	base described
+		text "You see a Gray Black colored baldric."
+	end
+end
+
+object bdAlmondFrost of Baldric
+	properties
+		special
+		value 5000000
+		name "Almond Frost Baldric"
+		color 118
+	end
+
+	base described
+		text "You see a Almond Frost colored baldric."
+	end
+end
+
+object bdPharlap of Baldric
+	properties
+		special
+		value 5000000
+		name "Pharlap Baldric"
+		color 119
+	end
+
+	base described
+		text "You see a Pharlap colored baldric."
+	end
+end
+
+object bdDarkPharlap of Baldric
+	properties
+		special
+		value 5000000
+		name "Dark Pharlap Baldric"
+		color 120
+	end
+
+	base described
+		text "You see a Dark Pharlap colored baldric."
+	end
+end
+
+object bdDarkerPharlap of Baldric
+	properties
+		special
+		value 5000000
+		name "Darker Pharlap Baldric"
+		color 121
+	end
+
+	base described
+		text "You see a Darker Pharlap colored baldric."
+	end
+end
+
+object bdDarkestPharlap of Baldric
+	properties
+		special
+		value 5000000
+		name "Darkest Pharlap Baldric"
+		color 122
+	end
+
+	base described
+		text "You see a Darkest Pharlap colored baldric."
+	end
+end
+
+object bdSealBrownGlow of Baldric
+	properties
+		special
+		value 5000000
+		name "Seal Brown Glow Baldric"
+		color 123
+	end
+
+	base described
+		text "You see a Seal Brown Glow colored baldric."
+	end
+end
+
+object bdLightTan of Baldric
+	properties
+		special
+		value 5000000
+		name "Light Tan Baldric"
+		color 124
+	end
+
+	base described
+		text "You see a Light Tan colored baldric."
+	end
+end
+
+object bdTeak of Baldric
+	properties
+		special
+		value 5000000
+		name "Teak Baldric"
+		color 125
+	end
+
+	base described
+		text "You see a Teak colored baldric."
+	end
+end
+
+object bdMediumTeak of Baldric
+	properties
+		special
+		value 5000000
+		name "Medium Teak Baldric"
+		color 126
+	end
+
+	base described
+		text "You see a Medium Teak colored baldric."
+	end
+end
+
+object bdDarkTeak of Baldric
+	properties
+		special
+		value 5000000
+		name "Dark Teak Baldric"
+		color 127
+	end
+
+	base described
+		text "You see a Dark Teak colored baldric."
+	end
+end
+
+object bdDarkerTeak of Baldric
+	properties
+		special
+		value 5000000
+		name "Darker Teak Baldric"
+		color 128
+	end
+
+	base described
+		text "You see a Darker Teak colored baldric."
+	end
+end
+
+object bdDarkestTeak of Baldric
+	properties
+		special
+		value 5000000
+		name "Darkest Teak Baldric"
+		color 129
+	end
+
+	base described
+		text "You see a Darkest Teak colored baldric."
+	end
+end
+
+object bdDarkBrownCitrusGlow of Baldric
+	properties
+		special
+		value 5000000
+		name "Dark Brown Citrus Glow Baldric"
+		color 130
+	end
+
+	base described
+		text "You see a Dark Brown Citrus Glow colored baldric."
+	end
+end
+
+object bdCitrusDarkbrown of Baldric
+	properties
+		special
+		value 5000000
+		name "Citrus Dark brown Baldric"
+		color 131
+	end
+
+	base described
+		text "You see a Citrus Dark brown colored baldric."
+	end
+end
+
+object bdUltraOlive of Baldric
+	properties
+		special
+		value 5000000
+		name "Ultra Olive Baldric"
+		color 132
+	end
+
+	base described
+		text "You see a Ultra Olive colored baldric."
+	end
+end
+
+object bdDarkOlive of Baldric
+	properties
+		special
+		value 5000000
+		name "Dark Olive Baldric"
+		color 133
+	end
+
+	base described
+		text "You see a Dark Olive colored baldric."
+	end
+end
+
+object bdDarkerOlive of Baldric
+	properties
+		special
+		value 5000000
+		name "Darker Olive Baldric"
+		color 134
+	end
+
+	base described
+		text "You see a Darker Olive colored baldric."
+	end
+end
+
+object bdDarkestOlive of Baldric
+	properties
+		special
+		value 5000000
+		name "Darker Olive Baldric"
+		color 135
+	end
+
+	base described
+		text "You see a Darker Olive colored baldric."
+	end
+end
+
+object bdDarkPrussianBlue of Baldric
+	properties
+		special
+		value 5000000
+		name "Dark Prussian Blue Baldric"
+		color 136
+	end
+
+	base described
+		text "You see a Dark Prussian Blue colored baldric."
+	end
+end
+
+object bdPrussianBlue of Baldric
+	properties
+		special
+		value 5000000
+		name "Prussian Blue Baldric"
+		color 137
+	end
+
+	base described
+		text "You see a Prussian Blue colored baldric."
+	end
+end
+
+object bdPrussianBlueGlow of Baldric
+	properties
+		special
+		value 5000000
+		name "Prussian Blue Glow Baldric"
+		color 138
+	end
+
+	base described
+		text "You see a Prussian Blue Glow colored baldric."
+	end
+end
+
+object bdSapling of Baldric
+	properties
+		special
+		value 5000000
+		name "Sapling Baldric"
+		color 139
+	end
+
+	base described
+		text "You see a Sapling colored baldric."
+	end
+end
+
+object bdEcru of Baldric
+	properties
+		special
+		value 5000000
+		name "Ecru Baldric"
+		color 140
+	end
+
+	base described
+		text "You see a Ecru colored baldric."
+	end
+end
+
+object bdDarkEcru of Baldric
+	properties
+		special
+		value 5000000
+		name "Dark Ecru Baldric"
+		color 141
+	end
+
+	base described
+		text "You see a Dark Ecru colored baldric."
+	end
+end
+
+object bdDarkerEcru of Baldric
+	properties
+		special
+		value 5000000
+		name "Darker Ecru Baldric"
+		color 142
+	end
+
+	base described
+		text "You see a Darker Ecru colored baldric."
+	end
+end
+
+object bdYellowOrange of Baldric
+	properties
+		special
+		value 5000000
+		name "Yellow Orange Baldric"
+		color 143
+	end
+
+	base described
+		text "You see a Yellow Orange colored baldric."
+	end
+end
+
+object bdMediumYellowOrange of Baldric
+	properties
+		special
+		value 5000000
+		name "Medium Yellow Orange Baldric"
+		color 144
+	end
+
+	base described
+		text "You see a Medium Yellow Orange colored baldric."
+	end
+end
+
+object bdDarkYellowOrange of Baldric
+	properties
+		special
+		value 5000000
+		name "Dark Yellow Orange Baldric"
+		color 145
+	end
+
+	base described
+		text "You see a Dark Yellow Orange colored baldric."
+	end
+end
+
+object bdDarkerYellowOrange of Baldric
+	properties
+		special
+		value 5000000
+		name "Darker Yellow Orange Baldric"
+		color 146
+	end
+
+	base described
+		text "You see a Darker Yellow Orange colored baldric."
+	end
+end
+
+object bdDarkestYellowOrange of Baldric
+	properties
+		special
+		value 5000000
+		name "Darkest Yellow Orange Baldric"
+		color 147
+	end
+
+	base described
+		text "You see a Darkest Yellow Orange colored baldric."
+	end
+end
+
+object bdDarkOrangeRedGlow of Baldric
+	properties
+		special
+		value 5000000
+		name "Dark Orange Red Glow Baldric"
+		color 148
+	end
+
+	base described
+		text "You see a Dark Orange Red Glow colored baldric."
+	end
+end
+
+object bdFleshDarkBrown of Baldric
+	properties
+		special
+		value 5000000
+		name "Flesh Dark Brown Baldric"
+		color 149
+	end
+
+	base described
+		text "You see a Flesh Dark Brown colored baldric."
+	end
+end
+
+object bdLightFleshBlured of Baldric
+	properties
+		special
+		value 5000000
+		name "Light Flesh Blured Baldric"
+		color 150
+	end
+
+	base described
+		text "You see a Light Flesh Blured colored baldric."
+	end
+end
+
+object bdPaleFlesh of Baldric
+	properties
+		special
+		value 5000000
+		name "Pale Flesh Baldric"
+		color 151
+	end
+
+	base described
+		text "You see a Pale Flesh colored baldric."
+	end
+end
+
+object bdLightTawny of Baldric
+	properties
+		special
+		value 5000000
+		name "Light Tawny Baldric"
+		
+		color 152
+	end
+
+	base described
+		text "You see a Light Tawny colored baldric."
+	end
+end
+
+object bdCarrotOrangeGlow of Baldric
+	properties
+		special
+		value 5000000
+		name "Carrot Orange Glow Baldric"
+		color 153
+	end
+
+	base described
+		text "You see a Carrot Orange Glow colored baldric."
+	end
+end
+
+object bdKournikova of Baldric
+	properties
+		special
+		value 5000000
+		name "Kournikova Baldric"
+		color 154
+	end
+
+	base described
+		text "You see a Kournikova colored baldric."
+	end
+end
+
+object bdLightYellow of Baldric
+	properties
+		special
+		value 5000000
+		name "Light Yellow Baldric"
+		color 155
+	end
+
+	base described
+		text "You see a Light Yellow colored baldric."
+	end
+end
+
+object bdGrayYellow of Baldric
+	properties
+		special
+		value 5000000
+		name "Gray Yellow Baldric"
+		color 156
+	end
+
+	base described
+		text "You see a Gray Yellow colored baldric."
+	end
+end
+
+object bdGrayLittleYellow of Baldric
+	properties
+		special
+		value 5000000
+		name "Gray Little Yellow Baldric"
+		color 157
+	end
+
+	base described
+		text "You see a Gray Little Yellow colored baldric."
+	end
+end
+
+object bdLighterSilk of Baldric
+	properties
+		special
+		value 5000000
+		name "Lighter Silk Baldric"
+		color 158
+	end
+
+	base described
+		text "You see a Lighter Silk colored baldric."
+	end
+end
+
+object bdLightSilk of Baldric
+	properties
+		special
+		value 5000000
+		name "Light Silk Baldric"
+		color 159
+	end
+
+	base described
+		text "You see a Light Silk colored baldric."
+	end
+end
+
+object bdSilk of Baldric
+	properties
+		special
+		value 5000000
+		name "Silk Baldric"
+		color 160
+	end
+
+	base described
+		text "You see a Silk colored baldric."
+	end
+end
+
+object bdDarkSilk of Baldric
+	properties
+		special
+		value 5000000
+		name "Dark Silk Baldric"
+		color 161
+	end
+
+	base described
+		text "You see a Dark Silk colored baldric."
+	end
+end
+
+object bdDarkerSilk of Baldric
+	properties
+		special
+		value 5000000
+		name "Darker Silk Baldric"
+		color 162
+	end
+
+	base described
+		text "You see a Darker Silk colored baldric."
+	end
+end
+
+object bdDarkestSilk of Baldric
+	properties
+		special
+		value 5000000
+		name "Darkest Silk Baldric"
+		color 163
+	end
+
+	base described
+		text "You see a Darkerst Silk colored baldric."
+	end
+end
+
+object bdDarkBrown of Baldric
+	properties
+		special
+		value 5000000
+		name "Dark Brown Baldric"
+		color 164
+	end
+
+	base described
+		text "You see a Dark Brown colored baldric."
+	end
+end
+
+object bdMediumBrown of Baldric
+	properties
+		special
+		value 5000000
+		name "Medium Brown Baldric"
+		color 165
+	end
+
+	base described
+		text "You see a Medium Brown colored baldric."
+	end
+end
+
+object bdLightBrown of Baldric
+	properties
+		special
+		value 5000000
+		name "Light Brown Baldric"
+		color 166
+	end
+
+	base described
+		text "You see a Light Brown colored baldric."
+	end
+end
+
+object bdPaleBrown of Baldric
+	properties
+		special
+		value 5000000
+		name "Pale Brown Baldric"
+		color 167
+	end
+
+	base described
+		text "You see a Pale Brown colored baldric."
+	end
+end
+
+object bdDarkLightBrown of Baldric
+	properties
+		special
+		value 5000000
+		name "Dark Light Brown Baldric"
+		color 168
+	end
+
+	base described
+		text "You see a Dark Light Brown colored baldric."
+	end
+end
+
+object bdDarkestBrownGlow of Baldric
+	properties
+		special
+		value 5000000
+		name "Darkest Brown Glow Baldric"
+		color 169
+	end
+
+	base described
+		text "You see a Darkest Brown Glow colored baldric."
+	end
+end
+
+object bdDarkMudBrown of Baldric
+	properties
+		special
+		value 5000000
+		name "Dark Mud Brown Baldric"
+		color 170
+	end
+
+	base described
+		text "You see a Dark Mud Brown colored baldric."
+	end
+end
+
+object bdBlackBrown of Baldric
+	properties
+		special
+		value 5000000
+		name "Black Brown Baldric"
+		color 171
+	end
+
+	base described
+		text "You see a Black Brown colored baldric."
+	end
+end
+
+object bdBlackLittleBrown of Baldric
+	properties
+		special
+		value 5000000
+		name "Black Little Brown Baldric"
+		color 172
+	end
+
+	base described
+		text "You see a Black Little Brown colored baldric."
+	end
+end
+
+object bdGrayLittleBlack of Baldric
+	properties
+		special
+		value 5000000
+		name "Gray Little Black Baldric"
+		color 173
+	end
+
+	base described
+		text "You see a Gray Little Black colored baldric."
+	end
+end
+
+object bdLightGray of Baldric
+	properties
+		special
+		value 5000000
+		name "Light Gray Baldric"
+		color 174
+	end
+
+	base described
+		text "You see a Light Gray colored baldric."
+	end
+end
+
+object bdShiftingWhiteLines of Baldric
+	properties
+		special
+		value 5000000
+		name "Shifting White Lines Baldric"
+		color 175
+	end
+
+	base described
+		text "You see a Shifting White Lines colored baldric."
+	end
+end
+
+object bdShiftingWhite of Baldric
+	properties
+		special
+		value 5000000
+		name "Shifting White Baldric"
+		color 176
+	end
+
+	base described
+		text "You see a Shifting White colored baldric."
+	end
+end
+
+object bdShiftingAllWhite of Baldric
+	properties
+		special
+		value 5000000
+		name "Shifting all White Baldric"
+		color 177
+	end
+
+	base described
+		text "You see a Shifting all White colored baldric."
+	end
+end
+
+object bdShiftingLightGray of Baldric
+	properties
+		special
+		value 5000000
+		name "Shifting Light Gray Baldric"
+		color 178
+	end
+
+	base described
+		text "You see a Shifting Light Gray colored baldric."
+	end
+end
+
+object bdShiftingGray of Baldric
+	properties
+		special
+		value 5000000
+		name "Shifting Gray Baldric"
+		color 179
+	end
+
+	base described
+		text "You see a Shifting Gray colored baldric."
+	end
+end
+
+object bdShiftingDarkGray of Baldric
+	properties
+		special
+		value 5000000
+		name "Shifting Dark Gray Baldric"
+		color 180
+	end
+
+	base described
+		text "You see a Shifting Dark Gray colored baldric."
+	end
+end
+
+object bdShiftingDarkerGray of Baldric
+	properties
+		special
+		value 5000000
+		name "Shifting Darker Gray Baldric"
+		color 181
+	end
+
+	base described
+		text "You see a Shifting Darker Gray colored baldric."
+	end
+end
+
+object bdShiftingDarkestGray of Baldric
+	properties
+		special
+		value 5000000
+		name "Shifting Darkest Gray Baldric"
+		color 182
+	end
+
+	base described
+		text "You see a Shifting Darkest M colored baldric."
+	end
+end
+
+object bdShiftingBlack of Baldric
+	properties
+		special
+		value 5000000
+		name "Shifting Black Baldric"
+		color 183
+	end
+
+	base described
+		text "You see a Shifting Black colored baldric."
+	end
+end
+
+object bdShiftingBlackGlow of Baldric
+	properties
+		special
+		value 5000000
+		name "Shifting Black Glow Baldric"
+		color 184
+	end
+
+	base described
+		text "You see a Shifting Black Glow colored baldric."
+	end
+end
+
+object bdShiftingStarkBlack of Baldric
+	properties
+		special
+		value 5000000
+		name "Shifting Stark Black Baldric"
+		color 185
+	end
+
+	base described
+		text "You see a Shifting Stark Black colored baldric."
+	end
+end
+
+object bdShiftingStarkWhite of Baldric
+	properties
+		special
+		value 5000000
+		name "Shifting Stark White Baldric"
+		color 186
+	end
+
+	base described
+		text "You see a Shifting StarkWhite colored baldric."
+	end
+end
+
+object bdShiftingLightestRosyBrown of Baldric
+	properties
+		special
+		value 5000000
+		name "Shifting Lightest Rosy Brown Baldric"
+		color 187
+	end
+
+	base described
+		text "You see a Shifting Lightest Rosy Brown colored baldric."
+	end
+end
+
+object bdShiftingLightRosyBrown of Baldric
+	properties
+		special
+		value 5000000
+		name "Shifting Light Rosy Brown Baldric"
+		color 188
+	end
+
+	base described
+		text "You see a Shifting Light Rosy Brown colored baldric."
+	end
+end
+
+object bdShiftingRosyBrown of Baldric
+	properties
+		special
+		value 5000000
+		name "Shifting Rosy Brown Baldric"
+		color 189
+	end
+
+	base described
+		text "You see a 189 colored baldric."
+	end
+end
+
+object bdShiftingDarkRosyBrown of Baldric
+	properties
+		special
+		value 5000000
+		name "Shifting Dark Rosy Brown Baldric"
+		color 190
+	end
+
+	base described
+		text "You see a Shifting Dark Rosy Brown colored baldric."
+	end
+end
+
+object bdShiftingDarkerRosyBrown of Baldric
+	properties
+		special
+		value 5000000
+		name "Shifting Darker Rosy Brown Baldric"
+		color 191
+	end
+
+	base described
+		text "You see a Shifting Darker Rosy Brown colored baldric."
+	end
+end
+
+object bdShiftingDarkestRosyBrown of Baldric
+	properties
+		special
+		value 5000000
+		name "Shifting Darkest Rosy Brown Baldric"
+		color 192
+	end
+
+	base described
+		text "You see a Shifting Darkest Rosy Brown colored baldric."
+	end
+end
+
+object bdShiftingDarkRosyBrownGlow of Baldric
+	properties
+		special
+		value 5000000
+		name "Shifting Dark Rosy Brown Glow Baldric"
+		color 193
+	end
+
+	base described
+		text "You see a Shifting Dark Rosy Brown Glow colored baldric."
+	end
+end
+
+object bdShiftingOffWhite of Baldric
+	properties
+		special
+		value 5000000
+		name "Shifting Off White Baldric"
+		color 194
+	end
+
+	base described
+		text "You see a Shifting Off White colored baldric."
+	end
+end
+
+object bdShiftingLightCream of Baldric
+	properties
+		special
+		value 5000000
+		name "Shifting Light Cream Baldric"
+		color 195
+	end
+
+	base described
+		text "You see a Shifting Light Cream colored baldric."
+	end
+end
+
+object bdShiftingCream of Baldric
+	properties
+		special
+		value 5000000
+		name "Shifting Cream Baldric"
+		color 196
+	end
+
+	base described
+		text "You see a Shifting Cream colored baldric."
+	end
+end
+
+object bdShiftingBronzeOlive of Baldric
+	properties
+		special
+		value 5000000
+		name "Shifting Bronze Olive Baldric"
+		color 197
+	end
+
+	base described
+		text "You see a Shifting Bronze Olive colored baldric."
+	end
+end
+
+object bdShiftingDarkBronzeGlow of Baldric
+	properties
+		special
+		value 5000000
+		name "Shifting Dark Bronze Glow Baldric"
+		color 198
+	end
+
+	base described
+		text "You see a Shifting Dark Bronze Glow colored baldric."
+	end
+end
+
+object bdShiftingOrangeBrown of Baldric
+	properties
+		special
+		value 5000000
+		name "Shifting Orange Brown Baldric"
+		color 199
+	end
+
+	base described
+		text "You see a Shifting Orange Brown colored baldric."
+	end
+end
+
+object bdShiftingOrangeBrownGlow of Baldric
+	properties
+		special
+		value 5000000
+		name "Shifting Orange Brown Glow Baldric"
+		color 200
+	end
+
+	base described
+		text "You see a Shifting Orange Brown Glow colored baldric."
+	end
+end
+
+object bdShiftingWhiteOrange of Baldric
+	properties
+		special
+		value 5000000
+		name "Shifting White Orange Baldric"
+		color 201
+	end
+
+	base described
+		text "You see a Shifting White Orange colored baldric."
+	end
+end
+
+object bdShiftingLightestChrome of Baldric
+	properties
+		special
+		value 5000000
+		name "Shifting Lightest Chrome Baldric"
+		color 202
+	end
+
+	base described
+		text "You see a Shifting Lightest Chrome colored baldric."
+	end
+end
+
+object bdShiftingLighterChrome of Baldric
+	properties
+		special
+		value 5000000
+		name "Shifting Lighter Chrome Baldric"
+		color 203
+	end
+
+	base described
+		text "You see a Shifting Lighter Chrome colored baldric."
+	end
+end
+
+object bdShiftingLightChrome of Baldric
+	properties
+		special
+		value 5000000
+		name "Shifting Light Chrome Baldric"
+		color 204
+	end
+
+	base described
+		text "You see a Shifting Light Chrome colored baldric."
+	end
+end
+
+object bdShiftingChrome of Baldric
+	properties
+		special
+		value 5000000
+		name "Shifting Chrome Baldric"
+		color 205
+	end
+
+	base described
+		text "You see a Shifting Chrome colored baldric."
+	end
+end
+
+object bdShiftingDarkChrome of Baldric
+	properties
+		special
+		value 5000000
+		name "Shifting Dark Chrome Baldric"
+		color 206
+	end
+
+	base described
+		text "You see a Shifting Dark Chrome colored baldric."
+	end
+end
+
+object bdShiftingDarkerChrome of Baldric
+	properties
+		special
+		value 5000000
+		name "Shifting Darker Chrome Baldric"
+		color 207
+	end
+
+	base described
+		text "You see a Shifting Darker Chrome colored baldric."
+	end
+end
+
+object bdShiftingDarkestChrome of Baldric
+	properties
+		special
+		value 5000000
+		name "Shifting Darkest Chrome Baldric"
+		color 208
+	end
+
+	base described
+		text "You see a Shifting Darkest Chrome colored baldric."
+	end
+end
+
+object bdShiftingDarkBrown of Baldric
+	properties
+		special
+		value 5000000
+		name "Shifting Dark Brown Baldric"
+		color 209
+	end
+
+	base described
+		text "You see a Shifting Dark Brown colored baldric."
+	end
+end
+
+object bdShiftingLightestVanilla of Baldric
+	properties
+		special
+		value 5000000
+		name "Shifting Lightest Vanilla Baldric"
+		color 210
+	end
+
+	base described
+		text "You see a Shifting Lightest Vanilla colored baldric."
+	end
+end
+
+object bdShiftingLighterVanilla of Baldric
+	properties
+		special
+		value 5000000
+		name "Shifting Lighter Vanilla Baldric"
+		color 211
+	end
+
+	base described
+		text "You see a Shifting Lighter Vanilla colored baldric."
+	end
+end
+
+object bdShiftingLightVanilla of Baldric
+	properties
+		special
+		value 5000000
+		name "Shifting Light Vanilla Baldric"
+		color 212
+	end
+
+	base described
+		text "You see a Shifting Light Vanilla colored baldric."
+	end
+end
+
+object bdShiftingVanilla of Baldric
+	properties
+		special
+		value 5000000
+		name "Shifting Vanilla Baldric"
+		color 213
+	end
+
+	base described
+		text "You see a Shifting Vanilla colored baldric."
+	end
+end
+
+object bdShiftingDarkVanilla of Baldric
+	properties
+		special
+		value 5000000
+		name "Shifting Dark Vanilla Baldric"
+		color 214
+	end
+
+	base described
+		text "You see a Shifting Dark Vanilla colored baldric."
+	end
+end
+
+object bdShiftingDarkerVanilla of Baldric
+	properties
+		special
+		value 5000000
+		name "Shifting Darker Vanilla Baldric"
+		color 215
+	end
+
+	base described
+		text "You see a Shifting Darker Vanilla colored baldric."
+	end
+end
+
+object bdShiftingDarkestVanilla of Baldric
+	properties
+		special
+		value 5000000
+		name "Shifting Darkest Vanilla Baldric"
+		color 216
+	end
+
+	base described
+		text "You see a Shifting Darkest Vanilla colored baldric."
+	end
+end
+
+object bdShiftingCoffeeGlow of Baldric
+	properties
+		special
+		value 5000000
+		name "Shifting Coffee Glow Baldric"
+		color 217
+	end
+
+	base described
+		text "You see a Shifting Coffee Glow colored baldric."
+	end
+end
+
+object bdShiftingOffWhiteLines of Baldric
+	properties
+		special
+		value 5000000
+		name "Shifting Off White Lines Baldric"
+		color 218
+	end
+
+	base described
+		text "You see a Shifting Off White Lines colored baldric."
+	end
+end
+
+object bdShiftingDarkGreenGlow of Baldric
+	properties
+		special
+		value 5000000
+		name "Shifting Dark Green Glow Baldric"
+		color 219
+	end
+
+	base described
+		text "You see a Shifting Dark Green Glow colored baldric."
+	end
+end
+
+object bdShiftingGreenGlow of Baldric
+	properties
+		special
+		value 5000000
+		name "Shifting Green Glow Baldric"
+		color 220
+	end
+
+	base described
+		text "You see a Shifting Green Glow colored baldric."
+	end
+end
+
+object bdShiftingOlive of Baldric
+	properties
+		special
+		value 5000000
+		name "Shifting Olive Baldric"
+		color 221
+	end
+
+	base described
+		text "You see a Shifting Olive colored baldric."
+	end
+end
+
+object bdShiftingLime of Baldric
+	properties
+		special
+		value 5000000
+		name "Shifting Lime Baldric"
+		color 222
+	end
+
+	base described
+		text "You see a Shifting Lime colored baldric."
+	end
+end
+
+object bdShiftingWhiteGreen of Baldric
+	properties
+		special
+		value 5000000
+		name "Shifting White Green Baldric"
+		color 223
+	end
+
+	base described
+		text "You see a Shifting White Green colored baldric."
+	end
+end
+
+object bdShiftingGrayLime of Baldric
+	properties
+		special
+		value 5000000
+		name "Shifting Gray Lime Baldric"
+		color 224
+	end
+
+	base described
+		text "You see a Shifting Gray Lime colored baldric."
+	end
+end
+
+object bdShiftingLighterFossil of Baldric
+	properties
+		special
+		value 5000000
+		name "Shifting Lighter Fossil Baldric"
+		color 225
+	end
+
+	base described
+		text "You see a Shifting Lighter Fossil colored baldric."
+	end
+end
+
+object bdShiftingLightFossil of Baldric
+	properties
+		special
+		value 5000000
+		name "Shifting Light Fossil Baldric"
+		color 226
+	end
+
+	base described
+		text "You see a Shifting Light Fossil colored baldric."
+	end
+end
+
+object bdShiftingFossil of Baldric
+	properties
+		special
+		value 5000000
+		name "Shifting Fossil Baldric"
+		color 227
+	end
+
+	base described
+		text "You see a Shifting Fossil colored baldric."
+	end
+end
+
+object bdShiftingDarkFossil of Baldric
+	properties
+		special
+		value 5000000
+		name "Shifting Dark Fossil Baldric"
+		color 228
+	end
+
+	base described
+		text "You see a Shifting Dark Fossil colored baldric."
+	end
+end
+
+object bdShiftingDarkerFossil of Baldric
+	properties
+		special
+		value 5000000
+		name "Shifting Darker Fossil Baldric"
+		color 229
+	end
+
+	base described
+		text "You see a Shifting Darker Fossil colored baldric."
+	end
+end
+
+object bdShiftingBlackGreenGlow of Baldric
+	properties
+		special
+		value 5000000
+		name "Shifting Black Green Glow Baldric"
+		color 230
+	end
+
+	base described
+		text "You see a Shifting Black Green Glow colored baldric."
+	end
+end
+
+object bdShiftingLightGreen of Baldric
+	properties
+		special
+		value 5000000
+		name "Shifting Light Green Baldric"
+		color 231
+	end
+
+	base described
+		text "You see a Shifting Light Green colored baldric."
+	end
+end
+
+object bdDarkGreenGlow of Baldric
+	properties
+		special
+		value 5000000
+		name "Dark Green Glow Baldric"
+		color 232
+	end
+
+	base described
+		text "You see a Dark Green Glow colored baldric."
+	end
+end
+
+object bdLightGreenInvisibleLines of Baldric
+	properties
+		special
+		value 5000000
+		name "Light Green Invisible Lines Baldric"
+		color 233
+	end
+
+	base described
+		text "You see a Light Green Invisible Lines colored baldric."
+	end
+end
+
+object bdInvisibleLightGreen of Baldric
+	properties
+		special
+		value 5000000
+		name "Invisible Light Green Baldric"
+		color 234
+	end
+
+	base described
+		text "You see a Invisible Light Green colored baldric."
+	end
+end
+
+object bdInvisibleLightGreenLines of Baldric
+	properties
+		special
+		value 5000000
+		name "Invisible Light Green Lines Baldric"
+		color 235
+	end
+
+	base described
+		text "You see a Invisible Light Green Lines colored baldric."
+	end
+end
+
+object bdCompletelyInvisible of Baldric
+	properties
+		special
+		value 5000000
+		name "Completely Invisible Baldric"
+		color 236
+	end
+
+	base described
+		text "You see a Completely Invisible colored baldric."
+	end
+end
+
+object bdInvisibleBlackOutlined of Baldric
+	properties
+		special
+		value 5000000
+		name "Invisible Black Outlined Baldric"
+		color 237
+	end
+
+	base described
+		text "You see a Invisible Black Outlined colored baldric."
+	end
+end
+
+object bdInvisibleClearSpots of Baldric
+	properties
+		special
+		value 5000000
+		name "Invisible Clear Spots Baldric"
+		color 238
+	end
+
+	base described
+		text "You see a Invisible Clear Spots colored baldric."
+	end
+end
+
+object bdDarkInvisible of Baldric
+	properties
+		special
+		value 5000000
+		name "Dark Invisible Baldric"
+		color 239
+	end
+
+	base described
+		text "You see a Dark Invisible colored baldric."
+	end
+end
+
+object bdNormalInvisible of Baldric
+	properties
+		special
+		value 5000000
+		name "Normal Invisible Baldric"
+		color 240
+	end
+
+	base described
+		text "You see a Normal Invisible colored baldric."
+	end
+end
+
+object bdAlmostInvisible of Baldric
+	properties
+		special
+		value 5000000
+		name "Almost Invisible Baldric"
+		color 241
+	end
+
+	base described
+		text "You see a Almost Invisible colored baldric."
+	end
+end
+
+object bdAlmostInvisibleLines of Baldric
+	properties
+		special
+		value 5000000
+		name "Almost Invisible Lines Baldric"
+		color 242
+	end
+
+	base described
+		text "You see a Almost Invisible Lines colored baldric."
+	end
+end
+
+object bdNearInvisibleLines of Baldric
+	properties
+		special
+		value 5000000
+		name "Near Invisible Lines Baldric"
+		color 243
+	end
+
+	base described
+		text "You see a Near Invisible Lines colored baldric."
+	end
+end
+
+object bdSecondCompletelyInvisible of Baldric
+	properties
+		special
+		value 5000000
+		name "Second Completely Invisible Baldric"
+		color 244
+	end
+
+	base described
+		text "You see a Second Completely Invisible colored baldric."
+	end
+end
+
+object bdThirdCompletelyInvisible of Baldric
+	properties
+		special
+		value 5000000
+		name "Third Completely Invisible Baldric"
+		color 245
+	end
+
+	base described
+		text "You see a Third Completely Invisible colored baldric."
+	end
+end
+
+object bdForthCompletelyInvisible of Baldric
+	properties
+		special
+		value 5000000
+		name "Forth Completely Invisible Baldric"
+		color 246
+	end
+
+	base described
+		text "You see a Forth Completely Invisible colored baldric."
+	end
+end
+
+object bdFithCompletelyInvisible of Baldric
+	properties
+		special
+		value 5000000
+		name "Fith Completely Invisible Baldric"
+		color 247
+	end
+
+	base described
+		text "You see a Fith Completely Invisible colored baldric."
+	end
+end
+
+object bdSixthCompletelyInvisible of Baldric
+	properties
+		special
+		value 5000000
+		name "Sixth Completely Invisible Baldric"
+		color 248
+	end
+
+	base described
+		text "You see a Sixth Completely Invisible colored baldric."
+	end
+end
+
+object bdSeventhCompletelyInvisible of Baldric
+	properties
+		special
+		value 5000000
+		name "Seventh Completely Invisible Baldric"
+		color 249
+	end
+
+	base described
+		text "You see a Seventh Completely Invisible colored baldric."
+	end
+end
+
+object bdEighthCompletelyInvisible of Baldric
+	properties
+		special
+		value 5000000
+		name "Eighth Completely Invisible Baldric"
+		color 250
+	end
+
+	base described
+		text "You see a Eighth Completely Invisible colored baldric."
+	end
+end
+
+object bdNinthCompletelyInvisible of Baldric
+	properties
+		special
+		value 5000000
+		name "Ninth Completely Invisible Baldric"
+		color 251
+	end
+
+	base described
+		text "You see a Ninth Completely Invisible colored baldric."
+	end
+end
+
+object bdTenthCompletelyInvisible of Baldric
+	properties
+		special
+		value 5000000
+		name "Tenth Completely Invisible Baldric"
+		color 252
+	end
+
+	base described
+		text "You see a Tenth Completely Invisible colored baldric."
+	end
+end
+
+object bdInvisibleBlackLines of Baldric
+	properties
+		special
+		value 5000000
+		name "Invisible Black Lines Baldric"
+		color 253
+	end
+
+	base described
+		text "You see a Invisible Black Lines colored baldric."
+	end
+end
+
+object bdBlackInvisibleLines of Baldric
+	properties
+		special
+		value 5000000
+		name "Black Invisible Lines Baldric"
+		color 254
+	end
+
+	base described
+		text "You see a Black Invisible Lines colored baldric."
+	end
+end
+
+object bdDarkNaturalBrown of Baldric
+	properties
+		special
+		value 5000000
+		name "Dark Natural Brown Baldric"
+		color 255
+	end
+
+	base described
+		text "You see a Dark Natural Brown colored baldric."
+	end
+end

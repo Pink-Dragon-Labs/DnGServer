@@ -1,0 +1,88 @@
+object Azazel of Kilrog
+	properties
+	special
+		name "Azazel"
+		alignment 0
+		clutStart -1
+		color 115
+
+		armor 120
+
+		minLevel 8500
+		maxLevel 9000
+
+		minDamage 2400
+		maxDamage 4500
+
+		intelligence 70
+		dexterity 25
+		endurance 15
+		strength 150
+		quickness 20
+		
+		affect 17 0 0 -1   		# see invisible
+		affect 86 0 0 -1        # free will
+		affect 65 0 0 -1		# retention
+		affect 54 0 0 -1		# (50) Resurrect
+		affect 26 0 0 -1		# Poison immo
+		affect 25 0 0 -1		# Acid Immo
+		affect 24 0 0 -1		# Cold Immo
+		affect 23 0 0 -1		# Fire Immo
+		
+	end
+
+	base container
+		object RandomNewGear
+		object RandomRareGlowDye
+		object RandomRareMagicHelm
+		worn RedIdiotHat
+		object RandomNewBaldric
+		object RandomAzazelSoul
+	end
+
+	base character
+		# grandmaster weapons
+		skill 0 5
+		skill 1 5
+		skill 2 5
+		skill 3 5
+		skill 4 5
+		skill 5 5
+		skill 6 5
+		skill 7 5
+		skill 8 5
+		skill 10 5
+
+		# grandmaster acrobatics
+		skill 9 5
+
+		# grandmaster sorcery
+		skill 11 5
+
+		# grandmaster elementalism
+		skill 12 5
+
+		# grandmaster mysticism
+		skill 13 5
+
+		# grandmaster thaumaturgy
+		skill 14 5
+
+		# grandmaster necromancy
+		skill 15 5
+	end
+
+	base described
+		text "Azazel -- 100% necromancy resistance, 75% mysticism resistance, 35% elementalism resistance.  2400 - 4000 melee damage.\n\n"
+	end
+
+	actions
+		vBeBorn changeSpellResistance self 50 2		# kilrogs are 75% immune to mysticism (add 50 to base kilrog)
+		vBeBorn changeSpellResistance self 10 1		# kilrogs are 35% immune to elementalism (add 10 to base kilrog)
+		vBeBorn changeSDM self 1000 0 1 2 3 4		# 1000% sdm increase in all circles...
+	end
+
+	base npc
+		code daemon
+	end
+end

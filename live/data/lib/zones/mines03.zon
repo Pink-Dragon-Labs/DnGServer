@@ -1,0 +1,9 @@
+name "mines03"
+title "Yours Is Mine"
+worldFile "../data/lib/world/mine03.wld"
+allowCombat 3
+isDungeon 1
+entrance movingRock1315-0
+midiFile 29
+
+groupChance 30

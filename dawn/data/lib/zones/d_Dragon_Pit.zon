@@ -1,0 +1,7 @@
+name "D_DRAGON_PIT"
+title "The Dragon Pit"
+worldFile "../data/lib/world/D_DRAGON_PIT.WLD"
+allowCombat 3
+midiFile 29
+isDungeon 1
+entrance sarcophagusDoor91010-0

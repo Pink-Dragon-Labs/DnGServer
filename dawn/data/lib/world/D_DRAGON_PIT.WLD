@@ -1,0 +1,4271 @@
+# Dungeonmaker World File (dp3.WLD)
+# Max player level = 999
+# Dungeon reset time = 2000
+# Dungeon start room = 30000
+# Dungeon last room = 30045
+# Number of objects in dungeon = 418
+# Level 0 information:
+room 30000
+	properties
+		template 30101
+		east 30001
+		flags	0
+	end
+	objects
+		object DungeonBackUp-30000-0 of DungeonBackUp
+			properties
+				x	97
+				y	230
+				loop	2
+				linkTo	sarcophagusDoor91010-0
+			end
+			base lockable
+			end
+			base described
+				text	"Flee to safety!"
+			end
+		end
+		object TombstoneC-30000-1 of TombstoneC
+			properties
+				x	490
+				y	218
+				loop	0
+			end
+			base described
+				text	"Abandon all hope,\nye who enter here."
+			end
+		end
+		object Rock1-30000-2 of Rock1
+			properties
+				x	479
+				y	243
+				loop	0
+			end
+			base described
+			end
+		end
+		object CellFloorA-30000-3 of CellFloorA
+			properties
+				x	89
+				y	220
+				loop	0
+			end
+			base described
+				text	"The tiled floor seems to cast a faint, greenish glow."
+			end
+		end
+		object LavaA-30000-4 of LavaA
+			properties
+				x	122
+				y	320
+				loop	0
+			end
+			base described
+				text	"Thick and gooey, it looks hot.\nScaldingly, burningly, boilingly hot."
+			end
+		end
+		object LavaB-30000-5 of LavaB
+			properties
+				x	375
+				y	322
+				loop	0
+			end
+			base described
+				text	"Thick and gooey, it looks hot.\nScaldingly, burningly, boilingly hot."
+			end
+		end
+		object LavaC-30000-6 of LavaC
+			properties
+				x	575
+				y	328
+				loop	0
+			end
+			base described
+				text	"Thick and gooey, it looks hot.\nScaldingly, burningly, boilingly hot."
+			end
+		end
+		object YellowShroomB-30000-7 of YellowShroomB
+			properties
+				x	24
+				y	269
+				loop	0
+			end
+			base described
+				text	"A species of mushroom known to grow in warm, dry environments."
+			end
+		end
+		object YellowShroomA-30000-8 of YellowShroomA
+			properties
+				x	219
+				y	232
+				loop	0
+			end
+			base described
+				text	"A species of mushroom known to grow in warm, dry environments."
+			end
+		end
+		object FireC-30000-9 of FireC
+			properties
+				x	340
+				y	299
+				loop	0
+			end
+			base described
+				text	"Flames flick from a crack in the hard floor."
+			end
+		end
+		object SmokeB-30000-10 of SmokeB
+			properties
+				x	586
+				y	298
+				loop	0
+			end
+			base described
+				text	"A strong sulfurous odor emanates from a fissure."
+			end
+		end
+		object LavaG-30000-11 of LavaG
+			properties
+				x	595
+				y	237
+				loop	0
+			end
+			base described
+				text	"A pool lava to warm the bones of the hapless adventurer buried nearby?"
+			end
+		end
+		object ButtonDisabled-30000-12 of ButtonDisabled
+			properties
+				x	79
+				y	266
+				loop	0
+			end
+			actions
+				vBeActivated enable LeverDisabled-30044-6 
+				vBeDeactivated disable LeverDisabled-30044-6 
+			end
+			base described
+				text	"Don't just step on any button you see!\nDo you have any idea what it might do?\Didn't your mother teach you anything?"
+			end
+		end
+	end
+end
+room 30001
+	properties
+		template 32701
+		west 30000
+		north 30002
+		flags	24
+	end
+	objects
+		object Character-30001-0 of RandomDragon
+			properties
+				x	375
+				y	205
+				loop	2
+			end
+		end
+		object Character-30001-1 of RandomLostDragon
+			properties
+				x	277
+				y	205
+				loop	2
+			end
+		end
+		object LavaA-30001-2 of LavaA
+			properties
+				x	241
+				y	330
+				loop	1
+			end
+			base described
+				text	"Thick and gooey, it looks hot.\nScaldingly,burningly, boilingly hot."
+			end
+		end
+		object LavaB-30001-3 of LavaB
+			properties
+				x	-12
+				y	330
+				loop	1
+			end
+			base described
+				text	"Thick and gooey, it looks hot.\nScaldingly, burningly, boilingly hot."
+			end
+		end
+		object LavaB-30001-4 of LavaB
+			properties
+				x	491
+				y	330
+				loop	0
+			end
+			base described
+				text	"Thick and gooey, it looks hot.\nScaldingly,burningly, boilingly hot."
+			end
+		end
+		object FireB-30001-5 of FireB
+			properties
+				x	14
+				y	334
+				loop	0
+			end
+			base described
+				text	"Fire flares from the fractured floor."
+			end
+		end
+		object FireB-30001-6 of FireB
+			properties
+				x	639
+				y	319
+				loop	0
+			end
+			base described
+				text	"Fire flares from the fractured floor."
+			end
+		end
+		object FireB-30001-7 of FireB
+			properties
+				x	606
+				y	330
+				loop	0
+			end
+			base described
+			end
+		end
+		object Rock2-30001-8 of Rock2
+			properties
+				x	635
+				y	331
+				loop	0
+			end
+			base described
+			end
+		end
+		object YellowShroomA-30001-9 of YellowShroomA
+			properties
+				x	487
+				y	287
+				loop	0
+			end
+			base described
+				text	"A species of mushroom known to grow in warm, dry environments."
+			end
+		end
+	end
+end
+room 30002
+	properties
+		template 31001
+		south 30001
+		north 30003
+		flags	24
+	end
+	objects
+		object Character-30002-0 of RandomDragon
+			properties
+				x	318
+				y	203
+				loop	2
+			end
+			base described
+			end
+		end
+		object Character-30002-1 of RandomLostDragon
+			properties
+				x	251
+				y	215
+				loop	2
+			end
+			base described
+			end
+		end
+		object Character-30002-2 of RandomDragon
+			properties
+				x	289
+				y	248
+				loop	2
+			end
+			base described
+			end
+		end
+		object Torch-30002-3 of Torch
+			properties
+				x	159
+				y	240
+				loop	0
+			end
+			base described
+				text	"The dim light of an unsteady torch labors against the gloom."
+			end
+		end
+		object YellowShroomC-30002-4 of YellowShroomC
+			properties
+				x	465
+				y	280
+				loop	0
+			end
+			base described
+				text	"A species of mushroom known to grow in warm, dry environments."
+			end
+		end
+		object YellowShroomB-30002-5 of YellowShroomB
+			properties
+				x	84
+				y	292
+				loop	0
+			end
+			base described
+				text	"A species of mushroom known to grow in warm, dry environments."
+			end
+		end
+	end
+end
+room 30003
+	properties
+		template 31201
+		south 30002
+		north 30004
+		flags	24
+	end
+	objects
+		object Character-30003-0 of RandomDragon
+			properties
+				x	466
+				y	277
+				loop	2
+			end
+			base described
+			end
+		end
+		object Character-30003-1 of RandomDragon
+			properties
+				x	318
+				y	244
+				loop	2
+			end
+			base described
+			end
+		end
+		object Character-30003-2 of RandomLostDragon
+			properties
+				x	215
+				y	244
+				loop	2
+			end
+			base described
+			end
+		end
+		object Character-30003-3 of RandomDragon
+			properties
+				x	94
+				y	280
+				loop	2
+			end
+			base described
+			end
+		end
+		object YellowShroomB-30003-4 of YellowShroomB
+			properties
+				x	36
+				y	223
+				loop	0
+			end
+			base described
+				text	"A species of mushroom known to grow in warm, dry environments."
+			end
+		end
+		object YellowShroomA-30003-5 of YellowShroomA
+			properties
+				x	562
+				y	321
+				loop	0
+			end
+			base described
+				text	"A species of mushroom known to grow in warm, dry environments."
+			end
+		end
+		object YellowShroomD-30003-6 of YellowShroomD
+			properties
+				x	387
+				y	226
+				loop	0
+			end
+			base described
+				text	"A species of mushroom known to grow in warm, dry environments."
+			end
+		end
+		object SmokeB-30003-7 of SmokeB
+			properties
+				x	575
+				y	271
+				loop	0
+			end
+			base described
+				text	"A strong, sulfurous odor emanates from a fissure."
+			end
+		end
+		object Button-30003-8 of Button
+			properties
+				x	466
+				y	247
+				loop	0
+			end
+			actions
+				vBeActivated enable ButtonDisabled-30000-12 
+				vBeDeactivated disable ButtonDisabled-30000-12 
+			end
+			base described
+				text	"Don't just step on any button you see!\nDo you have any idea what it might do?"
+			end
+		end
+	end
+end
+room 30004
+	properties
+		template 30804
+		south 30003
+		east 30009
+		west 30007
+		north 30005
+		flags	216
+	end
+	objects
+		object Character-30004-0 of RandomDragon
+			properties
+				x	552
+				y	267
+				loop	1
+			end
+		end
+		object Character-30004-1 of RandomDragon
+			properties
+				x	79
+				y	267
+				loop	0
+			end
+		end
+		object Sign-30004-2 of Sign
+			properties
+				x	212
+				y	232
+				loop	0
+			end
+			base described
+				text	"Go back now...\n\nwhile you still can."
+			end
+		end
+		object Stalagmite2-30004-3 of Stalagmite2
+			properties
+				x	259
+				y	236
+				loop	0
+			end
+			base described
+				text	"StalacTITEs hang on tight overheard.\nStalagMITEs might get there.\n\nSo this is a...?"
+			end
+		end
+		object SmokeB-30004-4 of SmokeB
+			properties
+				x	273
+				y	231
+				loop	0
+			end
+			base described
+				text	"A strong, sulfurous odor emanates from a fissure."
+			end
+		end
+		object YellowShroomA-30004-5 of YellowShroomA
+			properties
+				x	540
+				y	230
+				loop	0
+			end
+			base described
+				text	"A species of mushroom known to grow in warm, dry environments."
+			end
+		end
+		object YellowShroomB-30004-6 of YellowShroomB
+			properties
+				x	146
+				y	226
+				loop	0
+			end
+			base described
+				text	"A species of mushroom known to grow in warm, dry environments."
+			end
+		end
+	end
+end
+room 30005
+	properties
+		template 31003
+		south 30004
+		north 30006
+		flags	24
+	end
+	objects
+		object Character-30005-0 of RandomDragon
+			properties
+				x	338
+				y	246
+				loop	2
+			end
+			base described
+			end
+		end
+		object Character-30005-1 of RandomLostDragon
+			properties
+				x	238
+				y	253
+				loop	2
+			end
+			base described
+			end
+		end
+		object Character-30005-2 of RandomDragon
+			properties
+				x	292
+				y	198
+				loop	2
+			end
+		end
+		object YellowShroomB-30005-3 of YellowShroomB
+			properties
+				x	139
+				y	288
+				loop	0
+			end
+			base described
+				text	"A species of mushroom known to grow in warm, dry environments."
+			end
+		end
+		object YellowShroomA-30005-4 of YellowShroomA
+			properties
+				x	452
+				y	250
+				loop	0
+			end
+			base described
+				text	"A species of mushroom known to grow in warm, dry environments."
+			end
+		end
+		object SmokeB-30005-5 of SmokeB
+			properties
+				x	595
+				y	269
+				loop	0
+			end
+			base described
+				text	"A strong sulfurous odor emanates from a fissure in the floor."
+			end
+		end
+	end
+end
+room 30006
+	properties
+		template 30303
+		south 30005
+		flags	0
+	end
+	objects
+#		object Stalagmite2-30006-0 of Shop
+#			properties
+#				x	193
+#				y	262
+#				loop	0
+#			end
+#			base shop
+#				buyMarkup 25
+#				sellMarkup 400
+#				inventory
+#					category "Mana Crystals" 50883
+#						mana
+#					end
+#					category "Potions" 51583
+#						object pHealth
+#						object pCurePoison
+#						object pSeeInvisibility
+#						object pDexterity
+#						object pGreaterHealth
+#						object pStrength
+#						object pGreaterInvisibility
+#					end
+#					category "Scrolls" 51033
+#						object sIdentify
+#						object sMissileResistance
+#						object sMonsterSummoningI
+#						object sMonsterSummoningII
+#					end
+#				end
+#			end
+#			base described
+#				text	"StalacTITEs hang on tight overheard.\nStalagMITEs might get there.\nSo this is a...?"
+#			end
+#		end
+		object Rock2-30006-1 of Rock2
+			properties
+				x	148
+				y	259
+				loop	0
+			end
+			base described
+				text	"StalacTITEs hang on tight overhead.\nStalagMITEs might get there.\nSo this is a...?"
+			end
+		end
+		object Rock1-30006-2 of Rock1
+			properties
+				x	160
+				y	263
+				loop	0
+			end
+			base described
+				text	"StalacTITEs hang on tight overhead.\nStalagMITEs might get there.\nSo this is a...?"
+			end
+		end
+		object Torch-30006-3 of Torch
+			properties
+				x	320
+				y	239
+				loop	0
+			end
+			base described
+				text	"The dim light of an unsteady torch labors against the gloom."
+			end
+		end
+		object YellowShroomA-30006-4 of YellowShroomA
+			properties
+				x	609
+				y	282
+				loop	0
+			end
+			base described
+				text	"A species of mushroom known to grow in warm, dry environments."
+			end
+		end
+		object YellowShroomB-30006-5 of YellowShroomB
+			properties
+				x	80
+				y	262
+				loop	0
+			end
+			base described
+				text	"A species of mushroom known to grow in warm, dry environments."
+			end
+		end
+		object YellowShroomD-30006-6 of YellowShroomD
+			properties
+				x	27
+				y	296
+				loop	0
+			end
+			base described
+				text	"A species of mushroom known to grow in warm, dry environments."
+			end
+		end
+		object DungeonBackDoor-30006-7 of DungeonBackDoor
+			properties
+				x	474
+				y	225
+				loop	2
+				linkTo	DungeonBackDoor-30031-0
+			end
+			base lockable
+				isLocked	1
+			end
+			base described
+			end
+		end
+		object Button-30006-8 of Button
+			properties
+				x	63
+				y	309
+				loop	0
+			end
+			actions
+				vBeActivated enable LeverDisabled-30030-1 
+				vBeDeactivated disable LeverDisabled-30030-1 
+			end
+			base described
+				text	"Don't just step on any lever you see!\nDo you have any idea what it might do?"
+			end
+		end
+	end
+end
+room 30007
+	properties
+		template 30906
+		east 30004
+		west 30008
+		flags	136
+	end
+	objects
+		object Character-30007-0 of RandomLostDragon
+			properties
+				x	145
+				y	280
+				loop	0
+			end
+		end
+		object Character-30007-1 of RandomDragon
+			properties
+				x	240
+				y	259
+				loop	0
+			end
+		end
+		object YellowShroomC-30007-2 of YellowShroomC
+			properties
+				x	242
+				y	232
+				loop	0
+			end
+			base described
+				text	"A species of mushroom known to grow in warm, dry environments."
+			end
+		end
+		object YellowShroomD-30007-3 of YellowShroomD
+			properties
+				x	106
+				y	235
+				loop	0
+			end
+			base described
+				text	"A species of mushroom known to grow in warm, dry environments."
+			end
+		end
+		object YellowShroomB-30007-4 of YellowShroomB
+			properties
+				x	532
+				y	230
+				loop	0
+			end
+			base described
+				text	"A species of mushroom known to grow in warm, dry environments."
+			end
+		end
+		object SmokeB-30007-5 of SmokeB
+			properties
+				x	191
+				y	311
+				loop	0
+			end
+			base described
+				text	"A strong sulfurous odor emanates from a fissure in the floor."
+			end
+		end
+	end
+end
+room 30008
+	properties
+		template 30101
+		east 30007
+		flags	0
+	end
+	objects
+		object Bones-30008-0 of Bones
+			properties
+				x	447
+				y	229
+				loop	0
+			end
+			base described
+				text	"The remains of an unfortunate explorer."
+			end
+		end
+		object YellowShroomA-30008-1 of YellowShroomA
+			properties
+				x	531
+				y	220
+				loop	0
+			end
+			base described
+				text	"A species of mushroom known to grow in warm, dry environments."
+			end
+		end
+		object YellowShroomB-30008-2 of YellowShroomB
+			properties
+				x	28
+				y	268
+				loop	0
+			end
+			base described
+				text	"A species of mushroom known to grow in warm, dry environments."
+			end
+		end
+		object YellowShroomD-30008-3 of YellowShroomD
+			properties
+				x	222
+				y	235
+				loop	0
+			end
+			base described
+				text	"A species of mushroom known to grow in warm, dry environments."
+			end
+		end
+		object Torch-30008-4 of Torch
+			properties
+				x	429
+				y	224
+				loop	0
+			end
+			base described
+				text	"The dim light of an unsteady torch labors against the gloom."
+			end
+		end
+		object DungeonBackDoor-30008-5 of DungeonBackDoor
+			properties
+				x	72
+				y	225
+				loop	0
+				linkTo	DungeonBackDoor-30024-2
+			end
+			base lockable
+				isLocked	1
+			end
+			base described
+			end
+		end
+		object Sign-30008-6 of Sign
+			properties
+				x	193
+				y	231
+				loop	0
+			end
+			base described
+				text	"DANGER"
+			end
+		end
+		object YellowShroomC-30008-7 of YellowShroomC
+			properties
+				x	200
+				y	230
+				loop	0
+			end
+			base described
+				text	"A species of mushroom known to grow in warm, dry environments."
+			end
+		end
+		object Web1-30008-8 of Web1
+			properties
+				x	445
+				y	219
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 30009
+	properties
+		template 30901
+		east 30010
+		west 30004
+		flags	72
+	end
+	objects
+		object Character-30009-0 of RandomDragon
+			properties
+				x	551
+				y	277
+				loop	1
+			end
+		end
+		object Character-30009-1 of RandomLostDragon
+			properties
+				x	435
+				y	269
+				loop	1
+			end
+		end
+		object SmokeB-30009-2 of SmokeB
+			properties
+				x	470
+				y	322
+				loop	0
+			end
+			base described
+				text	"A strong sulfurous odor emanates from a fissure in the floor."
+			end
+		end
+		object YellowShroomA-30009-3 of YellowShroomA
+			properties
+				x	246
+				y	232
+				loop	0
+			end
+			base described
+				text	"A species of mushroom known to grow in warm, dry environments."
+			end
+		end
+		object YellowShroomB-30009-4 of YellowShroomB
+			properties
+				x	504
+				y	232
+				loop	0
+			end
+			base described
+				text	"A species of mushroom known to grow in warm, dry environments."
+			end
+		end
+		object YellowShroomD-30009-5 of YellowShroomD
+			properties
+				x	120
+				y	228
+				loop	0
+			end
+			base described
+				text	"A species of mushroom known to grow in warm, dry environments."
+			end
+		end
+	end
+end
+room 30010
+	properties
+		template 30201
+		west 30009
+		flags	0
+	end
+	objects
+		object YellowShroomD-30010-0 of YellowShroomD
+			properties
+				x	603
+				y	277
+				loop	0
+			end
+			base described
+				text	"A species of mushroom known to grow in warm, dry environments."
+			end
+		end
+		object YellowShroomC-30010-1 of YellowShroomC
+			properties
+				x	245
+				y	232
+				loop	0
+			end
+			base described
+				text	"A species of mushroom known to grow in warm, dry environments."
+			end
+		end
+		object YellowShroomA-30010-2 of YellowShroomA
+			properties
+				x	228
+				y	230
+				loop	0
+			end
+			base described
+				text	"A species of mushroom known to grow in warm, dry environments."
+			end
+		end
+		object Torch-30010-3 of Torch
+			properties
+				x	41
+				y	235
+				loop	0
+			end
+			base described
+				text	"The dim light of an unsteady torch labors against the gloom."
+			end
+		end
+		object DungeonBackDoor-30010-4 of DungeonBackDoor
+			properties
+				x	434
+				y	256
+				loop	1
+				linkTo	DungeonBackDoor-30011-8
+			end
+			base lockable
+				isLocked	0
+			end
+			base described
+				text	"Bad idea."
+			end
+		end
+	end
+end
+room 30011
+	properties
+		template 31007
+		south 30018
+		east 30015
+		west 30021
+		north 30012
+		flags	248
+	end
+	objects
+		object Character-30011-0 of RandomDragon
+			properties
+				x	310
+				y	408
+				loop	3
+			end
+			base described
+			end
+		end
+		object Character-30011-1 of RandomDragon
+			properties
+				x	84
+				y	291
+				loop	0
+			end
+			base described
+			end
+		end
+		object Character-30011-2 of RandomLostDragon
+			properties
+				x	33
+				y	301
+				loop	0
+			end
+			base described
+			end
+		end
+		object Character-30011-3 of RandomLostDragon
+			properties
+				x	609
+				y	300
+				loop	1
+			end
+			base described
+			end
+		end
+		object Character-30011-4 of RandomDragon
+			properties
+				x	633
+				y	312
+				loop	1
+			end
+			base described
+			end
+		end
+		object Character-30011-5 of RandomLostDragon
+			properties
+				x	304
+				y	137
+				loop	2
+			end
+			base described
+			end
+		end
+		object CellFloorF-30011-6 of CellFloorF
+			properties
+				x	603
+				y	247
+				loop	0
+			end
+			base described
+				text	"A reddish glow tinges the ancient-looking tiles."
+			end
+		end
+		object CellFloorF-30011-7 of CellFloorF
+			properties
+				x	72
+				y	266
+				loop	0
+			end
+			base described
+				text	"A reddish glow tinges the ancient looking tiles."
+			end
+		end
+		object DungeonBackDoor-30011-8 of DungeonBackDoor
+			properties
+				x	549
+				y	253
+				loop	2
+				linkTo	DungeonBackDoor-30010-4
+			end
+			actions
+				vBeOpened damage dobj 11 200000 400000 #rust 
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+		object CellFloorF-30011-9 of CellFloorF
+			properties
+				x	160
+				y	127
+				loop	0
+			end
+			base described
+				text	"A reddish glow tinges the ancient looking tiles."
+			end
+		end
+		object CellFloorF-30011-10 of CellFloorF
+			properties
+				x	477
+				y	98
+				loop	0
+			end
+			base described
+				text	"A reddish glow tinges the ancient looking tiles."
+			end
+		end
+		object LavaF-30011-11 of LavaF
+			properties
+				x	279
+				y	290
+				loop	0
+			end
+			base described
+				text	"Thick and gooey, it looks hot.\nScaldingly, burningly, boilingly hot."
+			end
+		end
+		object FireB-30011-12 of FireB
+			properties
+				x	198
+				y	280
+				loop	1
+			end
+			base described
+				text	"Fire flares from the fractured floor."
+			end
+		end
+	end
+end
+room 30012
+	properties
+		template 30402
+		south 30011
+		north 30013
+		flags	24
+	end
+	objects
+		object Character-30012-0 of RandomDragon
+			properties
+				x	324
+				y	217
+				loop	2
+			end
+			base described
+			end
+		end
+		object Character-30012-1 of RandomDragon
+			properties
+				x	291
+				y	264
+				loop	2
+			end
+			base described
+			end
+		end
+		object Character-30012-2 of RandomDragon
+			properties
+				x	160
+				y	253
+				loop	2
+			end
+			base described
+			end
+		end
+		object Character-30012-3 of RandomDragon
+			properties
+				x	258
+				y	226
+				loop	2
+			end
+			base described
+			end
+		end
+		object Character-30012-4 of RandomLostDragon
+			properties
+				x	219
+				y	280
+				loop	2
+			end
+			base described
+			end
+		end
+		object Character-30012-5 of RandomLostDragon
+			properties
+				x	375
+				y	266
+				loop	2
+			end
+			base described
+			end
+		end
+		object FireC-30012-6 of FireC
+			properties
+				x	571
+				y	307
+				loop	0
+			end
+			base described
+				text	"Flames flick through a small vent in the earth."
+			end
+		end
+		object FireB-30012-7 of FireB
+			properties
+				x	157
+				y	241
+				loop	0
+			end
+			base described
+				text	"Fire flares from the fractured floor."
+			end
+		end
+		object LavaF-30012-8 of LavaF
+			properties
+				x	11
+				y	302
+				loop	0
+			end
+			base described
+				text	"Thick and gooey, it looks hot.\nScaldingly, burningly, boilingly hot."
+			end
+		end
+		object LavaE-30012-9 of LavaE
+			properties
+				x	437
+				y	288
+				loop	0
+			end
+			base described
+				text	"Thick and gooey, it looks hot.\nScaldingly, burningly, boilingly hot."
+			end
+		end
+	end
+end
+room 30013
+	properties
+		template 30102
+		south 30012
+		east 30014
+		flags	104
+	end
+	objects
+		object Character-30013-0 of RandomDragon
+			properties
+				x	574
+				y	251
+				loop	1
+			end
+			base described
+			end
+		end
+		object Character-30013-1 of RandomDragon
+			properties
+				x	127
+				y	270
+				loop	0
+			end
+			base described
+			end
+		end
+		object Character-30013-2 of RandomDragon
+			properties
+				x	89
+				y	308
+				loop	0
+			end
+			base described
+			end
+		end
+		object Character-30013-3 of RandomLostDragon
+			properties
+				x	480
+				y	246
+				loop	1
+			end
+			base described
+			end
+		end
+		object Character-30013-4 of RandomDragon
+			properties
+				x	246
+				y	256
+				loop	2
+			end
+			base described
+			end
+		end
+		object Character-30013-5 of RandomLostDragon
+			properties
+				x	384
+				y	255
+				loop	2
+			end
+			base described
+			end
+		end
+		object Character-30013-6 of DragonJ
+			properties
+				x	318
+				y	298
+				loop	2
+				color	0
+			end
+		end
+		object LavaF-30013-7 of LavaF
+			properties
+				x	36
+				y	302
+				loop	0
+			end
+			base described
+				text	"Thick and gooey, it looks hot.\nScaldingly, burningly, boilingly hot."
+			end
+		end
+		object LavaE-30013-8 of LavaE
+			properties
+				x	272
+				y	253
+				loop	0
+			end
+			base described
+				text	"Thick and gooey, it looks hot.\nScaldingly, burningly, boilingly hot."
+			end
+		end
+		object LavaD-30013-9 of LavaD
+			properties
+				x	201
+				y	172
+				loop	0
+			end
+			base described
+				text	"Thick and gooey, it looks hot.\nScaldingly, burningly, boilingly hot."
+			end
+		end
+		object LavaC-30013-10 of LavaC
+			properties
+				x	343
+				y	167
+				loop	0
+			end
+			base described
+				text	"Thick and gooey, it looks hot.\nScaldingly, burningly, boilingly hot."
+			end
+		end
+		object LavaB-30013-11 of LavaB
+			properties
+				x	541
+				y	153
+				loop	0
+			end
+			base described
+				text	"Thick and gooey, it looks hot.\nScaldingly, burningly, boilingly hot."
+			end
+		end
+		object CellFloorF-30013-12 of CellFloorF
+			properties
+				x	159
+				y	221
+				loop	0
+			end
+			base described
+				text	"A reddish glow tinges the ancient looking tiles."
+			end
+		end
+		object FireB-30013-13 of FireB
+			properties
+				x	499
+				y	236
+				loop	0
+			end
+			base described
+				text	"Fire flares from the fractured floor."
+			end
+		end
+		object FireC-30013-14 of FireC
+			properties
+				x	196
+				y	174
+				loop	0
+			end
+			base described
+				text	"Flames flick through a small vent in the earth."
+			end
+		end
+	end
+end
+room 30014
+	properties
+		template 30201
+		west 30013
+		flags	136
+	end
+	objects
+		object Button-30014-0 of Button
+			properties
+				x	267
+				y	263
+				loop	0
+			end
+			actions
+				#vBeActivated teleport dobj 30014 1		#effectively gather
+				vBeActivated castSpell 3 dobj		#dispel
+				vBeActivated unlock DungeonBackDoor-30006-7 
+				vBeActivated castSpell 128 dobj		#acid curse
+				vBeActivated close DungeonBackDoor-30010-4
+				vBeActivated summon 30014 1 4 DPDragWizE 316 267 1 DPDragWizG 316 267 1 DragonE 316 267 1 DragonC 316 267 1
+                #vBeActivated changeExperience dobj -10000
+				vBeActivated disable self
+			end
+			base described
+				text	"Don't just step on any button you see!\nDo you have any idea what it might do?"
+			end
+		end
+		object LavaA-30014-1 of LavaA
+			properties
+				x	122
+				y	331
+				loop	1
+			end
+			base described
+				text	"Thick and gooey, it looks hot.\nScaldingly, burningly, boilingly hot."
+			end
+		end
+		object LavaC-30014-2 of LavaC
+			properties
+				x	311
+				y	330
+				loop	1
+			end
+			base described
+				text	"Thick and gooey, it looks hot.\nScaldingly, burningly, boilingly hot."
+			end
+		end
+		object LavaB-30014-3 of LavaB
+			properties
+				x	510
+				y	324
+				loop	0
+			end
+			base described
+				text	"Thick and gooey, it looks hot.\nScaldingly, burningly, boilingly hot."
+			end
+		end
+		object SmokeB-30014-4 of SmokeB
+			properties
+				x	305
+				y	301
+				loop	0
+			end
+			base described
+				text	"A strong sulurous odor emanates from a fissure."
+			end
+		end
+		object FireC-30014-5 of FireC
+			properties
+				x	461
+				y	252
+				loop	0
+			end
+			base described
+				text	"Flames flick through a small vent in the earth."
+			end
+		end
+	end
+end
+room 30015
+	properties
+		template 30906
+		east 30016
+		west 30011
+		flags	72
+	end
+	objects
+		object Character-30015-0 of RandomDragon
+			properties
+				x	445
+				y	259
+				loop	1
+			end
+			base described
+			end
+		end
+		object Character-30015-1 of RandomLostDragon
+			properties
+				x	600
+				y	252
+				loop	1
+			end
+			base described
+			end
+		end
+		object Character-30015-2 of RandomDragon
+			properties
+				x	551
+				y	275
+				loop	1
+			end
+			base described
+			end
+		end
+		object Character-30015-3 of RandomDragon
+			properties
+				x	513
+				y	253
+				loop	1
+			end
+			base described
+			end
+		end
+		object Character-30015-4 of RandomLostDragon
+			properties
+				x	627
+				y	283
+				loop	1
+			end
+			base described
+			end
+		end
+		object Character-30015-5 of RandomDragon
+			properties
+				x	480
+				y	281
+				loop	1
+			end
+			base described
+			end
+		end
+		object LavaA-30015-6 of LavaA
+			properties
+				x	139
+				y	320
+				loop	0
+			end
+			base described
+				text	"Thick and gooey, it looks hot.\nScaldingly, burningly, boilingly hot."
+			end
+		end
+		object LavaB-30015-7 of LavaB
+			properties
+				x	506
+				y	324
+				loop	0
+			end
+			base described
+				text	"Thick and gooey, it looks hot.\nScaldingly, burningly, boilingly hot."
+			end
+		end
+		object LavaC-30015-8 of LavaC
+			properties
+				x	308
+				y	327
+				loop	1
+			end
+			base described
+				text	"Thick and gooey, it looks hot.\nScaldingly, burningly, boilingly hot."
+			end
+		end
+		object FireB-30015-9 of FireB
+			properties
+				x	543
+				y	231
+				loop	1
+			end
+			base described
+				text	"Fire flares from the fractured floor."
+			end
+		end
+		object FireC-30015-10 of FireC
+			properties
+				x	189
+				y	297
+				loop	0
+			end
+			base described
+				text	"Flames flick through a small vent in the earth."
+			end
+		end
+	end
+end
+room 30016
+	properties
+		template 32601
+		west 30015
+		north 30017
+		flags	152
+	end
+	objects
+		object Character-30016-0 of RandomDragon
+			properties
+				x	412
+				y	266
+				loop	1
+			end
+			base described
+			end
+		end
+		object Character-30016-1 of RandomDragon
+			properties
+				x	501
+				y	284
+				loop	1
+			end
+			base described
+			end
+		end
+		object Character-30016-2 of RandomLostDragon
+			properties
+				x	482
+				y	299
+				loop	1
+			end
+			base described
+			end
+		end
+		object Character-30016-3 of RandomDragon
+			properties
+				x	466
+				y	281
+				loop	1
+			end
+			base described
+			end
+		end
+		object Character-30016-4 of RandomLostDragon
+			properties
+				x	441
+				y	273
+				loop	1
+			end
+			base described
+			end
+		end
+		object Character-30016-5 of RandomLostDragon
+			properties
+				x	417
+				y	247
+				loop	1
+			end
+			base described
+			end
+		end
+		object Character-30016-6 of Svafnir
+			properties
+				x	287
+				y	274
+				loop	1
+				color	0
+			end
+		end
+		object LavaA-30016-7 of LavaA
+			properties
+				x	193
+				y	330
+				loop	0
+			end
+			base described
+				text	"Thick and gooey, it looks hot.\nScaldingly, burningly, boilingly hot."
+			end
+		end
+		object LavaD-30016-8 of LavaD
+			properties
+				x	18
+				y	330
+				loop	0
+			end
+			base described
+				text	"Thick and gooey, it looks hot.\nScaldingly, burningly, boilingly hot."
+			end
+		end
+		object LavaB-30016-9 of LavaB
+			properties
+				x	446
+				y	333
+				loop	0
+			end
+			base described
+			end
+		end
+		object LavaC-30016-10 of LavaC
+			properties
+				x	643
+				y	333
+				loop	0
+			end
+			base described
+				text	"Thick and gooey, it looks hot\nScaldingly, burningly, boilingly hot."
+			end
+		end
+		object LavaF-30016-11 of LavaF
+			properties
+				x	419
+				y	259
+				loop	0
+			end
+			base described
+				text	"Contents may be warmer than they appear."
+			end
+		end
+		object CellFloorF-30016-12 of CellFloorF
+			properties
+				x	337
+				y	214
+				loop	0
+			end
+			base described
+				text	"A reddish glow tinges the ancient looking tiles."
+			end
+		end
+		object CellFloorF-30016-13 of CellFloorF
+			properties
+				x	404
+				y	168
+				loop	0
+			end
+			base described
+				text	"A reddish glow tinges the ancient looking tiles."
+			end
+		end
+		object FireC-30016-14 of FireC
+			properties
+				x	565
+				y	293
+				loop	0
+			end
+			base described
+				text	"Flames flick through a small vent in the earth."
+			end
+		end
+		object FireB-30016-15 of FireB
+			properties
+				x	249
+				y	255
+				loop	0
+			end
+			base described
+				text	"Fire flares from the fractured floor."
+			end
+		end
+	end
+end
+room 30017
+	properties
+		template 30302
+		south 30016
+		flags	40
+	end
+	objects
+		object Button-30017-0 of Button
+			properties
+				x	305
+				y	269
+				loop	0
+			end
+			actions
+				#vBeActivated teleport dobj 30017 1		#effectively gather
+				vBeActivated unlock EnidBackDoor-30037-0 
+				vBeActivated castSpell 3 dobj #dispel 
+				vBeActivated castSpell 19 dobj		#defenseless
+				vBeActivated summon 30017 1 4 DragonA 259 267 1 DragonC 259 267 1 DragonD 259 267 1 DragonA 259 267 1
+                #vBeActivated changeExperience dobj -10000
+				vBeActivated disable self
+			end
+			base described
+				text	"Don't just step on any button you see!\nDo have any idea what it might do?"
+			end
+		end
+		object FireB-30017-1 of FireB
+			properties
+				x	98
+				y	257
+				loop	0
+			end
+			base described
+				text	"Fire flares from the fractured floor."
+			end
+		end
+		object FireB-30017-2 of FireB
+			properties
+				x	592
+				y	286
+				loop	0
+			end
+			base described
+				text	"Fire flares from the fractured floor."
+			end
+		end
+		object FireC-30017-3 of FireC
+			properties
+				x	380
+				y	228
+				loop	0
+			end
+			base described
+				text	"Flames flick through a small vent in the earth."
+			end
+		end
+		object LavaE-30017-4 of LavaE
+			properties
+				x	-1
+				y	305
+				loop	0
+			end
+			base described
+				text	"Thick and gooey, it looks hot.\nScaldingly, burningly, boilingly hot."
+			end
+		end
+		object LavaF-30017-5 of LavaF
+			properties
+				x	424
+				y	260
+				loop	0
+			end
+			base described
+				text	"Thick and gooey, it looks hot.\nScaldingly, burningly, boilingly hot."
+			end
+		end
+	end
+end
+room 30018
+	properties
+		template 31004
+		south 30019
+		north 30011
+		flags	40
+	end
+	objects
+		object Character-30018-0 of RandomDragon
+			properties
+				x	103
+				y	299
+				loop	0
+			end
+			base described
+			end
+		end
+		object Character-30018-1 of RandomDragon
+			properties
+				x	180
+				y	258
+				loop	0
+			end
+			base described
+			end
+		end
+		object Character-30018-2 of RandomLostDragon
+			properties
+				x	258
+				y	241
+				loop	0
+			end
+			base described
+			end
+		end
+		object Character-30018-3 of RandomLostDragon
+			properties
+				x	228
+				y	283
+				loop	0
+			end
+			base described
+			end
+		end
+		object Character-30018-4 of RandomDragon
+			properties
+				x	161
+				y	308
+				loop	0
+			end
+			base described
+			end
+		end
+		object Character-30018-5 of RandomDragon
+			properties
+				x	290
+				y	298
+				loop	0
+			end
+			base described
+			end
+		end
+		object FireB-30018-6 of FireB
+			properties
+				x	130
+				y	248
+				loop	0
+			end
+			base described
+				text	"Fire flares from the fractured floor."
+			end
+		end
+		object FireC-30018-7 of FireC
+			properties
+				x	19
+				y	322
+				loop	0
+			end
+			base described
+				text	"Flames flick through a small vent in the earth."
+			end
+		end
+		object LavaE-30018-8 of LavaE
+			properties
+				x	148
+				y	242
+				loop	0
+			end
+			base described
+				text	"Thick and gooey, it looks hot.\nScaldingly, burningly, boilingly hot."
+			end
+		end
+	end
+end
+room 30019
+	properties
+		template 31303
+		west 30020
+		north 30018
+		flags	152
+	end
+	objects
+		object Character-30019-0 of RandomDragon
+			properties
+				x	204
+				y	241
+				loop	0
+			end
+			base described
+			end
+		end
+		object Character-30019-1 of RandomDragon
+			properties
+				x	108
+				y	257
+				loop	0
+			end
+			base described
+			end
+		end
+		object Character-30019-2 of RandomLostDragon
+			properties
+				x	550
+				y	281
+				loop	1
+			end
+			base described
+			end
+		end
+		object Character-30019-3 of RandomLostDragon
+			properties
+				x	492
+				y	259
+				loop	1
+			end
+			base described
+			end
+		end
+		object Character-30019-4 of RandomDragon
+			properties
+				x	167
+				y	265
+				loop	0
+			end
+			base described
+			end
+		end
+		object Character-30019-5 of RandomDragon
+			properties
+				x	512
+				y	284
+				loop	1
+			end
+			base described
+			end
+		end
+		object Character-30019-6 of DragonK
+			properties
+				x	327
+				y	268
+				loop	3
+				color	0
+			end
+		end
+		object LavaA-30019-7 of LavaA
+			properties
+				x	472
+				y	324
+				loop	1
+			end
+			base described
+				text	"Thick and gooey, it looks hot.\nScaldingly, burningly, boilingly hot."
+			end
+		end
+		object LavaC-30019-8 of LavaC
+			properties
+				x	300
+				y	331
+				loop	0
+			end
+			base described
+				text	"Thick and gooey, it looks hot.\nScaldingly, burningly, boilingly hot."
+			end
+		end
+		object LavaB-30019-9 of LavaB
+			properties
+				x	100
+				y	333
+				loop	0
+			end
+			base described
+				text	"Thick and gooey, it looks hot.\nScaldingly, burningly, boilingly hot."
+			end
+		end
+		object LavaE-30019-10 of LavaE
+			properties
+				x	505
+				y	271
+				loop	0
+			end
+			base described
+				text	"Thick and gooey, it looks hot.\nScaldingly, burningly, boilingly hot."
+			end
+		end
+		object LavaF-30019-11 of LavaF
+			properties
+				x	91
+				y	248
+				loop	0
+			end
+			base described
+				text	"Thick and gooey, it looks hot.\nScaldingly, burningly, boilingly hot."
+			end
+		end
+		object CellFloorF-30019-12 of CellFloorF
+			properties
+				x	59
+				y	234
+				loop	0
+			end
+			base described
+				text	"A reddish glow tinges the ancient looking tiles."
+			end
+		end
+		object FireB-30019-13 of FireB
+			properties
+				x	506
+				y	245
+				loop	0
+			end
+			base described
+				text	"Fire flares from the fractured floor."
+			end
+		end
+		object FireB-30019-14 of FireB
+			properties
+				x	116
+				y	230
+				loop	0
+			end
+			base described
+				text	"Fire flares from the fractured floor."
+			end
+		end
+	end
+end
+room 30020
+	properties
+		template 30805
+		east 30019
+		flags	72
+	end
+	objects
+		object Button-30020-0 of Button
+			properties
+				x	298
+				y	266
+				loop	0
+			end
+			actions
+				#vBeActivated teleport dobj 30020 1		#effectively gather
+				vBeActivated enable LeverDisabled-30031-1
+				vBeActivated castSpell 127 dobj		#poison curse
+				vBeActivated unlock DungeonBackDoor-30011-8
+				vBeActivated castSpell 126 dobj		#mass drain
+				vBeActivated summon 30020 1 4 DragonA 554 270 1  554 270 1 DPDragWizN 554 270 1 DPDragWizE 554 270 1
+				#vBeActivated changeExperience dobj -10000
+				vBeActivated disable self
+			end
+			base described
+				text	"Don't just step on any button you see!\nDo you have any idea what it might do?"
+			end
+		end
+		object FireB-30020-1 of FireB
+			properties
+				x	226
+				y	205
+				loop	0
+			end
+			base described
+				text	"Fire flares from the fractured floor."
+			end
+		end
+		object FireC-30020-2 of FireC
+			properties
+				x	554
+				y	203
+				loop	0
+			end
+			base described
+				text	"Flames flick through a small vent in the earth."
+			end
+		end
+		object SmokeB-30020-3 of SmokeB
+			properties
+				x	128
+				y	289
+				loop	0
+			end
+			base described
+				text	"A strong sulfurous odor emanates from a fissure."
+			end
+		end
+		object LavaA-30020-4 of LavaA
+			properties
+				x	157
+				y	332
+				loop	1
+			end
+			base described
+				text	"Thick and gooey, it looks hot.\nScaldingly, burningly, boilingly hot."
+			end
+		end
+		object LavaD-30020-5 of LavaD
+			properties
+				x	588
+				y	330
+				loop	1
+			end
+			base described
+				text	"Thick and gooey, it looks hot.\nScaldingly, burningly, boilingly hot."
+			end
+		end
+		object LavaB-30020-6 of LavaB
+			properties
+				x	401
+				y	327
+				loop	1
+			end
+			base described
+				text	"Thick and gooey, it looks hot.\nScaldingly, burningly, boilingly hot."
+			end
+		end
+		object LavaC-30020-7 of LavaC
+			properties
+				x	-28
+				y	335
+				loop	0
+			end
+			base described
+				text	"Thick and gooey, it looks hot.\nScaldingly, burningly, boilingly hot."
+			end
+		end
+	end
+end
+room 30021
+	properties
+		template 30906
+		east 30011
+		west 30022
+		flags	136
+	end
+	objects
+		object Character-30021-0 of RandomDragon
+			properties
+				x	92
+				y	255
+				loop	0
+			end
+			base described
+			end
+		end
+		object Character-30021-1 of RandomLostDragon
+			properties
+				x	114
+				y	276
+				loop	0
+			end
+			base described
+			end
+		end
+		object Character-30021-2 of RandomDragon
+			properties
+				x	151
+				y	243
+				loop	0
+			end
+			base described
+			end
+		end
+		object Character-30021-3 of RandomLostDragon
+			properties
+				x	205
+				y	255
+				loop	0
+			end
+			base described
+			end
+		end
+		object Character-30021-4 of RandomDragon
+			properties
+				x	158
+				y	280
+				loop	0
+			end
+			base described
+			end
+		end
+		object Character-30021-5 of RandomDragon
+			properties
+				x	192
+				y	272
+				loop	0
+			end
+			base described
+			end
+		end
+		object FireC-30021-6 of FireC
+			properties
+				x	123
+				y	229
+				loop	0
+			end
+			base described
+				text	"Flames flick through a small vent in the earth."
+			end
+		end
+		object FireC-30021-7 of FireC
+			properties
+				x	525
+				y	230
+				loop	1
+			end
+			base described
+				text	"Flames flick through a small vent in the earth."
+			end
+		end
+		object LavaB-30021-8 of LavaB
+			properties
+				x	508
+				y	325
+				loop	0
+			end
+			base described
+				text	"Thick and gooey, it looks hot.\nScaldingly, burningly, boilingly hot."
+			end
+		end
+		object LavaC-30021-9 of LavaC
+			properties
+				x	309
+				y	328
+				loop	1
+			end
+			base described
+				text	"Thick and gooey, it looks hot.\nScaldingly, burningly, boilingly hot."
+			end
+		end
+		object LavaA-30021-10 of LavaA
+			properties
+				x	139
+				y	321
+				loop	0
+			end
+			base described
+				text	"Thick and gooey, it looks hot.\nScaldingly, burningly, boilingly hot."
+			end
+		end
+	end
+end
+room 30022
+	properties
+		template 30501
+		south 30023
+		east 30021
+		flags	104
+	end
+	objects
+		object Character-30022-0 of RandomDragon
+			properties
+				x	422
+				y	241
+				loop	0
+			end
+			base described
+			end
+		end
+		object Character-30022-1 of RandomLostDragon
+			properties
+				x	80
+				y	270
+				loop	0
+			end
+			base described
+			end
+		end
+		object Character-30022-2 of RandomDragon
+			properties
+				x	153
+				y	236
+				loop	2
+			end
+			base described
+			end
+		end
+		object Character-30022-3 of RandomDragon
+			properties
+				x	550
+				y	237
+				loop	1
+			end
+			base described
+			end
+		end
+		object Character-30022-4 of RandomDragon
+			properties
+				x	48
+				y	316
+				loop	0
+			end
+			base described
+			end
+		end
+		object Character-30022-5 of RandomLostDragon
+			properties
+				x	218
+				y	246
+				loop	2
+			end
+			base described
+			end
+		end
+		object Character-30022-6 of DragonL
+			properties
+				x	330
+				y	287
+				loop	0
+				color	0
+			end
+		end
+		object LavaE-30022-7 of LavaE
+			properties
+				x	-27
+				y	306
+				loop	0
+			end
+			base described
+				text	"Thick and gooey, it looks hot.\nScaldingly, burningly, boilingly hot."
+			end
+		end
+		object LavaF-30022-8 of LavaF
+			properties
+				x	426
+				y	232
+				loop	0
+			end
+			base described
+				text	"Thick and gooey, it looks hot.\nScaldingly, burningly, boilingly hot."
+			end
+		end
+		object CellFloorF-30022-9 of CellFloorF
+			properties
+				x	160
+				y	201
+				loop	0
+			end
+			base described
+				text	"A reddish glow tinges the ancient looking tiles."
+			end
+		end
+		object FireB-30022-10 of FireB
+			properties
+				x	32
+				y	313
+				loop	0
+			end
+			base described
+				text	"Fire flares from the fractured floor."
+			end
+		end
+		object FireB-30022-11 of FireB
+			properties
+				x	60
+				y	293
+				loop	1
+			end
+			base described
+				text	"Fire flares from the fractured floor."
+			end
+		end
+		object FireC-30022-12 of FireC
+			properties
+				x	420
+				y	224
+				loop	0
+			end
+			base described
+				text	"Flames flick through a small vent in the earth."
+			end
+		end
+	end
+end
+room 30023
+	properties
+		template 32304
+		north 30022
+		flags	24
+	end
+	objects
+		object Button-30023-0 of Button
+			properties
+				x	245
+				y	251
+				loop	0
+			end
+			actions
+				#vBeActivated teleport dobj 30023 1		#effectively gather
+				vBeActivated unlock DungeonBackDoor-30008-5 
+				vBeActivated castSpell 22 dobj			#mass rust
+				vBeActivated castSpell 67 dobj			#fear
+				vBeActivated summon 30023 1 4 DPDragWizN 205 205 1 DragonD 205 205 1 DPDragWizE 205 205 1 DragonD 205 205 1
+                #vBeActivated changeExperience dobj -10000
+				vBeActivated clearActions self vBeActivated
+				vBeActivated disable self
+			end
+			base described
+				text	"Don't just step on any button you see!\nDo you have any idea what it might do?"
+			end
+		end
+		object LavaA-30023-1 of LavaA
+			properties
+				x	383
+				y	322
+				loop	0
+			end
+			base described
+				text	"Thick and gooey, it looks hot.\nScaldingly, burningly, boilingly hot."
+			end
+		end
+		object LavaC-30023-2 of LavaC
+			properties
+				x	573
+				y	328
+				loop	0
+			end
+			base described
+				text	"Thick and gooey, it looks hot.\nScaldingly, burningly, boilingly hot."
+			end
+		end
+		object LavaB-30023-3 of LavaB
+			properties
+				x	128
+				y	320
+				loop	0
+			end
+			base described
+				text	"Thick and gooey, it looks hot.\nScaldingly, burningly, boilingly hot."
+			end
+		end
+		object FireB-30023-4 of FireB
+			properties
+				x	624
+				y	282
+				loop	0
+			end
+			base described
+				text	"Fire flares from the fractured floor."
+			end
+		end
+		object FireC-30023-5 of FireC
+			properties
+				x	95
+				y	294
+				loop	1
+			end
+			base described
+				text	"Flames flick through a small vent in the earth."
+			end
+		end
+	end
+end
+room 30024
+	properties
+		template 30304
+		south 30025
+		flags	40
+		roomName	"Mycelarium"
+	end
+	objects
+		object Character-30024-0 of RandomDragon
+			properties
+				x	479
+				y	285
+				loop	1
+			end
+			base described
+			end
+		end
+		object Character-30024-1 of RandomLostDragon
+			properties
+				x	105
+				y	280
+				loop	0
+			end
+			base described
+			end
+		end
+		object DungeonBackDoor-30024-2 of DungeonBackDoor
+			properties
+				x	327
+				y	230
+				loop	2
+				linkTo	DungeonBackDoor-30008-5
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+		object Shroom3-30024-3 of Shroom3
+			properties
+				x	478
+				y	247
+				loop	0
+			end
+			base described
+				text	"A cluster of pale mushrooms reminiscent of the type used by many inns and some of the better taverns."
+			end
+		end
+		object Shroom1-30024-4 of Shroom1
+			properties
+				x	143
+				y	236
+				loop	0
+			end
+			base described
+			end
+		end
+		object Shroom2-30024-5 of Shroom2
+			properties
+				x	591
+				y	296
+				loop	0
+			end
+			base described
+				text	"A pale mushroom large enough for a whole kettle of stew."
+			end
+		end
+		object Rock1-30024-6 of Rock1
+			properties
+				x	604
+				y	304
+				loop	0
+			end
+			base described
+			end
+		end
+		object Shroom3-30024-7 of Shroom3
+			properties
+				x	54
+				y	303
+				loop	1
+			end
+			base described
+			end
+		end
+	end
+end
+room 30025
+	properties
+		template 30802
+		east 30026
+		north 30024
+		flags	72
+		roomName	"Mycelarium"
+	end
+	objects
+		object Character-30025-0 of RandomDragon
+			properties
+				x	131
+				y	277
+				loop	0
+			end
+			base described
+			end
+		end
+		object Character-30025-1 of RandomDragon
+			properties
+				x	250
+				y	244
+				loop	0
+			end
+			base described
+			end
+		end
+		object Shroom1-30025-2 of Shroom1
+			properties
+				x	104
+				y	197
+				loop	0
+			end
+			base described
+			end
+		end
+		object Shroom2-30025-3 of Shroom2
+			properties
+				x	58
+				y	228
+				loop	0
+			end
+			base described
+			end
+		end
+		object Shroom1-30025-4 of Shroom1
+			properties
+				x	11
+				y	248
+				loop	0
+			end
+			base described
+			end
+		end
+		object Shroom1-30025-5 of Shroom1
+			properties
+				x	32
+				y	296
+				loop	0
+			end
+			base described
+			end
+		end
+		object Shroom3-30025-6 of Shroom3
+			properties
+				x	47
+				y	239
+				loop	0
+			end
+			base described
+			end
+		end
+		object Shroom3-30025-7 of Shroom3
+			properties
+				x	134
+				y	203
+				loop	0
+			end
+			base described
+			end
+		end
+		object Shroom3-30025-8 of Shroom3
+			properties
+				x	23
+				y	303
+				loop	0
+			end
+			base described
+			end
+		end
+		object Shroom3-30025-9 of Shroom3
+			properties
+				x	80
+				y	224
+				loop	1
+			end
+			base described
+			end
+		end
+		object Shroom3-30025-10 of Shroom3
+			properties
+				x	15
+				y	256
+				loop	1
+			end
+			base described
+			end
+		end
+		object Shroom3-30025-11 of Shroom3
+			properties
+				x	13
+				y	205
+				loop	0
+			end
+			base described
+			end
+		end
+		object Shroom3-30025-12 of Shroom3
+			properties
+				x	173
+				y	207
+				loop	1
+			end
+			base described
+			end
+		end
+	end
+end
+room 30026
+	properties
+		template 30703
+		east 30027
+		west 30025
+		flags	72
+		roomName	"Mycelarium"
+	end
+	objects
+		object Character-30026-0 of RandomDragon
+			properties
+				x	522
+				y	266
+				loop	1
+			end
+			base described
+			end
+		end
+		object Shroom3-30026-1 of Shroom3
+			properties
+				x	33
+				y	294
+				loop	0
+			end
+			base described
+			end
+		end
+		object Shroom1-30026-2 of Shroom1
+			properties
+				x	267
+				y	225
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 30027
+	properties
+		template 32701
+		west 30026
+		north 30028
+		flags	24
+		roomName	"Mycelarium"
+	end
+	objects
+		object Character-30027-0 of RandomDragon
+			properties
+				x	372
+				y	210
+				loop	2
+			end
+			base described
+			end
+		end
+		object Character-30027-1 of RandomDragon
+			properties
+				x	256
+				y	193
+				loop	2
+			end
+			base described
+			end
+		end
+		object Shroom1-30027-2 of Shroom1
+			properties
+				x	601
+				y	286
+				loop	0
+			end
+			base described
+			end
+		end
+		object Shroom3-30027-3 of Shroom3
+			properties
+				x	488
+				y	286
+				loop	0
+			end
+			base described
+			end
+		end
+		object Shroom3-30027-4 of Shroom3
+			properties
+				x	14
+				y	227
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 30028
+	properties
+		template 31004
+		south 30027
+		north 30029
+		flags	24
+		roomName	"Mycelarium"
+	end
+	objects
+		object Character-30028-0 of DragonH
+			properties
+				x	535
+				y	230
+				loop	2
+			end
+		end
+		object Shroom3-30028-1 of Shroom3
+			properties
+				x	221
+				y	225
+				loop	0
+			end
+			base described
+			end
+		end
+		object Shroom1-30028-2 of Shroom1
+			properties
+				x	32
+				y	324
+				loop	0
+			end
+			base described
+			end
+		end
+		object Shroom3-30028-3 of Shroom3
+			properties
+				x	92
+				y	267
+				loop	1
+			end
+			base described
+			end
+		end
+	end
+end
+room 30029
+	properties
+		template 32302
+		south 30028
+		west 30030
+		flags	136
+		roomName	"Mycelarium"
+	end
+	objects
+		object Character-30029-0 of DragonM
+			properties
+				x	264
+				y	309
+				loop	2
+				color	0
+			end
+		end
+		object Shroom3-30029-1 of Shroom3
+			properties
+				x	496
+				y	249
+				loop	0
+			end
+			base described
+			end
+		end
+		object Shroom3-30029-2 of Shroom3
+			properties
+				x	230
+				y	243
+				loop	0
+			end
+			base described
+			end
+		end
+		object Shroom1-30029-3 of Shroom1
+			properties
+				x	582
+				y	327
+				loop	0
+			end
+			base described
+			end
+		end
+		object SmokeB-30029-4 of SmokeB
+			properties
+				x	358
+				y	263
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 30030
+	properties
+		template 30101
+		east 30029
+		flags	0
+		roomName	"Mycelarium"
+	end
+	objects
+		object Button-30030-0 of Button
+			properties
+				x	473
+				y	239
+				loop	0
+			end
+			actions
+				#vBeActivated teleport dobj 30014 1	#effectively gather
+				vBeActivated unlock LockedChest-30044-0 
+				vBeActivated damage dobj 8 5000 25000 #damageType minDmg maxDmg (experience 0.5-2.5 levels)
+				#vBeActivated changeExperience dobj -10000
+				vBeActivated summon 30030 1 2 DragonA 200 205 2 DragonB 215 205 1
+				vBeActivated disable self
+			end
+			base described
+				text	"Don't just step on any button you see!\nDo you have any idea what it might do?"
+			end
+		end
+#		object LeverDisabled-30030-1 of LeverDisabled
+#			properties
+#				x	126
+#				y	257
+#				loop	0
+#			end
+#			actions
+#				vBeActivated teleport dobj 30004 1 
+#				vBeDeactivated castSpell 19 dobj #defenseless 
+#			end
+#			base described
+#			end
+#		end
+	end
+end
+room 30031
+	properties
+		template 30302
+		flags	0
+	end
+	objects
+		object DungeonBackDoor-30031-0 of DungeonBackDoor
+			properties
+				x	324
+				y	233
+				loop	2
+				linkTo	DungeonBackDoor-30006-7
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+		object LeverDisabled-30031-1 of LeverDisabled
+			properties
+				x	108
+				y	297
+				loop	0
+			end
+			actions
+				vBeActivated teleport dobj 30032 1 
+			end
+			base described
+			end
+		end
+		object Sign-30031-2 of Sign
+			properties
+				x	206
+				y	235
+				loop	0
+			end
+			base described
+				text	"Don't\nPull\nThe\nLever"
+			end
+		end
+		object CellFloorF-30031-3 of CellFloorF
+			properties
+				x	302
+				y	215
+				loop	0
+			end
+			base described
+				text	"A reddish glow tinges the ancient looking tiles."
+			end
+		end
+	end
+end
+room 30032
+	properties
+		template 30805
+		east 30033
+		flags	72
+	end
+	objects
+		object Character-30032-0 of RandomDragon
+			properties
+				x	621
+				y	241
+				loop	1
+			end
+			base described
+			end
+		end
+		object Character-30032-1 of RandomDragon
+			properties
+				x	586
+				y	278
+				loop	1
+			end
+			base described
+			end
+		end
+		object Character-30032-2 of RandomLostDragon
+			properties
+				x	479
+				y	242
+				loop	1
+			end
+			base described
+			end
+		end
+		object Character-30032-3 of RandomDragon
+			properties
+				x	405
+				y	284
+				loop	1
+			end
+			base described
+			end
+		end
+		object LavaB-30032-4 of LavaB
+			properties
+				x	404
+				y	336
+				loop	1
+			end
+			base described
+				text	"Thick and gooey, it looks hot.\nScaldingly, burningly, boilingly hot."
+			end
+		end
+		object LavaD-30032-5 of LavaD
+			properties
+				x	597
+				y	339
+				loop	1
+			end
+			base described
+				text	"Thick and gooey, it looks hot.\nScaldingly, burningly, boilingly hot."
+			end
+		end
+		object LavaA-30032-6 of LavaA
+			properties
+				x	176
+				y	329
+				loop	0
+			end
+			base described
+				text	"Thich and gooey, it looks hot.\nScaldingly, burningly, boilingly hot."
+			end
+		end
+		object LavaB-30032-7 of LavaB
+			properties
+				x	-77
+				y	323
+				loop	1
+			end
+			base described
+				text	"Thick and gooey, it looks hot.\nScaldingly, burningly, boilingly hot."
+			end
+		end
+		object LavaB-30032-8 of LavaB
+			properties
+				x	621
+				y	189
+				loop	0
+			end
+			base described
+				text	"Thich and gooey, it looks hot.\nScaldningly, burningly, boilingly hot."
+			end
+		end
+		object LavaG-30032-9 of LavaG
+			properties
+				x	339
+				y	235
+				loop	0
+			end
+			base described
+				text	"Thick and gooey, it looks hot.\nScaldingly, burningly, boilingly hot."
+			end
+		end
+		object FireB-30032-10 of FireB
+			properties
+				x	555
+				y	200
+				loop	0
+			end
+			base described
+				text	"Fire flares from the fractured floor."
+			end
+		end
+		object FireC-30032-11 of FireC
+			properties
+				x	9
+				y	270
+				loop	0
+			end
+			base described
+				text	"Flames flick through a small vent in the earth."
+			end
+		end
+		object SmokeB-30032-12 of SmokeB
+			properties
+				x	632
+				y	212
+				loop	0
+			end
+			base described
+				text	"A strong sulfurous odor emanates from a fissure."
+			end
+		end
+		object SmokeB-30032-13 of SmokeB
+			properties
+				x	249
+				y	213
+				loop	0
+			end
+			base described
+				text	"A strong sulfurous odor amanates from a fissure."
+			end
+		end
+		object Sign-30032-14 of Sign
+			properties
+				x	11
+				y	236
+				loop	0
+			end
+			base described
+				text	"Now you've done it!\n\nTried to warn you\nbut did you listen?\n\nNoooooo."
+			end
+		end
+                object Lever-30032-15 of Lever
+                        properties
+                                x       177
+                                y       245
+                                loop    0
+                        end
+                        actions
+                                vBeActivated teleport dobj 30000
+                                vBeDeactivated teleport dobj 30000
+                       end
+                        base described
+                        end
+                end
+	end
+end
+room 30033
+	properties
+		template 30901
+		east 30034
+		west 30032
+		flags	200
+	end
+	objects
+		object Character-30033-0 of RandomDragon
+			properties
+				x	611
+				y	275
+				loop	1
+			end
+			base described
+			end
+		end
+		object Character-30033-1 of RandomDragon
+			properties
+				x	560
+				y	248
+				loop	1
+			end
+			base described
+			end
+		end
+		object Character-30033-2 of RandomDragon
+			properties
+				x	499
+				y	284
+				loop	1
+			end
+			base described
+			end
+		end
+		object LavaC-30033-3 of LavaC
+			properties
+				x	65
+				y	334
+				loop	0
+			end
+			base described
+				text	"Thick and gooey, it looks hot.\nScaldingly, burningly, noilingly hot."
+			end
+		end
+		object LavaA-30033-4 of LavaA
+			properties
+				x	254
+				y	335
+				loop	1
+			end
+			base described
+				text	"Thick and gooey, it looks hot.\nScaldingly, burningly, boilingly hot."
+			end
+		end
+		object LavaB-30033-5 of LavaB
+			properties
+				x	506
+				y	332
+				loop	0
+			end
+			base described
+				text	"Thick and gooey, it looks hot.\nScaldingly, burningly, boilingly hot."
+			end
+		end
+	end
+end
+room 30034
+	properties
+		template 31301
+		east 30035
+		west 30033
+		flags	200
+	end
+	objects
+		object Character-30034-0 of RandomDragon
+			properties
+				x	507
+				y	269
+				loop	1
+			end
+			base described
+			end
+		end
+		object Character-30034-1 of RandomDragon
+			properties
+				x	622
+				y	282
+				loop	1
+			end
+			base described
+			end
+		end
+		object Character-30034-2 of RandomDragon
+			properties
+				x	582
+				y	241
+				loop	1
+			end
+			base described
+			end
+		end
+		object LavaB-30034-3 of LavaB
+			properties
+				x	512
+				y	332
+				loop	1
+			end
+			base described
+				text	"Thick and gooey, it looks hot.\nScaldingly, burningly, boilingly hot."
+			end
+		end
+		object LavaA-30034-4 of LavaA
+			properties
+				x	257
+				y	331
+				loop	0
+			end
+			base described
+				text	"Thick and gooey, it looks hot.\nScaldingly, burningly, boilingly hot."
+			end
+		end
+		object LavaC-30034-5 of LavaC
+			properties
+				x	67
+				y	328
+				loop	0
+			end
+			base described
+				text	"Thick and gooey, it looks hot.\nScaldingly, burningly, boilingly hot."
+			end
+		end
+	end
+end
+room 30035
+	properties
+		template 30901
+		east 30036
+		west 30034
+		flags	200
+	end
+	objects
+		object Character-30035-0 of RandomDragon
+			properties
+				x	539
+				y	258
+				loop	1
+			end
+			base described
+			end
+		end
+		object Character-30035-1 of RandomLostDragon
+			properties
+				x	591
+				y	284
+				loop	1
+			end
+			base described
+			end
+		end
+		object Character-30035-2 of RandomDragon
+			properties
+				x	626
+				y	249
+				loop	1
+			end
+			base described
+			end
+		end
+		object LavaC-30035-3 of LavaC
+			properties
+				x	64
+				y	335
+				loop	0
+			end
+			base described
+				text	"Thick and gooey, it looks hot. Scaldingly, burningly, boilingly hot."
+			end
+		end
+		object LavaA-30035-4 of LavaA
+			properties
+				x	254
+				y	333
+				loop	1
+			end
+			base described
+				text	"Thick and gooey, it looks hot.\nScaldingly, burningly, boilingly hot."
+			end
+		end
+		object LavaB-30035-5 of LavaB
+			properties
+				x	507
+				y	329
+				loop	0
+			end
+			base described
+				text	"Thick and gooey, it looks hot.\nScaldingly, burningly, boilingly hot."
+			end
+		end
+	end
+end
+room 30036
+	properties
+		template 31301
+		east 30037
+		west 30035
+		flags	200
+	end
+	objects
+		object Character-30036-0 of RandomDragon
+			properties
+				x	625
+				y	282
+				loop	1
+			end
+		end
+		object Character-30036-1 of RandomDragon
+			properties
+				x	579
+				y	257
+				loop	1
+			end
+		end
+		object Character-30036-2 of RandomLostDragon
+			properties
+				x	519
+				y	282
+				loop	1
+			end
+			base described
+			end
+		end
+		object Character-30036-3 of RandomDragon
+			properties
+				x	469
+				y	241
+				loop	1
+			end
+			base described
+			end
+		end
+		object LavaA-30036-4 of LavaA
+			properties
+				x	253
+				y	333
+				loop	0
+			end
+			base described
+				text	"Thick and gooey, it looks hot.\nScaldingly, burningly, boilingly hot."
+			end
+		end
+		object LavaC-30036-5 of LavaC
+			properties
+				x	64
+				y	329
+				loop	0
+			end
+			base described
+				text	"Thick and gooey, it looks hot.\nScaldingly, burningly, boilingly hot."
+			end
+		end
+		object LavaB-30036-6 of LavaB
+			properties
+				x	508
+				y	334
+				loop	1
+			end
+			base described
+				text	"Thick and gooey, it looks hot.\nScaldingly, burningly, boilingly hot."
+			end
+		end
+	end
+end
+room 30037
+	properties
+		template 30201
+		west 30036
+		flags	0
+	end
+	objects
+		object EnidBackDoor-30037-0 of EnidBackDoor
+			properties
+				x	177
+				y	231
+				loop	2
+				linkTo	EnidBackDoor-30038-2
+			end
+			base lockable
+				isLocked	1
+			end
+			actions
+				#vBeOpened teleport dobj 30037 1
+				vBeOpened clearActions self vBeOpened
+			end
+			base described
+			end
+		end
+		object LavaA-30037-1 of LavaA
+			properties
+				x	126
+				y	332
+				loop	1
+			end
+			base described
+				text	"Thick and gooey, it looks hot.\nScaldingly, burningly, boiling hot."
+			end
+		end
+		object LavaC-30037-2 of LavaC
+			properties
+				x	314
+				y	330
+				loop	1
+			end
+			base described
+				text	"Thick and gooey, it looks hot.\nScaldingly, burningly, boilingly hot."
+			end
+		end
+		object LavaB-30037-3 of LavaB
+			properties
+				x	513
+				y	322
+				loop	0
+			end
+			base described
+				text	"Thick and gooey, it looks hot.\nScaldingly, burningly, boilingly hot."
+			end
+		end
+		object FireB-30037-4 of FireB
+			properties
+				x	615
+				y	328
+				loop	0
+			end
+			base described
+				text	"Fire flares from the fractured floor."
+			end
+		end
+	end
+end
+room 30038
+	properties
+		template 30101
+		east 30039
+		flags	72
+	end
+	objects
+		object Character-30038-0 of RandomDragon
+			properties
+				x	461
+				y	258
+				loop	1
+			end
+			base described
+			end
+		end
+		object Character-30038-1 of RandomDragon
+			properties
+				x	391
+				y	258
+				loop	1
+			end
+			base described
+			end
+		end
+		object EnidBackDoor-30038-2 of EnidBackDoor
+			properties
+				x	95
+				y	221
+				loop	2
+				linkTo	EnidBackDoor-30037-0
+			end
+			base lockable
+				isLocked	1
+				autoLock	1
+			end
+			base described
+			end
+		end
+		object LavaC-30038-3 of LavaC
+			properties
+				x	46
+				y	324
+				loop	0
+			end
+			base described
+				text	"Thick and gooey, it looks hot.\nScaldingly, buringly, boilingly hot."
+			end
+		end
+		object LavaC-30038-4 of LavaC
+			properties
+				x	178
+				y	325
+				loop	1
+			end
+			base described
+				text	"Thick and gooey, it looks hot.\nScaldingly, burningly, boilingly hot."
+			end
+		end
+		object LavaB-30038-5 of LavaB
+			properties
+				x	375
+				y	324
+				loop	0
+			end
+			base described
+				text	"Thick and gooey, it looks hot.\nScaldingly, burningly, boilingly hot."
+			end
+		end
+		object LavaC-30038-6 of LavaC
+			properties
+				x	575
+				y	331
+				loop	0
+			end
+			base described
+				text	"Thick and gooey, it looks hot.\nScaldingly, burningly, boilingly hot."
+			end
+		end
+		object FireC-30038-7 of FireC
+			properties
+				x	33
+				y	327
+				loop	0
+			end
+			base described
+				text	"Flames flick through a small vent in the earth."
+			end
+		end
+		object CellFloorF-30038-8 of CellFloorF
+			properties
+				x	603
+				y	230
+				loop	0
+			end
+			base described
+				text	"A reddish glow tinges the ancient looking tiles."
+			end
+		end
+		object CellFloorF-30038-9 of CellFloorF
+			properties
+				x	84
+				y	202
+				loop	0
+			end
+			base described
+				text	"A reddish glow tinges the ancient looking tiles."
+			end
+		end
+	end
+end
+room 30039
+	properties
+		template 31301
+		east 30040
+		west 30038
+		flags	200
+	end
+	objects
+		object Character-30039-0 of RandomDragon
+			properties
+				x	478
+				y	252
+				loop	1
+			end
+			base described
+			end
+		end
+		object Character-30039-1 of RandomLostDragon
+			properties
+				x	418
+				y	264
+				loop	1
+			end
+			base described
+			end
+		end
+		object LavaC-30039-2 of LavaC
+			properties
+				x	65
+				y	329
+				loop	0
+			end
+			base described
+				text	"Thick and gooey, it looks hot.\nScaldingly, burningly, boilingly hot."
+			end
+		end
+		object LavaB-30039-3 of LavaB
+			properties
+				x	508
+				y	334
+				loop	1
+			end
+			base described
+				text	"Thick and gooey, it looks hot.\nScaldingly, burningly, boilingly hot."
+			end
+		end
+		object LavaA-30039-4 of LavaA
+			properties
+				x	253
+				y	333
+				loop	0
+			end
+			base described
+				text	"Thick and gooey, it looks hot.\nScaldingly, burningly, boilingly hot."
+			end
+		end
+		object SmokeB-30039-5 of SmokeB
+			properties
+				x	303
+				y	310
+				loop	0
+			end
+			base described
+				text	"A strong sulfurous odor emanates from a fissure."
+			end
+		end
+		object SmokeB-30039-6 of SmokeB
+			properties
+				x	220
+				y	217
+				loop	0
+			end
+			base described
+				text	"A strong sulfurous odor emanates from a fissure."
+			end
+		end
+	end
+end
+room 30040
+	properties
+		template 31301
+		east 30041
+		west 30039
+		flags	200
+	end
+	objects
+		object Character-30040-0 of RandomDragon
+			properties
+				x	450
+				y	259
+				loop	1
+			end
+			base described
+			end
+		end
+		object Character-30040-1 of RandomDragon
+			properties
+				x	345
+				y	252
+				loop	1
+			end
+			base described
+			end
+		end
+		object LavaB-30040-2 of LavaB
+			properties
+				x	508
+				y	334
+				loop	1
+			end
+			base described
+				text	"Thick and gooey, it looks hot.\nScaldingly, burningly, boilingly hot."
+			end
+		end
+		object LavaA-30040-3 of LavaA
+			properties
+				x	254
+				y	332
+				loop	0
+			end
+			base described
+				text	"Thick and gooey, it looks hot.\nScaldingly, burningly, boilingly hot."
+			end
+		end
+		object LavaC-30040-4 of LavaC
+			properties
+				x	66
+				y	329
+				loop	0
+			end
+			base described
+				text	"Thick and gooey, it looks hot.\nScaldingly, burningly, boilingly hot."
+			end
+		end
+		object FireC-30040-5 of FireC
+			properties
+				x	268
+				y	218
+				loop	0
+			end
+			base described
+				text	"Flames flick through a small vent in the earth."
+			end
+		end
+	end
+end
+room 30041
+	properties
+		template 30901
+		east 30042
+		west 30040
+		flags	200
+	end
+	objects
+		object Character-30041-0 of RandomDragon
+			properties
+				x	613
+				y	279
+				loop	1
+			end
+			base described
+			end
+		end
+		object Character-30041-1 of RandomDragon
+			properties
+				x	374
+				y	265
+				loop	1
+			end
+			base described
+			end
+		end
+		object Character-30041-2 of RandomLostDragon
+			properties
+				x	246
+				y	276
+				loop	1
+			end
+			base described
+			end
+		end
+		object Character-30041-3 of RandomDragon
+			properties
+				x	212
+				y	257
+				loop	1
+			end
+			base described
+			end
+		end
+		object LavaB-30041-4 of LavaB
+			properties
+				x	505
+				y	328
+				loop	0
+			end
+			base described
+				text	"Thick and gooey, it looks hot.\nScaldingly, burningly, boilingly hot."
+			end
+		end
+		object LavaC-30041-5 of LavaC
+			properties
+				x	79
+				y	328
+				loop	0
+			end
+			base described
+				text	"Thick and gooey, it looks hot.\nScaldingly, burningly, boilingly hot."
+			end
+		end
+		object LavaA-30041-6 of LavaA
+			properties
+				x	253
+				y	330
+				loop	1
+			end
+			base described
+				text	"Thick and gooey, it looks hot.\nScaldingly, burningly, boilingly hot."
+			end
+		end
+		object LavaB-30041-7 of LavaB
+			properties
+				x	-101
+				y	321
+				loop	1
+			end
+			base described
+				text	"Thick and gooey, it looks hot.\nScaldingly, burningly, boilingly hot."
+			end
+		end
+		object FireB-30041-8 of FireB
+			properties
+				x	133
+				y	227
+				loop	1
+			end
+			base described
+				text	"Fire flares from the fractured floor."
+			end
+		end
+		object FireC-30041-9 of FireC
+			properties
+				x	492
+				y	234
+				loop	1
+			end
+			base described
+				text	"Flames flick through a small vent in the earth."
+			end
+		end
+	end
+end
+room 30042
+	properties
+		template 30906
+		east 30043
+		west 30041
+		flags	200
+	end
+	objects
+		object Character-30042-0 of RandomDragon
+			properties
+				x	470
+				y	282
+				loop	1
+			end
+		end
+		object Character-30042-1 of RandomDragon
+			properties
+				x	419
+				y	257
+				loop	1
+			end
+		end
+		object Character-30042-2 of RandomDragon
+			properties
+				x	308
+				y	249
+				loop	1
+			end
+		end
+		object Character-30042-3 of RandomDragon
+			properties
+				x	389
+				y	280
+				loop	1
+			end
+		end
+		object LavaA-30042-4 of LavaA
+			properties
+				x	134
+				y	319
+				loop	0
+			end
+			base described
+				text	"Thick and gooey, it looks hot.\nScaldingly, burningly, boilingly hot."
+			end
+		end
+		object LavaC-30042-5 of LavaC
+			properties
+				x	309
+				y	328
+				loop	1
+			end
+			base described
+				text	"Thick and gooey, it looks hot.\nScaldingly, burningly, boilingly hot."
+			end
+		end
+		object LavaB-30042-6 of LavaB
+			properties
+				x	507
+				y	323
+				loop	0
+			end
+			base described
+				text	"Thick and gooey, it looks hot.\nScaldingly, burningly, boilingly hot."
+			end
+		end
+		object LavaF-30042-7 of LavaF
+			properties
+				x	503
+				y	249
+				loop	0
+			end
+			base described
+				text	"Thick and gooey, it looks hot.\nScaldingly, burningly, boilingly hot."
+			end
+		end
+		object FireB-30042-8 of FireB
+			properties
+				x	535
+				y	229
+				loop	0
+			end
+			base described
+				text	"Fire flares from the fractured floor."
+			end
+		end
+	end
+end
+room 30043
+	properties
+		flags 200
+		roomName "Fafnir's Lair"
+		west 30042
+		picture 3071
+	end
+	atpinfo
+		1752 320 223 
+		1750 579 231 
+		1752 511 238 
+		34519 70 238 
+		34518 184 242 
+		7900 492 243 
+		7901 176 245 
+		1876 599 248 
+		7907 312 264 249
+		34642 314 271 
+		34640 126 276 
+		1873 499 280 
+		34519 -19 290 
+		7902 -63 297 
+		1772 120 303 
+		7909 60 304 
+		7906 310 318 86
+		1850 654 323 6
+		7902 176 326 
+		7902 455 327 
+		7902 640 327 
+		7906 35 329 86
+		7906 596 329 86
+		1771 88 331 
+	end
+	objects
+		object Character-30043-0 of RandomDragon
+			properties
+				x	335
+				y	247
+				loop	1
+			end
+		end
+		object Character-30043-1 of RandomDragon
+			properties
+				x	379
+				y	268
+				loop	1
+			end
+		end
+		object Character-30043-2 of Fafnir
+			properties
+				x	542
+				y	269
+				loop	1
+				color	0
+			end
+		end
+		object cellFloorF30043-0 of CellFloorF
+			properties
+				x 68
+				y 223
+				loop 0
+			end
+			base described
+				text "A reddish glow tinges the ancient looking tiles."
+			end
+		end
+		object cellFloorF30043-1 of CellFloorF
+			properties
+				x 566
+				y 226
+				loop 0
+			end
+			base described
+				text "A reddish glow tinges the ancient looking tiles."
+			end
+		end
+		object fireC30043-0 of FireC
+			properties
+				x 464
+				y 241
+				loop 0
+			end
+			base described
+			end
+		end
+		object lavaG30043-0 of LavaG
+			properties
+				x 434
+				y 246
+				loop 0
+			end
+			base described
+				text "Thick and gooey, it looks hot.\nScaldingly, burningly, boiling hot."
+			end
+		end
+		object smokeB30043-0 of SmokeB
+			properties
+				x 70
+				y 301
+				loop 0
+			end
+			base described
+				text "A strong sulfurous odor emanates from a fissure."
+			end
+		end
+		object lavaB30043-0 of LavaB
+			properties
+				x 499
+				y 320
+				loop 0
+			end
+			base described
+				text "Thick and gooey, it looks hot.\nScaldingly, burningly, boilingly hot."
+			end
+		end
+		object lavaC30043-0 of LavaC
+			properties
+				x 301
+				y 322
+				loop 0
+			end
+			base described
+				text "Thick and gooey, it looks hot.\nScaldingly, burningly, boilingly hot."
+			end
+		end
+		object lavaA30043-0 of LavaA
+			properties
+				x 117
+				y 327
+				loop 0
+			end
+			base described
+				text "Thick and gooey, it looks hot.\nScaldingly, burningly, boilingly hot."
+			end
+		end
+		object fireB30043-0 of FireB
+			properties
+				x 612
+				y 330
+				loop 0
+			end
+			base described
+			end
+		end
+		object LockedChestJeweled30043-0 of LockedChestJeweled
+			properties
+				loop 0
+				x 310
+				y 233
+				enchantResistance 100
+			end
+			actions
+				vBeBorn changeSpellResistance self 100 0 1 2 3 4
+				vBeOpened changeExperience dobj -5000 
+				vBeOpened clearActions LockedChestJeweled-30043-0 vBeOpened 
+			end
+			base lockable
+				isLocked	1
+				unlockValue	889988
+			end
+			base described
+				text	"Private Property\nDo Not Disturb."
+			end
+		end
+		object RandomNewGear30043-0 of RandomNewGear
+			properties
+				x -200
+				y -200
+				loop 0
+			end
+			base carryable
+				owner	LockedChestJeweled30043-0
+			end
+		end
+		object FafnirTable30043-0 of FafnirTable
+			properties
+				x -200
+				y -200
+				loop 0
+			end
+			base carryable
+				owner	LockedChestJeweled30043-0
+			end
+		end
+	end
+end
+
+room 30044
+	properties
+		template 30201
+		west 30043
+		flags	0
+		roomName	"Fafnir's Treasure"
+	end
+	objects
+		object LockedChest-30044-0 of LockedChest
+			properties
+				x	464
+				y	270
+				loop	0
+			end
+			actions
+				vBeOpened changeExperience dobj -5000 
+				vBeOpened clearActions LockedChest-30044-0 vBeOpened 
+			end
+			base lockable
+			end
+			base described
+				text	"Private Property\nDo Not Disturb."
+			end
+		end
+		object LavaA-30044-1 of LavaA
+			properties
+				x	123
+				y	329
+				loop	2
+			end
+			base described
+				text	"Thick and gooey, it looks hot.\nScaldingly, burningly, boilingly hot."
+			end
+		end
+		object LavaC-30044-2 of LavaC
+			properties
+				x	305
+				y	326
+				loop	1
+			end
+			base described
+				text	"Thick and gooey, it looks hot.\nScaldingly, burningly, boilingly hot."
+			end
+		end
+		object LavaB-30044-3 of LavaB
+			properties
+				x	504
+				y	321
+				loop	0
+			end
+			base described
+				text	"Thick and gooey, it looks hot.\nScaldingly, burningly, boilingly hot."
+			end
+		end
+		object CellFloorF-30044-4 of CellFloorF
+			properties
+				x	550
+				y	229
+				loop	0
+			end
+			base described
+				text	"A reddish glow tinges the ancient looking tiles."
+			end
+		end
+		object CellFloorF-30044-5 of CellFloorF
+			properties
+				x	404
+				y	200
+				loop	0
+			end
+			base described
+				text	"A reddish glow tinges the ancient looking tiles."
+			end
+		end
+		object Lever-30044-6 of Lever
+			properties
+				x	177
+				y	245
+				loop	0
+			end
+			actions
+				vBeActivated damage dobj 8 5000 15000 #experience .5 to 1.5 levels 
+				#vBeActivated changeExperience dobj -10000
+#				vBeActivated teleport dobj 30000 
+				vBeDeactivated damage dobj 8 5000 15000 #experience .5 to 1.5 levels 
+				vBeDeactivated changeExperience dobj -10000
+#				vBeDeactivated teleport dobj 30000 
+			end
+			base described
+			end
+		end
+#		object RandomMaterial-30044-7 of RandomMaterial
+#			properties
+#				x	-200
+#				y	-200
+#				loop	0
+#			end
+#			base carryable
+#				owner	LockedChest-30044-0
+#			end
+#			base described
+#			end
+#		end
+		object LockedChest-30044-8 of LockedChest
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	LockedChest-30044-0
+			end
+			base described
+			end
+		end
+                object RandomMegaTreasure-30044-9 of RandomMegaTreasure
+                        properties
+                                x       -200
+                                y       -200
+                                loop    0
+                        end
+                        base carryable
+                                owner   LockedChest-30044-0
+                        end
+                        base described
+                        end
+                end
+                object RandomMegaTreasure-30044-10 of RandomMegaTreasure
+                        properties
+                                x       -200
+                                y       -200
+                                loop    0
+                        end
+                        base carryable
+                                owner   LockedChest-30044-0
+                        end
+                        base described
+                        end
+                end
+	end
+end

@@ -1,0 +1,71 @@
+quest 99998
+	name "Item Upgrade: Amulet of Concentration: Level Two"
+	type fedex
+
+	proposal "You've come a long way to see me. I can empower your amulet to become much stronger.. but be weary, it will lose any enchantments you had."
+
+	accepted "Excellent. I will call upon the dark forces, hand me the amulet once you are ready."
+
+	declined "Then I will provide the next warlock boundless power. Begone."
+
+	reminder "The amulet, now."
+
+	completed "*mumbles demonic incantation* Yes, the dark lord is pleased. Here is your amulet."
+
+	getItem aConcentrate
+	reward aConcentrate2000
+end 
+
+quest 99997
+	name "Item Upgrade: Amulet of Concentration: Level Three"
+	type fedex
+
+	proposal "You've come a long way to see me. I can empower your level two amulet to become much stronger.. but be weary, it will lose any enchantments you had."
+
+	accepted "Excellent. I will call upon the dark forces, hand me the level two amulet once you are ready."
+
+	declined "Then I will provide the next warlock boundless power. Begone."
+
+	reminder "The level two amulet, now."
+
+	completed "*mumbles demonic incantation* Yes, the dark lord is pleased. Here is your level three amulet."
+
+	getItem aConcentrate2000
+	reward aConcentrate3000
+end 
+
+quest 99996
+	name "Item Upgrade: Amulet of Concentration: Level Four"
+	type fedex
+
+	proposal "You've come a long way to see me. I can empower your level three amulet to become much stronger.. but be weary, it will lose any enchantments you had."
+
+	accepted "Excellent. I will call upon the dark forces, hand me the level three amulet once you are ready."
+
+	declined "Then I will provide the next warlock boundless power. Begone."
+
+	reminder "The level three amulet, now."
+
+	completed "*mumbles demonic incantation* Yes, the dark lord is pleased. Here is your level four amulet."
+
+	getItem aConcentrate3000
+	reward aConcentrate4000
+end 
+
+quest 99995
+	name "Item Upgrade: Amulet of Concentration: Level Five"
+	type fedex
+
+	proposal "You've come a long way to see me. I can empower your level four amulet to become much stronger.. but be weary, it will lose any enchantments you had."
+
+	accepted "Excellent. I will call upon the dark forces, hand me the level four amulet once you are ready."
+
+	declined "Then I will provide the next warlock boundless power. Begone."
+
+	reminder "The level four amulet, now."
+
+	completed "*mumbles demonic incantation* Yes, the dark lord is pleased. Here is your level five amulet."
+
+	getItem aConcentrate4000
+	reward aConcentrate5000
+end 

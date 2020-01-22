@@ -1,0 +1,3522 @@
+room 90012
+   properties
+      picture	3000
+      east	90013 
+      north	90019 
+      roomName	"Old Achren"
+   end
+   atpinfo
+      170  382 101
+      169  168 101
+      241  155 6
+      245  410 48
+      246  604 23
+      229  99 240
+      229  291 241
+      230  538 239
+      164  517 144
+      164  530 1
+      197  266 103
+      197  489 103
+      197  42 103
+      7900  136 104
+      7900  420 105
+      7900  703 111
+      180  482 287
+      35484  164 134
+      180  194 141
+      115  541 169
+      113  461 157
+      2716  132 149
+      185  315 185
+      186  299 183
+      186  295 273
+      2716  68 151
+      35484  71 134
+      114  52 315
+      113  29 300
+      184  14 278
+      223  162 281
+      164  656 126
+   end
+   objects
+      object fountain90012-0 of Fountain
+         properties
+            x	573
+            y	318
+            loop	0
+         end
+      end
+      object stoneBench90012-1 of StoneBench
+         properties
+            x	68
+            y	224
+            loop	0
+         end
+      end
+      object stoneBench90012-2 of StoneBench
+         properties
+            x	173
+            y	225
+            loop	0
+         end
+      end
+      object embers90012-3 of Embers
+         properties
+            x	128
+            y	224
+            loop	0
+         end
+      end
+      object fireA90012-4 of FireA
+         properties
+            x	121
+            y	219
+            loop	0
+         end
+      end
+      object smokeA90012-5 of SmokeA
+         properties
+            x	122
+            y	213
+            loop	0
+         end
+      end
+      object sittingStump90012-6 of SittingStump
+         properties
+            x	393
+            y	305
+            loop	0
+         end
+      end
+      object sittingRock90012-7 of SittingRock
+         properties
+            x	284
+            y	185
+            loop	0
+         end
+      end
+      object sign90012-8 of Sign
+         properties
+            x	5
+            y	294
+            loop	0
+         end
+         base described
+            text	"Be weary traveller, these parts have remained untouched for centuries."
+         end
+      end
+   end
+end
+room 90013
+   properties
+      picture	3000
+      west	90012 
+      roomName	"Old Achren"
+   end
+   atpinfo
+      198  179 101
+      169  168 101
+      197  19 103
+      229  291 241
+      230  538 239
+      229  99 240
+      1308  527 109
+      115  274 234
+      1305  496 106
+      242  459 36
+      241  134 11
+      204  271 233
+      2713  627 155
+      35481  536 157
+      45  526 159
+      151  507 150
+      107  586 315
+      156  441 150
+      155  489 154
+      222  73 307
+      114  148 308
+      7902  138 106
+      7902  421 106
+      181  278 203
+      115  45 152
+      115  614 158
+      111  192 155
+      223  186 153
+      2716  230 163
+      186  570 155
+      7900  547 110
+   end
+   objects
+      object tent90013-0 of Tent
+         properties
+            x	580
+            y	153
+            loop	0
+         end
+         base described
+            text	"Enter if you dare.."
+         end
+         base entry
+            room	90014
+            startingLoop	3
+            endingLoop	3
+            startingX	330
+            startingY	500
+            endingX	330
+            endingY	300
+         end
+      end
+   end
+end
+room 26258
+   properties
+      picture	3500
+      roomName	"York Ruin"
+   end
+   atpinfo
+      2513  54 10
+      2514  -6 29
+      2525  151 2
+      2526  256 8
+      2526  379 8
+      2526  503 8
+      2501  631 8
+      2525  530 2
+      2830  81 158
+      35599  136 129
+      2832  571 58
+      2833  618 160
+      35602  542 161
+      2898  657 137
+      2831  623 55
+      2899  189 134
+      2899  286 134
+      2899  388 133
+      2899  488 131
+      2834  144 48
+      1585  84 263
+      34354  69 111 -50
+      1587  611 3 -150
+      1588  29 190
+      1588  134 174
+      35600  357 153
+      2835  639 183
+      2867  446 69
+      2241  451 188
+      7906  537 201
+      1595  246 242
+      1597  541 196
+   end
+   objects
+      object doorway26258-0 of Doorway
+         properties
+            x	46
+            y	176
+            loop	0
+            link	doorway26257-0
+         end
+         base entry
+            room	26253
+         end
+         base described
+            text	"This is a big wooden door."
+         end
+      end
+      object stand26258-1 of Stand
+         properties
+            x	536
+            y	202
+            loop	0
+         end
+      end
+      object Clyde26258-2 of TentShop
+         properties
+            name	"Clyde"
+            x	529
+            y	197
+            loop	2
+         end
+         base character
+            sex	0
+            properName	"Clyde (NPC)"
+         end
+         base shop
+            buyMarkup	40
+            sellMarkup	100
+         end
+         base container
+            worn	BrownTunic
+            worn	TanPants
+            worn	BrownBoots
+            worn	BlackBelt
+            head	0 2 0 1 5 0 7 13 3 -1 0 0 
+         end
+      end
+      object lever26258-3 of Lever
+         properties
+            x	172
+            y	176
+            loop	0
+         end
+         actions
+            vBeActivated teleport dobj 90012
+            vBeDeactivated teleport dobj 90012
+         end
+         base described
+            text	"A lever."
+         end
+      end
+      object sign26258-4 of Sign
+         properties
+            x	136
+            y	175
+            loop	0
+         end
+         base described
+            text	"Portal to Old Achren"
+         end
+      end
+      object fireA26258-5 of FireA
+         properties
+            x	281
+            y	268
+            loop	0
+         end
+      end
+      object chair26258-6 of Chair
+         properties
+            x	248
+            y	255
+            loop	0
+         end
+      end
+      object torch26258-7 of Torch
+         properties
+            x	237
+            y	164
+            loop	0
+         end
+      end
+      object torch26258-8 of Torch
+         properties
+            x	338
+            y	163
+            loop	0
+         end
+      end
+      object bones26258-9 of Bones
+         properties
+            x	431
+            y	201
+            loop	0
+         end
+      end
+   end
+end
+room 12300
+   properties
+      picture	3000
+      south	12301 
+      roomName	"Winter Wold"
+      flags	2
+   end
+   atpinfo
+      951  325 82 -20
+      951  545 141
+      2952  84 305
+      950  36 222
+      951  527 82 -20
+      951  82 82 -20
+      174  166 77 -30
+      172  350 75 -25
+      1303  311 79 -30
+      172  294 78 -25
+      32789  89 279
+      948  637 229
+      949  385 224
+      950  183 222
+      951  117 144
+      951  362 134
+      755  134 40
+      756  131 47
+      121  53 325
+      49  539 311
+      44  11 258
+      2955  622 316
+      127  584 354
+      127  638 309
+      23  529 263
+      21  53 252
+      24  326 271
+      115  54 317
+      183  198 253
+      180  506 198
+      7901  632 319
+      7901  24 317
+      7901  205 225
+      7901  386 225
+      7901  567 225
+      114  501 306
+      24  581 184
+      115  9 260
+      113  256 302
+   end
+   objects
+      object Lever-12300-0 of Lever
+         properties
+            x	196
+            y	252
+            loop	0
+         end
+         actions
+            vBeActivated teleport dobj 26159
+            vBeDeactivated teleport dobj 26159
+         end
+         base described
+            text	"Voyage to the island."
+         end
+      end
+      object sign12300-12301 of Sign
+         properties
+            x	469
+            y	299
+            loop	0
+         end
+         base described
+            text	"Warning: Lawless land ahead. Rogues and bandits abound. Proceed at your own risk."
+         end
+      end
+   end
+end
+room 90014
+   properties
+      picture	4001
+      roomName	"Crucible Entrance"
+      south	90013 
+   end
+   atpinfo
+      14  575 257
+      32782  77 259
+      7901  323 226
+      16  731 336
+      32784  -79 341
+      2241  547 321
+      2244  21 313
+      2129  386 238
+      2241  519 278
+      2241  553 291
+      2241  572 310
+      2241  536 306
+      2241  599 320
+      2101  175 267
+      2138  99 305
+      2120  125 320
+   end
+   objects
+      object trapDoor90014-2 of TrapDoor
+         properties
+            x	404
+            y	283
+            loop	0
+            link	doorway90016-0
+         end
+         base entry
+            room	90016
+         end
+         base described
+            text	"Further down we go.."
+         end
+         base openable
+            isOpen	1
+         end
+      end
+      object Rolf26258-2 of TentShop
+         properties
+            name	"Rolf"
+            x	144
+            y	264
+            loop	2
+         end
+         base character
+            sex	0
+            properName	"Rolf (NPC)"
+         end
+         base shop
+            buyMarkup	40
+            sellMarkup	100
+         end
+         base container
+            worn	BrownTunic
+            worn	OrangePants
+            worn	BlackBoots
+            worn	BlackBelt
+            head	0 3 6 6 0 6 14 19 5 0 0 4 
+         end
+      end
+   end
+end
+room 90016
+   properties
+      picture	4000
+      roomName	"Crucible Gateway"
+   end
+   atpinfo
+      2221  570 95
+      2315  182 142
+      2315  360 142
+      2310  180 158
+      2310  357 158
+      2318  184 171
+      2322  173 162
+      35090  366 159
+      2107  443 103
+      2143  396 116
+      2241  142 130
+      2241  112 118
+      2241  87 105
+      2241  147 112
+   end
+   objects
+      object doorway90016-0 of Doorway
+         properties
+            x	31
+            y	103
+            loop	0
+            link	trapDoor90014-2
+         end
+         base entry
+            room	90014
+         end
+         base described
+            text	"Back up.."
+         end
+      end
+      object firePlace90016-1 of FirePlace
+         properties
+            x	616
+            y	111
+            loop	0
+         end
+      end
+      object hut90016-2 of Hut
+         properties
+            x	271
+            y	142
+            loop	0
+         end
+         base entry
+            room	90011
+            startingLoop	3
+            endingLoop	3
+            startingX	330
+            startingY	500
+            endingX	330
+            endingY	300
+         end
+      end
+      object sign90016-3 of Sign
+         properties
+            x	309
+            y	153
+            loop	0
+         end
+         base described
+            text	"Be careful."
+         end
+      end
+      object fountain90016-4 of Fountain
+         properties
+            x	267
+            y	288
+            loop	0
+         end
+      end
+      object cleric90016-5 of Cleric
+         properties
+            x	455
+            y	266
+            loop	0
+         end
+         base character
+            properName	"Thomas"
+            title	"The Healer"
+         end
+         base talk
+		      talkTreeID	99699
+	      end
+         base described
+            text	"Thomas has been guarding this portal for a millenia. He looks tired..."
+         end
+      end
+   end
+end
+room 90015
+   properties
+      picture	3000
+      east	90005
+	  south 93000
+      roomName	"Crucible Oasis"
+   end
+   objects
+      object stand90004-0 of Stand
+         properties
+            x	110
+            y	289
+            loop	0
+         end
+      end
+      object Druag90002-2 of TentShop
+         properties
+            name	"Druag"
+            x	120
+            y	268
+            loop	2
+            height	90
+         end
+         base character
+            sex	0
+            properName	"Druag (NPC)"
+         end
+         base shop
+            buyMarkup	40
+            sellMarkup	100
+         end
+         base container
+            head	0 2 7 3 0 6 15 11 4 12 7 6 2 
+            worn	OliveTunic
+            worn	BrownBoots
+            worn	OlivePants
+            worn	BlackBelt
+         end
+      end
+      object sittingStump90004-2 of SittingStump
+         properties
+            x	326
+            y	311
+            loop	0
+         end
+      end
+      object sign90004-3 of Sign
+         properties
+            x	535
+            y	235
+            loop	0
+         end
+         base described
+            text	"To: York"
+         end
+      end
+      object lever90004-4 of Lever
+         properties
+            x	501
+            y	237
+            loop	0
+         end
+         actions
+            vBeActivated teleport dobj 26258
+            vBeDeactivated teleport dobj 26258
+         end
+         base described
+            text	"To: York"
+         end
+      end
+      object crest90004-5 of Crest
+         properties
+            x	229
+            y	334
+            loop	0
+         end
+         base described
+            text	"To those who have ventured this far; I commend your spirit."
+         end
+      end
+   end
+   atpinfo
+      202  220 315
+      102  115 264
+      241  518 26
+      245  427 28
+      183  506 227
+      112  142 290
+      112  73 297
+      110  137 308
+      182  255 302
+      223  328 178
+      200  315 176
+      7902  78 290
+      24  514 256
+      180  552 219
+      165  125 108
+      165  517 106
+      175  339 101
+   end
+end
+room 90017
+   properties
+      picture	4000
+      west	90018 
+      roomName	"Lost Tavern"
+   end
+   atpinfo
+      2017  107 5 50
+      2014  14 67 170
+      2029  291 94 100
+      2028  184 52 100
+      2028  384 1 50
+      2164  99 71
+      2166  409 63
+      2221  574 150
+      2005  477 5 50
+      2105  459 176
+      2081  508 101
+      2596  470 127 30
+      2082  220 99
+      2082  290 130 30
+      2082  360 129 30
+      2597  198 136 40
+      2597  270 137 40
+      2597  340 136 40
+      2103  320 159 -20
+      2106  405 179
+      2599  89 302
+      2599  325 302
+      2599  539 306
+      7906  59 75
+   end
+   objects
+      object chair90017-0 of Chair
+         properties
+            x	465
+            y	294
+            loop	0
+         end
+      end
+      object chair90017-1 of Chair
+         properties
+            x	499
+            y	280
+            loop	0
+         end
+      end
+      object chair90017-2 of Chair
+         properties
+            x	252
+            y	292
+            loop	0
+         end
+      end
+      object chair90017-3 of Chair
+         properties
+            x	286
+            y	274
+            loop	0
+         end
+      end
+      object chair90017-4 of Chair
+         properties
+            x	185
+            y	179
+            loop	2
+         end
+      end
+      object chair90017-5 of Chair
+         properties
+            x	39
+            y	278
+            loop	0
+         end
+      end
+      object chair90017-6 of Chair
+         properties
+            x	611
+            y	293
+            loop	1
+         end
+      end
+      object chair90017-7 of Chair
+         properties
+            x	571
+            y	276
+            loop	1
+         end
+      end
+      object chair90017-8 of Chair
+         properties
+            x	394
+            y	294
+            loop	1
+         end
+      end
+      object chair90017-9 of Chair
+         properties
+            x	367
+            y	274
+            loop	1
+         end
+      end
+      object chair90017-10 of Chair
+         properties
+            x	161
+            y	297
+            loop	1
+         end
+      end
+      object chair90017-11 of Chair
+         properties
+            x	134
+            y	277
+            loop	1
+         end
+      end
+      object chair90017-12 of Chair
+         properties
+            x	87
+            y	274
+            loop	2
+         end
+      end
+      object chair90017-13 of Chair
+         properties
+            x	530
+            y	275
+            loop	2
+         end
+      end
+      object chair90017-14 of Chair
+         properties
+            x	326
+            y	270
+            loop	2
+         end
+      end
+      object firePlace90017-15 of FirePlace
+         properties
+            x	621
+            y	167
+            loop	0
+         end
+      end
+   end
+end
+room 90018
+   properties
+      picture	4000
+      east	90017 
+	  west	96001
+      roomName	"Lost Tavern"
+   end
+   atpinfo
+      2164  64 116 50
+      2029  391 6
+      2028  656 54 100
+      2028  166 5
+      2127  287 128 150
+      2029  275 6
+      2005  602 69 100
+      2028  505 24 60
+      2117  429 126 80
+      2103  156 256
+      2112  171 234 170
+      2128  192 265 220
+      2017  71 1 20
+      2014  -8 7
+      2166  521 299 200
+      2241  255 221
+      2241  636 169
+      2081  612 112
+      2596  574 147 40
+      2104  264 244
+      2105  61 244
+      2109  163 238 30
+      2241  69 205
+      2599  458 289
+      2141  199 257 60
+      2127  122 256 60
+      7907  158 262
+      2241  10 207
+      2241  45 203
+      2241  73 196
+      2241  105 189
+      2241  204 252
+      2241  106 249
+      7907  254 257
+      7907  43 258
+   end
+   objects
+      object chair90018-0 of Chair
+         properties
+            x	455
+            y	258
+            loop	2
+         end
+      end
+      object chair90018-1 of Chair
+         properties
+            x	355
+            y	296
+            loop	0
+         end
+      end
+      object chair90018-2 of Chair
+         properties
+            x	388
+            y	266
+            loop	0
+         end
+      end
+      object chair90018-3 of Chair
+         properties
+            x	529
+            y	266
+            loop	1
+         end
+      end
+      object chair90018-4 of Chair
+         properties
+            x	561
+            y	298
+            loop	1
+         end
+      end
+      object foodShop90018-5 of FoodShop
+         properties
+            x	159
+            y	245
+            loop	2
+         end
+         base character
+		 	sex 0
+            properName	"Thrux"
+            title	"the Innkeeper"
+         end
+         base shop
+            buyMarkup	40
+            sellMarkup	100
+         end
+         base container
+            head	0 1 0 7 8 7 -1 0 2 0 0 2 3
+            worn	BlackTunic
+            worn	BrownBoots
+            worn	OlivePants
+            worn	BlackBelt
+         end
+      end
+      object plankDoor90018-6 of PlankDoor
+         properties
+            x	450
+            y	156
+            loop	2
+            link	plankDoor90019-5
+         end
+         base entry
+            room	90019
+         end
+         base described
+            text	"This is a big wooden door."
+         end
+         base openable
+            isOpen	0
+         end
+      end
+   end
+end
+
+room 90019
+   properties
+      picture	3500
+      south	90012 
+      east	92000 
+      west	95000 
+      roomName	"Old Achren Gatekeeper"
+   end
+   atpinfo
+      2606  161 91 150
+      35528  641 106
+      7903  481 164
+      2711  69 190
+      35479  40 176
+      35528  364 110
+      45  7 228 -2
+      2717  38 201
+      35527  641 160
+      2714  324 165
+      35483  327 164
+      2724  483 159
+      2711  40 215
+      2713  566 312 231
+      2526  41 6
+      35529  641 53
+      2605  38 208 160
+      2526  255 154 149
+      2605  300 248 200
+      2525  566 1
+      2526  375 108 102
+      2605  220 203 160
+      2605  161 208 160
+      2525  146 1
+      2582  447 109
+      35482  20 177
+      23  310 290 -27
+      35527  363 163
+      2714  621 116
+      2713  423 323 231
+      32792  100 262
+      113  13 230
+      20  270 96
+      21  63 234
+      32789  21 198
+      32789  19 153
+      202  70 185
+      1588  200 149
+      34356  165 151
+      1588  134 153
+      2700  204 163 75
+   end
+   objects
+      object gateKeeper7311-1 of GateKeeper
+         properties
+            x	481
+            y	150
+            loop	2
+         end
+         base character
+            properName	"Trambl (NPC)"
+            title	"the Gatekeeper"
+            sex	0
+         end
+         base container
+            worn	BlackTunic
+            worn	BlackPants
+            worn	BrownBelt
+            worn	BrownBoots
+            head	0 2 0 4 0 3 14 17 4 11 0 0 0 
+         end
+      end
+      object torch90019-1 of Torch
+         properties
+            x	98
+            y	161
+            loop	0
+         end
+      end
+      object plankDoor90019-5 of PlankDoor
+         properties
+            x	160
+            y	166
+            loop	2
+            link	plankDoor90018-6
+         end
+         base entry
+            room	90018
+         end
+         base described
+            text	"This is a big wooden door."
+         end
+      end
+      object lever90019-6 of Lever
+         properties
+            x	69
+            y	304
+            loop	0
+         end
+         actions
+            vBeActivated teleport dobj 26258
+            vBeDeactivated teleport dobj 26258
+         end
+         base described
+            text	"To: York\n\nDANGER: Monsters ahead!"
+         end
+      end
+      object sign90019-7 of Sign
+         properties
+            x	43
+            y	308
+            loop	0
+         end
+         base described
+            text	"To: York\n\nDANGER: Monsters ahead!"
+         end
+      end
+   end
+end
+room 92000
+   properties
+      picture	3500
+      north	92003 
+      east	92001 
+	  west	90019
+      roomName	"Achren Bazaar"
+   end
+   atpinfo
+      229  81 252
+      229  270 252
+      229  456 252
+      233  94 186
+      229  592 252
+      202  21 346
+      202  54 347
+      202  90 347
+      202  126 345
+      202  166 347
+      202  205 347
+      202  246 347
+      202  290 346
+      202  332 347
+      202  387 347
+      202  443 347
+      202  416 347
+      202  359 345
+      202  476 347
+      202  507 346
+      202  543 348
+      202  577 347
+      202  606 348
+      202  636 348
+      7902  137 321
+      7902  411 320
+      7902  525 320
+      7909  55 208
+      7909  96 208
+      7909  144 208
+      33001  350 178
+      234  310 290
+      33001  381 178
+      33001  402 98
+      27  23 224
+      26  90 176
+      23  267 360
+      23  6 207
+      22  242 170
+      23  231 203
+      1522  107 202
+      2955  294 223
+      26  69 127
+      26  222 136
+      26  80 89
+      26  230 120
+      2716  281 140
+      113  240 132
+      32794  554 197
+      32794  492 200
+      26  480 176
+      23  568 159
+      32792  135 41
+      23  73 81
+      22  232 94
+      21  303 89
+      24  558 138
+      32792  124 2
+      26  241 28
+      33001  375 93
+      33001  415 16
+      23  273 48
+      22  263 3
+      22  523 134
+      22  535 111
+      32794  549 74
+      24  573 56
+      22  545 52
+      32791  292 6
+      24  520 1
+      21  339 2
+      21  526 3
+      2599  515 225
+      2241  32 190
+      2241  168 190
+      202  7 162
+      202  4 132
+      202  3 107
+      202  -1 79
+      202  2 48
+   end
+   objects
+      object stand92000-0 of Stand
+         properties
+            x	99
+            y	200
+            loop	0
+         end
+      end
+		object FurnitureShop92001-1 of Shop
+			properties
+			special
+				name "Raul"
+				x 99
+				y 194
+				loop 2
+			end
+			base described
+				text "You see Raul, shopkeeper of the Olde Swap-N-Shop."
+			end
+			base character
+				properName	"Raul (NPC)"
+				title	"the Deco Retailer"
+				sex	0
+			end
+			base container
+				worn	WhiteBaldric
+				worn	BlackTunic
+				worn	BluePants
+				head	0 2 6 2 6 4 5 1 3 6 3 1 
+			end
+			base shop
+					buyMarkup  25
+					sellMarkup 100
+					inventory
+					object SNSWeb1
+					object SNSWeb2
+					object SNSWeb3
+					object SNSSkull
+					object SNSAltar
+					object SNSTorch
+					object SNSFountain
+					object SNSMushroom
+					object SNSSittingRock
+					object SNSStool
+					object SNSChair
+					object SNSStoneBench
+					object SNSBasket
+					object SNSDresser
+					object SNSStorage
+					object SNSCloset
+					object SNSBigStrongBox
+					object SNSChristmasTree
+					object SNSSnowman
+					object SNSTrophy
+				end
+			end
+		end
+      object chair92000-2 of Chair
+         properties
+            x	439
+            y	214
+            loop	0
+         end
+      end
+      object chair92000-3 of Chair
+         properties
+            x	513
+            y	194
+            loop	2
+         end
+      end
+      object chair92000-4 of Chair
+         properties
+            x	595
+            y	214
+            loop	1
+         end
+      end
+      object sign92000-5 of Sign
+         properties
+            x	30
+            y	215
+            loop	0
+         end
+		 base described
+			text "Furniture for Wholesale"
+		 end
+      end
+   end
+end
+room 92001
+   properties
+      picture	3500
+      north	92002 
+      west	92000 
+      roomName	"Achren Bazaar"
+   end
+   atpinfo
+      229  81 252
+      229  270 252
+      229  456 252
+      233  501 196
+      229  592 252
+      202  21 346
+      202  54 347
+      202  90 347
+      202  126 345
+      202  166 347
+      202  205 347
+      202  246 347
+      202  290 346
+      202  332 347
+      202  387 347
+      202  443 347
+      202  416 347
+      202  359 345
+      202  476 347
+      202  507 346
+      202  543 348
+      202  577 347
+      202  606 348
+      202  636 348
+      7902  137 321
+      7902  411 320
+      7902  525 320
+      7909  469 211
+      7909  520 211
+      7909  570 211
+      33001  350 178
+      234  310 290
+      33001  381 178
+      33001  402 98
+      27  23 224
+      26  90 176
+      23  267 360
+      23  6 207
+      22  242 170
+      23  231 203
+      1522  524 208
+      2955  294 223
+      26  69 127
+      26  148 123
+      26  80 89
+      26  230 120
+      2716  275 136
+      113  240 132
+      26  480 176
+      23  568 159
+      32792  135 41
+      23  73 81
+      22  232 94
+      21  303 89
+      24  558 138
+      32792  124 2
+      26  241 28
+      33001  375 93
+      33001  415 16
+      23  273 48
+      22  263 3
+      22  528 136
+      22  535 111
+      32794  549 74
+      24  573 56
+      22  545 52
+      32791  292 6
+      24  520 1
+      21  339 2
+      21  526 3
+      2244  562 211
+      202  641 318
+      202  647 285
+      202  648 258
+      202  650 226
+      202  648 203
+      202  648 179
+      202  648 149
+      202  650 119
+      202  650 94
+      202  652 67
+      202  651 45
+      21  101 169
+      21  121 213
+      23  236 144
+      23  407 223
+      21  641 206
+   end
+   objects
+      object stand92001-0 of Stand
+         properties
+            x	514
+            y	205
+            loop	0
+         end
+      end
+      object ExoticHairDyeShop92002-1 of Shop
+			properties
+			special
+			name "Baldur"
+			x	519
+			y	194
+			loop 2
+			girth 90
+			height 80
+			end
+			base described
+				text "Exotic Hair Dye Salesman."
+			end
+			base character
+				properName	"Baldur (NPC)"
+				title "Exotic Hair Dyes"
+				sex 0
+			end
+			base container
+				worn	WhiteBaldric
+				worn	BlackTunic
+				worn	BluePants
+				head	0 0 2 0 1 0 2 5 16 0 4 0
+			end
+			base shop
+				buyMarkup 25
+				sellMarkup 100
+				inventory
+					category "Exotic Hair Dyes" 51583
+						object hdBlue
+						object hdLightBlue
+						object hdMagenta
+						object hdLightMagenta
+						object hdAqua
+						object hdLightAqua
+						object hdGreen
+						object hdLightGreen
+						object hdPurple
+						object hdLightPurple
+						object hdWhite
+						object hdNaturalBrown  
+						object hdRustBrown  
+						object hdMediumRustBrown  
+						object hdLightRustBrown  
+						object hdPaleRustBrown  
+						object hdSepia  
+						object hdOliveBrown  
+						object hdDarkOliveGreen  
+						object hdSienna  
+						object hdCerulean  
+						object hdDodgerBlue  
+						object hdDeepSkyBlue  
+						object hdTurquoise  
+						object hdRoyalBlue  
+						object hdCeladon  
+						object hdFireBrick  
+						object hdCoralRedGlow  
+						object hdBabyPink  
+						object hdGinger  
+						object hdLightAmber  
+						object hdPaleYellow  
+						object hdEggPlant  
+						object hdMagentaGlow  
+						object hdLightMagentaC  
+						object hdBrownMagentaGlow  
+						object hdBrownPinkGlow  
+						object hdSandyBrown  
+						object hdMediumCyan  
+						object hdCadetBlue  
+						object hdLightCyan  
+						object hdSatori  
+						object hdSeaGreenGlow  
+						object hdLightGreenC  
+						object hdDarkScarlet  
+						object hdOrangeGlow  
+						object hdIndigo  
+						object hdPlumGlow  
+						object hdLightPurpleLines  
+						object hdBlueBlack  
+						object hdBlackGlow  
+						object hdBrightWhite  
+						object hdChocolate  
+						object hdCreamBrown  
+						object hdLightCreamBrown  
+						object hdDarkOliveGlow  
+						object hdOliveGlow  
+						object hdLightYellowLines  
+						object hdDarkBlue  
+						object hdBlueGlow  
+						object hdMaroon  
+						object hdMaroonGlow  
+						object hdLightPink  
+						object hdTawny  
+						object hdYellowOrangeGlow  
+						object hdEggplantYellow  
+						object hdPurpleGlow  
+						object hdLighterMagenta  
+						object hdDarkChocolate  
+						object hdDarkBrownMagentaGlow  
+						object hdCyprus  
+						object hdDeepSeaGlow  
+						object hdForestGreen  
+						object hdForestGreenGlow  
+						object hdPaleGreen  
+						object hdDarkBurntOrange  
+						object hdDarkOrangeGlow  
+						object hdDarkPurpleOrange  
+						object hdDarkPurpleGlow  
+						object hdLightPurpleC  
+						object hdDarkPuple  
+						object hdDarkBlackGlow  
+						object hdBrighterWhite  
+						object hdSaddleBrown  
+						object hdDarkBrownGlow  
+						object hdDarkFlesh  
+						object hdTanFlesh  
+						object hdLightFleshGreen  
+						object hdGreenLightFlesh  
+						object hdGrayGreen  
+						object hdGrayLittleGreen  
+						object hdLightestFinvarra  
+						object hdLightFinvarra  
+						object hdLighterFinvarra  
+						object hdFinvarra  
+						object hdBlackLatex  
+						object hdGrayBlack  
+						object hdAlmondFrost  
+						object hdPharlap  
+						object hdDarkPharlap  
+						object hdDarkerPharlap  
+						object hdDarkestPharlap  
+						object hdSealBrownGlow  
+						object hdLightTan  
+						object hdTeak  
+						object hdMediumTeak  
+						object hdDarkTeak  
+						object hdDarkerTeak  
+						object hdDarkestTeak  
+						object hdDarkBrownCitrusGlow  
+						object hdCitrusDarkbrown  
+						object hdUltraOlive  
+						object hdDarkOlive  
+						object hdDarkerOlive  
+						object hdDarkestOlive  
+						object hdDarkPrussianBlue  
+						object hdPrussianBlue  
+						object hdPrussianBlueGlow  
+						object hdSapling  
+						object hdEcru  
+						object hdDarkEcru  
+						object hdDarkerEcru  
+						object hdYellowOrange  
+						object hdMediumYellowOrange  
+						object hdDarkYellowOrange  
+						object hdDarkerYellowOrange  
+						object hdDarkestYellowOrange  
+						object hdDarkOrangeRedGlow  
+						object hdFleshDarkBrown  
+						object hdLightFleshBlured  
+						object hdPaleFlesh  
+						object hdLightTawny  
+						object hdCarrotOrangeGlow  
+						object hdKournikova  
+						object hdLightYellowC  
+						object hdGrayYellow  
+						object hdGrayLittleYellow  
+						object hdLighterSilk  
+						object hdLightSilk  
+						object hdSilk  
+						object hdDarkSilk  
+						object hdDarkerSilk  
+						object hdDarkestSilk  
+						object hdDarkBrownC  
+						object hdMediumBrown  
+						object hdLightBrownC  
+						object hdPaleBrownC  
+						object hdDarkLightBrown  
+						object hdDarkestBrownGlow  
+						object hdDarkMudBrown  
+						object hdBlackBrown  
+						object hdBlackLittleBrown  
+						object hdGrayLittleBlack  
+						object hdLightGray  
+						object hdShiftingWhiteLines  
+						object hdShiftingWhite  
+						object hdShiftingAllWhite  
+						object hdShiftingLightGray  
+						object hdShiftingGray  
+						object hdShiftingDarkGray  
+						object hdShiftingDarkerGray  
+						object hdShiftingDarkestGray  
+						object hdShiftingBlack  
+						object hdShiftingBlackGlow  
+						object hdShiftingStarkBlack  
+						object hdShiftingStarkWhite  
+						object hdShiftingLightestRosyBrown  
+						object hdShiftingLightRosyBrown  
+						object hdShiftingRosyBrown  
+						object hdShiftingDarkRosyBrown  
+						object hdShiftingDarkerRosyBrown  
+						object hdShiftingDarkestRosyBrown  
+						object hdShiftingDarkRosyBrownGlow  
+						object hdShiftingOffWhite  
+						object hdShiftingLightCream  
+						object hdShiftingCream  
+						object hdShiftingBronzeOlive  
+						object hdShiftingDarkBronzeGlow  
+						object hdShiftingOrangeBrown  
+						object hdShiftingOrangeBrownGlow  
+						object hdShiftingWhiteOrange  
+						object hdShiftingLightestChrome  
+						object hdShiftingLighterChrome  
+						object hdShiftingLightChrome  
+						object hdShiftingChrome  
+						object hdShiftingDarkChrome  
+						object hdShiftingDarkerChrome  
+						object hdShiftingDarkestChrome  
+						object hdShiftingDarkBrown  
+						object hdShiftingLightestVanilla  
+						object hdShiftingLighterVanilla  
+						object hdShiftingLightVanilla  
+						object hdShiftingVanilla  
+						object hdShiftingDarkVanilla  
+						object hdShiftingDarkerVanilla  
+						object hdShiftingDarkestVanilla  
+						object hdShiftingCoffeeGlow  
+						object hdShiftingOffWhiteLines  
+						object hdShiftingDarkGreenGlow  
+						object hdShiftingGreenGlow  
+						object hdShiftingOlive  
+						object hdShiftingLime  
+						object hdShiftingWhiteGreen  
+						object hdShiftingGrayLime  
+						object hdShiftingLighterFossil  
+						object hdShiftingLightFossil  
+						object hdShiftingFossil  
+						object hdShiftingDarkFossil  
+						object hdShiftingDarkerFossil  
+						object hdShiftingBlackGreenGlow  
+						object hdShiftingLightGreen  
+						object hdDarkGreenGlow  
+						object hdDarkNaturalBrown  
+					end 	
+				end			
+			end	
+		end
+      object sittingMushroom92001-2 of SittingMushroom
+         properties
+            x	436
+            y	238
+            loop	2
+         end
+      end
+      object stoneBench92001-3 of StoneBench
+         properties
+            x	95
+            y	200
+            loop	0
+         end
+      end
+      object fireA92001-4 of FireA
+         properties
+            x	144
+            y	206
+            loop	0
+         end
+      end
+      object stoneBench92001-5 of StoneBench
+         properties
+            x	189
+            y	200
+            loop	1
+         end
+      end
+      object smokeA92001-6 of SmokeA
+         properties
+            x	145
+            y	204
+            loop	0
+         end
+      end
+      object sign92001-7 of Sign
+         properties
+            x	566
+            y	215
+            loop	0
+         end
+		 base described
+			text "Exotic Hair Dye Salesman."
+		 end
+      end
+   end
+end
+room 92002
+   properties
+      picture	3500
+      south	92001 
+      west	92003 
+      roomName	"Achren Bazaar"
+   end
+   atpinfo
+      33001  446 253
+      229  333 252
+      229  147 252
+      229  -3 252
+      202  637 338
+      202  639 307
+      202  639 277
+      202  642 252
+      202  643 225
+      202  640 204
+      202  643 182
+      202  641 151
+      202  641 127
+      202  325 60
+      202  292 61
+      202  254 59
+      202  223 61
+      202  189 62
+      202  155 62
+      202  123 60
+      202  88 60
+      202  58 60
+      202  27 59
+      202  648 52
+      202  647 75
+      202  643 104
+      202  354 59
+      202  392 59
+      202  429 60
+      202  468 59
+      202  502 57
+      202  542 56
+      202  580 58
+      202  611 56
+      202  400 61
+      202  25 62
+      32794  566 270
+      32791  540 274
+      32792  126 277
+      32792  277 250 -10
+      26  73 204
+      32792  130 174
+      32792  133 38
+      24  547 32
+      32791  244 26
+      32791  10 135
+      24  162 144
+      32793  2 101
+      21  104 131
+      22  357 150
+      24  508 150
+      25  449 150
+      32794  580 204
+      22  363 225
+      23  564 197
+      24  305 200
+      25  492 90
+      23  460 196
+      21  431 117
+      21  452 83
+      24  273 84
+      21  224 135
+      26  93 109
+      32791  10 83
+      25  600 120
+      26  103 76
+      23  166 80
+      21  356 50
+      21  342 171
+      21  554 248
+      2160  539 161 50
+   end
+   objects
+      object sittingStump92002-0 of SittingStump
+         properties
+            x	532
+            y	312
+            loop	0
+         end
+      end
+      object stand92002-1 of Stand
+         properties
+            x	527
+            y	160
+            loop	0
+         end
+      end
+      object ArtifactShop92002-1 of Shop
+			properties
+			special
+				name "Buzz"
+				x 525
+				y 147
+				loop 2
+				height 90
+				girth 90
+			end
+			base described
+				text "You see Buzz, keeper of ancient artifacts."
+			end
+			base character
+				properName	"Buzz (NPC)"
+				title	"Artifact Shopkeeper"
+				sex	0
+			end
+			base container
+				worn	WhiteBaldric
+				worn	BlackTunic
+				worn	BluePants
+				head	0 1 0 5 3 6 -1 8 3 0 0 1 3
+			end
+			base shop
+				buyMarkup  25
+				sellMarkup 100
+				inventory
+					category "Un-imped Items" 15133
+						object AmuletOfProtection
+						object InvisPants
+						object MagicBelt
+						object MagicBoots
+						object RobeOfDefense
+						object MagicChainPants
+						object MagicChainTunic
+						object MagicChainCowl
+						object EnchantedBoots
+						object EnchantedShield
+						object MagicPlatePants
+						object MagicPlateTunic
+						object KnightsShield
+						object OrbOfHealing
+						object OrbOfInvisibility
+						object OrbOfLightning
+						object OrbOfMana
+					end
+					category "Special Items" 15133
+						object tUnderstanding10
+						object tRebirth
+						object AncientWine
+					end
+					category "Materials" 58283
+						object WoodBlock
+						object IronBar
+						object SteelBar
+						object TemperedSteelBar
+						object MythrilBar
+						object ObsidianiteBar
+						object AdmantiumBar
+						object ClothBolt  
+						object LeatherBolt
+						object TrollHideBolt
+					end							
+				end
+			end
+		end
+      object sign92002-3 of Sign
+         properties
+            x	441
+            y	166
+            loop	0
+         end
+			base described
+				text "Keeper of ancient artifacts."
+			end
+      end
+      object fountain92002-4 of Fountain
+         properties
+            x	306
+            y	244
+            loop	0
+         end
+      end
+      object chair92002-5 of Chair
+         properties
+            x	243
+            y	232
+            loop	0
+         end
+      end
+   end
+end
+room 92003
+   properties
+      picture	3500
+      south	92000 
+      east	92002 
+      roomName	"Achren Bazaar"
+   end
+   atpinfo
+      33001  446 253
+      229  503 252
+      229  647 252
+      202  15 328
+      202  9 298
+      202  10 265
+      202  12 243
+      202  10 219
+      202  11 199
+      202  11 177
+      202  12 159
+      202  10 130
+      202  11 106
+      202  7 83
+      202  9 57
+      202  49 59
+      202  89 59
+      202  128 59
+      202  166 59
+      202  203 59
+      202  236 59
+      202  269 59
+      202  301 59
+      202  338 58
+      202  379 60
+      202  414 60
+      202  444 61
+      202  481 60
+      202  514 59
+      202  548 59
+      202  579 58
+      202  616 59
+      202  643 59
+      21  117 145
+      23  587 274
+      24  474 248
+      25  35 123
+      26  121 250
+      21  293 281
+      22  138 290
+      22  299 287
+      23  562 206
+      21  503 209
+      25  45 112
+      26  88 205
+      26  95 170
+      24  264 197
+      25  133 182
+      21  262 172
+      23  592 47
+      26  565 161
+      20  615 87
+      23  426 163
+      24  334 143
+      24  527 132
+      24  563 95
+      21  253 132
+      21  113 39
+      20  47 91
+      23  485 79
+      24  191 45
+      25  627 92
+      26  266 78
+      21  360 127
+      23  320 51
+      21  488 51
+      24  354 76
+      24  515 53
+      21  197 300
+      21  339 301
+      2241  59 181
+      2241  96 177
+      2244  128 186
+      2598  436 172
+      21  186 250
+      22  304 245
+   end
+   objects
+      object stand92003-0 of Stand
+         properties
+            x	113
+            y	168
+            loop	0
+         end
+      end
+      object DyeShop92003-1 of Shop
+			properties
+				special
+				name "Trux"
+				x 116
+				y 165
+				loop 2
+				girth 70
+				height 75
+			end
+			base described
+				text "You see Trux, he sells saught after dyes."
+			end
+			base character
+				properName	"Trux (NPC)"
+				title	"the Scavenger"
+				sex	0
+			end
+			base container
+				worn	WhiteBaldric
+				worn	BlackTunic
+				worn	BluePants
+				head	0 2 9 2 0 4 2 3 8 9 0 7 2
+			end
+			base shop
+				buyMarkup  25
+				sellMarkup 100
+				inventory
+					category "Exotic Dyes" 15133
+						object dFinvarra
+                  object dLightFinvarra
+                  object dLighterFinvarra
+                  object dLightestFinvarra
+                  object dDarkestPharlap
+                  object dBlackBrown
+                  object dDarkestSilk
+                  object dNaturalBrown
+                  object dBrownGlow
+                  object dDarkBrownGlow
+                  object dSatori
+                  object dPaleYellow
+                  object dPrussianBlue
+                  object dBlackLatex
+                  object dDeepSkyBlue
+                  object dDarkBlackGlow
+                  object dBrightWhite
+                  object dDarkMudBrown
+                  object dShiftingBlack
+                  object dShiftingLime
+                  object hdShiftingWhite
+                  object hdShiftingAllWhite
+                  object dShiftingLightestChrome
+					end
+               category "Color Baldrics" 94031
+					   object bdNaturalBrown
+					   object bdRustBrown
+					   object bdMediumRustBrown
+					   object bdLightRustBrown
+					   object bdPaleRustBrown
+					   object bdSepia
+					   object bdOliveBrown
+					   object bdDarkOliveGreen
+					   object bdSienna
+					   object bdCerulean
+					   object bdDodgerBlue
+					   object bdDeepSkyBlue
+					   object bdTurquoise
+					   object bdRoyalBlue
+					   object bdCeladon
+					   object bdFireBrick
+					   object bdCoralRedGlow
+					   object bdBabyPink
+					   object bdGinger
+					   object bdLightAmber
+					   object bdPaleYellow
+					   object bdEggPlant
+					   object bdMagentaGlow
+					   object bdLightMagenta
+					   object bdBrownMagentaGlow
+					   object bdBrownPinkGlow
+					   object bdSandyBrown
+					   object bdMediumCyan
+					   object bdCadetBlue
+					   object bdLightCyan
+					   object bdSatori
+					   object bdSeaGreenGlow
+					   object bdLightGreen
+					   object bdDarkScarlet
+					   object bdOrangeGlow
+					   object bdIndigo
+					   object bdPlumGlow
+					   object bdLightPurpleLines
+					   object bdBlueBlack
+					   object bdBlackGlow
+					   object bdBrightWhite
+					   object bdChocolate
+					   object bdBrownGlow
+					   object bdCreamBrown
+					   object bdLightCreamBrown
+					   object bdDarkOliveGlow
+					   object bdOliveGlow
+					   object bdLightYellowLines
+					   object bdDarkBlue
+					   object bdBlueGlow
+					   object bdMaroon
+					   object bdMaroonGlow
+					   object bdLightPink
+					   object bdTawny
+					   object bdYellowOrangeGlow
+					   object bdEggplantYellow
+					   object bdPurpleGlow
+					   object bdLighterMagenta
+					   object bdDarkChocolate
+					   object bdDarkBrownMagentaGlow
+					   object bdCyprus
+					   object bdDeepSeaGlow
+					   object bdForestGreen
+					   object bdForestGreenGlow
+					   object bdPaleGreen
+					   object bdDarkBurntOrange
+					   object bdDarkOrangeGlow
+					   object bdDarkPurpleOrange
+					   object bdDarkPurpleGlow
+					   object bdLightPurple
+					   object bdDarkPuple
+					   object bdDarkBlackGlow
+					   object bdBrighterWhite
+					   object bdSaddleBrown
+					   object bdDarkBrownGlow
+					   object bdDarkFlesh
+					   object bdTanFlesh
+					   object bdLightFleshGreen
+					   object bdGreenLightFlesh
+					   object bdGrayGreen
+					   object bdGrayLittleGreen
+					   object bdLightestFinvarra
+					   object bdLightFinvarra
+					   object bdLighterFinvarra
+					   object bdFinvarra
+					   object bdBlackLatex
+					   object bdGrayBlack
+					   object bdAlmondFrost
+					   object bdPharlap
+					   object bdDarkPharlap
+					   object bdDarkerPharlap
+					   object bdDarkestPharlap
+					   object bdSealBrownGlow
+					   object bdLightTan
+					   object bdTeak
+					   object bdMediumTeak
+					   object bdDarkTeak
+					   object bdDarkerTeak
+					   object bdDarkestTeak
+					   object bdDarkBrownCitrusGlow
+					   object bdCitrusDarkbrown
+					   object bdUltraOlive
+					   object bdDarkOlive
+					   object bdDarkerOlive
+					   object bdDarkestOlive
+					   object bdDarkPrussianBlue
+					   object bdPrussianBlue
+					   object bdPrussianBlueGlow
+					   object bdSapling
+					   object bdEcru
+					   object bdDarkEcru
+					   object bdDarkerEcru
+					   object bdYellowOrange
+					   object bdMediumYellowOrange
+					   object bdDarkYellowOrange
+					   object bdDarkerYellowOrange
+					   object bdDarkestYellowOrange
+					   object bdDarkOrangeRedGlow
+					   object bdFleshDarkBrown
+					   object bdLightFleshBlured
+					   object bdPaleFlesh
+					   object bdLightTawny
+					   object bdCarrotOrangeGlow
+					   object bdKournikova
+					   object bdLightYellow
+					   object bdGrayYellow
+					   object bdGrayLittleYellow
+					   object bdLighterSilk
+					   object bdLightSilk
+					   object bdSilk
+					   object bdDarkSilk
+					   object bdDarkerSilk
+					   object bdDarkestSilk
+					   object bdDarkBrown
+					   object bdMediumBrown
+					   object bdLightBrown
+					   object bdPaleBrown
+					   object bdDarkLightBrown
+					   object bdDarkestBrownGlow
+					   object bdDarkMudBrown
+					   object bdBlackBrown
+					   object bdBlackLittleBrown
+					   object bdGrayLittleBlack
+					   object bdLightGray
+					   object bdDarkGreenGlow
+					   object bdDarkNaturalBrown
+					   object bdShiftingLightestChrome
+				   end
+				end
+			end
+		end
+      object chair92003-2 of Chair
+         properties
+            x	341
+            y	155
+            loop	0
+         end
+      end
+      object chair92003-3 of Chair
+         properties
+            x	528
+            y	157
+            loop	1
+         end
+      end
+      object chair92003-4 of Chair
+         properties
+            x	401
+            y	136
+            loop	2
+         end
+      end
+      object chair92003-5 of Chair
+         properties
+            x	461
+            y	136
+            loop	2
+         end
+      end
+      object sign92003-6 of Sign
+         properties
+            x	79
+            y	182
+            loop	0
+         end
+			base described
+				text "Exotic Dyes and Cosmetic Baldrics!"
+			end
+      end
+   end
+end
+room 93020
+   properties
+      picture	3000
+      east	93013
+      roomName	"Crucible Oasis"
+   end
+   objects
+      object stand90004-0 of Stand
+         properties
+            x	110
+            y	289
+            loop	0
+         end
+      end
+      object Brawn90002-2 of TentShop
+         properties
+            name	"Brawn"
+            x	120
+            y	268
+            loop	2
+            height	90
+         end
+         base character
+            sex	0
+            properName	"Brawn (NPC)"
+         end
+         base shop
+            buyMarkup	40
+            sellMarkup	100
+         end
+         base container
+            head	0 2 5 1 0 6 7 8 3 6 2 5 2 
+            worn	BlackTunic
+            worn	BrownBoots
+            worn	OlivePants
+            worn	BlackBelt
+         end
+      end
+      object sittingStump90004-2 of SittingStump
+         properties
+            x	326
+            y	311
+            loop	0
+         end
+      end
+      object sign90004-3 of Sign
+         properties
+            x	535
+            y	235
+            loop	0
+         end
+         base described
+            text	"To: York"
+         end
+      end
+      object lever90004-4 of Lever
+         properties
+            x	501
+            y	237
+            loop	0
+         end
+         actions
+            vBeActivated teleport dobj 26258
+            vBeDeactivated teleport dobj 26258
+         end
+         base described
+            text	"To: York"
+         end
+      end
+      object crest90004-5 of Crest
+         properties
+            x	229
+            y	334
+            loop	0
+         end
+         base described
+            text	"To those who have ventured this far; I commend your spirit."
+         end
+      end
+   end
+   atpinfo
+      202  220 315
+      102  115 264
+      241  518 26
+      245  427 28
+      183  506 227
+      112  142 290
+      112  73 297
+      110  137 308
+      182  255 302
+      223  328 178
+      200  315 176
+      7902  78 290
+      24  514 256
+      180  552 219
+      165  125 108
+      165  517 106
+      175  339 101
+   end
+end
+#--------------------------------------------------------
+#--------------------------------------------------------
+#--------------------------------------------------------
+#--------------------------------------------------------
+#--------------------------------------------------------
+#--------------------------------------------------------
+#--------------------TOWNN-------------------------------
+#--------------------------------------------------------
+#--------------------------------------------------------
+#--------------------------------------------------------
+#--------------------------------------------------------
+#--------------------------------------------------------
+#--------------------------------------------------------
+#--------------------------------------------------------
+room 95000
+   properties
+      picture	3500 
+      east	90019 
+      west	95001 
+      roomName	"Achren Magical Academy"
+   end
+   atpinfo
+      2501  359 52
+      2502  272 53
+      2501  207 28
+      2513  456 53
+      2514  481 61
+      2649  444 57
+      2668  204 216 72
+      2661  345 189 20
+      2663  345 213
+      2641  447 126
+      2641  494 120
+      2648  408 229
+      2656  406 215
+      2651  396 91
+      2653  491 195
+      2654  487 100
+      2668  148 72
+      2650  476 216
+      2649  424 225
+      2595  458 154
+      2648  447 229 133
+      2648  445 226 58
+      2669  263 148 45
+      2669  203 148 58
+      2642  447 222
+      2642  495 211
+      2607  384 180 76
+      2607  271 150 69
+      2515  501 18
+      2609  433 103 38
+      2661  301 176 20
+      2555  114 116
+      2663  301 206
+      2653  485 100 49
+      2656  397 101
+      2654  438 60
+      2668  160 197
+      2669  211 213
+      2670  342 229
+      2669  271 223
+      2670  342 108
+      2661  246 182 31
+      2663  247 203
+      2671  160 122
+      2670  279 230 74
+      2673  349 213
+      2674  348 152
+      2676  161 173
+      2669  229 222 68
+      2663  205 182
+      2661  205 175 31
+      2510  232 198
+      35485  124 186
+      49  153 175
+      2525  48 1
+      2526  111 6
+      111  4 169
+      2954  517 231
+      2717  406 233
+      35722  591 227
+      45  545 208
+      2743  658 57
+      49  161 72
+      49  590 193
+      35722  630 182
+      49  623 153
+      2549  115 119
+   end
+   objects
+      object simpleDoor95000-0 of SimpleDoor
+         properties
+            x	36
+            y	165
+            loop	2
+         end
+      end
+   end
+end
+#--------------------------------------------------------
+#--------------------------------------------------------
+#--------------------------------------------------------
+room 95002
+   properties
+      picture	3500
+      east	 95001
+	  west 	 95003
+	  south	 95025
+      roomName	"K.J. Weaponry"
+   end
+   atpinfo
+      2501  86 43
+      2501  133 50
+      2502  112 61
+      2520  275 32
+      2504  380 -13
+      2521  608 142
+      2504  380 8
+      2713  340 141 80
+      2544  206 174 20
+      2541  194 170
+      2542  97 149
+      2542  160 157
+      2545  97 164 20
+      2545  160 172 20
+      2714  64 25 -99
+      2737  268 120
+      2714  191 71
+      35370  -66 33 -80
+      2521  -19 119
+      2623  -59 28 -99
+      35375  556 158
+      35375  647 133
+      2608  189 70
+      2608  135 61
+      2954  47 213
+      2241  394 205
+      2241  239 220
+      2244  426 214
+      3  275 207
+      3  9 202
+      3  30 202
+      3  4 185
+      3  461 204
+      3  448 209
+      3  426 207
+      3  407 206
+      3  390 202
+      3  374 197
+   end
+   objects
+      object door95002-0 of Door
+         properties
+            x	322
+            y	202
+            loop	0
+         end
+         base openable
+            isOpen	0
+         end
+      end
+   end
+end
+#--------------------------------------------------------
+#--------------------------------------------------------
+room 95003
+   properties
+      picture	3500
+      east	95002
+	  roomName "War Ready"
+      flags	2
+   end
+   atpinfo
+      2505  341 42
+      2506  416 84
+      2506  508 73
+      2516  274 33
+      2509  45 160
+      2516  656 75
+      2509  434 201
+      2601  87 174
+      2601  479 211
+      2580  551 241
+      2581  391 188 -15
+      2581  297 190
+      2581  495 107
+      2581  298 79
+      2581  395 92
+      2595  564 246 17
+      2596  313 195 18
+      2596  404 208 18
+      2596  314 84 18
+      2596  411 97 18
+      2596  511 112 18
+      2713  413 205 96
+      2714  649 234 48
+      35482  52 172 48
+      2713  40 167
+      46  295 215
+      2715  390 203 47
+      2711  13 228
+      60  35 245
+      2954  57 322
+      2717  324 230
+      2954  105 334
+      2954  43 288
+      2710  385 211
+      2701  390 256
+   end
+   objects
+      object plankDoor95003-0 of PlankDoor
+         properties
+            x	229
+            y	224
+            loop	0
+			
+			linkTo	simpleDoor96004-0
+         end
+         base openable
+            isOpen	0
+         end
+      end
+   end
+end
+#--------------------------------------------------------
+room 95001
+   properties
+      picture	3500
+      south	95010 
+      east	95000 
+      west	95002
+	  north	95020
+      flags	0
+      roomName	"Achren Battle Room"
+   end
+   atpinfo
+      2501  358 70
+      2502  271 72
+      2501  207 47
+      2513  456 65
+      2514  481 66
+      2649  441 67
+      2668  206 174 30
+      2661  347 220 49
+      2663  347 228
+      2641  447 138
+      2641  494 130
+      2648  408 238
+      2656  406 216 -10
+      2651  407 150
+      2653  491 195
+      2654  487 100
+      2668  148 75
+      2670  174 212
+      2649  426 234
+      2644  407 175
+      2648  448 236 133
+      2648  445 234 58
+      2669  258 227 125
+      2669  189 239 149
+      2642  447 224
+      2642  494 215
+      2607  394 250 149
+      2607  264 246 168
+      2515  501 18
+      2609  433 103 38
+      2661  397 203 20
+      2743  658 57
+      2663  397 230
+      2653  485 100 49
+      2656  397 155 47
+      2654  438 60
+      2668  161 209
+      35485  497 248
+      2670  342 239
+      2642  408 233
+      2670  342 110
+      2670  344 105
+      2717  549 235
+      2671  162 132
+      2670  287 217 60
+      2673  350 226
+      2674  348 156
+      2676  154 186
+      2669  246 213 -16
+      2663  205 207
+      2661  205 179 31
+      2711  153 216
+      2592  458 161
+      2953  570 238
+      2717  590 253
+      35485  618 226
+      43  157 196
+      2954  207 41
+      2712  568 23
+      2954  196 29
+      2711  413 248
+      13  34 -113
+      7902  338 74
+      7902  547 74
+      7902  602 36
+      7902  622 74
+      7902  496 36
+      7902  284 37
+      2712  612 94
+   end
+   objects
+      object plankdoor95001-0 of PlankDoor
+         properties
+            x	273
+            y	222
+            loop	1
+            linkTo	simpleDoor96003-0
+         end
+         base openable
+            isOpen	0
+         end
+      end
+   end
+end
+#--------------------------------------------------------
+#--------------------------------------------------------
+#--------------------------------------------------------
+#--------------------------------------------------------
+#Moved Room 95010 to Dungeon_Entries
+
+#--------------------------------------------------------
+#--------------------------------------------------------
+room 96003
+   properties
+      picture	3500
+      south	96030 321 128
+      roomName	"Achren Battle Hall"
+   end
+   atpinfo
+      2586  97 164 30
+      2597  516 128 20
+      2517  45 16
+      2595  72 146 30
+      2597  254 128 20
+      2517  138 1
+      2518  92 42
+      2525  237 14
+      2526  412 19
+      2526  530 19
+      2525  613 14
+      2758  119 165
+      2763  416 92
+      2526  315 19
+      2758  161 176
+      2757  142 180
+      2756  122 177
+      2755  101 179
+      2758  61 185
+      2757  83 180
+      2756  43 195
+      2755  22 200
+      2758  1 205
+      2757  0 154
+      2756  161 77
+      2755  142 128
+      2758  119 141
+      2757  163 126
+      2756  18 146
+      2755  119 89
+      2756  141 93
+      2755  160 43
+      2758  39 163
+      2588  500 156 20
+      2588  238 156 20
+      35531  395 92
+      2758  -2 104
+      2757  40 111
+      2756  99 122
+      2755  59 90
+      2758  79 89
+      2757  99 59
+      2756  140 58
+      2755  20 114
+      2758  37 65
+      2757  18 62
+      2756  -1 53
+      2756  118 44
+      2755  78 43
+      2757  59 52
+      2759  303 174
+      2760  279 174
+      2761  306 122
+      2762  308 159
+      2759  435 175
+      2760  350 173
+      2761  329 174
+      2762  349 127
+      2759  325 126
+      2760  347 78
+      2761  328 83
+      2762  442 122
+      2759  433 87
+      2760  460 174
+      2761  463 122
+      2762  485 126
+      2759  455 72
+      2760  484 174
+      2761  507 174
+      2762  257 174 -3
+      2759  183 174
+      2760  528 174
+      2761  183 119
+      2762  184 68
+      2759  206 121
+      2760  208 173
+      2761  234 174
+      2762  231 146
+      2759  230 93
+      2760  206 69
+      2761  265 60
+      2762  249 63
+      2759  280 64
+      2760  327 62
+      2761  305 58
+      2762  229 49
+      2759  480 54
+      2760  506 60
+      2761  552 173
+      2762  530 64
+      2759  549 62
+      2760  572 172
+      2761  572 159
+      2762  570 109
+      2759  593 140
+      2760  618 172
+      2761  591 88
+      2762  596 173
+      2759  616 122
+      2760  572 60
+      2761  593 37
+      2762  614 69
+      2631  562 73 40
+      2631  255 72 40
+      2633  426 83 50
+      2633  328 83 50
+      2631  568 175
+      2631  256 176
+      2633  310 177
+      2633  504 176
+      2623  -14 207
+      2623  -44 115 50
+      2624  51 195
+      2624  49 90 40
+      2101  180 242
+      32782  86 217
+      32782  -23 235
+      2648  85 258 -10
+      2649  119 252 -10
+      2650  177 243 -10
+      226  331 300
+      2670  14 259 -10
+      2105  66 256
+      7900  572 183
+      7900  229 183
+      226  407 168
+      3  233 175
+      3  131 192
+      3  87 200
+      2642  172 177
+      2641  172 101
+   end
+   objects
+      object simpleDoor96003-0 of SimpleDoor
+         properties
+            x	404
+            y	179
+            loop	2
+            link	plankdoor95001-0
+         end
+         base entry
+            room	6912
+         end
+         base openable
+            isOpen	0
+         end
+      end
+      object chair6913-1 of Chair
+         properties
+            x	128
+            y	223
+            loop	0
+         end
+      end
+      object torch6913-2 of Torch
+         properties
+            x	340
+            y	179
+            loop	0
+         end
+         base described
+            text	"You see a torch burning brightly."
+         end
+      end
+      object torch6913-3 of Torch
+         properties
+            x	470
+            y	182
+            loop	1
+         end
+         base described
+            text	"You see a torch burning brightly."
+         end
+      end
+      object chair6913-4 of Chair
+         properties
+            x	27
+            y	280
+            loop	0
+         end
+      end
+   end
+end
+#--------------------------------------------------------
+room 96004
+   properties
+      picture	4000
+      roomName	"War Ready Interior"
+   end
+   atpinfo
+      34917  473 276 13
+      2108  419 274
+      2001  590 36
+      2013  492 36
+      2001  398 36
+      2013  125 9
+      2002  311 46 10
+      2001  220 10
+      2014  39 36
+      34917  362 292 13
+      2147  -48 385
+      34915  724 369
+      2148  -40 423
+      2149  -38 394
+      2153  -32 326
+      2164  148 68
+      2164  509 99
+      2164  18 90
+      34916  363 292 -13
+      2042  183 124
+      2042  373 154
+      2147  298 297 50
+      2153  440 275 40
+      2108  310 290
+      34916  460 275 -13
+      2103  542 265
+   end
+   objects
+      object simpleDoor96004-0 of SimpleDoor
+         properties
+            x	308
+            y	188
+            loop	1
+            linkTo	plankDoor95003-0
+         end
+         base openable
+            isOpen	0
+         end
+      end
+      object Peter6503-1 of WarriorAcademy
+         properties
+            x	546
+            y	247
+            name	"Peter"
+            loop	1
+         end
+         base character
+            sex	0
+            properName	"Peter (NPC)"
+         end
+         base container
+            worn	BlackBelt
+            worn	BlueCowl
+            worn	BlackBoots
+            worn	PurplePants
+            worn	PurpleShirt
+            head	0 1 0 1 2 2 15 8 2 4 8 0 
+         end
+      end
+   end
+end
+#--------------------------------------------------------
+room 96002
+   properties
+      picture	4000
+      roomName	"K.J. Weaponry Interior"
+   end
+   atpinfo
+      2025  181 8
+      2025  386 21
+      34989  76 170
+      2101  266 181
+      2026  492 30
+      2109  230 283
+      2119  239 285 33
+      34888  483 284 58
+      2119  239 285 4
+      2139  198 181 44
+      2117  415 89
+      2103  345 337 -90
+      2103  474 283
+      2001  598 44 20
+      2001  285 13
+      2043  144 98 -20
+      2042  250 105 -20
+      2546  180 103
+      2545  303 115
+      2546  424 116
+      2043  388 111 -20
+   end
+   objects
+      object door96002-0 of Door
+         properties
+            x	598
+            y	189
+            loop	1
+            linkTo	door95002-0
+         end
+         base openable
+            isOpen	0
+         end
+      end
+      object firePlace96002-1 of FirePlace
+         properties
+            x	29
+            y	186
+            loop	1
+         end
+      end
+      object exoticWeaponArmorShop96002-2 of ExoticArmaments
+         properties
+            x	219
+            y	169
+            loop	0
+         end
+         base character
+            sex	1
+            properName	"K.J. (NPC)"
+         end
+         base container
+            worn	BlackBoots
+            worn	GreenShirt
+            worn	GreenBelt
+            worn	BlackPants
+            object	Goldband
+            object	LongSword
+            object	RoundShield
+            head	1 1 3 4 0 4 0 0 6 1 1 0 
+         end
+      end
+   end
+end
+#--------------------------------------------------------
+#--------------------------------------------------------
+#--------------------------------------------------------
+#--------------------------------------------------------
+room 96000
+   properties
+      picture	4000
+      roomName	"Magical Academy Interior"
+   end
+   atpinfo
+      2118  261 385
+      2102  461 211
+      2117  142 101
+      2103  345 215
+      2020  172 28
+      2028  242 6
+      2029  346 49
+      2028  421 8
+      2008  484 40
+      34904  702 378
+      2111  559 144
+      2112  328 108
+      2163  217 52
+      2163  449 52
+      2041  24 120 -20
+      2544  36 124
+      2042  528 95 -20
+      2545  581 105
+      2148  -131 303
+      2125  347 217 65
+      34911  607 145 14
+      2130  331 109 20
+      2101  179 284
+      2161  141 55
+      2142  111 290 50
+   end
+   objects
+      object door96000-0 of Door
+         properties
+            x	146
+            y	206
+            loop	0
+            linkTo	simpleDoor95000-0
+         end
+         base openable
+            isOpen	0
+         end
+      end
+      object Millie96000-1 of MagicShop
+         properties
+            x	473
+            y	205
+            loop	1
+            name	"Eugenie"
+         end
+         base character
+            sex	0
+            properName	"Geezer (NPC)"
+         end
+         base container
+            head	0 0 3 3 1 4 9 1 2 1 1 4 
+			worn BlackCowl
+			worn RedShirt
+			worn BlackBelt
+         end
+      end
+	  object wizardAcademy30464-2 of WizardAcademy
+         properties
+            x	320
+            y	207
+            loop	2
+			name	"Kris"
+            girth	100
+            height	100
+         end
+         base character
+            sex	1
+            properName	"Kris (NPC)"
+         end
+		 base container
+            head	1 1 0 7 0 0 -1 4 6 0 4 0
+            worn	GoldLowBoots
+            worn	YellowShortSkirt
+            worn	RedBelt
+            worn	YellowShirt
+         end
+      end
+   end
+end
+#--------------------------------------------------------
+room 96001
+   properties
+      picture	4000
+      east	90018
+      roomName	"Lost Tavern Bar"
+   end
+   atpinfo
+      2312  170 278 175
+      2127  287 128 150
+      2312  332 290 175
+      2101  548 223 -40
+      2101  313 202 -50
+      2330  310 291 200
+      2105  525 190 -60
+      2103  409 282
+      2340  633 96 -80
+      2330  598 290 200
+      3  602 259
+      2310  454 210
+      2338  -41 113 -90
+      2310  331 289
+      2338  -36 56 -90
+      2310  167 230
+      2310  619 272
+      2103  431 184 -70
+      3  629 249
+      2312  458 276 175
+      2105  310 211 -60
+      2312  627 296 180
+      2312  46 290 175
+      2338  57 101 -90
+      2340  523 97 -80
+      2340  202 99 -80
+      3  136 174
+      2340  306 99 -80
+      2340  410 98 -80
+      2338  61 11 -90
+      2330  186 303 200
+      2330  -103 302 200
+      2330  22 291 200
+      3  59 182
+      3  626 262
+      2310  42 287
+      2330  473 304 200
+      2330  762 303 200
+      3  167 229
+      3  181 221
+      3  152 220
+      3  56 273
+      3  46 280
+      3  23 280
+      3  324 283
+      3  343 283
+      3  314 283
+      7901  448 134 -50
+      7901  268 133 -50
+      7901  597 137 -50
+      32782  -6 187 -20
+      7906  273 269
+      7906  392 277
+      7906  513 260
+      7906  538 220
+      7906  323 281
+      7906  391 281
+      7906  454 282
+      7906  575 270
+      3  261 271
+      7901  125 134 -50
+      3  520 273
+   end
+   objects
+      object bartender96001-0 of Bartender
+         properties
+            x	374
+            y	261
+            loop	2
+         end
+         base character
+            properName	"Caleb (NPC)"
+            title	""
+			sex 0
+         end
+		 base container
+            head	0 0 4 4 2 3 11 2 8 2 1 4 
+			worn BlueShirt
+			worn BlackBelt
+         end
+      end
+      object bartender96001-2 of Bartender
+         properties
+            x	461
+            y	261
+            loop	2
+         end
+         base character
+            properName	"Toni (NPC)"
+            title	""
+			sex 0
+         end
+		 base container
+            head	0 0 2 1 4 2 7 1 4 1 1 4 
+			worn BlackShirt
+			worn BlackBelt
+         end
+      end
+   end
+end
+#-----------------------------------------------------
+room 95025
+   properties
+      picture	3500
+      north	95002  
+      east	95010  
+      roomName	"Achren General"
+   end
+   atpinfo
+      2501  358 70
+      2502  310 77
+      2501  232 50
+      2953  578 227
+      2514  516 73
+      2602  278 78 10
+      2601  406 134 48
+      2852  503 74
+      2717  549 235
+      2592  448 176
+      35485  618 226
+      2717  590 253
+      2513  456 71
+      2513  569 55
+      2853  485 76
+      2852  617 57
+      2751  378 236
+      2752  380 181
+      2754  381 131
+      2755  408 236
+      2756  406 182
+      2758  405 131
+      2751  175 158
+      2752  179 106
+      2754  178 206
+      2586  473 194
+      2244  426 246
+      2593  232 159
+      2241  267 234
+      32784  399 261
+      14  299 252
+      1585  714 172
+      2587  243 178
+      2953  -7 312
+      2717  222 225
+      2717  492 238
+      2717  174 218
+      23  583 278
+      32793  38 304
+      2711  152 200
+   end
+   objects
+      object plankDoor95025-0 of PlankDoor
+         properties
+            x	333
+            y	231
+            loop	1
+			link	plankDoor96025-3
+         end
+         base openable
+            isOpen	0
+         end
+      end
+   end
+end
+room 96025
+   properties
+      picture	4000
+      roomName	"Achren General Interior"
+   end
+   atpinfo
+      2013  40 1
+      2025  143 1 8
+      2026  232 5
+      2026  338 3
+      2026  461 3
+      2026  585 3
+      2109  280 164
+      2103  533 213
+      2241  621 323
+      2241  582 333
+      2241  583 312
+      2241  629 204
+      2112  234 231
+      2244  143 167
+      2112  331 231
+      2241  115 160
+      2116  507 87
+      2160  291 231 18
+      2112  279 60
+      2124  281 182 21
+      2163  534 61
+      2163  493 76
+      2163  117 72
+      2163  575 76
+      2107  59 299
+      2136  10 315
+      2145  19 301 50
+      2122  282 167 66
+      2159  278 167 36
+      2128  279 65 24
+      7903  285 178
+      32784  -11 338
+   end
+   objects
+      object chair6801-1 of Chair
+         properties
+            x	532
+            y	176
+            loop	2
+         end
+      end
+      object Tallie6801-2 of GeneralShop
+         properties
+            x	533
+            y	196
+            loop	2
+            name	"Tallie"
+         end
+         base character
+            sex	1
+            properName	"Kiki (NPC)"
+         end
+         base container
+            worn	OrangeShirt
+            worn	OrangeLongSkirt
+            worn	OrangeBelt
+            worn	OrangeBoots
+            head	1 2 2 7 0 7 0 0 2 1 13 4
+         end
+      end
+      object plankDoor96025-3 of PlankDoor
+         properties
+            x	38
+            y	168
+            loop	0
+            link	plankDoor95025-0
+         end
+      end
+   end
+end
+#---------------------------------------------
+room 95020
+   properties
+      picture	3500
+      north	95021 
+      south	95001 30 76 
+      roomName	"Achren Thief Academy"
+   end
+   atpinfo
+      2713  633 97
+      2718  -1 327
+      2749  525 7 -99
+      2535  705 334
+      2535  705 219 20
+      2718  5 243
+      2712  473 176
+      35480  10 69
+      2718  -5 406
+      2718  643 278
+      35486  649 387
+      2717  486 199
+      2717  249 381
+      2717  621 309
+      35485  587 192
+      2717  445 191
+      2718  4 146
+      2956  611 318
+      2956  533 185
+      2501  362 6
+      2525  464 13
+      2525  574 13
+      2526  518 18
+      2701  272 176 109
+      2602  403 20
+      2605  499 26
+      2605  623 28
+      2956  584 195
+      2953  328 5 -99
+      2954  563 194
+      7908  647 322
+      2555  512 121
+      2549  513 124
+	  2749  211 3 -99
+   end
+   objects
+      object simpleDoor5059-0 of SimpleDoor
+         properties
+            x	353
+            y	170
+            loop	1
+			link	simpleDoor96020-0
+         end
+         base openable
+            isOpen	0
+         end
+      end
+   end
+end
+room 96020
+   properties
+      picture	4000
+      roomName	"Thief Academy Interior"
+   end
+   atpinfo
+      2107  122 169
+      2108  284 175
+      2001  593 35
+      2013  496 36
+      2001  400 27 -10
+      2013  126 9
+      2002  313 37
+      2001  222 10
+      2014  33 35
+      2147  -34 409
+      34915  625 402
+      2148  72 170 15
+      34917  334 176 -15
+      2149  -38 357
+      2153  -32 326
+      2164  140 78
+      2164  19 98
+      34916  336 176 13
+      2153  186 267 40
+      2599  183 266
+      2165  421 110
+      2041  50 124
+      2042  215 118
+      2042  320 133 -3
+      2544  61 129 20
+      2545  267 122 15
+      2545  372 142 15
+      2104  45 220
+   end
+   objects
+      object simpleDoor96020-0 of SimpleDoor
+         properties
+            x	590
+            y	200
+            loop	1
+            linkTo	simpleDoor95020-0
+         end
+         base openable
+            isOpen	0
+         end
+      end
+      object chair6059-1 of Chair
+         properties
+            x	134
+            y	248
+            loop	0
+         end
+      end
+      object stool6059-2 of Stool
+         properties
+            x	202
+            y	181
+            loop	0
+         end
+      end
+      object chair6059-3 of Chair
+         properties
+            x	240
+            y	256
+            loop	1
+         end
+      end
+      object Keith6059-4 of ThiefAcademy
+         properties
+            x	8
+            y	193
+            name	"Toby"
+            loop	0
+         end
+         base character
+            sex	0
+            properName	"Toby (NPC)"
+         end
+         base container
+            worn	WhiteRobe
+            worn	GreenCowl
+            worn	BlackBelt
+            worn	BlackBoots
+            head        0 1 1 3 7 2 0 1 4 4 8 2 
+         end
+      end
+   end
+end
+#---------------------------------------------------
+room 95021
+   properties
+      picture	3500
+      south	95020
+      flags	2
+      roomName	"Achren Weaponry"
+   end
+   atpinfo
+      2525  90 82
+      2526  197 88
+      2525  545 79
+      2526  325 86
+      2526  450 86
+      2617  90 69
+      35385  208 69
+      2617  339 70
+      35385  458 70
+      2617  551 70
+      2631  93 92
+      2633  238 92
+      2634  552 94
+      2633  368 92
+      2633  433 93
+      2582  207 195
+      2582  138 195
+      2582  67 195
+      2710  384 125
+      60  618 231
+      2717  441 248
+      35559  418 170
+      2803  413 179 23
+      2717  187 253
+      2953  571 236
+      2718  15 251
+      2955  106 258
+      35723  532 237
+      2954  52 252
+      2594  221 210 29
+      2594  151 211 29
+      2594  80 211 29
+      32792  135 257
+      7907  425 254
+      7907  540 261
+      7907  629 267
+   end
+   objects
+      object simpleDoor95021-0 of SimpleDoor
+         properties
+            x	318
+            y	245
+            loop	2
+			link	simpleDoor96021-3
+         end
+         base openable
+            isOpen	0
+         end
+      end
+   end
+end
+room 96021
+   properties
+      picture	4000
+      roomName	"Achren Weaponry Interior"
+   end
+   atpinfo
+      2025  183 2
+      2025  389 16
+      34989  49 172
+      2013  81 8
+      2026  477 25
+      2166  474 77
+      2109  429 183
+      2119  433 184 63
+      2120  428 183
+      2109  141 291
+      2109  280 291
+      2119  142 292 5
+      34888  283 292 60
+      2121  140 292 34
+      2121  289 292 4
+      2108  599 182
+      2001  287 7
+      2001  591 41 20
+      34907  652 183 -15
+      34905  650 183 13
+      2081  619 97 -20
+      2082  385 84 -20
+      2082  182 96 -10
+      2106  181 185
+      2594  161 103
+      2594  364 101
+      2593  582 111
+   end
+   objects
+      object firePlace8100-1 of FirePlace
+         properties
+            x	2
+            y	188
+            loop	1
+         end
+      end
+      object exoticWeaponArmorShop8100-2 of RareWeaponArmorShop
+         properties
+            x	182
+            y	166
+            loop	2
+            name	"Munkee"
+         end
+         base character
+            sex	0
+            properName	"Munkee (NPC)"
+         end
+         base container
+            worn	BlueChainTunic
+            worn	BluePants
+            worn	RedBoots
+            worn	GreenBelt
+            object	Goldband
+            object	LongSword
+            object	RoundShield
+            head	0 2 6 2 6 4 5 1 3 7 3 2
+         end
+      end
+      object simpleDoor96021-3 of SimpleDoor
+         properties
+            x	279
+            y	171
+            loop	1
+            link	simpleDoor95021-0
+         end
+      end
+   end
+end
+#---------------------------------------

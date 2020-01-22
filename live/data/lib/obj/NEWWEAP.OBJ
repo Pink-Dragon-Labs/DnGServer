@@ -1,0 +1,30 @@
+object mwExcalibur of TwoHandSword
+	properties
+		special
+		name "Excalibur"
+		value 20000
+		health 800
+		color 175
+		level 50
+	end
+
+	base carryable
+		weight 30.0
+	end
+
+	base weapon
+		minDamage 40
+		maxDamage 70
+	end
+
+	actions
+		vBePutOn setAffect dobj 56 0 0 -1		# Attack
+		vBeTakenOff clearAffect dobj 56 0 0
+	end
+
+	base described
+		text "You see a huge two-handed sword with a strange glow."
+		idText "This is legendary Excalibur, a dangerous weapon for a beginner.  Level Required: 50"
+		shopText "Here is the legendary Excalibur, a dangerous weapon for a beginner."
+	end
+end

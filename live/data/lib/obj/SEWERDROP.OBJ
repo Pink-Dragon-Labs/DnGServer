@@ -1,0 +1,282 @@
+#----------------Sewer TT    2.7 percent chance 
+object Mabongear of MoneyBag
+        properties
+        special
+            random 100
+        end
+
+        base treasure
+			MabonPantsA
+			MabonPantsB
+			MabonPantsC
+			MabonPantsD
+			MabonShirtA
+			MabonShirtB
+			MabonShirtC
+			MabonShirtD
+			MabonShoesA
+			MabonShoesB
+			MabonShoesC
+			MabonShoesD
+			MabonCowlA
+			MabonCowlB
+			MabonCowlC
+			MabonCowlD
+			HoodMabonA
+			HoodMabonB
+			HoodMabonC
+			HoodMabonD
+			MabonRobeA
+			MabonRobeB
+			MabonRobeC
+			MabonRobeD
+			MabonSkirtA
+			MabonSkirtB
+			MabonSkirtC
+			MabonSkirtD
+			MabonBracersA
+			MabonBracersB
+			MabonBracersC
+			MabonBracersD
+			MabonsShield
+			MabonBaldricA
+			MabonBaldricB
+			MabonBaldricC
+			MabonBaldricD
+        end
+end
+#----------------------------------------------7.14 percent chance
+object Sewerdrop1 of MoneyBag
+        properties
+        special
+            random 100
+        end
+
+        base treasure
+                mwAxeOfDesolation
+                mwMaceOfCreation
+				mwMagesBlade
+				mwRavager
+				mwRetribution
+				mwDevastation
+                mwClawOfDestruction
+                mwJustice
+				maHopliteF
+				maHopliteM
+				mwKnuckles
+				mwGuillotine
+				mwVengeance
+				mwSapper
+				mwMighty
+				mwMighty
+				maThorsPlate
+				mwDespothes
+				mwCretin
+				spbDespothesWrath
+				mwBardiche
+				spbImmolationCold
+				spbImmolationLightning
+				spbSummonDragon
+				RandomCoppers
+				spbEtheralize
+				spbAcidCloud
+				spbElphamesJustice
+        end
+end
+#----------------------------------------------3.125 percent chance
+object Sewerdrop2 of MoneyBag
+        properties
+        special
+                random 100
+        end
+
+        base treasure
+				MoneyBag 50000 65000
+				MoneyBag 60000 75000
+				MoneyBag 50000 65000
+                maTruthGreaves
+                maPlateOfResolution
+                maGauntlets
+                maBesCowl
+                bGladiatorBelt
+                maWarriorsSabatons
+                maAdvChausses
+                maCuirassOfAggression
+                maGuardOfVambrace
+                maBevorOfIntrigue
+                bTravellersGirdle
+                maSolleretsOfAcceleration
+                maBishopPants
+                maBishopShirt
+                maMagesWristbrace
+                maArchMageCowl
+                bArcaneBelt
+                maShoesOfPower
+                maSwindlerHose
+                maSwindlerShirt
+                maWristwraps
+                maBanditScarf
+                bThievesTools
+                maSlippersOfEngagement
+                MagicalKnapsack
+                DungeonDweller
+                ArenaShield
+				ThiefBuckler
+                ArcaneShield
+        end
+end
+#-------------------------------------------6.67 percent chance
+object Sewerdrop3 of MoneyBag
+        properties
+        special
+                random 100
+        end
+
+        base treasure
+				MoneyBag 50000 65000
+				MoneyBag 60000 75000
+				MoneyBag 70000 85000
+				MoneyBag 80000 95000
+				MoneyBag 50000 65000
+                rConjuration
+                rGlory
+                rQuickness
+                rSmashing
+				MysticismWardRingII
+                aConcentrate
+                aAdventure
+                aWar
+                aSneak
+				aOffense
+				rDestruction
+				rMighty
+				Totem
+				ThistlebarkA
+				sInvulReverseChestProc
+				sShiftReverseHelmProc
+				sHealReverseChestProc
+        end
+end
+#-----------------------------------------------14.28 percent chance
+object Sewerdrop4 of MoneyBag
+        properties
+        special
+                random 100
+        end
+
+        base treasure
+				MoneyBag 50000 65000
+				MoneyBag 60000 75000
+				MoneyBag 50000 65000
+                SorcererHelm
+                GladiatorHelm
+                AdvHelmet
+                BanditMask
+				mwCrusher
+				mwPuncture
+				mwLightning
+				mwDeathWish
+				mwRepel 
+				mwHate
+				rBerserk
+				rInvisibility
+				rShifting
+        end
+end
+#-------------------------------------------------5.88 percent chance
+object Sewerdrop5 of RandomRareMegaTreasure
+	properties
+		random 100
+		special
+	end
+	base treasure
+		MagicalKnapsack
+		rDuach
+		rEnid
+		rDespothes
+		sDuach
+		sEnid
+		sDespothes
+		rCDuach
+		rCEnid
+		rCDespothes
+		rMysticalFStr
+		rMysticalFDex
+		rMysticalFEnd
+		rMysticalFInt
+		rMysticalMStr
+		rMysticalMDex
+		rMysticalMInt
+		rMysticalMEnd
+	end
+end
+#-----------------------------------------7.14 percent chance
+object Sewerdrop6 of MoneyBag
+	properties
+	special
+		random 100
+	end
+	
+	base treasure
+	MageHat
+	BerserkHelmet
+	KhanHelmet
+	maFinvarrasBands
+	maFinvarrasTreads
+	HuntressHelmet
+	maFinvarrasCollar
+	maBanditGreaves
+	PredatorHelmet
+	ConquererHelmet
+	maBanditBrig
+	ShiftHood
+	maBanditGauntlets
+	maReinforcedScarf
+	maBanditBoots
+	maEnidGuards
+	maEnidsNecklace
+	end
+end
+#-------------------------------11.11 percent chance
+object Sewerdrop7 of MoneyBag
+        properties
+        special
+            random 100
+        end
+
+        base treasure
+			MoneyBag 50000 65000
+			MoneyBag 60000 75000
+			MoneyBag 50000 65000
+			YorkBaldric
+			AchrenBaldric
+			ProtectionBaldric
+			AvoidanceBaldric
+			CrucibleBaldric
+			GeneralBaldric
+			DungeonDweller
+			ShieldWall
+			Parma
+			Barricade
+        end
+end
+#-------------------------------------12.5 percent chance
+object Sewerdrop8 of MoneyBag
+	properties
+	special
+		random 100
+	end
+	
+	base treasure
+	Sewerdrop6
+	Sewerdrop5
+	Sewerdrop5
+	Sewerdrop1	
+	Sewerdrop4
+	Sewerdrop3
+	Sewerdrop2
+	Sewerdrop1
+	Mabongear
+	Sewerdrop7
+	end
+end

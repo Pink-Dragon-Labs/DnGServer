@@ -1,0 +1,334 @@
+#------------------------------------------------------------
+#------------------------Bandit Weapons----------------------
+#------------------------------------------------------------
+object BanditSword of TwoHandSword
+	properties
+	special
+		name "Bandit's Blade"
+		value 0
+		health 1000
+		strength 5		
+		color 122               # Darkest Pharlap
+		affect 10 0 0 -1        # Life-Steal
+		affect 3 0 0 -1		    # Lightning Damage
+	end
+
+	base carryable
+		weight 5
+	end
+
+	base weapon
+		minDamage 1600
+		maxDamage 2000
+		mask warrior
+		mask adventurer
+		mask wizard
+		mask thief
+	end
+
+	base described
+		text "A old rusty sword."
+		idText "\nLevel Required: 1001\n"
+		shopText "What the hell.."
+	end
+end
+#------------------------------------------------------------
+object BanditLongSword of LongSword
+	properties
+	special
+		name "Bandit Long Sword"
+		value 0
+		health 2000
+		color 122               # Darkest Pharlap
+		strength 5
+        affect 10 0 0 -1        # Life-Steal
+		affect 3 0 0 -1		    # Lightning Damage
+	end
+
+	base described
+		text "A rusty sword."
+		idText "\n Level Required 1001\n"
+		shopText "What a piece of junk.." 
+	end
+
+	base carryable
+		weight 5
+	end
+	
+	base weapon
+		minDamage 1300
+		maxDamage 1900
+		mask warrior
+		mask adventurer
+		mask wizard
+		mask thief
+	end
+end
+#------------------------------------------------------------
+object BanditDagger of ThrowingDagger
+	properties
+	special
+		name "Bandit's Thrower"
+		value 0
+		health 2000
+		color 122               # Darkest Pharlap
+		strength 5
+        affect 10 0 0 -1        # Life-Steal
+		affect 3 0 0 -1		    # Lightning Damage
+	end
+
+	base described
+		text "A rusty dagger."
+		idText "\n Level Required 1001\n"
+		shopText "What a piece of junk.." 
+	end
+
+	base carryable
+		weight 5
+	end
+	
+	base weapon
+		minDamage 1100
+		maxDamage 1300
+		mask warrior
+		mask adventurer
+		mask wizard
+		mask thief
+	end
+end
+#------------------------------------------------------------
+#------------------------Bandit Monsters---------------------
+#------------------------------------------------------------
+object BaseBandit of NPC
+	properties
+    special
+		name "Base Bandit"
+		view 100
+		alignment 127
+
+		minLevel 1900
+		maxLevel 2200
+
+		intelligence 34
+		strength 80
+		endurance 17
+		dexterity 23
+		quickness 20
+
+		soundGroup 16
+		damageType 1
+		armorType 1
+
+		girth 90
+		height 85
+
+		affect 17 0 0 -1	# See Invisible
+	end
+
+	base character        
+		skill 0 5        # grandmaster weapons
+		skill 1 5
+		skill 2 5
+		skill 3 5
+		skill 4 5
+		skill 5 5
+		skill 6 5
+		skill 7 5
+		skill 8 5
+		skill 10 5
+		skill 9 5	    # grandmaster dodger
+		skill 29 5  	# grandmaster critical-strike		
+		skill 30 5  	# grandmaster shield
+		skill 11 5      # grandmaster spells
+		skill 12 5
+		skill 13 5
+		skill 14 5
+		skill 15 5
+	end
+
+	actions
+		vBeBorn changeSpellResistance self 80 2      # 80% Myst Resist
+        vBeBorn changeSDM self 200 0 1 3 4           # 200% SDM Boost
+        vBeBorn changeSDM self 25 2                  # 25% Myst Boost
+	end
+
+	base described
+		text "A Bandit. Their tricks learned in a far away land.\n\n80% Myst Resistance\n\n"
+	end
+end
+#------------------------------------------------------------
+object BanditMystic of BaseBandit
+	properties
+    special
+		name "Bandit Mystic"
+		intelligence 45
+		strength 80
+		endurance 20
+		dexterity 23
+		quickness 20
+
+	end
+
+	base character
+		sex 1
+	end
+
+	base container
+		head 1 0 0 4 0 0 0 2 9 0 12 0                 # Change Later
+		worn BanditBandanna
+		worn BanditShirt
+		worn BanditLowBoots
+		worn bFinvarra
+		worn BanditDagger
+		worn ObsidianiteRoundShield
+		worn aCombat
+		worn maFinvarraBracers
+		worn maFinvarraCowl
+		worn BanditPants
+		worn FinvarraPack
+		object RandomRareGlowDye
+		object RandomNewGear
+        object RandomNoviceGear
+	end
+
+    base npc
+		code bmystic
+	end
+
+	base described
+		text "A Bandit Mystic. Their magic is ancient and long since forgotten.\n\n80% Myst Resistance\n\n"
+	end
+end
+#------------------------------------------------------------
+object BanditThief of BaseBandit
+	properties
+    special
+		name "Bandit"
+		view 100
+		intelligence 34
+		strength 85
+		endurance 22
+		dexterity 23
+		quickness 20
+	end
+
+    base container
+		head 0 1 1 1 1 0 7 0 4 3 0 0                 # Change Later
+		worn BanditBandanna
+		worn BanditShirt
+		worn BanditLowBoots
+		worn bFinvarra
+		worn BanditDagger
+		worn ObsidianiteRoundShield
+		worn aCombat
+		worn maFinvarraBracers
+		worn maFinvarraCowl
+		worn BanditPants
+		worn FinvarraPack
+		object RandomRareGlowDye
+		object RandomNewGear
+        object RandomNoviceGear
+	end
+
+    base npc
+		code bandit
+	end
+
+	base described
+		text "A Bandit. Their tricks learned in a far away land.\n\n80% Myst Resistance\n\n"
+	end
+end
+#------------------------------------------------------------
+object HiddenBandit of BaseBandit
+	properties
+    special
+		name "Sneaking Bandit"
+		view 100
+		intelligence 34
+		strength 40
+		endurance 23
+		dexterity 23
+		quickness 20
+	end
+
+    base container
+		head 0 1 1 1 1 0 7 0 4 3 0 0                 # Change Later
+		worn ThiefMask
+		worn BanditShirt
+		worn BanditLowBoots
+		worn bFinvarra
+		worn BanditLongSword
+		worn ArenaShield
+		worn aCombat
+		worn maFinvarraBracers
+		worn maFinvarraCowl
+		worn BanditPants
+		worn FinvarraPack
+		object RandomRareGlowDye
+		object RandomNewGear
+        object RandomNoviceGear
+	end
+
+    base npc
+		code thief
+	end
+
+	base described
+		text "A Sneaking Bandit. Their stealth is only rivaled by their deadliness.\n\n80% Myst Resistance\n\n"
+	end
+end
+#------------------------------------------------------------
+object BanditHitter of BaseBandit
+	properties
+    special
+		name "Swashbuckler"
+		view 100
+		intelligence 34
+		strength 85
+		endurance 24
+		dexterity 20
+		quickness 20
+		girth 90
+		height 90
+	end
+
+    base container
+		head 0 1 1 1 1 0 7 0 4 3 0 0                 # Change Later
+		worn BanditBandanna
+		worn BanditShirt
+		worn BanditHighBoots
+		worn bFinvarra
+		worn BanditSword
+		worn aCombat
+		worn maFinvarraBracers
+		worn maFinvarraCowl
+		worn BanditPants
+		worn FinvarraPack
+		object RandomRareGlowDye
+		object RandomNewGear
+        object RandomNoviceGear
+	end
+
+    base npc
+		code swashbuckler
+	end
+
+	base described
+		text "A Swashbuckler. The most ruthless of the Bandit clan.\n\n80% Myst Resistance\n\n"
+	end
+end
+#------------------------------------------------------------
+object RandomBandit of NPC
+	properties
+		special
+		random 100
+	end
+
+	base treasure
+		BanditHitter
+		HiddenBandit
+		BanditThief
+		BanditMystic
+	end
+end
+#------------------------------------------------------------

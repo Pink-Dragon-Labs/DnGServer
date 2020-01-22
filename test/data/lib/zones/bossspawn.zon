@@ -1,0 +1,18 @@
+name "bossspawn"
+title "Boss Spawn"
+worldFile "../data/lib/world/bossspawn.wld"
+resetInterval 9000000
+maximumObjectAge 0 
+#don't set allowcombat 0, code avoids zones that don't allow combat
+allowCombat 11
+
+monster WorldBoss 5
+monster GreenTraveller 5
+monster RedTraveller 5
+monster WorldBoss2 5
+
+
+monsterGroup 1 1 RaidBoss 1 RaidBossPet 1 RaidBossPet2 
+monsterGroup 1 1 WorldBoss2 1 WorldBoss2 1 WorldBoss2 
+monsterGroup 1 1 WorldBoss 1 WorldBoss1 1 WorldBoss 
+

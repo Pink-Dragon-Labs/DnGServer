@@ -1,0 +1,24 @@
+# Magical Wizard Gauntlet
+object maWizardGauntlet of Claw
+        properties
+                name "Magical Gauntlet"
+                value 3000
+                health 300
+                color 98
+                strength 1
+        end
+
+        base described
+                text "You see a Magical Gauntlet."
+                shopText "This claw will aid your bare hand combat."
+        end
+
+        base carryable
+                weight 3.5
+        end
+
+        base weapon
+                minDamage 60
+                maxDamage 120
+        end
+end

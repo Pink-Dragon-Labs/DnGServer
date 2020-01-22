@@ -1,0 +1,1585 @@
+object wBossTable of MoneyBag
+	properties
+	special
+		random 100
+	end
+
+	base treasure
+		MoneyBag 1000000 3000000
+		spbDuachsVengeance
+		spbCrawlingCharge
+		spbDespothesWrath
+		spbSummonDragon
+		maElphamesBands
+		maElphamesShoes
+		maElphamesCowl
+		maElphamesShirt
+		maElphamesHose
+		maEnidGuards
+		maEnidsNecklace
+		maBanditGreaves
+		maBanditBrig
+		maBanditGauntlets
+		maReinforcedScarf
+		maBanditBoots
+		maFinvarrasCuirass
+		maFinvarrasGreaves
+		maFinvarrasBands
+		maFinvarrasTreads
+		maFinvarrasCollar
+		maThorsPlate
+		mwElvenClub
+		mwGnasher
+		mwDeath
+		mwNeedle
+		mwFalchion
+		mwDeathWish
+		mwRepel
+		bWarrior
+		bAdventurer
+		bThief
+		bWizard
+		mwAgony
+		mwHate
+		mwPuncture
+		mwWand
+		mwPowerFist
+		baExperience
+		MysticismWardRingI
+		MysticismWardRingII
+		rEnid
+		rDuach
+		rDespothes
+		tSash
+		Totem
+		rMighty
+		mwDespothes
+		mwBardiche
+		ShieldWall
+		Parma
+		Barricade
+		maKhnum
+		spbEtheralize
+		spbAcidCloud
+		spbElphamesJustice
+		ThistlebarkA
+		sEQForwardWeaponProc
+		sSparkForwardWeaponProc
+		sLDForwardWeaponProc
+		sCleaveForwardWeaponProc
+		sFOForwardWeaponProc
+		sIOForwardWeaponProc
+	end
+end
+
+object nLGM of NPC
+	properties
+		special
+		name "Lost Giant Midget"
+		view 100
+		alignment 0
+		clutStart -1
+		color -1
+
+		minLevel 900
+		maxLevel 1300
+		minDamage 600
+		maxDamage 900
+
+		strength 200
+		endurance 10
+		intelligence 15
+		dexterity 20
+
+		# do normal damage
+		affect 0 0 0 -1
+
+		soundGroup 13
+		damageType 2
+		armorType 1
+		range 3
+		quickness 8
+		  
+
+		girth 60
+		height 60
+	end
+
+	base container
+		head 0 0 2 0 0 0 0 31 2 0 0 0
+		worn WhiteBaldric
+		worn maDensePlate
+		worn maDenseGreaves
+		worn maDenseCowl
+		worn EvilHighBoots
+		worn maDenseBands
+		worn bFinvarra
+		worn mwGiantsMaul
+		worn aCombat
+		object RandomRareHelmet
+		object RandomRareGlowDye
+		object RandomSemiRareMagicHelm
+		object RandomMegaMoney
+	end
+
+	base character
+		## grand master weapons
+		skill 0 5
+		skill 1 5
+		skill 2 5
+		skill 3 5
+		skill 4 5
+		skill 5 5
+		skill 6 5
+		skill 7 5
+		skill 8 5
+		skill 10 5
+
+		skill 9 0
+	end
+
+	actions
+	end
+
+	base described
+		text "You see a Lost Giant Midget, jokes are not appropriate.\n\n"
+	end
+end
+
+object nDragonWizA of Dragon
+	properties
+		special
+		name "Lost Dragon"
+		view 42200
+		alignment 0
+		#clutStart -1
+		color -1
+
+		minLevel 900
+		maxLevel 1200
+		minDamage 800
+		maxDamage 1100
+
+		strength 20
+		endurance 10
+		intelligence 35
+		dexterity 20
+
+		# do fire damage
+		affect 1 0 0 -1
+
+		soundGroup 13
+		damageType 2
+		armorType 1
+		range 2
+		quickness 8
+		  
+
+		girth 130
+		height 130
+	end
+
+	base container
+		object RandomStatBoots
+		object RandomRareGlowDye
+		object RandomRareHelmet
+		object RandomMegaMoney
+	end
+
+	base character
+		skill 0 5
+		skill 1 5
+		skill 2 5
+		skill 3 5
+		skill 4 5
+		skill 5 5
+		skill 6 5
+		skill 7 5
+		skill 8 5
+		skill 10 5
+		## grand master wiz
+		skill 11 5
+		skill 12 5
+		skill 13 5
+		skill 14 5
+		skill 15 5
+		skill 28 5
+		skill 29 5
+	end
+
+	actions
+		vBeBorn changeSpellResistance self 50 2	#100% Resist Myst
+	end
+
+	
+	base npc
+		code NeutralWizard
+	end
+	
+	base described
+		text "You see a Lost Dragon, maybe it's friendly ?\n 50% Myst Resistance.\n"
+	end
+end
+
+object nDragonWizB of Dragon
+	properties
+		special
+		name "Lost Dragon"
+		view 42200
+		alignment 0
+		#clutStart -1
+		color -1
+
+		minLevel 900
+		maxLevel 1200
+		minDamage 800
+		maxDamage 1100
+
+		strength 20
+		endurance 10
+		intelligence 35
+		dexterity 20
+
+		# do fire damage
+		affect 1 0 0 -1
+
+		soundGroup 13
+		damageType 2
+		armorType 1
+		range 2
+		quickness 8
+		  
+
+		girth 100
+		height 100
+	end
+
+	base container
+		object RandomRareGlowDye
+		object RandomStatRobes
+		object RandomStatSkirts
+		object RandomRareHelmet
+		object RandomMegaMoney
+	end
+
+        base character
+                skill 0 5
+                skill 1 5
+                skill 2 5
+                skill 3 5
+                skill 4 5
+                skill 5 5
+                skill 6 5
+                skill 7 5
+                skill 8 5
+                skill 10 5
+                ## grand master wiz
+                skill 11 5
+                skill 12 5
+                skill 13 5
+                skill 14 5
+                skill 15 5
+                skill 28 5
+                skill 29 5
+        end
+
+
+	actions
+		vBeBorn changeSpellResistance self 50 2	#100% Resist Myst
+	end
+	
+	base npc
+		code wizLight
+	end
+	
+	base described
+		text "You see a Lost Dragon, maybe it's friendly ?\n 50% Myst Resistance.\n"
+	end
+end
+
+object nDragonWizC of Dragon
+	properties
+		special
+		name "Lost Dragon"
+		view 42200
+		alignment 0
+		#clutStart -1
+		color -1
+
+		minLevel 900
+		maxLevel 1200
+		minDamage 800
+		maxDamage 1100
+
+		strength 20
+		endurance 10
+		intelligence 35
+		dexterity 20
+
+		# do fire damage
+		affect 1 0 0 -1
+
+		soundGroup 13
+		damageType 2
+		armorType 1
+		range 2
+		quickness 8
+		  
+
+		girth 70
+		height 70
+	end
+
+	base container
+		object RandomCommonGod
+		object RandomRareGlowDye
+		object RandomRareHelmet
+		object RandomMegaMoney
+	end
+
+        base character
+                skill 0 5
+                skill 1 5
+                skill 2 5
+                skill 3 5
+                skill 4 5
+                skill 5 5
+                skill 6 5
+                skill 7 5
+                skill 8 5
+                skill 10 5
+                ## grand master wiz
+                skill 11 5
+                skill 12 5
+                skill 13 5
+                skill 14 5
+                skill 15 5
+                skill 28 5
+                skill 29 5
+        end
+
+
+	actions
+		vBeBorn changeSpellResistance self 50 2	#100% Resist Myst
+	end
+	
+	base npc
+		code goodWizard
+	end
+	
+	base described
+		text "You see a Lost Dragon, maybe it's friendly ?\n 50% Myst Resistance.\n"
+	end
+end
+
+object nDragonWizD of Dragon
+	properties
+		special
+		name "Lost Dragon"
+		view 42200
+		alignment 0
+		#clutStart -1
+		color 1536
+
+		minLevel 900
+		maxLevel 1200
+		minDamage 800
+		maxDamage 1100
+
+		strength 20
+		endurance 10
+		intelligence 35
+		dexterity 20
+
+		# do fire damage
+		affect 1 0 0 -1
+
+		soundGroup 13
+		damageType 2
+		armorType 1
+		range 2
+		quickness 8
+		  
+
+		girth 40
+		height 40
+	end
+
+	base container
+		object RandomNewGear
+		object RandomRareGlowDye
+		object RandomRareHelmet
+		object RandomMegaMoney
+	end
+
+
+        base character
+                skill 0 5
+                skill 1 5
+                skill 2 5
+                skill 3 5
+                skill 4 5
+                skill 5 5
+                skill 6 5
+                skill 7 5
+                skill 8 5
+                skill 10 5
+                ## grand master wiz
+                skill 11 5
+                skill 12 5
+                skill 13 5
+                skill 14 5
+                skill 15 5
+                skill 28 5
+                skill 29 5
+        end
+
+
+	actions
+		vBeBorn changeSpellResistance self 50 2	#100% Resist Myst
+	end
+	
+	base npc
+		code neutralWizard
+	end
+	
+	base described
+		text "You see a Lost Dragon, maybe it's friendly ?\n 50% Myst Resistance.\n"
+	end
+end
+
+object LostBabyDragon of Cobra
+	properties
+	special
+		name "Lost Baby Dragon"
+		clutStart -1
+		color 100
+
+		alignment 0
+
+		minLevel 500
+		maxLevel 1000
+
+		minDamage 150
+		maxDamage 240
+
+		# immune to fire damage
+		affect 1 2 0 -1
+
+		# weak to cold damange
+		affect 2 3 0 -1
+
+		# see invisible
+		affect 17 0 0 -1
+
+		# fire immolated
+		affect 23 0 0 -1
+	end
+	
+	base npc
+		code berserker
+	end
+
+	base described
+		text "Lost Baby Dragon -- 33% mysticism resistance, 110 - 200 melee damage.\n\n"
+	end
+
+	base container
+                object RandomNewGear
+		object RandomRareHelmet
+		object RandomMegaMoney
+	end
+end
+
+object SoldierBoss of NPC
+	properties
+	special
+		name "Lost Soldier"
+		alignment 0
+		color 1538
+		minLevel 900
+		maxLevel 1200
+		minDamage 800
+		maxDamage 1100
+
+		strength 200
+		endurance 65
+		intelligence 45
+		dexterity 40
+
+		# do fire damage
+		affect 1 0 0 -1
+
+		soundGroup 13
+		damageType 2
+		armorType 2
+		range 2
+		quickness 25
+		
+		  
+		
+		girth 180
+		height 180
+	end
+
+        base character
+                skill 0 5
+                skill 1 5
+                skill 2 5
+                skill 3 5
+                skill 4 5
+                skill 5 5
+                skill 6 5
+                skill 7 5
+                skill 8 5
+                skill 10 5
+                ## grand master wiz
+                skill 11 5
+                skill 12 5
+                skill 13 5
+                skill 14 5
+                skill 15 5
+                skill 28 5
+                skill 29 5
+        end
+
+
+	base container
+		#HeadNo. = 1-Sex, 2-SkinColor, 3-HeadNo, 4-BrowNo, 5-EyeClr, 6-EyeNo,  
+		#          7-FaceHairNo, 8-HairNo, 9-HairClr, 10-Nose, 11-Mouth, 12-Ear, 13-Race,
+		head 0 1 1 1 5 0 7 0 3 3 0 0
+		worn EvilWrist
+		worn bFinvarra
+		worn EvilChainCowl
+		worn EvilTunic
+		worn EvilPants
+		worn EvilHighBoots
+		worn mwGiantsMaul
+		worn EvilThiefMask
+		object RandomRareGlowDye
+		object RandomRareMagicHelm
+		object RandomSemiRareMagicHelm
+		object RandomRareGodSpell
+		object RandomNewGear
+	end
+	
+	base npc
+		code tulor
+	end
+end
+
+
+#-----------------------------------------
+#-----------------------------------------
+#-----------------------------------------
+#-----------------------------------------
+#-----------------------------------------
+#-----------------------------------------
+#-----------------------------------------
+#-----------------------------------------
+#-----------------------------------------
+#-----------------------------------------
+#-----------------------------------------
+#				LOST WOODS
+#-----------------------------------------
+#-----------------------------------------
+#-----------------------------------------
+#-----------------------------------------
+#-----------------------------------------
+#-----------------------------------------
+#-----------------------------------------
+#-----------------------------------------
+#-----------------------------------------
+#-----------------------------------------
+object wBossSword of TwoHandSword
+	properties
+	special
+		name "Xerxes' Blade"
+        value 0
+		health 1000
+		strength 5		
+		color 122               # Darkest Pharlap
+		affect 10 0 0 -1        # Life-Steal
+		affect 3 0 0 -1		    # Lightning Damage
+	end
+
+	base carryable
+		weight 5
+	end
+
+	base weapon
+		minDamage 1600
+		maxDamage 2000
+		mask warrior
+		mask adventurer
+		mask wizard
+		mask thief
+		range 3
+	end
+
+	base described
+		text "A old rusty sword."
+		shopText "What the hell.."
+	end
+end
+#-----------------------------------------
+object WorldBoss of NPC
+	properties
+	special
+		name "Xerxes"
+		view 100                #100
+		alignment 127
+		
+		minLevel 2000
+		maxLevel 2000
+
+		intelligence 80
+		strength 300
+		endurance 150		# 314k
+		dexterity 100
+		quickness 80
+		  
+
+
+		soundGroup 16
+		  
+		damageType 2		#Bludgeon
+		armorType 3			#Plate
+
+		caffect 0			# Cancel affect (0)
+		affect 8 0 0 -1		# do experience damage
+
+		
+		girth 100
+		height 100	
+		
+
+	end
+
+	base character
+
+		skill 11 5	# Grandmaster Sorcerer
+		skill 12 5	# Grandmaster Elementalism
+		skill 13 5	# Grandmaster Mysticism
+		skill 14 5	# Grandmaster Thaumaturgist
+		skill 15 5	# Grandmaster Necromancy
+		skill 28 5	# Grandmaster Meditation
+		skill 29 5	# Grandmaster Critical Striker
+		skill 9 5	# Grandmaster Dodger
+		skill 16 5	# Grandmaster Theurgism
+
+		# Grandmaster Weapons
+		skill 0 5
+		skill 1 5
+		skill 2 5
+		skill 3 5
+		skill 4 5
+		skill 5 5
+		skill 6 5
+		skill 7 5
+		skill 8 5
+		skill 10 5
+	end
+
+	base container
+		head 0 0 0 5 7 6 0 31 8 10 6 2
+		worn maFinvarrasGreaves
+		worn wBossBracers
+		worn wBossCowl
+		worn bFinvarra
+		worn maFinvarrasCuirass
+		worn bLatexboot
+		worn wBossSword
+		worn aCombat
+		worn AchrenBaldric
+		worn rEndurance
+		object RandomNewGear
+		object RandomNoviceGear
+		object RandomRareMagicHelm
+		object wBossTable
+		object GodHelmTable
+		object NGWeps
+		object GodScrollTable
+	end
+
+	base npc
+		code xerxes
+	end
+
+	actions
+		vBeBorn changeSpellResistance self 80 2		# 80% Myst Resist
+		vBeBorn changeSDM self 500 0 1 3 4		# Increase Overall Circle SDM
+		vBeBorn changeSDM self 50 2				# Increase Myst SDM
+	end
+
+	base described
+		text "Xerxes\n\n Destroyer of worlds. Conquerer of realms. Lord of Destruction. The gods were said to once fear him before he was locked away...\n"
+	end
+end
+#---------------------------------------------------------
+object WorldBoss2 of NPC
+	properties
+	special
+		name "Abaddon"
+		view 100                #100
+		alignment 127
+		
+		minLevel 2100
+		maxLevel 2400
+
+		intelligence 80
+		strength 350
+		endurance 175		
+		dexterity 40
+		quickness 85
+		  
+
+
+		soundGroup 16
+		  
+		damageType 2		#Bludgeon
+		armorType 3			#Plate
+
+		caffect 0			# Cancel affect (0)
+		affect 8 0 0 -1		# do experience damage
+
+		
+		girth 100
+		height 110	
+		
+	end
+
+	base character
+
+		skill 11 5	# Grandmaster Sorcerer
+		skill 12 5	# Grandmaster Elementalism
+		skill 13 5	# Grandmaster Mysticism
+		skill 14 5	# Grandmaster Thaumaturgist
+		skill 15 5	# Grandmaster Necromancy
+		skill 28 5	# Grandmaster Meditation
+		skill 29 5	# Grandmaster Critical Striker
+		skill 9 5	# Grandmaster Dodger
+		skill 16 5	# Grandmaster Theurgism
+
+		# Grandmaster Weapons
+		skill 0 5
+		skill 1 5
+		skill 2 5
+		skill 3 5
+		skill 4 5
+		skill 5 5
+		skill 6 5
+		skill 7 5
+		skill 8 5
+		skill 10 5
+
+		sex 1
+	end
+
+	base container
+		head 1 0 6 0 0 0 0 31 2 0 0 0
+		worn maFinvarrasGreaves
+		worn maEnidGuards
+		worn maEnidsNecklace
+		worn bFinvarra
+		worn maFinvarrasCuirass
+		worn maFinvarrasTreads
+		worn wBossSword
+		worn aCombat
+		worn AchrenBaldric
+		worn rEndurance
+		object RandomNewGear
+		object RandomNoviceGear
+		object RandomRareMagicHelm
+		object wBossTable
+		object GodHelmTable
+		object NGWeps
+		object GodScrollTable
+	end
+
+	base npc
+		code xerxes
+	end
+
+	actions
+		vBeBorn changeSpellResistance self 80 2		# 80% Myst Resist
+		vBeBorn changeSDM self 700 0 1 3 4		# Increase Overall Circle SDM
+		vBeBorn changeSDM self 50 2				# Increase Myst SDM
+	end
+
+	base described
+		text "Abaddon\n\n Destroyer of worlds. Conquerer of realms. Queen of Destruction. The gods were said to once fear her before she was locked away...\n"
+	end
+end
+#---------------------------------------------------------
+object CrusaderTwoHander of TwoHandSword
+	properties
+	special
+		name "Paladin Sword"
+		value 0
+		health 1000
+		strength 5		
+		color 101               # Brighter-White
+		affect 10 0 0 -1        # Life-Steal
+		affect 3 0 0 -1		# Lightning Damage
+	end
+
+	
+	base carryable
+		weight 0.5
+	end
+
+	base weapon
+		minDamage 2400
+		maxDamage 2800
+		mask warrior
+		mask adventurer
+		mask thief
+		mask wizard
+	end
+
+	
+	actions
+		vBePutOn setAffect dobj 56 0 0 -1				# Extra Attack
+		vBeTakenOff clearAffect dobj 56 0 0             #
+		vBePutOn setAffect dobj 97 0 0 -1               # White Hair
+		vBeTakenOff clearAffect dobj 97 0 0             #
+		vBePutOn changeEvilMDMMod dobj 150              # 150 Dmg Vs Evil
+		vBeTakenOff changeEvilMDMMod dobj -150          #				
+	end
+
+	
+	base described
+		text "This sword .."
+		shopText "What the hell.."
+	end
+end
+#---------------------------------------------------------
+object Crusader of NPC
+	properties
+	special
+		name "Crusader"
+		view 100
+		clutStart -1
+		color 7
+		alignment 127
+		armor 20
+
+		strength 70
+		endurance 40
+		intelligence 60
+		dexterity 24
+
+		minLevel 1600
+		maxLevel 2000
+
+		minDamage 2800
+
+		maxDamage 3200
+		soundGroup 18
+
+		damageType 1
+		armorType 3
+		  
+
+		affect 17 0 0 -1 #See Invis
+	end
+
+	base container
+		head 0 2 3 2 2 5 8 4 3 2 3 2
+		worn maDenseGreaves
+		worn CrusaderBracers
+		worn CrusaderCowl
+		worn bFinvarra
+		worn maDensePlate
+		worn bGlowboot
+		worn FinvarraPack
+		worn CrusaderTwoHander
+		worn aCombat
+		worn AmazingBaldric
+		worn rEndurance
+		worn CrusaderHelm
+		object RandomNewGear
+		object RandomNoviceGear
+		object NGGodHelmTable
+		object AncientWineTable
+	end
+	base character
+		title "A holy Crusader"
+		# grandmaster in all weapon combat
+		skill 0 5
+		skill 1 5
+		skill 2 5
+		skill 3 5
+		skill 4 5
+		skill 5 5
+		skill 6 5
+		skill 7 5
+		skill 8 5
+		skill 9 5
+		skill 10 5
+		# acrobatics grandmaster
+		skill 9 5
+	end
+	actions
+		vBeBorn changeSpellResistance self 100 2
+	end
+	base described
+		text "You see a fearsome Crusader. Experts in all forms of combat, they are worthy foes.\n\n 100% mysticism resistance.\n\n"
+	end
+end
+#---------------------------------------------------------
+object GamblerChests of MoneyBag
+	properties
+	special
+		random 125
+	end
+
+	base treasure
+		MoneyBag 150000 550000
+		MoneyBag 150000 550000
+		MoneyBag 150000 550000
+		MoneyBag 150000 550000
+		MoneyBag 200000 550000
+		MoneyBag 200000 550000
+		MoneyBag 200000 550000
+		MoneyBag 200000 550000
+		MoneyBag 250000 550000
+		MoneyBag 250000 550000
+		MoneyBag 250000 550000
+		MoneyBag 300000 550000
+		MoneyBag 300000 550000
+		MoneyBag 400000 1000000
+		MoneyBag 500000 1000000
+		MoneyBag 550000 2000000
+		CopperToken50
+		CopperToken25
+		CopperToken15
+		CopperToken5
+		mwRod
+		bFinvarra
+		mwFury
+		mwEqualizer		
+		mwVengeance
+		FinvarraHighBoots
+		FinvarraPack
+		maFinvarraBracers	
+		maFinvarraCowl
+		FinvarraLowBoots	
+		MageHat
+		ZerkersHelm
+		KhanHelmet
+		ShiftHood
+		MinervaWarriorHelmet
+		LegionWarriorHelmet
+		IntellHelmet
+		BackPackOfHolding
+		Bandanna
+		Hood
+		rInvisibility
+		rShifting
+		HuntressHelmet
+		DefenseHelmet
+		RangerHelmet
+		PredatorHelmet
+		aOffense
+		DeepPouch
+		MabonsShield
+		spbEtheralize
+		spbDuachsVengeance
+		spbEarthSpike
+		spbDancingFlame
+		spbFreezingWind
+		spbHurricane
+		spbSummonFenris
+		spbAntiMagicAura
+		spbEnidsBlessing
+		spbMabonsForcedFlee
+		spbDuachsVengeance
+		spbCrawlingCharge
+		sEQForwardWeaponProc
+		sSparkForwardWeaponProc
+		sLDForwardWeaponProc
+		sCleaveForwardWeaponProc
+		sFOForwardWeaponProc
+		sIOForwardWeaponProc
+		oOasis
+		maTruthGreaves
+        maPlateOfResolution
+        maGauntlets
+        maBesCowl
+        bGladiatorBelt
+        maWarriorsSabatons
+        maAdvChausses
+        maCuirassOfAggression
+        maGuardOfVambrace
+        maBevorOfIntrigue
+        bTravellersGirdle
+        maSolleretsOfAcceleration
+        maBishopPants
+        maBishopShirt
+        maMagesWristbrace
+        maArchMageCowl
+        bArcaneBelt
+        maShoesOfPower
+        maSwindlerHose
+        maSwindlerShirt
+        maWristwraps
+        maBanditScarf
+        bThievesTools
+        maSlippersOfEngagement
+        MagicalKnapsack
+        DungeonDweller
+        ArenaShield
+		ThiefBuckler
+        ArcaneShield
+		rConjuration
+        rGlory
+        rQuickness
+        rSmashing
+        aConcentrate
+        aAdventure
+        aWar
+        aSneak
+		aOffense
+		rDestruction
+		mwPuncture
+		mwBagh
+		ShieldWall
+		Parma
+		Targe
+		baExperience
+		baExperience
+		baExperience
+		baExperience
+		rBlackhair
+		rWhitehair
+	end
+end
+
+#-----------------------------------------
+#-----------------------------------------
+#-----------------------------------------
+#-----------------------------------------
+#----------	RAID NPC STUFF	--------------
+#-----------------------------------------
+#-----------------------------------------
+#-----------------------------------------
+#-----------------------------------------
+object wRaidClaw of AdmantiumClaw
+	properties
+	special
+		name "The Desecrator"
+        value 0
+		health 10000
+		strength 5		
+		color 132               # Ultra Olive
+		affect 10 0 0 -1        # Life-Steal
+		affect 3 0 0 -1		    # Lightning Damage
+	end
+
+	base carryable
+		weight 5
+	end
+
+	base weapon
+		minDamage 8600
+		maxDamage 15000
+		#------- Unequippable by Players -------
+		mask warrior
+		mask adventurer
+		mask wizard
+		mask thief
+		#--------- Crazy Range on Claw ---------
+		range 4
+		#------- Sometimes Cleave Enemies ------
+		spellProcID 109			# Cleave (Physical)
+		forwardProcChance 50	# 50%
+		#---------------------------------------
+	end
+
+	base described
+		text "The power eminating from this weapon is ludicrous.\n\nYou dare not wield this.\n"
+		shopText "Not to be sold in stores."
+	end
+end
+#-----------------------------------------
+object RaidBoss of NPC
+	properties
+	special
+		name "Volkor"
+		view 100
+		alignment 127
+		
+		minLevel 11845
+		maxLevel 12654
+
+		intelligence 165
+		strength 450
+		endurance 243		
+		dexterity 100
+		quickness 100
+		  
+		soundGroup 16
+		  
+		damageType 2		#Bludgeon
+		armorType 3			#Plate
+
+		caffect 0			# Cancel affect (0)
+		affect 3 0 0 -1		# Lightning Damage
+		affect 43 0 0 -1	# Invul
+		affect 23 0 0 -1	# Fire Immo
+		affect 24 0 0 -1	# Cold Immo
+		affect 27 0 0 -1	# Lightning Immo
+		affect 65 0 0 -1	# Retention
+		affect 89 0 0 -1	# Mark of Duach
+
+		girth 130
+		height 150	
+	end
+
+	base character
+		title "the Destroyer"
+		skill 11 5	# Grandmaster Sorcerer
+		skill 12 5	# Grandmaster Elementalism
+		skill 13 5	# Grandmaster Mysticism
+		skill 14 5	# Grandmaster Thaumaturgist
+		skill 15 5	# Grandmaster Necromancy
+		skill 28 5	# Grandmaster Meditation
+		skill 29 5	# Grandmaster Critical Striker
+		skill 9 5	# Grandmaster Dodger
+		skill 16 5	# Grandmaster Theurgism
+
+		# Grandmaster Weapons
+		skill 0 5
+		skill 1 5
+		skill 2 5
+		skill 3 5
+		skill 4 5
+		skill 5 5
+		skill 6 5
+		skill 7 5
+		skill 8 5
+		skill 10 5
+	end
+
+	base container
+		head 0 3 4 1 4 0 8 4 4 8 0 0
+		worn maInvulPlateProc
+		worn maWorg
+		worn bGlowboot
+		worn RealBlackBaldric
+		worn maDenseGreaves
+		worn maDenseCowl
+		worn RandomBelt
+		worn aCombat
+		worn wRaidClaw
+		object wBossTable
+		object wBossTable
+		object wBossTable
+		object GodHelmTable
+		object GodHelmTable
+		object GodHelmTable
+		object GodScrollTable
+	end
+
+	base npc
+		code gonan
+	end
+
+	actions
+		vBeBorn changeSpellResistance self 80 2			# 80% Myst Resist
+		vBeBorn changeSDM self 1050 0 1 3 4				# Increase Overall Circle SDM-Myst
+		vBeBorn changeSDM self 100 2					# Increase Myst SDM
+	end
+
+	base described
+		text "Volkor the Destroyer\n\nAlways accompanied by his faithful servants Macy and Stacy.\n\nA large party is recommended for this fight.\nDo not attempt this alone.\nYou will die.\n\n80% Mysticism Resistance\n\n"
+	end
+end
+#---------------------------------------------------------
+object RaidBossPet of FlameRat
+	properties
+		special
+		name "Macy"
+
+		color 25
+
+		girth 135
+		height 135	
+
+		minLevel 5124
+		maxLevel 5786
+
+		minDamage 9000
+		maxDamage 12000
+
+		intelligence 165
+		strength 450
+		endurance 275		
+		dexterity 100
+		quickness 100
+
+		damageType 2		#Bludgeon
+		armorType 3			#Plate
+
+		## do fire damage
+		affect 1 0 0 -1
+
+		## resist all fire
+		affect 1 2 0 -1
+	end
+
+	base container
+		object RandomNewGear
+		object wBossTable
+		object GodHelmTable
+		object RandomRareMagicHelm
+	end
+
+	base character
+		skill 11 5	# Grandmaster Sorcerer
+		skill 12 5	# Grandmaster Elementalism
+		skill 13 5	# Grandmaster Mysticism
+		skill 14 5	# Grandmaster Thaumaturgist
+		skill 15 5	# Grandmaster Necromancy
+		skill 28 5	# Grandmaster Meditation
+		skill 29 5	# Grandmaster Critical Striker
+		skill 9 5	# Grandmaster Dodger
+		skill 16 5	# Grandmaster Theurgism
+
+		# Grandmaster Weapons
+		skill 0 5
+		skill 1 5
+		skill 2 5
+		skill 3 5
+		skill 4 5
+		skill 5 5
+		skill 6 5
+		skill 7 5
+		skill 8 5
+		skill 10 5
+	end
+
+	base npc
+		code gonanpet
+	end
+ 
+	actions
+		vBeBorn changeSpellResistance self 40 2			# 40% Myst Resist
+		vBeBorn changeSDM self 750 0 1 3 4				# Increase Overall Circle SDM -Myst
+		vBeBorn changeSDM self 100 2					# Increase Myst SDM
+	end
+
+	base described
+	  text "Volkor's loyal servant Macy.\n\nShe was once a fearful witch, but sold her soul to the wrong demon.\nMacy has suffered in this form for over six thousand years. She is promised her body back by Volkor once his mission is complete...\n\n40% mysticism resistance, 9000 - 12000 melee damage.\n\n"
+	end
+end
+#-----------------------------------------
+object RaidBossPet2 of ArcticRat
+	properties
+		special
+		name "Stacy"
+
+		color 25
+
+		girth 125
+		height 125	
+
+		minLevel 5124
+		maxLevel 5786
+
+		minDamage 8000
+		maxDamage 11000
+
+		intelligence 165
+		strength 450
+		endurance 275		
+		dexterity 100
+		quickness 100
+
+		damageType 2		#Bludgeon
+		armorType 3			#Plate
+
+		## do fire damage
+		affect 1 0 0 -1
+
+		## resist all fire
+		affect 1 2 0 -1
+	end
+
+	base container
+		object RandomNewGear
+		object wBossTable
+		object GodHelmTable
+		object RandomRareMagicHelm
+	end
+
+	base character
+		skill 11 5	# Grandmaster Sorcerer
+		skill 12 5	# Grandmaster Elementalism
+		skill 13 5	# Grandmaster Mysticism
+		skill 14 5	# Grandmaster Thaumaturgist
+		skill 15 5	# Grandmaster Necromancy
+		skill 28 5	# Grandmaster Meditation
+		skill 29 5	# Grandmaster Critical Striker
+		skill 9 5	# Grandmaster Dodger
+		skill 16 5	# Grandmaster Theurgism
+
+		# Grandmaster Weapons
+		skill 0 5
+		skill 1 5
+		skill 2 5
+		skill 3 5
+		skill 4 5
+		skill 5 5
+		skill 6 5
+		skill 7 5
+		skill 8 5
+		skill 10 5
+	end
+
+	base npc
+		code gonanpet
+	end
+
+	actions
+		vBeBorn changeSpellResistance self 40 2			# 40% Myst Resist
+		vBeBorn changeSDM self 750 0 1 3 4				# Increase Overall Circle SDM -Myst
+		vBeBorn changeSDM self 100 2					# Increase Myst SDM
+	end
+
+	base described
+	  text "Volkor's loyal servant Stacy.\n\nStacy was once Volkor's daughter.\nVolkor discovered she was plotting to overthrow his seat of power so he banished her to this form over seven thousand years ago.\nShe vows revenge on her father once she has claimed her body from the clutches of her father's demonic magics.\n\n40% mysticism resistance, 8000 - 11000 melee damage.\n\n"
+	end
+end
+#-----------------------------------------
+
+
+
+object Nightmare of Lich
+	properties
+		special
+		name "Nightmare"
+
+		minLevel 5500
+		maxLevel 7500
+
+		minDamage 6000
+		maxDamage 10000
+
+        strength 55
+		endurance 45
+		dexterity 32
+		intelligence 126
+		alignment 255
+	end
+
+    base container
+        worn bYellowskin
+		object RandomMazeTreasure
+		object RandomRareGlowDye
+    end
+
+    base described
+        text "Nightmare -- 100% necromancy resistance, 100% mysticism resistance, 6000 - 10000 melee damage.\n\n"
+    end
+
+    base character
+        skill 11 5	# Grandmaster Sorcerer
+		skill 12 5	# Grandmaster Elementalism
+		skill 13 5	# Grandmaster Mysticism
+		skill 14 5	# Grandmaster Thaumaturgist
+		skill 15 5	# Grandmaster Necromancy
+		skill 28 5	# Grandmaster Meditation
+		skill 29 5	# Grandmaster Critical Striker
+		skill 9 5	# Grandmaster Dodger
+		skill 16 5	# Grandmaster Theurgism
+
+		# Grandmaster Weapons
+		skill 0 5
+		skill 1 5
+		skill 2 5
+		skill 3 5
+		skill 4 5
+		skill 5 5
+		skill 6 5
+		skill 7 5
+		skill 8 5
+		skill 10 5
+    end
+end
+
+object Borei of Lich
+	properties
+		special
+		name "Borei"
+
+		minLevel 5500
+		maxLevel 7500
+
+		minDamage 6000
+		maxDamage 10000
+
+        strength 55
+		endurance 45
+		dexterity 32
+		quickness 54
+		intelligence 126
+		alignment 255
+	end
+
+       base container
+	   		object RandomMazeTreasure
+			object RandomRareGlowDye
+            worn bGreyskin
+       end
+
+        base described
+            text "Borei -- 100% necromancy resistance, 100% mysticism resistance, 6000 - 10000 melee damage.\n\n"
+        end
+
+        base character
+            skill 11 5	# Grandmaster Sorcerer
+			skill 12 5	# Grandmaster Elementalism
+			skill 13 5	# Grandmaster Mysticism
+			skill 14 5	# Grandmaster Thaumaturgist
+			skill 15 5	# Grandmaster Necromancy
+			skill 28 5	# Grandmaster Meditation
+			skill 29 5	# Grandmaster Critical Striker
+			skill 9 5	# Grandmaster Dodger
+			skill 16 5	# Grandmaster Theurgism
+
+			# Grandmaster Weapons
+			skill 0 5
+			skill 1 5
+			skill 2 5
+			skill 3 5
+			skill 4 5
+			skill 5 5
+			skill 6 5
+			skill 7 5
+			skill 8 5
+			skill 10 5
+        end
+end
+
+object Phantom of CryptKeeper
+	properties
+		special
+		name "Phantom"
+
+		minLevel 5500
+		maxLevel 7500
+
+		minDamage 8000
+		maxDamage 11000
+
+        strength 55
+		endurance 45
+		dexterity 32
+		quickness 54
+		intelligence 126
+		alignment 255
+	end
+
+       base container
+            worn bGreyskin
+			object RandomMazeTreasure
+			object RandomRareGlowDye
+       end
+
+        base described
+                text "Phantom -- 100% necromancy resistance, 100% mysticism resistance, 8000 - 11000 melee damage.\n\n"
+        end
+
+        base character
+            skill 11 5	# Grandmaster Sorcerer
+			skill 12 5	# Grandmaster Elementalism
+			skill 13 5	# Grandmaster Mysticism
+			skill 14 5	# Grandmaster Thaumaturgist
+			skill 15 5	# Grandmaster Necromancy
+			skill 28 5	# Grandmaster Meditation
+			skill 29 5	# Grandmaster Critical Striker
+			skill 9 5	# Grandmaster Dodger
+			skill 16 5	# Grandmaster Theurgism
+
+			# Grandmaster Weapons
+			skill 0 5
+			skill 1 5
+			skill 2 5
+			skill 3 5
+			skill 4 5
+			skill 5 5
+			skill 6 5
+			skill 7 5
+			skill 8 5
+			skill 10 5
+        end
+end
+
+object Shiryo of CryptKeeper
+	properties
+		special
+		name "Shiryo"
+
+		minLevel 5500
+		maxLevel 7500
+
+		minDamage 9500
+		maxDamage 13000
+
+        strength 55
+		endurance 45
+		dexterity 32
+		quickness 54
+		intelligence 126
+		alignment 255
+	end
+
+       base container
+            worn bYellowskin
+       end
+
+        base described
+            text "Shiryo -- 100% necromancy resistance, 100% mysticism resistance, 9500 - 13000 melee damage.\n\n"
+        end
+
+        base character
+            skill 11 5	# Grandmaster Sorcerer
+			skill 12 5	# Grandmaster Elementalism
+			skill 13 5	# Grandmaster Mysticism
+			skill 14 5	# Grandmaster Thaumaturgist
+			skill 15 5	# Grandmaster Necromancy
+			skill 28 5	# Grandmaster Meditation
+			skill 29 5	# Grandmaster Critical Striker
+			skill 9 5	# Grandmaster Dodger
+			skill 16 5	# Grandmaster Theurgism
+
+			# Grandmaster Weapons
+			skill 0 5
+			skill 1 5
+			skill 2 5
+			skill 3 5
+			skill 4 5
+			skill 5 5
+			skill 6 5
+			skill 7 5
+			skill 8 5
+			skill 10 5
+        end
+end
+#-----------------------------------------------------------
+object RandomNewDead of NPC
+	properties
+		special
+		random 100
+	end
+
+	base treasure
+		Shiryo
+		Borei
+		Phantom
+		Nightmare
+	end
+end

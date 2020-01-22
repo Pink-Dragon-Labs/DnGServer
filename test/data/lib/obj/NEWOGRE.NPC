@@ -1,0 +1,273 @@
+object SavageOgre of Ogre
+	properties
+	special
+		name "Savage Ogre"
+		view 40200
+		alignment 128
+		clutStart -1
+		color 768
+
+		endurance 18
+		dexterity 30
+		intelligence 85 
+		strength 140
+
+		minLevel 7500
+		maxLevel 12000
+
+		minDamage 2400
+		maxDamage 3600
+
+		armor 40
+		  
+		
+		affect 13 0 0 -1		# do bludgeoning damage
+		affect 17 0 0 -1   		# see invisible
+		affect 86 0 0 -1        # free will
+		affect 65 0 0 -1		# retention
+
+		soundGroup 8
+		damageType 2
+		armorType 1
+		quickness 7
+		range 4
+	end
+
+	base container
+		object RandomRareGlowDye
+		object RandomNewGear
+		object RandomRareMagicHelm
+		object RandomNewBaldric
+		worn RedIdiotHat
+		object RandomOgreSoul
+	end
+
+	base character
+		# grandmaster weapons
+		skill 0 5
+		skill 1 5
+		skill 2 5
+		skill 3 5
+		skill 4 5
+		skill 5 5
+		skill 6 5
+		skill 7 5
+		skill 8 5
+		skill 10 5
+
+		# grandmaster acrobatics
+		skill 9 5
+
+		# grandmaster sorcery
+		skill 11 5
+
+		# grandmaster elementalism
+		skill 12 5
+
+		# grandmaster mysticism
+		skill 13 5
+
+		# grandmaster thaumaturgy
+		skill 14 5
+
+		# grandmaster necromancy
+		skill 15 5
+	end
+
+	actions
+		vBeBorn changeSpellResistance self 60 0 1 2 3 4			 #60% Resist to All
+	end
+	
+	base described
+		text "A Savage Ogre. \n --60% magic resistance.\n\n"
+	end
+end
+
+object SavageOgreWizard of Troll
+	properties
+	special
+		name "Savage Ogre Wizard"
+		view 40200
+		alignment 128
+		clutStart -1
+		color 768
+
+		endurance 14
+		dexterity 20
+		intelligence 70
+		strength 60
+
+		minLevel 7500
+		maxLevel 12000
+
+		minDamage 1200
+		maxDamage 2400
+
+		armor 40
+		  
+		
+		affect 17 0 0 -1   		# see invisible
+		affect 86 0 0 -1        # free will
+		affect 65 0 0 -1		# retention
+
+		soundGroup 8
+		damageType 2
+		armorType 1
+		quickness 7
+		range 4
+	end
+
+	base container
+		object RandomRareGlowDye
+		object RandomNewGear
+		object RandomRareMagicHelm
+		object RandomNewBaldric
+		worn BlueIdiotHat
+		object RandomOgreSoul
+	end
+
+	base character
+		# grandmaster weapons
+		skill 0 5
+		skill 1 5
+		skill 2 5
+		skill 3 5
+		skill 4 5
+		skill 5 5
+		skill 6 5
+		skill 7 5
+		skill 8 5
+		skill 10 5
+
+		# grandmaster acrobatics
+		skill 9 5
+
+		# grandmaster sorcery
+		skill 11 5
+
+		# grandmaster elementalism
+		skill 12 5
+
+		# grandmaster mysticism
+		skill 13 5
+
+		# grandmaster thaumaturgy
+		skill 14 5
+
+		# grandmaster necromancy
+		skill 15 5
+	end
+
+	actions
+		vBeBorn changeSpellResistance self 60 0 1 2 3 4			# 60% Resist to All
+		vBeBorn changeSDM self 1000 0 1 2 3 4					# 1000% sdm increase in all circles...
+	end
+	
+	base described
+		text "A Savage Ogre Wizard. \n --60% magic resistance.\n\n"
+	end
+	
+	base npc
+		code ogreMage
+	end
+end
+
+object SavageOgreKnight of Ogre
+	properties
+	special
+		name "Savage Ogre Knight"
+		view 40200
+		alignment 128
+		clutStart -1
+		color 768
+
+		endurance 24
+		dexterity 30
+		intelligence 60
+		strength 100
+
+		minLevel 7500
+		maxLevel 12000
+
+		minDamage 2400
+		maxDamage 3600
+
+		armor 100
+		  
+		
+		
+		affect 17 0 0 -1   		# see invisible
+		affect 86 0 0 -1        # free will
+		affect 65 0 0 -1		# retention
+
+		soundGroup 8
+		damageType 2
+		armorType 1
+		quickness 7
+		range 4
+	end
+
+	base container
+		object RandomRareGlowDye
+		object RandomNewGear
+		object RandomRareMagicHelm
+		object RandomNewBaldric
+		worn PurpleIdiotHat
+		object RandomOgreSoul
+	end
+
+	base character
+		# grandmaster weapons
+		skill 0 5
+		skill 1 5
+		skill 2 5
+		skill 3 5
+		skill 4 5
+		skill 5 5
+		skill 6 5
+		skill 7 5
+		skill 8 5
+		skill 10 5
+
+		# grandmaster acrobatics
+		skill 9 5
+
+		# grandmaster sorcery
+		skill 11 5
+
+		# grandmaster elementalism
+		skill 12 5
+
+		# grandmaster mysticism
+		skill 13 5
+
+		# grandmaster thaumaturgy
+		skill 14 5
+
+		# grandmaster necromancy
+		skill 15 5
+	end
+
+	actions
+		vBeBorn changeSpellResistance self 60 0 1 2 3 4			 #60% Resist to All
+	end
+	
+	base described
+		text "A Savage Ogre Knight. \n --60% magic resistance.\n\n"
+	end
+end
+
+
+
+object RandomSavageOgre of NPC
+	properties
+		special
+		random 100
+	end
+
+	base treasure
+		SavageOgreKnight
+		SavageOgreWizard
+		SavageOgre
+	end
+end

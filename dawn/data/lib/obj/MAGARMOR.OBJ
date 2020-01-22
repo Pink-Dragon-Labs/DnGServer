@@ -1,0 +1,1942 @@
+# magical boots
+
+object maDragonPlate of PlateTunic
+	properties
+		name "Dragonscale Plate"
+		color 58
+		value 35000
+		health 800
+	end
+
+	base described
+		text "You see a finely wrought vest made of overlapping metal plates."
+		idText "You see a Dragonscale chest plate.  This armor can magically protect the wearer from the effects of fire."
+		shopText "Here is a nice plate of DragonScale armor."
+	end
+
+	actions
+		vBePutOn setAffect dobj 1 2 0 -1
+		vBeTakenOff clearAffect dobj 1 2 0
+	end
+end
+
+object maInsulPlate of PlateTunic
+	properties
+		name "Plate of Insulation"
+		color 100
+		value 35000
+		health 800
+	end
+
+	base described
+		text "You see a finely wrought vest made of overlapping metal plates."
+		idText "You see a the plate of Insulation.  This armor can magically protect the wearer from the effects of cold."
+		shopText "Here is the renowned Plate of Insulation, which can protect you well from cold."
+	end
+
+	actions
+		vBePutOn setAffect dobj 2 2 0 -1
+		vBeTakenOff clearAffect dobj 2 2 0
+	end
+end
+
+object maDensePlate of PlateTunic
+	properties
+		name "Plate of Density"
+		color 98
+		value 35000
+		health 2000
+		armor 75
+	end
+
+	base carryable
+		weight 38.0
+	end
+
+	base described
+		text "You see a chest plate made from obsidianite."
+		idText "You see the Plate of Density, well known for being nearly indestructible."
+		shopText "This platemail will protect you quite well if you are strong enough to wear it."
+	end
+end
+
+object maDenseGreaves of PlatePants
+	properties
+		name "Greaves of Density"
+		color 98
+		value 25000
+		health 1500
+		armor 75
+	end
+
+	base carryable
+		weight 35.0
+	end
+
+	base described
+		text "You see a pair of obsidianite plate greaves."
+		idText "You see the Greaves of Density, well known for being nearly indestructible."
+		shopText "These magical plate pants are nearly indestructible."
+	end
+end
+
+object maDenseCowl of ChainCowl
+	properties
+		name "Cowl of Density"
+		color 98
+		value 10000
+		health 1000
+		armor 75
+	end
+
+	base carryable
+		weight 8.0
+	end
+
+	base described
+		text "You see a cowl made of obsidianite plate."
+		idText "You see the Cowl of Density, well known for being almost indestructible."
+		shopText "This magical cowl is practically indestructible, but unfortunately quite heavy."
+	end
+end
+
+object maDenseBoots of Sollerets
+	properties
+		name "Boots of Density"
+		color 98
+		value 10000
+		health 1000
+		armor 75
+	end
+
+	base carryable
+		weight 12.0
+	end
+
+	base described
+		text "You see a pair of obsidianite-molded sollerets."
+		idText "You see the Boots of Density, well known for being almost indestructible."
+		shopText "These fine sollerets are molded from obsidianite alloys with a special magical process that makes them quite durable."
+	end
+end
+
+object maDenseBands of Wristband
+	properties
+		name "Bands of Density"
+		color 98
+		value 5000
+		health 800
+		armor 75
+	end
+
+	base carryable
+		weight 6.0
+	end
+
+	base described
+		text "You see a pair of obsidianite wristbands."
+		idText "You see the Bands of Density - magical wristbands of the most durable sort."
+		shopText "These wristbands are of the most durable sort, but quite heavy."
+	end
+end
+
+object maBracersOfDefense of Mythrilband
+	properties
+		name "Bracers of Defense"
+		health 500
+		armor 100
+		value 8000
+	end
+
+	actions
+		vBePutOn setAffect dobj 57 0 0 -1
+		vBeTakenOff clearAffect dobj 57 0 0
+	end
+
+	base described
+		text "You see a pair of mythril wristbands."
+		shopText "These are the wonderous Bracers of Defense"
+		idText "You see the magical Bracers of Defense."
+	end
+end
+
+object maInvulPlate of PlateTunic
+	properties
+		name "Plate of Invulnerability"
+		color 93
+		value 35000
+		health 500
+		armor 100
+	end
+
+	base carryable
+		weight 38.0
+	end
+
+	base described
+		text "You see a chest plate made from a strange material."
+		idText "You see the Plate of Invulnerability, well known for its protective qualities."
+		shopText "This platemail will protect you quite well if you are strong enough to wear it."
+	end
+end
+#------------------------------------------------------------
+object FinvarraHighBoots of HighBoots
+	properties
+		name "Finvarra's Boots"
+		value 7500
+		armor 50
+		health 400
+		color 115
+		special
+	end
+
+	base carryable
+		weight 2.5
+	end
+
+	actions
+		# Pos Dex (as per Boots of Nimbility)
+		vBePutOn setAffect dobj 59 0 0 -1
+		vBeTakenOff clearAffect dobj 59 0 0
+		# Fire Protection (as per maDragonPlate in MAGARMOR.OBJ)
+		vBePutOn setAffect dobj 1 2 0 -1
+		vBeTakenOff clearAffect dobj 1 2 0
+		# Cold Protection (as per maInsulPlate in MAGARMOR.OBJ)
+		vBePutOn setAffect dobj 2 2 0 -1
+		vBeTakenOff clearAffect dobj 2 2 0
+	end
+
+	base described
+		idText "You see a pair of Finvarra's Boots."
+		shopText "These are the wonderous, majestic Finvarra's Boots."
+	end
+end
+
+#------------------------------------------------------------
+object FinvarraLowBoots of LowBoots 
+	properties
+		name "Finvarra's Shoes"
+		value 6500
+		armor 40
+		health 350
+		color 115
+		special
+	end
+
+	base carryable
+		weight 1.5
+	end
+	actions
+		# Pos Dex (as per Boots of Nimbility)
+		vBePutOn setAffect dobj 59 0 0 -1
+		vBeTakenOff clearAffect dobj 59 0 0
+		# Fire Protection (as per maDragonPlate in MAGARMOR.OBJ)
+		vBePutOn setAffect dobj 1 2 0 -1
+		vBeTakenOff clearAffect dobj 1 2 0
+		# Cold Protection (as per maInsulPlate in MAGARMOR.OBJ)
+		vBePutOn setAffect dobj 2 2 0 -1
+		vBeTakenOff clearAffect dobj 2 2 0
+	end
+
+	base described
+		idText "You see a pair of Finvarra's Shoes."
+		shopText "These are the wonderous, majestic Finvarra's Shoes."
+	end
+end
+
+#------------------------------------------------------------
+object maFinvarraBracers of Mythrilband
+	properties
+		name "Finvarra's Bracers"
+		health 500
+		armor 100
+		color 115
+		special
+	end
+
+	actions
+		vBePutOn setAffect dobj 57 0 0 -1		# Extra Dodge
+		vBeTakenOff clearAffect dobj 57 0 0
+		vBePutOn setAffect dobj 85 0 0 -1		# Death Magic Protection
+		vBeTakenOff clearAffect dobj 85 0 0
+	end
+
+	components
+		AdmantiumBar	#2500
+		AdmantiumBar	#2500
+		AdmantiumBar	#2500
+		AdmantiumBar	#2500
+		MagicBar	#1000
+		MagicBar	#1000
+		MagicBar	#1000
+		MagicBar	#1000
+		SweatBar	#5000
+		SweatBar	#5000
+		SweatBar	#5000
+		SweatBar	#5000
+		SweatBar	#5000
+		SweatBar	#5000
+		SweatBar	#5000
+		SweatBar	#5000
+		SweatBar	#5000
+	end
+
+	base described
+		text "You see a pair of wristbands crafted from an exotic metal."
+		idText "These are the fabled Finvarra's Bracers which provide their wearer with protection from death magics and the ability to avoid blows."
+		shopText "Finvarra's Bracers! Everyone wants them but few can afford them."
+	end
+end
+#------------------------------------------------------------
+object maFinvarraCowl of ChainCowl
+	properties
+		name "Finvarra's Cowl"
+		value 10000
+		health 1000
+		armor 75
+		color 115	
+		special
+	end
+
+	base carryable
+		weight 4.0
+	end
+
+	actions
+		# Pos Str (as per aStrength in AMULETS.OBJ)
+		vBePutOn setAffect dobj 39 0 0 -1
+		vBeTakenOff clearAffect dobj 39 0 0
+	end
+
+	base described
+		text "You see a cowl made of an exotic metal."
+		idText "You see a Finvarra's Cowl, nearly indestructible and wielding arcane powers."
+		shopText "This heavy magical cowl is practically indestructible and grants special powers to its wearer."
+	end
+end
+#---------------------------#
+#							#
+#							#
+#		New Armor			#
+#		  Sets				#
+#							#
+#							#
+#---------------------------#
+#------------------------------------------------------------
+##
+##
+###Warrior Set####
+##
+##
+#------------------------------------------------------------
+object maTruthGreaves of PlatePants
+	properties
+	special
+		name "Greaves of Truth"
+		color 93              # Royal Purple
+		value 2500
+		health 1500
+		armor 95
+		level 550
+	end
+
+	base carryable
+		weight 15.0
+	end
+
+	base described
+		text "You see a pair of grimey plate greaves."
+		idText "You see the Greaves of Truth, well known for bringing out the Truth in the slimiest of people. Provides Dexterity, Strength, and Dodge.\n This pair of greaves requires a wearer of level 550 or higher.\n"
+		shopText "These magical plate pants are filthy."
+	end
+	
+	base wearable
+                # only Warriors
+                mask wizard
+                mask adventurer
+                mask thief
+	end
+	
+	actions
+		vBePutOn setAffect dobj 39 0 0 -1				#Str
+		vBeTakenOff clearAffect dobj 39 0 0
+		vBePutOn setAffect dobj 59 0 0 -1				#Dex
+		vBeTakenOff clearAffect dobj 59 0 0
+		vBePutOn setAffect dobj 57 0 0 -1				#Dodge
+		vBeTakenOff clearAffect dobj 57 0 0		
+	end
+end
+#------------------------------------------------------------
+object maPlateOfResolution of PlateTunic
+	properties
+	special
+		name "Plate of Resolution"
+		color 93              # Royal Purple
+		value 3500
+		health 1500
+		armor 135
+		level 550
+	end
+
+	base carryable
+		weight 28.0
+	end
+	
+	base wearable
+                # only Warriors
+                mask wizard
+                mask adventurer
+                mask thief
+	end
+	
+	actions
+		vBePutOn setAffect dobj 39 0 0 -1			#Str
+		vBeTakenOff clearAffect dobj 39 0 0
+		vBePutOn setAffect dobj 63 0 0 -1			#End
+		vBeTakenOff clearAffect dobj 63 0 0
+	end
+	
+	base described
+		text "You see a very dinged up plate armor."
+		idText "You see the Plate of Resolution, this was once worn by a mighty warrior. You can see the damage from many wars. Provides Strength and Endurance. \n This chest plate requires a wearer of level 550 or higher.\n"
+		shopText "This platemail will protect you quite well if you are strong enough to wear it."
+	end
+end
+#------------------------------------------------------------
+object maGauntlets of Mythrilband
+	properties
+	special
+		name "Gauntlets"
+		color 93              # Royal Purple
+		value 3500
+		health 1500
+		armor 105
+		level 550
+	end
+	
+	base carryable
+		weight .5
+	end
+	
+	base wearable
+                # only Warriors
+                mask wizard
+                mask adventurer
+                mask thief
+	end
+	
+	actions
+		vBePutOn setAffect dobj 59 0 0 -1					#Dex
+		vBeTakenOff clearAffect dobj 59 0 0
+		vBePutOn setAffect dobj 85 0 0 -1					#DMP
+		vBePutOn changeSpellResistance dobj 50 4			#
+		vBeTakenOff clearAffect dobj 85 0 0					#
+		vBeTakenOff changeSpellResistance dobj -50 4		#	
+		vBePutOn setAffect dobj 56 0 0 -1					#Attack
+		vBeTakenOff clearAffect dobj 56 0 0		
+	end
+	
+	base described
+		text "A pair of very large gauntlets."
+		idText "In ancient times these gauntlets were worn by mighty Gladiators in Asgard's Arena. These will provide their wearer with protection from death magics with an extra attack and a slight buff to your dexterity. \n These gauntlets requires a wearer of level 550 or higher.\n"
+		shopText "These are some massive gauntlets!"
+	end
+end
+#------------------------------------------------------------
+object maBesCowl of ChainCowl
+	properties
+	special
+		name "Beserker Cowl"
+		value 1000
+		health 1500
+		armor 85			
+		color 93			# Royal Purple
+		level 550
+	end
+
+	base carryable
+		weight 8.0
+	end
+	
+	base wearable
+                # only Warriors
+                mask wizard
+                mask adventurer
+                mask thief
+	end
+	
+	actions
+		vBePutOn setAffect dobj 59 0 0 -1				#Dex
+		vBeTakenOff clearAffect dobj 59 0 0
+		vBePutOn setAffect dobj 39 0 0 -1				#Str
+		vBeTakenOff clearAffect dobj 39 0 0
+		vBePutOn setAffect dobj 62 0 0 -1				#Stupid
+		vBeTakenOff clearAffect dobj 62 0 0
+		vBePutOn setAffect dobj 57 0 0 -1				#Dodge
+		vBeTakenOff clearAffect dobj 57 0 0		
+	end
+
+	base described
+		text "You see a cowl made of a unique metal."
+		idText "You see a Beserker's Cowl, nearly indestructible and wielding strange powers. Providing the wearer with Strength, Dexterity with an Extra Dodge, but at a price..\n This cowl requires a wearer of level 550 or higher.\n "
+		shopText "This heavy magical cowl is practically indestructible and grants special powers to its wearer."
+	end
+end
+#------------------------------------------------------------
+object maWarriorsSabatons of HighBoots
+	properties
+	special
+		name "Warrior's Sabatons"
+		value 3500
+		armor 65
+		health 1500
+		color 93			#Royal Purple
+		level 550
+	end
+
+	base carryable
+		weight 3.5
+	end
+	
+	base wearable
+                # only Warriors
+                mask wizard
+                mask adventurer
+                mask thief
+	end
+	
+	actions
+		vBePutOn setAffect dobj 59 0 0 -1			#Dex
+		vBeTakenOff clearAffect dobj 59 0 0
+		vBePutOn setAffect dobj 1 2 0 -1			#Str
+		vBeTakenOff clearAffect dobj 1 2 0
+		vBePutOn setAffect dobj 63 0 0 -1			#End
+		vBeTakenOff clearAffect dobj 63 0 0
+		vBePutOn setAffect dobj 63 0 0 -1			#Fire Protect
+		vBeTakenOff clearAffect dobj 63 0 0
+		vBePutOn setAffect dobj 39 0 0 -1			#Cold Protect
+		vBeTakenOff clearAffect dobj 39 0 0
+	end
+
+	base described
+		text "You see some gross boots."
+		idText "A pair of armored Sabatons worn by only the mightiest of warriors, giving you a buff to your Dexterity, Strength, Endurance while giving you Cold Protection and Fire Protection. \n These sabatons requires a wearer of level 550 or higher.\n "
+		shopText "These are wonderous, majestic Sabatons."
+	end
+end	
+#------------------------------------------------------------
+##
+##
+###Adventurer Set####
+##
+##
+#------------------------------------------------------------
+object maAdvChausses of PlatePants
+	properties
+	special
+		name "Adventurer's Chausses"
+		color 53			# Blue
+		value 2500
+		health 1500
+		armor 80
+		level 550
+	end
+
+	base carryable
+		weight 12.0
+	end
+
+	base described
+		text "Heavy metal and yet you can feel the magical properties calling to you."
+		idText "Adventurer's Chausses. This leg armor is sturdy. Putting them on will grant you an Intelligence boost, a boost to your Endurance as well as your Dexterity. \n These chausses require a wearer of level 550 or higher.\n"
+		shopText "Chausses! I havn't seen a pair of these in many years!"
+	end
+	
+	base wearable
+                # only Adv
+                mask wizard
+                mask warrior
+                mask thief
+	end
+	
+	actions
+
+		vBePutOn setAffect dobj 59 0 0 -1				#Dex
+		vBeTakenOff clearAffect dobj 59 0 0
+		vBePutOn setAffect dobj 61 0 0 -1				#Intel
+		vBeTakenOff clearAffect dobj 61 0 0
+		vBePutOn setAffect dobj 63 0 0 -1				#End
+		vBeTakenOff clearAffect dobj 63 0 0			
+	end	
+end
+#------------------------------------------------------------
+object maCuirassOfAggression of PlateTunic
+	properties
+	special
+		name "Cuirass of Aggression"
+		color 53			# Blue
+		value 3500
+		health 1500
+		armor 110
+		level 550
+	end
+
+	base carryable
+		weight 25.0
+	end
+	
+	base wearable
+                # only Adv
+                mask wizard
+                mask warrior
+                mask thief
+	end
+	
+	actions
+		vBePutOn setAffect dobj 39 0 0 -1			#Str
+		vBeTakenOff clearAffect dobj 39 0 0
+		vBePutOn setAffect dobj 39 0 0 -1			#Str
+		vBeTakenOff clearAffect dobj 39 0 0
+		vBePutOn setAffect dobj 57 0 0 -1			#Dodge
+		vBeTakenOff clearAffect dobj 57 0 0
+		vBePutOn setAffect dobj 56 0 0 -1			#Attack
+		vBeTakenOff clearAffect dobj 56 0 0
+	end
+	
+	base described
+		text "A mighty Cuirass."
+		idText "You see the Cuirass of Aggression, perfect for the Adventurer not afraid of danger. This will assist you in your adventure by providing you with considerable amount of Strength, an axtra Attack as well as Dodge. \n This cuirass requires a wearer of level 550 or higher.\n"
+		shopText "This cuirass will protect you quite well if you are strong enough to wear it."
+	end	
+end
+#------------------------------------------------------------
+object maGuardOfVambrace of Mythrilband
+	properties
+	special
+		name "Guard of Vambrace"
+		color 53			# Blue
+		value 3500
+		health 1500
+		armor 100
+		level 550
+	end
+	
+	base carryable
+		weight .5
+	end
+	
+	base wearable
+                # only Adv
+                mask wizard
+                mask warrior
+                mask thief
+	end
+	
+	actions
+		vBePutOn setAffect dobj 59 0 0 -1					#Dex
+		vBeTakenOff clearAffect dobj 59 0 0
+		vBePutOn setAffect dobj 56 0 0 -1					#Attack
+		vBeTakenOff clearAffect dobj 56 0 0	
+		vBePutOn setAffect dobj 57 0 0 -1					#Dodge
+		vBeTakenOff clearAffect dobj 57 0 0	
+		vBePutOn setAffect dobj 63 0 0 -1					#End
+		vBeTakenOff clearAffect dobj 63 0 0
+		vBePutOn setAffect dobj 39 0 0 -1					#Str
+		vBeTakenOff clearAffect dobj 39 0 0		
+	end
+	
+	base described
+		text "Guard of Vambrace, forearm guards."
+		idText "In ancient times these Vambrace were worn by mighty Knights. These will provide their wearer with an Attack and Dodge, as well as a boost to your Strength, Dexterity and Endurance. \n This vambrace requires a wearer of level 550 or higher.\n"
+		shopText "Vambrace? Come again?"
+	end
+end
+#------------------------------------------------------------
+object maBevorOfIntrigue of ChainCowl
+	properties
+	special
+		name "Bevor of Intrigue"
+		value 1000
+		health 1500
+		color 53			# Blue
+		armor 100
+		level 550
+	end
+
+	base carryable
+		weight 7.0
+	end
+	
+	base wearable
+                # only Adv
+                mask wizard
+                mask warrior
+                mask thief
+	end
+	
+	actions
+		vBePutOn setAffect dobj 59 0 0 -1				#Dex
+		vBeTakenOff clearAffect dobj 59 0 0
+		vBePutOn setAffect dobj 39 0 0 -1				#Str
+		vBeTakenOff clearAffect dobj 39 0 0	
+		vBePutOn setAffect dobj 61 0 0 -1				#Intel
+		vBeTakenOff clearAffect dobj 61 0 0
+	end
+
+	base described
+		text "A Bevor covers the throat."
+		idText "You see a Bevor, this will protect your most vital area, your throat. Wearing this mighty bevor, you will gain Strength, Dexterity with a boost to your Intelligence. \n This bevor requires a wearer of level 550 or higher.\n "
+		shopText "Protect ya Neck!"
+	end
+end
+#------------------------------------------------------------
+object maSolleretsOfAcceleration of HighBoots
+	properties
+	special
+		name "Sollerets of Acceleration"
+		value 3500
+		armor 55
+		health 1500
+		color 53			# Blue
+		level 550
+	end
+
+	base carryable
+		weight 2.5
+	end
+	
+	base wearable
+                # only Adv
+                mask wizard
+                mask warrior
+                mask thief
+	end
+	
+	actions
+		vBePutOn setAffect dobj 59 0 0 -1			#Dex
+		vBeTakenOff clearAffect dobj 59 0 0
+		vBePutOn setAffect dobj 1 2 0 -1			#Str
+		vBeTakenOff clearAffect dobj 1 2 0
+		vBePutOn setAffect dobj 61 0 0 -1			#Intel
+		vBeTakenOff clearAffect dobj 61 0 0
+		vBePutOn setAffect dobj 56 0 0 -1			#Attack
+		vBeTakenOff clearAffect dobj 56 0 0	
+		vBePutOn setAffect dobj 67 0 0 -1			#Nourishment
+		vBeTakenOff clearAffect dobj 67 0 0		
+	end
+
+	base described
+		text "A pair of extremely rare sollerets."
+		idText "The Sollerets of Acceleration. Aptly named, these sollerets are perfect for the Adventurer trying to see the world. Donning these will grant you a boost to your Strength, Dextery, Intelligence as well as provide a spare Atack. Wearing these sollerets you will also never suffer from hunger. \n These sollerets requires a wearer of level 550 or higher.\n "
+		shopText "These sollerets are almost priceless."
+	end
+end	
+#------------------------------------------------------------
+##
+##
+###Wizard Set####
+##
+##
+#------------------------------------------------------------
+object maBishopPants of Pants
+	properties
+	special
+		name "Bishop's Hose"
+		color 100              # White
+		value 2500
+		health 1500
+		armor 20
+		level 550
+	end
+
+	base carryable
+		weight 1
+	end
+
+	base described
+		text "A very light pair of Hose."
+		idText "Bishop's Hose. Surprisingly sturdy for how light it is. These hose provide Dexterity, Fire Protection, Cold Protection and Dodge.\n These pair of hose requires a wearer of level 550 or higher.\n"
+		shopText "What are these made of?!."
+	end
+	
+	base wearable
+                # only Wiz
+                mask warrior
+                mask adventurer
+                mask thief
+	end
+	
+	actions
+		vBePutOn setAffect dobj 59 0 0 -1				#Dex
+		vBeTakenOff clearAffect dobj 59 0 0
+		vBePutOn setAffect dobj 57 0 0 -1				#Dodge
+		vBeTakenOff clearAffect dobj 57 0 0	
+		vBePutOn setAffect dobj 1 2 0 -1				#Fire protect
+		vBeTakenOff clearAffect dobj 1 2 0
+		vBePutOn setAffect dobj 2 2 0 -1				#Cold Protect
+		vBeTakenOff clearAffect dobj 2 2 0		
+	end
+end
+#------------------------------------------------------------
+object maBishopShirt of Shirt
+	properties
+	special
+		name "Bishop's Shirt"
+		color 100              # White
+		value 3500
+		health 1500
+		armor 30
+		level 550
+	end
+
+	base carryable
+		weight 1.5
+	end
+	
+	base wearable
+                # only Wiz
+                mask warrior
+                mask adventurer
+                mask thief
+	end
+	
+	actions
+		vBePutOn setAffect dobj 61 0 0 -1				#Intel
+		vBeTakenOff clearAffect dobj 61 0 0
+		vBePutOn setAffect dobj 59 0 0 -1				#Dex
+		vBeTakenOff clearAffect dobj 59 0 0	
+		vBePutOn setAffect dobj 57 0 0 -1				#Dodge
+		vBeTakenOff clearAffect dobj 57 0 0
+		vBePutOn setAffect dobj 56 0 0 -1				#Attack
+		vBeTakenOff clearAffect dobj 56 0 0		
+	end
+	
+	base described
+		text "A very light cloth, almost see-through."
+		idText "A Bishop's Shirt. Imbued with mystical powers, it will grant you a boost to your Intelligence as well as your Dexterity and will also grant you a spare Dodge and Attack. \n This shirt requires a wearer of level 550 or higher.\n"
+		shopText "This looks like something I would sneeze into."
+	end
+end
+#------------------------------------------------------------
+object maMagesWristbrace of Mythrilband
+	properties
+	special
+		name "Mage's Wristbraces"
+		color 100              # White
+		value 3500
+		health 1500
+		armor 50
+		level 550
+	end
+	
+	base carryable
+		weight .5
+	end
+	
+	base wearable
+                # only Wiz
+                mask warrior
+                mask adventurer
+                mask thief
+	end
+	
+	actions
+		vBePutOn setAffect dobj 61 0 0 -1				#Intel
+		vBeTakenOff clearAffect dobj 61 0 0
+        vBePutOn changeSDM dobj 200 1 3 4            	#SDM Boost (Thaum, Ele, Necro)
+		vBeTakenOff changeSDM dobj -200 1 3 4
+	end
+	
+	base described
+		text "A pair of magical leather wristbraces."
+		idText "Mage's Wristbraces. These were once worn by an all-powerful Arch-Mage. Wearing these will grant you a boost to your Intelligence as well as a 200% boost to your Thamaturgy, Elementalism and Necromany circles. \n These wristbraces require a wearer of level 550 or higher.\n"
+		shopText "Don't see much leather nowadays."
+	end	
+end
+#------------------------------------------------------------
+object maArchMageCowl of ChainCowl
+	properties
+	special
+		name "Arch Mage's Cowl"
+		value 1000
+		health 1500
+		armor 30			
+		color 100			# White
+		level 550
+	end
+
+	base carryable
+		weight 3.0
+	end
+	
+	base wearable
+                # only Wiz
+                mask warrior
+                mask adventurer
+                mask thief
+	end
+	
+	actions
+		vBePutOn setAffect dobj 59 0 0 -1				#Dex
+		vBeTakenOff clearAffect dobj 59 0 0
+		vBePutOn setAffect dobj 59 0 0 -1				#Dex
+		vBeTakenOff clearAffect dobj 59 0 0
+		vBePutOn setAffect dobj 61 0 0 -1				#Intel
+		vBeTakenOff clearAffect dobj 61 0 0	
+	end
+
+	base described
+		text "This metal feels light as air."
+		idText "This cowl once belonged to an Arch-Mage, salvaged by a museum, how you came to find it is a mystery. This light, but sturdy cowl will grant you considerable Dexterity as well as an Intelligence boost. \n This cowl requires a wearer of level 550 or higher.\n "
+		shopText "This weighs almost nothing! What is thise made of?"
+	end
+end
+#------------------------------------------------------------
+object maShoesOfPower of LowBoots
+	properties
+	special
+		name "Shoes of Power"
+		value 3500
+		armor 40
+		health 1500
+		color 100			# White
+		level 550
+	end
+
+	base carryable
+		weight 1.5
+	end
+	
+	base wearable
+                # only Wiz
+                mask warrior
+                mask adventurer
+                mask thief
+	end
+	
+	actions
+
+		vBePutOn setAffect dobj 63 0 0 -1				#End
+		vBeTakenOff clearAffect dobj 63 0 0
+		vBePutOn setAffect dobj 61 0 0 -1				#Intel
+		vBeTakenOff clearAffect dobj 61 0 0	
+		vBePutOn setAffect dobj 56 0 0 -1				#Attack
+		vBeTakenOff clearAffect dobj 56 0 0
+	end
+
+	base described
+		text "You see a pair of magical shoes."
+		idText "Shoes of Power. These are quite the find. Wearing these powerful shoes will imbue you with more health, a boost to your Intelligence as well as an extra Attack. \n These shoes require a wearer of level 550 or higher.\n "
+		shopText "Are these childrens shoes?"
+	end
+end
+#------------------------------------------------------------
+##
+##
+###Thief Set####
+##
+##
+#------------------------------------------------------------
+object maSwindlerHose of Pants
+	properties
+	special
+		name "Swindler's Hose"
+		color 98              # Black
+		value 2500
+		health 1500
+		armor 55
+		level 550
+	end
+
+	base carryable
+		weight 1.5
+	end
+
+	base described
+		text "A pair of dark hose that feel almost weightless."
+		idText "A pair of hose worn by swindlers, criminals and murderers. Wearing these you will gain a boost to your health as well as an extra Attack and Dodge. \n These pair of hose requires a wearer of level 550 or higher.\n"
+		shopText "What are these made of?!."
+	end
+	
+	base wearable
+                # only Thief
+                mask warrior
+                mask adventurer
+                mask wizard
+	end
+	
+	actions
+		vBePutOn setAffect dobj 57 0 0 -1				#Dodge
+		vBeTakenOff clearAffect dobj 57 0 0	
+		vBePutOn setAffect dobj 56 0 0 -1				#Attack
+		vBeTakenOff clearAffect dobj 56 0 0
+		vBePutOn setAffect dobj 63 0 0 -1				#End
+		vBeTakenOff clearAffect dobj 63 0 0		
+	end
+end
+#------------------------------------------------------------
+object maSwindlerShirt of Shirt
+	properties
+	special
+		name "Swindler's Doublet"
+		color 98              # Black
+		value 3500
+		health 1500
+		armor 65
+		level 550
+	end
+
+	base carryable
+		weight 2
+	end
+	
+	base wearable
+                # only Thief
+                mask warrior
+                mask adventurer
+                mask wizard
+	end
+	
+	actions
+		vBePutOn setAffect dobj 1 2 0 -1				#Fire protect
+		vBeTakenOff clearAffect dobj 1 2 0
+		vBePutOn setAffect dobj 57 0 0 -1				#Dodge
+		vBeTakenOff clearAffect dobj 57 0 0
+		vBePutOn setAffect dobj 56 0 0 -1				#Attack
+		vBeTakenOff clearAffect dobj 56 0 0
+		vBePutOn setAffect dobj 4 3 0 -1				#Acid Weakness
+		vBeTakenOff clearAffect dobj 4 3 0		
+	end
+	
+	base described
+		text "Light, yet it feels like a sword couldn't penetrate it."
+		idText "A doublet worn by swindlers, criminals and murderers. This doublet has unique protection qualities granting Fire protection, as well as an extra Attack and Dodge. \n This doublet requires a wearer of level 550 or higher.\n"
+		shopText "This seems like something I don't want a part of."
+	end
+end
+#------------------------------------------------------------
+object maWristwraps of Mythrilband
+	properties
+	special
+		name "Wristwraps of Invisibility"
+		color 98              # Black
+		value 3500
+		health 1500
+		armor 30
+		level 550
+	end
+	
+	base carryable
+		weight .3
+	end
+	
+	base wearable
+                # only Thief
+                mask warrior
+                mask adventurer
+                mask wizard
+	end
+	
+	actions
+		vBePutOn setAffect dobj 61 0 0 -1				#Intel
+		vBeTakenOff clearAffect dobj 61 0 0
+		vBePutOn setAffect dobj 21 0 0 -1				#Invis
+		vBeTakenOff clearAffect dobj 21 0 0
+		vBePutOn setAffect dobj 59 0 0 -1				#Dex
+		vBeTakenOff clearAffect dobj 59 0 0
+	end
+	
+	base described
+		text "These cloth wristwraps somehow glimmer in the light."
+		idText "A pair of cloth wristwraps. The ideal choice for any would-be thief. Wearing these wraps you will gain a boost to your Intelligence as well as your Dexterity. These also grant invisibility while worn. \n These wristwraps require a wearer of level 550 or higher.\n"
+		shopText "Ooh, shiny."
+	end	
+end
+#------------------------------------------------------------
+object maBanditScarf of ChainCowl
+	properties
+	special
+		name "Bandit's Scarf"
+		value 1000
+		health 1500
+		armor 30
+		color 98              # Black
+		level 550
+	end
+
+	base carryable
+		weight 4.0
+	end
+	
+	base wearable
+                # only Thief
+                mask warrior
+                mask adventurer
+                mask wizard
+	end
+	
+	actions
+		vBePutOn setAffect dobj 59 0 0 -1				#Dex
+		vBeTakenOff clearAffect dobj 59 0 0
+		vBePutOn setAffect dobj 59 0 0 -1				#Dex
+		vBeTakenOff clearAffect dobj 59 0 0
+		vBePutOn setAffect dobj 57 0 0 -1				#Dodge
+		vBeTakenOff clearAffect dobj 57 0 0
+		vBePutOn setAffect dobj 63 0 0 -1				#End
+		vBeTakenOff clearAffect dobj 63 0 0
+	end
+
+	base described
+		text "A heavy chain scarf."
+		idText "This heavy scarf is used by bandits, thieves and the like. Wearing this scarf you will gain considerable Dexterity as well as a boost to your health and an extra Dodge. \n This scarf requires a wearer of level 550 or higher.\n "
+		shopText "This weighs almost nothing! What is thise made of?"
+	end
+end
+#------------------------------------------------------------
+object maSlippersOfEngagement of LowBoots
+	properties
+	special
+		name "Slippers of Engagement"
+		value 3500
+		armor 35
+		health 1500
+		color 98              # Black
+		level 550
+	end
+
+	base carryable
+		weight 1.5
+	end
+	
+	base wearable
+                # only Thief
+                mask warrior
+                mask adventurer
+                mask wizard
+	end
+	
+	actions
+		vBePutOn setAffect dobj 59 0 0 -1						#Dex
+		vBeTakenOff clearAffect dobj 59 0 0
+		vBePutOn setAffect dobj 59 0 0 -1						#Dex
+		vBeTakenOff clearAffect dobj 59 0 0
+		vBePutOn setAffect dobj 59 0 0 -1						#Dex
+		vBeTakenOff clearAffect dobj 59 0 0
+		vBePutOn setAffect dobj 1 2 0 -1						#Str
+		vBeTakenOff clearAffect dobj 1 2 0
+		vBePutOn setAffect dobj 1 2 0 -1						#Str
+		vBeTakenOff clearAffect dobj 1 2 0
+	end
+
+	base described
+		text "These shoes are almost vibrating."
+		idText "Slippers of Engagement. These slippers are the perfect asset for any would-be thief. Wearing these you will be able to engage your targets more aggressively. These slippers will grant you a great deal of Dexterity, as well as considerable Strength. \n These slippers require a wearer of level 550 or higher.\n "
+		shopText "Slippers? What am I supposed to do with these?"
+	end
+end
+#------------------------------------------------------------
+#------------------------------------------------------------
+object maFinvarrasCuirass of PlateTunic
+	properties
+	special
+		name "Finvarra's Cuirass"
+		color 112			# Lightest Finvarra
+		value 3500
+		health 1500
+		armor 110
+		level 1500
+	end
+
+	base carryable
+		weight 25.0
+	end
+	
+	actions
+		vBePutOn setAffect dobj 39 0 0 -1			#Str
+		vBeTakenOff clearAffect dobj 39 0 0
+		vBePutOn setAffect dobj 39 0 0 -1			#Str
+		vBeTakenOff clearAffect dobj 39 0 0
+		vBePutOn setAffect dobj 59 0 0 -1			#Dex
+		vBeTakenOff clearAffect dobj 59 0 0
+		vBePutOn setAffect dobj 56 0 0 -1			#Attack
+		vBeTakenOff clearAffect dobj 56 0 0
+		vBePutOn setAffect dobj 63 0 0 -1			#End
+		vBeTakenOff clearAffect dobj 63 0 0
+	end
+	
+	base described
+		text "You see a thick platemail that shimmers in the light."
+		idText "This plate armor was hand-crafted by Finvarra himself. Its wearer will be gifted with unprecedented prowess in melee combat. This armor provides Double Strength, Dexterity, Endurance and an extra Attack. \n This cuirass requires a wearer of level 1500 or higher.\n"
+		shopText "This cuirass shouldn't be sold to shops."
+	end	
+end
+#------------------------------------------------------------
+object maFinvarrasGreaves of PlatePants
+	properties
+	special
+		name "Finvarra's Greaves"
+		color 112			# Lightest Finvarra
+		value 2500
+		health 1500
+		armor 110
+		level 1500
+	end
+
+	base carryable
+		weight 15.0
+	end
+
+	base described
+		text "You see a pair of fine, glistening chainmail greaves."
+		idText "You see by the softly glowing metal that these finely crafted greaves come from the forge of Finvarra himself. They bestow upon the wearer Double Strength, Dexterity, Endurance and an extra Attack. \n This pair of greaves requires a wearer of level 1500 or higher.\n"
+		shopText "These Greaves shouldn't be sold to shops"
+	end
+	
+	actions
+		vBePutOn setAffect dobj 39 0 0 -1			#Str
+		vBeTakenOff clearAffect dobj 39 0 0
+		vBePutOn setAffect dobj 39 0 0 -1			#Str
+		vBeTakenOff clearAffect dobj 39 0 0
+		vBePutOn setAffect dobj 59 0 0 -1			#Dex
+		vBeTakenOff clearAffect dobj 59 0 0
+		vBePutOn setAffect dobj 56 0 0 -1			#Attack
+		vBeTakenOff clearAffect dobj 56 0 0
+		vBePutOn setAffect dobj 63 0 0 -1			#End
+		vBeTakenOff clearAffect dobj 63 0 0
+	end
+end
+#------------------------------------------------------------
+### CRUSADER GEAR
+object CrusaderBracers of Mythrilband
+	properties
+		name "Crusader's Bracers"
+		color 202
+		special
+	end
+end
+#------------------------------------------------------------
+object CrusaderCowl of ChainCowl
+	properties
+		name "Crusader's Cowl"
+		color 202
+		special
+	end
+end
+#------------------------------------------------------------
+### WORLD BOSS GEAR
+object wBossBracers of Mythrilband
+	properties
+		name "Crusader's Bracers"
+		color 116
+		special
+	end
+end
+#------------------------------------------------------------
+object wBossCowl of ChainCowl
+	properties
+		name "Crusader's Cowl"
+		color 116
+		special
+	end
+end
+#------------------------------------------------------------
+object bLatexboot of HighBoots
+	properties
+	special
+		name "Boots of Nimbleness"
+		value 4500
+		armor 25
+		health 350
+		color 116
+	end
+
+	actions
+		vBePutOn setAffect dobj 59 0 0 -1
+		vBeTakenOff clearAffect dobj 59 0 0
+	end
+
+	base described
+		idText "You see a pair of glowing, magical Boots of Nimbleness."
+		shopText "These are the glowing Boots of Nimbleness."
+	end
+end
+#-------------------------------------------------
+object maFinvarrasBands of Mythrilband
+	properties
+	special
+		name "Finvarra's Gauntlets"
+		color 114			# Lighter Finvarra
+		value 3500
+		health 1500
+		armor 120
+		level 1200
+	end
+
+	base carryable
+		weight 12.0
+	end
+	
+	actions
+		vBePutOn setAffect dobj 39 0 0 -1			#Str
+		vBeTakenOff clearAffect dobj 39 0 0
+		vBePutOn setAffect dobj 39 0 0 -1			#Str
+		vBeTakenOff clearAffect dobj 39 0 0
+		vBePutOn setAffect dobj 59 0 0 -1			#Dex
+		vBeTakenOff clearAffect dobj 59 0 0
+		vBePutOn setAffect dobj 63 0 0 -1			#End
+		vBeTakenOff clearAffect dobj 63 0 0
+	end
+	
+	base described
+		text "You see thick mail gauntlets that shimmers in the light."
+		idText "These Gauntlets were hand-crafted by Finvarra himself. Its wearer will be gifted with unprecedented prowess in melee combat. This armor provides Double Strength, Dexterity, and Endurance.\n These gauntlets requires a wearer of level 1200 or higher.\n"
+		shopText "These Gauntlets were hand-crafted by Finvarra himself. Its wearer will be gifted with unprecedented prowess in melee combat. This armor provides Double Strength, Dexterity, and Endurance.\n These gauntlets requires a wearer of level 1200 or higher.\n"
+	end	
+end
+#------------------------------------------------------------
+object maFinvarrasTreads of HighBoots
+	properties
+	special
+		name "Finvarra's Treads"
+		color 114			# Lighter Finvarra
+		value 3500
+		health 1500
+		armor 120
+		level 1200
+	end
+
+	base carryable
+		weight 13.0
+	end
+
+	base described
+		text "You see a pair of fine, glistening chainmail boots."
+		idText "Noticing the remarkable craftsmanship, you recognize these were crafted by Finvarra himself. These mystical treads bestow upon the wearer Double Strength, Endurance and an extra Dodge.\n This pair of treads requires a wearer of level 1200 or higher.\n"
+		shopText "Noticing the remarkable craftsmanship, you recognize these were crafted by Finvarra himself. These mystical treads bestow upon the wearer Double Strength, Endurance and an extra Dodge.\n This pair of treads requires a wearer of level 1200 or higher.\n"
+	end
+	
+	actions
+		vBePutOn setAffect dobj 39 0 0 -1			#Str
+		vBeTakenOff clearAffect dobj 39 0 0
+		vBePutOn setAffect dobj 39 0 0 -1			#Str
+		vBeTakenOff clearAffect dobj 39 0 0
+		vBePutOn setAffect dobj 57 0 0 -1			#Dodge
+		vBeTakenOff clearAffect dobj 57 0 0	
+		vBePutOn setAffect dobj 63 0 0 -1			#End
+		vBeTakenOff clearAffect dobj 63 0 0
+	end
+end
+#------------------------------------------------------------
+object maFinvarrasCollar of ChainCowl
+	properties
+	special
+		name "Finvarra's Collar"
+		color 114			# Lighter Finvarra
+		value 3500
+		health 2000
+		armor 120
+		level 1200
+	end
+
+	base carryable
+		weight 15.0
+	end
+
+	base described
+		text "You see a extremely durable, glistening chainmail cowl."
+		idText "This was the very cowl worn by Finvarra himself. Having crafted it himself, it bestows upon the wearer Double Strength, Endurance and an extra Attack.\n20%Mysticism Resistance\nThis collar requires a wearer of level 1200 or higher.\n"
+		shopText "This was the very cowl worn by Finvarra himself. Having crafted it himself, it bestows upon the wearer Double Strength, Endurance and an extra Attack.\n20%Mysticism Resistance\nThis collar requires a wearer of level 1200 or higher.\n"
+	end
+	
+	actions
+		vBePutOn setAffect dobj 39 0 0 -1				#Str
+		vBeTakenOff clearAffect dobj 39 0 0
+		vBePutOn setAffect dobj 39 0 0 -1				#Str
+		vBeTakenOff clearAffect dobj 39 0 0
+		vBePutOn changeSpellResistance dobj 20 2		# 20% Myst Resist
+		vBeTakenOff changeSpellResistance dobj -20 2
+		vBePutOn setAffect dobj 56 0 0 -1				#Attack
+		vBeTakenOff clearAffect dobj 56 0 0
+		vBePutOn setAffect dobj 63 0 0 -1				#End
+		vBeTakenOff clearAffect dobj 63 0 0
+	end
+end
+#------------------------------------------------------------
+object maBanditGreaves of PlatePants
+	properties
+	special
+		name "Bandit's Greaves"
+		color 161           # Darker Silk
+		value 100000
+		health 1500
+		armor 95
+		level 1200
+	end
+
+	base carryable
+		weight 2.5
+	end
+
+	base described
+		text "These are made of some foreign alloy, so light...\n"
+		idText "A pair of greaves worn by the deadliest bandits.\nWearing these you will gain an extra Dodge as well as a considerable boost to your Dexterity, as well as a Strength and Endurance bonus.\n These pair of greaves requires a wearer of level 1200 or higher.\n"
+		shopText "A pair of greaves worn by the deadliest bandits.\nWearing these you will gain an extra Dodge as well as a considerable boost to your Dexterity, as well as a Strength and Endurance bonus.\n These pair of greaves requires a wearer of level 1200 or higher.\n"
+	end
+
+	actions
+		vBePutOn setAffect dobj 57 0 0 -1				# Dodge
+		vBeTakenOff clearAffect dobj 57 0 0	
+		vBePutOn setAffect dobj 59 0 0 -1				# Dex
+		vBeTakenOff clearAffect dobj 59 0 0
+        vBePutOn setAffect dobj 59 0 0 -1				# Dex
+		vBeTakenOff clearAffect dobj 59 0 0
+		vBePutOn setAffect dobj 63 0 0 -1				# End
+		vBeTakenOff clearAffect dobj 63 0 0		
+        vBePutOn setAffect dobj 1 2 0 -1				# Str
+		vBeTakenOff clearAffect dobj 1 2 0
+	end
+end
+#------------------------------------------------------------
+object maBanditBrig of PlateTunic
+	properties
+	special
+		name "Bandit Brigandine"
+		color 161           # Darker Silk
+		value 100000
+		health 1500
+		armor 95
+		level 1200
+	end
+
+	base carryable
+		weight 2
+	end
+
+	
+	actions
+		vBePutOn setAffect dobj 59 0 0 -1				# Dex
+		vBeTakenOff clearAffect dobj 59 0 0
+        vBePutOn setAffect dobj 59 0 0 -1				# Dex
+		vBeTakenOff clearAffect dobj 59 0 0
+        vBePutOn setAffect dobj 59 0 0 -1				# Dex
+		vBeTakenOff clearAffect dobj 59 0 0
+		vBePutOn setAffect dobj 57 0 0 -1				# Dodge
+		vBeTakenOff clearAffect dobj 57 0 0
+		vBePutOn setAffect dobj 56 0 0 -1				# Attack
+		vBeTakenOff clearAffect dobj 56 0 0	
+        vBePutOn setAffect dobj 1 2 0 -1				# Str
+		vBeTakenOff clearAffect dobj 1 2 0
+	end
+	
+	base described
+		text "The lightest chest plate you've ever lifted..\n"
+		idText "A heavy brigandine chest plate. This Brigandine will grant the wearer significant Dexterity, an Extra Dodge as well as Attack, and a slight boost to your Strength.\n This Brigandine requires a wearer of level 1200 or higher.\n"
+		shopText "A heavy brigandine chest plate. This Brigandine will grant the wearer significant Dexterity, an Extra Dodge as well as Attack, and a slight boost to your Strength.\n This Brigandine requires a wearer of level 1200 or higher.\n"
+	end
+end
+#------------------------------------------------------------
+object maBanditGauntlets of Mythrilband
+	properties
+	special
+		name "Bandit's Gauntlets"
+		value 100000
+		armor 55
+		health 1500
+		color 163           # Darkest Silk
+		level 1200
+	end
+	
+	base carryable
+		weight 1.5
+	end
+	
+	
+	actions
+		vBePutOn setAffect dobj 59 0 0 -1				# Dex
+		vBeTakenOff clearAffect dobj 59 0 0
+        vBePutOn setAffect dobj 59 0 0 -1				# Dex
+		vBeTakenOff clearAffect dobj 59 0 0
+        vBePutOn setAffect dobj 59 0 0 -1				# Dex
+		vBeTakenOff clearAffect dobj 59 0 0
+        vBePutOn changeSpellResistance dobj 20 2		# 20% Myst Resist
+		vBeTakenOff changeSpellResistance dobj -20 2
+        vBePutOn setAffect dobj 1 2 0 -1				# Str
+		vBeTakenOff clearAffect dobj 1 2 0
+	end
+	
+	base described
+		text "These armored wristwraps are covered in dings and scuffs."
+		idText "Armored Gauntlets\nCrafted from an extremely light alloy.\nWearing these light gauntlets you will gain a significant boost to your Dexterity, as well as a slight boost to your Strength.\n20% Mysticism Resistance\nThese gauntlets require a wearer of level 1200 or higher.\n"
+		shopText "Armored Gauntlets\nCrafted from an extremely light alloy.\nWearing these light gauntlets you will gain a significant boost to your Dexterity, as well as a slight boost to your Strength.\n20% Mysticism Resistance\nThese gauntlets require a wearer of level 1200 or higher.\n"
+	end	
+end
+#------------------------------------------------------------
+object maReinforcedScarf of ChainCowl
+	properties
+	special
+		name "Reinforced Bandit Scarf"
+		value 100000
+		armor 55
+		health 1500
+		color 163           # Darkest Silk
+		level 1200
+	end
+
+	base carryable
+		weight 6.0
+	end
+	
+	
+	actions
+		vBePutOn setAffect dobj 59 0 0 -1				#Dex
+		vBeTakenOff clearAffect dobj 59 0 0
+		vBePutOn setAffect dobj 59 0 0 -1				#Dex
+		vBeTakenOff clearAffect dobj 59 0 0
+        vBePutOn setAffect dobj 59 0 0 -1				#Dex
+		vBeTakenOff clearAffect dobj 59 0 0
+		vBePutOn setAffect dobj 56 0 0 -1				#Attack
+		vBeTakenOff clearAffect dobj 56 0 0
+		vBePutOn setAffect dobj 63 0 0 -1				#End
+		vBeTakenOff clearAffect dobj 63 0 0
+        vBePutOn setAffect dobj 61 0 0 -1				#Intel
+		vBeTakenOff clearAffect dobj 61 0 0
+	end
+
+	base described
+		text "A chain scarf worn by bandit elite."
+		idText "This armored scarf protects the more adventurous Thief, those daring to take on the most challenging opponents.\nWearing this scarf you will gain considerable Dexterity as well as a boost to your health, an extra Attack and will make you smarter.\nThis scarf requires a wearer of level 1200 or higher.\n"
+		shopText "This armored scarf protects the more adventurous Thief, those daring to take on the most challenging opponents.\nWearing this scarf you will gain considerable Dexterity as well as a boost to your health, an extra Attack and will make you smarter.\nThis scarf requires a wearer of level 1200 or higher.\n"
+	end
+end
+#------------------------------------------------------------
+object maBanditBoots of HighBoots
+	properties
+	special
+		name "Bandit's Boots"
+		value 100000
+		armor 55
+		health 1500
+		color 163           # Darkest Silk
+		level 1200
+	end
+
+	base carryable
+		weight .5
+	end
+	
+	actions
+		vBePutOn setAffect dobj 59 0 0 -1						#Dex
+		vBeTakenOff clearAffect dobj 59 0 0
+		vBePutOn setAffect dobj 59 0 0 -1						#Dex
+		vBeTakenOff clearAffect dobj 59 0 0
+		vBePutOn setAffect dobj 59 0 0 -1						#Dex
+		vBeTakenOff clearAffect dobj 59 0 0
+		vBePutOn setAffect dobj 57 0 0 -1				        #Dodge
+		vBeTakenOff clearAffect dobj 57 0 0
+	end
+
+	base described
+		text "These boots seems to phase into another realm.."
+		idText "An Expert Bandit's Boots. The ancient leather used to weave these boots were not of this world.\nThese boots will grant you astounding Dexterity, as well as an extra Dodge.\n These boots require a wearer of level 1200 or higher.\n"
+		shopText "An Expert Bandit's Boots. The ancient leather used to weave these boots were not of this world.\nThese boots will grant you astounding Dexterity, as well as an extra Dodge.\n These boots require a wearer of level 1200 or higher.\n"
+	end
+end
+#------------------------------------------------------------------------------
+object maEnidGuards of Mythrilband
+	properties
+	special
+		name "Enid's Handgaurds"
+		value 100000
+		armor 55
+		health 1500
+		color 41		# Bright White
+		level 1200
+	end
+	
+	base carryable
+		weight 1.5
+	end
+	
+	actions
+		vBePutOn setAffect dobj 57 0 0 -1				#Dodging
+		vBeTakenOff clearAffect dobj 57 0 0
+		vBePutOn setAffect dobj 59 0 0 -1				#Dexterity
+		vBeTakenOff clearAffect dobj 59 0 0
+		vBePutOn setAffect dobj 61 0 0 -1				#Intelligence
+		vBeTakenOff clearAffect dobj 61 0 0
+		vBePutOn setAffect dobj 63 0 0 -1				#Endurance
+		vBeTakenOff clearAffect dobj 63 0 0
+		vBePutOn changeSDM dobj 250 1 3 4 				# Add 250% to all magic circles except Myst while worn
+		vBeTakenOff changeSDM dobj -250 1 3 4	
+        vBePutOn changeSpellResistance dobj 20 2		# 20% Myst Resist
+		vBeTakenOff changeSpellResistance dobj -20 2
+	end
+	
+	base described
+		text "These magnificent wristwraps are covered in holy glyphs.."
+		idText "These are sparkling with the magics of Enid.\n Provides dexterity, an extra dodge, intel, endurance and 250% SDM to Thaum/Elem/Necro.\n20% Mysticism Resistance\nThese handgaurds require a wearer of level 1200 or higher."
+		shopText "These are sparkling with the magics of Enid.\n Provides dexterity, an extra dodge, intel, endurance and 250% SDM to Thaum/Elem/Necro.\n20% Mysticism Resistance\nThese handgaurds require a wearer of level 1200 or higher."
+	end	
+end
+#-------------------------------------------------------------------
+object maEnidsNecklace of ChainCowl
+	properties
+	special
+		name "Enid's Battle Necklace"
+		color 41			# Bright White
+		value 3500
+		health 2000
+		armor 120
+		level 1200
+	end
+
+	base carryable
+		weight 10.0
+	end
+	
+	actions
+		vBePutOn setAffect dobj 57 0 0 -1				#Dodging
+		vBeTakenOff clearAffect dobj 57 0 0
+		vBePutOn setAffect dobj 59 0 0 -1				#Dexterity
+		vBeTakenOff clearAffect dobj 59 0 0
+		vBePutOn setAffect dobj 61 0 0 -1				#Intelligence
+		vBeTakenOff clearAffect dobj 61 0 0
+		vBePutOn setAffect dobj 61 0 0 -1				#Intelligence
+		vBeTakenOff clearAffect dobj 61 0 0
+		vBePutOn setAffect dobj 63 0 0 -1				#Endurance
+		vBeTakenOff clearAffect dobj 63 0 0
+		vBePutOn changeSDM dobj 150 1 3 4 				#Add 150% to to all magic circles except Myst while worn
+		vBeTakenOff changeSDM dobj -150 1 3 4	
+		vBePutOn setAffect dobj 85 0 0 -1				#DMP
+		vBeTakenOff clearAffect dobj 85 0 0 -1
+	end
+
+	base described
+		text "This cowl sparkles with magic.."
+		idText "This is the very necklace Enid wore in combat.\nIt may not have seen many battles, but it's power should not be underestimated. Enid used her sacred magics to protect the wearer from Death Magic.\nProvides dexterity, an extra dodge, double intel, endurance and 150% SDM to Thaum/Elem/Necro.\n\nYou must be level 1200 or higher to wear this necklace.\n\n"
+		shopText "This is the very necklace Enid wore in combat.\nIt may not have seen many battles, but it's power should not be underestimated. Enid used her sacred magics to protect the wearer from Death Magic.\nProvides dexterity, an extra dodge, double intel, endurance and 150% SDM to Thaum/Elem/Necro.\n\nYou must be level 1200 or higher to wear this necklace.\n\n"
+	end
+end
+#--------------------------------------------------------------
+object maElphamesBands of Mythrilband
+	properties
+	special
+		name "Elphame's Gauntlets"
+		color 171			# Black-Brown
+		value 3500
+		health 1500
+		armor 120
+		level 1200
+	end
+
+	base carryable
+		weight 8.0
+	end
+	
+	actions
+		vBePutOn setAffect dobj 39 0 0 -1			#Str
+		vBeTakenOff clearAffect dobj 39 0 0
+		vBePutOn setAffect dobj 63 0 0 -1			#End
+		vBeTakenOff clearAffect dobj 63 0 0
+		vBePutOn setAffect dobj 63 0 0 -1			#End
+		vBeTakenOff clearAffect dobj 63 0 0
+		vBePutOn setAffect dobj 63 0 0 -1			#End
+		vBeTakenOff clearAffect dobj 63 0 0
+	end
+	
+	base described
+		text "You see thick mail gauntlets that shimmers in the light."
+		idText "Noticing the remarkable craftsmanship, you recognize these were once in posession of Elphame herself. Its wearer will be gifted with remarkable ability to survive battle. This armor provides Strength, and significant Endurance.\n These gauntlets requires a wearer of level 1200 or higher.\n"
+		shopText "Noticing the remarkable craftsmanship, you recognize these were once in posession of Elphame herself. Its wearer will be gifted with remarkable ability to survive battle. This armor provides Strength, and significant Endurance.\n These gauntlets requires a wearer of level 1200 or higher.\n"
+	end	
+end
+#------------------------------------------------------------
+object maElphamesShoes of LowBoots
+	properties
+	special
+		name "Elphame's Shoes"
+		color 171			# Black-Brown
+		value 3500
+		health 1500
+		armor 120
+		level 1200
+	end
+
+	base carryable
+		weight 5.0
+	end
+
+	base described
+		text "You see a pair of fine, glistening chainmail boots."
+		idText "Noticing the remarkable craftsmanship, you recognize these were once in posession of Elphame herself. These mystical shoes bestow upon the wearer Double Endurance, Strength and an extra Dodge.\n This pair of shoes require a wearer of level 1200 or higher.\n"
+		shopText "Noticing the remarkable craftsmanship, you recognize these were once in posession of Elphame herself. These mystical shoes bestow upon the wearer Double Endurance, Strength and an extra Dodge.\n This pair of shoes require a wearer of level 1200 or higher.\n"
+	end
+	
+	actions
+		vBePutOn setAffect dobj 39 0 0 -1			#Str
+		vBeTakenOff clearAffect dobj 39 0 0
+		vBePutOn setAffect dobj 63 0 0 -1			#End
+		vBeTakenOff clearAffect dobj 63 0 0
+		vBePutOn setAffect dobj 63 0 0 -1			#End
+		vBeTakenOff clearAffect dobj 63 0 0
+        vBePutOn setAffect dobj 57 0 0 -1			#Dodge
+		vBeTakenOff clearAffect dobj 57 0 0	
+	end
+end
+#------------------------------------------------------------
+object maElphamesCowl of ChainCowl
+	properties
+	special
+		name "Elphame's Cowl"
+		color 171			# Black-Brown
+		value 3500
+		health 2000
+		armor 120
+		level 1200
+	end
+
+	base carryable
+		weight 15.0
+	end
+
+	base described
+		text "You see a extremely durable, glistening chainmail cowl."
+		idText "Noticing the remarkable craftsmanship, you recognize this was once in posession of Elphame herself. This cowl bestows upon the wearer Double Endurance, Strength and an extra Dodge.\n20%Mysticism Resistance\nThis collar requires a wearer of level 1200 or higher.\n"
+		shopText "Noticing the remarkable craftsmanship, you recognize these were once in posession of Elphame herself. This cowl bestows upon the wearer Double Endurance, Strength and an extra Dodge.\n20%Mysticism Resistance\nThis collar requires a wearer of level 1200 or higher.\n"
+	end
+	
+	actions
+		vBePutOn setAffect dobj 39 0 0 -1				#Str
+		vBeTakenOff clearAffect dobj 39 0 0
+		vBePutOn setAffect dobj 63 0 0 -1				#End
+		vBeTakenOff clearAffect dobj 63 0 0
+		vBePutOn setAffect dobj 63 0 0 -1				#End
+		vBeTakenOff clearAffect dobj 63 0 0
+        vBePutOn setAffect dobj 57 0 0 -1			    #Dodge
+		vBeTakenOff clearAffect dobj 57 0 0	
+        vBePutOn changeSpellResistance dobj 20 2		# 20% Myst Resist
+		vBeTakenOff changeSpellResistance dobj -20 2
+	end
+end
+#------------------------------------------------------------
+object maElphamesShirt of Shirt
+	properties
+	special
+		name "Elphame's Shirt"
+		color 255			# Dark Natural Brown
+		value 3500
+		health 1500
+		armor 120
+		level 1500
+	end
+
+	base carryable
+		weight 10.0
+	end
+	
+	actions
+		vBePutOn setAffect dobj 63 0 0 -1			#End
+		vBeTakenOff clearAffect dobj 63 0 0
+		vBePutOn setAffect dobj 63 0 0 -1			#End
+		vBeTakenOff clearAffect dobj 63 0 0
+        vBePutOn setAffect dobj 63 0 0 -1			#End
+		vBeTakenOff clearAffect dobj 63 0 0
+		vBePutOn setAffect dobj 59 0 0 -1			#Dex
+		vBeTakenOff clearAffect dobj 59 0 0
+		vBePutOn setAffect dobj 57 0 0 -1			#Dodge
+		vBeTakenOff clearAffect dobj 57 0 0	
+		vBePutOn setAffect dobj 39 0 0 -1			#Str
+		vBeTakenOff clearAffect dobj 39 0 0
+	end
+	
+	base described
+		text "You see a thick leather shirt that shimmers in the light."
+		idText "Noticing the remarkable craftsmanship, you recognize this was once in posession of Elphame herself. Its wearer will be gifted with unprecedented Endurance. This armor provides Dexterity, Strength and an extra Dodge. \n This shirt requires a wearer of level 1500 or higher.\n"
+		shopText "Noticing the remarkable craftsmanship, you recognize this was once in posession of Elphame herself. Its wearer will be gifted with unprecedented Endurance. This armor provides Dexterity, Strength and an extra Dodge. \n This shirt requires a wearer of level 1500 or higher.\n"
+	end	
+end
+#------------------------------------------------------------
+object maElphamesHose of Pants
+	properties
+	special
+		name "Elphame's Pants"
+		color 255			# Dark Natural Brown
+		value 2500
+		health 1500
+		armor 120
+		level 1500
+	end
+
+	base carryable
+		weight 8.0
+	end
+
+	base described
+		text "You see a pair of fine, glistening leather hose."
+		idText "Noticing the remarkable craftsmanship, you recognize these were once in posession of Elphame herself. They bestow upon the wearer Double Enduirance, Dexterity, Strength and an extra Attack as well as Dodge. \n This pair of greaves requires a wearer of level 1500 or higher.\n"
+		shopText "Noticing the remarkable craftsmanship, you recognize these were once in posession of Elphame herself. They bestow upon the wearer Double Enduirance, Dexterity, Strength and an extra Attack as well as Dodge. \n This pair of greaves requires a wearer of level 1500 or higher.\n"
+	end
+	
+	actions
+		vBePutOn setAffect dobj 63 0 0 -1			#End
+		vBeTakenOff clearAffect dobj 63 0 0
+		vBePutOn setAffect dobj 63 0 0 -1			#End
+		vBeTakenOff clearAffect dobj 63 0 0
+		vBePutOn setAffect dobj 59 0 0 -1			#Dex
+		vBeTakenOff clearAffect dobj 59 0 0
+		vBePutOn setAffect dobj 56 0 0 -1			#Attack
+		vBeTakenOff clearAffect dobj 56 0 0
+        vBePutOn setAffect dobj 57 0 0 -1			#Dodge
+		vBeTakenOff clearAffect dobj 57 0 0	
+		vBePutOn setAffect dobj 39 0 0 -1			#Str
+		vBeTakenOff clearAffect dobj 39 0 0
+	end
+end
+#------------------------------------------------------------
+object maInvulPlateProc of PlateTunic
+	properties
+		special
+		name "Plate of Invulnerability"
+		color 36
+		value 35000
+		health 700
+		armor 100
+	end
+
+	base carryable
+		weight 40.0
+	end
+
+	base wearable
+        reverseProcID 101		# Invulnerability
+		reverseProcChance 10	# 10%
+    end
+
+	actions
+		#vBePutOn changeManaDrain dobj 50
+		#vBeTakenOff changeManaDrain dobj -50
+	end
+
+	base described
+		text "You see a chest plate made from a strange material."
+		idText "You see the Plate of Invulnerability, well known for its protective qualities.\n\nThis special version will sometimes grant Invulnerability.\n\n"
+		shopText "You see the Plate of Invulnerability, well known for its protective qualities.\n\nThis special version will sometimes grant Invulnerability.\n\n"
+	end
+end
+
+object maThorsPlate of PlateTunic
+	properties
+		special
+		name "Thor's Battle Armor"
+		color 20        		# Pale Yellow (YMMB)
+		value 35000
+		health 700
+		level 3000
+		armor 95
+	end
+
+	base dye
+	end
+
+	base carryable
+		weight 10.0
+	end
+
+	base wearable
+        reverseProcID 47				# Electric Fury
+		reverseProcChance 20			# 20%
+    end
+
+	actions
+		vBePutOn changeManaDrain dobj 200					# 200 Mana Drain per Tick
+		vBeTakenOff changeManaDrain dobj -200	
+		vBePutOn setAffect dobj 39 0 0 -1					# Strength
+		vBeTakenOff clearAffect dobj 39 0 0
+		vBePutOn setAffect dobj 39 0 0 -1					# Strength		
+		vBeTakenOff clearAffect dobj 39 0 0
+		vBePutOn setAffect dobj 39 0 0 -1					# Strength		
+		vBeTakenOff clearAffect dobj 39 0 0
+		vBePutOn setAffect dobj 63 0 0 -1					# Endurance
+		vBeTakenOff clearAffect dobj 63 0 0
+		vBePutOn setAffect dobj 63 0 0 -1					# Endurance
+		vBeTakenOff clearAffect dobj 63 0 0
+		vBePutOn setAffect dobj 61 0 0 -1					# Intelligence
+		vBeTakenOff clearAffect dobj 61 0 0
+		vBePutOn setAffect dobj 61 0 0 -1					# Intelligence
+		vBeTakenOff clearAffect dobj 61 0 0
+		vBePutOn setAffect dobj 61 0 0 -1					# Intelligence
+		vBeTakenOff clearAffect dobj 61 0 0
+		vBePutOn changeSDM dobj 500 1             			# 500% SDM Boost (Ele)
+		vBeTakenOff changeSDM dobj -500 1
+	end
+
+	base described
+		text "This chest plate cackles with electricity...\n\n"
+		idText "You see Thor's Battle Armor.\n\nThis mythical chestplate will grant he who dons it the power of Thor himself.\n\nEquipping this, it will infuse you with the powers of the God of Lightning, protecting you in combat and granting you significant Strength, Endurance and Intelligence.\n\nWhen struck in combat, it will sometimes proc 'Electric Fury' on your opponents.\n\n500% Elementalism Bonus\nMana Drain: 200\nLevel Required: 3000\n\n"
+		shopText "You see Thor's Battle Armor.\n\nThis mythical chestplate will grant he who dons it the power of Thor himself.\n\nEquipping this, it will infuse you with the powers of the God of Lightning, protecting you in combat and granting you a significant Strength and Intelligence bonus.\n\nWhen struck in combat, it will sometimes proc 'Electric Fury' on your opponents.\n\n500% Elementalism Bonus\nMana Drain: 200\nLevel Required: 3000\n\n"
+	end
+end
+
+
+object maPixie of Shirt
+	properties
+		special
+		name "Pixie's Shirt"
+		color 32	# Light-Green
+		value 35000
+		health 700
+		armor 15
+	end
+
+	base carryable
+		weight 1.0
+	end
+
+	base wearable
+        reverseProcID 82		# Summon Pixie
+		reverseProcChance 10	# 10%
+    end
+
+	actions
+		#vBePutOn changeManaDrain dobj 5
+		#vBeTakenOff changeManaDrain dobj -5
+	end
+
+	base described
+		text "This shirt has a very clean and pure smell to it."
+		idText "A shirt crafted for young adventurers by Pixies themselves.\n\nA pixie will sometimes come to your aid in battle when worn\n\n"
+		shopText "A shirt crafted for young adventurers by Pixies themselves.\n\nA pixie will sometimes come to your aid in battle when worn\n\n"
+	end
+end
+#----------------------------------------------------------------
+object maWorg of Mythrilband
+	properties
+	special
+		name "Worg Handler Gloves"
+		value 4750
+		health 1500
+		color 97         	# Dark Black Glow
+		level 400
+	end
+	
+	base carryable
+		weight .2
+	end
+	
+	actions
+		vBePutOn setAffect dobj 72 0 0 -1			#Carry Capacity
+		vBeTakenOff clearAffect dobj 72 0 0
+	end
+
+	base wearable
+        reverseProcID 138			# Summon Fenris	
+		reverseProcChance 10		# 10%
+    end
+	
+
+	base described
+		text "You see a strange glowing wristbands."
+		idText "Gloves worn by fenris wranglers. Affixed to these is a whistle that will occasionally summon Fenris in combat, as well as increase your carry capacity.\n\nLevel Required: 400\n\n"
+		shopText "Gloves worn by fenris wranglers. Affixed to these is a whistle that will occasionally summon Fenris in combat, as well as increase your carry capacity.\n\nLevel Required: 400\n\n"
+	end
+end

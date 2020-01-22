@@ -1,0 +1,98 @@
+object DNG12Shop of Shop
+	properties
+		name "Cylia"
+		strength 15
+		endurance 25
+		intelligence 40
+		dexterity 40
+		minLevel 100
+		maxLevel 100
+		minDamage 100
+		maxDamage 150
+		affect 17 0 0 -1
+		special
+	end
+
+	base described
+		text "You see Cylia.\n\nShe will sell various rare magical goods."
+	end
+
+	base character
+		title "the Witch"
+		properName "Cylia"
+		skill 7 5
+		skill 9 5
+		skill 12 5
+		skill 14 5
+	end
+
+	base npc
+		code marvin
+	end
+
+	base container
+		worn	bWarlock
+        worn	EvilPants
+        worn	bGlowboot
+        worn	maFinvarraCowl
+        worn	FinvarraBaldric
+        worn	maFinvarraBracers
+        head	1 0 5 6 0 1 -1 2 10 14 9 2
+	end
+
+	base shop
+		buyMarkup  40
+		sellMarkup 10000
+
+		inventory
+			category "Rings" 51883
+				object rDexterity
+				object rEndurance
+				object rEternalNourishment
+				object rIntelligence
+				object rRegeneration
+				object rStrength
+			end
+
+			category "Amulets" 51533
+				object aColdProtection
+				object aCombat
+				object aDexterity
+				object aDodging
+				object aEndurance
+				object aFireProtection
+				object aGrounding
+				object aIntelligence
+				object aStrength
+			end
+
+			category "Wands" 51733
+				object wBerserk
+				object wFireballs
+				object wLightning
+				object wPoisonBolts
+				object wRust
+				object wStoning
+			end
+
+			category "Scrolls" 51784
+				object sAchren
+				object sOasis
+				object sWorldBoss
+				object sWorldBoss2
+			end
+
+			category "Orbs" 51783
+				object oOasis
+				object oAchren
+				object oGroupTeleport
+				object oImmolation
+				object oFlame
+				object oHolding
+				object oHealing
+				object oGreaterHealing
+				object oExtension
+			end
+		end
+	end
+end

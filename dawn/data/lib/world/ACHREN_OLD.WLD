@@ -1,0 +1,321 @@
+room 90000
+   properties
+      picture	3000
+      east	90001 
+      west	90010 
+      roomName	"Crucible"
+   end
+   atpinfo
+      173  204 101
+      174  379 102
+      241  210 23
+      244  469 22
+      33012  13 23
+      245  549 31
+      231  136 295
+      231  361 295
+      231  530 295
+      163  348 128
+      165  466 116
+      222  90 181
+      204  79 183
+      204  387 229
+      64  160 133
+      64  393 230
+      115  449 156
+   end
+end
+room 90001
+   properties
+      picture	3000
+      east	90002 
+      west	90000 
+      roomName	"Crucible"
+   end
+   atpinfo
+      173  204 101
+      174  379 102
+      246  30 15
+      33011  568 15
+      240  242 3
+      231  131 295
+      231  355 295
+      231  539 295
+      103  504 284
+      114  465 286
+      114  560 286
+      115  173 237
+      182  253 236
+      63  307 240
+   end
+end
+room 90002
+   properties
+      picture	3000
+      east	90003 
+      west	90001 
+      roomName	"Crucible"
+   end
+   atpinfo
+      173  204 101
+      174  379 102
+      244  56 23
+      242  361 37
+      231  123 295
+      231  365 295
+      231  543 295
+      2953  109 178
+      223  65 179
+      63  165 174
+      2716  139 180
+      200  450 174
+      180  422 165
+   end
+end
+room 90003
+   properties
+      picture	3000
+      east	90004 
+      west	90002 
+      roomName	"Crucible"
+   end
+   atpinfo
+      173  204 101
+      174  379 102
+      245  87 19
+      245  322 37
+      245  386 30
+      244  560 38
+      231  131 295
+      231  312 295
+      226  484 295
+      151  76 137
+      2742  205 114
+      66  411 227
+      2716  583 168
+      114  419 229
+      2711  550 165
+   end
+end
+room 90004
+   properties
+      picture	3000
+      south	90009 
+      west	90003 
+      roomName	"Crucible"
+   end
+   atpinfo
+      173  204 101
+      174  379 102
+      243  125 35
+      243  171 42
+      243  461 5
+      243  394 38
+      240  525 18
+      63  186 221
+      104  581 300
+      100  536 314
+      180  142 204
+      201  166 219
+      114  111 214
+      100  498 325
+      100  465 324
+      100  588 286
+      100  592 236
+      100  602 192
+      32868  633 166
+      100  610 142
+   end
+end
+room 90005
+   properties
+      picture	3000
+      east	90006 
+      west	90015 
+      roomName	"Crucible"
+   end
+   atpinfo
+      175  308 101
+      240  112 11
+      244  335 30
+      243  486 43
+      163  556 125
+      163  121 124
+      145  306 108
+      32792  152 252
+      201  260 309
+      64  87 198
+      60  319 111
+      45  95 197
+      183  325 292
+      61  449 179
+   end
+end
+room 90006
+   properties
+      picture	3000
+      east	90020 
+      west	90005 
+      roomName	"Crucible"
+   end
+   atpinfo
+      246  587 28
+      244  383 32
+      241  81 27
+      243  443 23
+      175  308 101
+      163  117 124
+      163  280 123
+      163  570 122
+   end
+end
+room 90020
+   properties
+      picture	3000
+      east	90021
+      west	90006 
+      roomName	"Crucible"
+   end
+   atpinfo
+      240  123 16
+      33011  301 15
+      242  443 44
+      175  308 101
+      146  19 106
+      168  189 131
+   end
+end
+room 90021
+   properties
+      picture	3000
+      east	90007 
+      west	90005 
+      roomName	"Crucible"
+   end
+   atpinfo
+      241  92 31
+      245  600 32
+      241  424 52
+      243  235 33
+      175  308 101
+      165  129 105
+      165  642 105
+   end
+end
+room 90007
+   properties
+      picture	3000
+      east	90008 
+      west	90006 
+      roomName	"Crucible"
+   end
+   atpinfo
+      244  303 38
+      243  146 33
+      245  523 38
+      175  308 101
+      165  536 105
+      165  171 105
+   end
+end
+room 90008
+   properties
+      picture	3000
+      east	90009 
+      west	90007 
+      roomName	"Crucible"
+   end
+   atpinfo
+      244  46 31
+      246  170 24
+      243  168 12
+      33008  411 30
+      175  308 101
+      163  560 127
+      163  372 124
+   end
+end
+room 90009
+   properties
+      picture	3000
+      north	90004 
+      west	90008 
+      roomName	"Crucible"
+   end
+   atpinfo
+      242  115 31
+      240  386 21
+      168  -17 131
+      175  308 101
+      32936  405 132
+      168  597 134
+   end
+end
+room 90010
+   properties
+      picture	3000
+      east	90000 
+      west	90011 
+      roomName	"Crucible"
+   end
+   atpinfo
+      173  204 101
+      174  379 102
+      243  106 39
+      246  357 32
+      246  401 20
+      246  550 22
+      231  129 295
+      231  520 295
+      231  308 295
+      106  12 316
+      104  475 181
+      180  451 172
+      114  87 197
+      113  458 287
+   end
+end
+room 90011
+   properties
+      picture	3000
+      east	90010 
+      roomName	"Crucible"
+   end
+   atpinfo
+      173  204 101
+      174  379 102
+      245  50 33
+      243  281 6
+      240  506 22
+      182  8 284
+      110  73 284
+      186  128 172
+      202  110 179
+      66  83 177
+      231  128 295
+      231  524 295
+      231  314 295
+      2716  405 192
+      2716  378 177
+      32948  398 191
+   end
+   objects
+      object sign90011-0 of Sign
+         properties
+            x	18
+            y	288
+            loop	0
+         end
+		 base described
+            text	"It begins.."
+         end
+      end
+      object sittingRock90011-1 of SittingRock
+         properties
+            x	388
+            y	190
+            loop	0
+         end
+      end
+   end
+end

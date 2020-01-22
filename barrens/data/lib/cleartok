@@ -1,0 +1,15 @@
+#!/bin/bash
+
+cd lib
+cd obj
+rm *.tok
+cd ../quests
+rm *.tok
+cd ../talktree
+rm *.tok
+cd ../world
+rm *.tok
+cd ../zones
+rm *.tok
+
+cd ../../

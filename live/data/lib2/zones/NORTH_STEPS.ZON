@@ -1,0 +1,31 @@
+name "northernsteppes"
+title "Northern Steppes"
+worldFile "../data/lib/world/NORTH_STEPS.WLD"
+resetInterval 9000000
+maximumObjectAge 0
+allowCombat 3
+midiFile 14
+
+
+
+
+groupChance 600
+monster AncientSoul 30
+monster EarthSoul 30
+monster FierySoul 30
+monster DemonicSoul 30
+monster GhostSoul 30
+monster RoyalSoul 30
+monster InsaneSoul 30
+monster CorruptSoul 30
+monster CorruptEarthSoul 30
+monster HateSoul 30
+monster EternalFlameSoul 30
+monster PurgedSoul 30
+monster InfantSoul 30
+monster HardenedSoul 30
+monster GiantEvilHellSoul 1
+monster AncientPaladin 25
+monster AncientPriestess 15
+monster SavageOgre 15
+monster SavageOgreWizard 10

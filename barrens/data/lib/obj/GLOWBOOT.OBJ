@@ -1,0 +1,41 @@
+object bGlowboot of HighBoots
+	properties
+	special
+		name "Boots of Nimbleness"
+		value 4500
+		armor 25
+		health 350
+		color 43
+	end
+
+	actions
+		vBePutOn setAffect dobj 59 0 0 -1
+		vBeTakenOff clearAffect dobj 59 0 0
+	end
+
+	base described
+		idText "You see a pair of glowing, magical Boots of Nimbleness."
+		shopText "These are the glowing Boots of Nimbleness."
+	end
+end
+
+object bLavaboot of HighBoots
+	properties
+	special
+		name "Boots of Nimbleness"
+		value 4500
+		armor 25
+		health 350
+		color 16
+	end
+
+	actions
+		vBePutOn setAffect dobj 59 0 0 -1
+		vBeTakenOff clearAffect dobj 59 0 0
+	end
+
+	base described
+		idText "You see a pair of glowing, magical Boots of Nimbleness."
+		shopText "These are the glowing Boots of Nimbleness."
+	end
+end

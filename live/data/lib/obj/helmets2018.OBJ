@@ -1,0 +1,238 @@
+object hornedHelm of Helmet
+	properties
+		view 32084
+		name "Horned Helmet"
+		health 350
+		color 83
+		strength 3
+		armor 80
+	end
+
+	base carryable
+		weight 2.5 
+	end
+
+	components
+		MythrilBar
+		MyhtrilBar
+	end
+	base described
+		text "You see a sturdy helmet."
+		idText "You see a sturdy helmet made of mythril.\n\n"
+		shopText "A standard mythril helmet. A favorite choice of many adventurers due its price, durability, and weight."
+	end
+end
+
+object maKhnum of hornedHelm
+	properties
+		special
+		name "Helm of Khnum"
+		health 350
+		color 136	# Prussian Blue
+		strength 5
+		armor 140
+		level 2000
+	end
+
+	base carryable
+		weight 12.0 
+	end
+
+	#components
+	#	BanditMask
+	#	AdvHelmet
+	#	GladiatorHelm
+	#	SorcererHelm
+	#	maBishopHat
+	#	maRareCrown
+	#end
+
+	actions
+        vBePutOn changeSDM dobj 500 1 3 4                           # Add 500% to Tham/Ele/Necro.
+        vBeTakenOff changeSDM dobj -500 1 3 4
+		vBePutOn changeSpellResistance dobj 60 2					# 60% Myst Resist
+		vBeTakenOff changeSpellResistance dobj -60 2
+        vBePutOn setAffect dobj 63 0 0 -1                           # Endurance
+        vBeTakenOff clearAffect dobj 63 0 0
+		vBePutOn setAffect dobj 63 0 0 -1                           # Endurance
+        vBeTakenOff clearAffect dobj 63 0 0
+        vBePutOn setAffect dobj 61 0 0 -1                           # Intel
+        vBeTakenOff clearAffect dobj 61 0 0
+        vBePutOn setAffect dobj 61 0 0 -1                           # Intel
+        vBeTakenOff clearAffect dobj 61 0 0                
+		vBePutOn setAffect dobj 56 0 0 -1                  		 	# Attack
+        vBeTakenOff clearAffect dobj 56 0 0
+        vBePutOn setAffect dobj 57 0 0 -1                   		# Dodge
+        vBeTakenOff clearAffect dobj 57 0 0
+		vBePutOn setAffect dobj 59 0 0 -1              	 			# Dex
+        vBeTakenOff clearAffect dobj 59 0 0
+        vBePutOn setAffect dobj 59 0 0 -1               			# Dex
+        vBeTakenOff clearAffect dobj 59 0 0    
+		vBePutOn setAffect dobj 39 0 0 -1   						# Str
+		vBeTakenOff clearAffect dobj 39 0 0		
+		vBePutOn setAffect dobj 39 0 0 -1   						# Str
+		vBeTakenOff clearAffect dobj 39 0 0		
+		vBePutOn changeMeleeArmorPiercing dobj 30           		# 30% Armor Pen
+        vBeTakenOff changeMeleeArmorPiercing dobj -30
+        vBePutOn setAffect dobj 40 0 0 -1                           # Weakness (Hidden)
+        vBeTakenOff clearAffect dobj 40 0 0
+        vBePutOn setAffect dobj 4 3 0 -1                            # Acid Weakness (Hidden)
+        vBeTakenOff clearAffect dobj 4 3  0
+        vBePutOn setAffect dobj 1 3 0 -1                            # Fire Weakness (Hidden)
+        vBeTakenOff clearAffect dobj 1 3  0
+    end
+
+	base described
+		text "An oddly colored helmet resembeling the ancient god Khnum."
+		idText "Helm of Khnum!\n\nThis mythical helmet was crafted using the most powerful pieces of the world's strongest helmets.\n\nWearing this diety's helm you will gain ludicrous boosts to all of your stats.\n\n60% Mysticism Resistance\n+30% Armor Pen\n+500% Thaum/Ele/Necro\n++Str\n++Dex\n++End\n++Intel\n+Attack\n+Dodge\n\nLevel Required: 2000\n\n"
+		shopText "Helm of Khnum!\n\nThis mythical helmet was crafted using the most powerful pieces of the world's strongest helmets.\n\nWearing this diety's helm you will gain ludicrous boosts to all of your stats.\n\n60% Mysticism Resistance\n+30% Armor Pen\n+500% Thaum/Ele/Necro\n++Str\n++Dex\n++End\n++Intel\n+Attack\n+Dodge\n\nLevel Required: 2000\n\n"
+	end
+end
+
+#  RING VERSION
+object rKhnum of Ring
+	properties
+		special
+		name "Helm of Khnum"
+		health 350
+		color 136	# Prussian Blue
+		strength 5
+		armor 140
+		level 2000
+	end
+
+	base carryable
+		weight 12.0 
+	end
+
+	base wearable
+		areaWorn 0
+	end
+
+	actions
+        vBePutOn changeSDM dobj 500 1 3 4                           # Add 500% to Tham/Ele/Necro.
+        vBeTakenOff changeSDM dobj -500 1 3 4
+		vBePutOn changeSpellResistance dobj 60 2					# 60% Myst Resist
+		vBeTakenOff changeSpellResistance dobj -60 2
+        vBePutOn setAffect dobj 63 0 0 -1                           # Endurance
+        vBeTakenOff clearAffect dobj 63 0 0
+		vBePutOn setAffect dobj 63 0 0 -1                           # Endurance
+        vBeTakenOff clearAffect dobj 63 0 0
+        vBePutOn setAffect dobj 61 0 0 -1                           # Intel
+        vBeTakenOff clearAffect dobj 61 0 0
+        vBePutOn setAffect dobj 61 0 0 -1                           # Intel
+        vBeTakenOff clearAffect dobj 61 0 0                
+		vBePutOn setAffect dobj 56 0 0 -1                  		 	# Attack
+        vBeTakenOff clearAffect dobj 56 0 0
+        vBePutOn setAffect dobj 57 0 0 -1                   		# Dodge
+        vBeTakenOff clearAffect dobj 57 0 0
+		vBePutOn setAffect dobj 59 0 0 -1              	 			# Dex
+        vBeTakenOff clearAffect dobj 59 0 0
+        vBePutOn setAffect dobj 59 0 0 -1               			# Dex
+        vBeTakenOff clearAffect dobj 59 0 0    
+		vBePutOn setAffect dobj 39 0 0 -1   						# Str
+		vBeTakenOff clearAffect dobj 39 0 0		
+		vBePutOn setAffect dobj 39 0 0 -1   						# Str
+		vBeTakenOff clearAffect dobj 39 0 0		
+		vBePutOn changeMeleeArmorPiercing dobj 30           		# 30% Armor Pen
+        vBeTakenOff changeMeleeArmorPiercing dobj -30
+        vBePutOn setAffect dobj 40 0 0 -1                           # Weakness (Hidden)
+        vBeTakenOff clearAffect dobj 40 0 0
+        vBePutOn setAffect dobj 4 3 0 -1                            # Acid Weakness (Hidden)
+        vBeTakenOff clearAffect dobj 4 3  0
+        vBePutOn setAffect dobj 1 3 0 -1                            # Fire Weakness (Hidden)
+        vBeTakenOff clearAffect dobj 1 3  0
+    end
+
+	base described
+		text "An oddly colored helmet resembeling the ancient god Khnum."
+		idText "Helm of Khnum!\n\nThis mythical helmet was crafted using the most powerful pieces of the world's strongest helmets.\n\nWearing this diety's helm you will gain ludicrous boosts to all of your stats.\n\n60% Mysticism Resistance\n+30% Armor Pen\n+500% Thaum/Ele/Necro\n++Str\n++Dex\n++End\n++Intel\n+Attack\n+Dodge\n\nLevel Required: 2000\n\n"
+		shopText "Helm of Khnum!\n\nThis mythical helmet was crafted using the most powerful pieces of the world's strongest helmets.\n\nWearing this diety's helm you will gain ludicrous boosts to all of your stats.\n\n60% Mysticism Resistance\n+30% Armor Pen\n+500% Thaum/Ele/Necro\n++Str\n++Dex\n++End\n++Intel\n+Attack\n+Dodge\n\nLevel Required: 2000\n\n"
+	end
+end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#---------------------------------------
+object maWHH of hornedHelm
+	properties
+		special
+		name "Warrior's Horned Helmet"
+		health 350
+		color 0	# Natty Brown
+		strength 5
+		armor 140
+		level 575
+	end
+
+	base carryable
+		weight 12.0 
+	end
+
+
+	actions
+        vBePutOn changeSDM dobj 500 1 3 4                           # Add 500% to Tham/Ele/Necro.
+        vBeTakenOff changeSDM dobj -500 1 3 4
+        vBePutOn setAffect dobj 63 0 0 -1                           # Endurance
+        vBeTakenOff clearAffect dobj 63 0 0
+		vBePutOn setAffect dobj 63 0 0 -1                           # Endurance
+        vBeTakenOff clearAffect dobj 63 0 0
+        vBePutOn setAffect dobj 61 0 0 -1                           # Intel
+        vBeTakenOff clearAffect dobj 61 0 0
+        vBePutOn setAffect dobj 61 0 0 -1                           # Intel
+        vBeTakenOff clearAffect dobj 61 0 0                
+		vBePutOn setAffect dobj 56 0 0 -1                  		 	# Attack
+        vBeTakenOff clearAffect dobj 56 0 0
+        vBePutOn setAffect dobj 57 0 0 -1                   		# Dodge
+        vBeTakenOff clearAffect dobj 57 0 0
+		vBePutOn setAffect dobj 59 0 0 -1              	 			# Dex
+        vBeTakenOff clearAffect dobj 59 0 0
+        vBePutOn setAffect dobj 59 0 0 -1               			# Dex
+        vBeTakenOff clearAffect dobj 59 0 0    
+		vBePutOn setAffect dobj 39 0 0 -1   						# Str
+		vBeTakenOff clearAffect dobj 39 0 0		
+		vBePutOn setAffect dobj 39 0 0 -1   						# Str
+		vBeTakenOff clearAffect dobj 39 0 0		
+		vBePutOn changeMeleeArmorPiercing dobj 30           		# 30% Armor Pen
+        vBeTakenOff changeMeleeArmorPiercing dobj -30
+        vBePutOn setAffect dobj 40 0 0 -1                           # Weakness (Hidden)
+        vBeTakenOff clearAffect dobj 40 0 0
+        vBePutOn setAffect dobj 4 3 0 -1                            # Acid Weakness (Hidden)
+        vBeTakenOff clearAffect dobj 4 3  0
+        vBePutOn setAffect dobj 1 3 0 -1                            # Fire Weakness (Hidden)
+        vBeTakenOff clearAffect dobj 1 3  0
+    end
+
+	base described
+		text "An oddly colored helmet resembeling the ancient god Khnum."
+		idText "The Mighty Warrior Horned Helmet\n\nThis mythical helmet was crafted using the most powerful pieces of the world's strongest helmets.\n\nWearing this diety's helm you will gain ludicrous boosts to all of your stats.\n\n60% Mysticism Resistance\n+30% Armor Pen\n+500% Thaum/Ele/Necro\n++Str\n++Dex\n++End\n++Intel\n+Attack\n+Dodge\n\nLevel Required: 575\n\n"
+		shopText "The Mighty Warrior Horned Helmet\n\nThis mythical helmet was crafted using the most powerful pieces of the world's strongest helmets.\n\nWearing this diety's helm you will gain ludicrous boosts to all of your stats.\n\n60% Mysticism Resistance\n+30% Armor Pen\n+500% Thaum/Ele/Necro\n++Str\n++Dex\n++End\n++Intel\n+Attack\n+Dodge\n\nLevel Required: 575\n\n"
+	end
+end

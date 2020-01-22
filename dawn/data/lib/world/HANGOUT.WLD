@@ -1,0 +1,1544 @@
+room 1056
+   properties
+      picture	4000
+      roomName	"Cylia's Magic Emporium"
+   end
+   atpinfo
+      2340  52 131
+      2340  153 131
+      2360  116 157 125
+      2358  116 142 90
+      2358  116 162 90
+      2358  116 182 90
+      2359  116 152 50
+      35078  228 135
+      35078  339 120
+      2340  401 115
+      2340  497 115
+      35078  7 137
+      2340  580 115
+      2389  438 154 50
+      2389  594 154 50
+      2251  512 139 50
+      2261  435 195 100
+      2270  592 194 100
+      2271  592 187 101
+      2598  473 273
+      2101  96 298
+      2166  58 144 75
+      2166  176 144 75
+      2145  48 299 50
+      7906  60 138
+      7906  183 139
+      7906  378 126
+      7906  500 126
+      7906  582 127
+   end
+   objects
+      object chair1056-1 of Chair
+         properties
+            x	444
+            y	246
+            loop	2
+         end
+      end
+      object chair1056-2 of Chair
+         properties
+            x	497
+            y	246
+            loop	2
+         end
+      end
+      object door1056-0 of Door
+         properties
+            x	281
+            y	128
+            loop	0
+         end
+         base openable
+            isOpen	0
+         end
+      end
+      object ExoticMagicShop1056-3 of DNG12Shop
+         properties
+            special
+            x	43
+            y	284
+            loop	0
+            name	"Cylia"
+         end
+         base character
+            sex	1
+            properName	"Cylia (NPC)"
+            title "the Witch"
+         end
+         base talk
+            talkTreeID	99899
+         end
+         base npc
+		      code marvin
+	      end
+         base described
+            text	"You see Cylia.\n\nShe will sell various rare magical goods."
+         end
+         base container
+            worn	bWarlock
+            worn	EvilPants
+            worn	bGlowboot
+            worn  maFinvarraCowl
+            worn  FinvarraBaldric
+            worn  maFinvarraBracers
+            head	1 0 5 6 0 1 -1 2 10 14 9 2
+         end
+      end
+   end
+end
+room 1052
+   properties
+      picture	3001
+      west	1050 
+      roomName	"Commons"
+   end
+   atpinfo
+      171  311 103
+      200  507 173
+      32931  82 128
+      115  625 176
+      32968  612 173
+      242  345 48
+      32788  180 244
+      110  484 173
+      20  259 245
+      205  395 121 25
+      32982  311 147
+      211  169 146
+      210  245 147
+      217  367 113
+      212  80 144
+      212  7 144
+      22  135 233
+      32790  294 235
+      115  110 247
+      115  334 248
+      7906  57 172
+      7906  178 172
+      7906  275 169
+      7904  329 170
+      7906  459 108
+      7906  551 108
+      7906  611 108
+      7906  310 127
+      7908  381 96
+   end
+   objects
+      object movingRock1052-0 of MovingRock
+         properties
+            x	592
+            y	300
+            loop	0
+         end
+         base openable
+            isOpen	0
+         end
+      end
+      object stand1052-1 of Stand
+         properties
+            x	559
+            y	168
+            loop	0
+         end
+      end
+      object sign1052-2 of Sign
+         properties
+            x	596
+            y	271
+            loop	0
+         end
+         base described
+            text	"Descend to the Training Torture Chamber. Muahahahaha!"
+         end
+      end
+      object gateKeeper1052-3 of GateKeeper
+        properties
+            x	563
+            y	163
+            loop	2
+         end
+         base character
+            sex	0
+            properName	"Nicky (NPC)"
+            title	""
+         end
+         base container
+            worn	BlackRobe
+            worn	VioletBoots
+            worn	WhiteBelt
+            head	0 0 1 2 0 2 15 17 7 7 1 0 1 
+         end
+      end
+      object stoneBench1052-4 of StoneBench
+         properties
+            x	61
+            y	272
+            loop	0
+         end
+      end
+      object stoneBench1052-5 of StoneBench
+         properties
+            x	155
+            y	231
+            loop	2
+         end
+      end
+      object stoneBench1052-6 of StoneBench
+         properties
+            x	215
+            y	226
+            loop	2
+         end
+      end
+      object stoneBench1052-7 of StoneBench
+         properties
+            x	326
+            y	246
+            loop	2
+         end
+      end
+      object stoneBench1052-8 of StoneBench
+         properties
+            x	105
+            y	246
+            loop	2
+         end
+      end
+      object stoneBench1052-9 of StoneBench
+         properties
+            x	380
+            y	272
+            loop	1
+         end
+      end
+      object stoneBench1052-10 of StoneBench
+         properties
+            x	273
+            y	231
+            loop	2
+         end
+      end
+      object embers1052-11 of Embers
+         properties
+            x	200
+            y	267
+            loop	0
+         end
+      end
+      object embers1052-12 of Embers
+         properties
+            x	191
+            y	262
+            loop	0
+         end
+      end
+      object embers1052-13 of Embers
+         properties
+            x	216
+            y	256
+            loop	0
+         end
+      end
+      object embers1052-14 of Embers
+         properties
+            x	246
+            y	259
+            loop	0
+         end
+      end
+      object embers1052-15 of Embers
+         properties
+            x	259
+            y	263
+            loop	0
+         end
+      end
+      object embers1052-16 of Embers
+         properties
+            x	237
+            y	270
+            loop	0
+         end
+      end
+      object embers1052-17 of Embers
+         properties
+            x	216
+            y	273
+            loop	0
+         end
+      end
+      object fireB1052-18 of FireB
+         properties
+            x	215
+            y	260
+            loop	0
+         end
+         base described
+            text	"For roasting marshmellows, not players."
+         end
+      end
+      object fireB1052-19 of FireB
+         properties
+            x	222
+            y	261
+            loop	1
+         end
+         base described
+            text	"For roasting marshmellows, not players."
+         end
+      end
+      object fireC1052-20 of FireC
+         properties
+            x	219
+            y	258
+            loop	0
+         end
+         base described
+            text	"For roasting marshmellows, not players."
+         end
+      end
+   end
+end
+room 6068
+   properties
+      picture	3000
+      roomName	"Cloud Nine"
+      west 6069
+   end
+   atpinfo
+      94  334 2 -100
+      240  347 312 30
+      240  550 228 20
+      240  285 279 20
+      240  573 317 20
+      240  346 251 20
+      240  387 331 20
+      240  368 281 20
+      240  615 287 20
+      240  433 275 20
+      240  410 309 20
+      240  389 205 20
+      240  208 323 20
+      7900  512 212
+      241  364 239
+      32965  300 169
+      197  286 167
+      243  356 52
+      244  417 196
+      240  504 252 20
+      246  176 116
+      240  117 528 250
+      240  537 262 20
+      241  452 283
+      141  201 164
+      141  311 163
+      141  286 163
+      141  318 161
+      141  372 159
+      141  233 163
+      141  393 162
+      142  393 172
+      142  406 168
+      21  424 166
+      21  356 165
+      21  280 165
+      21  206 166
+      34074  382 199
+      1307  360 122
+      1304  56 183
+      1306  73 203
+      34074  272 204
+      32965  643 148
+      7900  -25 211
+      1306  597 196
+      21  554 135
+      21  509 136
+      21  446 138
+      21  468 147
+      240  548 118 20
+      240  237 50 20
+      243  523 75
+      21  345 138
+      21  281 139
+      21  216 139
+      21  173 145
+      21  144 138
+      240  573 200 20
+      32965  62 143
+      141  239 179
+      141  536 145
+      141  596 142
+      240  16 318 20
+      240  317 87
+      240  498 276 20
+      240  445 273 20
+      240  345 275 20
+      240  97 236 20
+      2713  274 98
+      2714  183 135
+      33008  85 87 20
+      1306  674 191
+      1306  42 138
+      240  175 220 20
+      2714  253 179
+      2714  192 426 200
+      2714  116 393 200
+      34075  -32 130 -10
+      2714  109 309 200
+      2714  45 345 200
+      2714  65 429 150
+      2714  141 484 200
+      7900  239 211
+      1303  535 145
+      1303  366 150
+      1303  190 128 -20
+      1305  407 142
+      1307  464 137
+      1307  169 123 -10
+      240  85 505 250
+      141  201 154
+      141  227 153
+      141  256 161
+      141  419 161
+      141  408 157
+      141  431 171
+      141  593 146
+      141  518 162
+      141  492 166
+      141  463 167
+      141  445 165
+      141  297 157
+      141  318 188
+      141  308 178
+      141  264 179
+      141  136 148
+      141  245 187
+      141  152 141
+      141  276 183
+      141  195 191
+      141  269 156
+      141  175 163
+      141  194 163
+      141  173 178
+      142  280 173
+      142  214 183
+      142  513 150
+      2714  244 265
+      240  402 206
+      240  588 205
+   end
+   objects
+      object hollowTree6068-0 of HollowTree
+         properties
+            x	82
+            y	306
+            loop	0
+            linkTo	hollowTree6069-7
+         end
+         base openable
+            isOpen	1
+         end
+         base described
+            text	"You see the canopy of a grand oak reaching through the clouds!"
+         end
+      end
+   end
+end
+room 1050
+   properties
+      picture	4000
+      north	1059
+      south	1055 615 79
+      west 1057
+      east 6069
+      roomName	"Oasis"
+   end
+   atpinfo
+      35765  204 171 -20
+      35765  160 175 -20
+      2997  653 192 -20
+      2997  154 153 -20
+      2711  56 150
+      2339  461 109
+      21  636 225 -10
+      32789  108 147
+      32791  519 104
+      21  639 125
+      32789  544 98
+      32789  27 108
+      2997  243 165 -20
+      21  409 279 -10
+      63  434 149 -10
+      23  351 107
+      22  224 113
+      35765  0 155 -25
+      2340  72 140
+      2997  542 178 -20
+      21  192 196 -10
+      21  471 192 -10
+      2340  580 140
+      2340  515 140
+      63  543 152 -10
+      32790  280 250 -10
+      22  471 216 -10
+      35765  212 139 -20
+      2997  554 161 -20
+      22  29 196 -10
+      32790  48 185
+      21  486 125
+      21  90 262
+      2956  200 151
+      32791  197 261
+      22  274 167
+      2997  40 193 -20
+      43  11 147
+      2997  688 163 -20
+      35107  124 134
+      2997  279 153 -20
+      22  639 172
+      2340  -15 140
+      21  281 121 -10
+      63  424 146 -5
+      63  216 143
+      63  624 151 -10
+      2997  417 171 -20
+      21  294 184 -10
+      21  595 149
+      2956  387 132
+      63  610 151 -10
+      63  495 151 -10
+      2997  77 177 -20
+      22  421 177 -10
+      21  625 202 -10
+      22  490 160
+      2997  365 163 -20
+      2997  498 158 -20
+      63  588 156
+      2997  382 145 -20
+      35765  52 283 -20
+      32790  411 240 -10
+      35765  592 175 -20
+      23  561 274
+      2997  316 128 -20
+      32790  219 279
+      21  544 251 -10
+      63  567 150 -10
+      63  53 153
+      63  79 154
+      63  37 151 -5
+      63  127 154
+      63  383 149
+      63  105 154
+      2997  220 120 -20
+      63  461 150 -5
+      63  197 135
+      63  521 158
+      63  360 134 -10
+      2997  173 168 -20
+      63  14 155
+      63  205 154
+      63  178 155
+      63  150 151 -5
+      63  625 155
+      2359  60 141 20
+      2997  453 170 -20
+      2997  155 299 -20
+      21  109 71 -10
+      21  61 64 -10
+      2711  571 148
+      2711  101 150
+      2711  15 150
+      2711  160 148
+      2711  609 146
+      2711  496 149
+      2711  437 145
+      2997  51 231 -20
+      43  115 147
+      7900  101 141
+      7900  480 148
+      7908  633 151
+      2997  240 66 -50
+      2997  379 70 -50
+      32874  529 145
+      32872  23 308
+      2997  398 111 -20
+      2997  402 119 -20
+      2997  57 214 -20
+      35765  608 213 -20
+      35765  -45 258 -20
+      3  378 70
+      3  379 58
+      3  381 25
+      2997  283 112 -20
+      35765  584 251 -20
+      2381  297 72 -50
+      35765  623 231 -20
+      2953  70 146
+      2953  582 148
+      32790  -22 146
+      32790  29 165
+      43  177 147 10
+      43  160 145 10
+      2997  317 100 -20
+      2953  679 372
+      2953  464 143
+      64  351 145
+      104  385 142
+      106  15 302
+      104  203 140
+      32872  212 141
+      64  388 149
+      64  426 147
+      64  468 151
+      64  200 152
+      64  167 148
+      64  145 153
+      64  106 152
+      64  522 155
+      64  580 154
+      64  64 153
+      64  23 152
+      64  494 153
+      64  612 154
+      64  195 142
+      64  20 308
+      35765  43 187 -20
+      2997  107 266 -20
+      2997  110 248 -20
+      2997  593 304 -20
+      35765  537 286 -20
+      35765  606 267 -20
+      35765  2 309 -20
+      7903  432 114
+      7903  159 116
+      63  344 129 -10
+      64  340 129
+      63  376 119
+      63  391 116
+      64  358 116
+      63  232 140
+      63  222 130
+      63  206 123
+      63  234 147
+      64  225 141
+      64  214 138
+      2956  387 115
+      35724  213 116
+      21  297 218 -10
+      21  248 230 -10
+   end
+end
+room 1055
+   properties
+      picture	4000
+      north	1050 500 318 
+      roomName	"Magic Emporium Storefront"
+   end
+   atpinfo
+      110  261 153
+      111  344 251
+      112  235 191
+      184  399 225
+      20  190 96
+      21  90 132
+      24  55 97
+      2338  -4 123
+      24  294 216
+      24  140 135
+      24  388 79
+      24  392 114
+      32792  542 131 20
+      21  496 147
+      24  277 189 20
+      24  43 172 20
+      24  505 164 20
+      21  188 118
+      32792  540 189 20
+      32792  105 210 20
+      32792  37 264 20
+      32792  487 215 20
+      24  521 270 20
+      24  76 298 20
+      24  536 298 20
+      32792  507 55 20
+      2955  157 265
+      110  456 294
+      2362  104 113
+      35106  314 123
+      35130  207 114
+      24  541 9 20
+      32792  647 45 20
+      24  315 282
+      20  577 124 20
+      2338  314 123
+      2338  396 110
+      2338  444 103
+      2241  96 145 20
+      2241  216 138 15
+      22  217 181
+      22  83 237 30
+      22  515 135 20
+      22  496 256 10
+      32792  335 276 20
+      24  588 158 50
+      200  74 239
+      233  594 351 1
+      32790  599 112 30
+      32782  -40 149
+      2363  540 91
+      24  310 290
+      7900  329 127
+      7900  422 127
+      32784  398 124
+      32784  243 146
+   end
+   objects
+      object torch1055-0 of Torch
+         properties
+            x	265
+            y	142
+            loop	0
+         end
+      end
+      object torch1055-1 of Torch
+         properties
+            x	45
+            y	142
+            loop	0
+         end
+      end
+      object stool1055-2 of Stool
+         properties
+            x	343
+            y	195
+            loop	2
+         end
+      end
+      object stool1055-3 of Stool
+         properties
+            x	507
+            y	193
+            loop	2
+         end
+      end
+      object stool1055-4 of Stool
+         properties
+            x	447
+            y	165
+            loop	2
+         end
+      end
+      object stool1055-5 of Stool
+         properties
+            x	407
+            y	165
+            loop	2
+         end
+      end
+      object fountain1055-6 of Fountain
+         properties
+            x	420
+            y	197
+            loop	0
+         end
+      end
+      object simpleDoor1055-7 of SimpleDoor
+         properties
+            x	154
+            y	125
+            loop	2
+            linkTo	door1056-0
+         end
+         base openable
+            isOpen	0
+         end
+      end
+      object stool1055-8 of Stool
+         properties
+            x	369
+            y	174
+            loop	2
+         end
+      end
+      object stool1055-9 of Stool
+         properties
+            x	481
+            y	177
+            loop	2
+         end
+      end
+   end
+end
+room 1057
+   properties
+      picture	3001
+      east	1050 
+      roomName	"Oasis Garden"
+   end
+   atpinfo
+      63  275 290
+      64  268 296
+      63  349 291
+      64  350 281
+      63  358 274
+      64  323 270
+      63  318 268
+      64  270 265
+      63  265 270
+      64  226 287
+      63  315 297
+      64  310 290
+      32939  247 63
+      1303  312 73
+      1304  580 91
+      1306  446 87
+      1307  254 85
+      212  608 85
+      211  446 84
+      212  526 84
+      32981  389 84
+      212  327 109 25
+      211  247 111 30
+      212  160 76
+      212  86 77
+      32792  67 84
+      110  162 99
+      200  192 103
+      110  226 100
+      183  260 102
+      100  76 97 10
+      114  113 79
+      34076  468 100 10
+      169  397 62
+      229  145 160
+      227  498 166
+      229  350 162
+      32996  79 145
+      233  37 119
+      225  80 168
+      225  60 154
+      227  493 174
+      66  52 315
+      225  75 157
+      32996  589 187
+      230  235 162
+      229  419 162
+      225  567 203
+      163  557 139
+      7900  108 108
+      32792  294 283
+      7900  332 108
+      7901  525 127
+      7901  580 140
+   end
+   objects
+      object stoneBench1057-0 of StoneBench
+         properties
+            x	177
+            y	297
+            loop	0
+         end
+      end
+      object stoneBench1057-1 of StoneBench
+         properties
+            x	213
+            y	264
+            loop	2
+         end
+      end
+      object stoneBench1057-2 of StoneBench
+         properties
+            x	275
+            y	245
+            loop	2
+         end
+      end
+      object stoneBench1057-3 of StoneBench
+         properties
+            x	343
+            y	244
+            loop	2
+         end
+      end
+      object stoneBench1057-4 of StoneBench
+         properties
+            x	406
+            y	263
+            loop	2
+         end
+      end
+      object stoneBench1057-5 of StoneBench
+         properties
+            x	444
+            y	299
+            loop	1
+         end
+      end
+      object fountain1057-6 of Fountain
+         properties
+            x	308
+            y	289
+            loop	0
+         end
+      end
+      object tent1057-7 of Tent
+         properties
+            x	40
+            y	120
+            loop	0
+         end
+         base described
+            text	"Oasis Gazebo"
+         end
+         base entry
+            room	1058
+            startingLoop	0
+            endingLoop	0
+            startingX	300
+            startingY	500
+            endingX	300
+            endingY	300
+         end
+      end
+   end
+end
+room 1059
+   properties
+      picture	4000
+      south	1050
+      roomName	"Beral's Retreat"
+   end
+   atpinfo
+      2241  0 231
+      2340  490 147 -20
+      2390  146 157 130
+      2360  258 148 80
+      2383  584 160 -20
+      2358  258 157 50
+      2340  291 147 -20
+      2598  148 305
+      2359  258 149 15
+      2350  108 364
+      2104  183 205
+      2358  487 157 50
+      2358  487 158 70
+      2355  618 180 31
+      2358  149 157 70
+      2598  495 250
+      2387  4 169 -20
+      2340  83 147 -20
+      2340  192 147 -20
+      2384  56 161 -20
+      2388  247 150 -19
+      2358  374 157 50
+      2338  -3 151 -20
+      2390  180 157 130
+      2360  374 149 80
+      2388  333 150 -19
+      2392  51 184 144
+      2390  383 157 130
+      2358  374 156 30
+      2358  258 156 30
+      2390  492 157 130
+      2386  639 168 -20
+      2354  618 173 72
+      2354  618 172 52
+      2358  374 158 70
+      2391  596 186 145
+      2390  283 157 130
+      2354  618 173 33
+      2359  487 148 12
+      2339  641 151 -20
+      2385  489 149 -20
+      2358  487 156 30
+      2385  153 149 -20
+      2340  386 146 -20
+      2388  404 150 -19
+      2359  374 151 15
+      2360  149 148 80
+      2358  258 158 70
+      2110  40 158 60
+      2145  7 163 80
+      2103  74 213
+      2359  149 148 12
+      2358  149 156 30
+      2358  149 156 50
+      2360  487 149 80
+      2356  618 162 80
+      7901  60 216
+      7900  400 174
+      14  682 206
+      32782  153 208
+      3  308 165
+      3  536 167
+      3  151 206
+   end
+   objects
+      object Beral1059-1 of Beral
+         properties
+            x	97
+            y	202
+            loop	2
+            name	"Beral"
+         end
+         base character
+            sex	0
+            properName	"Beral (NPC)"
+         end
+         base talk
+            talkTreeID	77277
+         end
+         base container
+            worn	YellowTunic
+            worn	BlackBelt
+            worn	GrayPants
+            worn	BrownBoots
+            head	0 2 0 5 2 6 -1 13 10 3 0 2 
+         end
+      end
+      object chair9001-0 of Chair
+         properties
+            x	47
+            y	296
+            loop	0
+         end
+      end
+      object chair6067-1 of Chair
+         properties
+            x	402
+            y	226
+            loop	0
+         end
+      end
+      object chair6067-2 of Chair
+         properties
+            x	236
+            y	293
+            loop	1
+         end
+      end
+      object chair6067-3 of Chair
+         properties
+            x	587
+            y	229
+            loop	1
+         end
+      end
+      object chair6067-4 of Chair
+         properties
+            x	120
+            y	275
+            loop	2
+         end
+      end
+      object chair6067-5 of Chair
+         properties
+            x	166
+            y	274
+            loop	2
+         end
+      end
+      object chair6067-6 of Chair
+         properties
+            x	465
+            y	216
+            loop	2
+         end
+      end
+      object chair6067-7 of Chair
+         properties
+            x	513
+            y	216
+            loop	2
+         end
+      end
+   end
+end
+room 1058
+   properties
+      picture	4001
+      south	1057 42 122 
+      roomName	"Oasis Gazebo"
+   end
+	atpinfo
+		2280 486 50 
+		2280 197 56 
+		2326 63 65 
+		35094 602 68 
+		2326 30 69 
+		2327 324 101 
+		2165 482 129 
+		2164 171 129 
+		7902 325 234 
+		14 581 259 
+		32782 76 265 
+		2102 495 296 
+		2599 170 309 
+		7904 12 327 
+		40672 650 329 
+	end
+   objects
+      object chair1058-0 of Chair
+         properties
+            x	116
+            y	294
+            loop	0
+         end
+      end
+      object chair1058-1 of Chair
+         properties
+            x	231
+            y	294
+            loop	1
+         end
+      end
+      object chair1058-2 of Chair
+         properties
+            x	153
+            y	290
+            loop	2
+         end
+      end
+      object chair1058-3 of Chair
+         properties
+            x	202
+            y	290
+            loop	2
+         end
+      end
+   end
+end
+room 6069
+   properties
+      picture	3000
+      roomName	"Oasis"
+      west  1050
+   end
+   atpinfo
+      111  186 135
+      35485  36 128 -20
+      183  427 142
+      49  6 118 20
+      1305  167 108
+      35485  82 115
+      2714  149 223 100
+      2714  185 202 100
+      22  119 94
+      22  -6 156 -10
+      171  676 76
+      2954  35 112
+      2954  66 119
+      7900  9 137
+      183  612 218
+      2714  40 214 100
+      32790  9 101
+      32790  106 142
+      171  407 88
+      63  317 272
+      64  185 283
+      204  426 135 -8
+      21  38 135 -10
+      21  143 106 -20
+      211  613 120
+      63  325 289
+      63  227 288
+      63  259 294
+      63  275 291
+      63  275 268
+      32832  322 269
+      64  195 278
+      32832  372 287
+      64  224 291
+      32832  300 267
+      64  255 266
+      183  409 282
+      1303  186 104
+      1304  589 112
+      1305  423 110
+      1306  442 92
+      210  214 113
+      211  282 114
+      212  354 115
+      213  498 118
+      212  437 116
+      211  530 119
+      113  131 176
+      114  183 154
+      21  133 152
+      183  19 191
+      211  142 112
+      211  63 112
+      211  -3 111
+      197  363 92
+      32965  202 87 5
+      197  332 88
+      7900  511 143
+      7900  258 143
+      1305  608 112
+      2103  560 216
+      64  233 265
+      64  279 290
+      63  234 272
+      32832  362 279
+      63  303 294
+      20  74 149 -20
+      35485  380 125
+      35485  297 125
+      35485  205 121
+      35485  475 125
+      35485  566 126
+      35485  639 125
+      183  136 303
+      183  429 307
+      183  384 265
+      183  178 265
+      183  244 247
+      183  311 247
+      183  206 314
+      112  231 303
+      112  353 302
+      115  241 296
+      183  514 216
+      183  566 216
+      32883  310 296
+      183  353 314
+      183  160 286
+      21  25 126
+   end
+   objects
+      object stoneBench6069-0 of StoneBench
+         properties
+            x	416
+            y	303
+            loop	1
+         end
+      end
+      object fountain6069-1 of Fountain
+         properties
+            x	277
+            y	287
+            loop	0
+         end
+      end
+      object stoneBench6069-2 of StoneBench
+         properties
+            x	384
+            y	262
+            loop	2
+         end
+      end
+      object stoneBench6069-3 of StoneBench
+         properties
+            x	318
+            y	245
+            loop	2
+         end
+      end
+      object stoneBench6069-4 of StoneBench
+         properties
+            x	243
+            y	245
+            loop	2
+         end
+      end
+      object stoneBench6069-5 of StoneBench
+         properties
+            x	144
+            y	300
+            loop	0
+         end
+      end
+      object stoneBench6069-6 of StoneBench
+         properties
+            x	175
+            y	262
+            loop	2
+         end
+      end
+      object hollowTree6069-7 of HollowTree
+         properties
+            x	74
+            y	158
+            loop	0
+            linkTo	hollowTree6068-0
+         end
+         base openable
+            isOpen	1
+         end
+         base described
+            text	"You see a grand oak leading up into the clouds! Climb it and take a look around."
+         end
+      end
+      object EventShop6069-8 of Shop
+         properties
+            name	"Dane"
+            x	566
+            y	202
+            loop	2
+         end
+         base described
+            text	"You see Dane.\n\nHe will sell various random goods."
+         end
+         base talk
+            talkTreeID	89900
+         end
+         base character
+            properName	"Dane (NPC)"
+            title	"Dane"
+            sex	0
+         end
+         base container
+            worn	maWHH
+            worn	EvilTunic
+            worn	EvilPants
+            worn  bWarlock
+            worn  ShieldWall
+            worn  maFinvarraCowl
+            worn  maFinvarraBracers
+            worn  FinvarraBaldric
+            worn  Robe
+            head	0 2 6 2 6 4 5 1 3 6 3 1 
+         end
+		 base shop
+			buyMarkup   50
+			sellMarkup 100
+				inventory
+
+               category "Mana Crystals" 50883
+						mana
+					end
+               category "God Keys" 50273
+                  object DuachKeyShop
+                  object FinvarraKeyShop
+                  object ElphameKeyShop
+                  object MabonKeyShop
+                  object EnidKeyShop
+               end
+					category "Equipment" 50233
+						object BackPack
+						object LeatherPouch
+						object WeaponsmithTool
+						object ArmorerTool
+						object AlchemyTool
+						object Lockpick
+						object Mirror
+						object Bowl
+						object Chalice
+						object Mug
+						object Candle
+						object Plate
+					end
+
+					category "Potions" 51583
+						object eLife
+						object ePurify
+						object pHealth
+						object pCurePoison
+                  object pClumsiness
+                  object pWeakness
+						object pSeeInvisibility
+						object pDexterity
+                  object pRegeneration
+						object pGreaterHealth
+						object pStrength
+						object pAcidShield
+						object pColdShield
+						object pLightningShield
+						object pFireShield
+						object pPoisonShield
+						object pInvulnerability
+						object pShift
+						object pGreaterInvisibility
+					end
+
+					category "Scrolls" 51033
+						object sIdentify
+						object sImmolation
+						object sMissileResistance
+						object sResistCold
+						object sResistFire
+						object sResistLightning
+						object sShield
+						object sGreaterShield
+                  object sWraithform
+                  object sRusting
+						object sMonsterSummoningI
+						object sMonsterSummoningII
+                  object sMonsterSummoningIII
+					end
+
+					category "Rare Spellbooks"
+						object ShopspbUnlock
+                  object ShopspbGreaterIdentify
+                  object ShopspbFumble
+                  object ShopspbMassFumble
+                  object ShopspbGustOfWind
+                  object ShopspbSummonBat
+                  object ShopspbSummonFenris
+                  object ShopspbSummonImp
+                  object ShopspbSummonOgre
+                  object ShopspbSummonRatling
+                  object ShopspbSummonSeraph
+                  object ShopspbSummonTroll
+                  object ShopspbMonsterSummonI
+                  object ShopspbMonsterSummonII
+                  object ShopspbMonsterSummonIII
+					end
+
+					category "Food" 52133
+						object Meat
+						object Cheese
+						object Bread
+						object Veggies
+                  object OgreSoulA
+                  object OgreSoulB
+                  object OgreSoulC
+                  object OgreSoulD
+                  object AzazelSoulA
+                  object AzazelSoulB
+                  object AzazelSoulC
+                  object AzazelSoulD
+					end
+
+					category "Drink" 52233
+						object AncientWine
+                  object AleJug
+				      object WineFlask
+				      object Ambrosia
+					end
+
+					category "Dyes" 51583
+                  category "Exotic" 15133
+						   object dFinvarra
+                     object dLightFinvarra
+                     object dLighterFinvarra
+                     object dLightestFinvarra
+                     object dDarkestPharlap
+                     object dBlackBrown
+                     object dDarkestSilk
+                     object dNaturalBrown
+                     object dBrownGlow
+                     object dDarkBrownGlow
+                     object dSatori
+                     object dPaleYellow
+                     object dPrussianBlue
+                     object dBlackLatex
+                     object dDeepSkyBlue
+                     object dDarkBlackGlow
+                     object dBrightWhite
+                     object dDarkMudBrown
+                     object dShiftingBlack
+                     object dShiftingLime
+                     object hdShiftingWhite
+                     object hdShiftingAllWhite
+                     object dShiftingLightestChrome
+					   end
+
+                  category "Standard" 5342
+                     object dOlive
+						   object dLime
+						   object dBlue
+						   object dAzure
+						   object dRed
+						   object dPink
+						   object dGold
+						   object dYellow
+						   object dViolet
+						   object dMagenta
+						   object dBrown
+						   object dTan
+						   object dAqua
+						   object dTeal
+						   object dGreen
+						   object dJade
+						   object dOrange
+						   object dAmber
+						   object dRoyal
+						   object dPurple
+						   object dBlack
+						   object dGray
+						   object dWhite
+					   end
+               end
+
+					category "Weapons" 15133
+						object AdmantiumTwoHandSword
+                  object AdmantiumThrowingDagger
+                  object AdmantiumDagger
+                  object AdmantiumClaw
+                  object AdmantiumShortSword
+                  object AdmantiumLongSword
+                  object AdmantiumBroadSword
+                  object AdmantiumClub
+                  object AdmantiumMace
+                  object AdmantiumAxe
+                  object AdmantiumMaul
+					end
+
+					category "Armor" 13633
+                  category "Magical Armor" 15543
+                     object maInvulPlate
+                     object maBracersOfDefense
+                     object maInsulPlate
+                     object maDragonPlate
+                  end
+                  
+                  category "Admantium Armor" 13633
+                     object AdmantiumHelmet
+							object AdmantiumLegionHelmet
+							object AdmantiumMinervaHelmet
+							object AdmantiumSollerets
+							object AdmantiumCowl
+							object AdmantiumChainPants
+							object AdmantiumPlatePants
+							object AdmantiumChainTunic
+							object AdmantiumPlateTunic
+							object Admantiumband
+						end
+
+						category "Tempered-Steel Armor" 13633
+							object TemperedSteelHelmet
+							object TemperedSteelLegionHelmet
+							object TemperedSteelMinervaHelmet
+							object TemperedSteelSollerets
+							object TemperedSteelCowl
+							object TemperedSteelChainPants
+							object TemperedSteelPlatePants
+							object TemperedSteelChainTunic
+							object TemperedSteelPlateTunic
+							object TemperedSteelband
+						end
+
+						category "Mythril Armor" 13733
+							object MythrilHelmet
+							object MythrilLegionHelmet
+							object MythrilMinervaHelmet
+							object MythrilSollerets
+							object MythrilCowl
+							object MythrilChainPants
+							object MythrilPlatePants
+							object MythrilChainTunic
+							object MythrilPlateTunic
+							object Mythrilband
+						end
+
+						category "Shields" 16533
+							object TemperedSteelRoundShield
+							object MythrilRoundShield
+							object TemperedSteelLargeShield
+							object MythrilLargeShield
+                     object WoodShield
+						end #------------------ End Shields ------------------
+					end		#------------------ End Armor Shop ------------------
+				end			#------------------ End Inventory ------------------
+			end				#------------------ End Base Shop ------------------
+		end					#------------------ End Shop Object ------------------
+   end
+end

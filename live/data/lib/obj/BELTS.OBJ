@@ -1,0 +1,582 @@
+#
+# define the different types of belts
+#
+
+object Belt of Clothing
+	properties
+		name "Belt"
+		basicName "belt"
+		view 10200
+		clutStart 78
+		value 15
+		health 60
+	end
+
+	base carryable
+		weight 0.5
+	end
+
+	base wearable
+		areaWorn 8
+		layer 60
+	end
+
+	components
+		ClothBolt
+    end
+
+	base described
+		text "You see a Belt."
+		shopText "This is a fine belt."
+	end
+end
+
+#
+# Magic belts
+#
+
+object bStrength of Belt
+	properties
+		name "Belt of Strength"
+		value 4500
+		health 150
+		color -1
+	end
+
+	actions
+		vBePutOn setAffect dobj 39 0 0 -1
+		vBeTakenOff clearAffect dobj 39 0 0
+	end
+
+	base described
+		idText "You see a Belt of Strength - wearing this belt will make you stronger."
+		shopText "Ahh... a magical Belt of Strength.  This wonderous belt will make you much stronger."
+	end
+end
+
+object bWeakness of Belt
+	properties
+		name "Belt of Weakness"
+		value 100
+		health 150
+		color -1
+
+		# cursed
+		affect 46 0 0 -1
+	end
+
+	actions
+		vBePutOn setAffect dobj 40 0 0 -1
+		vBeTakenOff clearAffect dobj 40 0 0
+	end
+
+	base described
+		idText "You see a Belt of Weakness.  Wearing this belt will reduce your strength."
+		shopText "This is a Belt of Weakness - it will reduce your strength."
+	end
+end
+
+object bLoad of Belt
+	properties
+		name "Belt of Load"
+		value 100
+		health 150
+		color -1
+
+		# cursed
+		affect 46 0 0 -1
+	end
+
+	actions
+		vBePutOn setAffect dobj 73 0 0 -1
+		vBeTakenOff clearAffect dobj 73 0 0
+	end
+
+	base described
+		idText "You see a Belt of Load.  Wearing this belt will make it hard to carry other items."
+		shopText "This magical Belt of Load will weigh you down heavily.  It will make it hard to carry other items."
+	end
+end
+
+object bCarrying of Belt
+	properties
+		name "Belt of Carrying"
+		value 5500
+		health 150
+		color -1
+	end
+
+	actions
+		vBePutOn setAffect dobj 72 0 0 -1
+		vBeTakenOff clearAffect dobj 72 0 0
+	end
+
+	base described
+		idText "This Belt of Carrying will help you carry more items than normal."
+		shopText "This magical Belt of Carrying will allow you to carry more items."
+	end
+end
+
+#------------------------------------------------------------
+object bFinvarra of Belt
+	properties
+		name "Finvarra's Belt"
+		value 7500
+		health 150
+		color 103
+		special
+	end
+
+	actions
+		# Encumberance Blessing
+		vBePutOn setAffect dobj 72 0 0 -1
+		vBeTakenOff clearAffect dobj 72 0 0
+		# Empower
+		vBePutOn setAffect dobj 39 0 0 -1
+		vBeTakenOff clearAffect dobj 39 0 0
+	end
+
+	base described
+		idText "Finvarra's Belt makes you stronger and helps you carry more weight."
+		shopText "This magical Finvarra's Belt will allow you to carry more items."
+	end
+end
+
+
+object FinColorBelt of Belt
+	properties
+	special
+		color 115
+	end
+end
+#---------------------------#
+#							#
+#							#
+#		New Belts			#
+#							#
+#							#
+#							#
+#---------------------------#
+object bGladiatorBelt of Belt
+	properties
+	special
+		name "Gladiator's Cuisses"
+		value 3500
+		health 1500
+		color 43
+		level 550
+	end
+	
+	base carryable
+		weight .5
+	end
+		
+	base wearable
+                # only Warriors
+                mask wizard
+                mask adventurer
+                mask thief
+	end
+	
+	actions
+		vBePutOn setAffect dobj 72 0 0 -1			#Carry Capacity
+		vBeTakenOff clearAffect dobj 72 0 0
+		vBePutOn setAffect dobj 56 0 0 -1			#Attack
+		vBeTakenOff clearAffect dobj 56 0 0
+		vBePutOn setAffect dobj 39 0 0 -1			#Str
+		vBeTakenOff clearAffect dobj 39 0 0
+		vBePutOn setAffect dobj 67 0 0 -1			#Nourishment
+		vBeTakenOff clearAffect dobj 67 0 0
+	end
+
+	base described
+		text "You see a strange glowing belt."
+		idText "A pair of pieces of armor for your hip region. This style armor was once worn by ancient Gladiators. Wearing these you will gain an Extra Attack, Nourishment, Carry Capacity and Strength. \n This cuisses requires a wearer of level 550 or higher.\n "
+		shopText "Wow, a Cuisses!!"
+	end
+end
+#------------------------------------------------------------
+object bTravellersGirdle of Belt
+	properties
+	special
+		name "Traveller's Girdle"
+		value 3500
+		health 1500
+		color 43
+		level 550
+	end
+	
+	base carryable
+		weight .5
+	end
+		
+	base wearable
+                # only Adv
+                mask wizard
+                mask warrior
+                mask thief
+	end
+	
+	actions
+		vBePutOn setAffect dobj 72 0 0 -1			#Carry Capacity
+		vBeTakenOff clearAffect dobj 72 0 0
+		vBePutOn setAffect dobj 67 0 0 -1			#Nourishment
+		vBeTakenOff clearAffect dobj 67 0 0
+		vBePutOn setAffect dobj 39 0 0 -1			#Str
+		vBeTakenOff clearAffect dobj 39 0 0
+		vBePutOn setAffect dobj 59 0 0 -1			#Dex
+		vBeTakenOff clearAffect dobj 59 0 0
+	end
+
+	base described
+		text "You see a strange glowing belt."
+		idText "A Traveller's Girdle. Wearing this will ensure you can carry anything you need in your travels. It will grant you Nourishment as well as Strength and Dexterity. \n This girdle requires a wearer of level 550 or higher.\n "
+		shopText "What a Girdle!"
+	end
+end
+#------------------------------------------------------------
+object bArcaneBelt of Belt
+	properties
+	special
+		name "Arcane Belt"
+		value 3500
+		health 1500
+		color 43
+		level 550
+	end
+	
+	base carryable
+		weight .5
+	end
+		
+	base wearable
+                # only Wiz
+                mask warrior
+                mask adventurer
+                mask thief
+	end
+	
+	actions
+		vBePutOn setAffect dobj 72 0 0 -1						#Carry Capacity
+		vBeTakenOff clearAffect dobj 72 0 0
+		vBePutOn setAffect dobj 67 0 0 -1						#Nourishment
+		vBeTakenOff clearAffect dobj 67 0 0
+		vBePutOn setAffect dobj 61 0 0 -1                       #Intel
+        vBeTakenOff clearAffect dobj 61 0 0                
+		vBePutOn setAffect dobj 59 0 0 -1						#Dex
+		vBeTakenOff clearAffect dobj 59 0 0
+	end
+
+	base described
+		text "You see a strange glowing belt."
+		idText "An Arcane Belt. This belt will grant you the ability to carry more, it will quench your hunger, and provide a slight boost to Intelligence and Dexterity.\n This belt requires a wearer of level 550 or higher.\n "
+		shopText "An Arcane Belt? I might want that for myself.."
+	end
+end
+#------------------------------------------------------------
+object bThievesTools of Belt
+	properties
+	special
+		name "Thieves Tools"
+		value 3500
+		health 1500
+		color 43
+		level 550
+	end
+	
+	base carryable
+		weight 1
+	end
+		
+	base wearable
+                # only Thief
+                mask warrior
+                mask adventurer
+                mask wizard
+	end
+	
+	actions
+		vBePutOn setAffect dobj 72 0 0 -1						#Carry Capacity
+		vBeTakenOff clearAffect dobj 72 0 0
+		vBePutOn setAffect dobj 67 0 0 -1						#Nourishment
+		vBeTakenOff clearAffect dobj 67 0 0
+		vBePutOn setAffect dobj 59 0 0 -1						#Dex
+		vBeTakenOff clearAffect dobj 59 0 0
+		vBePutOn setAffect dobj 59 0 0 -1						#Dex
+		vBeTakenOff clearAffect dobj 59 0 0
+		vBePutOn setAffect dobj 2 2 0 -1						#Cold Protect
+		vBeTakenOff clearAffect dobj 2 2 0		
+	end
+
+	base described
+		text "A belt with a set of tools attached."
+		idText "A set of Thieves tools. On this belt there are an assortment of lockpicks, poison and other nefarious tools. Wearing these tools you will gain considerable Dexterity, gain the ability to carry more stolen goods, resist the Cold better and won't have to eat as often. \n Ththese tools require a wearer of level 550 or higher.\n "
+		shopText "Thieves tools huh? No funny business."
+	end
+end
+#------------------------------------------------------------
+object SantaBelt of Belt
+	properties
+	special
+		color 98	# Black
+	end
+end
+#------------------------------------------------------------
+object bSurvivor of Belt
+	properties
+	special
+		name "Survivor Belt"
+		value 4750
+		health 1500
+		color 16         	# Coral Red Glow
+		level 200
+	end
+	
+	base carryable
+		weight .2
+	end
+	
+	actions
+		vBePutOn setAffect dobj 72 0 0 -1			#Carry Capacity
+		vBeTakenOff clearAffect dobj 72 0 0
+        vBePutOn setAffect dobj 56 0 0 -1			#Attack
+		vBeTakenOff clearAffect dobj 56 0 0
+		vBePutOn setAffect dobj 39 0 0 -1			#Str
+		vBeTakenOff clearAffect dobj 39 0 0
+		vBePutOn setAffect dobj 63 0 0 -1       	#Endurance
+		vBeTakenOff clearAffect dobj 63 0 0
+	end
+
+	base described
+		text "You see a strange glowing belt."
+		idText "A belt made from extremely sturdy daemon hide. This belt will provide an additional attack, as well as a boost to your Strength and Endurance, and carry capacity.\n\nLevel Required: 200\n\n"
+		shopText "A belt made from extremely sturdy daemon hide. This belt will provide an additional attack, as well as a boost to your Strength and Endurance, and carry capacity.\n\nLevel Required: 200\n\n"
+	end
+end
+#------------------------------------------------------------
+object bWarlock of Belt
+	properties
+	special
+		name "Warlock Sash"
+		value 4750
+		health 1500
+		color 16         	# Coral Red Glow
+		level 200
+	end
+	
+	base carryable
+		weight .2
+	end
+	
+	actions
+		vBePutOn setAffect dobj 72 0 0 -1			#Carry Capacity
+		vBeTakenOff clearAffect dobj 72 0 0
+		vBePutOn setAffect dobj 59 0 0 -1			# Dex
+		vBeTakenOff clearAffect dobj 59 0 0
+        vBePutOn setAffect dobj 59 0 0 -1			# Dex
+		vBeTakenOff clearAffect dobj 59 0 0
+        vBePutOn setAffect dobj 61 0 0 -1           # Intel Boost
+		vBeTakenOff clearAffect dobj 61 0 0
+	end
+
+	base described
+		text "You see a strange glowing belt."
+		idText "A belt made from extremely sturdy fenris hide. This belt will provide a boost to your Intelligence as well as a considerable boost to your Dexterity, and carry capacity.\n\nLevel Required: 200\n\n"
+		shopText "A belt made from extremely sturdy fenris hide. This belt will provide a boost to your Intelligence as well as a considerable boost to your Dexterity, and carry capacity.\n\nLevel Required: 200\n\n"
+	end
+end
+
+
+
+
+
+
+
+
+
+
+object bWarrior of Belt
+	properties
+	special
+		name "Warrior Cinch"
+		value 3500
+		health 1500
+		color 16	# Coral Red Glow
+		level 2000
+	end
+	
+	base carryable
+		weight 0
+	end
+		
+	base wearable
+        # only Warriors
+        mask wizard
+        mask adventurer
+        mask thief
+	end
+	
+	actions
+		vBePutOn setAffect dobj 72 0 0 -1			# Carry Capacity
+		vBeTakenOff clearAffect dobj 72 0 0
+		vBePutOn setAffect dobj 56 0 0 -1			# Attack
+		vBeTakenOff clearAffect dobj 56 0 0
+		vBePutOn setAffect dobj 39 0 0 -1			# Str
+		vBeTakenOff clearAffect dobj 39 0 0
+		vBePutOn setAffect dobj 39 0 0 -1			# Str
+		vBeTakenOff clearAffect dobj 39 0 0
+		vBePutOn setAffect dobj 39 0 0 -1			# Str
+		vBeTakenOff clearAffect dobj 39 0 0
+		vBePutOn setAffect dobj 67 0 0 -1			# Nourishment
+		vBeTakenOff clearAffect dobj 67 0 0
+		vBePutOn setAffect dobj 17 0 0 -1		  	# See Invis
+		vBeTakenOff clearAffect dobj 17 0 0
+	end
+
+	base described
+		text "A belt hot to the touch..\n"
+		idText "A Warrior's Cinch.\nWearing this you will gain an Extra Attack, Nourishment, Carry Capacity, Triple Strength and the ability to see invisible beings.\n\nLevel Required: 2000\n\n"
+		shopText "A Warrior's Cinch.\nWearing this you will gain an Extra Attack, Nourishment, Carry Capacity, Triple Strength and the ability to see invisible beings.\n\nLevel Required: 2000\n\n"
+	end
+end
+#------------------------------------------------------------
+object bAdventurer of Belt
+	properties
+	special
+		name "Adventurer Cinch"
+		value 3500
+		health 1500
+		color 16	# Coral Red Glow
+		level 2000
+	end
+	
+	base carryable
+		weight 0
+	end
+		
+	base wearable
+        # only Adv
+        mask wizard
+        mask warrior
+        mask thief
+	end
+	
+	actions
+		vBePutOn setAffect dobj 72 0 0 -1			# Carry Capacity
+		vBeTakenOff clearAffect dobj 72 0 0
+		vBePutOn setAffect dobj 67 0 0 -1			# Nourishment
+		vBeTakenOff clearAffect dobj 67 0 0
+		vBePutOn setAffect dobj 39 0 0 -1			# Str
+		vBeTakenOff clearAffect dobj 39 0 0
+		vBePutOn setAffect dobj 39 0 0 -1			# Str
+		vBeTakenOff clearAffect dobj 39 0 0
+		vBePutOn setAffect dobj 59 0 0 -1			# Dex
+		vBeTakenOff clearAffect dobj 59 0 0
+		vBePutOn setAffect dobj 59 0 0 -1			# Dex
+		vBeTakenOff clearAffect dobj 59 0 0
+		vBePutOn setAffect dobj 61 0 0 -1           # Intel
+        vBeTakenOff clearAffect dobj 61 0 0
+		vBePutOn setAffect dobj 61 0 0 -1           # Intel
+        vBeTakenOff clearAffect dobj 61 0 0
+		vBePutOn setAffect dobj 17 0 0 -1		  	# See Invis
+		vBeTakenOff clearAffect dobj 17 0 0
+	end
+
+	base described
+		text "A belt hot to the touch..\n"
+		idText "An Adventurer's Cinch.\nWearing this you will gain Nourishment, Carry Capacity, as well as Double Strength, Dexterity and Intelligence plus the ability to see invisible beings.\n\nLevel Required: 2000\n\n"
+		shopText "An Adventurer's Cinch.\nWearing this you will gain Nourishment, Carry Capacity, as well as Double Strength, Dexterity and Intelligence plus the ability to see invisible beings.\n\nLevel Required: 2000\n\n"
+	end
+end
+#------------------------------------------------------------
+object bWizard of Belt
+	properties
+	special
+		name "Wizard Cinch"
+		value 3500
+		health 1500
+		color 16	# Coral Red Glow
+		level 2000
+	end
+	
+	base carryable
+		weight 0
+	end
+		
+	base wearable
+        # only Wiz
+        mask warrior
+    	mask adventurer
+    	mask thief
+	end
+	
+	actions
+		vBePutOn setAffect dobj 72 0 0 -1						# Carry Capacity
+		vBeTakenOff clearAffect dobj 72 0 0
+		vBePutOn setAffect dobj 67 0 0 -1						# Nourishment
+		vBeTakenOff clearAffect dobj 67 0 0
+		vBePutOn setAffect dobj 61 0 0 -1                       # Intel
+        vBeTakenOff clearAffect dobj 61 0 0
+		vBePutOn setAffect dobj 61 0 0 -1                       # Intel
+        vBeTakenOff clearAffect dobj 61 0 0
+		vBePutOn setAffect dobj 61 0 0 -1                       # Intel
+        vBeTakenOff clearAffect dobj 61 0 0
+		vBePutOn setAffect dobj 17 0 0 -1		  				# See Invis
+		vBeTakenOff clearAffect dobj 17 0 0
+		vBePutOn changeSDM dobj 200 1 3 4             			# 200% SDM Boost (Thaum, Ele, Necro)
+		vBeTakenOff changeSDM dobj -200 1 3 4
+	end
+
+	base described
+		text "A belt hot to the touch..\n"
+		idText "A Wizard's Cinch.\nWearing this you will gain Nourishment, Carry Capacity, as well as Triple Intelligence plus the ability to see invisible beings.\n200% SDM Circle Boost\n\nLevel Required: 2000\n\n"
+		shopText "A Wizard's Cinch.\nWearing this you will gain Nourishment, Carry Capacity, as well as Triple Intelligence plus the ability to see invisible beings.\n200% SDM Circle Boost\n\nLevel Required: 2000\n\n"
+	end
+end
+#------------------------------------------------------------
+object bThief of Belt
+	properties
+	special
+		name "Thieves Cinch"
+		value 3500
+		health 1500
+		color 16	# Coral Red Glow
+		level 2000
+	end
+	
+	base carryable
+		weight 0
+	end
+		
+	base wearable
+        # only Thief
+        mask warrior
+        mask adventurer
+        mask wizard
+	end
+	
+	actions
+		vBePutOn setAffect dobj 72 0 0 -1						# Carry Capacity
+		vBeTakenOff clearAffect dobj 72 0 0
+		vBePutOn setAffect dobj 67 0 0 -1						# Nourishment
+		vBeTakenOff clearAffect dobj 67 0 0
+		vBePutOn setAffect dobj 59 0 0 -1						# Dex
+		vBeTakenOff clearAffect dobj 59 0 0
+		vBePutOn setAffect dobj 59 0 0 -1						# Dex
+		vBeTakenOff clearAffect dobj 59 0 0
+		vBePutOn setAffect dobj 59 0 0 -1						# Dex
+		vBeTakenOff clearAffect dobj 59 0 0
+		vBePutOn setAffect dobj 59 0 0 -1						# Dex
+		vBeTakenOff clearAffect dobj 59 0 0	
+		vBePutOn setAffect dobj 17 0 0 -1		  				# See Invis
+		vBeTakenOff clearAffect dobj 17 0 0
+		vBePutOn setAffect dobj 57 0 0 -1						# Dodge
+		vBeTakenOff clearAffect dobj 57 0 0
+	end
+
+	base described
+		text "A belt with a set of tools attached."
+		idText "A Thieves Cinch.\nWearing this you will gain Nourishment, Carry Capacity, as well as Quadruple Dexterity, a dodge plus the ability to see invisible beings.\n\nLevel Required: 2000\n\n"
+		shopText "A Thieves Cinch.\nWearing this you will gain Nourishment, Carry Capacity, as well as Quadruple Dexterity, a dodge plus the ability to see invisible beings.\n\nLevel Required: 2000\n\n"
+	end
+end

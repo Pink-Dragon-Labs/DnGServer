@@ -1,0 +1,13 @@
+name "fafnirswamp"
+title "Fafnir's Swamp"
+worldFile "../data/lib/world/SWAMP1.WLD"
+worldFile "../data/lib/world/SWAMP2.WLD"
+worldFile "../data/lib/world/SWAMP3.WLD"
+
+resetInterval 9000000
+maximumObjectAge 0
+allowCombat 11
+midiFile 17
+groupChance 20
+
+

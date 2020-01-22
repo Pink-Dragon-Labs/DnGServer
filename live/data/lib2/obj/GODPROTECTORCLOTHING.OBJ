@@ -1,0 +1,242 @@
+#-------------------------------------------------
+#					Protector of Duach Gear
+#-------------------------------------------------
+object HelmetDuach of DefenseHelmet
+	properties
+	special
+
+		view 30750
+		name "Helmet of Duach"
+		health 950
+		color 120
+		strength 5
+		armorFlat 105
+		level 200
+	end
+
+	base carryable
+		weight 3 
+	end
+
+	actions
+		# Endurance Bonus (as per Ring of End in RINGS.OBJ)
+		vBePutOn setAffect dobj 63 0 0 -1
+		vBeTakenOff clearAffect dobj 63 0 0
+		# Regeneration Bonus (as per Ring of Regen in RINGS.OBJ)
+		vBePutOn setAffect dobj 44 0 0 315360000 
+		vBeTakenOff clearAffect dobj 44 0 0
+		# Extra Dodge
+		vBePutOn setAffect dobj 57 0 0 -1
+		vBeTakenOff clearAffect dobj 57 0 0
+		# Weakness to Acid
+
+	end
+
+	base described
+		text "You see a particularly sturdy looking helm."
+		idText "A Helmet of Defense. This valuable helmet bestows the ability to absorb greater damage upon its wearer. You must be level 200 or higher to wear this helm.\n\n"
+		shopText "A Helmet of Defense! One can do some serious adventuring with one of these."
+	end
+end
+#-------------------------------------------Duach Pants
+object PantsofDuach of PlatePants
+	properties
+	special
+		name "Duach's Greaves"
+		color 120			# DarkPharlap
+		value 6666
+		health 500
+		armor 85
+		level 925
+	end
+
+	base carryable
+		weight 15.0
+	end
+
+	base described
+		text "Heavy metal and yet you can feel the magical properties calling to you."
+		idText "Adventurer's Chausses. This leg armor is sturdy. Putting them on will grant you an Intelligence boost, a boost to your Endurance as well as your Dexterity. \n These chausses require a wearer of level 550 or higher.\n"
+		shopText "Chausses! I havn't seen a pair of these in many years!"
+	end
+	
+	base wearable
+                # only Adv
+                #mask wizard
+                #mask warrior
+                #mask thief
+	end
+	
+	actions
+
+		vBePutOn setAffect dobj 59 0 0 -1				#Dex
+		vBeTakenOff clearAffect dobj 59 0 0
+		vBePutOn setAffect dobj 61 0 0 -1				#Intel
+		vBeTakenOff clearAffect dobj 61 0 0
+		vBePutOn setAffect dobj 63 0 0 -1				#End
+		vBeTakenOff clearAffect dobj 63 0 0			
+	end	
+end
+#------------------------------------------------------------
+object PlateofDuach of PlateTunic
+	properties
+	special
+		name "Duach's Plate"
+		color 154			# Kournikova
+		value 3500
+		health 500
+		armor 110
+		level 925
+	end
+
+	base carryable
+		weight 25.0
+	end
+	
+	base wearable
+                # only Adv
+                #mask wizard
+                #mask warrior
+                #mask thief
+	end
+	
+	actions
+		vBePutOn setAffect dobj 39 0 0 -1			#Str
+		vBeTakenOff clearAffect dobj 39 0 0
+		vBePutOn setAffect dobj 39 0 0 -1			#Str
+		vBeTakenOff clearAffect dobj 39 0 0
+		vBePutOn setAffect dobj 57 0 0 -1			#Dodge
+		vBeTakenOff clearAffect dobj 57 0 0
+		vBePutOn setAffect dobj 56 0 0 -1			#Attack
+		vBeTakenOff clearAffect dobj 56 0 0
+	end
+	
+	base described
+		text "Plate Armor of Duach."
+		idText "You see the Cuirass of Aggression, perfect for the Adventurer not afraid of danger. This will assist you in your adventure by providing you with considerable amount of Strength, an axtra Attack as well as Dodge. \n This cuirass requires a wearer of level 550 or higher.\n"
+		shopText "This cuirass will protect you quite well if you are strong enough to wear it."
+	end	
+end
+#------------------------------------------------------------
+object BracersofDuach of Mythrilband
+	properties
+	special
+		name "Bracers of Duach"
+		color 119			# Pharlap
+		value 3500
+		health 500
+		armor 105
+		level 925
+	end
+	
+	base carryable
+		weight .5
+	end
+	
+	base wearable
+                # only Adv
+                mask wizard
+                mask warrior
+                mask thief
+	end
+	
+	actions
+		vBePutOn setAffect dobj 59 0 0 -1					#Dex
+		vBeTakenOff clearAffect dobj 59 0 0
+		vBePutOn setAffect dobj 56 0 0 -1					#Attack
+		vBeTakenOff clearAffect dobj 56 0 0	
+		vBePutOn setAffect dobj 57 0 0 -1					#Dodge
+		vBeTakenOff clearAffect dobj 57 0 0	
+		vBePutOn setAffect dobj 63 0 0 -1					#End
+		vBeTakenOff clearAffect dobj 63 0 0
+		vBePutOn setAffect dobj 39 0 0 -1					#Str
+		vBeTakenOff clearAffect dobj 39 0 0		
+	end
+	
+	base described
+		text "Guard of Vambrace, forearm guards."
+		idText "In ancient times these Vambrace were worn by mighty Knights. These will provide their wearer with an Attack and Dodge, as well as a boost to your Strength, Dexterity and Endurance. \n This vambrace requires a wearer of level 550 or higher.\n"
+		shopText "Vambrace? Come again?"
+	end
+end
+#------------------------------------------------------------
+object CowlofDuach of ChainCowl
+	properties
+	special
+		name "Cowl of Duach"
+		value 1000
+		health 500
+		color 119			# Pharlap
+		armor 100
+		level 925
+	end
+
+	base carryable
+		weight 7.0
+	end
+	
+	base wearable
+                # only Adv
+                #mask wizard
+                #mask warrior
+                #mask thief
+	end
+	
+	actions
+		vBePutOn setAffect dobj 59 0 0 -1				#Dex
+		vBeTakenOff clearAffect dobj 59 0 0
+		vBePutOn setAffect dobj 39 0 0 -1				#Str
+		vBeTakenOff clearAffect dobj 39 0 0	
+		vBePutOn setAffect dobj 61 0 0 -1				#Intel
+		vBeTakenOff clearAffect dobj 61 0 0
+	end
+
+	base described
+		text "The Cowl of Duach."
+		idText "You see a Bevor, this will protect your most vital area, your throat. Wearing this mighty bevor, you will gain Strength, Dexterity with a boost to your Intelligence. \n This bevor requires a wearer of level 550 or higher.\n "
+		shopText "Protect ya Neck!"
+	end
+end
+#------------------------------------------------------------
+object BootsofDuach of HighBoots
+	properties
+	special
+		name "Boots of Duach"
+		value 3500
+		armor 55
+		health 500
+		color 119			# Pharlap
+		level 925
+	end
+
+	base carryable
+		weight 2.5
+	end
+	
+	base wearable
+                # only Adv
+                #mask wizard
+                #mask warrior
+                #mask thief
+	end
+	
+	actions
+		vBePutOn setAffect dobj 59 0 0 -1			#Dex
+		vBeTakenOff clearAffect dobj 59 0 0
+		vBePutOn setAffect dobj 1 2 0 -1			#Str
+		vBeTakenOff clearAffect dobj 1 2 0
+		vBePutOn setAffect dobj 61 0 0 -1			#Intel
+		vBeTakenOff clearAffect dobj 61 0 0
+		vBePutOn setAffect dobj 56 0 0 -1			#Attack
+		vBeTakenOff clearAffect dobj 56 0 0	
+		vBePutOn setAffect dobj 67 0 0 -1			#Nourishment
+		vBeTakenOff clearAffect dobj 67 0 0		
+	end
+
+	base described
+		text "A pair of extremely rare sollerets."
+		idText "The Sollerets of Acceleration. Aptly named, these sollerets are perfect for the Adventurer trying to see the world. Donning these will grant you a boost to your Strength, Dextery, Intelligence as well as provide a spare Atack. Wearing these sollerets you will also never suffer from hunger. \n These sollerets requires a wearer of level 550 or higher.\n "
+		shopText "These sollerets are almost priceless."
+	end
+end	
+

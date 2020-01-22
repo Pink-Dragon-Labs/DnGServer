@@ -1,0 +1,17 @@
+quest 87899 
+	name "Magical Jewel: Emerald"
+	type fedex
+
+	proposal "Hey, you there. Yeah you. If you happen to find a megical Emerald I will reward you hansomly.."
+
+	accepted "Last time somebody heard of one being discovered was over 100 years ago.. I'll be waiting."
+
+	declined "Don't like my offer? Be gone with you fool."
+
+	reminder "Still here.. waiting.."
+
+	completed "Unbelievable! You found it! I am the gaurdian of this Emerald, there is one other magical jewel out there in the realm.. equally rare.. Please, if you find any more please seek out other traveller"
+
+	getItem TokenGreen
+	reward ba100Level
+end 

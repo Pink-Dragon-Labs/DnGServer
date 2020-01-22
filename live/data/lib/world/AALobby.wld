@@ -1,0 +1,278 @@
+room 98000
+   properties
+      picture	3500
+	  west 97999 615 207
+	  east 98002 3 212
+	  south 98001 461 40
+      roomName	"Ambush Arena Lobby"
+   end
+   atpinfo
+      93  333 82
+      2942  647 90
+      7903  193 119
+      2943  532 106
+      35709  96 106
+      2747  587 118
+      2749  -20 120
+      7903  87 119
+      35517  596 118
+      35711  469 115
+      35711  286 101
+      2935  38 58
+      2712  280 126
+      2539  284 139
+      195  287 136
+      2600  249 278
+      2101  108 161
+      35012  563 131
+      64  312 128
+      64  227 129
+      2934  454 96
+      21  350 230
+      32789  157 227
+      60  181 123
+      63  300 278
+      103  557 194
+      32817  603 194
+      229  84 185
+      229  551 187
+      229  410 185
+      229  259 184
+      2957  444 154
+      35725  451 153
+      233  437 214
+      233  446 240
+      63  204 276
+      60  351 119
+      7901  84 172
+      7900  495 120
+      7901  264 138
+   end
+   objects
+      object fireA23001-0 of FireA
+         properties
+            x	527
+            y	266
+            loop	0
+         end
+      end
+      object chair23001-2 of Chair
+         properties
+            x	130
+            y	262
+            loop	0
+         end
+      end
+      object chair23001-3 of Chair
+         properties
+            x	354
+            y	265
+            loop	1
+         end
+      end
+      object chair23001-4 of Chair
+         properties
+            x	173
+            y	244
+            loop	2
+         end
+      end
+      object lever32464-8 of Lever
+         properties
+            x	282
+            y	149
+            loop	0
+         end
+         actions
+            vBeActivated teleport dobj 5014
+            vBeDeactivated teleport dobj 5014
+         end
+      end
+      object chair32464-9 of Chair
+         properties
+            x	207
+            y	244
+            loop	2
+         end
+      end
+      object chair32464-10 of Chair
+         properties
+            x	244
+            y	244
+            loop	2
+         end
+      end
+      object chair32464-11 of Chair
+         properties
+            x	276
+            y	244
+            loop	2
+         end
+      end
+      object chair32464-12 of Chair
+         properties
+            x	311
+            y	244
+            loop	2
+         end
+      end
+      object sittingMushroom32464-13 of SittingMushroom
+         properties
+            x	454
+            y	128
+            loop	2
+         end
+      end
+      object fireB32464-14 of FireB
+         properties
+            x	415
+            y	118
+            loop	0
+         end
+      end
+      object fireB32464-15 of FireB
+         properties
+            x	434
+            y	118
+            loop	0
+         end
+      end
+      object fireB32464-16 of FireB
+         properties
+            x	463
+            y	119
+            loop	0
+         end
+      end
+      object fireB32464-17 of FireB
+         properties
+            x	482
+            y	119
+            loop	0
+         end
+      end
+      object fireB32464-18 of FireB
+         properties
+            x	497
+            y	120
+            loop	0
+         end
+      end
+      object sarcophagus32464-19 of Sarcophagus
+         properties
+            x	541
+            y	185
+            loop	0
+         end
+      end
+      object stool32464-20 of Stool
+         properties
+            x	532
+            y	247
+            loop	2
+         end
+      end
+      object greenCrystalC32464-21 of GreenCrystalC
+         properties
+            x	24
+            y	181
+            loop	0
+         end
+      end
+      object KabalShop-1 of Bartender
+         properties
+            x	53
+            y	155
+            loop	0
+			name	"Tooch"
+         end
+		 base character
+            sex	0
+            properName	"Tooch (NPC)"
+         end
+         base talk
+		      talkTreeID	99599
+	      end
+         base container
+            worn	maInvulPlate
+            worn	BlackPants
+            worn	bGlowboot
+            worn	bFinvarra
+            head	0 2 3 2 2 5 8 4 3 2 3 2
+         end
+      end
+   end
+end
+room 98004
+   properties
+      picture	3000
+   end
+   atpinfo
+      240  110 297
+      240  282 298
+      240  484 302
+      240  540 301
+      240  74 268
+      240  17 234
+      240  618 265
+      240  571 236
+      240  415 259
+      243  499 225
+      246  85 209
+      240  239 261
+      240  204 231
+      240  385 231
+      240  624 194
+      240  338 198
+      244  55 43 10
+      240  109 196
+      1303  172 117
+      240  83 172
+      240  217 174
+      170  32 107
+      171  246 107
+      240  342 158
+      240  554 159
+      240  62 133
+      240  178 127
+      240  11 131
+      240  324 130
+      240  492 122
+      240  609 125
+      240  474 200
+      242  454 28
+      240  380 284
+      7902  138 136
+      7902  423 136
+      7902  686 136
+      172  316 104
+      1303  587 106
+   end
+   objects
+      object chair25100-1 of Chair
+         properties
+            x	47
+            y	289
+            loop	0
+         end
+      end
+      object chair25100-2 of Chair
+         properties
+            x	595
+            y	293
+            loop	1
+         end
+      end
+      object lever25100-3 of Lever
+         properties
+            x	320
+            y	322
+            loop	0
+         end
+		 actions 
+		 vBeActivated teleport dobj 98000
+         vBeDeactivated teleport dobj 98000
+		  end
+	  end
+   end
+end

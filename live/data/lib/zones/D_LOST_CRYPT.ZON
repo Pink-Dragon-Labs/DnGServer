@@ -1,0 +1,7 @@
+name "D_LOST_CRYPT"
+title "The Lost Crypt"
+worldFile "../data/lib/world/D_LOST_CRYPT.WLD"
+allowCombat 3
+midiFile 29
+isDungeon 1
+entrance sarcophagusDoor91011-0

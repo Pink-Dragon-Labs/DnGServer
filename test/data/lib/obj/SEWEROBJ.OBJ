@@ -1,0 +1,542 @@
+#-----------------------------------Keys for Sewer Chests-------------------------------
+object SewerKey01 of Key
+	properties
+		toss
+		drop
+		special
+		name "Bronze Key"
+	end
+	base described
+		text "You see an Bronze key."
+	end
+	base key
+		unlockValue 40004
+	end
+end
+#---------------------------------------
+object SewerKey02 of Key
+	properties
+		toss
+		drop
+		special
+		name "Gold Key"
+	end
+	base described
+		text "You see an Gold key."
+	end
+	base key
+		unlockValue 40010
+	end
+end
+#---------------------------------------Keys for God Rooms
+object DuachKey of Key
+	properties
+		toss
+		drop
+		special
+		name "Duach Key"
+	end
+	base described
+		text "You see a Key that unlocks the door to Duach's Lair"
+	end
+	base key
+		unlockValue 40045
+	end
+end
+object MabonKey of Key
+	properties
+		toss
+		drop
+		special
+		name "Mabon Key"
+	end
+	base described
+		text "You see a Key that unlocks the door to Mabon's Retreat"
+	end
+	base key
+		unlockValue 40046
+	end
+end
+object EnidKey of Key
+	properties
+		toss
+		drop
+		special
+		name "Enid Key"
+	end
+	base described
+		text "You see a Key that unlocks the door to Enid's Refuge"
+	end
+	base key
+		unlockValue 40047
+	end
+end
+object ElphameKey of Key
+	properties
+		toss
+		drop
+		special
+		name "Elphame Key"
+	end
+	base described
+		text "You see a Key that unlocks the door to Elphame's Refuge"
+	end
+	base key
+		unlockValue 40048
+	end
+end
+object FinvarraKey of Key
+	properties
+		toss
+		drop
+		special
+		name "Finvarra Key"
+	end
+	base described
+		text "You see a Key that unlocks the door to Finvarra's Refuge"
+	end
+	base key
+		unlockValue 40049
+	end
+end
+#-------------------------------------
+object DuachKeyShop of Key
+	properties
+		special
+		toss
+		drop
+		name "Duach Key"
+        value 5000000
+	end
+	base described
+		text "You see a Key that unlocks the door to Duach's Lair"
+	end
+	base key
+		unlockValue 40045
+	end
+end
+object MabonKeyShop of Key
+	properties
+		special
+		toss
+		drop
+		name "Mabon Key"
+        value 5000000
+	end
+	base described
+		text "You see a Key that unlocks the door to Mabon's Retreat"
+	end
+	base key
+		unlockValue 40046
+	end
+end
+object EnidKeyShop of Key
+	properties
+		special
+		toss
+		drop
+		name "Enid Key"
+        value 5000000
+	end
+	base described
+		text "You see a Key that unlocks the door to Enid's Refuge"
+	end
+	base key
+		unlockValue 40047
+	end
+end
+object ElphameKeyShop of Key
+	properties
+		special
+		toss
+		drop
+		name "Elphame Key"
+        value 5000000
+	end
+	base described
+		text "You see a Key that unlocks the door to Elphame's Refuge"
+	end
+	base key
+		unlockValue 40048
+	end
+end
+object FinvarraKeyShop of Key
+	properties
+		special
+		toss
+		drop
+		name "Finvarra Key"
+        value 5000000
+	end
+	base described
+		text "You see a Key that unlocks the door to Finvarra's Refuge"
+	end
+	base key
+		unlockValue 40049
+	end
+end
+#-----------------------------------Random Keys
+object GodKeys of MoneyBag
+        properties
+        special
+            random 100
+        end
+
+        base treasure
+			FinvarraKey
+			ElphameKey
+			EnidKey
+			MabonKey
+			DuachKey
+        end
+end
+#-------------------------------------------Noid Weapons and Armor--------------------------------
+#Noid Dagger
+object NoidDagger of Dagger
+	properties
+	special
+		name "Noid Dagger"
+		value 1000
+		health 1000
+		level 1001
+		color 58
+		strength 1
+		
+		affect 0 0 0 -1		# normal damage
+		affect 1 0 0 -1		# fire damage
+		affect 2 0 0 -1		# cold damage
+		affect 10 0 0 -1	# Life-Steal
+		affect 65 0 0 -1	# Retention		
+	end
+
+	base described
+		text "You see a dagger made of Bones."
+		shopText "This dagger may bug you."
+	end
+
+	base carryable
+		weight 2.0
+	end
+
+	base weapon
+		minDamage 300
+		maxDamage 800
+		mask warrior
+		mask thief
+		mask wizard
+		mask adventurer
+	end
+
+end
+#---------------------------------Noid Helmet
+object NoidHat of Clothing
+# matched to Female-Only Courtier
+	properties
+		# Jester Standard Version
+		view 32000
+		name "Noid's Hat"
+		clutStart 63
+		armorFlat 15
+		color 58
+	end
+
+	base carryable
+		weight 1
+	end
+
+	actions
+		# Dexterity
+		vBePutOn setAffect dobj 59 0 0 -1
+		vBeTakenOff clearAffect dobj 59 0 0
+		# Extra Dodge
+		vBePutOn setAffect dobj 57 0 0 -1
+		vBeTakenOff clearAffect dobj 57 0 0
+		# Extra Dodge
+		vBePutOn setAffect dobj 57 0 0 -1
+		vBeTakenOff clearAffect dobj 57 0 0
+		# Extra Attack
+		vBePutOn setAffect dobj 56 0 0 -1
+		vBeTakenOff clearAffect dobj 56 0 0		
+		# Myst Resist 25% 
+		vBePutOn changeSpellResistance dobj 25 2
+		vBeTakenOff changeSpellResistance dobj -25 2
+	end
+	base described
+		text "You see a hat worn by Noid's."
+		idText "You see a Noid Hat, pizza, pizza.\n\n"
+		shopText "This belongs to a Noid."
+	end
+end
+#----------------------------------------------Noid Boots----------------------------------
+object NoidBoots of HighBoots
+	properties
+	special
+		name "Noid Boots"
+		value 7500
+		armor 50
+		health 400
+		color 58
+		level 100
+		special
+	end
+
+	base carryable
+		weight 2.5
+	end
+
+	actions
+		# Dex
+		vBePutOn setAffect dobj 59 2 0 -1
+		vBeTakenOff clearAffect dobj 59 2 0
+		# DBLE Dex
+		vBePutOn setAffect dobj 59 2 0 -1
+		vBeTakenOff clearAffect dobj 59 2 0
+	end
+
+	base described
+		text "You see a pair of Noid Boots."
+		idText "You see a pair of Noid Boots.\nLevel 1001\n"
+		shopText "Noid Boots.\nLevel 1001\n"
+	end
+end
+#-------------------------------------------Noid Wristbands
+object NoidWrist of Wristband
+	properties
+	special
+		name "Noid Wristbands"
+		value 130
+		health 150
+		color 58
+		strength 2
+	end
+
+	base carryable
+		weight 1.5
+	end
+
+	base described
+		text "You see a pair of Noid wristbands."
+	end
+end
+#--------------------------------------------- Noid Shirt
+object NoidPlate of Shirt
+	properties
+	special
+		name "Noid's Shirt"
+		color 58              # White
+		value 3500
+		health 1500
+		armor 100
+		level 1
+	end
+
+	base carryable
+		weight 1.5
+	end
+	
+	
+	actions
+		vBePutOn setAffect dobj 57 0 0 -1				#Dodge
+		vBeTakenOff clearAffect dobj 57 0 0
+		vBePutOn setAffect dobj 57 0 0 -1				#Dodge
+		vBeTakenOff clearAffect dobj 57 0 0
+		vBePutOn setAffect dobj 56 0 0 -1				#Attack
+		vBeTakenOff clearAffect dobj 56 0 0		
+	end
+	
+	base described
+		text "You see a chest plate made from Dead Bones."
+		idText "You see the Noid Shirt."
+		shopText "This Noid Shirt will protect you quite well if you are strong enough to wear it."
+	end
+end
+
+#-------------------------------------------Noid Pants
+object NoidPants of Pants
+	properties
+	special
+		name "Noid's Pants"
+		color 58              # White
+		value 2500
+		health 1500
+		armor 20
+		level 1
+	end
+
+	base carryable
+		weight 1
+	end
+
+	base described
+		text "Noid Pants."
+		idText "Noid's Pants.\n"
+		shopText "What are these made of?!."
+	end
+	
+	actions
+		vBePutOn setAffect dobj 59 0 0 -1				#Dex
+		vBeTakenOff clearAffect dobj 59 0 0
+		vBePutOn setAffect dobj 57 0 0 -1				#Dodge
+		vBeTakenOff clearAffect dobj 57 0 0	
+		vBePutOn setAffect dobj 1 2 0 -1				#Fire protect
+		vBeTakenOff clearAffect dobj 1 2 0
+		vBePutOn setAffect dobj 2 2 0 -1				#Cold Protect
+		vBeTakenOff clearAffect dobj 2 2 0		
+	end
+end
+#---------------------------------------Noid Cowl
+object NoidCowl of ChainCowl
+	properties
+	special
+		name "Noid Cowl"
+		value 1000
+		health 1500
+		armor 100			
+		color 58
+		level 1
+	end
+
+	base carryable
+		weight 3.0
+	end
+	
+	actions
+		vBePutOn setAffect dobj 59 0 0 -1				#Dex
+		vBeTakenOff clearAffect dobj 59 0 0
+		vBePutOn setAffect dobj 59 0 0 -1				#Dex
+		vBeTakenOff clearAffect dobj 59 0 0
+		vBePutOn setAffect dobj 57 0 0 -1				#Dodge
+		vBeTakenOff clearAffect dobj 57 0 0		
+
+	end
+
+	base described
+		text "This metal feels light as air."
+		idText "This cowl once belonged to an Arch-Mage, salvaged by a museum, how you came to find it is a mystery. This light, but sturdy cowl will grant you considerable Dexterity as well as an Intelligence boost. \n This cowl requires a wearer of level 550 or higher.\n "
+		shopText "This weighs almost nothing! What is thise made of?"
+	end
+end
+#-----------------------------------------------
+object DwellerRobe of Robe
+	properties
+	special
+                name "Dweller's Robe"
+                value 150000
+                color 97
+                armorFlat    10
+                armorPercent 20
+                level 10
+	end
+
+	base described
+                text "You see a Sewer Dweller's Robe."
+                shopText "The uses of this robe don't stop at the shower. Level 10+ Wiz only"
+	end
+end
+#---------------------------------------Test Enchant
+object sEnchant of Scroll
+	properties
+	special
+		name "Scroll of Enchant
+		value 1000
+	end
+
+	base use
+		spell 21
+		spell 33
+		spell 21
+		spell 35
+		spell 21
+		spell 133
+		spell 21
+		spell 34
+	end
+
+	base described
+		idText "You see a scroll of Greater Identify.  Reading this scroll will give you extensive knowledge of items."
+		shopText "Read this scroll and you will gain complete knowledge of an item you have with you!"
+	end
+end
+#-------------------------------------------
+object oEnchanta of Orb
+	properties
+	special
+		name "Orb of Enchant"
+		value 3000
+		level 3
+	end
+
+	base described
+		idText "You see an Orb of Holding.  You can freeze monsters temporarily with it."
+		shopText "This Orb of Holding can be used to keep monsters at bay.  Very useful, indeed."
+	end
+
+	base use
+		useCost 1
+		spell 21
+		spell 33
+		spell 21
+		spell 35
+		spell 21
+		spell 133
+		spell 21
+		spell 34
+	end
+end
+#---------------------------------Exp Chairs
+object ExpChairA of Chair
+	properties
+	special
+		name "Chair of Experience"
+		view 60500
+	end
+	base use
+		verb 3
+		uses -1
+	end
+    base sit
+    end
+
+	actions
+		vBeSatOn changeExperience dobj 50000
+		vBeSatOn destroyObj dobj 0 3 20
+	end
+	
+	base described
+             text "How is your luck?"
+	end
+end
+object ExpChairR of Chair
+	properties
+	special
+		name "Chair of Experience"
+		view 60500
+	end
+
+        base sit
+    end
+
+	actions
+		vBeSatOn changeExperience dobj -50000
+		vBeSatOn damage dobj 0 3 20
+	end
+	
+	base described
+             text "How is your luck?"
+	end
+end
+		object ExpAltar of Altar
+			properties
+			special			
+				x	356
+				y	258
+				loop	0
+			end
+			base use
+				verb 2
+				spell 10
+			end
+			base described
+				text	"Careful: One use only."
+			end
+		end

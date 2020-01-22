@@ -1,0 +1,114 @@
+room 98000
+   properties
+      picture	3500
+      roomName	"Ambush Arena"
+   end
+   atpinfo
+      93  333 82
+      2942  647 90
+      2953  540 251
+      2943  532 106
+      35709  96 106
+      112  46 317
+      113  79 315
+      2716  532 268
+      64  508 260 10
+      63  542 260 10
+      64  547 253 10
+      2935  38 58
+      35711  469 115
+      2747  488 120
+      2749  -20 118
+      35711  286 101
+      35517  596 118
+      2241  282 127
+      24  504 203
+      32968  604 317
+      7903  87 119
+      7903  193 119
+      7907  353 125
+   end
+   objects
+      object fireA23001-0 of FireA
+         properties
+            x	125
+            y	297
+            loop	0
+         end
+      end
+      object bones23001-1 of Bones
+         properties
+            x	538
+            y	280
+            loop	0
+         end
+      end
+      object chair23001-2 of Chair
+         properties
+            x	83
+            y	286
+            loop	0
+         end
+      end
+      object chair23001-3 of Chair
+         properties
+            x	173
+            y	288
+            loop	1
+         end
+      end
+      object chair23001-4 of Chair
+         properties
+            x	127
+            y	261
+            loop	2
+         end
+      end
+      object fountain23001-5 of Fountain
+         properties
+            x	43
+            y	315
+            loop	0
+         end
+      end
+      object duachStatue23001-6 of DuachStatue
+         properties
+            x	615
+            y	255
+            loop	0
+         end
+      end
+      object fire223001-7 of FireA
+         properties
+            x	602
+            y	258
+            loop	0
+         end
+      end
+      object fire223001-8 of FireA
+         properties
+            x	627
+            y	262
+            loop	1
+         end
+      end
+      object fireC23001-7 of FireC
+         properties
+            x	616
+            y	259
+            loop	0
+         end
+      end
+      object lever32464-8 of Lever
+         properties
+            x	24
+            y	124
+            loop	0
+         end
+		  actions
+            vBeActivated teleport dobj 5014
+            vBeDeactivated teleport dobj 5014
+		  end
+      end
+   end
+end

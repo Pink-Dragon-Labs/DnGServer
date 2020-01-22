@@ -1,0 +1,2924 @@
+object dNaturalBrownRobe of Robe
+	properties
+		special
+		name "Natural Brown Robe"
+		color 0
+		value 6
+	end
+
+	base described
+		text "You see a Natural Brown colored Robe."
+	end
+end
+
+object dRustBrownRobe of Robe
+	properties
+		special
+		name "Rust Brown Robe"
+		color 1
+		value 6
+	end
+
+	base described
+		text "You see a Rust Brown colored Robe."
+	end
+end
+
+object dMediumRustBrownRobe of Robe
+	properties
+		special
+		name "Medium Rust Brown Robe"
+		color 2
+		value 6
+	end
+
+	base described
+		text "You see a Medium Rust Brown colored Robe."
+	end
+end
+
+object dLightRustBrownRobe of Robe
+	properties
+		special
+		name "Light Rust Brown Robe"
+		color 3
+		value 6
+	end
+
+	base described
+		text "You see a Light Rust Brown colored Robe."
+	end
+end
+
+object dPaleRustBrownRobe of Robe
+	properties
+		special
+		name "Pale Rust Brown Robe"
+		color 4
+		value 6
+	end
+
+	base described
+		text "You see a Pale Rust Brown colored Robe."
+	end
+end
+
+object dSepiaRobe of Robe
+	properties
+		special
+		name "Sepia Robe"
+		color 5
+		value 6
+	end
+
+	base described
+		text "You see a Sepia colored Robe."
+	end
+end
+
+object dOliveBrownRobe of Robe
+	properties
+		special
+		name "Olive Brown Robe"
+		color 6
+		value 6
+	end
+
+	base described
+		text "You see a Olive Brown colored Robe."
+	end
+end
+
+object dDarkOliveGreenRobe of Robe
+	properties
+		special
+		name "Dark Olive Green Robe"
+		color 7
+		value 6
+	end
+
+	base described
+		text "You see a Dark Olive Green colored Robe."
+	end
+end
+
+object dSiennaRobe of Robe
+	properties
+		special
+		name "Sienna Robe"
+		color 8
+		value 6
+	end
+
+	base described
+		text "You see a Sienna colored Robe."
+	end
+end
+
+object dCeruleanRobe of Robe
+	properties
+		special
+		name "Cerulean Robe"
+		color 9
+		value 6
+	end
+
+	base described
+		text "You see a Cerulean colored Robe."
+	end
+end
+
+object dDodgerBlueRobe of Robe
+	properties
+		special
+		name "Dodger Blue Robe"
+		color 10
+		value 6
+	end
+
+	base described
+		text "You see a Dodger Blue colored Robe."
+	end
+end
+
+object dDeepSkyBlueRobe of Robe
+	properties
+		special
+		name "Deep Sky Blue Robe"
+		color 11
+		value 6
+	end
+
+	base described
+		text "You see a Deep Sky Blue colored Robe."
+	end
+end
+
+object dTurquoiseRobe of Robe
+	properties
+		special
+		name "Turquoise Robe"
+		color 12
+		value 6
+	end
+
+	base described
+		text "You see a Turquoise colored Robe."
+	end
+end
+
+object dRoyalBlueRobe of Robe
+	properties
+		special
+		name "Royal Blue Robe"
+		color 13
+		value 6
+	end
+
+	base described
+		text "You see a Royal Blue colored Robe."
+	end
+end
+
+object dCeladonRobe of Robe
+	properties
+		special
+		name "Celadon Robe"
+		color 14
+		value 6
+	end
+
+	base described
+		text "You see a Celadon colored Robe."
+	end
+end
+
+object dFireBrickRobe of Robe
+	properties
+		special
+		name "Fire Brick Robe"
+		color 15
+		value 6
+	end
+
+	base described
+		text "You see a Fire Brick colored Robe."
+	end
+end
+
+object dCoralRedGlowRobe of Robe
+	properties
+		special
+		name "Coral Red Glow Robe"
+		color 16
+		value 6
+	end
+
+	base described
+		text "You see a Coral Red Glow colored Robe."
+	end
+end
+
+object dBabyPinkRobe of Robe
+	properties
+		special
+		name "Baby Pink Robe"
+		color 17
+		value 6
+	end
+
+	base described
+		text "You see a Baby Pink colored Robe."
+	end
+end
+
+object dGingerRobe of Robe
+	properties
+		special
+		name "Ginger Robe"
+		color 18
+		value 6
+	end
+
+	base described
+		text "You see a Ginger colored Robe."
+	end
+end
+
+object dLightAmberRobe of Robe
+	properties
+		special
+		name "Light Amber Robe"
+		color 19
+		value 6
+	end
+
+	base described
+		text "You see a Light Amber colored Robe."
+	end
+end
+
+object dPaleYellowRobe of Robe
+	properties
+		special
+		name "Pale Yellow Robe"
+		color 20
+		value 6
+	end
+
+	base described
+		text "You see a Pale Yellow colored Robe."
+	end
+end
+
+object dEggPlantRobe of Robe
+	properties
+		special
+		name "Egg Plant Robe"
+		color 21
+		value 6
+	end
+
+	base described
+		text "You see a Egg Plant colored Robe."
+	end
+end
+
+object dMagentaGlowRobe of Robe
+	properties
+		special
+		name "Magenta Glow Robe"
+		color 22
+		value 6
+	end
+
+	base described
+		text "You see a Magenta Glow colored Robe."
+	end
+end
+
+object dLightMagentaRobe of Robe
+	properties
+		special
+		name "Light Magenta Robe"
+		color 23
+		value 6
+	end
+
+	base described
+		text "You see a Light Magenta colored Robe."
+	end
+end
+
+object dBrownMagentaGlowRobe of Robe
+	properties
+		special
+		name "Brown Magenta Glow Robe"
+		color 24
+		value 6
+	end
+
+	base described
+		text "You see a Brown Magenta Glow colored Robe."
+	end
+end
+
+object dBrownPinkGlowRobe of Robe
+	properties
+		special
+		name "Brown Pink Glow Robe"
+		color 25
+		value 6
+	end
+
+	base described
+		text "You see a Brown Pink Glow colored Robe."
+	end
+end
+
+object dSandyBrownRobe of Robe
+	properties
+		special
+		name "Sandy Brown Robe"
+		color 26
+		value 6
+	end
+
+	base described
+		text "You see a Sandy Brown colored Robe."
+	end
+end
+
+object dMediumCyanRobe of Robe
+	properties
+		special
+		name "Medium Cyan Robe"
+		color 27
+		value 6
+	end
+
+	base described
+		text "You see a Medium Cyan colored Robe."
+	end
+end
+
+object dCadetBlueRobe of Robe
+	properties
+		special
+		name "Cadet Blue Robe"
+		color 28
+		value 6
+	end
+
+	base described
+		text "You see a Cadet Blue colored Robe."
+	end
+end
+
+object dLightCyanRobe of Robe
+	properties
+		special
+		name "Light Cyan Robe"
+		color 29
+		value 6
+	end
+
+	base described
+		text "You see a Light Cyan colored Robe."
+	end
+end
+
+object dSatoriRobe of Robe
+	properties
+		special
+		name "Satori Robe"
+		color 30
+		value 6
+	end
+
+	base described
+		text "You see a Satori colored Robe."
+	end
+end
+
+object dSeaGreenGlowRobe of Robe
+	properties
+		special
+		name "Sea Green Glow Robe"
+		color 31
+		value 6
+	end
+
+	base described
+		text "You see a Sea Green Glow colored Robe."
+	end
+end
+
+object dLightGreenRobe of Robe
+	properties
+		special
+		name "Light Green Robe"
+		color 32
+		value 6
+	end
+
+	base described
+		text "You see a Light Green colored Robe."
+	end
+end
+
+object dDarkScarletRobe of Robe
+	properties
+		special
+		name "Dark Scarlet Robe"
+		color 33
+		value 6
+	end
+
+	base described
+		text "You see a Dark Scarlet colored Robe."
+	end
+end
+
+object dOrangeGlowRobe of Robe
+	properties
+		special
+		name "Orange Glow Robe"
+		color 34
+		value 6
+	end
+
+	base described
+		text "You see a Orange Glow colored Robe."
+	end
+end
+
+object dIndigoRobe of Robe
+	properties
+		special
+		name "Indigo Robe"
+		color 36
+		value 6
+	end
+
+	base described
+		text "You see a Indigo colored Robe."
+	end
+end
+
+object dPlumGlowRobe of Robe
+	properties
+		special
+		name "Plum Glow Robe"
+		color 37
+		value 6
+	end
+
+	base described
+		text "You see a Plum Glow colored Robe."
+	end
+end
+
+object dLightPurpleLinesRobe of Robe
+	properties
+		special
+		name "Light Purple Lines Robe"
+		color 38
+		value 6
+	end
+
+	base described
+		text "You see a Light Purple Lines colored Robe."
+	end
+end
+
+object dBlueBlackRobe of Robe
+	properties
+		special
+		name "Blue Black Robe"
+		color 39
+		value 6
+	end
+
+	base described
+		text "You see a Blue Black colored Robe."
+	end
+end
+
+object dBlackGlowRobe of Robe
+	properties
+		special
+		name "Black Glow Robe"
+		color 40
+		value 6
+	end
+
+	base described
+		text "You see a Black Glow colored Robe."
+	end
+end
+
+object dBrightWhiteRobe of Robe
+	properties
+		special
+		name "Bright White Robe"
+		color 41
+		value 6
+	end
+
+	base described
+		text "You see a Bright White colored Robe."
+	end
+end
+
+object dChocolateRobe of Robe
+	properties
+		special
+		name "Chocolate Robe"
+		color 42
+		value 6
+	end
+
+	base described
+		text "You see a Chocolate colored Robe."
+	end
+end
+
+object dBrownGlowRobe of Robe
+	properties
+		special
+		name "Brown Glow Robe"
+		color 43
+		value 6
+	end
+
+	base described
+		text "You see a Brown Glow colored Robe."
+	end
+end
+
+object dCreamBrownRobe of Robe
+	properties
+		special
+		name "Cream Brown Robe"
+		color 44
+		value 6
+	end
+
+	base described
+		text "You see a Cream Brown colored Robe."
+	end
+end
+
+object dLightCreamBrownRobe of Robe
+	properties
+		special
+		name "Light Cream Brown Robe"
+		color 45
+		value 6
+	end
+
+	base described
+		text "You see a Light Cream Brown colored Robe."
+	end
+end
+
+object dDarkOliveGlowRobe of Robe
+	properties
+		special
+		name "Dark Olive Glow Robe"
+		color 46
+		value 6
+	end
+
+	base described
+		text "You see a Dark Olive Glow colored Robe."
+	end
+end
+
+object dOliveGlowRobe of Robe
+	properties
+		special
+		name "Olive Glow Robe"
+		color 47
+		value 6
+	end
+
+	base described
+		text "You see a Olive Glow colored Robe."
+	end
+end
+
+object dLightYellowLinesRobe of Robe
+	properties
+		special
+		name "Light Yellow Lines Robe"
+		color 50
+		value 6
+	end
+
+	base described
+		text "You see a Light Yellow Lines colored Robe."
+	end
+end
+
+object dDarkBlueRobe of Robe
+	properties
+		special
+		name "Dark Blue Robe"
+		color 51
+		value 6
+	end
+
+	base described
+		text "You see a Dark Blue colored Robe."
+	end
+end
+
+object dBlueGlowRobe of Robe
+	properties
+		special
+		name "Blue Glow Robe"
+		color 52
+		value 6
+	end
+
+	base described
+		text "You see a Blue Glow colored Robe."
+	end
+end
+
+object dMaroonRobe of Robe
+	properties
+		special
+		name "Maroon Robe"
+		color 56
+		value 6
+	end
+
+	base described
+		text "You see a Maroon colored Robe."
+	end
+end
+
+object dMaroonGlowRobe of Robe
+	properties
+		special
+		name "Maroon Glow Robe"
+		color 57
+		value 6
+	end
+
+	base described
+		text "You see a Maroon Glow colored Robe."
+	end
+end
+
+object dLightPinkRobe of Robe
+	properties
+		special
+		name "Light Pink Robe"
+		color 60
+		value 6
+	end
+
+	base described
+		text "You see a Light Pink colored Robe."
+	end
+end
+
+object dTawnyRobe of Robe
+	properties
+		special
+		name "Tawny Robe"
+		color 61
+		value 6
+	end
+
+	base described
+		text "You see a Tawny colored Robe."
+	end
+end
+
+object RobellowOrangeGlowRobe of Robe
+	properties
+		special
+		name "Yellow Orange Glow Robe"
+		color 62
+		value 6
+	end
+
+	base described
+		text "You see a Yellow Orange Glow colored Robe."
+	end
+end
+
+object dEggplantYellowRobe of Robe
+	properties
+		special
+		name "Eggplant Yellow Robe"
+		color 66
+		value 6
+	end
+
+	base described
+		text "You see a Eggplant Yellow colored Robe."
+	end
+end
+
+object dPurpleGlowRobe of Robe
+	properties
+		special
+		name "Purple Glow Robe"
+		color 67
+		value 6
+	end
+
+	base described
+		text "You see a Purple Glow colored Robe."
+	end
+end
+
+object dLighterMagentaRobe of Robe
+	properties
+		special
+		name "Lighter Magenta Robe"
+		color 70
+		value 6
+	end
+
+	base described
+		text "You see a Lighter Magenta colored Robe."
+	end
+end
+
+object dDarkChocolateRobe of Robe
+	properties
+		special
+		name "Dark Chocolate Robe"
+		color 71
+		value 6
+	end
+
+	base described
+		text "You see a Dark Chocolate colored Robe."
+	end
+end
+
+object dDarkBrownMagentaGlowRobe of Robe
+	properties
+		special
+		name "Dark Brown Magenta Glow Robe"
+		color 72
+		value 6
+	end
+
+	base described
+		text "You see a Dark Brown Magenta Glow colored Robe."
+	end
+end
+
+object dCyprusRobe of Robe
+	properties
+		special
+		name "Cyprus Robe"
+		color 76
+		value 6
+	end
+
+	base described
+		text "You see a Cyprus colored Robe."
+	end
+end
+
+object dDeepSeaGlowRobe of Robe
+	properties
+		special
+		name "Deep Sea Glow Robe"
+		color 80
+		value 6
+	end
+
+	base described
+		text "You see a Deep Sea Glow colored Robe."
+	end
+end
+
+object dForestGreenRobe of Robe
+	properties
+		special
+		name "Forest Green Robe"
+		color 81
+		value 6
+	end
+
+	base described
+		text "You see a Forest Green colored Robe."
+	end
+end
+
+object dForestGreenGlowRobe of Robe
+	properties
+		special
+		name "Forest Green Glow Robe"
+		color 82
+		value 6
+	end
+
+	base described
+		text "You see a Forest Green Glow colored Robe."
+	end
+end
+
+object dPaleGreenRobe of Robe
+	properties
+		special
+		name "Pale Green Robe"
+		color 85
+		value 6
+	end
+
+	base described
+		text "You see a Pale Green colored Robe."
+	end
+end
+
+object dDarkBurntOrangeRobe of Robe
+	properties
+		special
+		name "Dark Burnt Orange Robe"
+		color 86
+		value 6
+	end
+
+	base described
+		text "You see a Dark Burnt Orange colored Robe."
+	end
+end
+
+object dDarkOrangeGlowRobe of Robe
+	properties
+		special
+		name "Dark Orange Glow Robe"
+		color 87
+		value 6
+	end
+
+	base described
+		text "You see a Dark Orange Glow colored Robe."
+	end
+end
+
+object dDarkPurpleOrangeRobe of Robe
+	properties
+		special
+		name "Dark Purple Orange Robe"
+		color 91
+		value 6
+	end
+
+	base described
+		text "You see a Dark Purple Orange colored Robe."
+	end
+end
+
+object dDarkPurpleGlowRobe of Robe
+	properties
+		special
+		name "Dark Purple Glow Robe"
+		color 92
+		value 6
+	end
+
+	base described
+		text "You see a Dark Purple Glow colored Robe."
+	end
+end
+
+object dLightPurpleRobe of Robe
+	properties
+		special
+		name "Light Purple Robe"
+		color 95
+		value 6
+	end
+
+	base described
+		text "You see a Light Purple colored Robe."
+	end
+end
+
+object dDarkPupleRobe of Robe
+	properties
+		special
+		name "Dark Puple Robe"
+		color 96
+		value 6
+	end
+
+	base described
+		text "You see a Dark Puple colored Robe."
+	end
+end
+
+object dDarkBlackGlowRobe of Robe
+	properties
+		special
+		name "Dark Black Glow Robe"
+		color 97
+		value 6
+	end
+
+	base described
+		text "You see a Dark Black Glow colored Robe."
+	end
+end
+
+object dBrighterWhiteRobe of Robe
+	properties
+		special
+		name "Brighter White Robe"
+		color 101
+		value 6
+	end
+
+	base described
+		text "You see a Brighter White colored Robe."
+	end
+end
+
+object dSaddleBrownRobe of Robe
+	properties
+		special
+		name "Saddle Brown Robe"
+		color 102
+		value 6
+	end
+
+	base described
+		text "You see a Saddle Brown colored Robe."
+	end
+end
+
+object dDarkBrownGlowRobe of Robe
+	properties
+		special
+		name "Dark Brown Glow Robe"
+		color 103
+		value 6
+	end
+
+	base described
+		text "You see a Dark Brown Glow colored Robe."
+	end
+end
+
+object dDarkFleshRobe of Robe
+	properties
+		special
+		name "Dark Flesh Robe"
+		color 104
+		value 6
+	end
+
+	base described
+		text "You see a Dark Flesh colored Robe."
+	end
+end
+
+object dTanFleshRobe of Robe
+	properties
+		special
+		name "Tan Flesh Robe"
+		color 105
+		value 6
+	end
+
+	base described
+		text "You see a Tan Flesh colored Robe."
+	end
+end
+
+object dLightFleshGreenRobe of Robe
+	properties
+		special
+		name "Light Flesh Green Robe"
+		color 108
+		value 6
+	end
+
+	base described
+		text "You see a Light Flesh Green colored Robe."
+	end
+end
+
+object dGreenLightFleshRobe of Robe
+	properties
+		special
+		name "Green Light Flesh Robe"
+		color 109
+		value 6
+	end
+
+	base described
+		text "You see a Green Light Flesh colored Robe."
+	end
+end
+
+object dGrayGreenRobe of Robe
+	properties
+		special
+		name "Gray Green Robe"
+		color 110
+		value 6
+	end
+
+	base described
+		text "You see a Gray Green colored Robe."
+	end
+end
+
+object dGrayLittleGreenRobe of Robe
+	properties
+		special
+		name "Gray Little Green Robe"
+		color 111
+		value 6
+	end
+
+	base described
+		text "You see a Gray Little Green colored Robe."
+	end
+end
+
+object dLightestFinvarraRobe of Robe
+	properties
+		special
+		name "Lightest Finvarra Robe"
+		color 112
+		value 6
+	end
+
+	base described
+		text "You see a Lightest Finvarra colored Robe."
+	end
+end
+
+object dLightFinvarraRobe of Robe
+	properties
+		special
+		name "Light Finvarra Robe"
+		color 113
+		value 6
+	end
+	
+	base described
+		text "You see a Light Finvarra colored Robe."
+	end
+end
+
+object dLighterFinvarraRobe of Robe
+	properties
+		special
+		name "Lighter Finvarra Robe"
+		color 114
+		value 6
+	end
+
+	base described
+		text "You see a Lighter Finvarra colored Robe."
+	end
+end
+
+object dFinvarraRobe of Robe
+	properties
+		special
+		name "Finvarra Robe"
+		color 115
+		value 6
+	end
+
+	base described
+		text "You see a Finvarra colored Robe."
+	end
+end
+
+object dBlackLatexRobe of Robe
+	properties
+		special
+		name "Black Latex Robe"
+		color 116
+		value 6
+	end
+
+	base described
+		text "You see a Black Latex colored Robe."
+	end
+end
+
+object dGrayBlackRobe of Robe
+	properties
+		special
+		name "Gray Black Robe"
+		color 117
+		value 6
+	end
+
+	base described
+		text "You see a Gray Black colored Robe."
+	end
+end
+
+object dAlmondFrostRobe of Robe
+	properties
+		special
+		name "Almond Frost Robe"
+		color 118
+		value 6
+	end
+
+	base described
+		text "You see a Almond Frost colored Robe."
+	end
+end
+
+object dPharlapRobe of Robe
+	properties
+		special
+		name "Pharlap Robe"
+		color 119
+		value 6
+	end
+
+	base described
+		text "You see a Pharlap colored Robe."
+	end
+end
+
+object dDarkPharlapRobe of Robe
+	properties
+		special
+		name "Dark Pharlap Robe"
+		color 120
+		value 6
+	end
+
+	base described
+		text "You see a Dark Pharlap colored Robe."
+	end
+end
+
+object dDarkerPharlapRobe of Robe
+	properties
+		special
+		name "Darker Pharlap Robe"
+		color 121
+		value 6
+	end
+
+	base described
+		text "You see a Darker Pharlap colored Robe."
+	end
+end
+
+object dDarkestPharlapRobe of Robe
+	properties
+		special
+		name "Darkest Pharlap Robe"
+		color 122
+		value 6
+	end
+
+	base described
+		text "You see a Darkest Pharlap colored Robe."
+	end
+end
+
+object dSealBrownGlowRobe of Robe
+	properties
+		special
+		name "Seal Brown Glow Robe"
+		color 123
+		value 6
+	end
+
+	base described
+		text "You see a Seal Brown Glow colored Robe."
+	end
+end
+
+object dLightTanRobe of Robe
+	properties
+		special
+		name "Light Tan Robe"
+		color 124
+		value 6
+	end
+
+	base described
+		text "You see a Light Tan colored Robe."
+	end
+end
+
+object dTeakRobe of Robe
+	properties
+		special
+		name "Teak Robe"
+		color 125
+		value 6
+	end
+
+	base described
+		text "You see a Teak colored Robe."
+	end
+end
+
+object dMediumTeakRobe of Robe
+	properties
+		special
+		name "Medium Teak Robe"
+		color 126
+		value 6
+	end
+
+	base described
+		text "You see a Medium Teak colored Robe."
+	end
+end
+
+object dDarkTeakRobe of Robe
+	properties
+		special
+		name "Dark Teak Robe"
+		color 127
+		value 6
+	end
+
+	base described
+		text "You see a Dark Teak colored Robe."
+	end
+end
+
+object dDarkerTeakRobe of Robe
+	properties
+		special
+		name "Darker Teak Robe"
+		color 128
+		value 6
+	end
+
+	base described
+		text "You see a Darker Teak colored Robe."
+	end
+end
+
+object dDarkestTeakRobe of Robe
+	properties
+		special
+		name "Darkest Teak Robe"
+		color 129
+		value 6
+	end
+
+	base described
+		text "You see a Darkest Teak colored Robe."
+	end
+end
+
+object dDarkBrownCitrusGlowRobe of Robe
+	properties
+		special
+		name "Dark Brown Citrus Glow Robe"
+		color 130
+		value 6
+	end
+
+	base described
+		text "You see a Dark Brown Citrus Glow colored Robe."
+	end
+end
+
+object dCitrusDarkbrownRobe of Robe
+	properties
+		special
+		name "Citrus Dark brown Robe"
+		color 131
+		value 6
+	end
+
+	base described
+		text "You see a Citrus Dark brown colored Robe."
+	end
+end
+
+object dUltraOliveRobe of Robe
+	properties
+		special
+		name "Ultra Olive Robe"
+		color 132
+		value 6
+	end
+
+	base described
+		text "You see a Ultra Olive colored Robe."
+	end
+end
+
+object dDarkOliveRobe of Robe
+	properties
+		special
+		name "Dark Olive Robe"
+		color 133
+		value 6
+	end
+
+	base described
+		text "You see a Dark Olive colored Robe."
+	end
+end
+
+object dDarkerOliveRobe of Robe
+	properties
+		special
+		name "Darker Olive Robe"
+		color 134
+		value 6
+	end
+
+	base described
+		text "You see a Darker Olive colored Robe."
+	end
+end
+
+object dDarkestOliveRobe of Robe
+	properties
+		special
+		name "Darker Olive Robe"
+		color 135
+		value 6
+	end
+
+	base described
+		text "You see a Darker Olive colored Robe."
+	end
+end
+
+object dDarkPrussianBlueRobe of Robe
+	properties
+		special
+		name "Dark Prussian Blue Robe"
+		color 136
+		value 6
+	end
+
+	base described
+		text "You see a Dark Prussian Blue colored Robe."
+	end
+end
+
+object dPrussianBlueRobe of Robe
+	properties
+		special
+		name "Prussian Blue Robe"
+		color 137
+		value 6
+	end
+
+	base described
+		text "You see a Prussian Blue colored Robe."
+	end
+end
+
+object dPrussianBlueGlowRobe of Robe
+	properties
+		special
+		name "Prussian Blue Glow Robe"
+		color 138
+		value 6
+	end
+
+	base described
+		text "You see a Prussian Blue Glow colored Robe."
+	end
+end
+
+object dSaplingRobe of Robe
+	properties
+		special
+		name "Sapling Robe"
+		color 139
+		value 6
+	end
+
+	base described
+		text "You see a Sapling colored Robe."
+	end
+end
+
+object dEcruRobe of Robe
+	properties
+		special
+		name "Ecru Robe"
+		color 140
+		value 6
+	end
+
+	base described
+		text "You see a Ecru colored Robe."
+	end
+end
+
+object dDarkEcruRobe of Robe
+	properties
+		special
+		name "Dark Ecru Robe"
+		color 141
+		value 6
+	end
+
+	base described
+		text "You see a Dark Ecru colored Robe."
+	end
+end
+
+object dDarkerEcruRobe of Robe
+	properties
+		special
+		name "Darker Ecru Robe"
+		color 142
+		value 6
+	end
+
+	base described
+		text "You see a Darker Ecru colored Robe."
+	end
+end
+
+object RobellowOrangeRobe of Robe
+	properties
+		special
+		name "Yellow Orange Robe"
+		color 143
+		value 6
+	end
+
+	base described
+		text "You see a Yellow Orange colored Robe."
+	end
+end
+
+object dMediumYellowOrangeRobe of Robe
+	properties
+		special
+		name "Medium Yellow Orange Robe"
+		color 144
+		value 6
+	end
+
+	base described
+		text "You see a Medium Yellow Orange colored Robe."
+	end
+end
+
+object dDarkYellowOrangeRobe of Robe
+	properties
+		special
+		name "Dark Yellow Orange Robe"
+		color 145
+		value 6
+	end
+
+	base described
+		text "You see a Dark Yellow Orange colored Robe."
+	end
+end
+
+object dDarkerYellowOrangeRobe of Robe
+	properties
+		special
+		name "Darker Yellow Orange Robe"
+		color 146
+		value 6
+	end
+
+	base described
+		text "You see a Darker Yellow Orange colored Robe."
+	end
+end
+
+object dDarkestYellowOrangeRobe of Robe
+	properties
+		special
+		name "Darkest Yellow Orange Robe"
+		color 147
+		value 6
+	end
+
+	base described
+		text "You see a Darkest Yellow Orange colored Robe."
+	end
+end
+
+object dDarkOrangeRedGlowRobe of Robe
+	properties
+		special
+		name "Dark Orange Red Glow Robe"
+		color 148
+		value 6
+	end
+
+	base described
+		text "You see a Dark Orange Red Glow colored Robe."
+	end
+end
+
+object dFleshDarkBrownRobe of Robe
+	properties
+		special
+		name "Flesh Dark Brown Robe"
+		color 149
+		value 6
+	end
+
+	base described
+		text "You see a Flesh Dark Brown colored Robe."
+	end
+end
+
+object dLightFleshBluredRobe of Robe
+	properties
+		special
+		name "Light Flesh Blured Robe"
+		color 150
+		value 6
+	end
+
+	base described
+		text "You see a Light Flesh Blured colored Robe."
+	end
+end
+
+object dPaleFleshRobe of Robe
+	properties
+		special
+		name "Pale Flesh Robe"
+		color 151
+		value 6
+	end
+
+	base described
+		text "You see a Pale Flesh colored Robe."
+	end
+end
+
+object dLightTawnyRobe of Robe
+	properties
+		special
+		name "Light Tawny Robe"
+		color 152
+		value 6
+	end
+
+	base described
+		text "You see a Light Tawny colored Robe."
+	end
+end
+
+object dCarrotOrangeGlowRobe of Robe
+	properties
+		special
+		name "Carrot Orange Glow Robe"
+		color 153
+		value 6
+	end
+
+	base described
+		text "You see a Carrot Orange Glow colored Robe."
+	end
+end
+
+object dKournikovaRobe of Robe
+	properties
+		special
+		name "Kournikova Robe"
+		color 154
+		value 6
+	end
+
+	base described
+		text "You see a Kournikova colored Robe."
+	end
+end
+
+object dLightYellowRobe of Robe
+	properties
+		special
+		name "Light Yellow Robe"
+		color 155
+		value 6
+	end
+
+	base described
+		text "You see a Light Yellow colored Robe."
+	end
+end
+
+object dGrayYellowRobe of Robe
+	properties
+		special
+		name "Gray Yellow Robe"
+		color 156
+		value 6
+	end
+
+	base described
+		text "You see a Gray Yellow colored Robe."
+	end
+end
+
+object dGrayLittleYellowRobe of Robe
+	properties
+		special
+		name "Gray Little Yellow Robe"
+		color 157
+		value 6
+	end
+
+	base described
+		text "You see a Gray Little Yellow colored Robe."
+	end
+end
+
+object dLighterSilkRobe of Robe
+	properties
+		special
+		name "Lighter Silk Robe"
+		color 158
+		value 6
+	end
+
+	base described
+		text "You see a Lighter Silk colored Robe."
+	end
+end
+
+object dLightSilkRobe of Robe
+	properties
+		special
+		name "Light Silk Robe"
+		color 159
+		value 6
+	end
+
+	base described
+		text "You see a Light Silk colored Robe."
+	end
+end
+
+object dSilkRobe of Robe
+	properties
+		special
+		name "Silk Robe"
+		color 160
+		value 6
+	end
+
+	base described
+		text "You see a Silk colored Robe."
+	end
+end
+
+object dDarkSilkRobe of Robe
+	properties
+		special
+		name "Dark Silk Robe"
+		color 161
+		value 6
+	end
+
+	base described
+		text "You see a Dark Silk colored Robe."
+	end
+end
+
+object dDarkerSilkRobe of Robe
+	properties
+		special
+		name "Darker Silk Robe"
+		color 162
+		value 6
+	end
+
+	base described
+		text "You see a Darker Silk colored Robe."
+	end
+end
+
+object dDarkestSilkRobe of Robe
+	properties
+		special
+		name "Darkest Silk Robe"
+		color 163
+		value 6
+	end
+
+	base described
+		text "You see a Darkerst Silk colored Robe."
+	end
+end
+
+object dDarkBrownRobe of Robe
+	properties
+		special
+		name "Dark Brown Robe"
+		color 164
+		value 6
+	end
+
+	base described
+		text "You see a Dark Brown colored Robe."
+	end
+end
+
+object dMediumBrownRobe of Robe
+	properties
+		special
+		name "Medium Brown Robe"
+		color 165
+		value 6
+	end
+
+	base described
+		text "You see a Medium Brown colored Robe."
+	end
+end
+
+object dLightBrownRobe of Robe
+	properties
+		special
+		name "Light Brown Robe"
+		color 166
+		value 6
+	end
+
+	base described
+		text "You see a Light Brown colored Robe."
+	end
+end
+
+object dPaleBrownRobe of Robe
+	properties
+		special
+		name "Pale Brown Robe"
+		color 167
+		value 6
+	end
+
+	base described
+		text "You see a Pale Brown colored Robe."
+	end
+end
+
+object dDarkLightBrownRobe of Robe
+	properties
+		special
+		name "Dark Light Brown Robe"
+		color 168
+		value 6
+	end
+
+	base described
+		text "You see a Dark Light Brown colored Robe."
+	end
+end
+
+object dDarkestBrownGlowRobe of Robe
+	properties
+		special
+		name "Darkest Brown Glow Robe"
+		color 169
+		value 6
+	end
+
+	base described
+		text "You see a Darkest Brown Glow colored Robe."
+	end
+end
+
+object dDarkMudBrownRobe of Robe
+	properties
+		special
+		name "Dark Mud Brown Robe"
+		color 170
+		value 6
+	end
+
+	base described
+		text "You see a Dark Mud Brown colored Robe."
+	end
+end
+
+object dBlackBrownRobe of Robe
+	properties
+		special
+		name "Black Brown Robe"
+		color 171
+		value 6
+	end
+
+	base described
+		text "You see a Black Brown colored Robe."
+	end
+end
+
+object dBlackLittleBrownRobe of Robe
+	properties
+		special
+		name "Black Little Brown Robe"
+		color 172
+		value 6
+	end
+
+	base described
+		text "You see a Black Little Brown colored Robe."
+	end
+end
+
+object dGrayLittleBlackRobe of Robe
+	properties
+		special
+		name "Gray Little Black Robe"
+		color 173
+		value 6
+	end
+
+	base described
+		text "You see a Gray Little Black colored Robe."
+	end
+end
+
+object dLightGrayRobe of Robe
+	properties
+		special
+		name "Light Gray Robe"
+		color 174
+		value 6
+	end
+
+	base described
+		text "You see a Light Gray colored Robe."
+	end
+end
+
+object dShiftingWhiteLinesRobe of Robe
+	properties
+		special
+		name "Shifting White Lines Robe"
+		color 175
+		value 6
+	end
+
+	base described
+		text "You see a Shifting White Lines colored Robe."
+	end
+end
+
+object dShiftingWhiteRobe of Robe
+	properties
+		special
+		name "Shifting White Robe"
+		color 176
+		value 6
+	end
+
+	base described
+		text "You see a Shifting White colored Robe."
+	end
+end
+
+object dShiftingAllWhiteRobe of Robe
+	properties
+		special
+		name "Shifting all White Robe"
+		color 177
+		value 6
+	end
+
+	base described
+		text "You see a Shifting all White colored Robe."
+	end
+end
+
+object dShiftingLightGrayRobe of Robe
+	properties
+		special
+		name "Shifting Light Gray Robe"
+		color 178
+		value 6
+	end
+
+	base described
+		text "You see a Shifting Light Gray colored Robe."
+	end
+end
+
+object dShiftingGrayRobe of Robe
+	properties
+		special
+		name "Shifting Gray Robe"
+		color 179
+		value 6
+	end
+
+	base described
+		text "You see a Shifting Gray colored Robe."
+	end
+end
+
+object dShiftingDarkGrayRobe of Robe
+	properties
+		special
+		name "Shifting Dark Gray Robe"
+		color 180
+		value 6
+	end
+
+	base described
+		text "You see a Shifting Dark Gray colored Robe."
+	end
+end
+
+object dShiftingDarkerGrayRobe of Robe
+	properties
+		special
+		name "Shifting Darker Gray Robe"
+		color 181
+		value 6
+	end
+
+	base described
+		text "You see a Shifting Darker Gray colored Robe."
+	end
+end
+
+object dShiftingDarkestGrayRobe of Robe
+	properties
+		special
+		name "Shifting Darkest Gray Robe"
+		color 182
+		value 6
+	end
+
+	base described
+		text "You see a Shifting Darkest M colored Robe."
+	end
+end
+
+object dShiftingBlackRobe of Robe
+	properties
+		special
+		name "Shifting Black Robe"
+		color 183
+		value 6
+	end
+
+	base described
+		text "You see a Shifting Black colored Robe."
+	end
+end
+
+object dShiftingBlackGlowRobe of Robe
+	properties
+		special
+		name "Shifting Black Glow Robe"
+		color 184
+		value 6
+	end
+
+	base described
+		text "You see a Shifting Black Glow colored Robe."
+	end
+end
+
+object dShiftingStarkBlackRobe of Robe
+	properties
+		special
+		name "Shifting Stark Black Robe"
+		color 185
+		value 6
+	end
+
+	base described
+		text "You see a Shifting Stark Black colored Robe."
+	end
+end
+
+object dShiftingStarkWhiteRobe of Robe
+	properties
+		special
+		name "Shifting Stark White Robe"
+		color 186
+		value 6
+	end
+
+	base described
+		text "You see a Shifting StarkWhite colored Robe."
+	end
+end
+
+object dShiftingLightestRosyBrownRobe of Robe
+	properties
+		special
+		name "Shifting Lightest Rosy Brown Robe"
+		color 187
+		value 6
+	end
+
+	base described
+		text "You see a Shifting Lightest Rosy Brown colored Robe."
+	end
+end
+
+object dShiftingLightRosyBrownRobe of Robe
+	properties
+		special
+		name "Shifting Light Rosy Brown Robe"
+		color 188
+		value 6
+	end
+
+	base described
+		text "You see a Shifting Light Rosy Brown colored Robe."
+	end
+end
+
+object dShiftingRosyBrownRobe of Robe
+	properties
+		special
+		name "Shifting Rosy Brown Robe"
+		color 189
+		value 6
+	end
+
+	base described
+		text "You see a 189 colored Robe."
+	end
+end
+
+object dShiftingDarkRosyBrownRobe of Robe
+	properties
+		special
+		name "Shifting Dark Rosy Brown Robe"
+		color 190
+		value 6
+	end
+
+	base described
+		text "You see a Shifting Dark Rosy Brown colored Robe."
+	end
+end
+
+object dShiftingDarkerRosyBrownRobe of Robe
+	properties
+		special
+		name "Shifting Darker Rosy Brown Robe"
+		color 191
+		value 6
+	end
+
+	base described
+		text "You see a Shifting Darker Rosy Brown colored Robe."
+	end
+end
+
+object dShiftingDarkestRosyBrownRobe of Robe
+	properties
+		special
+		name "Shifting Darkest Rosy Brown Robe"
+		color 192
+		value 6
+	end
+
+	base described
+		text "You see a Shifting Darkest Rosy Brown colored Robe."
+	end
+end
+
+object dShiftingDarkRosyBrownGlowRobe of Robe
+	properties
+		special
+		name "Shifting Dark Rosy Brown Glow Robe"
+		color 193
+		value 6
+	end
+
+	base described
+		text "You see a Shifting Dark Rosy Brown Glow colored Robe."
+	end
+end
+
+object dShiftingOffWhiteRobe of Robe
+	properties
+		special
+		name "Shifting Off White Robe"
+		color 194
+		value 6
+	end
+
+	base described
+		text "You see a Shifting Off White colored Robe."
+	end
+end
+
+object dShiftingLightCreamRobe of Robe
+	properties
+		special
+		name "Shifting Light Cream Robe"
+		color 195
+		value 6
+	end
+
+	base described
+		text "You see a Shifting Light Cream colored Robe."
+	end
+end
+
+object dShiftingCreamRobe of Robe
+	properties
+		special
+		name "Shifting Cream Robe"
+		color 196
+		value 6
+	end
+
+	base described
+		text "You see a Shifting Cream colored Robe."
+	end
+end
+
+object dShiftingBronzeOliveRobe of Robe
+	properties
+		special
+		name "Shifting Bronze Olive Robe"
+		color 197
+		value 6
+	end
+
+	base described
+		text "You see a Shifting Bronze Olive colored Robe."
+	end
+end
+
+object dShiftingDarkBronzeGlowRobe of Robe
+	properties
+		special
+		name "Shifting Dark Bronze Glow Robe"
+		color 198
+		value 6
+	end
+
+	base described
+		text "You see a Shifting Dark Bronze Glow colored Robe."
+	end
+end
+
+object dShiftingOrangeBrownRobe of Robe
+	properties
+		special
+		name "Shifting Orange Brown Robe"
+		color 199
+		value 6
+	end
+
+	base described
+		text "You see a Shifting Orange Brown colored Robe."
+	end
+end
+
+object dShiftingOrangeBrownGlowRobe of Robe
+	properties
+		special
+		name "Shifting Orange Brown Glow Robe"
+		color 200
+		value 6
+	end
+
+	base described
+		text "You see a Shifting Orange Brown Glow colored Robe."
+	end
+end
+
+object dShiftingWhiteOrangeRobe of Robe
+	properties
+		special
+		name "Shifting White Orange Robe"
+		color 201
+		value 6
+	end
+
+	base described
+		text "You see a Shifting White Orange colored Robe."
+	end
+end
+
+object dShiftingLightestChromeRobe of Robe
+	properties
+		special
+		name "Shifting Lightest Chrome Robe"
+		color 202
+		value 6
+	end
+
+	base described
+		text "You see a Shifting Lightest Chrome colored Robe."
+	end
+end
+
+object dShiftingLighterChromeRobe of Robe
+	properties
+		special
+		name "Shifting Lighter Chrome Robe"
+		color 203
+		value 6
+	end
+
+	base described
+		text "You see a Shifting Lighter Chrome colored Robe."
+	end
+end
+
+object dShiftingLightChromeRobe of Robe
+	properties
+		special
+		name "Shifting Light Chrome Robe"
+		color 204
+		value 6
+	end
+
+	base described
+		text "You see a Shifting Light Chrome colored Robe."
+	end
+end
+
+object dShiftingChromeRobe of Robe
+	properties
+		special
+		name "Shifting Chrome Robe"
+		color 205
+		value 6
+	end
+
+	base described
+		text "You see a Shifting Chrome colored Robe."
+	end
+end
+
+object dShiftingDarkChromeRobe of Robe
+	properties
+		special
+		name "Shifting Dark Chrome Robe"
+		color 206
+		value 6
+	end
+
+	base described
+		text "You see a Shifting Dark Chrome colored Robe."
+	end
+end
+
+object dShiftingDarkerChromeRobe of Robe
+	properties
+		special
+		name "Shifting Darker Chrome Robe"
+		color 207
+		value 6
+	end
+
+	base described
+		text "You see a Shifting Darker Chrome colored Robe."
+	end
+end
+
+object dShiftingDarkestChromeRobe of Robe
+	properties
+		special
+		name "Shifting Darkest Chrome Robe"
+		color 208
+		value 6
+	end
+
+	base described
+		text "You see a Shifting Darkest Chrome colored Robe."
+	end
+end
+
+object dShiftingDarkBrownRobe of Robe
+	properties
+		special
+		name "Shifting Dark Brown Robe"
+		color 209
+		value 6
+	end
+
+	base described
+		text "You see a Shifting Dark Brown colored Robe."
+	end
+end
+
+object dShiftingLightestVanillaRobe of Robe
+	properties
+		special
+		name "Shifting Lightest Vanilla Robe"
+		color 210
+		value 6
+	end
+
+	base described
+		text "You see a Shifting Lightest Vanilla colored Robe."
+	end
+end
+
+object dShiftingLighterVanillaRobe of Robe
+	properties
+		special
+		name "Shifting Lighter Vanilla Robe"
+		color 211
+		value 6
+	end
+
+	base described
+		text "You see a Shifting Lighter Vanilla colored Robe."
+	end
+end
+
+object dShiftingLightVanillaRobe of Robe
+	properties
+		special
+		name "Shifting Light Vanilla Robe"
+		color 212
+		value 6
+	end
+
+	base described
+		text "You see a Shifting Light Vanilla colored Robe."
+	end
+end
+
+object dShiftingVanillaRobe of Robe
+	properties
+		special
+		name "Shifting Vanilla Robe"
+		color 213
+		value 6
+	end
+
+	base described
+		text "You see a Shifting Vanilla colored Robe."
+	end
+end
+
+object dShiftingDarkVanillaRobe of Robe
+	properties
+		special
+		name "Shifting Dark Vanilla Robe"
+		color 214
+		value 6
+	end
+
+	base described
+		text "You see a Shifting Dark Vanilla colored Robe."
+	end
+end
+
+object dShiftingDarkerVanillaRobe of Robe
+	properties
+		special
+		name "Shifting Darker Vanilla Robe"
+		color 215
+		value 6
+	end
+
+	base described
+		text "You see a Shifting Darker Vanilla colored Robe."
+	end
+end
+
+object dShiftingDarkestVanillaRobe of Robe
+	properties
+		special
+		name "Shifting Darkest Vanilla Robe"
+		color 216
+		value 6
+	end
+
+	base described
+		text "You see a Shifting Darkest Vanilla colored Robe."
+	end
+end
+
+object dShiftingCoffeeGlowRobe of Robe
+	properties
+		special
+		name "Shifting Coffee Glow Robe"
+		color 217
+		value 6
+	end
+
+	base described
+		text "You see a Shifting Coffee Glow colored Robe."
+	end
+end
+
+object dShiftingOffWhiteLinesRobe of Robe
+	properties
+		special
+		name "Shifting Off White Lines Robe"
+		color 218
+		value 6
+	end
+
+	base described
+		text "You see a Shifting Off White Lines colored Robe."
+	end
+end
+
+object dShiftingDarkGreenGlowRobe of Robe
+	properties
+		special
+		name "Shifting Dark Green Glow Robe"
+		color 219
+		value 6
+	end
+
+	base described
+		text "You see a Shifting Dark Green Glow colored Robe."
+	end
+end
+
+object dShiftingGreenGlowRobe of Robe
+	properties
+		special
+		name "Shifting Green Glow Robe"
+		color 220
+		value 6
+	end
+
+	base described
+		text "You see a Shifting Green Glow colored Robe."
+	end
+end
+
+object dShiftingOliveRobe of Robe
+	properties
+		special
+		name "Shifting Olive Robe"
+		color 221
+		value 6
+	end
+
+	base described
+		text "You see a Shifting Olive colored Robe."
+	end
+end
+
+object dShiftingLimeRobe of Robe
+	properties
+		special
+		name "Shifting Lime Robe"
+		color 222
+		value 6
+	end
+
+	base described
+		text "You see a Shifting Lime colored Robe."
+	end
+end
+
+object dShiftingWhiteGreenRobe of Robe
+	properties
+		special
+		name "Shifting White Green Robe"
+		color 223
+		value 6
+	end
+
+	base described
+		text "You see a Shifting White Green colored Robe."
+	end
+end
+
+object dShiftingGrayLimeRobe of Robe
+	properties
+		special
+		name "Shifting Gray Lime Robe"
+		color 224
+		value 6
+	end
+
+	base described
+		text "You see a Shifting Gray Lime colored Robe."
+	end
+end
+
+object dShiftingLighterFossilRobe of Robe
+	properties
+		special
+		name "Shifting Lighter Fossil Robe"
+		color 225
+		value 6
+	end
+
+	base described
+		text "You see a Shifting Lighter Fossil colored Robe."
+	end
+end
+
+object dShiftingLightFossilRobe of Robe
+	properties
+		special
+		name "Shifting Light Fossil Robe"
+		color 226
+		value 6
+	end
+
+	base described
+		text "You see a Shifting Light Fossil colored Robe."
+	end
+end
+
+object dShiftingFossilRobe of Robe
+	properties
+		special
+		name "Shifting Fossil Robe"
+		color 227
+		value 6
+	end
+
+	base described
+		text "You see a Shifting Fossil colored Robe."
+	end
+end
+
+object dShiftingDarkFossilRobe of Robe
+	properties
+		special
+		name "Shifting Dark Fossil Robe"
+		color 228
+		value 6
+	end
+
+	base described
+		text "You see a Shifting Dark Fossil colored Robe."
+	end
+end
+
+object dShiftingDarkerFossilRobe of Robe
+	properties
+		special
+		name "Shifting Darker Fossil Robe"
+		color 229
+		value 6
+	end
+
+	base described
+		text "You see a Shifting Darker Fossil colored Robe."
+	end
+end
+
+object dShiftingBlackGreenGlowRobe of Robe
+	properties
+		special
+		name "Shifting Black Green Glow Robe"
+		color 230
+		value 6
+	end
+
+	base described
+		text "You see a Shifting Black Green Glow colored Robe."
+	end
+end
+
+object dShiftingLightGreenRobe of Robe
+	properties
+		special
+		name "Shifting Light Green Robe"
+		color 231
+		value 6
+	end
+
+	base described
+		text "You see a Shifting Light Green colored Robe."
+	end
+end
+
+object dDarkGreenGlowRobe of Robe
+	properties
+		special
+		name "Dark Green Glow Robe"
+		color 232
+		value 6
+	end
+
+	base described
+		text "You see a Dark Green Glow colored Robe."
+	end
+end
+
+object dLightGreenInvisibleLinesRobe of Robe
+	properties
+		special
+		name "Light Green Invisible Lines Robe"
+		color 233
+		value 6
+	end
+
+	base described
+		text "You see a Light Green Invisible Lines colored Robe."
+	end
+end
+
+object dInvisibleLightGreenRobe of Robe
+	properties
+		special
+		name "Invisible Light Green Robe"
+		color 234
+		value 6
+	end
+
+	base described
+		text "You see a Invisible Light Green colored Robe."
+	end
+end
+
+object dInvisibleLightGreenLinesRobe of Robe
+	properties
+		special
+		name "Invisible Light Green Lines Robe"
+		color 235
+		value 6
+	end
+
+	base described
+		text "You see a Invisible Light Green Lines colored Robe."
+	end
+end
+
+object dCompletelyInvisibleRobe of Robe
+	properties
+		special
+		name "Completely Invisible Robe"
+		color 236
+		value 6
+	end
+
+	base described
+		text "You see a Completely Invisible colored Robe."
+	end
+end
+
+object dInvisibleBlackOutlinedRobe of Robe
+	properties
+		special
+		name "Invisible Black Outlined Robe"
+		color 237
+		value 6
+	end
+
+	base described
+		text "You see a Invisible Black Outlined colored Robe."
+	end
+end
+
+object dInvisibleClearSpotsRobe of Robe
+	properties
+		special
+		name "Invisible Clear Spots Robe"
+		color 238
+		value 6
+	end
+
+	base described
+		text "You see a Invisible Clear Spots colored Robe."
+	end
+end
+
+object dDarkInvisibleRobe of Robe
+	properties
+		special
+		name "Dark Invisible Robe"
+		color 239
+		value 6
+	end
+
+	base described
+		text "You see a Dark Invisible colored Robe."
+	end
+end
+
+object dNormalInvisibleRobe of Robe
+	properties
+		special
+		name "Normal Invisible Robe"
+		color 240
+		value 6
+	end
+
+	base described
+		text "You see a Normal Invisible colored Robe."
+	end
+end
+
+object dAlmostInvisibleRobe of Robe
+	properties
+		special
+		name "Almost Invisible Robe"
+		color 241
+		value 6
+	end
+
+	base described
+		text "You see a Almost Invisible colored Robe."
+	end
+end
+
+object dAlmostInvisibleLinesRobe of Robe
+	properties
+		special
+		name "Almost Invisible Lines Robe"
+		color 242
+		value 6
+	end
+
+	base described
+		text "You see a Almost Invisible Lines colored Robe."
+	end
+end
+
+object dNearInvisibleLinesRobe of Robe
+	properties
+		special
+		name "Near Invisible Lines Robe"
+		color 243
+		value 6
+	end
+
+	base described
+		text "You see a Near Invisible Lines colored Robe."
+	end
+end
+
+object dSecondCompletelyInvisibleRobe of Robe
+	properties
+		special
+		name "Second Completely Invisible Robe"
+		color 244
+		value 6
+	end
+
+	base described
+		text "You see a Second Completely Invisible colored Robe."
+	end
+end
+
+object dThirdCompletelyInvisibleRobe of Robe
+	properties
+		special
+		name "Third Completely Invisible Robe"
+		color 245
+		value 6
+	end
+
+	base described
+		text "You see a Third Completely Invisible colored Robe."
+	end
+end
+
+object dForthCompletelyInvisibleRobe of Robe
+	properties
+		special
+		name "Forth Completely Invisible Robe"
+		color 246
+		value 6
+	end
+
+	base described
+		text "You see a Forth Completely Invisible colored Robe."
+	end
+end
+
+object dFithCompletelyInvisibleRobe of Robe
+	properties
+		special
+		name "Fith Completely Invisible Robe"
+		color 247
+		value 6
+	end
+
+	base described
+		text "You see a Fith Completely Invisible colored Robe."
+	end
+end
+
+object dSixthCompletelyInvisibleRobe of Robe
+	properties
+		special
+		name "Sixth Completely Invisible Robe"
+		color 248
+		value 6
+	end
+
+	base described
+		text "You see a Sixth Completely Invisible colored Robe."
+	end
+end
+
+object dSeventhCompletelyInvisibleRobe of Robe
+	properties
+		special
+		name "Seventh Completely Invisible Robe"
+		color 249
+		value 6
+	end
+
+	base described
+		text "You see a Seventh Completely Invisible colored Robe."
+	end
+end
+
+object dEighthCompletelyInvisibleRobe of Robe
+	properties
+		special
+		name "Eighth Completely Invisible Robe"
+		color 250
+		value 6
+	end
+
+	base described
+		text "You see a Eighth Completely Invisible colored Robe."
+	end
+end
+
+object dNinthCompletelyInvisibleRobe of Robe
+	properties
+		special
+		name "Ninth Completely Invisible Robe"
+		color 251
+		value 6
+	end
+
+	base described
+		text "You see a Ninth Completely Invisible colored Robe."
+	end
+end
+
+object dTenthCompletelyInvisibleRobe of Robe
+	properties
+		special
+		name "Tenth Completely Invisible Robe"
+		color 252
+		value 6
+	end
+
+	base described
+		text "You see a Tenth Completely Invisible colored Robe."
+	end
+end
+
+object dInvisibleBlackLinesRobe of Robe
+	properties
+		special
+		name "Invisible Black Lines Robe"
+		color 253
+		value 6
+	end
+
+	base described
+		text "You see a Invisible Black Lines colored Robe."
+	end
+end
+
+object dBlackInvisibleLinesRobe of Robe
+	properties
+		special
+		name "Black Invisible Lines Robe"
+		color 254
+		value 6
+	end
+
+	base described
+		text "You see a Black Invisible Lines colored Robe."
+	end
+end
+
+object dDarkNaturalBrownRobe of Robe
+	properties
+		special
+		name "Dark Natural Brown Robe"
+		color 255
+		value 6
+	end
+
+	base described
+		text "You see a Dark Natural Brown colored Robe."
+	end
+end

@@ -1,0 +1,76 @@
+object Noid of NPC
+    properties
+    special
+        name "Noid"
+        alignment 0
+        color 1538
+        minLevel 900
+        maxLevel 1200
+        minDamage 800
+        maxDamage 1100
+
+        strength 200
+        endurance 65
+        intelligence 45
+        dexterity 40
+
+        # do fire damage
+        affect 1 0 0 -1
+
+        soundGroup 13
+        damageType 2
+        armorType 2
+        range 2
+        quickness 25
+        
+        treasure 5
+        
+        girth 180
+        height 180
+    end
+
+        base character
+                skill 0 5
+                skill 1 5
+                skill 2 5
+                skill 3 5
+                skill 4 5
+                skill 5 5
+                skill 6 5
+                skill 7 5
+                skill 8 5
+                skill 10 5
+                ## grand master wiz
+                skill 11 5
+                skill 12 5
+                skill 13 5
+                skill 14 5
+                skill 15 5
+                skill 28 5
+                skill 29 5
+        end
+
+
+    base container
+        #HeadNo. = 1-Sex, 2-SkinColor, 3-HeadNo, 4-BrowNo, 5-EyeClr, 6-EyeNo,  
+        #          7-FaceHairNo, 8-HairNo, 9-HairClr, 10-Nose, 11-Mouth, 12-Ear, 13-Race,
+        head 0 1 1 1 5 0 7 0 3 3 0 0
+        #worn EvilWrist
+        #worn bFinvarra
+        #worn EvilChainCowl
+        #worn EvilTunic
+        #worn EvilPants
+        #worn EvilHighBoots
+        #worn mwGiantsMaul
+        #worn EvilThiefMask
+        #object RandomRareGlowDye
+        #object RandomRareMagicHelm
+        #object RandomSemiRareMagicHelm
+        #object RandomRareGodSpell
+        #object RandomNewGear
+    end
+    
+    base npc
+        code tulor
+    end
+end
