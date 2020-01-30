@@ -1,4 +1,4 @@
-# Dwarves and Giantes Server
+# Dwarves and Giants Server
 
 ## Building the Docker Image
 This only needs to be done the first time, and any subsequent time if ANY of the files or options change.
