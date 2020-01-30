@@ -8,3 +8,4 @@ tmux rename-window 'datamgr'
 sleep 5
 tmux new-window "cd $REALMFOLDER/router; ./startrouter"
 tmux rename-window 'router'
+tmux a
