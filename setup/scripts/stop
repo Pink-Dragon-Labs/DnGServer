@@ -1,0 +1,11 @@
+#!/bin/bash
+
+netstat -lpn | grep ":6005\b" | awk '{sub(/\/.*/, "", $NF); print $NF}' | xargs -i kill -kill {}
+
+netstat -lpn | grep ":6008\b" | awk '{sub(/\/.*/, "", $NF); print $NF}' | xargs -i kill -kill {}
+
+netstat -lpn | grep ":6009\b" | awk '{sub(/\/.*/, "", $NF); print $NF}' | xargs -i kill -kill {}
+
+netstat -lpn | grep ":7002\b" | awk '{sub(/\/.*/, "", $NF); print $NF}' | xargs -i kill -kill {}
+
+netstat -lpn | grep ":7006\b" | awk '{sub(/\/.*/, "", $NF); print $NF}' | xargs -i kill -kill {}

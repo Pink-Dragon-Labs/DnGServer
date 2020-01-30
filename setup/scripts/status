@@ -1,0 +1,12 @@
+netstat -lpn | grep 6005
+sleep .5
+netstat -lpn | grep 6008
+sleep .5
+netstat -lpn | grep 20004
+sleep .5
+netstat -lpn | grep 7006
+sleep .5
+netstat -lpn | grep 6009
+sleep .5
+netstat -lpn | grep 20005
+sleep .5

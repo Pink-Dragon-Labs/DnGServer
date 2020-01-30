@@ -1,0 +1,33 @@
+#!/bin/bash
+
+# Backup dir no trailing /
+backup_path="/root/game_backups"
+server="realmserver"
+
+# Create backup directory
+if [ ! -d $backup_path ]; then
+    mkdir $backup_path
+fi
+
+# Get date and time script is run
+date=$(date +"%d_%b_%Y_%H_%M")
+
+#copy server to backup
+cp -a "/opt/realmserver" $backup_path
+
+#set server archive
+archiveFilename=$backup_path/$server-$date
+serverDirectory=$backup_path/$server
+
+# Set umask permissions
+umask 177
+
+#compress
+archiveFilename="$archiveFilename.rar"
+rar a $archiveFilename $serverDirectory
+
+# Delete the orig dump if we were able to compress it
+if [ -f "$archiveFilename" ]
+then
+    rm -r $serverDirectory
+fi

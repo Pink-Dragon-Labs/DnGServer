@@ -1,0 +1,15 @@
+cd /opt/streborn/router
+nohup ./startrouter &
+sleep 2
+cd /opt/streborn/datamgr
+nohup ./startdatamgr &
+sleep 2
+cd /opt/streborn/update
+nohup ./startupdate &
+sleep 2
+cd /opt/streborn/live/bin
+nohup ./startroommgr &
+sleep 2
+cd /opt/streborn/dawn/bin
+nohup ./startroommgr &
+sleep 2

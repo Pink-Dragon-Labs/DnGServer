@@ -1,0 +1,4 @@
+cd /opt/streborn/test/bin
+nohup ./startroommgr &
+sleep 2
+

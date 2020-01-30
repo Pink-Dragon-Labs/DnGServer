@@ -1,0 +1,2 @@
+cd /opt/streborn/update
+nohup ./startupdate &

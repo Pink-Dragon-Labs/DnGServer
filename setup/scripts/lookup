@@ -1,0 +1,17 @@
+#!/bin/bash
+. password.sh
+
+characterName=""
+
+if [ "$1" = "" ]; then
+echo "Add a character name.."
+else
+characterName=$1;
+
+characterInfo=$(mysql -h localhost -u$MYSQL_USER -e "use realm4udb;SELECT ln.name, a.password, a.creationDate, a.rights, a.status FROM loginNames ln join accounts a on ln.id = a.loginNameID join characters c on a.id = c.accountID join characterNames cn on c.characterNameID = cn.id where cn.name = '$characterName';")>/dev/null
+
+echo $characterInfo | cut -c1-40
+echo $characterInfo | cut -c42-
+
+
+fi

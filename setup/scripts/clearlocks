@@ -1,0 +1,4 @@
+#!/bin/bash
+. password.sh
+
+echo 'DELETE FROM `realm4udb`.`accountLocks` WHERE `server`='0';' | mysql -u$MYSQL_USER -p$MYSQL_PWD

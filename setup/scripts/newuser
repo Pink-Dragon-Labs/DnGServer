@@ -1,0 +1,76 @@
+#!/bin/bash
+. password.sh
+# username pass billtype userrights
+user=""
+pass="" 
+billType="" 
+userRights="" 
+
+
+
+if [ "$1" = "" ]; then 
+echo "Usage: user Bob x23ff [Y:M] [PL:G:M:I:PR]"
+echo "Y = Yearly M = Monthly (choose 1)"
+echo "PL = Player G = Guide M = Mod I = Imp PR = Prophet (choose 1)"
+else
+user=$1;
+pass=$2;
+
+# Run checks
+
+# Check billing type
+if [ "$3" = "Y" ]; then
+billType="yearly";
+elif [ "$3" = "M" ]; then
+billType="monthly";
+else
+echo "Usage: user Bob x23ff [Y:M] [PL:G:M:I:PR]"
+echo "Y = Yearly M = Monthly (choose 1)"
+echo "PL = Player G = Guide M = Mod I = Imp PR = Prophet (choose 1)"
+exit
+fi 
+
+# Check UserRights
+if [ "$4" = "PL" ]; then
+userRights="";
+elif [ "$4" = "G" ]; then
+userRights="guide";
+elif [ "$4" = "M" ]; then
+userRights="moderator";
+elif [ "$4" = "I" ]; then
+userRights="implementor";
+elif [ "$4" = "PR" ]; then
+userRights="prophet";
+else
+echo "Usage: user Bob x23ff [Y:M] [PL:G:M:I:PR]"
+echo "Y = Yearly M = Monthly (choose 1)"
+echo "PL = Player G = Guide M = Mod I = Imp PR = Prophet (choose 1)"
+exit
+fi
+# We passed all checks
+# Try to insert new usernae
+query1=$(`mysql -h localhost -u$MYSQL_USER -e "use realm4udb; INSERT INTO loginNames (id, name) VALUES (0, '$user');"`)>/dev/null
+
+#lastNames check to make sure the above command was succesful
+if [[ $? == 0 ]]; 
+then
+id=$(mysql -u$MYSQL_USER -ss -N -e "SELECT id FROM \`realm4udb\`.loginNames where name = '$user';")>/dev/null
+# We have succesfully inserted the user and have his insert id of id
+# Create Account table
+date=`date '+%Y/%d/%m %H:%M:%S'`
+newdt=`date --date='1 year' '+%Y/%d/%m %H:%M:%S'`
+
+query2=$(mysql -u$MYSQL_USER -ss -N -e "use realm4udb; INSERT INTO accounts (id, accountID, type, billingStatus, creationDate, disciplineExpiration, billingDate, loginNameID, password, rights, status, productOrderID, validationTime, nCoppers, nCredits, reason, actionTimer) VALUES (0, $id, '$billType', 'paid', '$date', '$date', '$newdt', $id, '$pass', '$userRights', 'normal', '$date' , '$date', '0', '0', '', '');")>/dev/null
+if [[ $? == 0 ]]; 
+then
+echo "Creating User:$user With Password:$pass With BillingType:$billType and Rights:$userRights";
+else
+echo "Unable to create user $user";
+exit
+fi
+else
+echo "Unable to create user $user";
+exit
+fi
+fi
+

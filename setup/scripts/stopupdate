@@ -1,0 +1,1 @@
+netstat -lpn | grep ":20000\b" | awk '{sub(/\/.*/, "", $NF); print $NF}' | xargs -i kill -kill {}

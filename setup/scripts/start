@@ -1,0 +1,21 @@
+#!/bin/bash
+
+cd /opt/realmserver/server
+
+echo "Starting Router!"
+/opt/realmserver/server/router /opt/realmserver/server/router.conf &
+sleep .5
+
+echo "Starting Data Manager!"
+/opt/realmserver/server/datamgr /opt/realmserver/server/datamgr.conf &
+sleep .5
+
+echo "Starting Update Server"
+/opt/realmserver/server/update /opt/realmserver/server/update.conf &
+sleep .5
+
+echo "Starting Room Manager!"
+/opt/realmserver/server/roommgr /opt/realmserver/server/roommgr.conf
+sleep .5
+
+echo "Server Up!"

@@ -1,0 +1,4 @@
+cd /opt/streborn/dawn/bin
+nohup ./startroommgr &
+sleep 2
+
