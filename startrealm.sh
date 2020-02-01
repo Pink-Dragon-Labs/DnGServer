@@ -1,3 +1,4 @@
+#!/bin/bash
 tmux new-session -d -s Realm "cd $REALMFOLDER/dawn/bin; ./startroommgr"
 tmux rename-window 'dawn'
 tmux new-window "cd $REALMFOLDER/update; ./startupdate"

@@ -13,7 +13,7 @@ RUN apt install -y \
     libstdc++5 \
     libmysqlclient-dev \
     lib32ncurses5 lib32z1 \
-    vim tmux git net-tools ssh htop
+    vim tmux htop
 
 RUN sed -i "28s/.*/PermitRootLogin yes/" /etc/ssh/sshd_config
 RUN sed -i "s/.*bind-address.*=.*/bind-address=0.0.0.0/g" /etc/mysql/my.cnf
@@ -43,84 +43,55 @@ COPY setup/libclient /usr/lib/i386-linux-gnu
 COPY setup/mysql /etc/mysql
 COPY setup/cron /etc
 
-RUN ip a show eth0 | grep -Po 'inet \K[\d.]+' > /root/local_ip
-RUN echo 'root:$ROOTPASS' | chpasswd
+RUN ip a show eth0 | grep -Po 'inet \K[\d.]+' > /root/local_ip; \
+    echo 'root:$ROOTPASS' | chpasswd
 
-RUN /etc/init.d/mysql restart; mysql -e "CREATE DATABASE $DBNAME;CREATE USER '$DBUSER'@'localhost' IDENTIFIED BY '$DBPASS';GRANT ALL PRIVILEGES ON *.* to $DBUSER@'localhost' identified by '$DBROOTPW';GRANT ALL PRIVILEGES ON *.* TO '$DBUSER'@'localhost' WITH GRANT OPTION;FLUSH PRIVILEGES"
-RUN /etc/init.d/mysql restart; mysql $DBNAME < $DB_FILE
+RUN /etc/init.d/mysql restart; mysql -e "CREATE DATABASE $DBNAME;CREATE USER '$DBUSER'@'localhost' IDENTIFIED BY '$DBPASS';GRANT ALL PRIVILEGES ON *.* to $DBUSER@'localhost' identified by '$DBROOTPW';GRANT ALL PRIVILEGES ON *.* TO '$DBUSER'@'localhost' WITH GRANT OPTION;FLUSH PRIVILEGES"; \
+    mysql $DBNAME < $DB_FILE; \
+    LOCAL_IP=$(cat /root/local_ip); mysql $DBNAME -e "UPDATE serverList SET ip = '$LOCAL_IP' WHERE id='0'"; \
+    mysql $DBNAME -e "UPDATE serverList SET ip = '$LOCAL_IP' WHERE id='1'"
 
-RUN /etc/init.d/mysql restart; LOCAL_IP=$(cat /root/local_ip); mysql $DBNAME -e "UPDATE serverList SET ip = '$LOCAL_IP' WHERE id='0'"
-RUN /etc/init.d/mysql restart; LOCAL_IP=$(cat /root/local_ip); mysql $DBNAME -e "UPDATE serverList SET ip = '$LOCAL_IP' WHERE id='1'"
+RUN sed -i_bak -e "/$UPDATE_PORT/d" /etc/services; \
+    sed -i_bak -e "/$GAME_PORT/d" /etc/services; \
+    sed -i_bak -e "/$TEST_PORT/d" /etc/services; \
+    sed -i_bak -e "/$ROUTER_PORT/d" /etc/services; \
+    sed -i_bak -e "/$DATAMGR_PORT/d" /etc/services; \
+    echo "sgi-crsd		 17002/udp" >> /etc/services; \
+    echo "realmupdate   $UPDATE_PORT/tcp" >> /etc/services; \
+    echo "realmgame     $GAME_PORT/tcp" >> /etc/services; \
+    echo "realmtestgame $TEST_PORT/tcp" >> /etc/services; \
+    echo "realmrouter   $ROUTER_PORT/tcp" >> /etc/services; \
+    echo "realmdatamgr  $DATAMGR_PORT/tcp" >> /etc/services
 
-RUN sed -i_bak -e "/$UPDATE_PORT/d" /etc/services
-RUN sed -i_bak -e "/$GAME_PORT/d" /etc/services
-RUN sed -i_bak -e "/$TEST_PORT/d" /etc/services
-RUN sed -i_bak -e "/$ROUTER_PORT/d" /etc/services
-RUN sed -i_bak -e "/$DATAMGR_PORT/d" /etc/services
-RUN echo "sgi-crsd		 17002/udp" >> /etc/services
-RUN echo "realmupdate   $UPDATE_PORT/tcp" >> /etc/services
-RUN echo "realmgame     $GAME_PORT/tcp" >> /etc/services
-RUN echo "realmtestgame $TEST_PORT/tcp" >> /etc/services
-RUN echo "realmrouter   $ROUTER_PORT/tcp" >> /etc/services
-RUN echo "realmdatamgr  $DATAMGR_PORT/tcp" >> /etc/services
-
-RUN LOCAL_IP=$(cat /root/local_ip); echo "$LOCAL_IP 	realmserver" >> /etc/hosts
-
-#WORKDIR $REALMFOLDER/server
-#RUN sed -i "5s/.*/sqlDB ${DBNAME}/" router.conf
-#RUN sed -i "8s/.*/sqlUser ${DBUSER}/" router.conf
-#RUN sed -i "11s/.*/sqlPW ${DBPASS}/" router.conf
-#RUN LOCAL_IP=$(cat /root/local_ip); sed -i "25s/.*/updateIP-0 $LOCAL_IP/" router.conf
-#
-#RUN sed -i "5s/.*/sqlDB ${DBNAME}/" datamgr.conf
-#RUN sed -i "8s/.*/sqlUser ${DBUSER}/" datamgr.conf
-#RUN LOCAL_IP=$(cat /root/local_ip); sed -i "12s/.*/listenHost $LOCAL_IP/" datamgr.conf
-#RUN sed -i "18s/.*/sqlPW ${DBPASS}/" datamgr.conf
-#
-#RUN chmod 775 datamgr
-#RUN chmod 775 datamgr.conf
-#RUN chmod 775 roommgr
-#RUN chmod 775 roommgr.conf
-#RUN chmod 775 router
-#RUN chmod 775 router.conf
-#RUN chmod 775 update
-#RUN chmod 775 update.conf
-
-
-#WORKDIR $DATAFOLDER
-#RUN chmod 775 compile
-#RUN chmod 775 stripCR
-#RUN chmod 775 tokenize
-#RUN ./compile
+#RUN LOCAL_IP=$(cat /root/local_ip); echo "$LOCAL_IP 	realmserver" >> /etc/hosts
 
 WORKDIR $SETUP_DIR
-RUN sed -i "s/.*export MYSQL_USER.*/export MYSQL_USER=${DBUSER}/g" $SETUP_DIR/scripts/password.sh
-RUN sed -i "s/.*export MYSQL_PWD=.*/export MYSQL_PWD=${DBPASS}/g" $SETUP_DIR/scripts/password.sh
+RUN sed -i "s/.*export MYSQL_USER.*/export MYSQL_USER=${DBUSER}/g" $SETUP_DIR/scripts/password.sh; \
+    sed -i "s/.*export MYSQL_PWD=.*/export MYSQL_PWD=${DBPASS}/g" $SETUP_DIR/scripts/password.sh
 
 
 WORKDIR $REALMFOLDER
 
-RUN sed -i "s/.*sqlDB.*/sqlDB ${DBNAME}/g" router/router.conf
-RUN sed -i "s/.*sqlUser.*/sqlUser ${DBUSER}/g" router/router.conf
-RUN sed -i "s/.*sqlPW.*/sqlPW ${DBPASS}/g" router/router.conf
-RUN LOCAL_IP=$(cat /root/local_ip); sed -i "s/.*updateIP.*/updateIP $LOCAL_IP/g" router/router.conf
-RUN sed -i "s/.*updatePort.*/updatePort ${UPDATE_PORT}/g" router/router.conf
+RUN sed -i "s/.*sqlDB.*/sqlDB ${DBNAME}/g" router/router.conf; \
+    sed -i "s/.*sqlUser.*/sqlUser ${DBUSER}/g" router/router.conf; \
+    sed -i "s/.*sqlPW.*/sqlPW ${DBPASS}/g" router/router.conf; \
+    sed -i "s/.*updatePort.*/updatePort ${UPDATE_PORT}/g" router/router.conf; \
+    sed -i "s/.*sqlDB.*/sqlDB ${DBNAME}/g" datamgr/datamgr.conf; \
+    sed -i "s/.*sqlUser.*/sqlUser ${DBUSER}/g" datamgr/datamgr.conf; \
+    sed -i "s/.*sqlPW.*/sqlPW ${DBPASS}/g" datamgr/datamgr.conf; \
+    sed -i "s/.*listenHost.*/listenHost realmserver/g" datamgr/datamgr.conf; \
+    sed -i "/.*Table2/s/^/#/" datamgr/datamgr.conf; \
+    sed -i "/.*Table3/s/^/#/" datamgr/datamgr.conf
 
-RUN sed -i "s/.*sqlDB.*/sqlDB ${DBNAME}/g" datamgr/datamgr.conf
-RUN sed -i "s/.*sqlUser.*/sqlUser ${DBUSER}/g" datamgr/datamgr.conf
-RUN sed -i "s/.*sqlPW.*/sqlPW ${DBPASS}/g" datamgr/datamgr.conf
-RUN sed -i "s/.*listenHost.*/listenHost realmserver/g" datamgr/datamgr.conf
-RUN sed -i "/.*Table2/s/^/#/" datamgr/datamgr.conf
-RUN sed -i "/.*Table3/s/^/#/" datamgr/datamgr.conf
-
-RUN chmod +x $REALMFOLDER/*/st*
-RUN chmod +x $REALMFOLDER/dawn/bin/st*
-RUN chmod +x $REALMFOLDER/dawn/bin/roommgr
-RUN chmod +x $REALMFOLDER/live/bin/roommgr
-RUN chmod +x $REALMFOLDER/live/bin/st*
+RUN chmod +x $REALMFOLDER/*/st*; \
+    chmod +x $REALMFOLDER/dawn/bin/st*; \
+    chmod +x $REALMFOLDER/dawn/bin/roommgr; \
+    chmod +x $REALMFOLDER/live/bin/roommgr; \
+    chmod +x $REALMFOLDER/live/bin/st*; \
+    chmod +x setUpdateIp.sh startrealm.sh
 
 EXPOSE 22
 EXPOSE $UPDATE_PORT $GAME_PORT $TEST_PORT $ROUTER_PORT $DATAMG_PORT
 
 ENV REALMFOLDER=$REALMFOLDER
-ENTRYPOINT ["bash", "startrealm.sh"]
+ENTRYPOINT ["bash", "startContainer.sh"]
