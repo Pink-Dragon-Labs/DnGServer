@@ -28,33 +28,19 @@ Then, run `netstat -r -n` and pay attention to a few numbers:
 Ok, so we have all the numbers. Now run the following command, filling in your values from above:
 `docker network create -d macvlan --subnet=$SUBNET --gateway=$GATEWAY -o parent=$IFACE realm_net`
 
-`realm_net` is the name of the network, and can be whatever you want.
+Note, `realm_net` is the name of the network, and can be whatever you want.
 
-Lastly, now that we have the docker network, we need to run the container and select that network with the following command
+Lastly, now that we have the docker network, we need to run the container and set the network we just created with the following command
 `docker container run -it --name dng -h realmserver --net realm_net dwarvesandgiants:0.1`
 
 - Again, the version can be any number, so long as you have previously created a corresponding image.
-The above command with bring you INTO the docker. You will now be in a new containerized system.
-
+- Either of the above commands with bring you INTO the docker. You will now be in a new containerized system.
 
 ## Starting the servers
-Once the container starts, you should already find the servers running.
+Once the container starts, you should already find the servers running. The server runs in a tmux window manager, so that each server can run in its own window.
 
-BELOW NEEDS UPDATE
-, you should already be in the /opt/streborn directory. From the current directory, run:
-```sh
-./startrealm.sh
-```
-This will seem to do nothing, but it is creating a new tmux session in the background, and starting 4 windows, one for each of the servers.
-To view the servers, type the command:L
-```sh
-tmux a
-```
-which stands for `tmux attach` since we are attaching to the tmux session.
-
-Again, tmux is like a containerized bash shell, whith multiple windows. To switch windwos, find the number of the window you want at the bottom, and type `ctrl-b` followed immediately by the corresponding number.
-
-To exit tmux altogether, press `ctrl-d` for `dettach`. This will keep the servers running in the background, and you can always re-attach with `tmux a`
+tmux is like a containerized bash shell, whith multiple windows. To switch windwos, find the number of the window you want at the bottom, and type `ctrl-b` followed immediately by the corresponding number.
+If you wish to open a new terminal to run commands in, type `ctrl-b` followed by `c` to make a new tmux window.
 
 ## Exiting the docker
 To exit the docker container, type `ctrl-d`. This will SHUT DOWN the container, and any servers it is running.
