@@ -546,6 +546,7 @@ room 2920
    properties
       picture	3405
       north	2915 
+      south	7001
       east	2921 
       west	13235 
    end

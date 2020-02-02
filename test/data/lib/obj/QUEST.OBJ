@@ -3598,6 +3598,18 @@ object qJoliePackage of QuestObject
 end
 
 
+###########
+
+object qSpitTavern of qCottonPlant
+	properties
+		special
+		name "Crow's Tools"
+	end
+
+	base described
+		text "A wooden crate full of handheld tools.\nDried blood from Hellrat stains the wood."
+	end
+end
 
 
 

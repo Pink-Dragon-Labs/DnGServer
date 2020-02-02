@@ -55,7 +55,7 @@ object maDensePlate of PlateTunic
 
 	base described
 		text "You see a chest plate made from obsidianite."
-		idText "You see the Plate of Density, well known for being nearly indestructable."
+		idText "You see the Plate of Density, well known for being nearly indestructible."
 		shopText "This platemail will protect you quite well if you are strong enough to wear it."
 	end
 end
@@ -75,8 +75,8 @@ object maDenseGreaves of PlatePants
 
 	base described
 		text "You see a pair of obsidianite plate greaves."
-		idText "You see the Greaves of Density, well known for being nearly indestructable."
-		shopText "These magical plate pants are nearly indestructable."
+		idText "You see the Greaves of Density, well known for being nearly indestructible."
+		shopText "These magical plate pants are nearly indestructible."
 	end
 end
 
@@ -95,8 +95,8 @@ object maDenseCowl of ChainCowl
 
 	base described
 		text "You see a cowl made of obsidianite plate."
-		idText "You see the Cowl of Density, well known for being almost indestructable."
-		shopText "This magical cowl is practically indestructable, but unfortunately quite heavy."
+		idText "You see the Cowl of Density, well known for being almost indestructible."
+		shopText "This magical cowl is practically indestructible, but unfortunately quite heavy."
 	end
 end
 
@@ -115,7 +115,7 @@ object maDenseBoots of Sollerets
 
 	base described
 		text "You see a pair of obsidianite-molded sollerets."
-		idText "You see the Boots of Density, well known for being almost indestructable."
+		idText "You see the Boots of Density, well known for being almost indestructible."
 		shopText "These fine sollerets are molded from obsidianite alloys with a special magical process that makes them quite durable."
 	end
 end
@@ -310,8 +310,8 @@ object maFinvarraCowl of ChainCowl
 
 	base described
 		text "You see a cowl made of an exotic metal."
-		idText "You see a Finvarra's Cowl, nearly indestructable and wielding arcane powers."
-		shopText "This heavy magical cowl is practically indestructable and grants special powers to its wearer."
+		idText "You see a Finvarra's Cowl, nearly indestructible and wielding arcane powers."
+		shopText "This heavy magical cowl is practically indestructible and grants special powers to its wearer."
 	end
 end
 #---------------------------#
@@ -478,8 +478,8 @@ object maBesCowl of ChainCowl
 
 	base described
 		text "You see a cowl made of a unique metal."
-		idText "You see a Beserker's Cowl, nearly indestructable and wielding strange powers. Providing the wearer with Strength, Dexterity with an Extra Dodge, but at a price..\n This cowl requires a wearer of level 550 or higher.\n "
-		shopText "This heavy magical cowl is practically indestructable and grants special powers to its wearer."
+		idText "You see a Beserker's Cowl, nearly indestructible and wielding strange powers. Providing the wearer with Strength, Dexterity with an Extra Dodge, but at a price..\n This cowl requires a wearer of level 550 or higher.\n "
+		shopText "This heavy magical cowl is practically indestructible and grants special powers to its wearer."
 	end
 end
 #------------------------------------------------------------

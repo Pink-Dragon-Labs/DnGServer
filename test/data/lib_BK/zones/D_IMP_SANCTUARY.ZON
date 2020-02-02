@@ -1,7 +1,0 @@
-name "D_IMP_SANCTUARY"
-title "Imp Sanctuary"
-worldFile "../data/lib/world/D_IMP_SANCTUARY.WLD"
-allowCombat 3
-midiFile 29
-isDungeon 1
-entrance sarcophagusDoor91009-0

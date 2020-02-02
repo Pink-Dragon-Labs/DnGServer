@@ -1,0 +1,1035 @@
+#################################
+#								#
+#								#
+#								#
+#			New Helmets			#
+#								#
+#								#
+#								#
+#################################
+object RaggedClothHood of Hood
+    properties
+        special
+        name "Ragged Cloth Hood"
+        health 350
+        color -1
+        armor 15
+    end
+
+    base carryable
+        weight 1.0
+    end
+
+    base described
+        text "You see a cloth hood."
+        idText "You see a standard hood made of ragged cloth.\n\n"
+        shopText "A standard cloth hood."
+    end
+end
+
+object TatteredLeatherBandanna of Bandanna
+    properties
+        special
+        name "Tattered Leather Bandanna"
+        health 450
+        color -1
+        armor 25
+    end
+
+    base carryable
+        weight 1.0
+    end
+
+    base wearable
+	    mask wizard
+    end
+
+    base described
+        text "You see a tattered leather Bandanna."
+        idText "You see a standard Bandanna made of tattered leather.\n\n"
+        shopText "A standard leather Bandanna."
+    end
+end
+
+object BatteredIronChainHelmet of VikingHelmet
+    properties
+        special
+        name "Battered Iron Chainmail Helmet"
+        health 600
+        color -1
+        armor 35
+    end
+
+    base carryable
+        weight 2.5
+    end
+
+    base wearable
+	    mask wizard
+	    mask thief
+    end
+
+    base described
+        text "You see a horned battered iron chainmail helmet."
+        idText "You see a horned helmet made of battered iron chainmail.\n\n"
+        shopText "A standard battered iron chainmail horned helmet."
+    end
+end
+
+object DentedIronPlateHelmet of MythrilHelmet
+    properties
+        special
+        name "Dented Iron Plate Helmet"
+        health 750
+        color -1
+        armor 50
+    end
+
+    base carryable
+        weight 5.0
+    end
+
+    base wearable
+	    mask wizard
+	    mask thief
+	    mask adventurer
+    end
+
+    base described
+        text "You see an iron plate helmet."
+        idText "You see a plate helmet made of iron.\n\n"
+        shopText "A standard iron plate helmet."
+    end
+end
+#################################
+#								#
+#								#
+#								#
+#			New Cowls			#
+#								#
+#								#
+#								#
+#################################
+object RaggedClothCowl of Cowl
+    properties
+        special
+        name "Ragged Cloth Cowl"
+        health 350
+        color -1
+        armor 15
+    end
+
+    base carryable
+        weight 1.0
+    end
+
+    base described
+        text "You see a cloth cowl."
+        idText "You see a standard cowl made of ragged cloth.\n\n"
+        shopText "A standard cloth cowl."
+    end
+end
+
+object TatteredLeatherCowl of LeatherCowl
+    properties
+        special
+        name "Tattered Leather Cowl"
+        health 450
+        color -1
+        armor 25
+    end
+
+    base carryable
+        weight 1.0
+    end
+
+    base wearable
+        mask wizard
+    end
+
+    base described
+        text "You see a tattered leather cowl."
+        idText "You see a standard cowl made of tattered leather.\n\n"
+        shopText "A standard leather cowl."
+    end
+end
+
+object BatteredIronChainCowl of ChainCowl
+    properties
+        special
+        name "Battered Iron Chain Cowl"
+        health 500
+        color -1
+        armor 35
+    end
+
+    base carryable
+        weight 3.0
+    end
+
+    base wearable
+        mask wizard
+        mask thief
+    end
+
+    base described
+        text "You see a iron chain cowl."
+        idText "You see a standard cowl made of iron chain.\n\n"
+        shopText "A standard iron chain cowl."
+    end
+end
+
+object DentedIronPlateCowl of ChainCowl
+    properties
+        special
+        name "Dented Iron Plate Cowl"
+        health 750
+        color -1
+        armor 50
+    end
+
+    base carryable
+        weight 5.0
+    end
+
+    base wearable
+        mask wizard
+        mask thief
+        mask adventurer
+    end
+
+    base described
+        text "You see an iron plate cowl."
+        idText "You see a standard cowl made of iron plate.\n\n"
+        shopText "A standard iron plate cowl."
+    end
+end
+#################################
+#								#
+#								#
+#								#
+#			New Shirts			#
+#								#
+#								#
+#								#
+#################################
+object RaggedClothShirt of Shirt
+    properties
+        special
+        name "Ragged Cloth Shirt"
+        health 350
+        color -1
+        armor 25
+    end
+
+    base carryable
+        weight 1.5
+    end
+
+    base described
+        text "You see a cloth shirt."
+        idText "You see a standard shirt made of ragged cloth.\n\n"
+        shopText "A standard cloth shirt."
+    end
+end
+
+object TatteredLeatherArmor of LeatherShirt
+    properties
+        special
+        name "Tattered Leather Armor"
+        health 450
+        color -1
+        armor 35
+    end
+
+    base carryable
+        weight 2.5
+    end
+
+    base wearable
+	    mask wizard
+    end
+
+    base described
+        text "You see a tattered leather chest armor."
+        idText "You see armor made of tattered leather.\n\n"
+        shopText "A standard leather chest armor."
+    end
+end
+
+object BatteredIronChainTunic of ChainTunic
+    properties
+        special
+        name "Battered Iron Chainmail Tunic"
+        health 600
+        color -1
+        armor 50
+    end
+
+    base carryable
+        weight 5.0
+    end
+
+    base wearable
+	    mask wizard
+	    mask thief
+    end
+
+    base described
+        text "You see an battered iron chainmail tunic."
+        idText "You see an battered iron chainmail tunic.\n\n"
+        shopText "A standard battered iron chainmail tunic."
+    end
+end
+
+object DentedIronChestPlate of PlateTunic
+    properties
+        special
+        name "Dented Iron Chest Plate"
+        health 750
+        color -1
+        armor 65
+    end
+
+    base carryable
+        weight 7.5
+    end
+
+    base wearable
+	    mask wizard
+	    mask thief
+	    mask adventurer
+    end
+
+    base described
+        text "You see an iron chest plate."
+        idText "You see a chest plate made of iron.\n\n"
+        shopText "A standard iron chest plate."
+    end
+end
+#################################
+#								#
+#								#
+#								#
+#			New Wristbands		#
+#								#
+#								#
+#								#
+#################################
+object RaggedClothBands of Wristband
+    properties
+        special
+        name "Ragged Cloth Wristbands"
+        health 350
+        color -1
+        armor 15
+    end
+
+    base carryable
+        weight .5
+    end
+
+    base described
+        text "You see a pair of ragged cloth wristbands."
+        idText "You see a standard pair of wristbands made of ragged cloth.\n\n"
+        shopText "A standard pair of ragged cloth wristbands."
+    end
+end
+
+object TatteredLeatherBands of Wristband
+    properties
+        special
+        name "Tattered Leather Wristbands"
+        health 450
+        color -1
+        armor 25
+    end
+
+    base carryable
+        weight 2.0
+    end
+
+    base wearable
+	    mask wizard
+    end
+
+    base described
+        text "You see a pair of leather wristbands."
+        idText "You see a standard pair of wristbands made of tattered leather.\n\n"
+        shopText "A standard pair of leather wristbands."
+    end
+end
+
+object BatteredIronChainBands of Wristband
+    properties
+        special
+        name "Battered Iron Chainmail Wristbands"
+        health 600
+        color -1
+        armor 35
+    end
+
+    base carryable
+        weight 4.0
+    end
+
+    base wearable
+	    mask wizard
+	    mask thief
+    end
+
+    base described
+        text "You see a pair of battered iron chainmail wristbands."
+        idText "You see wristbands made of battered iron chainmail.\n\n"
+        shopText "A standard pair of battered iron chainmail wristbands."
+    end
+end
+
+object DentedIronPlateBands of Wristband
+    properties
+        special
+        name "Dented Iron Plate Wristbands"
+        health 750
+        color -1
+        armor 50
+    end
+
+    base carryable
+        weight 5.0
+    end
+
+    base wearable
+	    mask wizard
+	    mask thief
+	    mask adventurer
+    end
+
+    base described
+        text "You see a pair of iron plate wristbands."
+        idText "You see wristbands made of iron.\n\n"
+        shopText "A standard pair of iron plate wristbands."
+    end
+end
+#################################
+#								#
+#								#
+#								#
+#			New Leggings		#
+#								#
+#								#
+#								#
+#################################
+object RaggedClothLeggings of Pants
+    properties
+        special
+        name "Ragged Cloth Leggings"
+        health 350
+        color -1
+        armor 25
+    end
+
+    base carryable
+        weight 2.0
+    end
+
+    base described
+        text "You see cloth leggings."
+        idText "You see standard leggings made of ragged cloth.\n\n"
+        shopText "A standard suit of ragged cloth leggings."
+    end
+end
+
+object TatteredLeatherLeggings of LeatherPants
+    properties
+        special
+        name "Tattered Leather Leggings"
+        health 450
+        color -1
+        armor 35
+    end
+
+    base carryable
+        weight 3.0
+    end
+
+    base wearable
+	    mask wizard
+    end
+
+    base described
+        text "You see leather leggings."
+        idText "You see standard leggings made of tattered leather.\n\n"
+        shopText "A standard suit of leather leggings."
+    end
+end
+
+object BatteredIronChainLeggings of ChainPants
+    properties
+        special
+        name "Battered Iron Chainmail Leggings"
+        health 600
+        color -1
+        armor 50
+    end
+
+    base carryable
+        weight 5.0
+    end
+
+    base wearable
+	    mask wizard
+	    mask thief
+    end
+
+    base described
+        text "You see battered iron chainmail leggings."
+        idText "You see leggings made of battered iron chainmail.\n\n"
+        shopText "A standard suit of battered iron chainmail leggings."
+    end
+end
+
+object DentedIronPlateLeggings of PlatePants
+    properties
+        special
+        name "Dented Iron Plate Leggings"
+        health 750
+        color -1
+        armor 65
+    end
+
+    base carryable
+        weight 7.5
+    end
+
+    base wearable
+	    mask wizard
+	    mask thief
+	    mask adventurer
+    end
+
+    base described
+        text "You see iron plate leggings."
+        idText "You see leggings made of iron.\n\n"
+        shopText "A standard suit of iron plate leggings."
+    end
+end
+#################################
+#								#
+#								#
+#								#
+#			New Boots			#
+#								#
+#								#
+#								#
+#################################
+object RaggedClothLowBoots of LowBoots
+    properties
+        special
+        name "Ragged Cloth LowBoots"
+        health 350
+        color -1
+        armor 15
+    end
+
+    base carryable
+        weight .5
+    end
+
+    base described
+        text "You see a pair of ragged cloth low boots."
+        idText "You see a standard pair of low boots made of ragged cloth.\n\n"
+        shopText "A standard pair of ragged cloth low boots."
+    end
+end
+
+object RaggedClothHighBoots of HighBoots
+    properties
+        special
+        name "Ragged Cloth HighBoots"
+        health 350
+        color -1
+        armor 15
+    end
+
+    base carryable
+        weight .5
+    end
+
+    base described
+        text "You see a pair of ragged cloth high boots."
+        idText "You see a standard pair of high boots made of ragged cloth.\n\n"
+        shopText "A standard pair of ragged cloth high boots."
+    end
+end
+
+object TatteredLeatherLowBoots of LeatherLowBoots
+    properties
+        special
+        name "Tattered Leather Low Boots"
+        health 450
+        color -1
+        armor 25
+    end
+
+    base carryable
+        weight 2.0
+    end
+
+    base wearable
+	    mask wizard
+    end
+
+    base described
+        text "You see a pair of leather low boots."
+        idText "You see a standard pair of low boots made of tattered leather.\n\n"
+        shopText "A standard pair of leather low boots."
+    end
+end
+
+object TatteredLeatherHighBoots of HighBoots
+    properties
+        special
+        name "Tattered Leather High Boots"
+        health 450
+        color -1
+        armor 25
+    end
+
+    base carryable
+        weight 2.0
+    end
+
+    base wearable
+	    mask wizard
+    end
+
+    base described
+        text "You see a pair of leather high boots."
+        idText "You see a standard pair of high boots made of tattered leather.\n\n"
+        shopText "A standard pair of leather high boots."
+    end
+end
+
+object BatteredIronChainLowBoots of LowBoots
+    properties
+        special
+        name "Battered Iron Chainmail Low Boots"
+        health 600
+        color -1
+        armor 35
+    end
+
+    base carryable
+        weight 4.0
+    end
+
+    base wearable
+	    mask wizard
+	    mask thief
+    end
+
+    base described
+        text "You see a pair of battered iron chainmail low boots."
+        idText "You see low boots made of battered iron chainmail.\n\n"
+        shopText "A standard pair of battered iron chainmail low boots."
+    end
+end
+
+object BatteredIronChainHighBoots of HighBoots
+    properties
+        special
+        name "Battered Iron Chainmail High Boots"
+        health 600
+        color -1
+        armor 35
+    end
+
+    base carryable
+        weight 4.0
+    end
+
+    base wearable
+	    mask wizard
+	    mask thief
+    end
+
+    base described
+        text "You see a pair of battered iron chainmail high boots."
+        idText "You see high boots made of battered iron chainmail.\n\n"
+        shopText "A standard pair of battered iron chainmail high boots."
+    end
+end
+
+object DentedIronPlateHighBoots of HighBoots
+    properties
+        special
+        name "Dented Iron Plate High Boots"
+        health 750
+        color -1
+        armor 50
+    end
+
+    base carryable
+        weight 5.0
+    end
+
+    base wearable
+	    mask wizard
+	    mask thief
+	    mask adventurer
+    end
+
+    base described
+        text "You see a pair of iron plate high boots."
+        idText "You see high boots made of iron plate.\n\n"
+        shopText "A standard pair of iron plate high boots."
+    end
+end
+
+object DentedIronPlateLowBoots of LowBoots
+    properties
+        special
+        name "Dented Iron Plate Low Boots"
+        health 750
+        color -1
+        armor 50
+    end
+
+    base carryable
+        weight 5.0
+    end
+
+    base wearable
+	    mask wizard
+	    mask thief
+	    mask adventurer
+    end
+
+    base described
+        text "You see a pair of iron plate low boots."
+        idText "You see low boots made of iron plate.\n\n"
+        shopText "A standard pair of iron plate low boots."
+    end
+end
+#################################
+#								#
+#					    		#
+#								#
+#			100/500 AR  		                                #
+#								#
+#								#
+#								#
+#################################
+object AChainHelmet of VikingHelmet
+    properties
+        special
+        name "Chainmail Helmet"
+        health 600
+        color 108 
+        armor 100
+    end
+
+    base carryable
+        weight 2.5
+    end
+
+    base wearable
+     end
+
+    base described
+        text "You see a horned battered chainmail helmet."
+        idText "You see a horned helmet made of chainmail.\n\n"
+        shopText "A standard  chainmail horned helmet."
+    end
+end
+object BPlateHelmet of MythrilHelmet
+    properties
+        special
+        name "Plate Helmet"
+        health 750
+        color 111
+        armor 500
+    end
+
+    base carryable
+        weight 5.0
+    end
+
+    base wearable
+     end
+
+    base described
+        text "You see an  plate helmet."
+        idText "You see a plate helmet made of .\n\n"
+        shopText "A standard i plate helmet."
+    end
+end
+object AChainCowl of ChainCowl
+    properties
+        special
+        name "Chain Cowl"
+        health 500
+        color 108
+        armor 100
+    end
+
+    base carryable
+        weight 3.0
+    end
+
+    base wearable
+             end
+
+    base described
+        text "You see a  chain cowl."
+        idText "You see a standard cowl made of  chain.\n\n"
+        shopText "A standard  chain cowl."
+    end
+end
+object BPlateCowl of ChainCowl
+    properties
+        special
+        name "Plate Cowl"
+        health 750
+        color 111
+        armor 500
+    end
+
+    base carryable
+        weight 5.0
+    end
+
+    base wearable
+     end
+
+    base described
+        text "You see an  plate cowl."
+        idText "You see a standard cowl made of plate.\n\n"
+        shopText "A standard plate cowl."
+    end
+end
+object AChainTunic of ChainTunic
+    properties
+        special
+        name "Chainmail Tunic"
+        health 600
+        color 108
+        armor 100
+    end
+
+    base carryable
+        weight 5.0
+    end
+
+    base wearable
+ 	        end
+
+    base described
+        text "You see an  chainmail tunic."
+        idText "You see an   chainmail tunic.\n\n"
+        shopText "A standard  chainmail tunic."
+    end
+end
+object BChestPlate of PlateTunic
+    properties
+        special
+        name "Chest Plate"
+        health 750
+        color 111
+        armor 500
+    end
+
+    base carryable
+        weight 7.5
+    end
+
+    base wearable
+	    
+    end
+
+    base described
+        text "You see an  chest plate."
+        idText "You see a chest plate made.\n\n"
+        shopText "A standard chest plate."
+    end
+end
+
+object AChainBands of Wristband
+    properties
+        special
+        name "Chainmail Wristbands"
+        health 600
+        color 108
+        armor 100
+    end
+
+    base carryable
+        weight 4.0
+    end
+
+    base wearable
+	        end
+
+    base described
+        text "You see a pair of chainmail wristbands."
+        idText "You see wristbands made of  chainmail.\n\n"
+        shopText "A standard pair of chainmail wristbands."
+    end
+end
+object BPlateBands of Wristband
+    properties
+        special
+        name "Plate Wristbands"
+        health 750
+        color 111
+        armor 500
+    end
+
+    base carryable
+        weight 5.0
+    end
+
+    base wearable
+	        end
+
+    base described
+        text "You see a pair of wristbands."
+        idText "You see wristbands made.\n\n"
+        shopText "A standard plate wristbands."
+    end
+end
+object AChainLeggings of ChainPants
+    properties
+        special
+        name "Chainmail Leggings"
+        health 600
+        color 108
+        armor 100
+    end
+
+    base carryable
+        weight 5.0
+    end
+
+    base wearable
+	        end
+
+    base described
+        text "You see chainmail leggings."
+        idText "You see leggings made of chainmail.\n\n"
+        shopText "A standard suit of chainmail leggings."
+    end
+end
+object BPlateGreaves of PlatePants
+    properties
+        special
+        name "Plate Greaves"
+        health 750
+        color 111
+        armor 500
+    end
+
+    base carryable
+        weight 7.5
+    end
+
+    base wearable
+    end
+
+    base described
+        text "You see plate greaves."
+        idText "You see greaves  made.\n\n"
+        shopText "A standard suit of plate greaves."
+    end
+end
+object AChainLowBoots of LowBoots
+    properties
+        special
+        name "Chainmail Low Boots"
+        health 600
+        color 108
+        armor 100
+    end
+
+    base carryable
+        weight 4.0
+    end
+
+    base wearable
+    end
+
+    base described
+        text "You see a pair of chainmail low boots."
+        idText "You see low boots made of chainmail.\n\n"
+        shopText "A standard pair of  low boots."
+    end
+end
+object AChainHighBoots of HighBoots
+    properties
+        special
+        name "Chainmail High Boots"
+        health 600
+        color 108
+        armor 100
+    end
+
+    base carryable
+        weight 4.0
+    end
+
+    base wearable
+	        end
+
+    base described
+        text "You see a pair of battered high boots."
+        idText "You see high boots made of chainmail.\n\n"
+        shopText "A standard pair of battered high boots."
+    end
+end
+
+object BHighBoots of HighBoots
+    properties
+        special
+        name "Plate High Boots"
+        health 750
+        color 111
+        armor 500
+    end
+
+    base carryable
+        weight 5.0
+    end
+
+    base wearable
+    end
+
+    base described
+        text "You see a pair of high boots."
+        idText "You see high boots made of plate.\n\n"
+        shopText "A standard pair of high boots."
+    end
+end
+
+object BPlateLowBoots of LowBoots
+    properties
+        special
+        name "Plate Low Boots"
+        health 750
+        color  111
+        armor 500
+    end
+
+    base carryable
+        weight 5.0
+    end
+
+    base wearable
+	    
+    end
+
+    base described
+        text "You see a pair of  plate low boots."
+        idText "You see low boots made of  plate.\n\n"
+        shopText "A standard pair of  plate low boots."
+    end
+end

@@ -188,12 +188,12 @@ end
 
 object BroadSword of LongSword
 	properties
-		name "Broad Sword"
-		basicName "broad sword"
+		name "BroadSword"
+		basicName "broadsword"
 		value 400
 		color 99
 		health 260
-		strength 2
+		strength 3
 	end
 
 	base carryable
@@ -201,7 +201,7 @@ object BroadSword of LongSword
 	end
 
 	base weapon
-		skillType 1
+		skillType 24
 		minDamage 11
 		maxDamage 22
 		hands 1
@@ -210,8 +210,8 @@ object BroadSword of LongSword
 	end
 
 	base described
-		text "You see a finely crafted broad sword."
-		shopText "Broad swords are bigger, heavier long swords.  The extra wide blade allows you to slice up even more of your enemy's flesh on each and every stroke.  Of course, being heavier than other long swords makes this weapon harder to manage in a battle."
+		text "You see a finely crafted broadsword."
+		shopText "Broadswords are bigger, heavier long swords.  The extra wide blade allows you to slice up even more of your enemy's flesh on each and every stroke.  Of course, being heavier than other long swords makes this weapon harder to manage in a battle."
 	end
 end
 

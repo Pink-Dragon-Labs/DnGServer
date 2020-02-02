@@ -1,7 +1,0 @@
-name "Festival_Spring"
-title "Thistlebark Forest"
-worldFile "../data/lib/world/spring01.wld"
-resetInterval 9000000 
-maximumObjectAge 0 
-allowCombat 0
-midiFile 9

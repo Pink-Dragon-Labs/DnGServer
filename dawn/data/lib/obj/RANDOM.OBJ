@@ -124,6 +124,36 @@ object RandomCommonGod of Spellbook
 	end
 end
 
+object RandomSummonSpell of Spellbook
+	properties
+	special
+		random 5
+	end
+
+	base treasure
+		MoneyBag 500 1000
+		MoneyBag 500 1000
+		MoneyBag 500 1000
+		MoneyBag 500 1000
+		MoneyBag 500 1000
+		MoneyBag 500 1000
+		MoneyBag 500 2000
+		MoneyBag 500 2000
+		MoneyBag 500 2000
+		MoneyBag 500 2000
+		spbMonsterSummonI
+		spbMonsterSummonII
+		spbMonsterSummonIII
+		spbSummonRatling
+		spbSummonBat
+		spbSummonFenris
+		spbSummonImp
+		spbSummonOgre
+		spbSummonTroll
+		spbSummonSeraph
+	end
+end
+
 object RandomRareGlowDye of MoneyBag
 	properties
 	special
@@ -407,7 +437,6 @@ object RandomStuff of SpellComponent
 		baLightning
 		baShield
 		baHealth
-		baExperience
 		JawBone
 		JawBone
 		Corbalite
@@ -2471,7 +2500,7 @@ object RandomRareHelmet of Helmet
 		UplanderHelmet
 		UplanderHelmet
 		RandomCommonMagicHelm
-		RandomCommonGod
+		RandomSummonSpell
 	end
 end
 

@@ -1804,239 +1804,53 @@ object rBrutality of Ring
 	end
 end
 
-object rCheats of Ring
+
+
+
+object MagicWardRingI of Ring
 	properties
 		special
-		name "God Mode"
-		value 0
-		testserver-only
+		name "Magic Resist +15%"
+		value 6000000
+		enchantResistance 100
+		level 7500
 	end
-	
-	base carryable
-		weight 0
+
+	base described
+		idText "Bonus: Magic immunity +15 percent.\nMagic Resistance: 100 percent.\nLevel Required: 7500\n"
+		shopText "Bonus: Magic immunity +15 percent.\nMagic Resistance: 100 percent.\nLevel Required: 7500\n"
 	end
 
 	base wearable
-		areaWorn 276
+        areaWorn 562
 	end
 
-	actions
-		vBePutOn setAffect dobj 39 0 0 -1				#Str
-		vBeTakenOff clearAffect dobj 39 0 0
-		vBePutOn setAffect dobj 39 0 0 -1				#Str
-		vBeTakenOff clearAffect dobj 39 0 0
-		vBePutOn setAffect dobj 39 0 0 -1				#Str
-		vBeTakenOff clearAffect dobj 39 0 0
-		vBePutOn setAffect dobj 39 0 0 -1				#Str
-		vBeTakenOff clearAffect dobj 39 0 0
-		vBePutOn setAffect dobj 39 0 0 -1				#Str
-		vBeTakenOff clearAffect dobj 39 0 0
-		vBePutOn setAffect dobj 39 0 0 -1				#Str
-		vBeTakenOff clearAffect dobj 39 0 0
-		vBePutOn setAffect dobj 39 0 0 -1				#Str
-		vBeTakenOff clearAffect dobj 39 0 0
-		vBePutOn setAffect dobj 39 0 0 -1				#Str
-		vBeTakenOff clearAffect dobj 39 0 0
-		vBePutOn setAffect dobj 39 0 0 -1				#Str
-		vBeTakenOff clearAffect dobj 39 0 0
-		vBePutOn setAffect dobj 39 0 0 -1				#Str
-		vBeTakenOff clearAffect dobj 39 0 0
-		vBePutOn setAffect dobj 39 0 0 -1				#Str
-		vBeTakenOff clearAffect dobj 39 0 0
-		vBePutOn setAffect dobj 39 0 0 -1				#Str
-		vBeTakenOff clearAffect dobj 39 0 0
-		vBePutOn setAffect dobj 39 0 0 -1				#Str
-		vBeTakenOff clearAffect dobj 39 0 0
-		vBePutOn setAffect dobj 39 0 0 -1				#Str
-		vBeTakenOff clearAffect dobj 39 0 0
-		vBePutOn setAffect dobj 39 0 0 -1				#Str
-		vBeTakenOff clearAffect dobj 39 0 0
-		vBePutOn setAffect dobj 39 0 0 -1				#Str
-		vBeTakenOff clearAffect dobj 39 0 0
-		vBePutOn setAffect dobj 39 0 0 -1				#Str
-		vBeTakenOff clearAffect dobj 39 0 0
-		vBePutOn setAffect dobj 39 0 0 -1				#Str
-		vBeTakenOff clearAffect dobj 39 0 0
-		vBePutOn setAffect dobj 39 0 0 -1				#Str
-		vBeTakenOff clearAffect dobj 39 0 0
-		vBePutOn setAffect dobj 39 0 0 -1				#Str
-		vBeTakenOff clearAffect dobj 39 0 0
-		vBePutOn setAffect dobj 59 0 0 -1				#Dex
-		vBeTakenOff clearAffect dobj 59 0 0
-		vBePutOn setAffect dobj 59 0 0 -1				#Dex
-		vBeTakenOff clearAffect dobj 59 0 0
-		vBePutOn setAffect dobj 59 0 0 -1				#Dex
-		vBeTakenOff clearAffect dobj 59 0 0
-		vBePutOn setAffect dobj 59 0 0 -1				#Dex
-		vBeTakenOff clearAffect dobj 59 0 0
-		vBePutOn setAffect dobj 59 0 0 -1				#Dex
-		vBeTakenOff clearAffect dobj 59 0 0
-		vBePutOn setAffect dobj 59 0 0 -1				#Dex
-		vBeTakenOff clearAffect dobj 59 0 0
-		vBePutOn setAffect dobj 59 0 0 -1				#Dex
-		vBeTakenOff clearAffect dobj 59 0 0
-		vBePutOn setAffect dobj 59 0 0 -1				#Dex
-		vBeTakenOff clearAffect dobj 59 0 0
-		vBePutOn setAffect dobj 59 0 0 -1				#Dex
-		vBeTakenOff clearAffect dobj 59 0 0
-		vBePutOn setAffect dobj 59 0 0 -1				#Dex
-		vBeTakenOff clearAffect dobj 59 0 0
-		vBePutOn setAffect dobj 59 0 0 -1				#Dex
-		vBeTakenOff clearAffect dobj 59 0 0
-		vBePutOn setAffect dobj 59 0 0 -1				#Dex
-		vBeTakenOff clearAffect dobj 59 0 0
-		vBePutOn setAffect dobj 59 0 0 -1				#Dex
-		vBeTakenOff clearAffect dobj 59 0 0
-		vBePutOn setAffect dobj 59 0 0 -1				#Dex
-		vBeTakenOff clearAffect dobj 59 0 0
-		vBePutOn setAffect dobj 59 0 0 -1				#Dex
-		vBeTakenOff clearAffect dobj 59 0 0
-		vBePutOn setAffect dobj 59 0 0 -1				#Dex
-		vBeTakenOff clearAffect dobj 59 0 0
-		vBePutOn setAffect dobj 59 0 0 -1				#Dex
-		vBeTakenOff clearAffect dobj 59 0 0
-		vBePutOn setAffect dobj 59 0 0 -1				#Dex
-		vBeTakenOff clearAffect dobj 59 0 0
-		vBePutOn setAffect dobj 59 0 0 -1				#Dex
-		vBeTakenOff clearAffect dobj 59 0 0
-		vBePutOn setAffect dobj 59 0 0 -1				#Dex
-		vBeTakenOff clearAffect dobj 59 0 0
-		vBePutOn setAffect dobj 63 0 0 -1				#End
-		vBeTakenOff clearAffect dobj 63 0 0
-		vBePutOn setAffect dobj 63 0 0 -1				#End
-		vBeTakenOff clearAffect dobj 63 0 0
-		vBePutOn setAffect dobj 63 0 0 -1				#End
-		vBeTakenOff clearAffect dobj 63 0 0
-		vBePutOn setAffect dobj 63 0 0 -1				#End
-		vBeTakenOff clearAffect dobj 63 0 0
-		vBePutOn setAffect dobj 63 0 0 -1				#End
-		vBeTakenOff clearAffect dobj 63 0 0
-		vBePutOn setAffect dobj 63 0 0 -1				#End
-		vBeTakenOff clearAffect dobj 63 0 0
-		vBePutOn setAffect dobj 63 0 0 -1				#End
-		vBeTakenOff clearAffect dobj 63 0 0
-		vBePutOn setAffect dobj 63 0 0 -1				#End
-		vBeTakenOff clearAffect dobj 63 0 0
-		vBePutOn setAffect dobj 63 0 0 -1				#End
-		vBeTakenOff clearAffect dobj 63 0 0
-		vBePutOn setAffect dobj 63 0 0 -1				#End
-		vBeTakenOff clearAffect dobj 63 0 0
-		vBePutOn setAffect dobj 63 0 0 -1				#End
-		vBeTakenOff clearAffect dobj 63 0 0
-		vBePutOn setAffect dobj 63 0 0 -1				#End
-		vBeTakenOff clearAffect dobj 63 0 0
-		vBePutOn setAffect dobj 63 0 0 -1				#End
-		vBeTakenOff clearAffect dobj 63 0 0
-		vBePutOn setAffect dobj 63 0 0 -1				#End
-		vBeTakenOff clearAffect dobj 63 0 0
-		vBePutOn setAffect dobj 63 0 0 -1				#End
-		vBeTakenOff clearAffect dobj 63 0 0
-		vBePutOn setAffect dobj 63 0 0 -1				#End
-		vBeTakenOff clearAffect dobj 63 0 0
-		vBePutOn setAffect dobj 63 0 0 -1				#End
-		vBeTakenOff clearAffect dobj 63 0 0
-		vBePutOn setAffect dobj 63 0 0 -1				#End
-		vBeTakenOff clearAffect dobj 63 0 0
-		vBePutOn setAffect dobj 63 0 0 -1				#End
-		vBeTakenOff clearAffect dobj 63 0 0
-		vBePutOn setAffect dobj 63 0 0 -1				#End
-		vBeTakenOff clearAffect dobj 63 0 0
-		vBePutOn changeMeleeArmorPiercing dobj 100      # 100% Armor Pen
-		vBeTakenOff changeMeleeArmorPiercing dobj -100
-		vBePutOn setAffect dobj 56 0 0 -1				#Attack
-		vBeTakenOff clearAffect dobj 56 0 0	
-		vBePutOn setAffect dobj 56 0 0 -1				#Attack
-		vBeTakenOff clearAffect dobj 56 0 0	
-		vBePutOn setAffect dobj 56 0 0 -1				#Attack
-		vBeTakenOff clearAffect dobj 56 0 0	
-		vBePutOn setAffect dobj 56 0 0 -1				#Attack
-		vBeTakenOff clearAffect dobj 56 0 0	
-		vBePutOn setAffect dobj 56 0 0 -1				#Attack
-		vBeTakenOff clearAffect dobj 56 0 0	
-		vBePutOn setAffect dobj 56 0 0 -1				#Attack
-		vBeTakenOff clearAffect dobj 56 0 0	
-		vBePutOn setAffect dobj 56 0 0 -1				#Attack
-		vBeTakenOff clearAffect dobj 56 0 0	
-		vBePutOn setAffect dobj 56 0 0 -1				#Attack
-		vBeTakenOff clearAffect dobj 56 0 0	
-		vBePutOn setAffect dobj 56 0 0 -1				#Attack
-		vBeTakenOff clearAffect dobj 56 0 0	
-		vBePutOn setAffect dobj 56 0 0 -1				#Attack
-		vBeTakenOff clearAffect dobj 56 0 0	
-		vBePutOn setAffect dobj 57 0 0 -1				#Dodge
-		vBeTakenOff clearAffect dobj 57 0 0
-		vBePutOn setAffect dobj 57 0 0 -1				#Dodge
-		vBeTakenOff clearAffect dobj 57 0 0
-		vBePutOn setAffect dobj 57 0 0 -1				#Dodge
-		vBeTakenOff clearAffect dobj 57 0 0
-		vBePutOn setAffect dobj 57 0 0 -1				#Dodge
-		vBeTakenOff clearAffect dobj 57 0 0
-		vBePutOn setAffect dobj 57 0 0 -1				#Dodge
-		vBeTakenOff clearAffect dobj 57 0 0
-		vBePutOn setAffect dobj 57 0 0 -1				#Dodge
-		vBeTakenOff clearAffect dobj 57 0 0
-		vBePutOn setAffect dobj 57 0 0 -1				#Dodge
-		vBeTakenOff clearAffect dobj 57 0 0
-		vBePutOn setAffect dobj 57 0 0 -1				#Dodge
-		vBeTakenOff clearAffect dobj 57 0 0
-		vBePutOn setAffect dobj 57 0 0 -1				#Dodge
-		vBeTakenOff clearAffect dobj 57 0 0
-		vBePutOn setAffect dobj 57 0 0 -1				#Dodge
-		vBeTakenOff clearAffect dobj 57 0 0
-		vBePutOn setAffect dobj 61 0 0 -1				# Int
-		vBeTakenOff clearAffect dobj 61 0 0
-		vBePutOn setAffect dobj 61 0 0 -1				# Int
-		vBeTakenOff clearAffect dobj 61 0 0
-		vBePutOn setAffect dobj 61 0 0 -1				# Int
-		vBeTakenOff clearAffect dobj 61 0 0
-		vBePutOn setAffect dobj 61 0 0 -1				# Int
-		vBeTakenOff clearAffect dobj 61 0 0
-		vBePutOn setAffect dobj 61 0 0 -1				# Int
-		vBeTakenOff clearAffect dobj 61 0 0
-		vBePutOn setAffect dobj 61 0 0 -1				# Int
-		vBeTakenOff clearAffect dobj 61 0 0
-		vBePutOn setAffect dobj 61 0 0 -1				# Int
-		vBeTakenOff clearAffect dobj 61 0 0
-		vBePutOn setAffect dobj 61 0 0 -1				# Int
-		vBeTakenOff clearAffect dobj 61 0 0
-		vBePutOn setAffect dobj 61 0 0 -1				# Int
-		vBeTakenOff clearAffect dobj 61 0 0
-		vBePutOn setAffect dobj 61 0 0 -1				# Int
-		vBeTakenOff clearAffect dobj 61 0 0
-		vBePutOn setAffect dobj 61 0 0 -1				# Int
-		vBeTakenOff clearAffect dobj 61 0 0
-		vBePutOn setAffect dobj 61 0 0 -1				# Int
-		vBeTakenOff clearAffect dobj 61 0 0
-		vBePutOn setAffect dobj 61 0 0 -1				# Int
-		vBeTakenOff clearAffect dobj 61 0 0
-		vBePutOn setAffect dobj 61 0 0 -1				# Int
-		vBeTakenOff clearAffect dobj 61 0 0
-		vBePutOn setAffect dobj 61 0 0 -1				# Int
-		vBeTakenOff clearAffect dobj 61 0 0
-		vBePutOn setAffect dobj 61 0 0 -1				# Int
-		vBeTakenOff clearAffect dobj 61 0 0
-		vBePutOn setAffect dobj 61 0 0 -1				# Int
-		vBeTakenOff clearAffect dobj 61 0 0
-		vBePutOn setAffect dobj 61 0 0 -1				# Int
-		vBeTakenOff clearAffect dobj 61 0 0
-		vBePutOn setAffect dobj 61 0 0 -1				# Int
-		vBeTakenOff clearAffect dobj 61 0 0
-		vBePutOn setAffect dobj 61 0 0 -1				# Int
-		vBeTakenOff clearAffect dobj 61 0 0
-		vBePutOn changeSDM dobj 100000 0 1 2 3 4		# Add 100,000% to All Spells 
-		vBeTakenOff changeSDM dobj -100000 0 1 2 3 4
-		vBePutOn changeSpellResistance dobj 200 2		# 200% Myst Resist
-		vBeTakenOff changeSpellResistance dobj -200 2
-		vBePutOn setAffect dobj 85 0 0 -1				# Death Magic Protection
-		vBeTakenOff clearAffect dobj 85 0 0 -1
-		vBePutOn setAffect dobj 17 0 0 -1		  		# See Invis
-		vBeTakenOff clearAffect dobj 17 0 0
-		vBePutOn setAffect dobj 67 0 0 -1   	  		# Nourished
-		vBeTakenOff clearAffect dobj 67 0 0	
-	end
-	
-	base described
-		idText "Cheater!\nJust want to have a little fun?  Not that kind of fun pervert!\n\nEquipping this ring, you will basically go super saiyan.\n\n+20 Strength\n+20 Dexterity\n+20 Intelligence\n+20 Endurance\n+10 Attacks\n+10 Dodges\n+100% Armor Pen\n+100,000% Circle SDM\n\n200% Myst Resistance\nSee Invis\nDeath Magic Protection\nNourished\n\n"
-		shopText "+20 Strength\n+20 Dexterity\n+20 Intelligence\n+20 Endurance\n+10 Attacks\n+10 Dodges\n+100% Armor Pen\n+100,000% Circle SDM\n\n200% Myst Resistance\nSee Invis\nDeath Magic Protection\nNourished\n\n"
+	actions 
+		vBePutOn changeSpellResistance dobj 15 0 1 2 3 4
+		vBeTakenOff changeSpellResistance dobj -15 0 1 2 3 4
 	end
 end
+object MagicWardRingII of Ring
+	properties
+		special
+		name "Magic Resist +25%"
+		value 6000000
+		enchantResistance 100
+		level 7500
+	end
+
+	base described
+		idText "Bonus: Magic immunity +25 percent.\nMagic Resistance: 100 percent.\nLevel Required: 7500\n"
+		shopText "Bonus: Magic immunity +25 percent.\nMagic Resistance: 100 percent.\nLevel Required: 7500\n"
+	end
+
+	base wearable
+        areaWorn 561
+	end
+
+	actions 
+		vBePutOn changeSpellResistance dobj 25 0 1 2 3 4
+		vBeTakenOff changeSpellResistance dobj -25 0 1 2 3 4
+	end
+end
+

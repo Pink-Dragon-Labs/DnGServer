@@ -1453,8 +1453,8 @@ object CastleBoss1 of NPC
 		minLevel 12145
 		maxLevel 13624
 
-		intelligence 165
-		strength 450
+		intelligence 125
+		strength 455
 		endurance 85		
 		dexterity 100
 		quickness 100
@@ -1545,8 +1545,8 @@ object CastleBoss2 of NPC
 		minLevel 12145
 		maxLevel 13624
 
-		intelligence 165
-		strength 450
+		intelligence 185
+		strength 300
 		endurance 85		
 		dexterity 100
 		quickness 100
@@ -1640,10 +1640,10 @@ object CastleBoss3 of NPC
 		minLevel 12145
 		maxLevel 13624
 
-		intelligence 165
-		strength 450
+		intelligence 135
+		strength 350
 		endurance 85		
-		dexterity 100
+		dexterity 130
 		quickness 100
 		  
 		soundGroup 16

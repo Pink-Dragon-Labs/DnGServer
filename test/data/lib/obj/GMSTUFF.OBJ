@@ -1,3 +1,5 @@
+
+
 object SentinelBaldric of Baldric
 # object GodBaldric of Baldric
 #
@@ -143,7 +145,7 @@ object SentinelHelm of GameOfficial
 	properties
 		view 31500
 		name "Sentinel's Helmet"
-		
+		level 1
 		#Staff affect
 		#affect 99 0 5 -1
 		caffect 0
@@ -359,7 +361,7 @@ object RareCrown of GameOfficial
 		# Rare Crown
 		view 31400
 		name "Implementor's Crown"
-
+		level 1
 		#Staff affect
 		#affect 99 0 5 -1
 	end

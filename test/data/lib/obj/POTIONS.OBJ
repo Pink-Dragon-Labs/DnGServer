@@ -747,22 +747,3 @@ object pDeath of Potion
 		shopText "This potion is quite deadly."
 	end
 end
-
-object pEscape of Potion
-	properties
-		special
-		name "Escape Potion"
-		value 150000
-		color 115
-		level 1000
-	end
-
-	actions
-		vBeConsumed teleport dobj 1
-	end
-
-	base described
-		idText "You see a potion of Escape.  Drinking this potion will make you forcibly flee combat."
-		shopText "You see a potion of Escape.  Drinking this potion will make you forcibly flee combat."
-	end
-end

@@ -152,6 +152,23 @@ object baExperience of Bauble
 	end
 end
 
+object baExperience1 of Bauble
+	properties
+		special
+		name "Bauble of Experience"
+		color 93
+		value 2000
+	end
+
+	actions
+		vBeUsed changeExperience dobj 10000
+	end
+
+	base described
+		idText "You see a Bauble of Experience.  Using this bauble will grant you one level."
+	end
+end
+
 object baZachExperience of Bauble
 	properties
 		special

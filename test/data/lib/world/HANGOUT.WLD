@@ -893,10 +893,18 @@ room 1057
             x	40
             y	120
             loop	0
-            linkTo Tent50000-0
          end
          base described
-            text	"To the Lost Woods!"
+            text	"Oasis Gazebo"
+         end
+         base entry
+            room	1058
+            startingLoop	0
+            endingLoop	0
+            startingX	300
+            startingY	500
+            endingX	300
+            endingY	300
          end
       end
    end
@@ -1059,30 +1067,23 @@ room 1058
       south	1057 42 122 
       roomName	"Oasis Gazebo"
    end
-   atpinfo
-      2326  63 65
-      2326  30 69
-      35094  602 68
-      2327  324 101
-      2280  197 56
-      2280  486 50
-      2109  333 232
-      2109  333 272 100
-      2120  333 234
-      2126  333 350 150
-      2118  336 322 150
-      2129  330 293 150
-      2125  336 305 200
-      2165  482 129
-      2164  171 129
-      2102  516 298
-      2599  170 309
-      14  581 259
-      32782  76 265
-      7902  325 234
-      7904  12 327
-      40672  650 329
-   end
+	atpinfo
+		2280 486 50 
+		2280 197 56 
+		2326 63 65 
+		35094 602 68 
+		2326 30 69 
+		2327 324 101 
+		2165 482 129 
+		2164 171 129 
+		7902 325 234 
+		14 581 259 
+		32782 76 265 
+		2102 495 296 
+		2599 170 309 
+		7904 12 327 
+		40672 650 329 
+	end
    objects
       object chair1058-0 of Chair
          properties

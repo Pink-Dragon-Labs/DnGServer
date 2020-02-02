@@ -3,7 +3,7 @@ title "The Castle"
 worldFile "../data/lib/world/D_CASTLE.WLD"
 allowCombat 3
 midiFile 29
-isDungeon 0
+isDungeon 1
 entrance plankDoor24749-3
 
 groupChance 100

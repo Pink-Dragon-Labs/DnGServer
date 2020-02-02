@@ -1146,8 +1146,8 @@ object MythrilClub of Club
 	end
 
 	base weapon
-		minDamage 10
-		maxDamage 25
+		minDamage 30
+		maxDamage 60
 	end
 
 	components
@@ -2038,5 +2038,78 @@ object NewbieMaul of SteelMaul
 
 	base described
 		text "You see a heavy, but poorly made maul."
+	end
+end
+
+object NewbieClub of SteelClub
+	properties
+		special
+		name "Training Cludgle"
+		value 10
+		color 73
+		health 200
+	end
+
+	base carryable
+		weight 36.0
+	end
+
+	base described
+		text "You see a heavy, but poorly made club."
+	end
+end
+
+object NewbieThrower of IronThrowingDagger
+	properties
+		special
+		name "Training Throwing Dagger"
+		value 10
+		color 73
+		health 200
+	end
+
+	base described
+		text "You see a rather shabby looking throwing dagger."
+	end
+end
+
+object DriftwoodClub of Club
+	properties
+		special
+		name "Driftwood"
+		value 25
+		health 190
+		color 73
+		strength 1
+
+		# clear fire immunity
+		caffect 1
+
+		# weak to fire
+		affect 1 3 0 -1
+
+		# immune to rust
+		affect 11 2 0 -1
+	end
+
+	base carryable
+		weight 18.0
+	end
+
+	base weapon
+		minDamage 7
+		maxDamage 14
+	end
+
+	base described
+		text "A piece of waterlogged driftwood."
+		shopText "A piece of waterlogged driftwood."
+	end
+
+	components
+		WoodBlock
+		WoodBlock
+		WoodBlock
+		WoodBlock
 	end
 end

@@ -48,6 +48,10 @@ object HighBoots of Shoes
 		weight 1.0
 	end
 
+	base wearable
+		mask female
+	end
+
 	components
 		ClothBolt
 	end
@@ -81,6 +85,10 @@ object LowBoots of Shoes
 
 	components
 		ClothBolt
+	end
+
+	base wearable
+		mask male
 	end
 
 	base described

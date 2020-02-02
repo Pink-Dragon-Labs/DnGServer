@@ -6,15 +6,14 @@ maximumObjectAge 0
 allowCombat 2
 midiFile 12
 groupChance 25
-monster Guardian 40
-monster OgreChild 15
-monster PlagueRat 11
-monster RabidWolf 12
-monster ThiefA 12
-monster UndeadNecromancer 20
-monster VampireBat 20
-monster WarriorA 20
-monster WarriorB 20
+monster OgreChild 20
+monster PlagueRat 16
+monster RabidWolf 17
+monster ThiefA 17
+monster UndeadNecromancer 255
+monster VampireBat 25
+monster WarriorA 25
+monster WarriorB 25
 monster WaspWarrior 25
 monster WaspWorker 32
 # Westhavenwood		Area 02		Player Level 6-20	Alignment: Mixed	Monsters/Room: 3.29

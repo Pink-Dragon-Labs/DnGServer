@@ -763,6 +763,13 @@ object WarriorAcademy of Shop
 				object skbLongSwordIV
 				object skbLongSwordV
 			end
+			category "Broadswords" 51083
+				object skbBroadSwordI
+				object skbBroadSwordII
+				object skbBroadSwordIII
+				object skbBroadSwordIV
+				object skbBroadSwordV
+			end
 			category "Two Handed Swords" 51083
 				object skbTwoHandedSwordI
 				object skbTwoHandedSwordII

@@ -11,7 +11,7 @@ object aAmuletOfAdventure of Amulet
 		name "Amulet of Adventure"
 		#  purple
 		color 94
-		level 300
+		level 1
 		value 100000
 	end
 	base described
@@ -58,7 +58,7 @@ object bGirdleOfMight of Belt
    properties
       special
       name "Girdle of Might"
-      armor 100
+      armor 1
       #  black
       color 98
       health 1000
@@ -108,10 +108,10 @@ object maArchMagesPants of LeatherPants
    properties
       special
       name "Arch Mage's Pants"
-      armor 60
+      armor 120
       #  white
       color 100
-      level 300
+      level 1
       value 50000
       health 300
       affect 1 2 0 -1
@@ -149,10 +149,10 @@ object maArchMagesShirt of LeatherShirt
    properties
       special
       name "Arch Mage's Shirt"
-      armor 60
+      armor 120
       #  white
       color 100
-      level 300
+      level 1
       value 50000
       health 600
       affect 1 2 0 -1
@@ -190,10 +190,10 @@ object maBootsOfEvasion of LowBoots
    properties
       special
       name "Boots of Evasion"
-      armor 80
+      armor 120
       #  white
       color 100
-	level 250
+	level 1
       value 50000
       health 800
       affect 1 2 0 -1
@@ -224,10 +224,10 @@ object maBracersOfBattle of Mythrilband
    properties
       special
       name "Bracers of Battle"
-      armor 100
+      armor 150
       #  grey
       color 99
-      level 300
+      level 1
       value 50000
       health 1000
       affect 1 2 0 -1
@@ -265,10 +265,10 @@ object maBreastplateOfBattle of MythrilChainTunic
    properties
       special
       name "Breastplate of Battle"
-      armor 100
+      armor 150
       #  grey
       color 99
-	level 250
+	level 1
       value 50000
       health 1000
       affect 1 2 0 -1
@@ -300,10 +300,10 @@ object maCowlOfImmortality of LeatherCowl
    properties
       special
       name "Cowl of Immortality"
-      armor 80
+      armor 150
       #  white
       color 100
-      level 300
+      level 1
       value 50000
       health 800
       affect 1 2 0 -1
@@ -343,10 +343,10 @@ object maGreavesOfFortitude of MythrilChainPants
    properties
       special
       name "Greaves of Fortitude"
-      armor 100
+      armor 150
       #  grey
       color 99
-      level 300
+      level 1
       value 50000
       health 1000
       affect 1 2 0 -1
@@ -378,10 +378,10 @@ object maShieldOfInfiniteThought of LargeShield
    properties
       special
       name "Shield of Infinite Thought"
-      armor 60
+      armor 120
       #  blue
       color 53
-      level 300
+      level 1
       value 100000
       health 100
       affect 1 2 0 -1
@@ -422,8 +422,8 @@ object mwDragonClaw of ThrowingDagger
       affect 11 2 0 -1	#  rust resistance
    end
    base weapon
-      minDamage 20
-      maxDamage 40
+      minDamage 200
+      maxDamage 400
    end
    base carryable
       weight 1
@@ -442,7 +442,7 @@ object mwDuachsThorn of Dagger
       name "Duach's Thorn"
       #  black
       color 98
-      level 500
+      level 1
       value  100000
       health 1000
       #  steal life
@@ -461,8 +461,8 @@ object mwDuachsThorn of Dagger
       shopText "You see the legendary Duach's Thorn.  This dagger steals life, gives the wearer one extra attack per combat round,  one extra dodge per combat round, and increases strength and dexterity.  Extra damage when used against good aligned opponents.  Required level of 500."
    end
    base weapon
-      minDamage 70
-      maxDamage 130
+      minDamage 700
+      maxDamage 1300
       range 2
       #  thief only
       mask adventurer
@@ -495,7 +495,7 @@ object ogEnidsNeedle of mwEnidsNeedle
       name "Enid's Needle"
       #  white
       color 100
-      level 350
+      level 1
       value 100000
       health 1000
       view 15650
@@ -513,8 +513,8 @@ object ogEnidsNeedle of mwEnidsNeedle
       shopText "You see the legendary Enid's Needle.  This dagger increases the wearers thaumaturgy power, gives on extra attack per combat round, and increases intelligence and endurance.  Extra damage when used against evil aligned opponents.  Required level of 350."
    end
    base weapon
-      minDamage 50
-      maxDamage 100
+      minDamage 500
+      maxDamage 1000
       #  wizard only
       mask adventurer
       mask warrior
@@ -550,7 +550,7 @@ object ogFafnirFang of mwFafnirFang
 		view 15450
 		value 12500
 		enchantResistance 35
-		level 500
+		level 1
 	end
 	actions
 		# Regeneration (as per Ring of Regen)
@@ -567,8 +567,8 @@ object ogFafnirFang of mwFafnirFang
 		weight 2.3
 	end
 	base weapon
-		minDamage 50
-		maxDamage 150
+		minDamage 500
+		maxDamage 1500
 	end
 	base described
 		idText "You see the legendary Fafnir Fang.\n\nLevel Required: 500\n\n"
@@ -582,17 +582,18 @@ object ogGram of mwGram
       name "Gram, Sword of the Dragon Slayer"
       #  grey
       color 99
-      level 500
-      value 100000
+      level 1
+      value 1000000
       health 1000
       view 15050
+	  # do poison damage
       affect 1 2 0 -1
       #  fire resistance
       affect 11 2 0 -1
       #  rust resistance
    end
    base carryable
-      weight 20
+      weight 1
    end
    base described
       text "You see a massive two-handed sword."
@@ -600,8 +601,8 @@ object ogGram of mwGram
       shopText "You see Gram, the fabled sword of Sigurd. This two-handed sword gives the wearer one extra attack per combat round, and increases strength and dexterity.  Required level of 500."
    end
    base weapon
-      minDamage 80
-      maxDamage 160
+      minDamage 800	
+      maxDamage 1600
    end
    actions
       #  extra attack
@@ -623,7 +624,7 @@ object mwHarbingerDoom of mwHarbringer
 		name "Harbinger"
 		value 30000
 		health 850
-		level 500
+		level 1
 		view 15750
         end
 
@@ -636,15 +637,14 @@ object mwHarbingerDoom of mwHarbringer
         end
 
         base carryable
-                weight 180.0
+                weight 8.0
         end
 
         base weapon
-                minDamage 80
-                maxDamage 180
-        end
-
-        base described
+                minDamage 800
+                maxDamage 1800
+		end
+    	base described
                 text "You see a vicious looking battle axe."
                 idText "The Harbinger of Doom. This is a very hefty axe, but the serration of the blade inflicts an extremely high level of damage. Level Required: 500"
                 shopText "A dangerous looking axe. This axe will not make a clean cut."
@@ -658,7 +658,7 @@ object ogWyrdDagger of mwWyrd
 		name "The Wyrd Dagger"
 		value 15000
 		health 250
-		level 350
+		level 1
 		view 15600
 	end
 
@@ -676,8 +676,8 @@ object ogWyrdDagger of mwWyrd
 	end
 
 	base weapon
-		minDamage 55
-		maxDamage 100
+		minDamage 550
+		maxDamage 1000
 	end
 
 	base described
@@ -714,7 +714,7 @@ object rRingOfDestruction of Ring
 		name "Ring of Destruction"
 		#  red
 		color 58
-		level 300
+		level 1
 		value 50000
 	end
 	base described
@@ -742,7 +742,7 @@ object rRingOfPower of Ring
 		name "Ring of Power"
 		#  blue
 		color 53
-		level 300
+		level 1
 		value 50000
 	end
 	base described
@@ -774,7 +774,7 @@ object mwTheDefender of LongSword	#replaces mwDefender
 		enchantResistance 20
 		health 425
 		color 53	#blue
-		level 100
+		level 1
 	end
 
 	base carryable
@@ -782,8 +782,8 @@ object mwTheDefender of LongSword	#replaces mwDefender
 	end
 
 	base weapon
-		minDamage 15
-		maxDamage 35
+		minDamage 150
+		maxDamage 350
 	end
 
 	actions
@@ -807,7 +807,7 @@ object mwTheKeeper of LongSword
 		enchantResistance 40
 		health 425
 		color 54	#azure
-		level 200
+		level 1
 	end
 
 	base carryable
@@ -815,8 +815,8 @@ object mwTheKeeper of LongSword
 	end
 
 	base weapon
-		minDamage 30
-		maxDamage 80
+		minDamage 300
+		maxDamage 800
 	end
 
 	actions
@@ -838,9 +838,9 @@ object mwThePreserver of LongSword
 		name "The Preserver"
 		value 35000
 		enchantResistance 60
-		health 425
+		health 1000
 		color 78	#aqua
-		level 400
+		level 1
 	end
 
 	base carryable
@@ -848,10 +848,9 @@ object mwThePreserver of LongSword
 	end
 
 	base weapon
-		minDamage 40
-		maxDamage 90
+		minDamage 400
+		maxDamage 900
 	end
-
 	actions
 		vBePutOn setAffect dobj 57 0 0 -1	#Extra Dodge
 		vBeTakenOff clearAffect dobj 57 0 0
@@ -871,7 +870,7 @@ object mwThePatron of LongSword
 		name "The Patron"
 		value 40000
 		enchantResistance 80
-		health 425
+		health 1
 		color 94	#purple
 		level 600
 	end
@@ -881,8 +880,8 @@ object mwThePatron of LongSword
 	end
 
 	base weapon
-		minDamage 50
-		maxDamage 100
+		minDamage 500
+		maxDamage 1000
 	end
 
 	actions
@@ -908,7 +907,7 @@ object mwGnawBlade of LongSword
 		enchantResistance 20
 		health 425
 		color 48	#olive
-		level 100
+		level 1
 
 		# do pure acid damage
 		caffect 0
@@ -920,8 +919,8 @@ object mwGnawBlade of LongSword
 	end
 
 	base weapon
-		minDamage 20
-		maxDamage 40
+		minDamage 200
+		maxDamage 400
 	end
 
 	actions
@@ -946,7 +945,7 @@ object mwArcticBlade of LongSword
 		enchantResistance 40
 		health 425
 		color 79	#teal
-		level 200
+		level 1
 
 		# do pure cold damage
 		caffect 0
@@ -958,8 +957,8 @@ object mwArcticBlade of LongSword
 	end
 
 	base weapon
-		minDamage 50
-		maxDamage 100
+		minDamage 500
+		maxDamage 1000
 	end
 
 	actions
@@ -984,7 +983,7 @@ object mwLightningBlade of LongSword
 		enchantResistance 60
 		health 425
 		color 100	#white
-		level 400
+		level 1
 
 		# do pure elec damage
 		caffect 0
@@ -996,8 +995,8 @@ object mwLightningBlade of LongSword
 	end
 
 	base weapon
-		minDamage 60
-		maxDamage 120
+		minDamage 600
+		maxDamage 1200
 	end
 
 	actions
@@ -1025,7 +1024,7 @@ object mwVulcanBlade of LongSword
 		enchantResistance 80
 		health 425
 		color 58	#red
-		level 600
+		level 1
 
 		# do pure fire damage
 		caffect 0
@@ -1037,8 +1036,8 @@ object mwVulcanBlade of LongSword
 	end
 
 	base weapon
-		minDamage 70
-		maxDamage 130
+		minDamage 700
+		maxDamage 1300
 	end
 
 	actions
@@ -1066,7 +1065,7 @@ object mwSwordOfKenaz of BroadSword
 		value 30000
 		enchantResistance 20
 		health 260
-		level 100
+		level 1
 		color 64	#yellow
 	end
 
@@ -1075,8 +1074,8 @@ object mwSwordOfKenaz of BroadSword
 	end
 
 	base weapon
-		minDamage 20
-		maxDamage 40
+		minDamage 200
+		maxDamage 400
 	end
 
 	actions
@@ -1109,7 +1108,7 @@ object mwSwordOfDagaz of BroadSword
 		value 35000
 		enchantResistance 40
 		health 260
-		level 200
+		level 1
 		color 63	#gold
 	end
 
@@ -1118,8 +1117,8 @@ object mwSwordOfDagaz of BroadSword
 	end
 
 	base weapon
-		minDamage 50
-		maxDamage 100
+		minDamage 500
+		maxDamage 1000
 	end
 
 	actions
@@ -1152,7 +1151,7 @@ object mwSwordOfEihwaz of BroadSword
 		value 40000
 		enchantResistance 60
 		health 260
-		level 400
+		level 1
 		color 93	#royal
 	end
 
@@ -1161,8 +1160,8 @@ object mwSwordOfEihwaz of BroadSword
 	end
 
 	base weapon
-		minDamage 60
-		maxDamage 120
+		minDamage 600
+		maxDamage 1200
 	end
 
 	actions
@@ -1189,7 +1188,7 @@ object mwSwordOfHagalaz of BroadSword
 		value 45000
 		enchantResistance 80
 		health 260
-		level 600
+		level 1
 		color 98	#black
 	end
 
@@ -1198,8 +1197,8 @@ object mwSwordOfHagalaz of BroadSword
 	end
 
 	base weapon
-		minDamage 70
-		maxDamage 130
+		minDamage 700
+		maxDamage 1300
 	end
 
 	actions
@@ -1231,7 +1230,7 @@ object mwBloodSword of BroadSword
 		enchantResistance 20
 		health 400
 		color 89	#orange
-		level 100
+		level 1
 
 		# do pure steal life damage
 		caffect 0
@@ -1243,8 +1242,8 @@ object mwBloodSword of BroadSword
 	end
 
 	base weapon
-		minDamage 20
-		maxDamage 40
+		minDamage 200
+		maxDamage 400
 	end
 
 	actions
@@ -1268,7 +1267,7 @@ object mwHeartSword of BroadSword
 		enchantResistance 40
 		health 400
 		color 68	#violet
-		level 200
+		level 1
 
 		# do pure steal life damage
 		caffect 0
@@ -1280,8 +1279,8 @@ object mwHeartSword of BroadSword
 	end
 
 	base weapon
-		minDamage 50
-		maxDamage 100
+		minDamage 500
+		maxDamage 1000
 	end
 
 	actions
@@ -1305,7 +1304,7 @@ object mwSpiritSword of BroadSword
 		enchantResistance 60
 		health 400
 		color 108	#light flesh
-		level 400
+		level 1
 
 		# do pure steal life damage
 		caffect 0
@@ -1317,8 +1316,8 @@ object mwSpiritSword of BroadSword
 	end
 
 	base weapon
-		minDamage 60
-		maxDamage 120
+		minDamage 600
+		maxDamage 1200
 	end
 
 	actions
@@ -1342,7 +1341,7 @@ object mwSoulSword of BroadSword
 		enchantResistance 80
 		health 400
 		color 49	#lime
-		level 600
+		level 1
 
 		# do pure steal life damage
 		caffect 0
@@ -1354,8 +1353,8 @@ object mwSoulSword of BroadSword
 	end
 
 	base weapon
-		minDamage 70
-		maxDamage 130
+		minDamage 700
+		maxDamage 1300
 	end
 
 	actions
@@ -1376,7 +1375,7 @@ object mwHolyShard of AdmantiumThrowingDagger
                 name "Holy Shard"
                 value 15000
                 color 83
-		level 300
+		level 1
 
         end
 
@@ -1391,8 +1390,8 @@ object mwHolyShard of AdmantiumThrowingDagger
         end
 
         base weapon
-                minDamage 35
-                maxDamage 65
+                minDamage 350
+                maxDamage 650
 		#  only wizzies
 		mask thief
 		mask warrior
@@ -1415,7 +1414,7 @@ object mwVampiricShiv of AdmantiumThrowingDagger
                 name "Vampiric Shiv"
                 value 15000
                 color 83
-		level 300
+		level 1
 
 		affect 10 0 0 -1
 	end
@@ -1431,8 +1430,8 @@ object mwVampiricShiv of AdmantiumThrowingDagger
         end
 
         base weapon
-                minDamage 40
-                maxDamage 90
+                minDamage 400
+                maxDamage 900
 		#  only thieves
 		mask wizard
 		mask warrior
@@ -1451,14 +1450,14 @@ object mwCausticGrasp of AdmantiumClaw
                 name "Caustic Grasp"
                 value 28500
                 color 115
-                level 300
+                level 1
 
 		affect 4 0 0 -1
         end
 
         base weapon
-                minDamage 40
-                maxDamage 90
+                minDamage 400
+                maxDamage 900
 		#  only adventurers
 		mask wizard
 		mask warrior
@@ -1482,18 +1481,18 @@ object mwTheOhm of AdmantiumMaul
                 name "The Ohm"
                 value 40
                 color 58
-                level 300
+                level 1
 
 		affect 3 0 0 -1
         end
 
         base carryable
-                weight 90
+                weight 9
         end
 
         base weapon
-                minDamage 90
-                maxDamage 150
+                minDamage 900
+                maxDamage 1500
 		#  only warriors
 		mask wizard
 		mask thief
@@ -1517,7 +1516,7 @@ object maWardingBuckler of MythrilRoundShield
    properties
     special
       name "Warding Buckler"
-      armor 40
+      armor 80
       #  blue
       color 53
       health 65
@@ -1587,11 +1586,11 @@ object maImbuedGarment of Shirt
    properties
     special
       name "Imbued Garment"
-      armor 40
+      armor 120
       #  white
       color 100
       health 390
-      level 100
+      level 1
       value 10000
    end
    base carryable
@@ -1622,11 +1621,11 @@ object maMagistratesVest of LeatherShirt
    properties
     special
       name "Magistrate's Vest"
-      armor 50
+      armor 120
       #  white
       color 100
       health 390
-      level 100
+      level 1
       value 10000
    end
    base carryable
@@ -1657,15 +1656,15 @@ object maLegacyChainmail of MythrilChainTunic
    properties
     special
       name "Legacy Chainmail"
-      armor 70
+      armor 150
       #  white
       color 100
       health 650
-      level 100
+      level 1
       value 10000
    end
    base carryable
-      weight 15
+      weight 5
    end
    base described
       text "You see a mythril chain vest."
@@ -1689,15 +1688,15 @@ object maReflectivePlate of MythrilPlateTunic
    properties
     special
       name "Reflective Plate"
-      armor 80
+      armor 120
       #  white
       color 100
       health 650
-      level 100
+      level 1
       value 10000
    end
    base carryable
-      weight 20
+      weight 2
    end
    base described
       text "You see mythril platemail armor."
@@ -1849,7 +1848,7 @@ object maGlacialPantaloons of Pants
       #  white
       color 100
       health 390
-      level 100
+      level 1
       value 10000
    end
    base carryable
@@ -1884,7 +1883,7 @@ object maMagistratesLeggings of LeatherPants
       #  white
       color 100
       health 390
-      level 100
+      level 1
       value 10000
    end
    base carryable
@@ -1919,7 +1918,7 @@ object maLegacyChainLeggings of MythrilChainPants
       #  white
       color 100
       health 650
-      level 100
+      level 1
       value 10000
    end
    base carryable
@@ -1954,7 +1953,7 @@ object maGreavesOfResilience of MythrilPlatePants
       #  white
       color 100
       health 650
-      level 100
+      level 1
       value 10000
    end
    base carryable
@@ -1987,12 +1986,12 @@ object maThurisazCowl of ChainCowl
                 name "Thurisaz Cowl"
                 value 12500
                 health 1000
-                armor 80
+                armor 140
                 view 10050
         end
 
         base carryable
-                weight 4.0
+                weight 1.0
         end
 
         actions
@@ -2055,18 +2054,47 @@ object AnewShop of Shop
 	end
 
 	base shop
-		buyMarkup 1
-		sellMarkup 1
+		buyMarkup 0
+		sellMarkup 0
 
 		inventory
-			category "Needs Testing!!" 8599
-				object mwWizardSword
-				object maDrake
-				object maWizSoul
-				object mwCranium
-			end
-			category "Cheat Item" 8599
-				object rCheats
+			category "New Stuffs" 94012
+				category "Ragged Cloth" 94003
+					object RaggedClothHood
+					object RaggedClothCowl
+					object RaggedClothShirt
+					object RaggedClothBands
+					object RaggedClothLeggings
+					object RaggedClothLowBoots
+					object RaggedClothHighBoots
+				end
+				category "Tattered Leather" 94004
+					object TatteredLeatherBandanna
+					object TatteredLeatherCowl
+					object TatteredLeatherArmor
+					object TatteredLeatherBands
+					object TatteredLeatherLeggings
+					object TatteredLeatherLowBoots
+					object TatteredLeatherHighBoots
+				end
+				category "Battered Chainmail" 94005
+					object BatteredIronChainHelmet
+					object BatteredIronChainCowl
+					object BatteredIronChainTunic
+					object BatteredIronChainBands
+					object BatteredIronChainLeggings
+					object BatteredIronChainLowBoots
+					object BatteredIronChainHighBoots
+				end
+				category "Dented Plate" 94006
+					object DentedIronPlateHelmet
+					object DentedIronPlateCowl
+					object DentedIronChestPlate
+					object DentedIronPlateBands
+					object DentedIronPlateLeggings
+					object DentedIronPlateLowBoots
+					object DentedIronPlateHighBoots
+				end
 			end
 			category "God Keys" 94000
 				object EnidKey
@@ -2163,6 +2191,12 @@ object AnewShop of Shop
                 object maWorg
             end
 			category "Weapons" 94005
+				object mwVirtue
+				object mwSplinter
+				object mwDestitution
+				object mwSorrow
+				object mwMighty
+				object mwAlpha
                 object mwCretin
 				object mwTiwazDagger
                 object mwPowerFist

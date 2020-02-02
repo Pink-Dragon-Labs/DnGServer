@@ -28865,3 +28865,18 @@ Something terrible has happened and has made Wood Ratling die twice!
 script 40101, ip 0xd0
 -----------------------------------------------------
 
+login name : zach
+version    : 3.451
+time       : Sat Jan 25 03:46:21 2020
+-----------------------------------------------------
+BETA Version 40
+$638f: (CharMenu init:)
+$039f: (RoomMgr spawnRoom:)
+$039f: (RoomMgr newRoom:)
+$0047: (RoomZero newRoom:)
+$031b: (Game doit:)
+$0047: (RoomZero doit:)
+Invalid handle 0x0! (zero handle)
+script 45014, ip 0xda1b
+-----------------------------------------------------
+
