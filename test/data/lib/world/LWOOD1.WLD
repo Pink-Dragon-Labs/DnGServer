@@ -49,19 +49,6 @@ room 50000
       225  485 291
       32993  369 262
    end
-   objects
-      object Tent50000-0 of Tent
-         properties
-            x	328
-            y	163
-            loop	0
-            linkTo PlankDoor5014-1
-         end
-         base described
-            text	"A tent to East Leinster."
-         end
-      end
-   end
 end
 room 50001
    properties

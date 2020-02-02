@@ -52,6 +52,7 @@ TOOLS.OBJ
 # Custom items here before drop tables that use them
 GLOWBOOT.OBJ
 CustomArmor.obj
+CustomArmor2020.OBJ
 CustomWeapons.obj
 CustomDyes.obj
 NEWITEMS.OBJ
@@ -151,3 +152,4 @@ CASTLE.OBJ
 BALDRIC_COLORS.OBJ
 NG_ITEMS.OBJ
 DungeonTT.OBJ
+2020MONSTERS.OBJ

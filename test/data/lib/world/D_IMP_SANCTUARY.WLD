@@ -36,14 +36,14 @@ room 10000
 				isOpen 1
 			end
 		end
-		object sign10000-0 of Sign
+		object Crest10000-0 of Crest
 			properties
-				loop 0
-				x 200
+				loop 2
+				x 92
 				y 227
 			end
 			base described
-				text "Be weary traveller, this dungeon has been invaded by powerful opponents. It is recommended you bring some friends along!\n\nSuggested Level: 2500+\nSuggested Party Size: 3+\n" 
+				text "Be weary traveller, this dungeon has been invaded by powerful opponents. It is recommended you bring some friends along!\n\nSuggested Level: 2500+\nSuggested Party Size: 3+\nLength: Long\n" 
 			end
 		end
 	end
@@ -1577,30 +1577,29 @@ room 10025
 	end
 	atpinfo
 		1750 543 149 
-		7906 505 191 38
-		7906 581 196 38
+		7906 495 181 38
+		7906 613 182 38
 		1750 149 235 
 		7907 422 235 
 		1750 376 236 
 		1831 369 242 
 		1780 382 243 
 		1830 205 243 
-		7906 189 247 
+		7906 128 254 
 		34519 47 250 
 		34548 424 255 
 		7907 426 257 
 		1780 139 273 
-		7907 86 286 
+		7907 129 273 
 		1751 20 287 
 		34618 596 299 -21
-		7907 584 303 
+		7907 607 313 
 		34538 129 309 
-		7906 344 313 77
+		7906 381 310 77
 		1850 23 318 
 		34539 435 324 
-		7906 85 324 
-		7903 603 326 
-		7906 153 351 76
+		7906 45 324 
+		7903 617 351 
 		34548 87 373 
 	end
 	objects
@@ -2410,14 +2409,14 @@ room 10039
 		1750 515 210 
 		7906 258 211 
 		7906 379 211 
+		7906 490 211 
 		1750 18 212 
 		1877 495 218 
 		1751 91 218 
 		1750 171 222 
-		7901 145 222 
+		7901 128 223 
 		1782 40 225 
 		1751 589 227 
-		7906 490 211 
 		7906 579 227 
 		34540 393 237 
 		1772 60 302 
@@ -2426,17 +2425,17 @@ room 10039
 		34549 336 319 
 		1771 39 321 
 		1877 193 322 
-		7901 81 322 100
+		7901 80 323 100
 		1781 541 324 
 		34550 363 326 
 		34643 132 326 
 		1876 282 327 
-		7902 305 332 
 		1875 31 330 
-		7902 101 332 
+		7902 311 345 
+		7902 98 344 
+		7902 581 345 
 		34551 627 336 
 		1782 408 337 
-		7902 577 332 
 		1780 213 348 
 		1783 446 351 
 		1780 473 374 
@@ -5025,7 +5024,7 @@ room 10078
 				y 297
 			end
 			base described
-				text "Further down we go...\n"
+				text "Further down you head.\nYou hear sounds of swords clanging against armor in the distance...\n"
 			end
 		end
 	end
@@ -5407,25 +5406,13 @@ room 10087
 				y 306
 			end
 		end
-		object key10087-0 of Key
+		object key10087-0 of SancChestKey4
 			properties
-				special 
 				x -200
 				y -200
-				toss
-				drop 
-				name "Sanctuary Chest Key"
-				worthless
 			end
 			base carryable
 				owner CastleBoss210087-0
-			end
-			base key
-				lockValue 4555
-				unlockValue 4555
-			end
-			base described
-				text "A key to a chest in the Sanctuary Treasure Room.\n\n"
 			end
 		end
 		object dungeonBackUp10087-0 of DungeonBackUp
@@ -5769,25 +5756,13 @@ room 10080
 				y 300
 			end
 		end
-		object key10080-0 of Key
+		object key10080-0 of SancChestKey3
 			properties
-				special 
 				x -200
 				y -200
-				toss
-				drop 
-				name "Sanctuary Chest Key"
-				worthless
 			end
 			base carryable
 				owner CastleBoss110080-0
-			end
-			base key
-				lockValue 4554
-				unlockValue 4554
-			end
-			base described
-				text "A key to a chest in the Sanctuary Treasure Room.\n\n"
 			end
 		end
 		object dungeonBackUp10080-0 of DungeonBackUp
@@ -5847,43 +5822,43 @@ room 10091
 	end
 	atpinfo
 		1754 287 224 
+		7906 287 224 
 		1750 149 235 
 		1750 435 241 
 		1831 369 242 
 		1830 205 243 
-		7906 194 248 
 		34519 47 250 
 		34548 421 256 
-		7907 411 258 
 		1750 506 266 
 		1780 455 277 
-		7907 86 286 
 		1751 20 287 
 		1850 542 304 
 		34548 510 310 
+		7906 165 316 76
 		34618 622 317 -21
 		1850 23 318 
-		7906 48 318 
-		7906 438 319 38
-		7906 496 320 
+		7906 43 271 
+		7906 624 326 
 		34538 389 323 
 		34539 435 324 
-		7906 371 324 77
 		1771 526 325 
 		1770 574 326 
-		7906 105 328 76
+		7906 540 399 77
 		1780 536 346 
+		14 398 250 
+		7907 381 250 
 	end
 	objects
-		object dungeonBackDoor10091-0 of DungeonBackDoor
+		object dungeonBackDoor10091-0 of EnidBackDoor
 			properties
-				loop 0
+				loop 2
 				x 287
 				y 227
 				linkTo dungeonBackUp10092-0
 			end
-			base openable
-				isOpen 1
+			base lockable
+				isLocked 1
+				lockValue 5775
 			end
 		end
 		object Nobleman10091-0 of Nobleman
@@ -5912,6 +5887,25 @@ room 10091
 				loop 0
 				x 66
 				y 319
+			end
+		end
+		object key10091-0 of SancDoorKey
+			properties
+				x -200
+				y -200
+			end
+			base carryable
+				owner Nobleman10091-3
+			end
+		end
+		object sign10091-0 of Sign
+			properties
+				loop 0
+				x 184
+				y 249
+			end
+			base described
+				text "Sanctuary Store Room.\nKept under lock and key by the Nobleman.\n"
 			end
 		end
 		object Nobleman10091-4 of Nobleman
@@ -6006,7 +6000,7 @@ room 10092
 				unlockValue 4557
 			end
 		end
-		object FafnirTable10092-0 of FafnirTable
+		object RaidBossTable10092-0 of RaidBossTable
 			properties
 				x -200
 				y -200
@@ -6016,7 +6010,7 @@ room 10092
 				owner	chest10092-0
 			end
 		end
-      	object FafnirTable10092-1 of FafnirTable
+      	object RaidBossTable10092-1 of RaidBossTable
 			properties
 				x -200
 				y -200
@@ -6026,7 +6020,7 @@ room 10092
 				owner	chest10092-3
 			end
 		end
-		object RandomNoviceGear10092-0 of RandomNoviceGear
+		object RaidBossTable10092-0 of RaidBossTable
 			properties
 				x -200
 				y -200
@@ -6036,7 +6030,7 @@ room 10092
 				owner	chest10092-2
 			end
 		end
-      	object RandomNoviceGear10092-0 of RandomNoviceGear
+      	object RaidBossTable10092-0 of RaidBossTable
 			properties
 				x -200
 				y -200
@@ -6314,25 +6308,13 @@ room 10096
 				y 299
 			end
 		end
-		object key10096-0 of Key
+		object key10096-0 of SancChestKey2
 			properties
-				special 
 				x -200
 				y -200
-				toss
-				drop 
-				name "Sanctuary Chest Key"
-				worthless
 			end
 			base carryable
 				owner CastleBoss310096-0
-			end
-			base key
-				lockValue 4556
-				unlockValue 4556
-			end
-			base described
-				text "A key to a chest in the Sanctuary Treasure Room.\n\n"
 			end
 		end
 		object dungeonBackUp10096-0 of DungeonBackUp
@@ -6543,25 +6525,13 @@ room 10101
 				y 310
 			end
 		end
-		object key10101-0 of Key
+		object key10101-0 of SancChestKey1
 			properties
-				special 
 				x -200
 				y -200
-				toss
-				drop 
-				name "Sanctuary Chest Key"
-				worthless
 			end
 			base carryable
 				owner CastleBoss410101-0
-			end
-			base key
-				lockValue 4557
-				unlockValue 4557
-			end
-			base described
-				text "A key to a chest in the Sanctuary Treasure Room.\n\n"
 			end
 		end
 		object dungeonBackUp10101-0 of DungeonBackUp

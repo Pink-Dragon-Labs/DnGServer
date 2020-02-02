@@ -2832,8 +2832,7 @@ room 3142
       picture	3001
       north	3135 
       south	3200 
-      east	3143
-      west	29029 
+      east	3143 
       flags	2
    end
    atpinfo
@@ -2899,7 +2898,6 @@ room 3135
       north	3128 
       south	3142 
       east	3136 
-      west	29019
    end
    atpinfo
       2743  77 124
@@ -2949,7 +2947,6 @@ room 3128
       north	3121 
       south	3135 
       east	3129 
-      west	29009
       flags	2
    end
    atpinfo

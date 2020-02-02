@@ -1,9 +1,0 @@
-name "mines01"
-title "Mine Sharona"
-worldFile "../data/lib/world/mine01.wld" 
-allowCombat 11
-midiFile 29
-isDungeon 1
-entrance movingRock4716-0
-groupChance 30
-

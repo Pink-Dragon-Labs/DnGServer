@@ -223,7 +223,13 @@ object DragonKey of Key
 	end
 		
 end
-
+#
+#
+#
+# Garrison Keys
+#
+#
+#
 object GarrisonKey of Key
 	properties 	
 	special
@@ -289,7 +295,13 @@ object GarrisonKey3 of Key
 	end
 		
 end
-
+#
+#
+#
+# Castle Keys
+#
+#
+#
 object Castlekey of Key
 	properties
 		special
@@ -464,5 +476,125 @@ object CastleChestKey4 of Key
 	base described
 		text "You see a key that opens a chest in The Castle."
 		shopText "NOT TO BE SOLD\n\n"
+	end
+end
+#
+#
+#
+# Sanctuary Keys
+#
+#
+#
+object SancChestKey1 of Key
+	properties
+		special 
+		toss
+		drop 
+		name "Sanctuary Chest Key 1"
+		worthless
+	end
+
+	base key
+		lockValue 4557
+		unlockValue 4557
+	end
+
+	base described
+		text "A key to a chest in the Sanctuary Treasure Room.\n\n"
+	end
+end
+
+object SancChestKey2 of Key
+	properties
+		special 
+		toss
+		drop 
+		name "Sanctuary Chest Key 2"
+		worthless
+	end
+
+	base key
+		lockValue 4556
+		unlockValue 4556
+	end
+
+	base described
+		text "A key to a chest in the Sanctuary Treasure Room.\n\n"
+	end
+end
+
+object SancChestKey3 of Key
+	properties
+		special 
+		toss
+		drop 
+		name "Sanctuary Chest Key 3"
+		worthless
+	end
+
+	base key
+		lockValue 4554
+		unlockValue 4554
+	end
+
+	base described
+		text "A key to a chest in the Sanctuary Treasure Room.\n\n"
+	end
+end
+
+object SancChestKey4 of Key
+	properties
+		special 
+		toss
+		drop 
+		name "Sanctuary Chest Key 4"
+		worthless
+	end
+
+	base key
+		lockValue 4555
+		unlockValue 4555
+	end
+
+	base described
+		text "A key to a chest in the Sanctuary Treasure Room.\n\n"
+	end
+end
+
+object SancDoorKey of Key
+	properties
+		special 
+		toss
+		drop 
+		name "Store Room Key"
+		worthless
+	end
+
+	base key
+		lockValue 5775
+		unlockValue 5775
+	end
+
+	base described
+		text "A key to access the Sanctuary Store Room\n"
+	end
+end
+
+object SpitTavernKey of Key
+	properties
+		special 
+		toss
+		drop 
+		name "Regurgitated Key"
+		worthless
+	end
+
+	base key
+		lockValue 5014
+		unlockValue 5014
+	end
+
+	base described
+		text "Gross.. this came out of the Hellrat?\n\n"
 	end
 end

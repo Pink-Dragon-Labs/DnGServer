@@ -614,61 +614,6 @@ end
 
 
 
-#----------------------------------------------------------
-object mwWizardSword of mwOdinsEdge
-	properties
-	special
-		name "Infinite Wisdom"
-		value 3000000
-		health 2000
-		level 5000
-		color 236             # Completely Invisible (Hollow Core)
-	end
-
-	base carryable
-		weight 0
-	end
-
-	base dye
-	end
-
-	base weapon
-		skillType 0		# Short Sword (Scale to Intel)
-		minDamage 415
-		maxDamage 485
-		#--------- Crazy Range on Sword --------
-		range 4
-		#------- Random Spell on Attack ---------
-		spellProcID -1				# Random	-
-		forwardProcChance 20		# 20%		-
-		#----------------------------------------
-	end
-	
-	actions
-		vBePutOn changeManaDrain dobj 2500				# 2500 Mana Drain per Tick
-		vBeTakenOff changeManaDrain dobj -2500	
-		vBePutOn setAffect dobj 56 0 0 -1   			# Attack
-		vBeTakenOff clearAffect dobj 56 0 0
-		vBePutOn setAffect dobj 61 0 0 -1            	# Intel Boost
-		vBeTakenOff clearAffect dobj 61 0 0
-		vBePutOn setAffect dobj 61 0 0 -1            	# Intel Boost
-		vBeTakenOff clearAffect dobj 61 0 0
-		vBePutOn setAffect dobj 61 0 0 -1            	# Intel Boost
-		vBeTakenOff clearAffect dobj 61 0 0
-		vBePutOn setAffect dobj 61 0 0 -1            	# Intel Boost
-		vBeTakenOff clearAffect dobj 61 0 0
-		vBePutOn setAffect dobj 59 0 0 -1   			# Dex
-		vBeTakenOff clearAffect dobj 59 0 0
-		vBePutOn setAffect dobj 39 0 0 -1   			# Str
-		vBeTakenOff clearAffect dobj 39 0 0
-	end
-	
-	base described
-		text "This blade has magical properties even the most powerful sorcerer can't decipher..\n"
-		idText "Infinite Wisdom.\nThis blade once belonged to Grand Magister Pythagoras, using ancient magics long lost to time it will sometimes cast an offensive spell on your opponent.\n\nWielding this you will gain incredible Intelligence, an extra Attack per round, as well as slight Strength and Dexterity boosts.\n\nLevel Required: 5000\n2500 Mana/Tick\n\n"
-		shopText "Infinite Wisdom.\nThis blade once belonged to Grand Magister Pythagoras, using ancient magics long lost to time it will sometimes cast an offensive spell on your opponent.\n\nWielding this you will gain incredible Intelligence, an extra Attack per round, as well as slight Strength and Dexterity boosts.\n\nLevel Required: 5000\n2500 Mana/Tick\n\n"
-	end
-end
 
 
 
@@ -695,6 +640,11 @@ object FafnirTable of MoneyBag
 		spbDespothesWrath
 		spbSummonDragon
 		spbElphamesJustice
+		spbAcidCloud
+		spbEnidsBlessing
+		spbAntiMagicAura
+		spbMabonsForcedFlee
+		spbEtheralize
 		rSpelunking
 		rBlurredSpeed
 		rBrutality
@@ -703,11 +653,6 @@ object FafnirTable of MoneyBag
 		AdvTarge
 		ConjuredShield
 		BrutalShield
-		spbAcidCloud
-		spbEnidsBlessing
-		spbAntiMagicAura
-		spbMabonsForcedFlee
-		spbEtheralize
 		maElphamesBands
 		maElphamesShoes
 		maElphamesCowl
@@ -730,8 +675,12 @@ object FafnirTable of MoneyBag
 		mwPowerFist
 		mwCleaver
 		mwOmega
+		mwAlpha
 		mwLightning
 		mwDeathWish
+		mwSapper
+		mwGnasher
+		mwMighty
 		mwLightDart
 		mwRepel 
 		mwFury
@@ -764,5 +713,67 @@ object FafnirTable of MoneyBag
 		sInvulReverseChestProc
 		sShiftReverseHelmProc
 		sHealReverseChestProc
+	end
+end
+
+object RaidBossTable of MoneyBag
+	properties
+	special
+		random 100
+	end
+
+	base treasure
+		MoneyBag 10000000 30000000
+		MoneyBag 10000000 30000000
+		maThorsPlate
+		spbDespothesWrath
+		spbElphamesJustice
+		spbAcidCloud
+		spbEnidsBlessing
+		spbMabonsForcedFlee
+		spbRepel
+		rSpelunking
+		rBlurredSpeed
+		rBrutality
+		rSpellpower
+		AssassinTarge
+		AdvTarge
+		MagicWardRingII
+		MagicWardRingI
+		ConjuredShield
+		BrutalShield
+		bWarrior
+		bAdventurer
+		bThief
+		bWizard
+		maHopliteF
+		maHopliteM
+		maCrownOfPower
+		mwCrusher
+		mwLightDart
+		mwLightning
+		mwDeathWish
+		mwLightning
+		mwRepel 
+		mwSapper
+		mwMighty
+		mwDespothes
+		mwCretin
+		mwGnasher
+		mwBardiche
+		mwHate
+		mwWand
+		mwCleaver
+		mwOmega
+		mwAlpha
+		mwZeus
+		mwPowerFist
+		ThistlebarkA
+		sEQForwardWeaponProc
+		sSparkForwardWeaponProc
+		sLDForwardWeaponProc
+		sCleaveForwardWeaponProc
+		sFOForwardWeaponProc
+		sIOForwardWeaponProc
 	end
 end

@@ -16,8 +16,8 @@ object aAmuletOfAdventure of Amulet
 	end
 	base described
 		text "You see an amulet of some sort."
-		idText "You see an Amulet of Adventure.  This item gives the wearer elemental, mysticism, and necromancy resistance, nourishment, regeneration, one extra attack per combat round, and increases strength, dexterity, intelligence, and endurance.  Required level of 300."
-		shopText "You see an Amulet of Adventure.  This item gives the wearer elemental, mysticism, and necromancy resistance, nourishment, reeneration, one extra attack per combat round, and increases strength, dexterity, intelligence, and endurance.  Required level of 300."
+		idText "You see an Amulet of Adventure.  This item gives the wearer elemental, mysticism, and necromancy resistance, nourishment, regeneration, one extra attack per combat round, and increases strength, dexterity, intelligence, and endurance.  Required level of 1."
+		shopText "You see an Amulet of Adventure.  This item gives the wearer elemental, mysticism, and necromancy resistance, nourishment, reeneration, one extra attack per combat round, and increases strength, dexterity, intelligence, and endurance.  Required level of 1."
 	end
 	base wearable
 		#  adventurer only
@@ -72,8 +72,8 @@ object bGirdleOfMight of Belt
    end
    base described
       text "You see a large plate girdle."
-      idText "You see a Girdle of Might.  This item decreases the wearers encumbrance, gives regeneration, stun resist, retention, and increases strength and endurance.  Required level of 300."
-      shopText "You see a Girdle of Might.  This item decreases the wearers encumbrance, gives regeneration, stun resist, retention, and increases strength and endurance.  Required level of 300."
+      idText "You see a Girdle of Might.  This item decreases the wearers encumbrance, gives regeneration, stun resist, retention, and increases strength and endurance.  Required level of 1."
+      shopText "You see a Girdle of Might.  This item decreases the wearers encumbrance, gives regeneration, stun resist, retention, and increases strength and endurance.  Required level of 1."
    end
    base wearable
       #  warrior only
@@ -124,8 +124,8 @@ object maArchMagesPants of LeatherPants
    end
    base described
       text "You see a pair of pants covered with mystical runes."
-      idText "You see an Arch Mage's Pants.  This item increases the wearers magical power, intelligence, and endurance.  Required level of 300."
-      shopText "You see an Arch Mage's Pants.  This item increases the wearers magical power, intelligence, and endurance.  Required level of 300."
+      idText "You see an Arch Mage's Pants.  This item increases the wearers magical power, intelligence, and endurance.  Required level of 1."
+      shopText "You see an Arch Mage's Pants.  This item increases the wearers magical power, intelligence, and endurance.  Required level of 1."
    end
    base wearable
       #  no warriors
@@ -165,8 +165,8 @@ object maArchMagesShirt of LeatherShirt
    end
    base described
       text "You see a shirt covered with mystical runes."
-      idText "You see an Arch Mage's Shirt.  This item increases the wearers magical power, intelligence, and endurance.  Required level of 300."
-      shopText "You see an Arch Mage's Shirt.  This item increases the wearers magical power, intelligence, and endurance.  Required level of 300."
+      idText "You see an Arch Mage's Shirt.  This item increases the wearers magical power, intelligence, and endurance.  Required level of 1."
+      shopText "You see an Arch Mage's Shirt.  This item increases the wearers magical power, intelligence, and endurance.  Required level of 1."
    end
    base wearable
       #  no warriors
@@ -206,8 +206,8 @@ object maBootsOfEvasion of LowBoots
    end
    base described
       text "You see a well crafted pair of boots."
-      idText "You see Boots of Evasion.  This item gives the wearer one extra dodge per combat round, and increases dexterity.  Required level of 250."
-      shopText "You see Boots of Evasion.  This item gives the wearer one extra dodge per combat round, and increases dexterity.  Required level of 250."
+      idText "You see Boots of Evasion.  This item gives the wearer one extra dodge per combat round, and increases dexterity.  Required level of 1."
+      shopText "You see Boots of Evasion.  This item gives the wearer one extra dodge per combat round, and increases dexterity.  Required level of 1."
    end
    actions
       #  extra dodge
@@ -240,8 +240,8 @@ object maBracersOfBattle of Mythrilband
    end
    base described
       text "You see a pair of plate bracers."
-      idText "You see Bracers of Battle.  This item gives the wearer retention, stun resist, and increases strength.  Required level of 300."
-      shopText "You see Bracers of Battle.  This item gives the wearer retention, stun resist, and increases strength.  Required level of 300."
+      idText "You see Bracers of Battle.  This item gives the wearer retention, stun resist, and increases strength.  Required level of 1."
+      shopText "You see Bracers of Battle.  This item gives the wearer retention, stun resist, and increases strength.  Required level of 1."
    end
    base wearable
       #  no wizards
@@ -281,8 +281,8 @@ object maBreastplateOfBattle of MythrilChainTunic
    end
    base described
       text "You see a plate breasplate."
-      idText "You see a Breastplate of Battle.  This item increases the wearers strength.  Required level of 250."
-      shopText "You see a Breastplate of Battle.  This item increases the wearers strength.  Required level of 250."
+      idText "You see a Breastplate of Battle.  This item increases the wearers strength.  Required level of 1."
+      shopText "You see a Breastplate of Battle.  This item increases the wearers strength.  Required level of 1."
    end
    base wearable
       #  no wizards
@@ -316,8 +316,8 @@ object maCowlOfImmortality of LeatherCowl
    end
    base described
       text "You see a cowl covered with mystical runes."
-      idText "You see a Cowl of Immortality.  This item gives the wearer necromancy resistance, and increases magical power, intelligence, and endurance.  Required level of 300."
-      shopText "You see a Cowl of Immortality.  This item gives the wearer necromancy resistance, and increases magical power, intelligence, and endurance.  Required level of 300."
+      idText "You see a Cowl of Immortality.  This item gives the wearer necromancy resistance, and increases magical power, intelligence, and endurance.  Required level of 1."
+      shopText "You see a Cowl of Immortality.  This item gives the wearer necromancy resistance, and increases magical power, intelligence, and endurance.  Required level of 1."
    end
    base wearable
       #  no warriors
@@ -359,8 +359,8 @@ object maGreavesOfFortitude of MythrilChainPants
    end
    base described
       text "You see a pair of plate greaves."
-      idText "You see Greaves of Fortitude.  This item increases the wearers endurance.  Required level of 300."
-      shopText "You see Greaves of Fortitude.  This item increases the wearers endurance.  Required level of 300."
+      idText "You see Greaves of Fortitude.  This item increases the wearers endurance.  Required level of 1."
+      shopText "You see Greaves of Fortitude.  This item increases the wearers endurance.  Required level of 1."
    end
    base wearable
       #  no wizards
@@ -394,8 +394,8 @@ object maShieldOfInfiniteThought of LargeShield
    end
    base described
       text "You see a shield covered with mystical runes."
-      idText "You see a Shield of Infinite Thought.  This item gives the wearer elemental and necromancy resistance, and increases magical power and intelligence.  Required level of 300."
-      shopText "You see a Shield of Infinite Thought.  This item gives the wearer elemental and necromancy resistance, and increases magical power and intelligence.  Required level of 300."
+      idText "You see a Shield of Infinite Thought.  This item gives the wearer elemental and necromancy resistance, and increases magical power and intelligence.  Required level of 1."
+      shopText "You see a Shield of Infinite Thought.  This item gives the wearer elemental and necromancy resistance, and increases magical power and intelligence.  Required level of 1."
    end
    actions
       #  10% elemental / mysticism /necromancy resistance
@@ -457,8 +457,8 @@ object mwDuachsThorn of Dagger
    end
    base described
       text "You see a wicked looking dagger."
-      idText "You see the legendary Duach's Thorn.  This dagger steals life, gives the wearer one extra attack per combat round, one extra dodge per combat round, and increases strength and dexterity.  Extra damage when used against good aligned opponents.  Required level of 500."
-      shopText "You see the legendary Duach's Thorn.  This dagger steals life, gives the wearer one extra attack per combat round,  one extra dodge per combat round, and increases strength and dexterity.  Extra damage when used against good aligned opponents.  Required level of 500."
+      idText "You see the legendary Duach's Thorn.  This dagger steals life, gives the wearer one extra attack per combat round, one extra dodge per combat round, and increases strength and dexterity.  Extra damage when used against good aligned opponents.  Required level of 1."
+      shopText "You see the legendary Duach's Thorn.  This dagger steals life, gives the wearer one extra attack per combat round,  one extra dodge per combat round, and increases strength and dexterity.  Extra damage when used against good aligned opponents.  Required level of 1."
    end
    base weapon
       minDamage 700
@@ -509,8 +509,8 @@ object ogEnidsNeedle of mwEnidsNeedle
    end
    base described
       text "You see a beautifully crafted throwing dagger."
-      idText "You see the legendary Enid's Needle.  This dagger increases the wearers thaumaturgy power, gives on extra attack per combat round, and increases intelligence and endurance.  Extra damage when used against evil aligned opponents.  Required level of 350."
-      shopText "You see the legendary Enid's Needle.  This dagger increases the wearers thaumaturgy power, gives on extra attack per combat round, and increases intelligence and endurance.  Extra damage when used against evil aligned opponents.  Required level of 350."
+      idText "You see the legendary Enid's Needle.  This dagger increases the wearers thaumaturgy power, gives on extra attack per combat round, and increases intelligence and endurance.  Extra damage when used against evil aligned opponents.  Required level of 1."
+      shopText "You see the legendary Enid's Needle.  This dagger increases the wearers thaumaturgy power, gives on extra attack per combat round, and increases intelligence and endurance.  Extra damage when used against evil aligned opponents.  Required level of 1."
    end
    base weapon
       minDamage 500
@@ -571,8 +571,8 @@ object ogFafnirFang of mwFafnirFang
 		maxDamage 1500
 	end
 	base described
-		idText "You see the legendary Fafnir Fang.\n\nLevel Required: 500\n\n"
-		shopText "The legendary Fafnir Fang.\nLevel Required: 500\n"
+		idText "You see the legendary Fafnir Fang.\n\nLevel Required: 1\n\n"
+		shopText "The legendary Fafnir Fang.\nLevel Required: 1\n"
 	end
 end
 #------------------------------------------------------- RESTRICTED - Removed from all drop tables. Not to be re-released -----------------------------
@@ -597,8 +597,8 @@ object ogGram of mwGram
    end
    base described
       text "You see a massive two-handed sword."
-      idText "You see Gram, the fabled sword of Sigurd. This two-handed sword gives the wearer one extra attack per combat round, and increases strength and dexterity.  Required level of 500."
-      shopText "You see Gram, the fabled sword of Sigurd. This two-handed sword gives the wearer one extra attack per combat round, and increases strength and dexterity.  Required level of 500."
+      idText "You see Gram, the fabled sword of Sigurd. This two-handed sword gives the wearer one extra attack per combat round, and increases strength and dexterity.  Required level of 1."
+      shopText "You see Gram, the fabled sword of Sigurd. This two-handed sword gives the wearer one extra attack per combat round, and increases strength and dexterity.  Required level of 1."
    end
    base weapon
       minDamage 800	
@@ -646,7 +646,7 @@ object mwHarbingerDoom of mwHarbringer
 		end
     	base described
                 text "You see a vicious looking battle axe."
-                idText "The Harbinger of Doom. This is a very hefty axe, but the serration of the blade inflicts an extremely high level of damage. Level Required: 500"
+                idText "The Harbinger of Doom. This is a very hefty axe, but the serration of the blade inflicts an extremely high level of damage. Level Required: 1"
                 shopText "A dangerous looking axe. This axe will not make a clean cut."
         end
 end
@@ -682,7 +682,7 @@ object ogWyrdDagger of mwWyrd
 
 	base described
 		text "You see a completely unmarked dagger that is perfectly balanced for throwing."
-		idText "You are sure there should be a rune on this dagger, but you can not find it anywhere.  Its magic courses through you.  This must be The Wyrd Dagger.  A vicious throwing dagger.  A perfect last line of defense for the skilled wizard. Level Required: 350\n\n"
+		idText "You are sure there should be a rune on this dagger, but you can not find it anywhere.  Its magic courses through you.  This must be The Wyrd Dagger.  A vicious throwing dagger.  A perfect last line of defense for the skilled wizard. Level Required: 1\n\n"
 		shopText "The Wyrd Dagger is a rare and valuable throwing dagger.\n"
 	end
 end
@@ -719,8 +719,8 @@ object rRingOfDestruction of Ring
 	end
 	base described
 		text "You see a ring of some sort."
-		idText "You see a Ring of Destruction.  This item gives the wearer elemental and mysticism resistance, and increases strength and endurance.  Required level of 300."
-		shopText "You see a Ring of Destruction.  This item gives the wearer elemental and mysticism resistance, and increases strength and endurance.  Required level of 300."
+		idText "You see a Ring of Destruction.  This item gives the wearer elemental and mysticism resistance, and increases strength and endurance.  Required level of 1."
+		shopText "You see a Ring of Destruction.  This item gives the wearer elemental and mysticism resistance, and increases strength and endurance.  Required level of 1."
 	end
 	actions
 		#  10% elemental / mysticism resistance
@@ -747,8 +747,8 @@ object rRingOfPower of Ring
 	end
 	base described
 		text "You see a ring of some sort."
-		idText "You see a Ring of Power.  This item gives the wearer elemental and mysticism resistance, and increases magical power and intelligence.  Required level of 300."
-		shopText "You see a Ring of Power.  This item gives the wearer elemental and mysticism resistance, and increases magical power and intelligence.  Required level of 300."
+		idText "You see a Ring of Power.  This item gives the wearer elemental and mysticism resistance, and increases magical power and intelligence.  Required level of 1."
+		shopText "You see a Ring of Power.  This item gives the wearer elemental and mysticism resistance, and increases magical power and intelligence.  Required level of 1."
 	end
 	actions
 		#  10% elemental / mysticism resistance
@@ -793,7 +793,7 @@ object mwTheDefender of LongSword	#replaces mwDefender
 
 	base described
 		text "You see a finely crafted long sword made of some strange material."
-		idText "You see the Defender, a powerful magical sword that will increase your ability to avoid attacks.\n  Level Required: 100\n\n"
+		idText "You see the Defender, a powerful magical sword that will increase your ability to avoid attacks.\n  Level Required: 1\n\n"
 		shopText "Long swords are quite a popular item.  They are not quite as devastating as the battle axe or two-handed sword but having a lighter weapon has it's advantages when you're on the battlefield."
 	end
 end
@@ -826,7 +826,7 @@ object mwTheKeeper of LongSword
 
 	base described
 		text "You see a finely crafted long sword made of some strange material."
-		idText "You see the Keeper, a powerful magical sword that will increase your ability to avoid attacks.\n  Level Required: 200\n\n"
+		idText "You see the Keeper, a powerful magical sword that will increase your ability to avoid attacks.\n  Level Required: 1\n\n"
 		shopText "Long swords are quite a popular item.  They are not quite as devastating as the battle axe or two-handed sword but having a lighter weapon has it's advantages when you're on the battlefield."
 	end
 end
@@ -858,7 +858,7 @@ object mwThePreserver of LongSword
 
 	base described
 		text "You see a finely crafted long sword made of some strange material."
-		idText "You see the Preserver, a powerful magical sword that will increase your ability to avoid attacks.\n  Level Required: 400\n\n"
+		idText "You see the Preserver, a powerful magical sword that will increase your ability to avoid attacks.\n  Level Required: 1\n\n"
 		shopText "Long swords are quite a popular item.  They are not quite as devastating as the battle axe or two-handed sword but having a lighter weapon has it's advantages when you're on the battlefield."
 	end
 end
@@ -891,7 +891,7 @@ object mwThePatron of LongSword
 
 	base described
 		text "You see a finely crafted long sword made of some strange material."
-		idText "You see the Patron, a powerful magical sword that will increase your ability to avoid attacks.\n  Level Required: 600\n\n"
+		idText "You see the Patron, a powerful magical sword that will increase your ability to avoid attacks.\n  Level Required: 1\n\n"
 		shopText "Long swords are quite a popular item.  They are not quite as devastating as the battle axe or two-handed sword but having a lighter weapon has it's advantages when you're on the battlefield."
 	end
 end
@@ -931,7 +931,7 @@ object mwGnawBlade of LongSword
 
 	base described
 		text "You see a strange sickly green long sword."
-		idText "This is a Gnaw Blade, an elemental magical weapon.\n  Level Required: 100\n\n"
+		idText "This is a Gnaw Blade, an elemental magical weapon.\n  Level Required: 1\n\n"
 		shopText "This is the acidic weapon 'Gnaw Blade'."
 	end
 end
@@ -969,7 +969,7 @@ object mwArcticBlade of LongSword
 
 	base described
 		text "You see a strange teal long sword."
-		idText "This is an Arctic Blade, an elemental magical weapon.\n  Level Required: 200\n\n"
+		idText "This is an Arctic Blade, an elemental magical weapon.\n  Level Required: 1\n\n"
 		shopText "This is the freezing weapon 'Arctic Blade'."
 	end
 end
@@ -1007,7 +1007,7 @@ object mwLightningBlade of LongSword
 
 	base described
 		text "You see a strange white long sword."
-		idText "This is a Lightening Blade, an elemental magical weapon.\n  Level Required: 400\n\n"
+		idText "This is a Lightening Blade, an elemental magical weapon.\n  Level Required: 1\n\n"
 		shopText "This is the shimmering blade 'Storm Strike'."
 	end
 end
@@ -1048,7 +1048,7 @@ object mwVulcanBlade of LongSword
 
 	base described
 		text "You see a strange red long sword."
-		idText "This is a Vulcan Blade, an elemental magical weapon.\n  Level Required: 600\n\n"
+		idText "This is a Vulcan Blade, an elemental magical weapon.\n  Level Required: 1\n\n"
 		shopText "This is the flaming blade 'Vulcan Edge'."
 	end
 end
@@ -1086,7 +1086,7 @@ object mwSwordOfKenaz of BroadSword
 
 	base described
 		text "You see a glistening sword with a rune carved on its blade."
-		idText "A rune sword of Kenaz, a mighty weapon forged by Finvarra to ensure victory on the field of battle.\n  Level Required: 100\n\n"
+		idText "A rune sword of Kenaz, a mighty weapon forged by Finvarra to ensure victory on the field of battle.\n  Level Required: 1\n\n"
 		shopText "As you can see by the rune etched upon the blade, this is the legendary Sword of Kenaz, a powerful weapon that envokes the essence of Victory."
 
 		#Kenaz: (K: Beacon or torch.) Vision, revelation, knowledge, creativity, inspiration, technical ability. 
@@ -1172,7 +1172,7 @@ object mwSwordOfEihwaz of BroadSword
 
 	base described
 		text "You see a glistening sword with a rune carved on its blade."
-		idText "A rune sword of Eihwaz, a mighty weapon forged by Finvarra to ensure strength on the field of battle.\n  Level Required: 400\n\n"
+		idText "A rune sword of Eihwaz, a mighty weapon forged by Finvarra to ensure strength on the field of battle.\n  Level Required: 1\n\n"
 		shopText "As you can see by the rune etched upon the blade, this is the legendary Sword of Eihwaz, a powerful weapon that envokes the essence of Strength."
 	end
 end
@@ -1209,7 +1209,7 @@ object mwSwordOfHagalaz of BroadSword
 
 	base described
 		text "You see a glistening sword with a rune carved on its blade."
-		idText "A rune sword of Hagalaz, a mighty weapon forged by Finvarra to ensure victory on the field of battle.\n  Level Required: 600\n\n"
+		idText "A rune sword of Hagalaz, a mighty weapon forged by Finvarra to ensure victory on the field of battle.\n  Level Required: 1\n\n"
 		shopText "As you can see by the rune etched upon the blade, this is the legendary Sword of Dagaz, a powerful weapon that envokes the essence of Victory."
 
 		#Hagalaz: (H: Hail.) Wrath of nature, destructive, uncontrolled forces, especially the weather, or within the unconscious. 
@@ -1253,7 +1253,7 @@ object mwBloodSword of BroadSword
 
 	base described
 		text "You see a strange broad sword."
-		idText "This is a Blood Sword, a most destructive magical weapon.\n  Level Required: 100\n\n"
+		idText "This is a Blood Sword, a most destructive magical weapon.\n  Level Required: 1\n\n"
 		shopText "You see a dripping blade known as the 'Blood Sword'."
 	end
 end
@@ -1290,7 +1290,7 @@ object mwHeartSword of BroadSword
 
 	base described
 		text "You see a strange broad sword."
-		idText "This is a Heart Sword, a most destructive magical weapon.\n  Level Required: 200\n\n"
+		idText "This is a Heart Sword, a most destructive magical weapon.\n  Level Required: 1\n\n"
 		shopText "You see a pulsing blade known as the 'Heart Sword'."
 	end
 end
@@ -1327,7 +1327,7 @@ object mwSpiritSword of BroadSword
 
 	base described
 		text "You see a strange broad sword."
-		idText "This is a Spirit Sword, a most destructive magical weapon.\n  Level Required: 400\n\n"
+		idText "This is a Spirit Sword, a most destructive magical weapon.\n  Level Required: 1\n\n"
 		shopText "You see a glimmering blade known as the 'Spirit Sword'."
 	end
 end
@@ -1364,7 +1364,7 @@ object mwSoulSword of BroadSword
 
 	base described
 		text "You see a strange broad sword."
-		idText "This is a Soul Sword, a most destructive magical weapon.\n  Level Required: 600\n\n"
+		idText "This is a Soul Sword, a most destructive magical weapon.\n  Level Required: 1\n\n"
 		shopText "You see a glimmering blade known as the 'Soul Sword'."
 	end
 end
@@ -1381,7 +1381,7 @@ object mwHolyShard of AdmantiumThrowingDagger
 
         base described
                 text "You see an admantium throwing dagger."
-                idText "You see a Holy Shard.\nLevel Required: 300"
+                idText "You see a Holy Shard.\nLevel Required: 1"
                 shopText "This is the Holy Shard."
         end
 
@@ -1421,7 +1421,7 @@ object mwVampiricShiv of AdmantiumThrowingDagger
 
         base described
                 text "You see an admantium throwing dagger."
-                idText "You see a Vampiric Shiv.\nLevel Required: 300"
+                idText "You see a Vampiric Shiv.\nLevel Required: 1"
                 shopText "This is the Vampiric Shiv."
         end
 
@@ -1470,7 +1470,7 @@ object mwCausticGrasp of AdmantiumClaw
 
         base described
                 idText "You see an admantium claw."
-                idText "You see a Caustic Grasp.\nLevel Required: 300"
+                idText "You see a Caustic Grasp.\nLevel Required: 1"
                 shopText "This is the Caustic Grasp."
         end
 end
@@ -1501,7 +1501,7 @@ object mwTheOhm of AdmantiumMaul
 
         base described
                 text "You see an admantium maul."
-                idText "You see an Ohm.\nLevel Required: 300"
+                idText "You see an Ohm.\nLevel Required: 1"
                 shopText "This is The Ohm."
         end
 
@@ -2058,13 +2058,43 @@ object AnewShop of Shop
 		sellMarkup 0
 
 		inventory
-			category "New Weapons" 94012
-				object mwVirtue
-				object mwSplinter
-				object mwDestitution
-				object mwSorrow
-				object mwMighty
-				object mwAlpha
+			category "New Stuffs" 94012
+				category "Ragged Cloth" 94003
+					object RaggedClothHood
+					object RaggedClothCowl
+					object RaggedClothShirt
+					object RaggedClothBands
+					object RaggedClothLeggings
+					object RaggedClothLowBoots
+					object RaggedClothHighBoots
+				end
+				category "Tattered Leather" 94004
+					object TatteredLeatherBandanna
+					object TatteredLeatherCowl
+					object TatteredLeatherArmor
+					object TatteredLeatherBands
+					object TatteredLeatherLeggings
+					object TatteredLeatherLowBoots
+					object TatteredLeatherHighBoots
+				end
+				category "Battered Chainmail" 94005
+					object BatteredIronChainHelmet
+					object BatteredIronChainCowl
+					object BatteredIronChainTunic
+					object BatteredIronChainBands
+					object BatteredIronChainLeggings
+					object BatteredIronChainLowBoots
+					object BatteredIronChainHighBoots
+				end
+				category "Dented Plate" 94006
+					object DentedIronPlateHelmet
+					object DentedIronPlateCowl
+					object DentedIronChestPlate
+					object DentedIronPlateBands
+					object DentedIronPlateLeggings
+					object DentedIronPlateLowBoots
+					object DentedIronPlateHighBoots
+				end
 			end
 			category "God Keys" 94000
 				object EnidKey

@@ -377,10 +377,12 @@ object maCrownOfPower of BishopHat
 	end
 
 	base wearable
-  		# Wizards Only
-  		mask warrior
-  		mask adventurer
-  		mask thief
+  	# Wizards Only
+  	mask warrior
+  	mask adventurer
+  	mask thief
+		reverseProcID 23				# Elphame's Justice
+		reverseProcChance 20		# 20%
 	end
 
 	actions
@@ -848,3 +850,535 @@ object rSentinel of Ring
 	end
 end
 #--------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+object maZachPants of PlatePants
+	properties
+	special
+		name "Greaves"
+		color 0              # NB
+		value 2500
+		health 15000
+		armor 45
+		level 1
+	end
+
+	base carryable
+		weight 0
+	end
+	
+	base wearable
+        reverseProcID 47				# Electric Fury
+		reverseProcChance 20			# 20%
+    end
+
+	actions
+	vBePutOn setAffect dobj 17 0 0 -1   	#SEE_INVISIBLE
+	vBeTakenOff clearAffect dobj  17 0 0		
+	vBePutOn setAffect dobj 23 0 0 -1   	#IMMOLATION_FIRE
+	vBeTakenOff clearAffect dobj  23 0 0	
+	vBePutOn setAffect dobj 24 0 0 -1   	#IMMOLATION_COLD
+	vBeTakenOff clearAffect dobj  24 0 0	
+	vBePutOn setAffect dobj 25 0 0 -1   	#IMMOLATION_ACID
+	vBeTakenOff clearAffect dobj  25 0 0	
+	vBePutOn setAffect dobj 27 0 0 -1   	#IMMOLATION_LIGHTNING
+	vBeTakenOff clearAffect dobj  27 0 0	
+	vBePutOn setAffect dobj 44 0 0 -1   	#REGENERATION
+	vBeTakenOff clearAffect dobj  44 0 0	
+	vBePutOn setAffect dobj 59 0 0 -1   	#POS_DEX_MOD
+	vBeTakenOff clearAffect dobj  59 0 0		
+	vBePutOn setAffect dobj 59 0 0 -1   	#POS_DEX_MOD
+	vBeTakenOff clearAffect dobj  59 0 0	
+	vBePutOn setAffect dobj 39 0 0 -1   	#EMPOWER
+	vBeTakenOff clearAffect dobj  39 0 0	
+	vBePutOn setAffect dobj 39 0 0 -1   	#EMPOWER
+	vBeTakenOff clearAffect dobj  39 0 0	
+	vBePutOn changeSDM dobj 500 0 1 2 3 4            # 500% SDM Boost
+	vBeTakenOff changeSDM dobj -500 0 1 2 3 4
+	end
+
+	base described
+		text "Zach's Personal Greaves"
+		shopText "Not to be sold. ever."
+	end
+end
+#------------------------------------------------------------
+object maZachShirt of PlateTunic
+	properties
+	special
+		name "Chestplate"
+		color 0              # NB
+		value 3500
+		health 15000
+		armor 30
+		level 1
+	end
+
+	base carryable
+		weight 0
+	end
+
+	base wearable
+        reverseProcID 101		# Invulnerability
+		reverseProcChance 40	# 40%
+    end
+	
+	actions
+	vBePutOn setAffect dobj 44 0 0 -1   	#REGENERATION
+	vBeTakenOff clearAffect dobj  44 0 0	
+	vBePutOn setAffect dobj 59 0 0 -1   	#POS_DEX_MOD
+	vBeTakenOff clearAffect dobj  59 0 0		
+	vBePutOn setAffect dobj 59 0 0 -1   	#POS_DEX_MOD
+	vBeTakenOff clearAffect dobj  59 0 0	
+	vBePutOn setAffect dobj 39 0 0 -1   	#EMPOWER
+	vBeTakenOff clearAffect dobj  39 0 0	
+	vBePutOn setAffect dobj 39 0 0 -1   	#EMPOWER
+	vBeTakenOff clearAffect dobj  39 0 0	
+	vBePutOn setAffect dobj 41 0 0 -1   #SHIELD
+	vBeTakenOff clearAffect dobj  41 0 0	
+	vBePutOn setAffect dobj 42 0 0 -1   #GREATER_SHIELD
+	vBeTakenOff clearAffect dobj  42 0 0	
+	vBePutOn setAffect dobj 43 0 0 -1   #INVULNERABLE
+	vBeTakenOff clearAffect dobj  43 0 0	
+	end
+	
+	base described
+		text "Zach's Personal Chestplate"
+		shopText "Not to be sold. ever."
+	end
+end
+#------------------------------------------------------------
+object maZachBands of Mythrilband
+	properties
+	special
+		name "Wristbands"
+		color 0              # NB
+		value 3500
+		health 15000
+		armor 50
+		level 1
+	end
+	
+	base carryable
+		weight 0
+	end
+
+	actions
+	vBePutOn setAffect dobj 44 0 0 -1   	#REGENERATION
+	vBeTakenOff clearAffect dobj  44 0 0	
+	vBePutOn setAffect dobj 59 0 0 -1   	#POS_DEX_MOD
+	vBeTakenOff clearAffect dobj  59 0 0		
+	vBePutOn setAffect dobj 59 0 0 -1   	#POS_DEX_MOD
+	vBeTakenOff clearAffect dobj  59 0 0	
+	vBePutOn setAffect dobj 39 0 0 -1   	#EMPOWER
+	vBeTakenOff clearAffect dobj  39 0 0	
+	vBePutOn setAffect dobj 39 0 0 -1   	#EMPOWER
+	vBeTakenOff clearAffect dobj  39 0 0	
+	end
+	
+	base described
+		text "Zach's Personal Wristbands"
+		shopText "Not to be sold. ever."
+	end	
+end
+#------------------------------------------------------------
+object maZachCowl of ChainCowl
+	properties
+	special
+		name "Cowl"
+		value 1000
+		health 15000
+		armor 30			
+		color 0			# NB
+		level 1
+	end
+
+	base carryable
+		weight .5
+	end
+	
+	actions
+	vBePutOn setAffect dobj 44 0 0 -1   	#REGENERATION
+	vBeTakenOff clearAffect dobj  44 0 0	
+	vBePutOn setAffect dobj 59 0 0 -1   	#POS_DEX_MOD
+	vBeTakenOff clearAffect dobj  59 0 0		
+	vBePutOn setAffect dobj 59 0 0 -1   	#POS_DEX_MOD
+	vBeTakenOff clearAffect dobj  59 0 0	
+	vBePutOn setAffect dobj 39 0 0 -1   	#EMPOWER
+	vBeTakenOff clearAffect dobj  39 0 0	
+	vBePutOn setAffect dobj 39 0 0 -1   	#EMPOWER
+	vBeTakenOff clearAffect dobj  39 0 0	
+	end
+
+	base described
+		text "Zach's Personal Cowl"
+		shopText "Not to be sold. ever."
+	end
+end
+#------------------------------------------------------------
+object maZachBoots of HighBoots
+	properties
+	special
+		name "Boots"
+		value 3500
+		armor 40
+		health 15000
+		color 43			# Glowie
+		level 1
+	end
+
+	base carryable
+		weight .5
+	end
+
+	actions
+	vBePutOn setAffect dobj 44 0 0 -1   	#REGENERATION
+	vBeTakenOff clearAffect dobj  44 0 0	
+	vBePutOn setAffect dobj 59 0 0 -1   	#POS_DEX_MOD
+	vBeTakenOff clearAffect dobj  59 0 0		
+	vBePutOn setAffect dobj 59 0 0 -1   	#POS_DEX_MOD
+	vBeTakenOff clearAffect dobj  59 0 0	
+	vBePutOn setAffect dobj 39 0 0 -1   	#EMPOWER
+	vBeTakenOff clearAffect dobj  39 0 0	
+	vBePutOn setAffect dobj 39 0 0 -1   	#EMPOWER
+	vBeTakenOff clearAffect dobj  39 0 0	
+	vBePutOn setAffect dobj 33 0 0 -1   	#BERSERK
+	vBeTakenOff clearAffect dobj  33 0 0	
+	vBePutOn setAffect dobj 37 0 0 -1   	#QUICKEN
+	vBeTakenOff clearAffect dobj  37 0 0		
+	end
+
+	base described
+		text "Zach's Personal Boots"
+		shopText "Not to be sold. ever."
+	end
+end
+#--------------------------------------------------------------------
+object bZach of Belt
+	properties
+		name "Belt"
+		value 7500
+		health 15000
+		color 103
+		special
+	end
+
+	actions
+	vBePutOn setAffect dobj 72 0 0 -1		# Encumberance Blessing
+	vBeTakenOff clearAffect dobj 72 0 0
+	vBePutOn setAffect dobj 59 0 0 -1   	#POS_DEX_MOD
+	vBeTakenOff clearAffect dobj  59 0 0		
+	vBePutOn setAffect dobj 59 0 0 -1   	#POS_DEX_MOD
+	vBeTakenOff clearAffect dobj  59 0 0	
+	vBePutOn setAffect dobj 39 0 0 -1   	#EMPOWER
+	vBeTakenOff clearAffect dobj  39 0 0	
+	vBePutOn setAffect dobj 39 0 0 -1   	#EMPOWER
+	vBeTakenOff clearAffect dobj  39 0 0	
+	vBePutOn setAffect dobj 67 0 0 -1   	#NOURISHED
+	vBeTakenOff clearAffect dobj  67 0 0	
+	end
+
+	base described
+		text "Zach's Personal Belt"
+		shopText "Not to be sold. ever."
+	end
+end
+#------------------------------------------------
+object rZach of Ring
+	properties
+		special
+		name "Ring"
+		value 2500
+		color 43
+	end
+
+	actions
+	vBePutOn setAffect dobj 63 0 0 -1		#END
+	vBeTakenOff clearAffect dobj 63 0 0
+	vBePutOn setAffect dobj 63 0 0 -1		#END
+	vBeTakenOff clearAffect dobj 63 0 0
+	vBePutOn setAffect dobj 63 0 0 -1		#END
+	vBeTakenOff clearAffect dobj 63 0 0
+	vBePutOn setAffect dobj 59 0 0 -1   	#POS_DEX_MOD
+	vBeTakenOff clearAffect dobj  59 0 0		
+	vBePutOn setAffect dobj 59 0 0 -1   	#POS_DEX_MOD
+	vBeTakenOff clearAffect dobj  59 0 0	
+	vBePutOn setAffect dobj 39 0 0 -1   	#EMPOWER
+	vBeTakenOff clearAffect dobj  39 0 0	
+	vBePutOn setAffect dobj 39 0 0 -1   	#EMPOWER
+	vBeTakenOff clearAffect dobj  39 0 0	
+	vBePutOn setAffect dobj 61 0 0 -1   	#POS_INT_MOD
+	vBeTakenOff clearAffect dobj  61 0 0	
+	vBePutOn setAffect dobj 61 0 0 -1   	#POS_INT_MOD
+	vBeTakenOff clearAffect dobj  61 0 0	
+	vBePutOn setAffect dobj 86 0 0 -1   	#FREE_WILL
+	vBeTakenOff clearAffect dobj  86 0 0	
+	end
+
+	base described
+		text "Zach's Personal Rings"
+		shopText "Not to be sold. ever."
+	end
+end
+
+object aZach of Amulet
+	properties
+		special
+		name "Amulet"
+		value 15000
+		color 43
+	end
+
+	actions
+	vBePutOn setAffect dobj 56 0 0 -1		#EXT ATK
+	vBeTakenOff clearAffect dobj 56 0 0
+	vBePutOn setAffect dobj 56 0 0 -1		#EXT ATK
+	vBeTakenOff clearAffect dobj 56 0 0
+	vBePutOn setAffect dobj 39 0 0 -1		#STR
+	vBeTakenOff clearAffect dobj 39 0 0
+	vBePutOn setAffect dobj 39 0 0 -1		#STR
+	vBeTakenOff clearAffect dobj 39 0 0
+	vBePutOn setAffect dobj 57 0 0 -1   	#EXTRA_DODGE
+	vBeTakenOff clearAffect dobj  57 0 0	
+	vBePutOn setAffect dobj 57 0 0 -1   	#EXTRA_DODGE
+	vBeTakenOff clearAffect dobj  57 0 0
+	vBePutOn setAffect dobj 86 0 0 -1   	#FREE_WILL
+	vBeTakenOff clearAffect dobj  86 0 0	
+	end
+
+	base described
+		text "Zach's Personal Amulet"
+		shopText "Not to be sold. ever."
+	end
+end
+#--------------------------------------------------------------------
+object sashZach of Baldric
+	properties
+		name "Baldric"
+		color 135
+		value 1000
+		special
+	end
+
+	actions
+	vBePutOn setAffect dobj 56 0 0 -1		#EXT ATK
+	vBeTakenOff clearAffect dobj 56 0 0
+	vBePutOn setAffect dobj 56 0 0 -1		#EXT ATK
+	vBeTakenOff clearAffect dobj 56 0 0
+	vBePutOn setAffect dobj 63 0 0 -1		#END
+	vBeTakenOff clearAffect dobj 63 0 0
+	vBePutOn setAffect dobj 63 0 0 -1		#END
+	vBeTakenOff clearAffect dobj 63 0 0
+	vBePutOn setAffect dobj 63 0 0 -1		#END
+	vBeTakenOff clearAffect dobj 63 0 0
+	vBePutOn setAffect dobj 59 0 0 -1   	#POS_DEX_MOD
+	vBeTakenOff clearAffect dobj  59 0 0		
+	vBePutOn setAffect dobj 59 0 0 -1   	#POS_DEX_MOD
+	vBeTakenOff clearAffect dobj  59 0 0	
+	vBePutOn setAffect dobj 39 0 0 -1   	#EMPOWER
+	vBeTakenOff clearAffect dobj  39 0 0	
+	vBePutOn setAffect dobj 39 0 0 -1   	#EMPOWER
+	vBeTakenOff clearAffect dobj  39 0 0	
+	vBePutOn setAffect dobj 61 0 0 -1   	#POS_INT_MOD
+	vBeTakenOff clearAffect dobj  61 0 0	
+	vBePutOn setAffect dobj 61 0 0 -1   	#POS_INT_MOD
+	vBeTakenOff clearAffect dobj  61 0 0	
+	end
+
+	base described
+		text "Zach's Personal Baldric"
+		shopText "Not to be sold. ever."
+	end
+end
+#--------------------------------------------------------------------
+object maZachHat of Ring
+	properties
+		special
+		name "Hidden"
+		level 1
+		armor 90
+		color 0
+	end
+
+	base carryable
+		weight 0
+	end
+
+	base wearable
+		areaWorn 0
+	end
+
+	actions
+	vBePutOn setAffect dobj 63 0 0 -1		#END
+	vBeTakenOff clearAffect dobj 63 0 0
+	vBePutOn setAffect dobj 39 0 0 -1		#STR
+	vBeTakenOff clearAffect dobj 39 0 0
+	vBePutOn setAffect dobj 61 0 0 -1   	#POS_INT_MOD
+	vBeTakenOff clearAffect dobj  61 0 0	
+	vBePutOn setAffect dobj 59 0 0 -1   	#POS_DEX_MOD
+	vBeTakenOff clearAffect dobj  59 0 0	
+	end
+
+
+	base described
+		text "Zach's Personal Helmet"
+		shopText "Not to be sold. ever."
+	end
+end
+#--------------------------------------------------------------------
+
+object mwZachSword of TwoHandSword
+	properties
+	special
+		name "Death"
+        value 3000000
+		health 10000
+		strength 5		
+		affect 3 0 0 -1		    # Lightning Damage
+		level 1
+	end
+
+	base carryable
+		weight 0
+	end
+
+	base weapon
+		minDamage 425
+		maxDamage 500
+		#--------- Crazy Range on Sword --------
+		range 4
+		#------- Sometimes Smite Enemies -------
+		spellProcID 44			# Lightning Bolt
+		forwardProcChance 60	# 60%
+		#---------------------------------------
+	end
+
+	actions
+		vBePutOn changeManaDrain dobj 2000						# 2000 Mana Drain per Tick
+		vBeTakenOff changeManaDrain dobj -2000	
+		vBePutOn changeSDM dobj 1000 1            				# 1000% Elem Boost
+		vBeTakenOff changeSDM dobj -1000 1
+		vBePutOn setAffect dobj 65 0 0 -1  						# Retention (Anti-Fumble)
+		vBeTakenOff clearAffect dobj 65 0 0	
+		vBePutOn setAffect dobj 59 0 0 -1						# Attack
+		vBeTakenOff clearAffect dobj 59 0 0
+		vBePutOn setAffect dobj 59 0 0 -1						# Attack
+		vBeTakenOff clearAffect dobj 59 0 0
+		vBePutOn setAffect dobj 63 0 0 -1      					# Endurance
+		vBeTakenOff clearAffect dobj 63 0 0
+	end
+
+	base described
+		text "Death.\n\nWielding this, you will gain 2 additional attacks in combat, as well as a boost to your Endurance.\n1000% Elemental Bonus\n2000 Mana Tick/round\n"
+		shopText "Not to be sold. ever."
+	end
+end
+
+object maZachRobe of Robe
+	properties
+	special
+        name "Robe"
+        value 15000
+        color 0
+        armorFlat    40
+        armorPercent 60
+        level 1
+	end
+	
+	actions
+	vBePutOn setAffect dobj 56 0 0 -1		#EXT ATK
+	vBeTakenOff clearAffect dobj 56 0 0
+	vBePutOn setAffect dobj 56 0 0 -1		#EXT ATK
+	vBeTakenOff clearAffect dobj 56 0 0
+	vBePutOn setAffect dobj 63 0 0 -1		#END
+	vBeTakenOff clearAffect dobj 63 0 0
+	vBePutOn setAffect dobj 63 0 0 -1		#END
+	vBeTakenOff clearAffect dobj 63 0 0
+	vBePutOn setAffect dobj 63 0 0 -1		#END
+	vBeTakenOff clearAffect dobj 63 0 0
+	vBePutOn setAffect dobj 59 0 0 -1   	#POS_DEX_MOD
+	vBeTakenOff clearAffect dobj  59 0 0		
+	vBePutOn setAffect dobj 59 0 0 -1   	#POS_DEX_MOD
+	vBeTakenOff clearAffect dobj  59 0 0	
+	vBePutOn setAffect dobj 39 0 0 -1   	#EMPOWER
+	vBeTakenOff clearAffect dobj  39 0 0	
+	vBePutOn setAffect dobj 39 0 0 -1   	#EMPOWER
+	vBeTakenOff clearAffect dobj  39 0 0	
+	vBePutOn setAffect dobj 61 0 0 -1   	#POS_INT_MOD
+	vBeTakenOff clearAffect dobj  61 0 0	
+	vBePutOn setAffect dobj 61 0 0 -1   	#POS_INT_MOD
+	vBeTakenOff clearAffect dobj  61 0 0	
+	end
+	
+	base described
+		text "Zach's Personal Robe"
+        shopText "Not to be sold. ever."
+	end
+end

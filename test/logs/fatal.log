@@ -1652,3 +1652,34 @@ $0047: (RoomZero doit:)
 Out of available handles.
 -----------------------------------------------------
 
+login name : joe
+version    : 3.451
+time       : Sun Jan 26 03:10:58 2020
+-----------------------------------------------------
+BETA Version 40
+$332c: (GameServer getShopItemImage:)
+$332c: (GameServer handleMsg:)
+$3904: (NetMsgProcessor processMsg:)
+$3904: (NetMsgProcessor handleMsg:)
+$03f0: (NetUser doit:)
+$039f: (RoomMgr doit:)
+$031b: (Game doit:)
+$0047: (RoomZero doit:)
+Error 99: Error loading resource 10083.v56
+C:\Documents and Settings\don\Desktop\sciw\Interp\Restype.cpp(151)
+script 59954, ip 0x4d
+-----------------------------------------------------
+
+login name : zach
+version    : 3.451
+time       : Sun Jan 26 07:48:58 2020
+-----------------------------------------------------
+BETA Version 40
+$5724: (MovieDie process:)
+$5720: (ActionQueue cue:)
+$5717: (MovieChangeHealth dispose:)
+$0047: (RoomZero doit:)
+Something terrible has happened and has made Fury die twice!
+script 40101, ip 0xd0
+-----------------------------------------------------
+

@@ -537,7 +537,7 @@ end
 object bThief of Belt
 	properties
 	special
-		name "Thieves Tools"
+		name "Thieves Cinch"
 		value 3500
 		health 1500
 		color 16	# Coral Red Glow
@@ -576,7 +576,7 @@ object bThief of Belt
 
 	base described
 		text "A belt with a set of tools attached."
-		idText "A Wizard's Cinch.\nWearing this you will gain Nourishment, Carry Capacity, as well as Quadruple Dexterity, a dodge plus the ability to see invisible beings.\n\nLevel Required: 2000\n\n"
-		shopText "A Wizard's Cinch.\nWearing this you will gain Nourishment, Carry Capacity, as well as Quadruple Dexterity, a dodge plus the ability to see invisible beings.\n\nLevel Required: 2000\n\n"
+		idText "A Thieves Cinch.\nWearing this you will gain Nourishment, Carry Capacity, as well as Quadruple Dexterity, a dodge plus the ability to see invisible beings.\n\nLevel Required: 2000\n\n"
+		shopText "A Thieves Cinch.\nWearing this you will gain Nourishment, Carry Capacity, as well as Quadruple Dexterity, a dodge plus the ability to see invisible beings.\n\nLevel Required: 2000\n\n"
 	end
 end

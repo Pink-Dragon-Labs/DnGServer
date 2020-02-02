@@ -272,6 +272,19 @@ object NewbieLeatherCowl of LeatherCowl
 	end
 end
 
+object NewbieCowl of Cowl
+	properties
+		special
+		name "Newbie Cowl"
+		color 99
+		value 4
+	end
+
+	base described
+		text "You see a simple cowl cloth piece."
+	end
+end
+
 object NewbieChainCowl of IronCowl
 	properties
 		name "Newbie Cowl"

@@ -284,7 +284,7 @@ object Goo of Slime
 
 		strength 45
 		endurance 23
-		intelligence 100
+		intelligence 75
 		dexterity 20
 
 		# do fire damage
@@ -354,7 +354,7 @@ object GooA of SlimeA
 
 		strength 45
 		endurance 23
-		intelligence 100
+		intelligence 75
 		dexterity 20
 
 		# do fire damage
@@ -423,7 +423,7 @@ object GooB of SlimeB
 
 		strength 45
 		endurance 23
-		intelligence 100
+		intelligence 75
 		dexterity 20
 
 		# do fire damage
@@ -494,7 +494,7 @@ object GooC of SlimeC
 
 		strength 45
 		endurance 23
-		intelligence 100
+		intelligence 75
 		dexterity 20
 
 		# do fire damage
@@ -565,7 +565,7 @@ object GooD of SlimeD
 
 		strength 45
 		endurance 23
-		intelligence 100
+		intelligence 75
 		dexterity 20
 
 		# do fire damage
@@ -636,7 +636,7 @@ object GooE of SlimeE
 
 		strength 45
 		endurance 23
-		intelligence 100
+		intelligence 75
 		dexterity 20
 
 		# do fire damage
@@ -703,7 +703,7 @@ object GooF of SlimeF
 
 		strength 45
 		endurance 23
-		intelligence 100
+		intelligence 75
 		dexterity 20
 
 		# do fire damage
@@ -770,7 +770,7 @@ object GooG of SlimeG
 
 		strength 45
 		endurance 23
-		intelligence 100
+		intelligence 75
 		dexterity 20
 
 		# do fire damage
@@ -837,7 +837,7 @@ object GooH of SlimeH
 
 		strength 45
 		endurance 23
-		intelligence 100
+		intelligence 75
 		dexterity 20
 
 		# do fire damage
@@ -908,7 +908,7 @@ object GooI of SlimeI
 
 		strength 45
 		endurance 23
-		intelligence 100
+		intelligence 75
 		dexterity 20
 
 		# do fire damage
@@ -975,7 +975,7 @@ object GooJ of SlimeJ
 
 		strength 45
 		endurance 23
-		intelligence 100
+		intelligence 75
 		dexterity 20
 
 		# do fire damage
@@ -1046,7 +1046,7 @@ object GooK of SlimeK
 
 		strength 45
 		endurance 23
-		intelligence 100
+		intelligence 75
 		dexterity 20
 
 		# do fire damage
@@ -1113,7 +1113,7 @@ object GooL of SlimeL
 
 		strength 45
 		endurance 23
-		intelligence 100
+		intelligence 75
 		dexterity 20
 
 		# do fire damage
@@ -1184,7 +1184,7 @@ object GooM of SlimeM
 
 		strength 45
 		endurance 23
-		intelligence 100
+		intelligence 75
 		dexterity 20
 
 		# do fire damage
@@ -1252,7 +1252,7 @@ object GooN of SlimeN
 
 		strength 45
 		endurance 23
-		intelligence 100
+		intelligence 75
 		dexterity 20
 
 		# do fire damage
@@ -1320,7 +1320,7 @@ object GooO of SlimeO
 
 		strength 45
 		endurance 23
-		intelligence 100
+		intelligence 75
 		dexterity 20
 
 		# do fire damage
@@ -1391,7 +1391,7 @@ object GooP of SlimeP
 
 		strength 45
 		endurance 23
-		intelligence 100
+		intelligence 75
 		dexterity 20
 
 		# do fire damage
@@ -1462,7 +1462,7 @@ object GooQ of SlimeQ
 
 		strength 45
 		endurance 23
-		intelligence 100
+		intelligence 75
 		dexterity 20
 
 		# do fire damage
@@ -1530,7 +1530,7 @@ object GooR of SlimeR
 
 		strength 45
 		endurance 23
-		intelligence 100
+		intelligence 75
 		dexterity 20
 
 		# do fire damage
@@ -1601,7 +1601,7 @@ object GooS of SlimeS
 
 		strength 45
 		endurance 23
-		intelligence 100
+		intelligence 75
 		dexterity 20
 
 		# do fire damage
@@ -1672,7 +1672,7 @@ object GooT of SlimeT
 
 		strength 45
 		endurance 23
-		intelligence 100
+		intelligence 75
 		dexterity 20
 
 		# do fire damage

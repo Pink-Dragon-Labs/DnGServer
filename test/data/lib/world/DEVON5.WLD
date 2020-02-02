@@ -327,7 +327,6 @@ room 3339
       north	3330 
       south	16505
       east	3340 
-#      west	29148
    end
    atpinfo
       35511  85 116
@@ -516,7 +515,6 @@ room 3329
    properties
       picture	3001
       north	3318 
-#      south	29148
       east	3330 
       west	3328 
    end
@@ -802,9 +800,7 @@ room 3328
    properties
       picture	3001
       north	3317 
-#      south	29147
       east	3329 
-#      west	29145
       flags	2
    end
    atpinfo
@@ -1550,7 +1546,6 @@ room 3300
       north	3242 
       south	3304 
       east	3301 
-      west	29109
       flags	2
    end
    atpinfo
@@ -1614,7 +1609,6 @@ room 3304
       north	3300 
       south	3308 
       east	3305 
-      west	29119
    end
    atpinfo
       2743  21 123
@@ -1676,7 +1670,6 @@ room 3308
       north	3304 
       south	3312 
       east	3309 
-      west	29129
       flags	2
    end
    atpinfo
@@ -1741,7 +1734,6 @@ room 3312
       north	3308 
       south	3324 
       east	3313 
-      west	29139
    end
    atpinfo
       2743  -6 123
@@ -1795,7 +1787,6 @@ end
 room 3323
    properties
       picture	3001
-      north	29139
       south	3334 
       east	3324 
       west	3322 
@@ -1867,7 +1858,6 @@ end
 room 3322
    properties
       picture	3001
-      north	29138
       south	3333 
       east	3323 
       west	3321 
@@ -1931,7 +1921,6 @@ end
 room 3321
    properties
       picture	3001
-      north	29137
       south	3332 
       east	3322 
       west	3320 
@@ -1974,7 +1963,6 @@ end
 room 3320
    properties
       picture	3001
-      north	29136
       south	3331 
       east	3321 
       west	3319 
@@ -2021,7 +2009,6 @@ end
 room 3319
    properties
       picture	3001
-      north	29135
       south	3330 
       east	3320 
       west	3318 
@@ -2071,7 +2058,6 @@ end
 room 3318
    properties
       picture	3001
-      north	29134
       south	3329 
       east	3319 
       west	3317 
@@ -2114,7 +2100,6 @@ end
 room 3317
    properties
       picture	3001
-      north	29133
       south	3328 
       east	3318 
       west	3316 
@@ -2175,10 +2160,7 @@ end
 room 3316
    properties
       picture	3001
-      north	29132
-#      south	29145
       east	3317 
-#      west	29140
       flags	2
    end
    atpinfo

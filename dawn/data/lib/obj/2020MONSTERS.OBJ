@@ -1,0 +1,561 @@
+## Starting Zone Monsters (East Havenwood)
+
+object NakedNomad of NPC
+	properties
+        special
+		name "Nomad"
+		view 100
+		alignment 127
+
+		minLevel 1
+		maxLevel 8
+
+		dexterity 7
+		endurance 10
+		intelligence 2
+
+		minDamage 7
+		maxDamage 14
+
+		soundGroup 16
+
+		damageType 1
+		armorType 2
+		treasure 4
+	end
+
+	base character
+		## newbie weapons
+		skill 0 1
+		skill 1 1
+		skill 2 1
+		skill 3 1
+		skill 4 1
+		skill 5 1
+		skill 6 1
+		skill 7 1
+		skill 8 1
+		skill 10 1
+
+		# newbie dodger
+		skill 9 1
+	end
+
+	base described
+		text "A nomad.\nWandering the Realm in looks of what he lost.\n -- 7 - 14 melee damage.\n\n"
+	end
+end
+
+
+object NomadA of NakedNomad
+	properties
+        special
+		view 100
+
+		girth 80
+		height 75
+	end
+
+	base container
+		head 0 1 0 2 7 2 -1 8 4 2 0 2 3
+        worn DriftwoodClub
+		worn RandomCowl
+		worn RandomBand
+        worn RandomZombieRobe
+		worn RandomPlateBoots
+	end
+end
+
+object NomadB of NakedNomad
+	properties
+        special
+		view 100
+
+		girth 100
+		height 85
+	end
+
+	base container
+		head 0 1 6 0 8 11 5 0 3 1 2 1 2
+        worn DriftwoodClub
+		worn RandomCowl
+		worn RandomBand
+        worn RandomZombieRobe
+		worn RandomPlateBoots
+	end
+end
+
+object NomadC of NakedNomad
+	properties
+        special
+		view 100
+
+		girth 90
+		height 100
+	end
+
+	base container
+		head 0 2 1 5 8 5 -1 6 8 4 4 0 3
+        worn DriftwoodClub
+		worn RandomCowl
+		worn RandomBand
+        worn RandomZombieRobe
+		worn RandomPlateBoots
+	end
+end
+#
+#
+#
+#
+object Bee of WaspDrone
+	properties
+        special
+		name "Bee"
+		view 40400
+		alignment 128
+
+		minLevel 4
+		maxLevel 8
+
+		minDamage 9
+		maxDamage 17
+
+		dexterity 5
+		endurance 10
+		intelligence 3
+
+		#weak to fire damage
+		affect 1 3 0 -1
+        #clear poison damage
+        caffect 5 0 0 -1
+
+		soundGroup 14
+		quickness 14
+		treasure 0
+
+		damageType 0
+		armorType 1
+	end
+
+	base described
+		text "A Bee -- 9 - 17 melee damage.\n\n"
+	end
+end
+
+object Puppy of BaseDingo
+	properties
+        special
+		name "Dingo Puppy"
+        view 40300
+
+		color	104
+		alignment 128
+
+		minLevel 1
+		maxLevel 9
+
+		minDamage 5
+		maxDamage 19
+
+		dexterity 7
+		endurance 9
+		intelligence 4
+
+		# do normal damage by default
+		affect 0 0 0 -1
+
+		soundGroup 15
+		armorType 1
+		damageType 0
+		quickness 15
+
+        height	75
+		girth	75
+	end
+
+	base character
+		# unarmed combat newbie
+		skill 7 1
+
+		# acrobatics newbie
+		skill 9 1
+	end
+
+	base described
+		text "You see a cute cuddly little dingo puppy."
+	end
+end
+
+
+object OldBones of Skeleton
+	properties
+        special
+		name "Old Bones"
+		view 41300
+		clutStart -1
+		color 37
+		alignment 127
+
+		minLevel 3
+		maxLevel 8
+
+		minDamage 8
+		maxDamage 20
+
+		armor 10
+
+		intelligence 6
+        dexterity 8
+		endurance 9
+
+		# resistant to cold and fire damage
+		affect 1 2 0 -1
+		affect 2 2 0 -1
+
+		# weak to bludgeon damage
+		affect 13 3 0 -1
+
+		# do bludgeon damage only
+		affect 13 0 0 -1
+
+		soundGroup 12
+		damageType 2
+		armorType 3
+		quickness 8
+		treasure 2
+	end
+
+	base character
+		# unarmed combat newbie
+		skill 7 1
+        # newbie dodger
+		skill 9 1
+	end
+
+	base described
+		text "Old Bones -- 8 - 20 melee damage.\n\n"
+	end
+end
+
+
+
+
+### North Havenwood
+
+
+
+
+object Slush of SlimeJ
+	properties
+        special
+		name "Slush"
+		alignment 127
+
+		minLevel 20
+		maxLevel 30
+
+		minDamage 22
+		maxDamage 35
+
+		armor 8
+
+		intelligence 6
+        dexterity 12
+		endurance 11
+
+		# resistant to cold and fire damage
+		affect 1 2 0 -1
+		affect 2 2 0 -1
+
+		soundGroup 12
+		damageType 2
+		armorType 0
+		quickness 10
+	end
+
+	base character
+		# unarmed combat newbie
+		skill 7 2
+        # newbie dodger
+		skill 9 2
+	end
+
+	base described
+		text "Slush -- 22 - 35 melee damage.\n\n"
+	end
+end
+
+
+object Scamp of FlyingImpC
+	properties
+		special
+		name "Imp Slave"
+		view 40500
+		alignment 127
+
+		minLevel 20
+		maxLevel 25
+
+		minDamage 32
+		maxDamage 40
+
+		# normal damage
+		affect 0 0 0 -1
+
+		intelligence 6
+        dexterity 8
+		endurance 11
+
+		soundGroup 7
+		armorType 1
+		damageType 1
+	end
+
+	base character
+		## unarmed combat expert
+		skill 7 3
+
+		## acrobatics proficient
+		skill 9 2
+
+		## critical strike proficient
+		skill 29 2
+	end
+
+	base container
+		object RandomMonsterRing
+	end
+
+	base described
+		text "Scamp -- 32 - 40 melee damage.\n\n"
+	end
+
+	base npc
+		code imp
+	end
+end
+
+
+
+object Hatchling of Cobra
+	properties
+		special
+		name "Hatchling"
+		alignment 128
+
+		minLevel 15
+		maxLevel 25
+
+		minDamage 26
+		maxDamage 38
+
+		dexterity 12
+		endurance 10
+		quickness 16
+
+		#clear poison dmg from 'Cobra'
+		caffect 5 0 0 -1
+		#damage normal
+		affect 0 0 0 -1
+		
+		#immune to poison damage
+		affect 5 2 0 -1
+
+		soundGroup 3
+		treasure 4
+		damageType 0
+		armorType 2
+
+		height 80
+		girth 80
+	end
+
+	base character
+		## unarmed combat expert
+		skill 7 3
+
+		## acrobatics expert
+		skill 9 2
+
+		## critical striking novice
+		skill 29 2
+	end
+	
+	base described
+		text "Hatchling -- 30 - 90 melee damage.\n\n"
+	end
+end
+
+
+
+## West Havenwood
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+object Hellrat of DemonRat
+	properties
+		special
+		name "Hellrat"
+
+		## evil
+		alignment 0
+
+		minLevel 18
+		maxLevel 22
+
+		minDamage 34
+		maxDamage 75
+
+		intelligence 10
+		dexterity 25
+		quickness 20
+		endurance 15
+
+		# do fire damage
+		affect 1 0 0 -1
+		# do normal damage
+		affect 1 0 0 -1
+	end
+
+	base container
+		object RandomCommonHelmet
+		object RandomWand
+		object RandomStuff
+	end
+
+	base character
+		## unarmed combat expert
+		skill 7 3
+		# expert dodger
+		skill 9 3
+	end
+
+	base described
+	  text "The Hellrat.\n\nIt chewed a hole through the gates of Hell just to return to it's favorite cave to wait for weary travelers to wander into his domain.\n\n34 - 75 melee damage.\n\n"
+	end
+end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+object RandomBeginnerMob of NPC
+	properties
+		special
+		random 100
+	end
+
+	base treasure
+		NomadA
+		NomadB
+		NomadC
+		Bee
+		Puppy
+		OldBones
+	end
+end

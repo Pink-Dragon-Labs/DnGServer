@@ -9,7 +9,7 @@ object GodsNPC of NPC
 		minLevel 1400
 		maxLevel 1800
 
-		intelligence 100
+		intelligence 75
 		strength 300
 		endurance 150		# 140k - 180k
 		dexterity 40

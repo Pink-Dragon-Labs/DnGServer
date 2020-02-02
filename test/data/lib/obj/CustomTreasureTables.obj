@@ -24,50 +24,7 @@ object GodScrollTable of MoneyBag
 	end
 end
 
-object RaidBossTable of MoneyBag
-	properties
-	special
-		random 100
-	end
 
-	base treasure
-		MoneyBag 10000000 30000000
-		MoneyBag 10000000 30000000
-		MoneyBag 10000000 30000000
-		MoneyBag 10000000 30000000
-		MoneyBag 10000000 30000000
-		MoneyBag 10000000 30000000
-		maThorsPlate
-		spbDuachsVengeance
-		spbCrawlingCharge
-		spbDespothesWrath
-		spbElphamesJustice
-		spbAcidCloud
-		spbEnidsBlessing
-		spbAntiMagicAura
-		spbMabonsForcedFlee
-		mwCrusher
-		mwLightDart
-		mwLightning
-		mwDeathWish
-		mwLightning
-		mwRepel 
-		mwDespothes
-		mwCretin
-		mwBardiche
-		mwHate
-		mwWand
-		mwPowerFist
-		ThistlebarkA
-		sEQForwardWeaponProc
-		sSparkForwardWeaponProc
-		sLDForwardWeaponProc
-		sCleaveForwardWeaponProc
-		sFOForwardWeaponProc
-		sIOForwardWeaponProc
-		ProtectorBaldrics
-	end
-end
 
 
 
@@ -375,6 +332,10 @@ object RandomNewWep of MoneyBag
                 mwClawOfDestruction
                 mwBrokenExcalibur
                 mwRighteous
+				mwVirtue
+				mwSplinter
+				mwDestitution
+				mwSorrow
                 mwJustice
 				mwVengeance
 				mwRupture

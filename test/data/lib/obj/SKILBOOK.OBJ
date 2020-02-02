@@ -81,8 +81,7 @@ object skbShortSwordII of skbShortSword
 		name "Short Sword Proficiency"
 		level 2
 		value 200
-		strength 1
-		dexterity 2
+		intelligence 1
 	end
 
 	base teach
@@ -100,8 +99,7 @@ object skbShortSwordIII of skbShortSword
 		name "Short Sword Expertise"
 		level 3
 		value 400
-		strength 2
-		dexterity 3
+		intelligence 2
 	end
 
 	base teach
@@ -119,8 +117,7 @@ object skbShortSwordIV of skbShortSword
 		name "The Master's Book of Short Swords"
 		level 4
 		value 750
-		strength 4
-		dexterity 5
+		intelligence 4
 	end
 
 	base teach
@@ -138,8 +135,7 @@ object skbShortSwordV of skbShortSword
 		name "Short Sword Grand-Mastery"
 		level 5
 		value 1000
-		strength 5
-		dexterity 6
+		intelligence 5
 	end
 
 	base teach
@@ -164,6 +160,7 @@ object skbLongSwordI of skbLongSword
 		name "Familiarity with Long Swords"
 		level 1
 		strength 2
+		dexterity 1
 	end
 
 	base teach
@@ -182,7 +179,7 @@ object skbLongSwordII of skbLongSword
 		level 2
 		value 200
 		strength 4
-		dexterity 2
+		dexterity 3
 	end
 
 	base teach
@@ -201,7 +198,7 @@ object skbLongSwordIII of skbLongSword
 		level 3
 		value 400
 		strength 5
-		dexterity 3
+		dexterity 4
 	end
 
 	base teach
@@ -220,7 +217,7 @@ object skbLongSwordIV of skbLongSword
 		level 4
 		value 750
 		strength 6
-		dexterity 4
+		dexterity 5
 	end
 
 	base teach
@@ -264,6 +261,7 @@ object skbTwoHandedSwordI of skbTwoHandedSword
 		name "Familiarity with Two-Handed Swords"
 		level 1
 		strength 3
+		dexterity 1
 	end
 
 	base teach
@@ -282,6 +280,7 @@ object skbTwoHandedSwordII of skbTwoHandedSword
 		level 2
 		value 200
 		strength 5
+		dexterity 2
 	end
 
 	base teach
@@ -300,6 +299,7 @@ object skbTwoHandedSwordIII of skbTwoHandedSword
 		level 3
 		value 400
 		strength 8
+		dexterity 3
 	end
 
 	base teach
@@ -318,6 +318,7 @@ object skbTwoHandedSwordIV of skbTwoHandedSword
 		level 4
 		value 750
 		strength 12
+		dexterity 5
 	end
 
 	base teach
@@ -336,6 +337,7 @@ object skbTwoHandedSwordV of skbTwoHandedSword
 		level 5
 		value 1000
 		strength 15
+		dexterity 8
 	end
 
 	base teach
@@ -647,7 +649,6 @@ object skbMaceI of skbMace
 		name "Familiarity with Maces"
 		level 1
 		strength 2
-		dexterity 2
 	end
 
 	base teach
@@ -666,7 +667,6 @@ object skbMaceII of skbMace
 		level 2
 		value 200
 		strength 4
-		dexterity 3
 	end
 
 	base teach
@@ -685,7 +685,6 @@ object skbMaceIII of skbMace
 		level 3
 		value 400
 		strength 5
-		dexterity 4
 	end
 
 	base teach
@@ -704,7 +703,6 @@ object skbMaceIV of skbMace
 		level 4
 		value 750
 		strength 7
-		dexterity 5
 	end
 
 	base teach
@@ -723,7 +721,6 @@ object skbMaceV of skbMace
 		level 5
 		value 1000
 		strength 8
-		dexterity 6
 	end
 
 	base teach
@@ -747,8 +744,7 @@ object skbUnarmedCombatI of skbUnarmedCombat
 	properties
 		name "Familiarity with Unarmed Combat"
 		level 1
-		strength 2
-		dexterity 2
+		endurance 2
 	end
 
 	base teach
@@ -766,8 +762,7 @@ object skbUnarmedCombatII of skbUnarmedCombat
 		name "Unarmed Combat Proficiency"
 		level 2
 		value 200
-		strength 3
-		dexterity 3
+		endurance 4
 	end
 
 	base teach
@@ -785,8 +780,7 @@ object skbUnarmedCombatIII of skbUnarmedCombat
 		name "Expertise with Unarmed Combat"
 		level 3
 		value 400
-		strength 4
-		dexterity 4
+		endurance 6
 	end
 
 	base teach
@@ -804,8 +798,7 @@ object skbUnarmedCombatIV of skbUnarmedCombat
 		name "Unarmed Combat Mastery"
 		level 4
 		value 750
-		strength 5
-		dexterity 5
+		endurance 8
 	end
 
 	base teach
@@ -823,8 +816,7 @@ object skbUnarmedCombatV of skbUnarmedCombat
 		name "Unarmed Combat Grand-Mastery"
 		level 5
 		value 1000
-		strength 6
-		dexterity 8
+		endurance 12
 	end
 
 	base teach
@@ -1045,7 +1037,8 @@ object skbMaulI of skbMaul
 	properties
 		name "Familiarity with Mauls"
 		level 1
-		strength 4
+		strength 2
+		dexterity 1
 	end
 
 	base teach
@@ -1063,7 +1056,8 @@ object skbMaulII of skbMaul
 		name "Maul Proficiency"
 		level 2
 		value 200
-		strength 7
+		strength 5
+		dexterity 3
 	end
 
 	base teach
@@ -1081,7 +1075,8 @@ object skbMaulIII of skbMaul
 		name "Expertise with Mauls"
 		level 3
 		value 400
-		strength 10
+		strength 8
+		dexterity 5
 	end
 
 	base teach
@@ -1099,7 +1094,8 @@ object skbMaulIV of skbMaul
 		name "Maul Mastery"
 		level 4
 		value 750
-		strength 13
+		strength 10
+		dexterity 6
 	end
 
 	base teach
@@ -1117,7 +1113,8 @@ object skbMaulV of skbMaul
 		name "Maul Grand-Mastery"
 		level 5
 		value 1000
-		strength 18
+		strength 12
+		dexterity 7
 	end
 
 	base teach
@@ -2789,5 +2786,109 @@ object skbShieldUseV of skbShieldUse
 	base described
 		text "This manual will teach you grand-master blocking techniques."
 		shopText "This manual will teach you grand-master blocking techniques."
+	end
+end
+
+object skbBroadSword of Skillbook
+	properties
+		special
+	end
+	base teach
+		skill 24
+		objectRequired BroadSword
+	end
+end
+
+object skbBroadSwordI of skbBroadSword
+	properties
+		name "Familiarity with Broadswords"
+		level 1
+		strength 2
+		special
+	end
+
+	base teach
+		bp 1
+	end
+
+	base described
+		text "This book will teach you the basics of using a broadsword."
+		shopText "This book will teach you the basics of using a broadsword."
+	end
+end
+
+object skbBroadSwordII of skbBroadSword
+	properties
+		name "Broadsword Proficiency"
+		level 2
+		value 200
+		strength 4
+		special
+	end
+
+	base teach
+		bp 3
+	end
+
+	base described
+		text "Reading this book will make you proficient with broadswords."
+		shopText "Reading this book will make you proficient with broadswords."
+	end
+end
+
+object skbBroadSwordIII of skbBroadSword
+	properties
+		name "Expertise with Broadswords"
+		level 3
+		value 400
+		strength 8
+		special
+	end
+
+	base teach
+		bp 5
+	end
+
+	base described
+		text "This book can make you an expert with broadswords."
+		shopText "This book can make you an expert with broadswords."
+	end
+end
+
+object skbBroadSwordIV of skbBroadSword
+	properties
+		name "Broadsword Mastery"
+		level 4
+		value 750
+		strength 10
+		special
+	end
+
+	base teach
+		bp 7
+	end
+
+	base described
+		text "Reading this book will make you a master with broadsword combat techniques."
+		shopText "Reading this book will make you a master with broadsword combat techniques."
+	end
+end
+
+object skbBroadSwordV of skbBroadSword
+	properties
+		name "Broadsword Grand-Mastery"
+		level 5
+		value 1000
+		strength 14
+		special
+	end
+
+	base teach
+		bp 9
+	end
+
+	base described
+		text "Understanding this treatment will make you a grand-master of broadsword combat."
+		shopText "Understanding this treatment will make you a grand-master of broadsword combat."
 	end
 end

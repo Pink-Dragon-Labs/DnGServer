@@ -579,3 +579,22 @@ object SancDoorKey of Key
 		text "A key to access the Sanctuary Store Room\n"
 	end
 end
+
+object SpitTavernKey of Key
+	properties
+		special 
+		toss
+		drop 
+		name "Regurgitated Key"
+		worthless
+	end
+
+	base key
+		lockValue 5014
+		unlockValue 5014
+	end
+
+	base described
+		text "Gross.. this came out of the Hellrat?\n\n"
+	end
+end

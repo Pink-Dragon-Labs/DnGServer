@@ -8,7 +8,7 @@ worldFile "../data/lib/world/BAD03.WLD
 #worldFile "../data/lib/world/TOURN3.WLD"
 resetInterval 9000000 
 maximumObjectAge 0 
-allowCombat 3
+allowCombat 7
 midiFile 14
 
 groupChance 200

@@ -1,7 +1,0 @@
-name "Festival_Fall"
-title "Harvest Festival"
-worldFile "../data/lib/world/fall01.wld"
-resetInterval 9000000 
-maximumObjectAge 0 
-allowCombat 0
-midiFile 9
