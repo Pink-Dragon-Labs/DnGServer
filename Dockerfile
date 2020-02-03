@@ -62,8 +62,6 @@ RUN sed -i_bak -e "/$UPDATE_PORT/d" /etc/services; \
     echo "realmrouter   $ROUTER_PORT/tcp" >> /etc/services; \
     echo "realmdatamgr  $DATAMGR_PORT/tcp" >> /etc/services
 
-#RUN LOCAL_IP=$(cat /root/local_ip); echo "$LOCAL_IP 	realmserver" >> /etc/hosts
-
 WORKDIR $SETUP_DIR
 RUN sed -i "s/.*export MYSQL_USER.*/export MYSQL_USER=${DBUSER}/g" $SETUP_DIR/scripts/password.sh; \
     sed -i "s/.*export MYSQL_PWD=.*/export MYSQL_PWD=${DBPASS}/g" $SETUP_DIR/scripts/password.sh
@@ -96,4 +94,3 @@ ENV REALMFOLDER=$REALMFOLDER
 ENV DBNAME=$DBNAME
 ENV DBUSER=$DBUSER
 ENV DBPASS=$DBPASS
-ENTRYPOINT ["bash", "startContainer.sh"]

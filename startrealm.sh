@@ -1,5 +1,7 @@
 #!/bin/bash
 
+IP=$(getent hosts 'realmserver' | awk '{print $1}')
+
 tmux new -d -s Realm
 tmux send-keys "cd $REALMFOLDER/dawn/bin; ./startmain" C-m
 tmux rename-window 'dawn'
