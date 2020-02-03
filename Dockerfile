@@ -16,7 +16,8 @@ RUN apt install -y \
     vim tmux htop
 
 RUN sed -i "28s/.*/PermitRootLogin yes/" /etc/ssh/sshd_config
-RUN sed -i "s/.*bind-address.*=.*/bind-address=0.0.0.0/g" /etc/mysql/my.cnf
+RUN sed -i "s/.*bind-address.*=.*/bind-address=0.0.0.0/g" /etc/mysql/my.cnf; \
+    sed -i "s/.*#bind-address.*127.0.0.1.*/bind-address=127.0.0.1/g" /etc/mysql/mariadb.cnf
 
 RUN service ssh restart
 
@@ -47,9 +48,7 @@ RUN ip a show eth0 | grep -Po 'inet \K[\d.]+' > /root/local_ip; \
     echo 'root:$ROOTPASS' | chpasswd
 
 RUN /etc/init.d/mysql restart; mysql -e "CREATE DATABASE $DBNAME;CREATE USER '$DBUSER'@'localhost' IDENTIFIED BY '$DBPASS';GRANT ALL PRIVILEGES ON *.* to $DBUSER@'localhost' identified by '$DBROOTPW';GRANT ALL PRIVILEGES ON *.* TO '$DBUSER'@'localhost' WITH GRANT OPTION;FLUSH PRIVILEGES"; \
-    mysql $DBNAME < $DB_FILE; \
-    LOCAL_IP=$(cat /root/local_ip); mysql $DBNAME -e "UPDATE serverList SET ip = '$LOCAL_IP' WHERE id='0'"; \
-    mysql $DBNAME -e "UPDATE serverList SET ip = '$LOCAL_IP' WHERE id='1'"
+    mysql $DBNAME < $DB_FILE;
 
 RUN sed -i_bak -e "/$UPDATE_PORT/d" /etc/services; \
     sed -i_bak -e "/$GAME_PORT/d" /etc/services; \
@@ -85,7 +84,7 @@ RUN sed -i "s/.*sqlDB.*/sqlDB ${DBNAME}/g" router/router.conf; \
 
 RUN chmod +x $REALMFOLDER/*/st*; \
     chmod +x $REALMFOLDER/dawn/bin/st*; \
-    chmod +x $REALMFOLDER/dawn/bin/roommgr; \
+    chmod +x $REALMFOLDER/dawn/bin/main; \
     chmod +x $REALMFOLDER/live/bin/roommgr; \
     chmod +x $REALMFOLDER/live/bin/st*; \
     chmod +x setUpdateIp.sh startrealm.sh
@@ -94,4 +93,7 @@ EXPOSE 22
 EXPOSE $UPDATE_PORT $GAME_PORT $TEST_PORT $ROUTER_PORT $DATAMG_PORT
 
 ENV REALMFOLDER=$REALMFOLDER
+ENV DBNAME=$DBNAME
+ENV DBUSER=$DBUSER
+ENV DBPASS=$DBPASS
 ENTRYPOINT ["bash", "startContainer.sh"]
