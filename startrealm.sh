@@ -11,6 +11,8 @@ tmux new-window "/etc/init.d/mysql restart; \
         mysql $DBNAME -e \"UPDATE serverList SET ip = '$IP' WHERE id='0'\"; \
         mysql $DBNAME -e \"UPDATE serverList SET ip = '$IP' WHERE id='1'\"; \
         echo \"ServerList IP's Updated in serverList table\"; \
+        cd setup/scripts; \
+        ./user test test Y PR ; \
         cd $REALMFOLDER/datamgr; ./startdatamgr"
 tmux rename-window 'datamgr'
 
