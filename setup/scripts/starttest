@@ -1,4 +1,4 @@
-cd /opt/streborn/test/bin
+cd /opt/dwarvesandgiants/test/bin
 nohup ./startroommgr &
 sleep 2
 

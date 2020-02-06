@@ -1,15 +1,15 @@
-cd /opt/streborn/router
+cd /opt/dwarvesandgiants/router
 nohup ./startrouter &
 sleep 2
-cd /opt/streborn/datamgr
+cd /opt/dwarvesandgiants/datamgr
 nohup ./startdatamgr &
 sleep 2
-cd /opt/streborn/update
+cd /opt/dwarvesandgiants/update
 nohup ./startupdate &
 sleep 2
-cd /opt/streborn/live/bin
+cd /opt/dwarvesandgiants/live/bin
 nohup ./startroommgr &
 sleep 2
-cd /opt/streborn/dawn/bin
+cd /opt/dwarvesandgiants/dawn/bin
 nohup ./startroommgr &
 sleep 2

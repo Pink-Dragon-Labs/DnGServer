@@ -2,7 +2,7 @@
 
 date=$(date +"%d-%b-%Y:%H:%M")
 
-logDir="/opt/streborn/live/logs"
+logDir="/opt/dwarvesandgiants/live/logs"
 logArchive="/root/Backups/logs"
 
 if [ ! -d $logArchive ]; then

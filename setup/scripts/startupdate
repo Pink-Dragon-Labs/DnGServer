@@ -1,2 +1,2 @@
-cd /opt/streborn/update
+cd /opt/dwarvesandgiants/update
 nohup ./startupdate &

@@ -1,2 +1,2 @@
-cd /opt/streborn/datamgr
+cd /opt/dwarvesandgiants/datamgr
 nohup ./startdatamgr &

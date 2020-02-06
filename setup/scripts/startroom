@@ -1,2 +1,2 @@
-cd /opt/streborn/live/bin
+cd /opt/dwarvesandgiants/live/bin
 nohup ./startroommgr &

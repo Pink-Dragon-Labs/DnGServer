@@ -1,2 +1,2 @@
-cd /opt/streborn/router
+cd /opt/dwarvesandgiants/router
 nohup ./startrouter &

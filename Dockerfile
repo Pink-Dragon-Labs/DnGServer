@@ -22,14 +22,14 @@ RUN sed -i "s/.*bind-address.*=.*/bind-address=0.0.0.0/g" /etc/mysql/my.cnf; \
 RUN service ssh restart
 
 ARG USELESS_ARG_FLAG=COPY
-COPY ./ /opt/streborn
+COPY ./ /opt/dwarvesandgiants
 
 ARG ROOTPASS=1234
 ARG DBNAME=realmdb
 ARG DBUSER=game
 ARG DBPASS=$ROOTPASS
 
-ARG REALMFOLDER=/opt/streborn
+ARG REALMFOLDER=/opt/dwarvesandgiants
 ARG DATAFOLDER=$REALMFOLDER/dawn/data/lib
 ARG SETUP_DIR=$REALMFOLDER/setup
 ARG DB_FILE=$SETUP_DIR/database/realmdb.sql
