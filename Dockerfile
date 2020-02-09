@@ -47,7 +47,7 @@ COPY setup/cron /etc
 RUN ip a show eth0 | grep -Po 'inet \K[\d.]+' > /root/local_ip; \
     echo 'root:$ROOTPASS' | chpasswd
 
-RUN /etc/init.d/mysql restart; mysql -e "CREATE DATABASE $DBNAME;CREATE USER '$DBUSER'@'localhost' IDENTIFIED BY '$DBPASS';GRANT ALL PRIVILEGES ON *.* to $DBUSER@'localhost' identified by '$DBROOTPW';GRANT ALL PRIVILEGES ON *.* TO '$DBUSER'@'localhost' WITH GRANT OPTION;FLUSH PRIVILEGES"; \
+RUN /etc/init.d/mysql start; mysql -e "CREATE DATABASE $DBNAME;CREATE USER '$DBUSER'@'localhost' IDENTIFIED BY '$DBPASS';GRANT ALL PRIVILEGES ON *.* to $DBUSER@'localhost' identified by '$DBROOTPW';GRANT ALL PRIVILEGES ON *.* TO '$DBUSER'@'localhost' WITH GRANT OPTION;FLUSH PRIVILEGES"; \
     mysql $DBNAME < $DB_FILE;
 
 RUN sed -i_bak -e "/$UPDATE_PORT/d" /etc/services; \
