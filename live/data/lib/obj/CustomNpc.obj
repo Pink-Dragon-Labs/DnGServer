@@ -633,7 +633,7 @@ object WorldBoss of NPC
 		minLevel 2000
 		maxLevel 2000
 
-		intelligence 110
+		intelligence 80
 		strength 300
 		endurance 150		# 314k
 		dexterity 100
@@ -727,7 +727,7 @@ object WorldBoss2 of NPC
 		minLevel 2100
 		maxLevel 2400
 
-		intelligence 110
+		intelligence 80
 		strength 350
 		endurance 175		
 		dexterity 40

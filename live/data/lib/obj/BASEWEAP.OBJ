@@ -145,7 +145,7 @@ object ShortSword of Weapon
 		minDamage 6
 		maxDamage 12
 		hands 1
-		range 1
+		range 2
 		damageType 1
 	end
 
@@ -201,11 +201,11 @@ object BroadSword of LongSword
 	end
 
 	base weapon
-		skillType 31
+		skillType 24
 		minDamage 11
 		maxDamage 22
 		hands 1
-		range 2
+		range 3
 		damageType 1
 	end
 
@@ -235,7 +235,7 @@ object Club of Weapon
 		minDamage 12
 		maxDamage 25
 		hands 2
-		range 2
+		range 3
 		damageType 2
 	end
 
@@ -265,7 +265,7 @@ object Mace of Weapon
 		minDamage 10
 		maxDamage 20
 		hands 2
-		range 2
+		range 3
 		damageType 2
 	end
 
@@ -295,7 +295,7 @@ object TwoHandSword of Weapon
 		minDamage 20
 		maxDamage 40
 		hands 2
-		range 3
+		range 4
 		damageType 2
 	end
 
@@ -357,7 +357,7 @@ object WarHammer of Weapon
 		maxDamage 50
 		hands 2
 		damageType 2
-		range 3
+		range 4
 	end
 
 	base described

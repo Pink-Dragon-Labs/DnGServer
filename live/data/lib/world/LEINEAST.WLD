@@ -308,6 +308,7 @@ room 5029
       2599  428 233
       2746  308 101
       2746  512 101
+      2104  163 146
    end
    objects
       object chair5029-0 of Chair
@@ -396,6 +397,32 @@ room 5029
          end
          base openable
             isOpen	0
+         end
+      end
+      object Andala5028-11 of FoodShop
+         properties
+            name	"Andala"
+            x	130
+            y	138
+            loop	0
+         end
+         base talk
+            talkTreeID	5028
+         end
+         base character
+            sex	1
+            properName	"Andala (NPC)"
+         end
+         base shop
+            buyMarkup	50
+            sellMarkup	100
+         end
+         base container
+            worn	AquaShirt
+            worn	BrownPants
+            worn	LeatherBelt
+            worn	Goldband
+            head	1 1 0 5 3 5 -1 14 8 0 12 1 
          end
       end
    end
@@ -915,6 +942,20 @@ room 5014
             worn	RedBelt
             worn	Goldband
             head	0 2 3 1 4 3 0 12 5 0 10 1 
+         end
+      end
+      object MasterVendor5014-0 of AnewShop
+         properties
+            x	192
+            y	237
+            loop	2
+         end
+      end
+      object Stand5014-0 of Stand
+         properties
+            x	192
+            y	250
+            loop	0
          end
       end
       object PlankDoor5014-1 of PlankDoor
@@ -1882,8 +1923,8 @@ room 5028
       2745  206 1 -99
       2599  267 195
       2718  608 176
-      2598  501 173 -10
-      86  498 174 43
+      2952  180 100
+      2718  482 116
       2599  452 259
       2717  121 127
       2717  194 117
@@ -1891,8 +1932,6 @@ room 5028
       2717  481 121
       35485  643 185
       2711  564 115
-      2952  180 100
-      2718  482 116
    end
    objects
       object chair5028-0 of Chair
@@ -1949,32 +1988,6 @@ room 5028
             x	304
             y	164
             loop	2
-         end
-      end
-      object Andala5028-11 of FoodShop
-         properties
-            name	"Andala"
-            x	498
-            y	160
-            loop	1
-         end
-         base talk
-            talkTreeID	5028
-         end
-         base character
-            sex	1
-            properName	"Andala (NPC)"
-         end
-         base shop
-            buyMarkup	50
-            sellMarkup	100
-         end
-         base container
-            worn	AquaShirt
-            worn	BrownPants
-            worn	LeatherBelt
-            worn	Goldband
-            head	1 1 0 5 3 5 -1 14 8 0 12 1 
          end
       end
       object chair5028-9 of Chair

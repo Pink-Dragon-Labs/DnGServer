@@ -1,22 +1,15 @@
-# Dungeonmaker World File (DNG8.WLD)
-# Max player level = 255
-# Dungeon reset time = 2000
-# Dungeon start room = 73500
-# Dungeon last room = 73517
-# Number of objects in dungeon = 20
-# Level 0 information:
 room 73500
 	properties
 		template 30303
 		south 73501
-		flags	0
+		flags	248
 	end
 	objects
-		object Ratling-73500-0 of Ratling
+		object RandomBeginnerMob-73500-0 of RandomBeginnerMob
 			properties
 				x	165
 				y	294
-				loop	0
+				loop 2
 			end
 			base character
 			end
@@ -39,16 +32,25 @@ room 73503
 	properties
 		template 30101
 		east 73502
-		flags	0
+		flags	248
 	end
 	objects
-		object DesertRat-73503-0 of DesertRat
+		object Hellrat-73503-0 of Hellrat
 			properties
 				x	377
 				y	274
 				loop	0
 			end
 			base character
+			end
+		end
+		object SpitTavernKey of SpitTavernKey
+			properties
+				x -200
+				y -200
+			end
+			base carryable
+				owner Hellrat-73503-0
 			end
 		end
 		object Chest-73503-1 of Chest
@@ -58,11 +60,14 @@ room 73503
 				loop	0
 			end
 			base lockable
+				isLocked 1
+				unlockValue 5014
 			end
 			base described
+	 			 text "The Hellrat somehow hordes his prized possessions in this chest.. but where is the key?\n"
 			end
 		end
-		object RandomRatTreasureI-73503-2 of RandomRatTreasureI
+		object RandomStuff-73503-2 of RandomStuff
 			properties
 				x	478
 				y	242
@@ -71,7 +76,19 @@ room 73503
 			base described
 			end
 		end
-		object Meat-73503-3 of Meat
+		object qSpitTavern-73503-2 of qSpitTavern
+			properties
+				x	478
+				y	242
+				loop	0
+			end
+			base carryable
+				owner Hellrat-73503-0
+			end
+			base described
+			end
+		end
+		object RandomStuff-73503-3 of RandomStuff
 			properties
 				x	543
 				y	270
@@ -80,19 +97,7 @@ room 73503
 			base described
 			end
 		end
-		object Book-73503-4 of Dng8Book
-			properties
-				x	-200
-				y	-200
-				loop	0
-			end
-			base carryable
-				owner	Chest-73503-1
-			end
-			base described
-			end
-		end
-		object GoldNugget-73503-5 of GoldNugget
+		object RandomRing-73503-5 of RandomRing
 			properties
 				x	-200
 				y	-200
@@ -116,7 +121,7 @@ room 73503
 			base described
 			end
 		end
-		object RandomPants-73503-7 of RandomPants
+		object RandomBelt-73503-7 of RandomBelt
 			properties
 				x	-200
 				y	-200
@@ -128,7 +133,7 @@ room 73503
 			base described
 			end
 		end
-		object RandomShirt-73503-8 of RandomShirt
+		object RandomBoots-73503-8 of RandomBoots
 			properties
 				x	-200
 				y	-200
@@ -150,20 +155,20 @@ room 73502
 		flags	72
 	end
 	objects
-		object WoodRat-73502-0 of WoodRat
+		object RandomBeginnerMob-73502-0 of RandomBeginnerMob
 			properties
 				x	325
 				y	276
-				loop	0
+				loop 2
 			end
 			base character
 			end
 		end
-		object WoodRat-73502-1 of WoodRat
+		object RandomBeginnerMob-73502-1 of RandomBeginnerMob
 			properties
 				x	544
 				y	278
-				loop	1
+				loop 2
 			end
 			base character
 			end
@@ -175,6 +180,26 @@ room 73501
 		template 32701
 		west 73502
 		north 73500
-		flags	0
+		flags	248
+	end
+	objects
+		object RandomBeginnerMob-73500-0 of RandomBeginnerMob
+			properties
+				x	104
+				y	234
+				loop 2
+			end
+			base character
+			end
+		end
+		object RandomBeginnerMob-73500-0 of RandomBeginnerMob
+			properties
+				x	278
+				y	266
+				loop 2
+			end
+			base character
+			end
+		end
 	end
 end

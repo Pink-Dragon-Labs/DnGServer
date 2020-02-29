@@ -1,0 +1,132 @@
+uptime = 439624.567500
+
+dungeons spawned = 0
+
+memory taken = 2093412 bytes  (#19166) > 262144 dif 113
+
+file handles = 1
+objects = 0
+affected objects = 0
+
+houses = 0/0
+
+players = 0  NPCs = 0
+
+
+Line	file	Size	Alloc	Free
+24	/home/realm/cmake/source/roommgr/main.cpp	44	1	0
+21	/home/realm/cmake/source/global/sparse.cpp	288	1	0
+143	/home/realm/cmake/source/global/memorypool.cpp	60	8	0
+40	/home/realm/cmake/source/roommgr/datamgrclient.cpp	104	1	0
+2013	/home/realm/cmake/source/roommgr/main.cpp	44	1	0
+21	/home/realm/cmake/source/global/sparse.cpp	109892	1	0
+2087	/home/realm/cmake/source/roommgr/main.cpp	152	1000	0
+126	/home/realm/cmake/source/roommgr/channel.cpp	32	1000	1
+102	/home/realm/cmake/source/global/configmgr.cpp	40	4	0
+103	/home/realm/cmake/source/global/configmgr.cpp	40	2	0
+102	/home/realm/cmake/source/global/configmgr.cpp	36	4	0
+103	/home/realm/cmake/source/global/configmgr.cpp	36	1	0
+103	/home/realm/cmake/source/global/configmgr.cpp	32	1	0
+103	/home/realm/cmake/source/global/configmgr.cpp	28	3	0
+103	/home/realm/cmake/source/global/configmgr.cpp	44	1	0
+137	/home/realm/cmake/source/roommgr/channel.cpp	48	1000	1
+126	/home/realm/cmake/source/roommgr/channel.cpp	36	1	0
+137	/home/realm/cmake/source/roommgr/channel.cpp	64	1	0
+2102	/home/realm/cmake/source/roommgr/main.cpp	1424	1	0
+22	/home/realm/cmake/source/global/player.cpp	44	1	0
+21	/home/realm/cmake/source/global/hash.cpp	5148	1	0
+22	/home/realm/cmake/source/global/hash.cpp	5148	1	0
+2106	/home/realm/cmake/source/roommgr/main.cpp	36	1	0
+113	/home/realm/cmake/source/global/file.cpp	60	1	0
+1883	/home/realm/cmake/source/roommgr/main.cpp	94196	1	0
+679	/home/realm/cmake/source/roommgr/worldlib.cpp	512	61	0
+392	/home/realm/cmake/source/roommgr/wobject.cpp	28	1337	1330
+529	/home/realm/cmake/source/roommgr/wobject.cpp	32	425	328
+541	/home/realm/cmake/source/roommgr/wobject.cpp	32	1039	676
+623	/home/realm/cmake/source/roommgr/wobject.cpp	112	1	0
+58	/home/realm/cmake/source/global/tree.cpp	32	1	0
+529	/home/realm/cmake/source/roommgr/wobject.cpp	40	691	298
+541	/home/realm/cmake/source/roommgr/wobject.cpp	40	371	68
+4901	/home/realm/cmake/source/roommgr/wobject.cpp	40	470	108
+639	/home/realm/cmake/source/roommgr/wobject.cpp	76	1319	1
+136	/home/realm/cmake/source/global/stringcache.cpp	40	849	0
+45	/home/realm/cmake/source/global/stringcache.cpp	32	1	0
+52	/home/realm/cmake/source/global/stringcache.cpp	36	1	0
+34	/home/realm/cmake/source/global/stringcache.hpp	262172	1	0
+643	/home/realm/cmake/source/roommgr/wobject.cpp	48	17	0
+89	/home/realm/cmake/source/global/tree.cpp	40	377	0
+529	/home/realm/cmake/source/roommgr/wobject.cpp	36	823	517
+541	/home/realm/cmake/source/roommgr/wobject.cpp	36	1042	507
+4901	/home/realm/cmake/source/roommgr/wobject.cpp	36	367	103
+615	/home/realm/cmake/source/roommgr/wobject.cpp	60	1290	1
+105	/home/realm/cmake/source/global/tree.cpp	36	271	0
+89	/home/realm/cmake/source/global/tree.cpp	36	321	0
+627	/home/realm/cmake/source/roommgr/wobject.cpp	92	1	0
+89	/home/realm/cmake/source/global/tree.cpp	32	79	0
+647	/home/realm/cmake/source/roommgr/wobject.cpp	464	11	0
+619	/home/realm/cmake/source/roommgr/wobject.cpp	92	49	0
+637	/home/realm/cmake/source/roommgr/worldlib.cpp	512	1276	1
+4903	/home/realm/cmake/source/roommgr/wobject.cpp	40	23	21
+58	/home/realm/cmake/source/global/tree.cpp	40	1	0
+105	/home/realm/cmake/source/global/tree.cpp	40	403	1
+529	/home/realm/cmake/source/roommgr/wobject.cpp	44	502	132
+89	/home/realm/cmake/source/global/tree.cpp	44	402	0
+541	/home/realm/cmake/source/roommgr/wobject.cpp	44	159	26
+4901	/home/realm/cmake/source/roommgr/wobject.cpp	32	326	153
+635	/home/realm/cmake/source/roommgr/wobject.cpp	40	9	0
+105	/home/realm/cmake/source/global/tree.cpp	32	79	0
+653	/home/realm/cmake/source/roommgr/wobject.cpp	60	7	0
+657	/home/realm/cmake/source/roommgr/wobject.cpp	56	38	0
+665	/home/realm/cmake/source/roommgr/wobject.cpp	68	3	0
+4901	/home/realm/cmake/source/roommgr/wobject.cpp	44	328	69
+105	/home/realm/cmake/source/global/tree.cpp	44	337	0
+689	/home/realm/cmake/source/roommgr/wobject.cpp	44	2	0
+4901	/home/realm/cmake/source/roommgr/wobject.cpp	48	230	4
+677	/home/realm/cmake/source/roommgr/wobject.cpp	44	18	0
+631	/home/realm/cmake/source/roommgr/wobject.cpp	76	980	1
+4069	/home/realm/cmake/source/roommgr/wobject.cpp	48	461	2
+4074	/home/realm/cmake/source/roommgr/wobject.cpp	36	41	0
+4077	/home/realm/cmake/source/roommgr/wobject.cpp	28	1402	2
+4077	/home/realm/cmake/source/roommgr/wobject.cpp	32	534	4
+861	/home/realm/cmake/source/roommgr/worldlib.cpp	44	3	0
+4074	/home/realm/cmake/source/roommgr/wobject.cpp	48	195	0
+4074	/home/realm/cmake/source/roommgr/wobject.cpp	44	178	0
+861	/home/realm/cmake/source/roommgr/worldlib.cpp	32	27	0
+861	/home/realm/cmake/source/roommgr/worldlib.cpp	40	15	0
+861	/home/realm/cmake/source/roommgr/worldlib.cpp	36	15	0
+861	/home/realm/cmake/source/roommgr/worldlib.cpp	48	1	0
+705	/home/realm/cmake/source/roommgr/wobject.cpp	64	47	0
+49	/home/realm/cmake/source/global/tools.hpp	32	291	6
+529	/home/realm/cmake/source/roommgr/wobject.cpp	48	149	2
+89	/home/realm/cmake/source/global/tree.cpp	48	119	0
+49	/home/realm/cmake/source/global/tools.hpp	36	141	0
+49	/home/realm/cmake/source/global/tools.hpp	40	24	0
+529	/home/realm/cmake/source/roommgr/wobject.cpp	52	22	0
+541	/home/realm/cmake/source/roommgr/wobject.cpp	48	2	0
+105	/home/realm/cmake/source/global/tree.cpp	52	30	0
+4901	/home/realm/cmake/source/roommgr/wobject.cpp	56	11	0
+105	/home/realm/cmake/source/global/tree.cpp	48	175	0
+4901	/home/realm/cmake/source/roommgr/wobject.cpp	52	31	1
+543	/home/realm/cmake/source/roommgr/wobject.hpp	48	8	0
+4074	/home/realm/cmake/source/roommgr/wobject.cpp	40	36	2
+4074	/home/realm/cmake/source/roommgr/wobject.cpp	52	8	0
+4077	/home/realm/cmake/source/roommgr/wobject.cpp	36	4	0
+549	/home/realm/cmake/source/roommgr/wobject.hpp	48	5	0
+552	/home/realm/cmake/source/roommgr/wobject.hpp	32	11	0
+552	/home/realm/cmake/source/roommgr/wobject.hpp	28	22	0
+549	/home/realm/cmake/source/roommgr/wobject.hpp	44	1	0
+549	/home/realm/cmake/source/roommgr/wobject.hpp	36	2	0
+89	/home/realm/cmake/source/global/tree.cpp	52	14	0
+717	/home/realm/cmake/source/roommgr/wobject.cpp	44	28	0
+4901	/home/realm/cmake/source/roommgr/wobject.cpp	60	2	0
+4074	/home/realm/cmake/source/roommgr/wobject.cpp	32	1	0
+661	/home/realm/cmake/source/roommgr/wobject.cpp	112	95	0
+4074	/home/realm/cmake/source/roommgr/wobject.cpp	56	2	0
+529	/home/realm/cmake/source/roommgr/wobject.cpp	56	1	0
+89	/home/realm/cmake/source/global/tree.cpp	56	2	0
+113	/home/realm/cmake/source/global/file.cpp	56	1	0
+113	/home/realm/cmake/source/global/file.cpp	48	1	1
+24	/home/realm/cmake/source/global/string.cpp	81948	122	122
+
+
+

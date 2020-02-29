@@ -426,3 +426,20 @@ object Stalagmite4
 		text "You see a stalagmite."
 	end
 end
+
+object TempleGuardian
+	properties
+		name "Temple Guardian"
+		view 50316
+		action 0
+	end
+
+	base carryable
+		restrict homeowner
+		weight 100
+	end
+
+	base described
+		text "You see a temple guardian."
+	end
+end

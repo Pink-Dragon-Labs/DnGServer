@@ -52,7 +52,10 @@ TOOLS.OBJ
 # Custom items here before drop tables that use them
 GLOWBOOT.OBJ
 CustomArmor.obj
+CustomArmor2020.OBJ
 CustomWeapons.obj
+SERENIASHIELDS.OBJ
+SERENIAWEAPONS.OBJ
 CustomDyes.obj
 NEWITEMS.OBJ
 RANDOM.OBJ
@@ -145,9 +148,11 @@ SLIMES.NPC
 HELLSOUL.NPC
 FLOWERS.OBJ
 TRAVELLERS.OBJ
+2020MONSTERS.OBJ
 CustomClassGear.obj
 CustomBaldrics.obj
 CASTLE.OBJ
 BALDRIC_COLORS.OBJ
 NG_ITEMS.OBJ
 DungeonTT.OBJ
+PETS.OBJ

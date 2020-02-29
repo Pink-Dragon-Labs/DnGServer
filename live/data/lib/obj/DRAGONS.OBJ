@@ -37,7 +37,7 @@ object DragonA of NPC
 
 		strength 250
 		endurance 35
-		intelligence 175
+		intelligence 70
 		dexterity 20
 
 		soundGroup 13
@@ -129,7 +129,7 @@ object DragonB of NPC
 
 		strength 200
 		endurance 35
-		intelligence 175
+		intelligence 70
 		dexterity 20
 
 		soundGroup 13
@@ -220,7 +220,7 @@ object DragonC of NPC
 
 		strength 200
 		endurance 25
-		intelligence 175
+		intelligence 70
 		dexterity 20
 
 		soundGroup 13
@@ -312,7 +312,7 @@ object DragonD of NPC
 
 		strength 200
 		endurance 25
-		intelligence 175
+		intelligence 70
 		dexterity 20
 
 		soundGroup 13
@@ -403,7 +403,7 @@ object DragonE of NPC
 
 		strength 250
 		endurance 40
-		intelligence 175
+		intelligence 70
 		dexterity 20
 
 		soundGroup 13
@@ -489,7 +489,7 @@ object DragonF of NPC
 		color 69
 		strength 300
         dexterity 75
-        intelligence 175
+        intelligence 70
         endurance 35
         quickness 75
         minLevel 2400
@@ -545,7 +545,7 @@ object DragonG of NPC
 		color 70
 		strength 300
         dexterity 75
-        intelligence 175
+        intelligence 70
         endurance 35
         quickness 75
         minLevel 2500
@@ -601,7 +601,7 @@ object DragonH of NPC
 		color 71
 		strength 300
         dexterity 75
-        intelligence 175
+        intelligence 70
         endurance 55
         quickness 75
         minLevel 3100
@@ -670,7 +670,7 @@ object Svafnir of DragonI
 		color 73
 		strength 300
         dexterity 75
-        intelligence 175
+        intelligence 70
         endurance 45
         quickness 75
         minLevel 2600
@@ -724,7 +724,7 @@ object Fafnir of DragonI
 
 		strength 300
         dexterity 100
-        intelligence 175
+        intelligence 70
         endurance 70
         quickness 100
         minLevel 3600
@@ -781,7 +781,7 @@ object DragonJ of NPC
 		color 73
 		strength 300
         dexterity 75
-        intelligence 175
+        intelligence 70
         endurance 45
         quickness 75
         minLevel 2600
@@ -833,7 +833,7 @@ object DragonK of NPC
 		color 74
 		strength 300
         dexterity 75
-        intelligence 175
+        intelligence 70
         endurance 45
         quickness 75
         minLevel 2700
@@ -885,7 +885,7 @@ object DragonL of NPC
 		color 75
 		strength 300
         dexterity 75
-        intelligence 175
+        intelligence 70
         endurance 45
         quickness 75
         minLevel 3157
@@ -937,7 +937,7 @@ object DragonM of NPC
 		color 76
 		strength 300
         dexterity 75
-        intelligence 175
+        intelligence 70
         endurance 45
         quickness 75
         minLevel 2900
@@ -996,7 +996,7 @@ object DPDragWizE of DragonD
 
 		strength 85
 		endurance 45
-		intelligence 175
+		intelligence 70
 		dexterity 20
 
 		# do fire damage
@@ -1074,7 +1074,7 @@ object DPDragWizN of DragonC
 
 		strength 85
 		endurance 45
-		intelligence 175
+		intelligence 70
 		dexterity 20
 
 		# do fire damage
@@ -1150,7 +1150,7 @@ object DPDragWizG of DragonB
 
 		strength 85
 		endurance 45
-		intelligence 175
+		intelligence 70
 		dexterity 20
 
 		# do fire damage
@@ -1425,7 +1425,7 @@ object SummonedDragon of DragonC
 
 		strength 20
 		endurance 15
-		intelligence 175
+		intelligence 70
 		dexterity 20
 
 		# do fire damage

@@ -135,7 +135,7 @@ object skbShortSwordV of skbShortSword
 		name "Short Sword Grand-Mastery"
 		level 5
 		value 1000
-		Intelligence 5
+		intelligence 5
 	end
 
 	base teach
@@ -1222,6 +1222,25 @@ object skbSorceryV of skbSorcery
 	end
 end
 
+object skbSorceryVI of skbSorcery
+	properties
+		special
+		name "Paragon: Sorcery"
+		level 6
+		value 1000000
+		intelligence 16
+	end
+
+	base teach
+		bp 100
+	end
+
+	base described
+		text "This book will teach you to become a sorcery paragon."
+		shopText "This book will teach you to become a sorcery paragon."
+	end
+end
+
 object skbElementalism of Skillbook
 	base teach
 		skill 12
@@ -1314,6 +1333,25 @@ object skbElementalismV of skbElementalism
 	base described
 		text "This book will teach you to become a elementalism grand-master."
 		shopText "This book will teach you to become a elementalism grand-master."
+	end
+end
+
+object skbElementalismVI of skbElementalism
+	properties
+		special
+		name "Paragon: Elementalism"
+		level 6
+		value 1000000
+		intelligence 16
+	end
+
+	base teach
+		bp 100
+	end
+
+	base described
+		text "This book will teach you to become a elementalism paragon."
+		shopText "This book will teach you to become a elementalism paragon."
 	end
 end
 
@@ -1412,6 +1450,25 @@ object skbMysticismV of skbMysticism
 	end
 end
 
+object skbMysticismVI of skbMysticism
+	properties
+		special
+		name "Paragon: Mysticism"
+		level 6
+		value 100000
+		intelligence 16
+	end
+
+	base teach
+		bp 100
+	end
+
+	base described
+		text "This book will teach you to become a paragon of mysticism."
+		shopText "This book will teach you to become a paragon of mysticism."
+	end
+end
+
 object skbThaumaturgy of Skillbook
 	base teach
 		skill 14
@@ -1507,6 +1564,25 @@ object skbThaumaturgyV of skbThaumaturgy
 	end
 end
 
+object skbThaumaturgyVI of skbThaumaturgy
+	properties
+		special
+		name "Paragon: Thaumaturgy"
+		level 6
+		value 100000
+		intelligence 16
+	end
+
+	base teach
+		bp 100
+	end
+
+	base described
+		text "This book will teach you to become a paragon of thaumaturgy."
+		shopText "This book will teach you to become a paragon of thaumaturgy."
+	end
+end
+
 object skbNecromancy of Skillbook
 	base teach
 		skill 15
@@ -1599,6 +1675,25 @@ object skbNecromancyV of skbNecromancy
 	base described
 		text "This book will teach you to become a grand-master of necromancy."
 		shopText "This book will teach you to become a grand-master of necromancy."
+	end
+end
+
+object skbNecromancyVI of skbNecromancy
+	properties
+		special
+		name "Paragon: Necromancy"
+		level 6
+		value 100000
+		intelligence 16
+	end
+
+	base teach
+		bp 100
+	end
+
+	base described
+		text "This book will teach you to become a paragon of necromancy."
+		shopText "This book will teach you to become a paragon of necromancy."
 	end
 end
 
@@ -2790,8 +2885,11 @@ object skbShieldUseV of skbShieldUse
 end
 
 object skbBroadSword of Skillbook
+	properties
+		special
+	end
 	base teach
-		skill 31
+		skill 24
 		objectRequired BroadSword
 	end
 end
@@ -2801,6 +2899,7 @@ object skbBroadSwordI of skbBroadSword
 		name "Familiarity with Broadswords"
 		level 1
 		strength 2
+		special
 	end
 
 	base teach
@@ -2819,7 +2918,7 @@ object skbBroadSwordII of skbBroadSword
 		level 2
 		value 200
 		strength 4
-		dexterity 2
+		special
 	end
 
 	base teach
@@ -2837,8 +2936,8 @@ object skbBroadSwordIII of skbBroadSword
 		name "Expertise with Broadswords"
 		level 3
 		value 400
-		strength 5
-		dexterity 3
+		strength 8
+		special
 	end
 
 	base teach
@@ -2856,8 +2955,8 @@ object skbBroadSwordIV of skbBroadSword
 		name "Broadsword Mastery"
 		level 4
 		value 750
-		strength 6
-		dexterity 4
+		strength 10
+		special
 	end
 
 	base teach
@@ -2875,8 +2974,8 @@ object skbBroadSwordV of skbBroadSword
 		name "Broadsword Grand-Mastery"
 		level 5
 		value 1000
-		strength 7
-		dexterity 6
+		strength 14
+		special
 	end
 
 	base teach
@@ -2886,5 +2985,24 @@ object skbBroadSwordV of skbBroadSword
 	base described
 		text "Understanding this treatment will make you a grand-master of broadsword combat."
 		shopText "Understanding this treatment will make you a grand-master of broadsword combat."
+	end
+end
+
+object skbBroadSwordVI of skbBroadSword
+	properties
+		name "Paragon: Broadsword"
+		level 6
+		value 1000000
+		strength 14
+		special
+	end
+
+	base teach
+		bp 100
+	end
+
+	base described
+		text "Understanding this treatment will make you a paragon of broadsword combat."
+		shopText "Understanding this treatment will make you a paragon of broadsword combat."
 	end
 end

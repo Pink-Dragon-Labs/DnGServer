@@ -598,3 +598,124 @@ object SpitTavernKey of Key
 		text "Gross.. this came out of the Hellrat?\n\n"
 	end
 end
+#
+#
+#
+# Zoo Keys
+#
+#
+#
+object ZooKey1 of Key
+    properties
+        special
+        toss
+        drop
+        name "The Zoo Key"
+        value 250
+    end
+
+    base key
+        lockValue 5464
+        unlockValue 5464
+    end
+
+    base described
+        text "You see a key that opens a chest in The Zoo."
+        shopText "NOT TO BE SOLD\n\n"
+    end
+end
+object ZooKey2 of Key
+    properties
+        special
+        toss
+        drop
+        name "The Zoo Key"
+        value 250
+    end
+
+    base key
+        lockValue 5565
+        unlockValue 5565
+    end
+
+    base described
+        text "You see a key that opens a chest in The Zoo."
+        shopText "NOT TO BE SOLD\n\n"
+    end
+end
+object ZooKey3 of Key
+    properties
+        special
+        toss
+        drop
+        name "The Zoo Key"
+        value 250
+    end
+
+    base key
+        lockValue 5666
+        unlockValue 5566
+    end
+
+    base described
+        text "You see a key that opens a chest in The Zoo."
+        shopText "NOT TO BE SOLD\n\n"
+    end
+end
+object ZooKey4 of Key
+    properties
+        special
+        toss
+        drop
+        name "The Zoo Key"
+        value 250
+    end
+
+    base key
+        lockValue 5767
+        unlockValue 5767
+    end
+
+    base described
+        text "You see a key that opens a chest in The Zoo."
+        shopText "NOT TO BE SOLD\n\n"
+    end
+end
+object ZooKey5 of Key
+    properties
+        special
+        toss
+        drop
+        name "The Zoo Key"
+        value 250
+    end
+
+    base key
+        lockValue 5868
+        unlockValue 5868
+    end
+
+    base described
+        text "You see a key that opens a chest in The Zoo."
+        shopText "NOT TO BE SOLD\n\n"
+    end
+end
+object ZooKey6 of Key
+    properties
+        special
+        toss
+        drop
+        name "The Zoo Key"
+        value 250
+    end
+
+    base key
+        lockValue 5969
+        unlockValue 5969
+    end
+
+    base described
+        text "You see a key that opens a chest in The Zoo."
+        shopText "NOT TO BE SOLD\n\n"
+    end
+end

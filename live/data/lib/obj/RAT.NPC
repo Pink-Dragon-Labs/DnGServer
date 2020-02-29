@@ -49,6 +49,26 @@ object Mouse of Ratling
 		name "Mouse"
 		clutStart -1
 		color 2088
+
+		# New #
+		level 1
+
+		dexterity 20
+		endurance 2
+		intelligence 2
+
+		minDamage 1
+		maxDamage 3
+
+		## do normal damage by default
+		affect 0 0 0 -1
+
+		soundGroup 10
+		quickness 10
+		treasure 0
+
+		damageType 0
+		armorType 0
 	end
 
 	base npc

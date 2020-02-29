@@ -7,7 +7,7 @@
 ;; modify this file for ANY reason.  The system will most probably cease
 ;; to function if you did.
 ;;
-;; Author: SPARCStation (Sun Apr  1 23:15:16 2018)
+;; Author: SPARCStation (Sat Feb 29 02:26:51 2020)
 ;;
 
 (module# STOCKOBJ4)
@@ -16,6 +16,166 @@
 (define StockObjList (ModuleID STOCKOBJ0 0))
 
 (include "wobject.sh")
+
+(instance SOBJspbVenom of Code
+	(properties
+		name ""
+	)
+
+	(method (doit aWhatObj)
+		(aWhatObj
+			name: "spbVenom", 
+			pName: "Spellbook of Venom",
+			loop: 0,
+			pBaseView: 51050,
+			pAction: 29,
+			pClutStart: 58,
+			pColor: -1,
+			pBaseBitsLo: 1,
+			pBaseBitsHi: 66,
+		)
+
+		(aWhatObj setAction: (aWhatObj pAction?))
+		(if gWObjectLite (return))
+
+		(aWhatObj addBase: BDescribed)
+
+		((aWhatObj addBase: BCarryable)
+			pBulk: 0,
+			pWeight: 10,
+		)
+
+		(aWhatObj addBase: BScroll)
+	)
+)
+
+(instance SOBJspbSummonUndead of Code
+	(properties
+		name ""
+	)
+
+	(method (doit aWhatObj)
+		(aWhatObj
+			name: "spbSummonUndead", 
+			pName: "Spellbook of Summon Undead",
+			loop: 0,
+			pBaseView: 51050,
+			pAction: 29,
+			pClutStart: 58,
+			pColor: -1,
+			pBaseBitsLo: 1,
+			pBaseBitsHi: 66,
+		)
+
+		(aWhatObj setAction: (aWhatObj pAction?))
+		(if gWObjectLite (return))
+
+		(aWhatObj addBase: BDescribed)
+
+		((aWhatObj addBase: BCarryable)
+			pBulk: 0,
+			pWeight: 10,
+		)
+
+		(aWhatObj addBase: BScroll)
+	)
+)
+
+(instance SOBJspbAcidRain of Code
+	(properties
+		name ""
+	)
+
+	(method (doit aWhatObj)
+		(aWhatObj
+			name: "spbAcidRain", 
+			pName: "Spellbook of Acid Rain",
+			loop: 0,
+			pBaseView: 51050,
+			pAction: 29,
+			pClutStart: 58,
+			pColor: -1,
+			pBaseBitsLo: 1,
+			pBaseBitsHi: 66,
+		)
+
+		(aWhatObj setAction: (aWhatObj pAction?))
+		(if gWObjectLite (return))
+
+		(aWhatObj addBase: BDescribed)
+
+		((aWhatObj addBase: BCarryable)
+			pBulk: 0,
+			pWeight: 10,
+		)
+
+		(aWhatObj addBase: BScroll)
+	)
+)
+
+(instance SOBJspbPoisonCurse of Code
+	(properties
+		name ""
+	)
+
+	(method (doit aWhatObj)
+		(aWhatObj
+			name: "spbPoisonCurse", 
+			pName: "Spellbook of Poison Curse",
+			loop: 0,
+			pBaseView: 51050,
+			pAction: 29,
+			pClutStart: 58,
+			pColor: -1,
+			pBaseBitsLo: 1,
+			pBaseBitsHi: 66,
+		)
+
+		(aWhatObj setAction: (aWhatObj pAction?))
+		(if gWObjectLite (return))
+
+		(aWhatObj addBase: BDescribed)
+
+		((aWhatObj addBase: BCarryable)
+			pBulk: 0,
+			pWeight: 10,
+		)
+
+		(aWhatObj addBase: BScroll)
+	)
+)
+
+(instance SOBJspbAcidCurse of Code
+	(properties
+		name ""
+	)
+
+	(method (doit aWhatObj)
+		(aWhatObj
+			name: "spbAcidCurse", 
+			pName: "Spellbook of Acid Curse",
+			loop: 0,
+			pBaseView: 51050,
+			pAction: 29,
+			pClutStart: 58,
+			pColor: -1,
+			pBaseBitsLo: 1,
+			pBaseBitsHi: 66,
+		)
+
+		(aWhatObj setAction: (aWhatObj pAction?))
+		(if gWObjectLite (return))
+
+		(aWhatObj addBase: BDescribed)
+
+		((aWhatObj addBase: BCarryable)
+			pBulk: 0,
+			pWeight: 10,
+		)
+
+		(aWhatObj addBase: BScroll)
+	)
+)
 
 (instance SOBJspbFireCurse of Code
 	(properties
@@ -1422,6 +1582,38 @@
 	)
 )
 
+(instance SOBJTravelerToolbox of Code
+	(properties
+		name ""
+	)
+
+	(method (doit aWhatObj)
+		(aWhatObj
+			name: "TravelerToolbox", 
+			pName: "Traveler's Toolbox",
+			loop: 0,
+			pBaseView: 59250,
+			pAction: 29,
+			pClutStart: 0,
+			pColor: 0,
+			pBaseBitsLo: 2049,
+			pBaseBitsHi: 64,
+		)
+
+		(aWhatObj setAction: (aWhatObj pAction?))
+		(if gWObjectLite (return))
+
+		(aWhatObj addBase: BShop)
+
+		((aWhatObj addBase: BCarryable)
+			pBulk: 0,
+			pWeight: 250,
+		)
+
+		(aWhatObj addBase: BDescribed)
+	)
+)
+
 (instance SOBJRandomStuff of Code
 	(properties
 		name ""
@@ -1579,7 +1771,7 @@
 		((aWhatObj addBase: BWearable)
 			pLayer: 20,
 			pAreaWorn: 7,
-			pMask: -1,
+			pMask: -3,
 		)
 
 		(aWhatObj addBase: BDescribed)
@@ -3067,7 +3259,7 @@
 		((aWhatObj addBase: BWearable)
 			pLayer: 20,
 			pAreaWorn: 7,
-			pMask: -1,
+			pMask: -3,
 		)
 
 		(aWhatObj addBase: BDescribed)
@@ -3363,7 +3555,7 @@
 		((aWhatObj addBase: BWearable)
 			pLayer: 20,
 			pAreaWorn: 7,
-			pMask: -1,
+			pMask: -3,
 		)
 
 		(aWhatObj addBase: BDescribed)
@@ -4411,7 +4603,7 @@
 		((aWhatObj addBase: BWearable)
 			pLayer: 20,
 			pAreaWorn: 7,
-			pMask: -1,
+			pMask: -3,
 		)
 
 		(aWhatObj addBase: BDescribed)
@@ -8455,218 +8647,13 @@
 	)
 )
 
-(instance SOBJGiftBox1 of Code
-	(properties
-		name ""
-	)
-
-	(method (doit aWhatObj)
-		(aWhatObj
-			name: "GiftBox1", 
-			pName: "Gift Box",
-			loop: 0,
-			pBaseView: 62751,
-			pAction: 29,
-			pClutStart: 0,
-			pColor: 0,
-			pBaseBitsLo: 3,
-			pBaseBitsHi: 64,
-		)
-
-		(aWhatObj setAction: (aWhatObj pAction?))
-		(if gWObjectLite (return))
-
-		((aWhatObj addBase: BCarryable)
-			pBulk: 1,
-			pWeight: 1,
-		)
-
-		((aWhatObj addBase: BContainer)
-			pWeightCap: 0,
-			pBulkCap: 0,
-		)
-
-		(aWhatObj addBase: BDescribed)
-	)
-)
-
-(instance SOBJGiftBox2 of Code
-	(properties
-		name ""
-	)
-
-	(method (doit aWhatObj)
-		(aWhatObj
-			name: "GiftBox2", 
-			pName: "Gift Box",
-			loop: 0,
-			pBaseView: 62752,
-			pAction: 29,
-			pClutStart: 0,
-			pColor: 0,
-			pBaseBitsLo: 3,
-			pBaseBitsHi: 64,
-		)
-
-		(aWhatObj setAction: (aWhatObj pAction?))
-		(if gWObjectLite (return))
-
-		((aWhatObj addBase: BCarryable)
-			pBulk: 1,
-			pWeight: 1,
-		)
-
-		((aWhatObj addBase: BContainer)
-			pWeightCap: 0,
-			pBulkCap: 0,
-		)
-
-		(aWhatObj addBase: BDescribed)
-	)
-)
-
-(instance SOBJGiftBox3 of Code
-	(properties
-		name ""
-	)
-
-	(method (doit aWhatObj)
-		(aWhatObj
-			name: "GiftBox3", 
-			pName: "Gift Box",
-			loop: 0,
-			pBaseView: 62753,
-			pAction: 29,
-			pClutStart: 0,
-			pColor: 0,
-			pBaseBitsLo: 3,
-			pBaseBitsHi: 64,
-		)
-
-		(aWhatObj setAction: (aWhatObj pAction?))
-		(if gWObjectLite (return))
-
-		((aWhatObj addBase: BCarryable)
-			pBulk: 1,
-			pWeight: 1,
-		)
-
-		((aWhatObj addBase: BContainer)
-			pWeightCap: 0,
-			pBulkCap: 0,
-		)
-
-		(aWhatObj addBase: BDescribed)
-	)
-)
-
-(instance SOBJGiftBox4 of Code
-	(properties
-		name ""
-	)
-
-	(method (doit aWhatObj)
-		(aWhatObj
-			name: "GiftBox4", 
-			pName: "Gift Box",
-			loop: 0,
-			pBaseView: 62758,
-			pAction: 29,
-			pClutStart: 0,
-			pColor: 0,
-			pBaseBitsLo: 3,
-			pBaseBitsHi: 64,
-		)
-
-		(aWhatObj setAction: (aWhatObj pAction?))
-		(if gWObjectLite (return))
-
-		((aWhatObj addBase: BCarryable)
-			pBulk: 1,
-			pWeight: 1,
-		)
-
-		((aWhatObj addBase: BContainer)
-			pWeightCap: 0,
-			pBulkCap: 0,
-		)
-
-		(aWhatObj addBase: BDescribed)
-	)
-)
-
-(instance SOBJGiftBox5 of Code
-	(properties
-		name ""
-	)
-
-	(method (doit aWhatObj)
-		(aWhatObj
-			name: "GiftBox5", 
-			pName: "Gift Box",
-			loop: 0,
-			pBaseView: 62759,
-			pAction: 29,
-			pClutStart: 0,
-			pColor: 0,
-			pBaseBitsLo: 3,
-			pBaseBitsHi: 64,
-		)
-
-		(aWhatObj setAction: (aWhatObj pAction?))
-		(if gWObjectLite (return))
-
-		((aWhatObj addBase: BCarryable)
-			pBulk: 1,
-			pWeight: 1,
-		)
-
-		((aWhatObj addBase: BContainer)
-			pWeightCap: 0,
-			pBulkCap: 0,
-		)
-
-		(aWhatObj addBase: BDescribed)
-	)
-)
-
-(instance SOBJGiftBox6 of Code
-	(properties
-		name ""
-	)
-
-	(method (doit aWhatObj)
-		(aWhatObj
-			name: "GiftBox6", 
-			pName: "Gift Box",
-			loop: 0,
-			pBaseView: 62760,
-			pAction: 29,
-			pClutStart: 0,
-			pColor: 0,
-			pBaseBitsLo: 3,
-			pBaseBitsHi: 64,
-		)
-
-		(aWhatObj setAction: (aWhatObj pAction?))
-		(if gWObjectLite (return))
-
-		((aWhatObj addBase: BCarryable)
-			pBulk: 1,
-			pWeight: 1,
-		)
-
-		((aWhatObj addBase: BContainer)
-			pWeightCap: 0,
-			pBulkCap: 0,
-		)
-
-		(aWhatObj addBase: BDescribed)
-	)
-)
-
 (instance StockObjInitter4 of Code
 	(method (doit)
+		(StockObjList add: SOBJspbVenom)
+		(StockObjList add: SOBJspbSummonUndead)
+		(StockObjList add: SOBJspbAcidRain)
+		(StockObjList add: SOBJspbPoisonCurse)
+		(StockObjList add: SOBJspbAcidCurse)
 		(StockObjList add: SOBJspbFireCurse)
 		(StockObjList add: SOBJspbColdCurse)
 		(StockObjList add: SOBJspbElectricCurse)
@@ -8713,6 +8700,7 @@
 		(StockObjList add: SOBJAlchemyTool)
 		(StockObjList add: SOBJHealerTool)
 		(StockObjList add: SOBJTrackingTool)
+		(StockObjList add: SOBJTravelerToolbox)
 		(StockObjList add: SOBJRandomStuff)
 		(StockObjList add: SOBJRandomJunk)
 		(StockObjList add: SOBJRandomMaterial)
@@ -8911,11 +8899,5 @@
 		(StockObjList add: SOBJWhiteEasterEgg)
 		(StockObjList add: SOBJBouquet)
 		(StockObjList add: SOBJGiftBox)
-		(StockObjList add: SOBJGiftBox1)
-		(StockObjList add: SOBJGiftBox2)
-		(StockObjList add: SOBJGiftBox3)
-		(StockObjList add: SOBJGiftBox4)
-		(StockObjList add: SOBJGiftBox5)
-		(StockObjList add: SOBJGiftBox6)
 	)
 )

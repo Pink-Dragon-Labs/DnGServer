@@ -94,6 +94,9 @@ room 6013
             properName	"Crow (NPC)"
             title	"the Bartender"
          end
+         base talk
+                talkTreeID 6013
+         end
          base shop
             buyMarkup	40
             sellMarkup	100

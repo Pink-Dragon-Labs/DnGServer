@@ -217,3 +217,111 @@ object MagicBar of Bar
 		shopText "This is a 10 stone bar of solidified magical energy."
 	end
 end
+
+object FireMagicBar of Bar
+	properties
+		special
+		name "Bar of Solid Fire Magic"
+		value 2000
+		color 16	# Coral Red Glow
+	end
+
+	base carryable
+		weight 15.0
+	end
+
+	base described
+		text "You see a 15 stone bar of solidified fire magic."
+		shopText "This is a 15 stone bar of solidified fire magic."
+	end
+end
+
+object IceMagicBar of Bar
+	properties
+		special
+		name "Bar of Solid Ice Magic"
+		value 2000
+		color 29	# Light Cyan
+	end
+
+	base carryable
+		weight 15.0
+	end
+
+	base described
+		text "You see a 15 stone bar of solidified ice magic."
+		shopText "This is a 15 stone bar of solidified ice magic."
+	end
+end
+
+object ElectricMagicBar of Bar
+	properties
+		special
+		name "Bar of Solid Electric Magic"
+		value 2000
+		color 154	# Kournikova
+	end
+
+	base carryable
+		weight 15.0
+	end
+
+	base described
+		text "You see a 15 stone bar of solidified electric magic."
+		shopText "This is a 15 stone bar of solidified electric magic."
+	end
+end
+
+object PoisonMagicBar of Bar
+	properties
+		special
+		name "Bar of Solid Poison Magic"
+		value 2000
+		color 82	# Forest Green Glow
+	end
+
+	base carryable
+		weight 15.0
+	end
+
+	base described
+		text "You see a 15 stone bar of solidified poison magic."
+		shopText "This is a 15 stone bar of solidified poison magic."
+	end
+end
+
+object ExpMagicBar of Bar
+	properties
+		special
+		name "Bar of Solid Experience Damage"
+		value 6000
+		color 115	# Finvarra
+	end
+
+	base carryable
+		weight 15.0
+	end
+
+	base described
+		text "You see a 15 stone bar of solidified EXP damage."
+		shopText "This is a 15 stone bar of solidified EXP damage."
+	end
+end
+
+object AcidMagicBar of Bar
+	properties
+		special
+		name "Bar of Solid Acid Magic"
+		value 2000
+		color 109	# Light Green Flesh
+	end
+
+	base carryable
+		weight 15.0
+	end
+
+	base described
+		text "You see a 15 stone bar of solidified acid magic."
+		shopText "This is a 15 stone bar of solidified acid magic."
+	end
+end

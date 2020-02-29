@@ -979,3 +979,27 @@ object MysticismWardRingII of Ring
 	end
 end
 
+object MagicWardRing of Ring
+	properties
+		special
+		name "Magic Resistance +100%"
+		value 3000
+		enchantResistance 100
+		level 1
+	end
+
+	base described
+		idText "100% Magic Resistance\n"
+		shopText "100% Magic Resistance\n"
+	end
+
+	base wearable
+        areaWorn 743
+	end
+
+	actions 
+		vBePutOn changeSpellResistance dobj 100 0 1 2 3 4
+		vBeTakenOff changeSpellResistance dobj -100 0 1 2 3 4
+	end
+end
+

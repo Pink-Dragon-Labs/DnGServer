@@ -1,7 +1,8 @@
 name "D_Zoo"
 title "The Zoo"
 worldFile "../data/lib/world/D_ZOO.WLD"
-allowCombat 0
+allowCombat 3
 #resetInterval 120
 midiFile 23
+isDungeon 1
 entrance tent2527-0

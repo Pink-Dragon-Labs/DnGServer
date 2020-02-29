@@ -2,16 +2,10 @@ object Watcher of NPC
 	properties
 		name "Watcher"
 		view 42100
-		affect 12 0 3 -1
-		affect 17 0 3 -1
 	end
 
 	base described
 		text "You see a floating eye here.  It seems to be examining everything it can see."
-	end
-
-	base npc
-		code watcher
 	end
 end
 
@@ -25,6 +19,178 @@ object BabyWatcher of Watcher
 		text "This is a sentinel."
 	end
 end
+
+#
+#
+#
+#
+#
+#
+object SummonWatcher of Watcher
+	properties
+		special
+		name "Watcher"
+		alignment 0
+
+		minLevel 1000
+		maxLevel 2800
+		minDamage 800
+		maxDamage 1100
+
+		strength 25
+		endurance 17
+		intelligence 18
+		dexterity 20
+
+		soundGroup 4
+		armorType 3
+		damageType 1
+		range 1
+		quickness 12
+
+		# do fire damage
+		affect 1 0 0 -1
+
+		# acid damage
+		affect 4 0 0 -1
+
+		# fire immolation
+		affect 23 0 0 -1
+
+		# cold immolation
+		affect 24 0 0 -1
+
+		# lightning immolation
+		affect 27 0 0 -1
+	end
+
+	base character
+		skill 0 5
+		skill 1 5
+		skill 2 5
+		skill 3 5
+		skill 4 5
+		skill 5 5
+		skill 6 5
+		skill 7 5
+		skill 8 5
+		skill 10 5
+		## grand master wiz
+		skill 11 5
+		skill 12 5
+		skill 13 5
+		skill 14 5
+		skill 15 5
+		skill 28 5
+		skill 29 5
+	end
+
+	actions
+		vBeBorn changeSpellResistance self 75 2	#75% Resist Myst
+		#  200% SDM to all
+        vBeBorn changeSDM self 200 0 2 1 3 4
+	end
+
+	base npc
+		code tulor
+	end
+
+	base described
+		text "You see a floating eye here.  It seems to be examining everything it can see."
+	end
+end
+
+object SummonBabyWatcher of BabyWatcher
+	properties
+		special
+		name "Sentinel"
+		alignment 0
+
+		minLevel 1000
+		maxLevel 2800
+		minDamage 800
+		maxDamage 1100
+
+		strength 25
+		endurance 17
+		intelligence 18
+		dexterity 20
+
+		soundGroup 4
+		armorType 3
+		damageType 1
+		range 1
+		quickness 12
+
+		# do fire damage
+		affect 1 0 0 -1
+
+		# acid damage
+		affect 4 0 0 -1
+
+		# fire immolation
+		affect 23 0 0 -1
+
+		# cold immolation
+		affect 24 0 0 -1
+
+		# lightning immolation
+		affect 27 0 0 -1
+	end
+
+	base character
+		skill 0 5
+		skill 1 5
+		skill 2 5
+		skill 3 5
+		skill 4 5
+		skill 5 5
+		skill 6 5
+		skill 7 5
+		skill 8 5
+		skill 10 5
+		## grand master wiz
+		skill 11 5
+		skill 12 5
+		skill 13 5
+		skill 14 5
+		skill 15 5
+		skill 28 5
+		skill 29 5
+	end
+
+	actions
+		vBeBorn changeSpellResistance self 75 2	#75% Resist Myst
+		#  200% SDM to all
+        vBeBorn changeSDM self 200 0 2 1 3 4
+	end
+
+	base npc
+		code tulor
+	end
+
+	base described
+		text "This is a sentinel."
+	end
+end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 object HellSoul of NPC
 	properties

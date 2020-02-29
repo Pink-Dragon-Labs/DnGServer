@@ -1430,7 +1430,7 @@ end
 
 object spbWrathOfTheGods of Spellbook
 	properties
-		name "Spellbook of Wrath of the Gods"
+		name "Spellbook of Salvation"
 		value 700
 	end
 
@@ -1439,8 +1439,8 @@ object spbWrathOfTheGods of Spellbook
 	end
 
 	base described
-		text "This book will teach you the master thaumaturgy spell 'Wrath of the Gods'."
-		shopText "This book will teach you the master thaumaturgy spell 'Wrath of the Gods'."
+		text "This book will teach you the master thaumaturgy spell 'Salvation'."
+		shopText "This book will teach you the master thaumaturgy spell 'Salvation'."
 	end
 end
 
@@ -2054,7 +2054,7 @@ end
 object spbMonsterSummonI of Spellbook
 	properties
 	special
-		name "Spellbook of Monster Summoning I" // master sorc
+		name "Grimoire: Summon Hell Soul"
 		value 10
 	end
 
@@ -2063,15 +2063,15 @@ object spbMonsterSummonI of Spellbook
 	end
 
 	base described
-		text "This book will teach you the special spell 'Monster Summoning I'."
-		shopText "This book will teach you the special spell 'Monster Summoning I'."
+		text "This book will teach you the paragon necromancy spell 'Summon Hell Soul'."
+		shopText "This book will teach you the paragon necromancy spell 'Summon Hell Soul'."
 	end
 end
 
 object spbMonsterSummonII of Spellbook
 	properties
 	special
-		name "Spellbook of Monster Summoning II" // master sorc
+		name "Grimoire: Summon Avalon"
 		value 10
 	end
 
@@ -2080,15 +2080,15 @@ object spbMonsterSummonII of Spellbook
 	end
 
 	base described
-		text "This book will teach you the special spell 'Monster Summoning II'."
-		shopText "This book will teach you the special spell 'Monster Summoning II'."
+		text "This book will teach you the paragon mysticism spell 'Summon Avalon'."
+		shopText "This book will teach you the paragon mysticism spell 'Summon Avalon'."
 	end
 end
 
 object spbMonsterSummonIII of Spellbook
 	properties
 	special
-		name "Spellbook of Monster Summoning III" // master sorc
+		name "Grimoire: Summon Watcher"
 		value 10
 	end
 
@@ -2097,8 +2097,8 @@ object spbMonsterSummonIII of Spellbook
 	end
 
 	base described
-		text "This book will teach you the special spell 'Monster Summoning III'."
-		shopText "This book will teach you the special spell 'Monster Summoning III'."
+		text "This book will teach you the paragon elementalist spell 'Summon Watcher'."
+		shopText "This book will teach you the paragon elementalist spell 'Summon Watcher'."
 	end
 end
 # New Elem Summons
@@ -2222,57 +2222,6 @@ object spbSummonSeraph of Spellbook
 	end
 end
 
-object spbBurningMistcloud of Spellbook
-	properties
-	special
-		name "Spellbook of Burning Mistcloud"
-		value 10000
-	end
-
-	base teach
-		spell 144
-	end
-
-	base described
-		text "This book will teach you the expert-level necromancy spell 'Burning Mistcloud'."
-		shopText "This book will teach you the expert-level necromancy spell 'Burning Mistcloud'."
-	end
-end
-
-object spbNauseatingMistcloud of Spellbook
-	properties
-	special
-		name "Spellbook of Nauseating Mistcloud"
-		value 10000
-	end
-
-	base teach
-		spell 145
-	end
-
-	base described
-		text "This book will teach you the master-level necromancy spell 'Nauseating Mistcloud'."
-		shopText "This book will teach you the master-level necromancy spell 'Nauseating Mistcloud'."
-	end
-end
-
-object spbDeadlyMistcloud of Spellbook
-	properties
-	special
-		name "Spellbook of Deadly Mistcloud"
-		value 10000
-	end
-
-	base teach
-		spell 146
-	end
-
-	base described
-		text "This book will teach you the grand-master necromancy spell 'Deadly Mistcloud'."
-		shopText "This book will teach you the grand-master necromancy spell 'Deadly Mistcloud'."
-	end
-end
-
 object spbImmolationCold of Spellbook
 	properties
 		special
@@ -2282,7 +2231,7 @@ object spbImmolationCold of Spellbook
 	end
 
 	base teach
-		spell 148
+		spell 147
 	end
 
 	base described
@@ -2300,7 +2249,7 @@ object spbImmolationLightning of Spellbook
 	end
 
 	base teach
-		spell 151
+		spell 150
 	end
 
 	base described
@@ -2318,48 +2267,12 @@ object spbSummonDragon of Spellbook
 	end
 
 	base teach
-		spell 147
+		spell 151
 	end
 
 	base described
 		text "This grimoire was encoded by the most sinister warlock. He used it to bind the mists and use them as a weapon.\n\nReading this will teach you the grand-master elementalist spell 'Summon Dragon'."
 		shopText "This grimoire was encoded by the most sinister warlock. He used it to bind the mists and use them as a weapon.\n\nReading this will teach you the grand-master elementalist spell 'Summon Dragon'."
-	end
-end
-
-object spbImmolationAcid of Spellbook
-	properties
-		special
-		name "Grimoire: Acid Immolation"
-		color 43
-		value 20000000
-	end
-
-	base teach
-		spell 149
-	end
-
-	base described
-		text "This grimoire was encoded by the most sinister warlock. He used it to bind the mists and use them as a weapon.\n\nReading this will teach you the grand-master elementalist spell 'Acid Immolation'."
-		shopText "This grimoire was encoded by the most sinister warlock. He used it to bind the mists and use them as a weapon.\n\nReading this will teach you the grand-master elementalist spell 'Acid Immolation'."
-	end
-end
-
-object spbImmolationPoison of Spellbook
-	properties
-		special
-		name "Grimoire: Poison Immolation"
-		color 43
-		value 20000000
-	end
-
-	base teach
-		spell 149
-	end
-
-	base described
-		text "This grimoire was encoded by the most sinister warlock. He used it to bind the mists and use them as a weapon.\n\nReading this will teach you the grand-master elementalist spell 'Poison Immolation'."
-		shopText "This grimoire was encoded by the most sinister warlock. He used it to bind the mists and use them as a weapon.\n\nReading this will teach you the grand-master elementalist spell 'Poison Immolation'."
 	end
 end
 
@@ -2381,6 +2294,94 @@ object spbRepel of Spellbook
 	end
 end
 
+object spbVitality of Spellbook
+	properties
+		special
+		name "Grimoire: Vitality"
+		color 43
+		value 20000000
+	end
+
+	base teach
+		spell 148
+	end
+
+	base described
+		text "This grimoire was encoded by the most sinister warlock. He used it to bind the mists and use them as a weapon.\n\nReading this will teach you the paragon thaumaturgy spell 'Vitality'."
+		shopText "This grimoire was encoded by the most sinister warlock. He used it to bind the mists and use them as a weapon.\n\nReading this will teach you the paragon thaumaturgy spell 'Vitality'."
+	end
+end
+
+object spbEnlightenment of Spellbook
+	properties
+		special
+		name "Grimoire: Enlightenment"
+		color 43
+		value 20000000
+	end
+
+	base teach
+		spell 149
+	end
+
+	base described
+		text "This grimoire was encoded by the most sinister warlock. He used it to bind the mists and use them as a weapon.\n\nReading this will teach you the paragon thaumaturgy spell 'Enlightenment'."
+		shopText "This grimoire was encoded by the most sinister warlock. He used it to bind the mists and use them as a weapon.\n\nReading this will teach you the paragon thaumaturgy spell 'Enlightenment'."
+	end
+end
+
+object spbImpInvulnerability of Spellbook
+	properties
+		special
+		name "Grimoire: Invulnerability"
+		color 43
+		value 20000000
+	end
+
+	base teach
+		spell 153
+	end
+
+	base described
+		text "This grimoire was encoded by the most sinister warlock. He used it to bind the mists and use them as a weapon.\n\nReading this will teach you the paragon thaumaturgy spell 'Enlightenment'."
+		shopText "This grimoire was encoded by the most sinister warlock. He used it to bind the mists and use them as a weapon.\n\nReading this will teach you the paragon thaumaturgy spell 'Enlightenment'."
+	end
+end
+
+object spbSummonMist of Spellbook
+	properties
+		special
+		name "Grimoire: Summon Mist"
+		color 43
+		value 20000000
+	end
+
+	base teach
+		spell 152
+	end
+
+	base described
+		text "This grimoire was encoded by the most sinister warlock. He used it to bind the mists and use them as a weapon.\n\nReading this will teach you the paragon mysticism spell 'Summon the Mist'."
+		shopText "This grimoire was encoded by the most sinister warlock. He used it to bind the mists and use them as a weapon.\n\nReading this will teach you the paragon mysticism spell 'Summon the Mist'."
+	end
+end
+
+object spbDamnation of Spellbook
+	properties
+		special
+		name "Spellbook of Damnation"
+		value 700
+	end
+
+	base teach
+		spell 154
+	end
+
+	base described
+		text "This book will teach you the master necromancy spell 'Damnation'."
+		shopText "This book will teach you the master necromancy spell 'Damnation'."
+	end
+end
 
 
 

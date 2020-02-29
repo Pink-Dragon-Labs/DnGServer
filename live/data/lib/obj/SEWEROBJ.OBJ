@@ -440,21 +440,14 @@ object sEnchant of Scroll
 		name "Scroll of Enchant
 		value 1000
 	end
-
+ 
 	base use
 		spell 21
-		spell 33
-		spell 21
-		spell 35
-		spell 21
-		spell 133
-		spell 21
-		spell 34
 	end
 
 	base described
-		idText "You see a scroll of Greater Identify.  Reading this scroll will give you extensive knowledge of items."
-		shopText "Read this scroll and you will gain complete knowledge of an item you have with you!"
+		idText "You see a scroll of Enchantment.  Reading this scroll will allow you to affix a permanent spell onto an item."
+		shopText "You see a scroll of Enchantment.  Reading this scroll will allow you to affix a permanent spell onto an item."
 	end
 end
 #-------------------------------------------
@@ -474,13 +467,6 @@ object oEnchanta of Orb
 	base use
 		useCost 1
 		spell 21
-		spell 33
-		spell 21
-		spell 35
-		spell 21
-		spell 133
-		spell 21
-		spell 34
 	end
 end
 #---------------------------------Exp Chairs

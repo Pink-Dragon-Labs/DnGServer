@@ -1,0 +1,353 @@
+#level 1 Round Shields Built by Joe on 2/27/2020#
+
+object RustyRoundShield of RoundShield
+	properties
+		special
+        name "Rusty Round Shield"
+		value 90
+		health 140
+		color 104
+		strength 2
+        level 1
+		# add rust weakness
+		affect 11 3 0 -1
+	end
+
+	base carryable
+		weight 11.0
+	end
+
+	components
+		IronBar
+		IronBar
+		IronBar
+	end
+
+	base described
+		text "You see a plain rusty iron round shield."
+		shopText "Here is a simple and inexpensive rusty iron shield."
+	end
+end
+
+#level 20
+
+object TarnishedRoundShield of RoundShield
+	properties
+        special
+		name "Tarnished Round Shield"
+		value 300
+		health 200
+		color 99
+		strength 2
+        level 20
+	end
+
+	base carryable
+		weight 8.5
+	end
+
+	components
+		SteelBar
+		SteelBar
+	end
+
+	base described
+		text "You see a tarnished steel round shield."
+		shopText "Here is a sturdy shield made of tarnished steel."
+	end
+end
+
+#level 40
+
+object DentedRoundShield of RoundShield
+	properties
+        special
+		name "Dented Round Shield"
+		value 750
+		health 300
+		color 100
+		strength 3
+        level 40
+	end
+
+	base carryable
+		weight 10.0
+	end
+
+	components
+		TemperedSteelBar
+		TemperedSteelBar
+	end
+
+	base described
+		text "You see a dented tempered-steel round shield."
+		shopText "This shield has been made of the finest dented tempered-steel."
+	end
+end
+
+#level 60
+
+object ShinyRoundShield of RoundShield
+	properties
+        special
+		name "Shiny Round Shield"
+		value 3000
+		health 350
+		color 83
+		strength 3
+        level 60
+	end
+
+	base carryable
+		weight 7.5
+	end
+
+	components
+		MythrilBar
+		MythrilBar
+	end
+
+	base described
+		text "You see a fine round shield made of shiny mythril."
+		shopText "Here is a beautiful and light round shield made from shiny mythril."
+	end
+end
+
+#level 80
+
+object FineRoundShield of RoundShield
+	properties
+        special
+		name "Fine Round Shield"
+		value 7000
+		health 550
+		color 98
+		strength 4
+        level 80
+	end
+
+	base carryable
+		weight 15.0
+	end
+
+	components
+		ObsidianiteBar
+		ObsidianiteBar
+		ObsidianiteBar
+	end
+
+	base described
+		text "You see an fine obsidianite round shield."
+		shopText "Here is a beautiful shield constructed of fine obsidianite."
+	end
+end
+
+# level 100
+
+object PristineRoundShield of RoundShield
+	properties
+        special
+		name "Pristine Round Shield"
+		value 15000
+		health 750
+		color 54
+		strength 5
+        level 100
+	end
+
+	base carryable
+		weight 20.0
+	end
+
+	components
+		AdmantiumBar
+		AdmantiumBar
+		AdmantiumBar
+		AdmantiumBar
+	end
+
+	base described
+		text "You see an pristine admantium round shield."
+		shopText "This round shield is practically indestructable."
+	end
+end
+
+#level 1
+
+object RustyLargeShield of LargeShield
+	properties
+        special
+		name "Rusty Tower Shield"
+		value 130
+		health 180
+		color 104
+		strength 2
+        level 1
+		# add rust weakness
+		affect 11 3 0 -1
+	end
+
+	base carryable
+		weight 16.5
+	end
+
+	components
+		IronBar
+		IronBar
+		IronBar
+		IronBar
+	end
+
+	base described
+		text "You see an rusty iron tower shield."
+		shopText "Here is an inexpensive tower shield constructed from rusty iron."
+	end
+end
+
+#level 20
+
+object TarnishedLargeShield of LargeShield
+	properties
+        special
+		name "Tarnished Tower Shield"
+		value 450
+		health 260
+		color 99
+		strength 2
+        level 20
+	end
+
+	base carryable
+		weight 13.0
+	end
+
+	components
+		SteelBar
+		SteelBar
+		SteelBar
+	end
+
+	base described
+		text "You see a tarnished steel tower shield."
+		shopText "Here is a sturdy tower shield made of tarnished steel."
+	end
+end
+
+#level 40
+object DentedSteelLargeShield of LargeShield
+	properties
+        special
+		name "Dented Tower Shield"
+		value 1100
+		health 400
+		color 100
+		strength 3
+        level 40
+	end
+
+	base carryable
+		weight 14.0
+	end
+
+	components
+		TemperedSteelBar
+		TemperedSteelBar
+		TemperedSteelBar
+	end
+
+	base described
+		text "You see a dented tempered-steel tower shield."
+		shopText "This tower shield has been made of the finest dented tempered-steel."
+	end
+end
+
+#level 60
+
+object ShinyLargeShield of LargeShield
+	properties
+        special
+		name "Shiny Tower Shield"
+		value 4000
+		health 500
+		color 83
+		strength 3
+        level 60
+	end
+
+	base carryable
+		weight 11.0
+	end
+
+	components
+		MythrilBar
+		MythrilBar
+		MythrilBar
+	end
+
+	base described
+		text "You see a fine tower shield made of shiny mythril."
+		shopText "This tower shield is extremely light because it has been made of shiny mythril."
+	end
+end
+
+#level 80
+
+object FineLargeShield of LargeShield
+	properties
+        special
+		name "Fine Tower Shield"
+		value 9000
+		health 700
+		color 98
+		strength 4
+        level 80
+	end
+
+	base carryable
+		weight 19.0
+	end
+
+	components
+		ObsidianiteBar
+		ObsidianiteBar
+		ObsidianiteBar
+		ObsidianiteBar
+	end
+
+	base described
+		text "You see an fine obsidianite tower shield."
+		shopText "This huge shield is constructed of fine  obsidianite."
+	end
+end
+
+#level 100
+
+object PristineLargeShield of LargeShield
+	properties
+        special
+		name "Pristine Tower Shield"
+		value 19500
+		health 1000
+		color 54
+		strength 5
+        level 100
+	end
+
+	base carryable
+		weight 27.0
+	end
+
+	components
+		AdmantiumBar
+		AdmantiumBar
+		AdmantiumBar
+		AdmantiumBar
+		AdmantiumBar
+		AdmantiumBar
+	end
+
+	base described
+		text "You see an pristine admantium tower shield."
+		shopText "This huge shield weighs a ton but will stop any weapon made."
+	end
+end

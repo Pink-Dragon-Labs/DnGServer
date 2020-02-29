@@ -304,6 +304,91 @@ object Bunny of NPC
 	  text "You see a bunny... staple of the diets of many in The Realm."
 	end
 end
+
+object GreyBunny of Bunny
+	properties
+		clutStart -1
+		color 120
+	end
+end
+
+object BrownBunny of Bunny
+	properties
+		clutStart -1
+		color 121
+	end
+end
+
+object PinkBunny of Bunny
+	properties
+		clutStart -1
+		color 122
+	end
+end
+
+object BlueBunny of Bunny
+	properties
+		clutStart -1
+		color 123
+	end
+end
+
+object Squirrel of NPC
+        properties
+            name "Squirrel"
+            view 30050
+            alignment 128
+
+            level 1
+
+            dexterity 20
+            endurance 8
+            intelligence 2
+
+            minDamage 1
+            maxDamage 6
+
+            ## do normal damage by default
+            affect 0 0 0 -1
+
+            soundGroup 10
+            quickness 10
+            treasure 0
+
+            damageType 0
+            armorType 0
+        end
+
+        base container
+            object RandomMonsterRing
+        end
+
+        base character
+            ## unarmed combat familiar
+            skill 7 1
+
+            ## familiar at acrobatics
+            skill 9 1
+        end
+
+        base described
+            text "You see a cute grey squirrel."
+        end
+end
+
+object GreySquirrel of Squirrel
+        properties
+            name "Grey Squirrel"
+            clutStart -1
+        end
+        base npc
+            code mouse
+        end
+        base described
+            text "You see a cute grey squirrel."
+        end
+end
+
 #################################
 #								#
 #								#

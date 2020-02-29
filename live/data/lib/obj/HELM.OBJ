@@ -1070,7 +1070,6 @@ object Hood of Clothing
 		shopText "A cloth hood. Not bad. Can you get more of these?"
 	end
 end
-
 #-------------------- Hood Magical --------------------
 object ShiftHood of Clothing
 	properties
@@ -3120,11 +3119,187 @@ object maHopliteF of IronMinervaHelmet
     end
 end
 #------------------------------------------
+object CastleHelm of Helmet
+	properties
+		name "Castle Helmet"
+		view 35750
+		health 130
+		color -1
+		strength 1
+		armor 80
+	end
 
+	base carryable
+		weight 8
+	end
+
+	components
+		# alchemy
+		SweatBar 	#5000
+		SweatBar 	#5000
+		SweatBar 	#5000
+		SweatBar 	#5000
+		SweatBar 	#5000
+		SweatBar 	#5000
+		SweatBar 	#5000
+		DaemonTooth	#2000
+		DaemonTooth	#2000
+		ObsidianDust 	# 750
+		ObsidianDust 	# 750
+		ObsidianDust 	# 750
+		Silverthorn	# 225
+		Silverthorn	# 225
+		AmberRod	# 200
+		AmberRod	# 200
+		Goldenberries	#  80
+		Goldenberries	#  80
+		#--------------------
+		#Total 		42260 gold
+	end
+
+	base described
+		text "You see a sturdy helmet."
+		idText "You see a sturdy helmet.\n\n"
+		shopText "A standard helmet. Inexpensive and better than nothing. The perfect choice for the beginning adventurer."
+	end
+end
 #------------------------------------------
+object PharoahHelm of Helmet
+	properties
+		name "Pharoah Helmet"
+		view 35850
+		health 130
+		color -1
+		strength 1
+		armor 80
+	end
 
+	base carryable
+		weight 8
+	end
+
+	components
+		# alchemy
+		SweatBar 	#5000
+		SweatBar 	#5000
+		SweatBar 	#5000
+		SweatBar 	#5000
+		SweatBar 	#5000
+		SweatBar 	#5000
+		SweatBar 	#5000
+		DaemonTooth	#2000
+		DaemonTooth	#2000
+		ObsidianDust 	# 750
+		ObsidianDust 	# 750
+		ObsidianDust 	# 750
+		Silverthorn	# 225
+		Silverthorn	# 225
+		AmberRod	# 200
+		AmberRod	# 200
+		Goldenberries	#  80
+		Goldenberries	#  80
+		#--------------------
+		#Total 		42260 gold
+	end
+
+	base described
+		text "You see a sturdy helmet."
+		idText "You see a sturdy helmet.\n\n"
+		shopText "A standard helmet. Inexpensive and better than nothing. The perfect choice for the beginning adventurer."
+	end
+end
 #------------------------------------------
+object AquaHelm of Helmet
+	properties
+		name "Aqua Helmet"
+		view 17001
+		health 130
+		color -1
+		strength 1
+		armor 80
+	end
 
+	base carryable
+		weight 8
+	end
+
+	components
+		# alchemy
+		SweatBar 	#5000
+		SweatBar 	#5000
+		SweatBar 	#5000
+		SweatBar 	#5000
+		SweatBar 	#5000
+		SweatBar 	#5000
+		SweatBar 	#5000
+		DaemonTooth	#2000
+		DaemonTooth	#2000
+		ObsidianDust 	# 750
+		ObsidianDust 	# 750
+		ObsidianDust 	# 750
+		Silverthorn	# 225
+		Silverthorn	# 225
+		AmberRod	# 200
+		AmberRod	# 200
+		Goldenberries	#  80
+		Goldenberries	#  80
+		#--------------------
+		#Total 		42260 gold
+	end
+
+	base described
+		text "You see a sturdy helmet."
+		idText "You see a sturdy helmet.\n\n"
+		shopText "A standard helmet. Inexpensive and better than nothing. The perfect choice for the beginning adventurer."
+	end
+end
 #------------------------------------------
+object SkullHood of Clothing
+	properties
+		# Hood Skull Version
+		view 17051
+		name "Skull Hood"
+		clutStart 63
+		color -1
+		armorFlat 10
+	end
 
+	base carryable
+		weight 3
+	end
+
+	base wearable
+		areaWorn 0
+	end
+
+	components
+		# alchemy
+		SweatBar 	#5000
+		SweatBar 	#5000
+		SweatBar 	#5000
+		SweatBar 	#5000
+		SweatBar 	#5000
+		SweatBar 	#5000
+		SweatBar 	#5000
+		DaemonTooth	#2000
+		DaemonTooth	#2000
+		ObsidianDust 	# 750
+		ObsidianDust 	# 750
+		ObsidianDust 	# 750
+		Silverthorn	# 225
+		Silverthorn	# 225
+		AmberRod	# 200
+		AmberRod	# 200
+		Goldenberries	#  80
+		Goldenberries	#  80
+		#--------------------
+		#Total 		42260 gold
+	end
+
+	base described
+		text "You see a cloth hood with an attached skull.. wonder who that belonged to."
+		idText "You see a cloth hood with an attached skull, perfect for concealing one's identity and persuading the locals.\n\n"
+		shopText "You see a cloth hood with an attached skull, perfect for concealing one's identity and persuading the locals.\n\n"
+	end
+end
 #------------------------------------------

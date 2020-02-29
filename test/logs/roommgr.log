@@ -4078,3 +4078,335 @@ Sat Feb  1 12:15:25 2020: ILLEGAL: got message 16777472 of 33620758 on handle 5
 Sat Feb  1 12:15:25 2020: ILLEGAL: got message 16777472 of 33620758 on handle 5
 Sat Feb  1 12:15:29 2020: ILLEGAL: got message 1414012975 of 542393671 on handle 5
 Sat Feb  1 12:15:29 2020: ILLEGAL: got message 1953902383 of 542393671 on handle 5
+Mon Feb  3 15:38:44 2020: ***************** START LOG *****************
+Mon Feb  3 15:38:44 2020: ILLEGAL: got message 406 of 66326 on handle 5
+Mon Feb  3 15:38:44 2020: ILLEGAL: got message 406 of 66326 on handle 5
+Mon Feb  3 15:38:45 2020: ILLEGAL: got message 1414012975 of 542393671 on handle 5
+Mon Feb  3 15:38:45 2020: ILLEGAL: got message 845229871 of 542393671 on handle 5
+Mon Feb  3 15:38:45 2020: ILLEGAL: got message 406 of 66326 on handle 5
+Mon Feb  3 15:38:46 2020: ILLEGAL: got message 1953902383 of 542393671 on handle 5
+Fri Feb  7 23:15:27 2020: ***************** START LOG *****************
+Fri Feb  7 23:15:27 2020: signal 123 caught
+Fri Feb  7 23:15:27 2020: Saving Characters.
+Fri Feb  7 23:15:27 2020: writing character Zach
+Fri Feb  7 23:15:27 2020: Saving Houses.
+Fri Feb  7 23:15:27 2020: Closing all the open data manager messages.
+Fri Feb  7 23:15:27 2020: server dump completed...
+Fri Feb  7 23:16:50 2020: ***************** START LOG *****************
+Fri Feb  7 23:16:50 2020: signal 11 caught
+Fri Feb  7 23:16:50 2020: Saving Characters.
+Fri Feb  7 23:16:50 2020: writing character Zach
+Fri Feb  7 23:16:50 2020: Saving Houses.
+Fri Feb  7 23:16:50 2020: Closing all the open data manager messages.
+Fri Feb  7 23:16:50 2020: server dump completed...
+Fri Feb  7 23:29:15 2020: ***************** START LOG *****************
+Fri Feb  7 23:29:15 2020: signal 123 caught
+Fri Feb  7 23:29:15 2020: Saving Characters.
+Fri Feb  7 23:29:15 2020: writing character Zach
+Fri Feb  7 23:29:15 2020: Saving Houses.
+Fri Feb  7 23:29:15 2020: Closing all the open data manager messages.
+Fri Feb  7 23:29:15 2020: server dump completed...
+Fri Feb  7 23:38:55 2020: ***************** START LOG *****************
+Fri Feb  7 23:38:55 2020: signal 123 caught
+Fri Feb  7 23:38:55 2020: Saving Characters.
+Fri Feb  7 23:38:55 2020: writing character Zach
+Fri Feb  7 23:38:55 2020: Saving Houses.
+Fri Feb  7 23:38:55 2020: Closing all the open data manager messages.
+Fri Feb  7 23:38:55 2020: server dump completed...
+Fri Feb  7 23:49:38 2020: ***************** START LOG *****************
+Fri Feb  7 23:49:38 2020: signal 123 caught
+Fri Feb  7 23:49:38 2020: Saving Characters.
+Fri Feb  7 23:49:38 2020: writing character Zach
+Fri Feb  7 23:49:38 2020: Saving Houses.
+Fri Feb  7 23:49:38 2020: Closing all the open data manager messages.
+Fri Feb  7 23:49:38 2020: server dump completed...
+Tue Feb 11 06:05:49 2020: ***************** START LOG *****************
+Tue Feb 11 06:05:49 2020: signal 123 caught
+Tue Feb 11 06:05:49 2020: Saving Characters.
+Tue Feb 11 06:05:49 2020: writing character Zach
+Tue Feb 11 06:05:49 2020: Saving Houses.
+Tue Feb 11 06:05:49 2020: Closing all the open data manager messages.
+Tue Feb 11 06:05:49 2020: server dump completed...
+Tue Feb 11 07:48:47 2020: ***************** START LOG *****************
+Tue Feb 11 07:48:47 2020: /home/realm/cmake/source/global/tools.cpp(158): OpenPortTCP: bind call failed (handle == 3, errno == 98)
+Tue Feb 11 07:48:47 2020: /home/realm/cmake/source/global/tools.cpp(165): OpenPortTCP: listen call failed (handle == -1, errno == 9)
+Tue Feb 11 07:49:06 2020: ***************** START LOG *****************
+Tue Feb 11 07:49:06 2020: signal 123 caught
+Tue Feb 11 07:49:06 2020: Saving Characters.
+Tue Feb 11 07:49:06 2020: writing character Zach
+Tue Feb 11 07:49:06 2020: Saving Houses.
+Tue Feb 11 07:49:06 2020: Closing all the open data manager messages.
+Tue Feb 11 07:49:06 2020: server dump completed...
+Tue Feb 11 07:52:00 2020: ***************** START LOG *****************
+Tue Feb 11 07:52:00 2020: signal 123 caught
+Tue Feb 11 07:52:00 2020: Saving Characters.
+Tue Feb 11 07:52:00 2020: writing character Zach
+Tue Feb 11 07:52:00 2020: Saving Houses.
+Tue Feb 11 07:52:00 2020: Closing all the open data manager messages.
+Tue Feb 11 07:52:00 2020: server dump completed...
+Tue Feb 11 07:55:06 2020: ***************** START LOG *****************
+Tue Feb 11 07:55:06 2020: signal 123 caught
+Tue Feb 11 07:55:06 2020: Saving Characters.
+Tue Feb 11 07:55:06 2020: writing character Zach
+Tue Feb 11 07:55:06 2020: Saving Houses.
+Tue Feb 11 07:55:06 2020: Closing all the open data manager messages.
+Tue Feb 11 07:55:06 2020: server dump completed...
+Tue Feb 11 08:04:39 2020: ***************** START LOG *****************
+Tue Feb 11 08:04:39 2020: signal 123 caught
+Tue Feb 11 08:04:39 2020: Saving Characters.
+Tue Feb 11 08:04:39 2020: writing character Zach
+Tue Feb 11 08:04:39 2020: Saving Houses.
+Tue Feb 11 08:04:39 2020: Closing all the open data manager messages.
+Tue Feb 11 08:04:39 2020: server dump completed...
+Tue Feb 11 13:54:52 2020: ***************** START LOG *****************
+Tue Feb 11 13:54:52 2020: signal 123 caught
+Tue Feb 11 13:54:52 2020: Saving Characters.
+Tue Feb 11 13:54:52 2020: writing character Zach
+Tue Feb 11 13:54:52 2020: Saving Houses.
+Tue Feb 11 13:54:52 2020: Closing all the open data manager messages.
+Tue Feb 11 13:54:52 2020: server dump completed...
+Tue Feb 11 14:00:09 2020: ***************** START LOG *****************
+Tue Feb 11 14:00:09 2020: signal 123 caught
+Tue Feb 11 14:00:09 2020: Saving Characters.
+Tue Feb 11 14:00:09 2020: writing character Password
+Tue Feb 11 14:00:09 2020: Saving Houses.
+Tue Feb 11 14:00:09 2020: writing house password
+Tue Feb 11 14:00:09 2020: Closing all the open data manager messages.
+Tue Feb 11 14:00:09 2020: server dump completed...
+Tue Feb 11 14:20:09 2020: ***************** START LOG *****************
+Tue Feb 11 14:20:09 2020: signal 123 caught
+Tue Feb 11 14:20:09 2020: Saving Characters.
+Tue Feb 11 14:20:09 2020: writing character Fucker
+Tue Feb 11 14:20:09 2020: Saving Houses.
+Tue Feb 11 14:20:09 2020: writing house fucker
+Tue Feb 11 14:20:09 2020: Closing all the open data manager messages.
+Tue Feb 11 14:20:09 2020: server dump completed...
+Tue Feb 11 22:45:04 2020: ***************** START LOG *****************
+Tue Feb 11 22:45:04 2020: signal 123 caught
+Tue Feb 11 22:45:04 2020: Saving Characters.
+Tue Feb 11 22:45:04 2020: writing character Zach
+Tue Feb 11 22:45:04 2020: Saving Houses.
+Tue Feb 11 22:45:04 2020: writing house zach
+Tue Feb 11 22:45:04 2020: Closing all the open data manager messages.
+Tue Feb 11 22:45:04 2020: server dump completed...
+Tue Feb 11 22:45:28 2020: ***************** START LOG *****************
+Tue Feb 11 22:45:28 2020: "../data/lib/obj/CustomTreasureTables.obj.tok", line 459: 'bCarry' is not a valid class name
+Tue Feb 11 22:45:59 2020: ***************** START LOG *****************
+Tue Feb 11 22:45:59 2020: "../data/lib/obj/CustomTreasureTables.obj.tok", line 460: 'TatteredClothHood' is not a valid class name
+Tue Feb 11 22:48:36 2020: ***************** START LOG *****************
+Tue Feb 11 22:48:36 2020: "../data/lib/obj/NG_ITEMS.OBJ.tok", line 2063: 'RaggedClothHood' is not a valid class
+Tue Feb 11 22:49:35 2020: ***************** START LOG *****************
+Tue Feb 11 22:49:35 2020: "../data/lib/world/D_TROLL_SPIT_CELLAR.WLD.tok", line 47: 'SpitTavernKey' is an unknown super-object
+Tue Feb 11 22:49:35 2020: fatal error:  zone::parse Invalid World File 
+Tue Feb 11 22:49:35 2020: signal 123 caught
+Tue Feb 11 22:49:35 2020: Saving Characters.
+Tue Feb 11 22:49:35 2020: Saving Houses.
+Tue Feb 11 22:49:35 2020: Closing all the open data manager messages.
+Tue Feb 11 22:49:35 2020: server dump completed...
+Tue Feb 11 22:50:24 2020: ***************** START LOG *****************
+Tue Feb 11 22:50:24 2020: "../data/lib/world/D_ZOO.WLD.tok", line 77: 'room' expected.
+Tue Feb 11 22:50:24 2020: fatal error:  zone::parse Invalid World File 
+Tue Feb 11 22:50:24 2020: signal 123 caught
+Tue Feb 11 22:50:24 2020: Saving Characters.
+Tue Feb 11 22:50:24 2020: Saving Houses.
+Tue Feb 11 22:50:24 2020: Closing all the open data manager messages.
+Tue Feb 11 22:50:24 2020: server dump completed...
+Tue Feb 11 22:51:31 2020: ***************** START LOG *****************
+Tue Feb 11 22:51:31 2020: "../data/lib/world/D_ZOO.WLD.tok", line 100: 'ZooTreasure' is an unknown super-object
+Tue Feb 11 22:51:31 2020: fatal error:  zone::parse Invalid World File 
+Tue Feb 11 22:51:31 2020: signal 123 caught
+Tue Feb 11 22:51:31 2020: Saving Characters.
+Tue Feb 11 22:51:31 2020: Saving Houses.
+Tue Feb 11 22:51:31 2020: Closing all the open data manager messages.
+Tue Feb 11 22:51:31 2020: server dump completed...
+Tue Feb 11 22:52:36 2020: ***************** START LOG *****************
+Tue Feb 11 22:52:36 2020: "../data/lib/world/D_ZOO.WLD.tok", line 502: 'endend' is not a valid main block statement
+Tue Feb 11 22:52:36 2020: fatal error:  zone::parse Invalid World File 
+Tue Feb 11 22:52:36 2020: signal 123 caught
+Tue Feb 11 22:52:36 2020: Saving Characters.
+Tue Feb 11 22:52:36 2020: Saving Houses.
+Tue Feb 11 22:52:36 2020: Closing all the open data manager messages.
+Tue Feb 11 22:52:36 2020: server dump completed...
+Tue Feb 11 22:54:25 2020: ***************** START LOG *****************
+Tue Feb 11 22:54:25 2020: "../data/lib/world/D_ZOO.WLD.tok", line 417: 'object' is not a valid main block statement
+Tue Feb 11 22:54:25 2020: fatal error:  zone::parse Invalid World File 
+Tue Feb 11 22:54:25 2020: signal 123 caught
+Tue Feb 11 22:54:25 2020: Saving Characters.
+Tue Feb 11 22:54:25 2020: Saving Houses.
+Tue Feb 11 22:54:25 2020: Closing all the open data manager messages.
+Tue Feb 11 22:54:25 2020: server dump completed...
+Tue Feb 11 22:56:43 2020: ***************** START LOG *****************
+Tue Feb 11 22:56:43 2020: "../data/lib/world/D_ZOO.WLD.tok", line 415: 'object' is not a valid main block statement
+Tue Feb 11 22:56:43 2020: fatal error:  zone::parse Invalid World File 
+Tue Feb 11 22:56:43 2020: signal 123 caught
+Tue Feb 11 22:56:43 2020: Saving Characters.
+Tue Feb 11 22:56:43 2020: Saving Houses.
+Tue Feb 11 22:56:43 2020: Closing all the open data manager messages.
+Tue Feb 11 22:56:43 2020: server dump completed...
+Tue Feb 11 22:57:37 2020: ***************** START LOG *****************
+Tue Feb 11 22:57:37 2020: "../data/lib/world/D_ZOO.WLD.tok", line 415: 'object' is not a valid main block statement
+Tue Feb 11 22:57:37 2020: fatal error:  zone::parse Invalid World File 
+Tue Feb 11 22:57:37 2020: signal 123 caught
+Tue Feb 11 22:57:37 2020: Saving Characters.
+Tue Feb 11 22:57:37 2020: Saving Houses.
+Tue Feb 11 22:57:37 2020: Closing all the open data manager messages.
+Tue Feb 11 22:57:37 2020: server dump completed...
+Tue Feb 11 22:58:53 2020: ***************** START LOG *****************
+Tue Feb 11 22:58:53 2020: "../data/lib/world/D_ZOO.WLD.tok", line 518: 'object' is not a valid main block statement
+Tue Feb 11 22:58:53 2020: fatal error:  zone::parse Invalid World File 
+Tue Feb 11 22:58:53 2020: signal 123 caught
+Tue Feb 11 22:58:53 2020: Saving Characters.
+Tue Feb 11 22:58:53 2020: Saving Houses.
+Tue Feb 11 22:58:53 2020: Closing all the open data manager messages.
+Tue Feb 11 22:58:53 2020: server dump completed...
+Tue Feb 11 23:00:54 2020: ***************** START LOG *****************
+Tue Feb 11 23:00:54 2020: "../data/lib/world/D_ZOO.WLD.tok", line 570: 'objects' is not a valid object specification statement
+Tue Feb 11 23:00:54 2020: fatal error:  zone::parse Invalid World File 
+Tue Feb 11 23:00:54 2020: signal 123 caught
+Tue Feb 11 23:00:54 2020: Saving Characters.
+Tue Feb 11 23:00:54 2020: Saving Houses.
+Tue Feb 11 23:00:54 2020: Closing all the open data manager messages.
+Tue Feb 11 23:00:54 2020: server dump completed...
+Tue Feb 11 23:01:46 2020: ***************** START LOG *****************
+Tue Feb 11 23:01:46 2020: "../data/lib/world/D_ZOO.WLD.tok", line 1076: 'objects' is not a valid room property
+Tue Feb 11 23:01:46 2020: fatal error:  zone::parse Invalid World File 
+Tue Feb 11 23:01:46 2020: signal 123 caught
+Tue Feb 11 23:01:46 2020: Saving Characters.
+Tue Feb 11 23:01:46 2020: Saving Houses.
+Tue Feb 11 23:01:46 2020: Closing all the open data manager messages.
+Tue Feb 11 23:01:46 2020: server dump completed...
+Tue Feb 11 23:02:52 2020: ***************** START LOG *****************
+Tue Feb 11 23:02:52 2020: "../data/lib/world/D_ZOO.WLD.tok", line 1076: 'objects' is not a valid room property
+Tue Feb 11 23:02:52 2020: fatal error:  zone::parse Invalid World File 
+Tue Feb 11 23:02:52 2020: signal 123 caught
+Tue Feb 11 23:02:52 2020: Saving Characters.
+Tue Feb 11 23:02:52 2020: Saving Houses.
+Tue Feb 11 23:02:52 2020: Closing all the open data manager messages.
+Tue Feb 11 23:02:52 2020: server dump completed...
+Tue Feb 11 23:03:04 2020: ***************** START LOG *****************
+Tue Feb 11 23:03:04 2020: "../data/lib/world/D_ZOO.WLD.tok", line 1636: 'object' is not a valid room statement
+Tue Feb 11 23:03:04 2020: fatal error:  zone::parse Invalid World File 
+Tue Feb 11 23:03:04 2020: signal 123 caught
+Tue Feb 11 23:03:04 2020: Saving Characters.
+Tue Feb 11 23:03:04 2020: Saving Houses.
+Tue Feb 11 23:03:04 2020: Closing all the open data manager messages.
+Tue Feb 11 23:03:04 2020: server dump completed...
+Tue Feb 11 23:04:09 2020: ***************** START LOG *****************
+Tue Feb 11 23:04:09 2020: "../data/lib/world/D_ZOO.WLD.tok", line 3622: 'room' expected.
+Tue Feb 11 23:04:09 2020: fatal error:  zone::parse Invalid World File 
+Tue Feb 11 23:04:09 2020: signal 123 caught
+Tue Feb 11 23:04:09 2020: Saving Characters.
+Tue Feb 11 23:04:09 2020: Saving Houses.
+Tue Feb 11 23:04:09 2020: Closing all the open data manager messages.
+Tue Feb 11 23:04:09 2020: server dump completed...
+Tue Feb 11 23:06:26 2020: ***************** START LOG *****************
+Tue Feb 11 23:06:26 2020: "../data/lib/world/D_ZOO.WLD.tok", line 3622: 'room' expected.
+Tue Feb 11 23:06:26 2020: fatal error:  zone::parse Invalid World File 
+Tue Feb 11 23:06:26 2020: signal 123 caught
+Tue Feb 11 23:06:26 2020: Saving Characters.
+Tue Feb 11 23:06:26 2020: Saving Houses.
+Tue Feb 11 23:06:26 2020: Closing all the open data manager messages.
+Tue Feb 11 23:06:26 2020: server dump completed...
+Tue Feb 11 23:08:00 2020: ***************** START LOG *****************
+Tue Feb 11 23:08:00 2020: "../data/lib/world/D_ZOO.WLD.tok", line 3622: 'room' expected.
+Tue Feb 11 23:08:00 2020: fatal error:  zone::parse Invalid World File 
+Tue Feb 11 23:08:00 2020: signal 123 caught
+Tue Feb 11 23:08:00 2020: Saving Characters.
+Tue Feb 11 23:08:00 2020: Saving Houses.
+Tue Feb 11 23:08:00 2020: Closing all the open data manager messages.
+Tue Feb 11 23:08:00 2020: server dump completed...
+Tue Feb 11 23:09:44 2020: ***************** START LOG *****************
+Tue Feb 11 23:09:44 2020: "../data/lib/world/D_ZOO.WLD.tok", line 3622: 'room' expected.
+Tue Feb 11 23:09:44 2020: fatal error:  zone::parse Invalid World File 
+Tue Feb 11 23:09:44 2020: signal 123 caught
+Tue Feb 11 23:09:44 2020: Saving Characters.
+Tue Feb 11 23:09:44 2020: Saving Houses.
+Tue Feb 11 23:09:44 2020: Closing all the open data manager messages.
+Tue Feb 11 23:09:44 2020: server dump completed...
+Tue Feb 11 23:11:01 2020: ***************** START LOG *****************
+Tue Feb 11 23:11:01 2020: "../data/lib/world/D_ZOO.WLD.tok", line 3671: 'Nomad' is an unknown super-object
+Tue Feb 11 23:11:01 2020: fatal error:  zone::parse Invalid World File 
+Tue Feb 11 23:11:01 2020: signal 123 caught
+Tue Feb 11 23:11:01 2020: Saving Characters.
+Tue Feb 11 23:11:01 2020: Saving Houses.
+Tue Feb 11 23:11:01 2020: Closing all the open data manager messages.
+Tue Feb 11 23:11:01 2020: server dump completed...
+Tue Feb 11 23:11:47 2020: ***************** START LOG *****************
+Tue Feb 11 23:11:47 2020: "../data/lib/obj/2020MONSTERS.OBJ.tok", line 248: 'SlimeJ' is an unknown super-object
+Tue Feb 11 23:12:47 2020: ***************** START LOG *****************
+Tue Feb 11 23:12:47 2020: "../data/lib/world/D_ZOO.WLD.tok", line 3671: 'Nomad' is an unknown super-object
+Tue Feb 11 23:12:47 2020: fatal error:  zone::parse Invalid World File 
+Tue Feb 11 23:12:47 2020: signal 123 caught
+Tue Feb 11 23:12:47 2020: Saving Characters.
+Tue Feb 11 23:12:47 2020: Saving Houses.
+Tue Feb 11 23:12:47 2020: Closing all the open data manager messages.
+Tue Feb 11 23:12:47 2020: server dump completed...
+Tue Feb 11 23:14:43 2020: ***************** START LOG *****************
+Tue Feb 11 23:14:43 2020: "../data/lib/world/D_ZOO.WLD.tok", line 3907: can not find owner by the name 'RandomNomad-74086-0'
+Tue Feb 11 23:14:43 2020: fatal error:  zone::parse Invalid World File 
+Tue Feb 11 23:14:43 2020: signal 123 caught
+Tue Feb 11 23:14:43 2020: Saving Characters.
+Tue Feb 11 23:14:43 2020: Saving Houses.
+Tue Feb 11 23:14:43 2020: Closing all the open data manager messages.
+Tue Feb 11 23:14:43 2020: server dump completed...
+Tue Feb 11 23:16:20 2020: ***************** START LOG *****************
+Tue Feb 11 23:16:20 2020: "../data/lib/world/D_ZOO.WLD.tok", line 3907: can not find owner by the name 'RandomNomad-74564'
+Tue Feb 11 23:16:20 2020: fatal error:  zone::parse Invalid World File 
+Tue Feb 11 23:16:20 2020: signal 123 caught
+Tue Feb 11 23:16:20 2020: Saving Characters.
+Tue Feb 11 23:16:20 2020: Saving Houses.
+Tue Feb 11 23:16:20 2020: Closing all the open data manager messages.
+Tue Feb 11 23:16:20 2020: server dump completed...
+Tue Feb 11 23:17:24 2020: ***************** START LOG *****************
+Tue Feb 11 23:17:24 2020: Character 'Zach' unable to load object from root inventory.
+Tue Feb 11 23:17:24 2020: Character 'Zach' unable to load object from root inventory.
+Tue Feb 11 23:17:24 2020: Character 'Zach' unable to load object from root inventory.
+Tue Feb 11 23:17:24 2020: Character 'Zach' unable to load object from root inventory.
+Tue Feb 11 23:17:24 2020: Character 'Zach' unable to load object from root inventory.
+Tue Feb 11 23:17:24 2020: Character 'Zach' unable to load object from root inventory.
+Tue Feb 11 23:17:24 2020: Character 'Zach' unable to load object from root inventory.
+Tue Feb 11 23:17:24 2020: Character 'Zach' unable to load object from root inventory.
+Tue Feb 11 23:17:24 2020: Character 'Zach' unable to load object from root inventory.
+Tue Feb 11 23:17:24 2020: Character 'Zach' unable to load object from root inventory.
+Tue Feb 11 23:17:24 2020: Character 'Zach' unable to load object from root inventory.
+Tue Feb 11 23:17:24 2020: Character 'Zach' unable to load object from root inventory.
+Tue Feb 11 23:17:24 2020: Character 'Zach' unable to load object from root inventory.
+Tue Feb 11 23:21:33 2020: signal 123 caught
+Tue Feb 11 23:21:33 2020: Saving Characters.
+Tue Feb 11 23:21:33 2020: writing character Zach
+Tue Feb 11 23:21:33 2020: Saving Houses.
+Tue Feb 11 23:21:33 2020: Closing all the open data manager messages.
+Tue Feb 11 23:21:33 2020: server dump completed...
+Tue Feb 11 23:23:56 2020: ***************** START LOG *****************
+Tue Feb 11 23:23:56 2020: signal 123 caught
+Tue Feb 11 23:23:56 2020: Saving Characters.
+Tue Feb 11 23:23:56 2020: writing character Zach
+Tue Feb 11 23:23:56 2020: Saving Houses.
+Tue Feb 11 23:23:56 2020: Closing all the open data manager messages.
+Tue Feb 11 23:23:56 2020: server dump completed...
+Tue Feb 11 23:44:44 2020: ***************** START LOG *****************
+Tue Feb 11 23:44:44 2020: signal 123 caught
+Tue Feb 11 23:44:44 2020: Saving Characters.
+Tue Feb 11 23:44:44 2020: writing character Zach
+Tue Feb 11 23:44:44 2020: Saving Houses.
+Tue Feb 11 23:44:44 2020: writing house zach
+Tue Feb 11 23:44:44 2020: Closing all the open data manager messages.
+Tue Feb 11 23:44:44 2020: server dump completed...
+Tue Feb 11 23:47:08 2020: ***************** START LOG *****************
+Tue Feb 11 23:47:08 2020: signal 123 caught
+Tue Feb 11 23:47:08 2020: Saving Characters.
+Tue Feb 11 23:47:08 2020: writing character Zach
+Tue Feb 11 23:47:08 2020: Saving Houses.
+Tue Feb 11 23:47:08 2020: writing house zach
+Tue Feb 11 23:47:08 2020: Closing all the open data manager messages.
+Tue Feb 11 23:47:08 2020: server dump completed...
+Tue Feb 11 23:50:04 2020: ***************** START LOG *****************
+Tue Feb 11 23:50:04 2020: Joe taken by character. Writing character Joe
+Fri Feb 21 23:15:56 2020: ***************** START LOG *****************
+Fri Feb 21 23:15:56 2020: Character 'DD' unable to load object from root inventory.
+Fri Feb 21 23:15:56 2020: Character 'DD' unable to load object from root inventory.
+Fri Feb 21 23:15:56 2020: Character 'DD' unable to load object from root inventory.
+Fri Feb 21 23:19:14 2020: TestGT taken by character. Writing character TestGT
+Sun Feb 23 07:31:06 2020: ***************** START LOG *****************
+Sun Feb 23 07:31:06 2020: ILLEGAL: got message 57386 of 788529155 on handle 5
+Tue Feb 25 05:34:39 2020: ILLEGAL: got message 57386 of 788529155 on handle 5

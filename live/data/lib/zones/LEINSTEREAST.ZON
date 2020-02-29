@@ -8,3 +8,5 @@ maximumObjectAge 0
 allowCombat 0
 homeTown 1
 midiFile 23
+monster Mouse 3
+monster Squirrel 5

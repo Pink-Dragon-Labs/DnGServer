@@ -2166,3 +2166,1976 @@ object GeneralBaldric of Baldric
 		shopText "Whoa, where'd you steal this from?"
 	end
 end
+########SERENIA WEAPONS#######
+# level 1
+object RustyThrowingDagger of ThrowingDagger
+	properties
+		name "Rusty Throwing Dagger"
+		value 100
+		health 140
+		color 104
+		strength 2
+
+		# weak to rust
+		affect 11 3 0 -1
+	end
+
+	base described
+		text "You see a rusty throwing dagger made of iron."
+		shopText "It may be ugly but it is well balanced."
+	end
+
+	base carryable
+		weight 1.0
+	end
+
+	base weapon
+		minDamage 10
+		maxDamage 15
+	end
+
+	components
+		IronBar
+	end
+end
+
+object RustyClaw of Claw
+	properties
+		name "Rusty Claw"
+		value 100
+		health 140
+		color 104
+		strength 1
+
+		# weak to rust
+		affect 11 3 0 -1
+	end
+
+	base described
+		text "You see a crudely fashioned rusty claw made of iron."
+		shopText "This rustyclaw will aid your bare hand combat."
+	end
+
+	base carryable
+		weight 1.0
+	end
+
+	base weapon
+		minDamage 10
+		maxDamage 15
+	end
+
+	components
+		IronBar
+	end
+end
+
+object RustyDagger of Dagger
+	properties
+		name "Rusty Dagger"
+		value 100
+		health 140
+		color 104
+		strength 1
+
+		# weak to rust
+		affect 11 3 0 -1
+	end
+
+	base described
+		text "You see a crudely fashioned dagger made of iron."
+		shopText "This dagger may not be pretty but it will do the job."
+	end
+
+	base carryable
+		weight 1.0
+	end
+
+	base weapon
+		minDamage 10
+		maxDamage 15
+	end
+
+	components
+		IronBar
+	end
+end
+
+object RustyShortSword of ShortSword
+	properties
+		name "Rusty Short Sword"
+		value 100
+		health 160
+		color 104
+		strength 2
+
+		# weak to rust
+		affect 11 3 0 -1
+	end
+
+	base carryable
+		weight 5.0
+	end
+
+	base described
+		text "You see a simple rusty short sword made of iron."
+		shopText "This is a simple rusty iron short sword, a staple weapon of the kingdom army."
+	end
+
+	base weapon
+		minDamage 12
+		maxDamage 18
+	end
+
+	components
+		IronBar
+		IronBar
+	end
+end
+
+object RustyLongSword of LongSword
+	properties
+		name "Rusty Long Sword"
+		health 170
+		value 100
+		color 104
+		strength 2
+
+		# weak to rust
+		affect 11 3 0 -1
+	end
+
+	base carryable
+		weight 8.0
+	end
+
+	base weapon
+		minDamage 15
+		maxDamage 24
+	end
+
+	base described
+		text "You see a crudely crafted rusty iron long sword."
+		shopText "This long sword has been crudely fashioned but will do the job."
+	end
+
+	components
+		IronBar
+		IronBar
+		IronBar
+	end
+end
+
+object RustyBroadSword of BroadSword
+	properties
+		name "Rusty Broad Sword"
+		health 180
+		value 100
+		color 104
+		strength 2
+
+		# weak to rust
+		affect 11 3 0 -1
+	end
+
+	base carryable
+		weight 12.0
+	end
+
+	base weapon
+		minDamage 20
+		maxDamage 25
+	end
+
+	base described
+		text "You see a crudely crafted rusty iron broad sword."
+		shopText "This rusty iron broad sword is cheap and quite deadly.  Just keep it away from water."
+	end
+
+	components
+		IronBar
+		IronBar
+		IronBar
+		IronBar
+	end
+end
+
+object RottenClub of Club
+	properties
+		name "Rotten Cudgel"
+		value 100
+		health 190
+		color 73
+		strength 2
+
+		# clear fire immunity
+		caffect 1
+
+		# weak to fire
+		affect 1 3 0 -1
+
+		# immune to rust
+		affect 11 2 0 -1
+	end
+
+	base carryable
+		weight 15.0
+	end
+
+	base weapon
+		minDamage 22
+		maxDamage 32
+	end
+
+	base described
+		text "You see a rotten wooden club."
+		shopText "Here is a rotten wooden club - cheap, heavy, and effective."
+	end
+
+	components
+		WoodBlock
+		WoodBlock
+		WoodBlock
+		WoodBlock
+	end
+end
+
+object RustyMace of Mace
+	properties
+		name "Rusty Mace"
+		value 100
+		health 200
+		color 104
+		strength 2
+
+		# weak to rust
+		affect 11 3 0 -1
+	end
+
+	base carryable
+		weight 15.0
+	end
+
+	base weapon
+		minDamage 20
+		maxDamage 30
+	end
+
+	base described
+		text "You see a mace made of rusty iron."
+		shopText "This simple mace is made of rusty iron and is quite inexpensive."
+	end
+
+	components
+		IronBar
+		IronBar
+		IronBar
+		IronBar
+		IronBar
+	end
+end
+
+object RustyTwoHandSword of TwoHandSword
+	properties
+		name "Rusty Two-Handed Sword"
+		value 100
+		health 210
+		color 104
+		strength 2
+
+		# weak to rust
+		affect 11 3 0 -1
+	end
+
+	base carryable
+		weight 15.0
+	end
+
+	base described
+		text "You see a poorly crafted two-handed sword made of rusty iron."
+		shopText "This rusty iron two-handed sword is fairly inexpensive and may give your opponent a severe case of lock-jaw."
+	end
+
+	base weapon
+		minDamage 21
+		maxDamage 33
+	end
+
+	components
+		IronBar
+		IronBar
+		IronBar
+		IronBar
+		IronBar
+		IronBar
+	end
+end
+
+object RustyAxe of Axe
+	properties
+		name "Rusty Axe"
+		value 100
+		health 220
+		color 104
+		strength 2
+
+		# weak to rust
+		affect 11 3 0 -1
+	end
+
+	base carryable
+		weight 15.0
+	end
+
+	base weapon
+		minDamage 20
+		maxDamage 40
+	end
+
+	base described
+		text "You see an ugly axe made of rusty iron."
+		shopText "This rusty iron axe has been fashioned with the latest mass-production techniques."
+	end
+
+	components
+		IronBar
+		IronBar
+		IronBar
+		IronBar
+		IronBar
+		IronBar
+		IronBar
+		WoodBlock
+	end
+end
+
+
+object RottenMaul of Maul
+	properties
+		name "Rotten Maul"
+		value 100
+		health 230
+		color 73
+		strength 2
+
+		# clear fire immunity
+		caffect 1
+
+		# weak to fire
+		affect 1 3 0 -1
+
+		# immune to rust
+		affect 11 2 0 -1
+	end
+
+	base carryable
+		weight 15.0
+	end
+
+	base weapon
+		minDamage 22
+		maxDamage 42
+	end
+
+	base described
+		text "You see a simple maul made of wood."
+		shopText "Knock 'em silly with this heavy oaken maul."
+	end
+
+	components
+		WoodBlock
+		WoodBlock
+		WoodBlock
+		WoodBlock
+		WoodBlock
+		WoodBlock
+		WoodBlock
+		WoodBlock
+	end
+end
+# level 25
+object TarnishedThrowingDagger of ThrowingDagger
+	properties
+		name "Tarnished Throwing Dagger"
+	end
+
+	base described
+		text "You see a small, well made throwing dagger."
+		shopText "This dagger has been specially balanced for throwing."
+	end
+
+	base weapon
+		minDamage 8
+		maxDamage 16
+	end
+
+	components
+		SteelBar
+	end
+end
+
+object TarnishedClaw of Claw
+	properties
+		name "Tarnished Claw"
+	end
+
+	base described
+		text "You see a well crafted claw made of tarnished steel."
+		shopText "This fine claw works great in bar brawls."
+	end
+
+	base weapon
+		minDamage 10
+		maxDamage 16
+	end
+
+	components
+		SteelBar
+	end
+end
+
+object TarnishedDagger of Dagger
+	properties
+		name "Steel Dagger"
+	end
+
+	base described
+		text "You see a steel dagger of impressive quality."
+		shopText "Daggers are the weapon of choice for most wizards in this land. They are cheap and easy to use.  A perfect match for our customers who need a simple, yet deadly, weapon."
+	end
+
+	base weapon
+		minDamage 6
+		maxDamage 12
+	end
+
+	components
+		SteelBar
+	end
+end
+
+object TarnishedShortSword of ShortSword
+	properties
+		name "Steel Short Sword"
+	end
+
+	base described
+		text "You see a finely crafted steel short sword."
+		shopText "Short swords are about half the size of a standard long sword and, because they are so light, a skilled swordsman can usually hit first every time when using one."
+	end
+
+	base weapon
+		minDamage 10
+		maxDamage 15
+	end
+
+	components
+		SteelBar
+	end
+end
+
+object TarnishedLongSword of LongSword
+	properties
+		name "Tarnished Long Sword"
+	end
+
+	base described
+		text "You see a finely crafted tarnished steel long sword."
+		shopText "Long swords are quite a popular item.  They are not quite as devastating as the battle axe or two-handed sword but having a lighter weapon has it's advantages when you're on the battlefield."
+	end
+
+	base weapon
+		minDamage 15
+		maxDamage 25
+	end
+
+	components
+		SteelBar
+		SteelBar
+	end
+end
+
+object TarnishedBroadSword of BroadSword
+	properties
+		name "Tarnished Broad Sword"
+	end
+
+	base described
+		text "You see a finely crafted tarnished steel broad sword."
+		shopText "Broad swords are bigger, heavier long swords.  The extra wide blade allows you to slice up even more of your enemy's flesh on each and every stroke.  Of course, being heavier than other long swords makes this weapon harder to manage in a battle."
+	end
+
+	base weapon
+		minDamage 17
+		maxDamage 27
+	end
+
+	components
+		SteelBar
+		SteelBar
+		SteelBar
+	end
+end
+
+object TarnishedClub of Club
+	properties
+		name "Tarnished Club"
+		color 99
+	end
+
+	base described
+		text "You see a high quality tarnished steel-plated club."
+		shopText "For our customers who want the most direct method of making their case clear to opponents, we offer clubs.  Clubs don't do a whole lot of damage but have a good chance to knock a target silly during battle.  Believe you me, you don't want to be at the receiving end of one of these blunt instuments."
+	end
+
+	base weapon
+		minDamage 16
+		maxDamage 26
+	end
+
+	components
+		SteelBar
+		SteelBar
+		SteelBar
+		WoodBlock
+	end
+end
+
+object TarnishedMace of Mace
+	properties
+		name "Tarnished Mace"
+	end
+
+	base described
+		text "You see a finely crafted tarnished steel mace."
+		shopText "Many of our most loyal customers tell us they get the most use out of our maces.  These weapons are most deadly, sometimes stunning it's target on impact."
+	end
+
+	base weapon
+		minDamage 18
+		maxDamage 28
+	end
+
+	components
+		SteelBar
+		SteelBar
+		SteelBar
+		SteelBar
+		WoodBlock
+	end
+end
+
+object TarnishedTwoHandSword of TwoHandSword
+	properties
+		name "Tarnished Two-Handed Sword"
+	end
+
+	base described
+		text "You see a finely crafted two-handed sword made of tarnished steel."
+		shopText "Two-handed swords are the ultimate choice in swords.  Roughly double the size of a common long sword, this monsterous sword will give you the most carnage for your gold.  I only recommend this size of weapon for my strongest customers, however."
+	end
+
+	base weapon
+		minDamage 17
+		maxDamage 34
+	end
+
+	components
+		SteelBar
+		SteelBar
+		SteelBar
+		SteelBar
+	end
+end
+
+object TarnishedAxe of Axe
+	properties
+		name "Tarnished Axe"
+	end
+
+	base described
+		text "You see a finely crafted tarnished steel battle axe."
+		shopText "If you want carnage, get yourself a battle axe.  Second only to the mighty maul, battle axe's are great for chopping your opponents into little bits.  That is, if you can lift it."
+	end
+
+	base weapon
+		minDamage 19
+		maxDamage 38
+	end
+
+	components
+		SteelBar
+		SteelBar
+		SteelBar
+		SteelBar
+		SteelBar
+		WoodBlock
+	end
+end
+
+object TarnishedMaul of Maul
+	properties
+		name "Tarnished Maul"
+		color 99
+	end
+
+	base described
+		text "You see a high quality tarnished steel maul made of steel with an oaken handle."
+		shopText "Mauls are the heaviest bludgeoning weapons in the land.  If you can actually wield one of these weapons -- and hit your opponent, you'll be most devastating."
+	end
+
+	components
+		SteelBar
+		SteelBar
+		SteelBar
+		SteelBar
+		SteelBar
+		SteelBar
+	end
+
+	base weapon
+		minDamage 21
+		maxDamage 42
+	end
+end
+
+# level 50
+object DentedThrowingDagger of ThrowingDagger
+	properties
+		name "Dented Throwing Dagger"
+		value 200
+		health 190
+		color 100
+		strength 2
+	end
+
+	base described
+		text "You see a well crafted throwing dagger made of dented tempered-steel."
+		shopText "This item is guarenteed free of manufacturing defects."
+	end
+
+	components
+		TemperedSteelBar
+	end
+
+	base carryable
+		weight 1.0
+	end
+
+	base weapon
+		minDamage 18
+		maxDamage 28
+	end
+end
+
+object DentedClaw of Claw
+	properties
+		name "Dented Claw"
+		value 250
+		health 220
+		color 100
+		strength 2
+	end
+
+	base described
+		text "You see a well fashioned claw made of dented tempered-steel."
+		shopText "These claws are great for self defense.  They free your hands for other things like casting spells."
+	end
+
+	base carryable
+		weight 1.2
+	end
+
+	components
+		TemperedSteelBar
+	end
+
+	base weapon
+		minDamage 19
+		maxDamage 29
+	end
+end
+
+object DentedDagger of Dagger
+	properties
+		name "Dented Dagger"
+		value 300
+		health 220
+		color 100
+		strength 2
+	end
+
+	base carryable
+		weight 1.5
+	end
+
+	base weapon
+		minDamage 17
+		maxDamage 27
+	end
+
+	components
+		TemperedSteelBar
+	end
+
+	base described
+		text "You see a dented tempered-steel dagger of impressive quality."
+		shopText "This fine dagger has a much stronger blade than normal steel daggers."
+	end
+end
+
+object DentedShortSword of ShortSword
+	properties
+		name "DentedShort Sword"
+		value 350
+		health 265
+		color 100
+		strength 2
+	end
+
+	base carryable
+		weight 5.0
+	end
+
+	base weapon
+		minDamage 20
+		maxDamage 25
+	end
+
+	components
+		TemperedSteelBar
+	end
+
+	base described
+		text "You see a finely crafted tempered-steel short sword."
+		shopText "This is the finest tempered-steel short sword you can buy.  Very sharp and not too heavy."
+	end
+end
+
+object DentedLongSword of LongSword
+	properties
+		name "Dented Long Sword"
+		health 290
+		value 700
+		color 100
+		strength 2
+	end
+
+	base carryable
+		weight 10.0
+	end
+
+	base weapon
+		minDamage 25
+		maxDamage 30
+	end
+
+	components
+		TemperedSteelBar
+		TemperedSteelBar
+	end
+
+	base described
+		text "You see an impressively crafted dented tempered-steel long sword."
+		shopText "This beautiful long sword has been created with loving care.  It is much more durable than a normal steel weapon, but slightly heavier."
+	end
+end
+
+object DentedBroadSword of BroadSword
+	properties
+		name "Dented Broad Sword"
+		value 1000
+		health 315
+		color 100
+		strength 2
+	end
+
+	base carryable
+		weight 13.0
+	end
+
+	base weapon
+		minDamage 27
+		maxDamage 32
+	end
+
+	components
+		TemperedSteelBar
+		TemperedSteelBar
+		TemperedSteelBar
+	end
+
+	base described
+		text "You see an ornate dented tempered-steel broad sword."
+		shopText "This beautiful broad sword is made of finely tempered steel, and should last for a long time."
+	end
+end
+
+object DentedClub of Club
+	properties
+		name "Dented Club"
+		value 1200
+		health 340
+		color 100
+		strength 2
+	end
+
+	base carryable
+		weight 15.0
+	end
+
+	base weapon
+		minDamage 30
+		maxDamage 50
+	end
+
+	components
+		TemperedSteelBar
+		TemperedSteelBar
+		TemperedSteelBar
+		WoodBlock
+	end
+
+	base described
+		text "You see a high quality dented tempered-steel club."
+		shopText "With this fine tempered-steel club you can knock some sense into your opponents.  Quite a bargain, if I may say so myself."
+	end
+end
+
+object DentedMace of Mace
+	properties
+		name "Dented Mace"
+		value 1500
+		health 365
+		color 100
+		strength 2
+	end
+
+	base carryable
+		weight 20.0
+	end
+
+	base weapon
+		minDamage 28
+		maxDamage 48
+	end
+
+	components
+		TemperedSteelBar
+		TemperedSteelBar
+		TemperedSteelBar
+		TemperedSteelBar
+		WoodBlock
+	end
+
+	base described
+		text "You see a finely crafted dented tempered-steel mace."
+		shopText "This mace is a little heavier than the ordinary steel variety, but it can take a lot more abuse (and dish it out, too!)"
+	end
+end
+
+object DentedTwoHandSword of TwoHandSword
+	properties
+		name "Dented Two-Handed Sword"
+		value 1800
+		health 390
+		color 100
+		strength 2
+	end
+
+	base carryable
+		weight 24.0
+	end
+
+	base weapon
+		minDamage 29
+		maxDamage 49
+	end
+
+	components
+		TemperedSteelBar
+		TemperedSteelBar
+		TemperedSteelBar
+		TemperedSteelBar
+		TemperedSteelBar
+	end
+
+	base described
+		text "You see a finely crafted two-handed sword made of dented tempered-steel."
+		shopText "This beautful two-handed sword was made over a hundred years ago, and you can't even tell.  The tempered-steel used in the manufacturing process for this sword makes it extremely durable, and resistant to rust."
+	end
+end
+
+object DentedAxe of Axe
+	properties
+		name "Dented Axe"
+		value 2000
+		health 415
+		color 100
+		strength 2
+	end
+
+	base carryable
+		weight 28.0
+	end
+
+	base weapon
+		minDamage 26
+		maxDamage 46
+	end
+
+	components
+		TemperedSteelBar
+		TemperedSteelBar
+		TemperedSteelBar
+		TemperedSteelBar
+		TemperedSteelBar
+		WoodBlock
+	end
+
+	base described
+		text "You see a finely crafted dented tempered-steel battle axe."
+		shopText "This fine dented tempered-steel axe will most definately intimidate your opponents."
+	end
+end
+
+object DentedMaul of Maul
+	properties
+		name "Dented Maul"
+		value 2400
+		health 440
+		color 100
+		strength 2
+	end
+
+	base carryable
+		weight 34.0
+	end
+
+	base weapon
+		minDamage 24
+		maxDamage 44
+	end
+
+	components
+		TemperedSteelBar
+		TemperedSteelBar
+		TemperedSteelBar
+		TemperedSteelBar
+		TemperedSteelBar
+		TemperedSteelBar
+		TemperedSteelBar
+	end
+
+	base described
+		text "You see a high quality dented tempered-steel maul."
+		shopText "Here is a fine dented tempered-steel maul."
+	end
+end
+#level 75
+object ShinyThrowingDagger of ThrowingDagger
+	properties
+		name "Shiny Throwing Dagger"
+		value 700
+		health 240
+		color 83
+		strength 3
+	end
+
+	base described
+		text "You see a throwing dagger made of shiny mythril."
+		shopText "This beautiful throwing dagger is light and much sturdier than a steel one."
+	end
+
+	base carryable
+		weight 0.3
+	end
+
+	components
+	   MythrilBar
+	end
+
+	base weapon
+		minDamage 30
+		maxDamage 40
+	end
+end
+
+object ShinyClaw of Claw
+	properties
+		name "Shiny Claw"
+		value 900
+		health 250
+		color 83
+		strength 3
+	end
+
+	base described
+		text "You see a sharp claw made of shiny mythril."
+		shopText "This shiny mythril claw will shred through most lighter armors easily."
+	end
+
+	base carryable
+		weight 0.4
+	end
+
+	components
+	   MythrilBar
+	end
+
+	base weapon
+		minDamage 29
+		maxDamage 39
+	end
+end
+
+object ShinyDagger of Dagger
+	properties
+		name "Shiny Dagger"
+		value 1150
+		health 260
+		color 83
+		strength 3
+	end
+
+	base carryable
+		weight 0.5
+	end
+
+	base weapon
+		minDamage 28
+		maxDamage 38
+	end
+
+	components
+	   MythrilBar
+	end
+
+	base described
+		text "You see a shiny mythril dagger of impressive quality."
+		shopText "This fine shiny mythril dagger weighs next to nothing and will stay sharp for many combats."
+	end
+end
+
+object ShinyShortSword of ShortSword
+	properties
+		name "Shiny Short Sword"
+		value 1500
+		health 310
+		color 83
+		strength 3
+	end
+
+	base carryable
+		weight 3.0
+	end
+
+	base weapon
+		minDamage 31
+		maxDamage 41
+	end
+
+	components
+	   MythrilBar
+	end
+
+	base described
+		text "You see a finely crafted shiny mythril short sword."
+		shopText "This beautiful short sword is made of pure shiny mythril, and is almost as light as a dagger."
+	end
+end
+
+object ShinyLongSword of LongSword
+	properties
+		name "ShinyLong Sword"
+		value 2000
+		health 340
+		color 83
+		strength 3
+	end
+
+	base carryable
+		weight 4.0
+	end
+
+	base weapon
+		minDamage 33
+		maxDamage 43
+	end
+
+	components
+	   MythrilBar
+	end
+
+	base described
+		text "You see a finely crafted shiny mythril long sword."
+		shopText "This fine shiny mythril long sword is much lighter and stronger than a steel one.  Unfortunately, the metal is rare so the price is exhorbant."
+	end
+end
+
+object ShinyBroadSword of BroadSword
+	properties
+		name "Shiny Broad Sword"
+		value 2500
+		health 370
+		color 83
+		strength 3
+	end
+
+	base carryable
+		weight 6.0
+	end
+
+	base weapon
+		minDamage 35
+		maxDamage 45
+	end
+
+	components
+	   MythrilBar
+	   MythrilBar
+	end
+
+	base described
+		text "You see a finely crafted shiny mythril broad sword."
+		shopText "This unique shiny mythril broad sword will retain it's sharp edge and bright gleam for quite some time."
+	end
+end
+
+object  ShinyClub of Club
+	properties
+		name "Shiny Club"
+		value 2900
+		health 400
+		color 83
+		strength 3
+	end
+
+	base carryable
+		weight 8.0
+	end
+
+	base weapon
+		minDamage 40
+		maxDamage 60
+	end
+
+	components
+	   MythrilBar
+	   MythrilBar
+	   WoodBlock
+	end
+
+	base described
+		text "You see a high quality shiny mythril-plated club."
+		shopText "This club has been plated with hammered sheets of shiny mythril.  It is somewhat lighter and more durable than a steel club."
+	end
+end
+
+object ShinyMace of Mace
+	properties
+		name "Shiny Mace"
+		value 3300
+		health 430
+		color 83
+		strength 3
+	end
+
+	base carryable
+		weight 10.0
+	end
+
+	base weapon
+		minDamage 38
+		maxDamage 58
+	end
+
+	components
+	   MythrilBar
+	   MythrilBar
+	   WoodBlock
+	end
+
+	base described
+		text "You see a beautiful shining mace made of shiny mythril."
+		shopText "This wonderful shiny mythril mace will surely stun your opponents with it's sheer craftsmanship."
+	end
+end
+
+object ShinyTwoHandSword of TwoHandSword
+	properties
+		name "Shiny Two-Handed Sword"
+		value 4000
+		health 460
+		color 83
+		strength 3
+	end
+
+	base carryable
+		weight 14.0
+	end
+
+	base weapon
+		minDamage 39
+		maxDamage 59
+	end
+
+	components
+	   MythrilBar
+	   MythrilBar
+	   MythrilBar
+	end
+
+	base described
+		text "You see a beautifully crafted two-handed sword made of shiny mythril."
+		shopText "Don't let the lightness of this sword fool you, it is as deadly as it is beautiful."
+	end
+end
+
+object ShinyAxe of Axe
+	properties
+		name "Shiny Axe"
+		value 5000
+		health 490
+		color 83
+		strength 3
+	end
+
+	base carryable
+		weight 17.0
+	end
+
+	base weapon
+		minDamage 37
+		maxDamage 57
+	end
+
+	components
+	   WoodBlock
+	   MythrilBar
+	   MythrilBar
+	   MythrilBar
+	   MythrilBar
+	end
+
+	base described
+		text "You see a finely crafted shiny mythril battle axe."
+		shopText "This dangerous looking axe is made of the purest shiny mythril."
+	end
+end
+
+object ShinyMaul of Maul
+	properties
+		name "Shiny Maul"
+		value 6000
+		health 520
+		color 83
+		strength 3
+	end
+
+	base carryable
+		weight 20.0
+	end
+
+	base weapon
+		minDamage 41
+		maxDamage 61
+	end
+
+	components
+	   MythrilBar
+	   MythrilBar
+	   MythrilBar
+	   MythrilBar
+	end
+
+	base described
+		text "You see a high quality shiny mythril maul."
+		shopText  "This shiny maul is much quicker in combat than steel mauls.  Easier to carry, too."
+	end
+end
+# level 100
+object FineThrowingDagger of ThrowingDagger
+	properties
+		name "Fine Throwing Dagger"
+		value 1200
+		health 280
+		color 98
+		strength 4
+	end
+
+	base described
+		text "You see a fine throwing dagger made of fine obsidianite."
+		shopText "This fine throwing dagger packs a punch and is quite durable."
+	end
+
+	base carryable
+		weight 1.5
+	end
+
+	components
+	   ObsidianiteBar
+	end
+
+	base weapon
+		minDamage 50
+		maxDamage 55
+	end
+end
+
+object FineClaw of Claw
+	properties
+		name "Fine Claw"
+		value 1500
+		health 320
+		color 98
+		strength 4
+	end
+
+	base described
+		text "You see an evil looking claw made of fine obsidianite."
+		shopText "These claws are sharp enough to cut through metal, bone, and flesh."
+	end
+
+	base carryable
+		weight 1.8
+	end
+
+	components
+	   ObsidianiteBar
+	end
+
+	base weapon
+		minDamage 48
+		maxDamage 53
+	end
+end
+
+object Fine Dagger of Dagger
+	properties
+		name "Fine Dagger"
+		value 2000
+		health 340
+		color 98
+		strength 4
+	end
+
+	base carryable
+		weight 2.0
+	end
+
+	base weapon
+		minDamage 49
+		maxDamage 54
+	end
+
+	components
+	   ObsidianiteBar
+	end
+
+	base described
+		text "You see a beautiful fine obsidianite dagger of wonderous quality."
+		shopText "This fine obsidianite dagger can poke a hole through almost any armor."
+	end
+end
+
+object FineShortSword of ShortSword
+	properties
+		name "Fine Short Sword"
+		value 4000
+		health 400
+		color 98
+		strength 4
+	end
+
+	base carryable
+		weight 7.0
+	end
+
+	components
+	   ObsidianiteBar
+	   ObsidianiteBar
+	end
+
+	base weapon
+		minDamage 51
+		maxDamage 61
+	end
+
+	base described
+		text "You see a well crafted obsidianite short sword."
+		shopText "This fine short sword is made of heavy obsidianite alloys."
+	end
+end
+
+object FineLongSword of LongSword
+	properties
+		name "Fine Long Sword"
+		value 6000
+		health 440
+		color 98
+		strength 4
+	end
+
+	base carryable
+		weight 13.0
+	end
+
+	base weapon
+		minDamage 52
+		maxDamage 62
+	end
+
+	components
+	   ObsidianiteBar
+	   ObsidianiteBar
+	   ObsidianiteBar
+	end
+
+	base described
+		text "You see a well crafted obsidianite long sword."
+		shopText "This fine long sword has been crafted of obsidianite alloys.  It is heavy but remarkably sharp."
+	end
+end
+
+object FineBroadSword of BroadSword
+	properties
+		name "Fine Broad Sword"
+		value 9000
+		health 480
+		color 98
+		strength 4
+	end
+
+	base carryable
+		weight 16.0
+	end
+
+	base weapon
+		minDamage 55
+		maxDamage 65
+	end
+
+	components
+	   ObsidianiteBar
+	   ObsidianiteBar
+	   ObsidianiteBar
+	   ObsidianiteBar
+	end
+
+	base described
+		text "You see a broad sword made of heavy fine obsidianite alloy."
+		shopText "This rare obsidianite broad sword will cut through steel like butter."
+	end
+end
+
+object FineClub of Club
+	properties
+		name "Fine Club"
+		value 11000
+		health 520
+		color 98
+		strength 4
+	end
+
+	base carryable
+		weight 18.0
+	end
+
+	base weapon
+		minDamage 56
+		maxDamage 66
+	end
+
+	components
+		ObsidianiteBar
+		ObsidianiteBar
+		ObsidianiteBar
+		ObsidianiteBar
+		Woodblock
+	end
+
+	base described
+		text "You see an fine obsidianite club."
+		shopText "This club is made out of a single chunk of fine obsidianite-steel alloy.  Very heavy but extremely effective if I may say so myself."
+	end
+end
+
+object FineMace of Mace
+	properties
+		name "Fine Mace"
+		value 13000
+		health 560
+		color 98
+		strength 4
+	end
+
+	base carryable
+		weight 23.0
+	end
+
+	base weapon
+		minDamage 57
+		maxDamage 67
+	end
+
+	components
+		ObsidianiteBar
+		ObsidianiteBar
+		ObsidianiteBar
+		ObsidianiteBar
+		ObsidianiteBar
+		WoodBlock
+	end
+
+	base described
+		text "You see a heavy black mace made of fine obsidianite alloys."
+		shopText "With this mace you can effortlessly crack many skulls."
+	end
+end
+
+object FineTwoHandSword of TwoHandSword
+	properties
+		name "Fine Two-Handed Sword"
+		value 15000
+		health 600
+		color 98
+		strength 4
+	end
+
+	base carryable
+		weight 27.0
+	end
+
+	base weapon
+		minDamage 61
+		maxDamage 71
+	end
+
+	components
+	   ObsidianiteBar
+	   ObsidianiteBar
+	   ObsidianiteBar
+	   ObsidianiteBar
+	   ObsidianiteBar
+	   ObsidianiteBar
+	end
+
+	base described
+		text "You see a dangerous looking two-handed sword made of fine obsidianite."
+		shopText "This deadly weapon can only be wielded by the strongest of adventurers.  I can hardly lift it myself."
+	end
+end
+
+object FineAxe of Axe
+	properties
+		name "Fine Axe"
+		value 18000
+		health 660
+		color 98
+		strength 4
+	end
+
+	base carryable
+		weight 33.0
+	end
+
+	base weapon
+		minDamage 62
+		maxDamage 74
+	end
+
+	components
+		ObsidianiteBar
+		ObsidianiteBar
+		ObsidianiteBar
+		ObsidianiteBar
+		ObsidianiteBar
+		ObsidianiteBar
+		ObsidianiteBar
+		WoodBlock
+	end
+
+	base described
+		text "You see a finely crafted fine obsidianite battle axe."
+		shopText "The axe blade has been made of fine obsidianite alloys."
+	end
+end
+
+object FineMaul of Maul
+	properties
+		name "Fine Maul"
+		value 20000
+		health 700
+		color 98
+		strength 4
+	end
+
+	base carryable
+		weight 36.0
+	end
+
+	base weapon
+		minDamage 65
+		maxDamage 78
+	end
+
+	components
+		ObsidianiteBar
+		ObsidianiteBar
+		ObsidianiteBar
+		ObsidianiteBar
+		ObsidianiteBar
+		ObsidianiteBar
+		ObsidianiteBar
+		ObsidianiteBar
+	end
+
+	base described
+		text "You see a high quality fine obsidianite maul."
+		shopText  "If you can pick this fine obsidianite maul up, I'm impressed.  Don't drop it on your foot!"
+	end
+end
+
+# level 125
+object PristineThrowingDagger of ThrowingDagger
+	properties
+		name "Pristine Throwing Dagger"
+		value 1800
+		health 380
+		color 54
+		strength 5
+	end
+
+	base described
+		text "You see a beautiful throwing dagger made of pristine admantium."
+		shopText "This is the best throwing dagger you will ever find, period."
+	end
+
+	base carryable
+		weight 2.3
+	end
+
+	components
+		AdmantiumBar
+	end
+
+	base weapon
+		minDamage 50
+		maxDamage 55
+	end
+end
+
+object PristineClaw of Claw
+	properties
+		name "Pristine Claw"
+		value 2200
+		health 430
+		color 54
+		strength 5
+	end
+
+	base described
+		text "This claw is made of pristine admantium."
+		shopText "This is the finest claw you can buy."
+	end
+
+	base carryable
+		weight 2.8
+	end
+
+	components
+		AdmantiumBar
+	end
+
+	base weapon
+		minDamage 51
+		maxDamage 56
+	end
+end
+
+object PristineDagger of Dagger
+	properties
+		name "Pristine Dagger"
+		value 2500
+		health 460
+		color 54
+		strength 5
+	end
+
+	base carryable
+		weight 3.0
+	end
+
+	base weapon
+		minDamage 52
+		maxDamage 57
+	end
+
+	components
+		AdmantiumBar
+	end
+
+	base described
+		text "You see an pristine admantium dagger of exquisite workmanship."
+		shopText "This is the finest dagger that has ever been made."
+	end
+end
+
+object PristineShortSword of ShortSword
+	properties
+		name "Pristine Short Sword"
+		value 6000
+		health 530
+		color 54
+		strength 5
+	end
+
+	base carryable
+		weight 10.0
+	end
+
+	base weapon
+		minDamage 53
+		maxDamage 59
+	end
+
+	components
+		AdmantiumBar
+		AdmantiumBar
+	end
+
+	base described
+		text "You see a well crafted pristine admantium short sword."
+		shopText "This pristine admantium short sword is extremely durable and heavy."
+	end
+end
+
+object PristineLongSword of LongSword
+	properties
+		name "Pristine Long Sword"
+		value 10000
+		health 580
+		color 54
+		strength 5
+	end
+
+	base carryable
+		weight 15.0
+	end
+
+	base weapon
+		minDamage 54
+		maxDamage 60
+	end
+
+	components
+		AdmantiumBar
+		AdmantiumBar
+		AdmantiumBar
+	end
+
+	base described
+		text "You see an pristine admantium long sword."
+		shopText "This long sword has been crafted from pristine admantium, the heaviest metal known to exist.  It will cut through anything."
+	end
+end
+
+object PristineBroadSword of BroadSword
+	properties
+		name "Pristine Broad Sword"
+		value 15000
+		health 630
+		color 54
+		strength 5
+	end
+
+	base carryable
+		weight 19.0
+	end
+
+	base weapon
+		minDamage 55
+		maxDamage 61
+	end
+
+	components
+		AdmantiumBar
+		AdmantiumBar
+		AdmantiumBar
+		AdmantiumBar
+	end
+
+	base described
+		text "You see a broad sword made of the precious metal pristine admantium."
+		shopText "This rare pristine admantium broad sword will cut through steel like butter."
+	end
+end
+
+object PristineClub of Club
+	properties
+		name "Pristine Club"
+		value 18000
+		health 680
+		color 54
+		strength 5
+	end
+
+	base carryable
+		weight 22.0
+	end
+
+	base weapon
+		minDamage 62
+		maxDamage 82
+	end
+
+	components
+		AdmantiumBar
+		AdmantiumBar
+		AdmantiumBar
+		AdmantiumBar
+		WoodBlock
+	end
+
+	base described
+		text "You see an pristine admantium club."
+		shopText "You don't want to get hit with this, I promise you."
+	end
+end
+
+object PristineMace of Mace
+	properties
+		name "Pristine Mace"
+		value 22000
+		health 730
+		color 54
+		strength 5
+	end
+
+	base carryable
+		weight 25.0
+	end
+
+	base weapon
+		minDamage 63
+		maxDamage 83
+	end
+
+	components
+		AdmantiumBar
+		AdmantiumBar
+		AdmantiumBar
+		AdmantiumBar
+		AdmantiumBar
+		WoodBlock
+	end
+
+	base described
+		text "You see a mace made of heavy pristine admantium metal."
+		shopText "This mace has been craftily constructed from pure pristine admantium."
+	end
+end
+
+object PristineTwoHandSword of TwoHandSword
+	properties
+		name "Pristine Two-Handed Sword"
+		value 26000
+		health 780
+		color 54
+		strength 5
+	end
+
+	base carryable
+		weight 30.0
+	end
+
+	base weapon
+		minDamage 65
+		maxDamage 85
+	end
+
+	components
+		AdmantiumBar
+		AdmantiumBar
+		AdmantiumBar
+		AdmantiumBar
+		AdmantiumBar
+		AdmantiumBar
+	end
+
+	base described
+		text "You see a huge two-handed sword made of pristine admantium.  Wow."
+		shopText "I'll sell this pristine admantium two-handed sword to the first customer that can actually move it off of the table."
+	end
+end
+
+object PristineAxe of Axe
+	properties
+		name "Pristine Axe"
+		value 28500
+		health 850
+		color 54
+		strength 5
+	end
+
+	base carryable
+		weight 35.0
+	end
+
+	base weapon
+		minDamage 68
+		maxDamage 91
+	end
+
+	components
+		AdmantiumBar
+		AdmantiumBar
+		AdmantiumBar
+		AdmantiumBar
+		AdmantiumBar
+		AdmantiumBar
+		AdmantiumBar
+		WoodBlock
+	end
+
+	base described
+		text "You see a finely crafted pristine admantium battle axe."
+		shopText "This is a most deadly weapon."
+	end
+end
+
+object PristineMaul of Maul
+	properties
+		name "Pristine Maul"
+		value 32000
+		health 900
+		color 54
+		strength 5
+	end
+
+	base carryable
+		weight 40.0
+	end
+
+	base weapon
+		minDamage 70
+		maxDamage 95
+	end
+
+	components
+		AdmantiumBar
+		AdmantiumBar
+		AdmantiumBar
+		AdmantiumBar
+		AdmantiumBar
+		AdmantiumBar
+		AdmantiumBar
+		AdmantiumBar
+	end
+
+	base described
+		text "You see a gigantic pristine admantium maul!"
+		shopText  "One blow from this baby would drop a rampaging daemon.  Gotta be strong to use it though."
+	end
+end

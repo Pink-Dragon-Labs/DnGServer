@@ -203,7 +203,7 @@ object AncientSoul of HellSoulA
 		maxDamage 1100
 
 		strength 250
-		endurance 25
+		endurance 11
 		intelligence 175
 		dexterity 20
 
@@ -293,7 +293,7 @@ object EarthSoul of HellSoulB
 		maxDamage 1100
 
 		strength 250
-		endurance 25
+		endurance 11
 		intelligence 175
 		dexterity 20
 
@@ -383,7 +383,7 @@ object FierySoul of HellSoulC
 		maxDamage 1100
 
 		strength 250
-		endurance 25
+		endurance 11
 		intelligence 175
 		dexterity 20
 
@@ -473,7 +473,7 @@ object DemonicSoul of HellSoulD
 		maxDamage 1100
 
 		strength 250
-		endurance 25
+		endurance 11
 		intelligence 175
 		dexterity 20
 
@@ -563,7 +563,7 @@ object GhostSoul of HellSoulE
 		maxDamage 1100
 
 		strength 250
-		endurance 25
+		endurance 11
 		intelligence 175
 		dexterity 20
 
@@ -653,7 +653,7 @@ object RoyalSoul of HellSoulF
 		maxDamage 1100
 
 		strength 250
-		endurance 25
+		endurance 11
 		intelligence 175
 		dexterity 20
 
@@ -743,7 +743,7 @@ object InsaneSoul of HellSoulG
 		maxDamage 1100
 
 		strength 250
-		endurance 25
+		endurance 11
 		intelligence 175
 		dexterity 20
 
@@ -834,7 +834,7 @@ object CorruptSoul of HellSoulH
 		maxDamage 1100
 
 		strength 250
-		endurance 25
+		endurance 11
 		intelligence 175
 		dexterity 20
 
@@ -924,7 +924,7 @@ object CorruptEarthSoul of HellSoulI
 		maxDamage 1100
 
 		strength 250
-		endurance 25
+		endurance 11
 		intelligence 175
 		dexterity 20
 
@@ -1014,7 +1014,7 @@ object HateSoul of HellSoulJ
 		maxDamage 1100
 
 		strength 250
-		endurance 25
+		endurance 11
 		intelligence 175
 		dexterity 20
 
@@ -1104,7 +1104,7 @@ object EternalFlameSoul of HellSoulK
 		maxDamage 1100
 
 		strength 250
-		endurance 25
+		endurance 11
 		intelligence 175
 		dexterity 20
 
@@ -1194,7 +1194,7 @@ object PurgedSoul of HellSoulL
 		maxDamage 1100
 
 		strength 250
-		endurance 25
+		endurance 11
 		intelligence 175
 		dexterity 20
 
@@ -1284,7 +1284,7 @@ object InfantSoul of HellSoulM
 		maxDamage 1100
 
 		strength 250
-		endurance 25
+		endurance 11
 		intelligence 175
 		dexterity 20
 
@@ -1374,7 +1374,7 @@ object HardenedSoul of HellSoulN
 		maxDamage 1100
 
 		strength 250
-		endurance 25
+		endurance 11
 		intelligence 175
 		dexterity 20
 
@@ -1538,6 +1538,1194 @@ object GiantEvilHellSoul of HellSoulH
 
 	base described
 		text "This is a Giant Hell Soul."
+	end
+end
+
+#################################################
+#												#
+#												#
+#												#
+#												#
+#												#
+#												#
+#					Summons						#
+#												#
+#												#
+#												#
+#												#
+#												#
+#												#
+#################################################
+ object SummonAncientSoul of HellSoulA
+	properties
+		special
+		name "Ancient Hell Soul"
+		alignment 0
+
+		minLevel 1000
+		maxLevel 2800
+		minDamage 800
+		maxDamage 1100
+
+		strength 25
+		endurance 11
+		intelligence 15
+		dexterity 20
+
+		soundGroup 7
+		armorType 1
+		damageType 1
+		range 1
+		quickness 12
+		  
+		girth 90
+		height 90
+
+		# affects
+		# do fire damage
+		affect 1 0 0 -1
+
+		# acid damage
+		affect 4 0 0 -1
+
+		# poison damage
+		affect 5 0 0 -1
+
+		# fire immolation
+		affect 23 0 0 -1
+
+		# cold immolation
+		affect 24 0 0 -1
+
+		# lightning immolation
+		affect 27 0 0 -1
+	end
+
+	 
+
+	base character
+		skill 0 5
+		skill 1 5
+		skill 2 5
+		skill 3 5
+		skill 4 5
+		skill 5 5
+		skill 6 5
+		skill 7 5
+		skill 8 5
+		skill 10 5
+		## grand master wiz
+		skill 11 5
+		skill 12 5
+		skill 13 5
+		skill 14 5
+		skill 15 5
+		skill 28 5
+		skill 29 5
+		properName "Ancient Hell Soul"
+	end
+
+	actions
+		vBeBorn changeSpellResistance self 75 2	#75% Resist Myst
+		#  200% SDM to all
+        vBeBorn changeSDM self 200 0 2 1 3 4
+	end
+
+	base npc
+		code tulor
+	end
+	
+	base described
+		text "A Soul escaped from Hell.\n\n 75% Myst Resistance.\n"
+	end
+end
+
+ object SummonEarthSoul of HellSoulB
+	properties
+		special
+		name "Earthen Fury Soul"
+		alignment 0
+
+		minLevel 1000
+		maxLevel 2800
+		minDamage 800
+		maxDamage 1100
+
+		strength 25
+		endurance 11
+		intelligence 15
+		dexterity 20
+
+		soundGroup 7
+		armorType 1
+		damageType 1
+		range 1
+		quickness 12
+		  
+		girth 90
+		height 90
+
+		# affects
+		# do fire damage
+		affect 1 0 0 -1
+
+		# acid damage
+		affect 4 0 0 -1
+
+		# poison damage
+		affect 5 0 0 -1
+
+		# fire immolation
+		affect 23 0 0 -1
+
+		# cold immolation
+		affect 24 0 0 -1
+
+		# lightning immolation
+		affect 27 0 0 -1
+	end
+
+	 
+
+	base character
+		skill 0 5
+		skill 1 5
+		skill 2 5
+		skill 3 5
+		skill 4 5
+		skill 5 5
+		skill 6 5
+		skill 7 5
+		skill 8 5
+		skill 10 5
+		## grand master wiz
+		skill 11 5
+		skill 12 5
+		skill 13 5
+		skill 14 5
+		skill 15 5
+		skill 28 5
+		skill 29 5
+		properName "Earthen Fury Soul"
+	end
+
+	actions
+		vBeBorn changeSpellResistance self 75 2	#75% Resist Myst
+		#  200% SDM to all
+        vBeBorn changeSDM self 200 0 2 1 3 4
+	end
+
+	base npc
+		code tulor
+	end
+	
+	base described
+		text "A Soul escaped from Hell.\n\n 75% Myst Resistance.\n"
+	end
+end
+
+ object SummonFierySoul of HellSoulC
+	properties
+		special
+		name "Fiery Hell Soul"
+		alignment 0
+
+		minLevel 1000
+		maxLevel 2800
+		minDamage 800
+		maxDamage 1100
+
+		strength 25
+		endurance 11
+		intelligence 15
+		dexterity 20
+
+		soundGroup 7
+		armorType 1
+		damageType 1
+		range 1
+		quickness 12
+		  
+		girth 90
+		height 90
+
+		# affects
+		# do fire damage
+		affect 1 0 0 -1
+
+		# acid damage
+		affect 4 0 0 -1
+
+		# poison damage
+		affect 5 0 0 -1
+
+		# fire immolation
+		affect 23 0 0 -1
+
+		# cold immolation
+		affect 24 0 0 -1
+
+		# lightning immolation
+		affect 27 0 0 -1
+	end
+
+	 
+
+	base character
+		skill 0 5
+		skill 1 5
+		skill 2 5
+		skill 3 5
+		skill 4 5
+		skill 5 5
+		skill 6 5
+		skill 7 5
+		skill 8 5
+		skill 10 5
+		## grand master wiz
+		skill 11 5
+		skill 12 5
+		skill 13 5
+		skill 14 5
+		skill 15 5
+		skill 28 5
+		skill 29 5
+		properName "Fiery Hell Soul"
+	end
+
+	actions
+		vBeBorn changeSpellResistance self 75 2	#75% Resist Myst
+		#  200% SDM to all
+        vBeBorn changeSDM self 200 0 2 1 3 4
+	end
+
+	base npc
+		code tulor
+	end
+	
+	base described
+		text "A Soul escaped from Hell.\n\n 75% Myst Resistance.\n"
+	end
+end
+
+ object SummonDemonicSoul of HellSoulD
+	properties
+		special
+		name "Demonic Hell Soul"
+		alignment 0
+
+		minLevel 1000
+		maxLevel 2800
+		minDamage 800
+		maxDamage 1100
+
+		strength 25
+		endurance 11
+		intelligence 15
+		dexterity 20
+
+		soundGroup 7
+		armorType 1
+		damageType 1
+		range 1
+		quickness 12
+		  
+		girth 90
+		height 90
+
+		# affects
+		# do fire damage
+		affect 1 0 0 -1
+
+		# acid damage
+		affect 4 0 0 -1
+
+		# poison damage
+		affect 5 0 0 -1
+
+		# fire immolation
+		affect 23 0 0 -1
+
+		# cold immolation
+		affect 24 0 0 -1
+
+		# lightning immolation
+		affect 27 0 0 -1
+	end
+
+	 
+
+	base character
+		skill 0 5
+		skill 1 5
+		skill 2 5
+		skill 3 5
+		skill 4 5
+		skill 5 5
+		skill 6 5
+		skill 7 5
+		skill 8 5
+		skill 10 5
+		## grand master wiz
+		skill 11 5
+		skill 12 5
+		skill 13 5
+		skill 14 5
+		skill 15 5
+		skill 28 5
+		skill 29 5
+		properName "Demonic Hell Soul"
+	end
+
+	actions
+		vBeBorn changeSpellResistance self 75 2	#75% Resist Myst
+		#  200% SDM to all
+        vBeBorn changeSDM self 200 0 2 1 3 4
+	end
+
+	base npc
+		code tulor
+	end
+	
+	base described
+		text "A Soul escaped from Hell.\n\n 75% Myst Resistance.\n"
+	end
+end
+
+ object SummonGhostSoul of HellSoulE
+	properties
+		special
+		name "Ghost Hell Soul"
+		alignment 0
+
+		minLevel 1000
+		maxLevel 2800
+		minDamage 800
+		maxDamage 1100
+
+		strength 25
+		endurance 11
+		intelligence 15
+		dexterity 20
+
+		soundGroup 7
+		armorType 1
+		damageType 1
+		range 1
+		quickness 12
+		  
+		girth 100
+		height 100
+
+		# affects
+		# do fire damage
+		affect 1 0 0 -1
+
+		# acid damage
+		affect 4 0 0 -1
+
+		# poison damage
+		affect 5 0 0 -1
+
+		# fire immolation
+		affect 23 0 0 -1
+
+		# cold immolation
+		affect 24 0 0 -1
+
+		# lightning immolation
+		affect 27 0 0 -1
+	end
+
+	 
+
+	base character
+		skill 0 5
+		skill 1 5
+		skill 2 5
+		skill 3 5
+		skill 4 5
+		skill 5 5
+		skill 6 5
+		skill 7 5
+		skill 8 5
+		skill 10 5
+		## grand master wiz
+		skill 11 5
+		skill 12 5
+		skill 13 5
+		skill 14 5
+		skill 15 5
+		skill 28 5
+		skill 29 5
+		properName "Ghost Hell Soul"
+	end
+
+	actions
+		vBeBorn changeSpellResistance self 75 2	#75% Resist Myst
+		#  200% SDM to all
+        vBeBorn changeSDM self 200 0 2 1 3 4
+	end
+
+	base npc
+		code tulor
+	end
+	
+	base described
+		text "A Soul escaped from Hell.\n\n 75% Myst Resistance.\n"
+	end
+end
+
+ object SummonRoyalSoul of HellSoulF
+	properties
+		special
+		name "Royal Hell Soul"
+		alignment 0
+
+		minLevel 1000
+		maxLevel 2800
+		minDamage 800
+		maxDamage 1100
+
+		strength 25
+		endurance 11
+		intelligence 15
+		dexterity 20
+
+		soundGroup 7
+		armorType 1
+		damageType 1
+		range 1
+		quickness 12
+		  
+		girth 100
+		height 100
+
+		# affects
+		# do fire damage
+		affect 1 0 0 -1
+
+		# acid damage
+		affect 4 0 0 -1
+
+		# poison damage
+		affect 5 0 0 -1
+
+		# fire immolation
+		affect 23 0 0 -1
+
+		# cold immolation
+		affect 24 0 0 -1
+
+		# lightning immolation
+		affect 27 0 0 -1
+	end
+
+	 
+
+	base character
+		skill 0 5
+		skill 1 5
+		skill 2 5
+		skill 3 5
+		skill 4 5
+		skill 5 5
+		skill 6 5
+		skill 7 5
+		skill 8 5
+		skill 10 5
+		## grand master wiz
+		skill 11 5
+		skill 12 5
+		skill 13 5
+		skill 14 5
+		skill 15 5
+		skill 28 5
+		skill 29 5
+		properName "Royal Hell Soul"
+	end
+
+	actions
+		vBeBorn changeSpellResistance self 75 2	#75% Resist Myst
+		#  200% SDM to all
+        vBeBorn changeSDM self 200 0 2 1 3 4
+	end
+
+	base npc
+		code tulor
+	end
+	
+	base described
+		text "A Soul escaped from Hell.\n\n 75% Myst Resistance.\n"
+	end
+end
+
+ object SummonInsaneSoul of HellSoulG
+	properties
+		special
+		name "Insane Hell Soul"
+		alignment 0
+
+		minLevel 1000
+		maxLevel 2800
+		minDamage 800
+		maxDamage 1100
+
+		strength 25
+		endurance 11
+		intelligence 15
+		dexterity 20
+
+		soundGroup 7
+		armorType 1
+		damageType 1
+		range 1
+		quickness 12
+		  
+		girth 100
+		height 100
+
+		# affects
+		# do fire damage
+		affect 1 0 0 -1
+
+		# acid damage
+		affect 4 0 0 -1
+
+		# poison damage
+		affect 5 0 0 -1
+
+		# fire immolation
+		affect 23 0 0 -1
+
+		# cold immolation
+		affect 24 0 0 -1
+
+		# lightning immolation
+		affect 27 0 0 -1
+	end
+
+	 
+
+	base character
+		skill 0 5
+		skill 1 5
+		skill 2 5
+		skill 3 5
+		skill 4 5
+		skill 5 5
+		skill 6 5
+		skill 7 5
+		skill 8 5
+		skill 10 5
+		## grand master wiz
+		skill 11 5
+		skill 12 5
+		skill 13 5
+		skill 14 5
+		skill 15 5
+		skill 28 5
+		skill 29 5
+		properName "Insane Hell Soul"
+	end
+
+	actions
+		vBeBorn changeSpellResistance self 75 2	#75% Resist Myst
+		#  200% SDM to all
+        vBeBorn changeSDM self 200 0 2 1 3 4
+	end
+
+	base npc
+		code tulor
+	end
+	
+	base described
+		text "A Soul escaped from Hell.\n\n 75% Myst Resistance.\n"
+	end
+end
+
+
+ object SummonCorruptSoul of HellSoulH
+	properties
+		special
+		name "Corrupt Hell Soul"
+		alignment 0
+
+		minLevel 1000
+		maxLevel 2800
+		minDamage 800
+		maxDamage 1100
+
+		strength 25
+		endurance 11
+		intelligence 15
+		dexterity 20
+
+		soundGroup 7
+		armorType 1
+		damageType 1
+		range 1
+		quickness 12
+		  
+		girth 80
+		height 80
+
+		# affects
+		# do fire damage
+		affect 1 0 0 -1
+
+		# acid damage
+		affect 4 0 0 -1
+
+		# poison damage
+		affect 5 0 0 -1
+
+		# fire immolation
+		affect 23 0 0 -1
+
+		# cold immolation
+		affect 24 0 0 -1
+
+		# lightning immolation
+		affect 27 0 0 -1
+	end
+
+	 
+
+	base character
+		skill 0 5
+		skill 1 5
+		skill 2 5
+		skill 3 5
+		skill 4 5
+		skill 5 5
+		skill 6 5
+		skill 7 5
+		skill 8 5
+		skill 10 5
+		## grand master wiz
+		skill 11 5
+		skill 12 5
+		skill 13 5
+		skill 14 5
+		skill 15 5
+		skill 28 5
+		skill 29 5
+		properName "Corrupt Hell Soul"
+	end
+
+	actions
+		vBeBorn changeSpellResistance self 75 2	#75% Resist Myst
+		#  200% SDM to all
+        vBeBorn changeSDM self 200 0 2 1 3 4
+	end
+
+	base npc
+		code tulor
+	end
+	
+	base described
+		text "A Soul escaped from Hell.\n\n 75% Myst Resistance.\n"
+	end
+end
+
+ object SummonCorruptEarthSoul of HellSoulI
+	properties
+		special
+		name "Corrupt Earthen Hell Soul"
+		alignment 0
+
+		minLevel 1000
+		maxLevel 2800
+		minDamage 800
+		maxDamage 1100
+
+		strength 25
+		endurance 11
+		intelligence 15
+		dexterity 20
+
+		soundGroup 7
+		armorType 1
+		damageType 1
+		range 1
+		quickness 12
+		  
+		girth 90
+		height 90
+
+		# affects
+		# do fire damage
+		affect 1 0 0 -1
+
+		# acid damage
+		affect 4 0 0 -1
+
+		# poison damage
+		affect 5 0 0 -1
+
+		# fire immolation
+		affect 23 0 0 -1
+
+		# cold immolation
+		affect 24 0 0 -1
+
+		# lightning immolation
+		affect 27 0 0 -1
+	end
+
+	 
+
+	base character
+		skill 0 5
+		skill 1 5
+		skill 2 5
+		skill 3 5
+		skill 4 5
+		skill 5 5
+		skill 6 5
+		skill 7 5
+		skill 8 5
+		skill 10 5
+		## grand master wiz
+		skill 11 5
+		skill 12 5
+		skill 13 5
+		skill 14 5
+		skill 15 5
+		skill 28 5
+		skill 29 5
+		properName "Corrupt Earthen Hell Soul"
+	end
+
+	actions
+		vBeBorn changeSpellResistance self 75 2	#75% Resist Myst
+		#  200% SDM to all
+        vBeBorn changeSDM self 200 0 2 1 3 4
+	end
+
+	base npc
+		code tulor
+	end
+	
+	base described
+		text "A Soul escaped from Hell.\n\n 75% Myst Resistance.\n"
+	end
+end
+
+ object SummonHateSoul of HellSoulJ
+	properties
+		special
+		name "Hate Filled Soul"
+		alignment 0
+
+		minLevel 1000
+		maxLevel 2800
+		minDamage 800
+		maxDamage 1100
+
+		strength 25
+		endurance 11
+		intelligence 15
+		dexterity 20
+
+		soundGroup 7
+		armorType 1
+		damageType 1
+		range 1
+		quickness 12
+		  
+		girth 90
+		height 90
+
+		# affects
+		# do fire damage
+		affect 1 0 0 -1
+
+		# acid damage
+		affect 4 0 0 -1
+
+		# poison damage
+		affect 5 0 0 -1
+
+		# fire immolation
+		affect 23 0 0 -1
+
+		# cold immolation
+		affect 24 0 0 -1
+
+		# lightning immolation
+		affect 27 0 0 -1
+	end
+
+	 
+
+	base character
+		skill 0 5
+		skill 1 5
+		skill 2 5
+		skill 3 5
+		skill 4 5
+		skill 5 5
+		skill 6 5
+		skill 7 5
+		skill 8 5
+		skill 10 5
+		## grand master wiz
+		skill 11 5
+		skill 12 5
+		skill 13 5
+		skill 14 5
+		skill 15 5
+		skill 28 5
+		skill 29 5
+		properName "Hate Filled Soul"
+	end
+
+	actions
+		vBeBorn changeSpellResistance self 75 2	#75% Resist Myst
+		#  200% SDM to all
+        vBeBorn changeSDM self 200 0 2 1 3 4
+	end
+
+	base npc
+		code tulor
+	end
+	
+	base described
+		text "A Soul escaped from Hell.\n\n 75% Myst Resistance.\n"
+	end
+end
+
+ object SummonEternalFlameSoul of HellSoulK
+	properties
+		special
+		name "Eternal Flame"
+		alignment 0
+
+		minLevel 1000
+		maxLevel 2800
+		minDamage 800
+		maxDamage 1100
+
+		strength 25
+		endurance 11
+		intelligence 15
+		dexterity 20
+
+		soundGroup 7
+		armorType 1
+		damageType 1
+		range 1
+		quickness 12
+		  
+		girth 90
+		height 90
+
+		# affects
+		# do fire damage
+		affect 1 0 0 -1
+
+		# acid damage
+		affect 4 0 0 -1
+
+		# poison damage
+		affect 5 0 0 -1
+
+		# fire immolation
+		affect 23 0 0 -1
+
+		# cold immolation
+		affect 24 0 0 -1
+
+		# lightning immolation
+		affect 27 0 0 -1
+	end
+
+	 
+
+	base character
+		skill 0 5
+		skill 1 5
+		skill 2 5
+		skill 3 5
+		skill 4 5
+		skill 5 5
+		skill 6 5
+		skill 7 5
+		skill 8 5
+		skill 10 5
+		## grand master wiz
+		skill 11 5
+		skill 12 5
+		skill 13 5
+		skill 14 5
+		skill 15 5
+		skill 28 5
+		skill 29 5
+		properName "Eternal Flame"
+	end
+
+	actions
+		vBeBorn changeSpellResistance self 75 2	#75% Resist Myst
+		#  200% SDM to all
+        vBeBorn changeSDM self 200 0 2 1 3 4
+	end
+
+	base npc
+		code tulor
+	end
+	
+	base described
+		text "A Soul escaped from Hell.\n\n 75% Myst Resistance.\n"
+	end
+end
+
+ object SummonPurgedSoul of HellSoulL
+	properties
+		special
+		name "Purged Hell Soul"
+		alignment 0
+
+		minLevel 1000
+		maxLevel 2800
+		minDamage 800
+		maxDamage 1100
+
+		strength 25
+		endurance 11
+		intelligence 15
+		dexterity 20
+
+		soundGroup 7
+		armorType 1
+		damageType 1
+		range 1
+		quickness 12
+		  
+		girth 90
+		height 90
+
+		# affects
+		# do fire damage
+		affect 1 0 0 -1
+
+		# acid damage
+		affect 4 0 0 -1
+
+		# poison damage
+		affect 5 0 0 -1
+
+		# fire immolation
+		affect 23 0 0 -1
+
+		# cold immolation
+		affect 24 0 0 -1
+
+		# lightning immolation
+		affect 27 0 0 -1
+	end
+
+	 
+
+	base character
+		skill 0 5
+		skill 1 5
+		skill 2 5
+		skill 3 5
+		skill 4 5
+		skill 5 5
+		skill 6 5
+		skill 7 5
+		skill 8 5
+		skill 10 5
+		## grand master wiz
+		skill 11 5
+		skill 12 5
+		skill 13 5
+		skill 14 5
+		skill 15 5
+		skill 28 5
+		skill 29 5
+		properName "Purged Hell Soul"
+	end
+
+	actions
+		vBeBorn changeSpellResistance self 75 2	#75% Resist Myst
+		#  200% SDM to all
+        vBeBorn changeSDM self 200 0 2 1 3 4
+	end
+
+	base npc
+		code tulor
+	end
+	
+	base described
+		text "A Soul escaped from Hell.\n\n 75% Myst Resistance.\n"
+	end
+end
+
+ object SummonInfantSoul of HellSoulM
+	properties
+		special
+		name "Infant Hell Soul"
+		alignment 0
+
+		minLevel 1000
+		maxLevel 2800
+		minDamage 800
+		maxDamage 1100
+
+		strength 25
+		endurance 11
+		intelligence 15
+		dexterity 20
+
+		soundGroup 7
+		armorType 1
+		damageType 1
+		range 1
+		quickness 12
+		  
+		girth 90
+		height 90
+
+		# affects
+		# do fire damage
+		affect 1 0 0 -1
+
+		# acid damage
+		affect 4 0 0 -1
+
+		# poison damage
+		affect 5 0 0 -1
+
+		# fire immolation
+		affect 23 0 0 -1
+
+		# cold immolation
+		affect 24 0 0 -1
+
+		# lightning immolation
+		affect 27 0 0 -1
+	end
+
+	 
+
+	base character
+		skill 0 5
+		skill 1 5
+		skill 2 5
+		skill 3 5
+		skill 4 5
+		skill 5 5
+		skill 6 5
+		skill 7 5
+		skill 8 5
+		skill 10 5
+		## grand master wiz
+		skill 11 5
+		skill 12 5
+		skill 13 5
+		skill 14 5
+		skill 15 5
+		skill 28 5
+		skill 29 5
+		properName "Infant Hell Soul"
+	end
+
+	actions
+		vBeBorn changeSpellResistance self 75 2	#75% Resist Myst
+		#  200% SDM to all
+        vBeBorn changeSDM self 200 0 2 1 3 4
+	end
+
+	base npc
+		code tulor
+	end
+	
+	base described
+		text "A Soul escaped from Hell.\n\n 75% Myst Resistance.\n"
+	end
+end
+
+ object SummonHardenedSoul of HellSoulN
+	properties
+		special
+		name "Hardened Hell Soul"
+		alignment 0
+
+		minLevel 1000
+		maxLevel 2800
+		minDamage 800
+		maxDamage 1100
+
+		strength 25
+		endurance 11
+		intelligence 15
+		dexterity 20
+
+		soundGroup 7
+		armorType 1
+		damageType 1
+		range 1
+		quickness 12
+		  
+		girth 90
+		height 90
+
+		# do fire damage
+		affect 1 0 0 -1
+
+		# acid damage
+		affect 4 0 0 -1
+
+		# fire immolation
+		affect 23 0 0 -1
+
+		# cold immolation
+		affect 24 0 0 -1
+
+		# lightning immolation
+		affect 27 0 0 -1
+	end
+
+	 
+
+	base character
+		skill 0 5
+		skill 1 5
+		skill 2 5
+		skill 3 5
+		skill 4 5
+		skill 5 5
+		skill 6 5
+		skill 7 5
+		skill 8 5
+		skill 10 5
+		## grand master wiz
+		skill 11 5
+		skill 12 5
+		skill 13 5
+		skill 14 5
+		skill 15 5
+		skill 28 5
+		skill 29 5
+		properName "Hardened Hell Soul"
+	end
+
+	actions
+		vBeBorn changeSpellResistance self 75 2	#75% Resist Myst
+		#  200% SDM to all
+        vBeBorn changeSDM self 200 0 2 1 3 4
+	end
+
+	base npc
+		code tulor
+	end
+	
+	base described
+		text "A Soul escaped from Hell.\n\n 75% Myst Resistance.\n"
 	end
 end
 

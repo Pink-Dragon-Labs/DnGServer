@@ -2054,46 +2054,163 @@ object AnewShop of Shop
 	end
 
 	base shop
-		buyMarkup 0
-		sellMarkup 0
+		buyMarkup 1
+		sellMarkup 1
 
 		inventory
+			mana
 			category "New Stuffs" 94012
-				category "Ragged Cloth" 94003
-					object RaggedClothHood
-					object RaggedClothCowl
-					object RaggedClothShirt
-					object RaggedClothBands
-					object RaggedClothLeggings
-					object RaggedClothLowBoots
-					object RaggedClothHighBoots
+				category "Levels 1-25" 94003
+					category "Cloth" 98988
+						object TatteredClothHood
+						object ClothCowl
+						object ClothShirt
+						object ClothBands
+						object ClothLeggings
+						object ClothLowBoots
+						object ClothHighBoots
+					end
+					category "Leather" 98985
+						object RaggedLeatherBandana
+						object BaseLeatherCowl
+						object LeatherArmor
+						object LeatherBands
+						object LeatherLeggings
+						object RaggedLeatherLowBoots
+						object RaggedLeatherHighBoots
+					end
+					category "Chain" 98985
+						object RustyChainHelmet
+						object BaseChainCowl
+						object ChainmailTunic
+						object ChainBands
+						object ChainLeggings
+						object ChainLowBoots
+						object ChainHighBoots
+					end
+					category "Plate" 98985
+						object DentedPlateHelmet
+						object PlateCowl
+						object ChestPlate
+						object PlateBands
+						object PlateLeggings
+						object PlateLowBoots
+						object PlateHighBoots
+					end
 				end
-				category "Tattered Leather" 94004
-					object TatteredLeatherBandanna
-					object TatteredLeatherCowl
-					object TatteredLeatherArmor
-					object TatteredLeatherBands
-					object TatteredLeatherLeggings
-					object TatteredLeatherLowBoots
-					object TatteredLeatherHighBoots
+				category "Levels 25-50" 94003
+					category "Cloth" 98988
+						object ThickClothHood
+						object ThickClothCowl
+						object ThickClothShirt
+						object ThickClothBands
+						object ThickClothLeggings
+						object ThickClothLowBoots
+						object ThickClothHighBoots
+					end
+					category "Leather" 98985
+						object PaddedLeatherBandana
+						object PaddedLeatherCowl
+						object PaddedLeatherArmor
+						object PaddedLeatherBands
+						object PaddedLeatherLeggings
+						object PaddedLeatherLowBoots
+						object PaddedLeatherHighBoots
+					end
+					category "Chain" 98985
+						object SteelChainHelmet
+						object SteelChainCowl
+						object SteelChainmailTunic
+						object SteelChainBands
+						object SteelChainLeggings
+						object SteelChainLowBoots
+						object SteelChainHighBoots
+					end
+					category "Plate" 98985
+						object IronPlateHelmet
+						object IronPlateCowl
+						object IronChestPlate
+						object IronPlateBands
+						object IronPlateLeggings
+						object IronPlateLowBoots
+						object IronPlateHighBoots
+					end
 				end
-				category "Battered Chainmail" 94005
-					object BatteredIronChainHelmet
-					object BatteredIronChainCowl
-					object BatteredIronChainTunic
-					object BatteredIronChainBands
-					object BatteredIronChainLeggings
-					object BatteredIronChainLowBoots
-					object BatteredIronChainHighBoots
+				category "Levels 50-75" 94003
+					category "Cloth" 98988
+						object TatteredWoolCap
+						object TatteredWoolCowl
+						object TatteredWoolShirt
+						object TatteredWoolBands
+						object TatteredWoolLeggings
+						object TatteredWoolLowBoots
+						object TatteredWoolHighBoots
+					end
+					category "Leather" 98985
+						object StuddedLeatherHelmet
+						object StuddedLeatherCowl
+						object StuddedLeatherArmor
+						object StuddedLeatherBands
+						object StuddedLeatherLeggings
+						object StuddedLeatherLowBoots
+						object StuddedLeatherHighBoots
+					end
+					category "Chain" 98985
+						object PolishedChainHelmet
+						object SturdyChainCowl
+						object SturdyChainmailTunic
+						object SturdyChainBands
+						object SturdyChainLeggings
+						object SturdyChainLowBoots
+						object SturdyChainHighBoots
+					end
+					category "Plate" 98985
+						object SturdyPlateHelmet
+						object SteelPlateCowl
+						object SteelChestPlate
+						object SteelPlateBands
+						object SteelPlateLeggings
+						object SteelPlateLowBoots
+						object SteelPlateHighBoots
+					end
 				end
-				category "Dented Plate" 94006
-					object DentedIronPlateHelmet
-					object DentedIronPlateCowl
-					object DentedIronChestPlate
-					object DentedIronPlateBands
-					object DentedIronPlateLeggings
-					object DentedIronPlateLowBoots
-					object DentedIronPlateHighBoots
+				category "Levels 75-100" 94003
+					category "Cloth" 98988
+						object ThickWoolCap
+						object ThickWoolCowl
+						object ThickWoolShirt
+						object ThickWoolBands
+						object ThickWoolLeggings
+						object ThickWoolLowBoots
+						object ThickWoolHighBoots
+					end
+					category "Leather" 98985
+						object HardenedLeatherHelmet
+						object HardenedLeatherCowl
+						object HardenedLeatherArmor
+						object HardenedLeatherBands
+						object HardenedLeatherLeggings
+						object HardenedLeatherLowBoots
+						object HardenedLeatherHighBoots
+					end
+					category "Chain" 98985
+						object MythrilChainHelmet
+						object MythrilChainCowl
+						object MythrilChainmailTunic
+						object MythrilChainBands
+						object MythrilChainLeggings
+						object MythrilChainLowBoots
+						object MythrilChainHighBoots
+					end
+					category "Plate" 98985
+						object MythrilPlateHelmet
+						object MythrilPlateCowl
+						object MythrilChestPlate
+						object MythrilPlateBands
+						object MythrilPlateLeggings
+						object MythrilPlateLowBoots
+						object MythrilPlateHighBoots
+					end
 				end
 			end
 			category "God Keys" 94000
@@ -3227,7 +3344,6 @@ object AnewShop of Shop
 		end 		#-------------- End Inventory ----------------
 	end 			#-------------- End Base Shop ----------------
 end 				#-------------- End FullShop ----------------
-
 
 
 

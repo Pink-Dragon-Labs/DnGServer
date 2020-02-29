@@ -444,3 +444,46 @@ object RandomCGear of MoneyBag
 	AppRobeOfEndurance
 	end
 end
+object ZooTreasure of MoneyBag
+    properties
+        special
+        random 100
+    end
+    base treasure
+        MoneyBag 500 1000
+        MoneyBag 500 2000
+        aCombat
+        aIntelligence
+        rIntelligence
+        rEndurance
+        bCarrying
+		TatteredClothHood
+        ClothCowl
+        ClothShirt
+        ClothBands
+        ClothLeggings
+        ClothLowBoots
+        ClothHighBoots
+        RaggedLeatherBandana
+        BaseLeatherCowl
+        LeatherArmor
+        LeatherBands
+        LeatherLeggings
+        RaggedLeatherLowBoots
+        RaggedLeatherHighBoots
+        RustyChainHelmet
+        BaseChainCowl
+        ChainmailTunic
+        ChainBands
+        ChainLeggings
+        ChainLowBoots
+        ChainHighBoots
+        DentedPlateHelmet
+        PlateCowl
+        ChestPlate
+        PlateBands
+        PlateLeggings
+        PlateLowBoots
+        PlateHighBoots
+    end
+end
